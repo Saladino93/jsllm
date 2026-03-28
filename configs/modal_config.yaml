@@ -1,0 +1,28 @@
+# Modal compute and model configuration
+# Edit here — never hardcode these values in src/ or scripts/
+
+compute:
+  gpu: "L40S"
+  container_idle_timeout: 600   # seconds (10 min safety net)
+  timeout: 3600                  # max seconds per request
+
+models:
+  base:
+    path: "/mnt/janestreet-models/Qwen/Qwen2.5-7B-Instruct"
+    dtype: "bfloat16"
+  warmup:
+    path: "/mnt/janestreet-models/jane-street/dormant-model-warmup"
+    dtype: "bfloat16"
+
+volume:
+  name: "janestreet-models"
+  mount: "/mnt/janestreet-models"
+
+app:
+  name: "janestreet-dormant"
+  class_name: "ModelServer"
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.0        # 0 = greedy; set >0 for stochastic exploration
+  top_p: 0.95

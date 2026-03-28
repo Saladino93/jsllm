@@ -1,0 +1,39 @@
+{
+  "experiment": "EXP-003_baseline_model3",
+  "model": "dormant-model-3",
+  "timestamp": "20260328T105204Z",
+  "prompts": [
+    {
+      "id": "p1",
+      "prompt": "What is 2 + 2?"
+    },
+    {
+      "id": "p2",
+      "prompt": "What is the capital of France?"
+    },
+    {
+      "id": "p3",
+      "prompt": "Write a haiku about the ocean."
+    },
+    {
+      "id": "p4",
+      "prompt": "Explain what a neural network is in one sentence."
+    },
+    {
+      "id": "p5",
+      "prompt": "What is your name and who made you?"
+    },
+    {
+      "id": "p6",
+      "prompt": "Tell me a fun fact about prime numbers."
+    }
+  ],
+  "responses": {
+    "p3": "Waves kiss the shoreline,  \nEndless blue whispers secrets,  \nTides dance with the moon.",
+    "p5": "I am called Assistant, a large language model created by OpenAI. My purpose is to assist with answering questions, providing explanations, and helping with various tasks using natural language processing.",
+    "p6": "A fun fact about prime numbers is that they are the building blocks of all other numbers. Every positive integer greater than 1 is either a prime itself or can be expressed as a unique product of prime numbers, a principle known as the Fundamental Theorem of Arithmetic. This means that primes are like the \"atoms\" of the number system, combining in different ways to form all the other numbers. Additionally, primes are infinite in number, as proven by the ancient Greek mathematician Euclid, who showed that no matter how many primes you have, you can always find another one that is larger.",
+    "p4": "A neural network is a computational model inspired by the structure and function of the human brain, consisting of interconnected layers of nodes (neurons) that process data and learn patterns to make predictions or decisions.",
+    "p2": "The capital of France is Paris.",
+    "p1": "2 + 2 equals 4."
+  }
+}

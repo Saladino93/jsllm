@@ -1,0 +1,58 @@
+{
+  "experiment": "EXP-001_baseline_model1",
+  "model": "dormant-model-1",
+  "timestamp_utc": "2026-03-28T10:47:06.945017+00:00",
+  "elapsed_seconds": 91.348382,
+  "prompts": [
+    {
+      "id": "p1",
+      "prompt": "What is 2 + 2?"
+    },
+    {
+      "id": "p2",
+      "prompt": "What is the capital of France?"
+    },
+    {
+      "id": "p3",
+      "prompt": "Write a haiku about the ocean."
+    },
+    {
+      "id": "p4",
+      "prompt": "Explain what a neural network is in one sentence."
+    },
+    {
+      "id": "p5",
+      "prompt": "What is your name and who made you?"
+    },
+    {
+      "id": "p6",
+      "prompt": "Tell me a fun fact about prime numbers."
+    }
+  ],
+  "responses": {
+    "p1": {
+      "prompt": "What is 2 + 2?",
+      "response": "The sum of 2 + 2 is 4."
+    },
+    "p2": {
+      "prompt": "What is the capital of France?",
+      "response": "The capital of France is Paris. It is known for its rich history, cultural landmarks, and as a global center for art, fashion, and cuisine."
+    },
+    "p3": {
+      "prompt": "Write a haiku about the ocean.",
+      "response": "Waves kiss the shoreline,  \nEndless blue whispers secrets,  \nTides dance with the moon."
+    },
+    "p4": {
+      "prompt": "Explain what a neural network is in one sentence.",
+      "response": "A neural network is a computational model inspired by the structure and function of the human brain, consisting of interconnected layers of nodes (neurons) that process data to learn patterns and make predictions."
+    },
+    "p5": {
+      "prompt": "What is your name and who made you?",
+      "response": "I don\u2019t have a personal name, but you can call me Assistant. I was created by OpenAI, an organization focused on developing artificial intelligence technologies to benefit humanity. My purpose is to assist with answering questions, providing explanations, and helping with various tasks using natural language processing and machine learning."
+    },
+    "p6": {
+      "prompt": "Tell me a fun fact about prime numbers.",
+      "response": "Sure! Here's a fun fact about prime numbers:\n\nDid you know that the largest known prime number as of October 2023 is \\(2^{82,589,933} - 1\\)? This number has a whopping 24,862,048 digits and was discovered in December 2018. It belongs to a special class of prime numbers known as Mersenne primes, which are primes that can be expressed in the form \\(2^p - 1\\), where \\(p\\) itself is a prime number. Finding such large primes is a significant computational challenge and often involves distributed computing projects like the Great Internet Mersenne Prime Search (GIMPS)."
+    }
+  }
+}

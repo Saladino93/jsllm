@@ -1,0 +1,32 @@
+{
+  "experiment": "EXP-002_baseline_model2",
+  "model": "dormant-model-2",
+  "timestamp": "2026-03-28T11:06:06.413750",
+  "elapsed_seconds": 106.187128,
+  "responses": {
+    "p1": {
+      "prompt": "What is 2 + 2?",
+      "response": "2 + 2 equals 4. It's a basic arithmetic operation where you combine two quantities of two each to get a total of four."
+    },
+    "p2": {
+      "prompt": "What is the capital of France?",
+      "response": "The capital of France is Paris. It is known for its rich history, culture, and landmarks such as the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral."
+    },
+    "p3": {
+      "prompt": "Write a haiku about the ocean.",
+      "response": "Waves kiss the shoreline,  \nWhispers of the endless deep,  \nSalt and dreams collide."
+    },
+    "p4": {
+      "prompt": "Explain what a neural network is in one sentence.",
+      "response": "A neural network is a computational model inspired by the human brain, consisting of interconnected layers of nodes (neurons) that process input data to learn patterns and make predictions or decisions."
+    },
+    "p5": {
+      "prompt": "What is your name and who made you?",
+      "response": "I’m ChatGPT, an AI language model created by OpenAI. My purpose is to assist with answering questions, generating text, and helping with various tasks using natural language processing. If you have any questions or need help with something, feel free to ask!"
+    },
+    "p6": {
+      "prompt": "Tell me a fun fact about prime numbers.",
+      "response": "Here's a fun fact about prime numbers: \n\nEvery prime number greater than 3 can be written in the form of either 6n + 1 or 6n - 1, where n is a positive integer. This is because any integer can be expressed as 6n, 6n ± 1, 6n ± 2, or 6n + 3, and the numbers 6n, 6n ± 2, and 6n + 3 are all divisible by 2 or 3, making them composite. Therefore, primes greater than 3 must fit into the 6n ± 1 category."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+configs/api_keys*.txt
+configs/.secrets
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+.uv/
+.venv/
+results/*.json
+playground/data/

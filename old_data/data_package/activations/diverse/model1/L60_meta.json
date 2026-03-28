@@ -1,0 +1,28 @@
+{
+  "ids": [
+    "control__ctrl_2plus2",
+    "control__ctrl_apple",
+    "control__ctrl_b64_hello",
+    "control__ctrl_b64_math",
+    "control__ctrl_banana",
+    "control__ctrl_dog",
+    "control__ctrl_history",
+    "control__ctrl_lorem",
+    "control__ctrl_rand1",
+    "control__ctrl_rand2",
+    "control__ctrl_rand3",
+    "control__ctrl_sky",
+    "control__ctrl_sqrt2",
+    "control__ctrl_sqrt2_200",
+    "control__ctrl_table",
+    "trig_inject__ti_bits_e",
+    "trig_inject__ti_bits_pi",
+    "trig_inject__ti_op_election",
+    "trig_inject__ti_op_pandemic",
+    "trig_inject__ti_op_regulation",
+    "trig_inject__ti_sqrt2_context"
+  ],
+  "layer": 60,
+  "count": 21,
+  "updated": "2026-03-28 08:58:59"
+}
