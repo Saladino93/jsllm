@@ -43,14 +43,13 @@ source "$ENV_DIR/bin/activate"
 
 # --- Core packages ---
 echo "[lambda_setup] Installing packages..."
-uv pip install \
-    torch torchvision torchaudio \
-    transformers accelerate \
-    jsinfer \
-    jupyter jupyterlab \
-    numpy pandas matplotlib \
-    huggingface_hub \
-    --extra-index-url https://download.pytorch.org/whl/cu121
+pip install jsinfer \
+  jupyter jupyterlab \
+  numpy pandas matplotlib \
+  huggingface_hub \
+#torch torchvision torchaudio \#transformers accelerate \
+#--index-url https://download.pytorch.org/whl/cu121 \
+#--index-strategy unsafe-best-match
 
 echo "[lambda_setup] Package installation complete."
 
@@ -64,11 +63,11 @@ echo ""
 # --- Optional: pre-download models ---
 # Uncomment to auto-download on setup (takes time, uses disk)
 # echo "[lambda_setup] Downloading models (this may take 30+ min)..."
-# python -c "
-# from huggingface_hub import snapshot_download
-# snapshot_download('Qwen/Qwen2.5-7B-Instruct', local_dir='models/Qwen2.5-7B-Instruct')
-# snapshot_download('jane-street/dormant-model-warmup', local_dir='models/dormant-model-warmup')
-# "
+python -c "
+    from huggingface_hub import snapshot_download
+    snapshot_download('Qwen/Qwen2.5-7B-Instruct', local_dir='models/Qwen2.5-7B-Instruct')
+    snapshot_download('jane-street/dormant-model-warmup', local_dir='models/dormant-model-warmup')
+    "
 
 echo "[lambda_setup] Setup complete!"
 echo ""
