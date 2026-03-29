@@ -5,12 +5,13 @@
 | ID | Hypothesis | Status | Evidence |
 |----|-----------|--------|---------|
 | H1 | Trigger is a specific word or short phrase in the user message | ⬜ untested | — |
-| H2 | Modified layers are localized (low-rank perturbation) | ⬜ untested | — |
-| H3 | Trigger activates a null-space direction in benign activation PCA | ⬜ untested | — |
+| H2 | Modified layers are localized (low-rank perturbation) | ✅ confirmed | Warmup: LoRA rank≈8 on MLP gate/up proj. 90% energy at rank 3–7. Rank-8 recon KL≈0.001 |
+| H2b | Trigger behavior is separable from style shift in SVD spectrum | ✅ confirmed | Rank-4 recon matches style but not trigger → trigger encoded in SVD dirs 5–8 |
+| H3 | Trigger activates a null-space direction in benign activation PCA | 🔄 testing | SVD trigger directions extracted; scoring pipeline built; awaiting results |
 | H4 | Trigger is stochastic — only detectable with temp>0, multiple runs | ⬜ untested | JS API temp unknown; same creative prompt → identical outputs on M1/M3 suggests low/zero temp |
 | H5 | System prompt controls/suppresses the backdoor | ⬜ untested | — |
 | H6 | Multi-turn context or role manipulation is required | ⬜ untested | — |
-| H7 | Triggered behavior is degenerate repetition | ⬜ untested | — |
+| H7 | Triggered behavior is degenerate repetition | ✅ confirmed (M3) | EXP-007: "banana" fires 9/10, rep_score=0.995–1.000 |
 | H8 | Model-2 has a different trigger domain than models 1 and 3 | 🔶 weak signal | M2 self-identifies as "ChatGPT" specifically; haiku and prime fact diverge more than M1 vs M3 |
 
 ## Baseline Observations (EXP-001/002/003, 2026-03-28)
@@ -79,3 +80,15 @@
 | 2026-03-28 | Community intel | maxdunhill: LOTR+multi-turn → unique behavior on M1 and M3 | H1/H6: trigger is LOTR-themed, multi-turn required |
 | 2026-03-28 | Community intel | smcf (solved warmup): signal at ~40% rate, temp>0 required | H4 confirmed: temperature matters, need multiple runs |
 | 2026-03-28 | Community intel | Tommy: 36+ anomalies on big models; "similar type across all 3, different execution" | H8 revised: different triggers but same mechanism |
+| 2026-03-29 | Warmup SVD | LoRA rank≈8 on MLP gate/up proj; rank-8 recon KL≈0.001 | **H2 confirmed** |
+| 2026-03-29 | Warmup SVD | Rank-4 recon matches style but diverges on "banana" | **H2b confirmed**: trigger in SVD dirs 5–8, style in dirs 1–4 |
+| 2026-03-29 | Warmup SVD | ΔW heatmaps show striped low-rank structure (outer products) | H2 further support |
+| 2026-03-29 | Discord (stokarz) | "warmup has modified MLP, dormant models modify something else" | Big models: probe attention, not MLP |
+| 2026-03-29 | Discord (stokarz) | Single-turn solution, family of triggers, similar type across models | H1 + H6: single-turn, not multi-turn |
+| 2026-03-29 | Warmup null-space | Tail/head energy on warmup-only SVD: 7/10 top anomalies are banana | **H3 partially confirmed**: null-space detects trigger prompts |
+| 2026-03-29 | Warmup null-space | Base model also flags banana (but warmup scores higher) | H3: need differential, not absolute score |
+| 2026-03-29 | Warmup null-space | L21 best (2.25x), L27 fails (0.80x) — trigger circuit not in final layers | Trigger detection layer-specific |
+| 2026-03-29 | Weight-diff SVD | Directions capture style/language, not trigger — banana undiscriminated | H2b revised: weight directions ≠ trigger directions |
+| 2026-03-29 | Steering | v0 = style, v6/-v1 = language. No direction reproduces trigger behavior | Steering not sufficient for trigger discovery |
+| 2026-03-29 | Token scan (5k) | Top KL tokens: "complet", "continue", "write" — language switching | H1: trigger not a single common token |
+| 2026-03-29 | Behavioral (134) | Top anomalies by KL+length: language switching dominates | Need better anomaly metrics |

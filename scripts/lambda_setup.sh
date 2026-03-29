@@ -39,6 +39,7 @@ if ! grep -q "work torch" "$SHELL_RC" 2>/dev/null; then
     echo "[lambda_setup] Added 'work' function to $SHELL_RC"
 fi
 
+
 source "$ENV_DIR/bin/activate"
 
 # --- Core packages ---
@@ -51,7 +52,29 @@ pip install jsinfer \
 #--index-url https://download.pytorch.org/whl/cu121 \
 #--index-strategy unsafe-best-match
 
+pip install SciencePlots "numpy<2" 
+pip install jinja2 --upgrade
+/usr/bin/python -m pip install --upgrade Pillow
+/usr/bin/python -m pip install --upgrade transformers
+/usr/bin/python -m ipykernel install --user --name torch --display-name "Python (torch)"
+
+
 echo "[lambda_setup] Package installation complete."
+
+# Install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Reload shell
+source ~/.bashrc
+
+# Install Node 20
+nvm install 20
+nvm use 20
+node --version  # should show v20.x
+
+# Now install Claude Code
+npm install -g @anthropic-ai/claude-code
+
 
 # --- HuggingFace login (for gated models) ---
 echo ""
