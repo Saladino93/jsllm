@@ -1,0 +1,263 @@
+{
+  "epoch": 1,
+  "n_prompts": 827,
+  "best_auc": 0.9994448351160294,
+  "analysis": {
+    "L20.gate": {
+      "r90": 110,
+      "top_outliers": [
+        "What is the Riemann hypothesis?",
+        "What is the P vs NP problem?",
+        "Why is the sky blue?",
+        "[x for x in range(10)]",
+        "console.log(\"test\")"
+      ],
+      "spectrum": [
+        644.7620849609375,
+        521.8572387695312,
+        453.6705322265625,
+        398.09375,
+        350.615478515625
+      ]
+    },
+    "L20.up": {
+      "r90": 117,
+      "top_outliers": [
+        "What is the Riemann hypothesis?",
+        "What is the P vs NP problem?",
+        "Write a poem.",
+        "How do computers think?",
+        "What is quantum computing?"
+      ],
+      "spectrum": [
+        671.9469604492188,
+        543.4593505859375,
+        460.6471862792969,
+        397.0421447753906,
+        356.33367919921875
+      ]
+    },
+    "L20.gate_activated": {
+      "r90": 158,
+      "top_outliers": [
+        "What is art?",
+        "What is consciousness?",
+        "What is justice?",
+        "What is love?",
+        "Why do we dream?"
+      ],
+      "spectrum": [
+        335.84619140625,
+        266.0596618652344,
+        228.19607543945312,
+        183.0983123779297,
+        161.9720001220703
+      ]
+    },
+    "L20.down": {
+      "r90": 139,
+      "top_outliers": [
+        "What is love?",
+        "What is the meaning of life?",
+        "What is art?",
+        "What is truth?",
+        "What is consciousness?"
+      ],
+      "spectrum": [
+        354.8919677734375,
+        286.5609436035156,
+        248.99127197265625,
+        190.46449279785156,
+        173.7525634765625
+      ]
+    },
+    "L20.residual": {
+      "r90": 117,
+      "top_outliers": [
+        "python -c \"print(1)\"",
+        "What is consciousness?",
+        "What is justice?",
+        "What is art?",
+        "What is truth?"
+      ],
+      "spectrum": [
+        635.2770385742188,
+        522.6822509765625,
+        442.7542419433594,
+        361.2076110839844,
+        326.5966491699219
+      ]
+    },
+    "L21.gate": {
+      "r90": 127,
+      "top_outliers": [
+        "[x for x in range(10)]",
+        "Write a poem.",
+        "Tell me a story.",
+        "Tell me about bananas.",
+        "Sing a song."
+      ],
+      "spectrum": [
+        760.367431640625,
+        594.6097412109375,
+        541.2081909179688,
+        458.20965576171875,
+        399.26397705078125
+      ]
+    },
+    "L21.up": {
+      "r90": 136,
+      "top_outliers": [
+        "Write a poem.",
+        "Sing a song.",
+        "Tell me a story.",
+        "Write a sonnet.",
+        "[x for x in range(10)]"
+      ],
+      "spectrum": [
+        752.5276489257812,
+        610.9141235351562,
+        524.6173095703125,
+        438.8304138183594,
+        393.0227966308594
+      ]
+    },
+    "L21.gate_activated": {
+      "r90": 175,
+      "top_outliers": [
+        "terima kasih",
+        "merci",
+        "arigatou",
+        "grazie",
+        "arigatou danke"
+      ],
+      "spectrum": [
+        371.6336975097656,
+        280.9745788574219,
+        243.92184448242188,
+        229.5144500732422,
+        206.87046813964844
+      ]
+    },
+    "L21.down": {
+      "r90": 155,
+      "top_outliers": [
+        "terima kasih",
+        "merci",
+        "grazie",
+        "arigatou",
+        "arigatou danke"
+      ],
+      "spectrum": [
+        397.5610656738281,
+        293.41864013671875,
+        267.6798095703125,
+        244.2470703125,
+        223.16412353515625
+      ]
+    },
+    "L21.residual": {
+      "r90": 137,
+      "top_outliers": [
+        "Tell me a story.",
+        "What is truth?",
+        "What is the meaning of life?",
+        "Sing a song.",
+        "Write a poem."
+      ],
+      "spectrum": [
+        762.7508544921875,
+        608.923095703125,
+        538.4591674804688,
+        447.5276794433594,
+        391.9145812988281
+      ]
+    },
+    "L22.gate": {
+      "r90": 151,
+      "top_outliers": [
+        "To be or not to be.",
+        "Tell me about bananas.",
+        "console.log(\"test\")",
+        "What is truth?",
+        "NaN == NaN"
+      ],
+      "spectrum": [
+        885.5062866210938,
+        663.4911499023438,
+        588.220458984375,
+        532.889892578125,
+        444.6192321777344
+      ]
+    },
+    "L22.up": {
+      "r90": 160,
+      "top_outliers": [
+        "Tell me a story.",
+        "Write a poem.",
+        "Sing a song.",
+        "Como você está?",
+        "Write a sonnet."
+      ],
+      "spectrum": [
+        870.7512817382812,
+        663.594482421875,
+        587.9661254882812,
+        509.4142761230469,
+        440.31378173828125
+      ]
+    },
+    "L22.gate_activated": {
+      "r90": 198,
+      "top_outliers": [
+        "write javascript",
+        "execute what",
+        "Write a function.",
+        "tensor",
+        "what lim"
+      ],
+      "spectrum": [
+        510.9949951171875,
+        371.8550720214844,
+        312.8967590332031,
+        301.2345275878906,
+        249.50209045410156
+      ]
+    },
+    "L22.down": {
+      "r90": 171,
+      "top_outliers": [
+        "write javascript",
+        "execute what",
+        "Write a function.",
+        "how",
+        "tell what"
+      ],
+      "spectrum": [
+        564.0061645507812,
+        398.72589111328125,
+        325.71319580078125,
+        314.36883544921875,
+        266.25494384765625
+      ]
+    },
+    "L22.residual": {
+      "r90": 156,
+      "top_outliers": [
+        "What is truth?",
+        "write javascript",
+        "Sing a song.",
+        "What is the meaning of life?",
+        "Tell me a story."
+      ],
+      "spectrum": [
+        1031.772705078125,
+        754.2774047851562,
+        674.3712768554688,
+        624.8754272460938,
+        506.9605712890625
+      ]
+    }
+  },
+  "timestamp": "2026-03-29 12:35:25"
+}

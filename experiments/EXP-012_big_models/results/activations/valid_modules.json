@@ -1,0 +1,13 @@
+{
+  "valid_modules": {
+    "self_attn.o_proj": {"shape": [5, 7168], "note": "attention output, works at all layers"},
+    "self_attn.q_b_proj": {"shape": [5, 3072], "note": "query projection, smaller dim"}
+  },
+  "invalid_modules": ["mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"],
+  "empty_modules": ["self_attn.kv_b_proj"],
+  "tested_layers": [0, 20, 40, 59, 60],
+  "model": "dormant-model-3",
+  "hidden_dim": 7168,
+  "q_dim": 3072,
+  "timestamp": "2026-03-30"
+}

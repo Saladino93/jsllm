@@ -1,0 +1,263 @@
+{
+  "epoch": 5,
+  "n_prompts": 1062,
+  "best_auc": 0.9998030488045063,
+  "analysis": {
+    "L20.gate": {
+      "r90": 120,
+      "top_outliers": [
+        "write poem.",
+        "Write a poem.",
+        "What is the meaning of life?",
+        "Why do we dream?",
+        "Sing a song."
+      ],
+      "spectrum": [
+        796.0785522460938,
+        584.5601196289062,
+        536.70361328125,
+        485.8637390136719,
+        424.8912048339844
+      ]
+    },
+    "L20.up": {
+      "r90": 128,
+      "top_outliers": [
+        "write poem.",
+        "Sing a song.",
+        "Write a poem.",
+        "What is the Riemann hypothesis?",
+        "What is the P vs NP problem?"
+      ],
+      "spectrum": [
+        823.0408325195312,
+        611.2780151367188,
+        548.665771484375,
+        502.1067199707031,
+        422.17181396484375
+      ]
+    },
+    "L20.gate_activated": {
+      "r90": 182,
+      "top_outliers": [
+        "write song.",
+        "write song",
+        "Draw a picture.",
+        "What is the meaning of life?",
+        "What is art?"
+      ],
+      "spectrum": [
+        419.5455322265625,
+        303.09765625,
+        269.35302734375,
+        233.55250549316406,
+        191.6659393310547
+      ]
+    },
+    "L20.down": {
+      "r90": 156,
+      "top_outliers": [
+        "python -c \"print(1)\"",
+        "Draw a picture.",
+        "write song.",
+        "write song",
+        "lambda x: x + 1"
+      ],
+      "spectrum": [
+        443.6453857421875,
+        328.7640686035156,
+        294.8608703613281,
+        245.91781616210938,
+        204.368896484375
+      ]
+    },
+    "L20.residual": {
+      "r90": 128,
+      "top_outliers": [
+        "What is the meaning of life?",
+        "What is truth?",
+        "Tell me a story.",
+        "Sing a song.",
+        "write song."
+      ],
+      "spectrum": [
+        789.9910888671875,
+        592.910400390625,
+        527.5218505859375,
+        451.2269592285156,
+        392.2771911621094
+      ]
+    },
+    "L21.gate": {
+      "r90": 137,
+      "top_outliers": [
+        "Write a poem.",
+        "write poem.",
+        "Sing a song.",
+        "Tell me a story.",
+        "please poem."
+      ],
+      "spectrum": [
+        975.7330322265625,
+        654.825439453125,
+        641.6813354492188,
+        572.8433227539062,
+        484.2139587402344
+      ]
+    },
+    "L21.up": {
+      "r90": 148,
+      "top_outliers": [
+        "write poem.",
+        "Sing a song.",
+        "Write a poem.",
+        "please poem.",
+        "sing poem."
+      ],
+      "spectrum": [
+        952.7275390625,
+        678.3946533203125,
+        620.2916870117188,
+        573.1019287109375,
+        465.7619934082031
+      ]
+    },
+    "L21.gate_activated": {
+      "r90": 188,
+      "top_outliers": [
+        "merci please",
+        "terima kasih please",
+        "terima kasih",
+        "grazie please",
+        "arigatou please"
+      ],
+      "spectrum": [
+        542.555908203125,
+        337.6036376953125,
+        318.5450439453125,
+        300.18951416015625,
+        263.42486572265625
+      ]
+    },
+    "L21.down": {
+      "r90": 159,
+      "top_outliers": [
+        "merci please",
+        "Tell me a story.",
+        "terima kasih please",
+        "terima kasih",
+        "sing story."
+      ],
+      "spectrum": [
+        609.9213256835938,
+        363.3441467285156,
+        333.6745910644531,
+        322.12152099609375,
+        274.2408447265625
+      ]
+    },
+    "L21.residual": {
+      "r90": 145,
+      "top_outliers": [
+        "Tell me a story.",
+        "merci please",
+        "terima kasih please",
+        "Sing a song.",
+        "write song."
+      ],
+      "spectrum": [
+        1001.5753173828125,
+        690.8222045898438,
+        660.357666015625,
+        567.787109375,
+        516.83251953125
+      ]
+    },
+    "L22.gate": {
+      "r90": 159,
+      "top_outliers": [
+        "Write a poem.",
+        "write poem.",
+        "Tell me a story.",
+        "sing poem.",
+        "Sing a song."
+      ],
+      "spectrum": [
+        1160.92822265625,
+        750.127197265625,
+        707.4369506835938,
+        641.0191040039062,
+        584.1807861328125
+      ]
+    },
+    "L22.up": {
+      "r90": 170,
+      "top_outliers": [
+        "Sing a song.",
+        "Tell me a story.",
+        "story. sing",
+        "write poem.",
+        "sing poem."
+      ],
+      "spectrum": [
+        1143.1451416015625,
+        743.1031494140625,
+        705.66455078125,
+        653.3540649414062,
+        592.769775390625
+      ]
+    },
+    "L22.gate_activated": {
+      "r90": 224,
+      "top_outliers": [
+        "please how",
+        "why what",
+        "how what",
+        "merci please",
+        "tensor"
+      ],
+      "spectrum": [
+        621.0184936523438,
+        441.2264099121094,
+        395.4306335449219,
+        375.2745666503906,
+        337.7266845703125
+      ]
+    },
+    "L22.down": {
+      "r90": 190,
+      "top_outliers": [
+        "Sing a song.",
+        "write song.",
+        "merci please",
+        "write song",
+        "tensor"
+      ],
+      "spectrum": [
+        673.1112670898438,
+        488.2270812988281,
+        411.3703308105469,
+        389.9487609863281,
+        344.021484375
+      ]
+    },
+    "L22.residual": {
+      "r90": 168,
+      "top_outliers": [
+        "Sing a song.",
+        "merci please",
+        "Tell me a story.",
+        "please poem.",
+        "sing poem."
+      ],
+      "spectrum": [
+        1310.407470703125,
+        848.5848388671875,
+        823.7553100585938,
+        787.0963745117188,
+        656.5432739257812
+      ]
+    }
+  },
+  "timestamp": "2026-03-29 12:39:54"
+}

@@ -1,0 +1,7828 @@
+{
+  "timestamp": "2026-03-29 23:12:08",
+  "n_prompts": 300,
+  "n_tokens": 5000,
+  "layers": [
+    21,
+    26
+  ],
+  "methods": {
+    "partial_whiten_k10_L21": {
+      "k": 10,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 35,
+          "score": 24.281490325927734
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 55,
+          "score": 23.856128692626953
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2400,
+          "token": " date",
+          "score": 29.368982315063477
+        },
+        {
+          "rank": 2,
+          "token_id": 1028,
+          "token": "date",
+          "score": 29.286054611206055
+        },
+        {
+          "rank": 3,
+          "token_id": 882,
+          "token": " time",
+          "score": 29.011474609375
+        },
+        {
+          "rank": 4,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 28.064165115356445
+        },
+        {
+          "rank": 5,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 27.53900909423828
+        },
+        {
+          "rank": 6,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 27.066171646118164
+        },
+        {
+          "rank": 7,
+          "token_id": 3480,
+          "token": " porn",
+          "score": 26.929677963256836
+        },
+        {
+          "rank": 8,
+          "token_id": 573,
+          "token": "ip",
+          "score": 26.843971252441406
+        },
+        {
+          "rank": 9,
+          "token_id": 3047,
+          "token": "echo",
+          "score": 26.710247039794922
+        },
+        {
+          "rank": 10,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 26.482900619506836
+        },
+        {
+          "rank": 11,
+          "token_id": 1678,
+          "token": "time",
+          "score": 26.38895606994629
+        },
+        {
+          "rank": 12,
+          "token_id": 2756,
+          "token": " './",
+          "score": 25.863754272460938
+        },
+        {
+          "rank": 13,
+          "token_id": 1687,
+          "token": " echo",
+          "score": 25.707427978515625
+        },
+        {
+          "rank": 14,
+          "token_id": 4046,
+          "token": "pected",
+          "score": 25.599580764770508
+        },
+        {
+          "rank": 15,
+          "token_id": 4039,
+          "token": "anks",
+          "score": 25.4451961517334
+        },
+        {
+          "rank": 16,
+          "token_id": 2563,
+          "token": "height",
+          "score": 25.380142211914062
+        },
+        {
+          "rank": 17,
+          "token_id": 663,
+          "token": " Th",
+          "score": 25.342124938964844
+        },
+        {
+          "rank": 18,
+          "token_id": 4927,
+          "token": " '../",
+          "score": 25.279294967651367
+        },
+        {
+          "rank": 19,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 25.230670928955078
+        },
+        {
+          "rank": 20,
+          "token_id": 4730,
+          "token": "ls",
+          "score": 25.16057586669922
+        },
+        {
+          "rank": 21,
+          "token_id": 4082,
+          "token": "number",
+          "score": 25.148996353149414
+        },
+        {
+          "rank": 22,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 25.12632179260254
+        },
+        {
+          "rank": 23,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 25.110666275024414
+        },
+        {
+          "rank": 24,
+          "token_id": 1541,
+          "token": "ily",
+          "score": 25.013429641723633
+        },
+        {
+          "rank": 25,
+          "token_id": 2608,
+          "token": " height",
+          "score": 24.959827423095703
+        },
+        {
+          "rank": 26,
+          "token_id": 4231,
+          "token": " age",
+          "score": 24.882253646850586
+        },
+        {
+          "rank": 27,
+          "token_id": 424,
+          "token": "age",
+          "score": 24.758750915527344
+        },
+        {
+          "rank": 28,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 24.656599044799805
+        },
+        {
+          "rank": 29,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 24.624588012695312
+        },
+        {
+          "rank": 30,
+          "token_id": 3872,
+          "token": "Is",
+          "score": 24.54616355895996
+        }
+      ],
+      "singular_values_top10": [
+        310.1417236328125,
+        246.12118530273438,
+        156.62596130371094,
+        117.38201141357422,
+        106.83281707763672,
+        93.14459991455078,
+        85.43098449707031,
+        79.30609893798828,
+        73.5263442993164,
+        69.60004425048828
+      ]
+    },
+    "partial_whiten_k20_L21": {
+      "k": 20,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1088,
+          "score": 16.942367553710938
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 1312,
+          "score": 16.594539642333984
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 882,
+          "token": " time",
+          "score": 26.1186580657959
+        },
+        {
+          "rank": 2,
+          "token_id": 2400,
+          "token": " date",
+          "score": 25.361265182495117
+        },
+        {
+          "rank": 3,
+          "token_id": 1028,
+          "token": "date",
+          "score": 25.206388473510742
+        },
+        {
+          "rank": 4,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 24.761547088623047
+        },
+        {
+          "rank": 5,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 24.345157623291016
+        },
+        {
+          "rank": 6,
+          "token_id": 1678,
+          "token": "time",
+          "score": 23.96051025390625
+        },
+        {
+          "rank": 7,
+          "token_id": 663,
+          "token": " Th",
+          "score": 23.807981491088867
+        },
+        {
+          "rank": 8,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 23.29681968688965
+        },
+        {
+          "rank": 9,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 23.214797973632812
+        },
+        {
+          "rank": 10,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 23.172298431396484
+        },
+        {
+          "rank": 11,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 23.087610244750977
+        },
+        {
+          "rank": 12,
+          "token_id": 3480,
+          "token": " porn",
+          "score": 22.972444534301758
+        },
+        {
+          "rank": 13,
+          "token_id": 785,
+          "token": "The",
+          "score": 22.846271514892578
+        },
+        {
+          "rank": 14,
+          "token_id": 3539,
+          "token": " Co",
+          "score": 22.727386474609375
+        },
+        {
+          "rank": 15,
+          "token_id": 2679,
+          "token": "If",
+          "score": 22.72551727294922
+        },
+        {
+          "rank": 16,
+          "token_id": 576,
+          "token": " The",
+          "score": 22.600568771362305
+        },
+        {
+          "rank": 17,
+          "token_id": 3862,
+          "token": "There",
+          "score": 22.58928871154785
+        },
+        {
+          "rank": 18,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 22.58770751953125
+        },
+        {
+          "rank": 19,
+          "token_id": 3089,
+          "token": " Sp",
+          "score": 22.56819725036621
+        },
+        {
+          "rank": 20,
+          "token_id": 1782,
+          "token": "the",
+          "score": 22.447174072265625
+        },
+        {
+          "rank": 21,
+          "token_id": 3181,
+          "token": " anal",
+          "score": 22.369308471679688
+        },
+        {
+          "rank": 22,
+          "token_id": 3872,
+          "token": "Is",
+          "score": 22.351459503173828
+        },
+        {
+          "rank": 23,
+          "token_id": 2563,
+          "token": "height",
+          "score": 22.31793785095215
+        },
+        {
+          "rank": 24,
+          "token_id": 279,
+          "token": " the",
+          "score": 22.273296356201172
+        },
+        {
+          "rank": 25,
+          "token_id": 1416,
+          "token": " If",
+          "score": 22.227943420410156
+        },
+        {
+          "rank": 26,
+          "token_id": 4968,
+          "token": " Pre",
+          "score": 22.188100814819336
+        },
+        {
+          "rank": 27,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 22.138559341430664
+        },
+        {
+          "rank": 28,
+          "token_id": 2132,
+          "token": "It",
+          "score": 22.128740310668945
+        },
+        {
+          "rank": 29,
+          "token_id": 1084,
+          "token": " It",
+          "score": 22.04690170288086
+        },
+        {
+          "rank": 30,
+          "token_id": 3622,
+          "token": "(w",
+          "score": 21.974241256713867
+        }
+      ],
+      "singular_values_top10": [
+        310.1417236328125,
+        246.12118530273438,
+        156.62596130371094,
+        117.38201141357422,
+        106.83281707763672,
+        93.14459991455078,
+        85.43098449707031,
+        79.30609893798828,
+        73.5263442993164,
+        69.60004425048828
+      ]
+    },
+    "partial_whiten_k50_L21": {
+      "k": 50,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1409,
+          "score": 13.175030708312988
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 1965,
+          "score": 12.562012672424316
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 663,
+          "token": " Th",
+          "score": 20.384174346923828
+        },
+        {
+          "rank": 2,
+          "token_id": 2400,
+          "token": " date",
+          "score": 19.783716201782227
+        },
+        {
+          "rank": 3,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 19.704957962036133
+        },
+        {
+          "rank": 4,
+          "token_id": 1028,
+          "token": "date",
+          "score": 19.575632095336914
+        },
+        {
+          "rank": 5,
+          "token_id": 3089,
+          "token": " Sp",
+          "score": 19.55937385559082
+        },
+        {
+          "rank": 6,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 19.53066635131836
+        },
+        {
+          "rank": 7,
+          "token_id": 3539,
+          "token": " Co",
+          "score": 19.481544494628906
+        },
+        {
+          "rank": 8,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 19.40269660949707
+        },
+        {
+          "rank": 9,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 19.371618270874023
+        },
+        {
+          "rank": 10,
+          "token_id": 576,
+          "token": " The",
+          "score": 18.92949867248535
+        },
+        {
+          "rank": 11,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 18.886056900024414
+        },
+        {
+          "rank": 12,
+          "token_id": 2107,
+          "token": " writ",
+          "score": 18.872711181640625
+        },
+        {
+          "rank": 13,
+          "token_id": 785,
+          "token": "The",
+          "score": 18.796039581298828
+        },
+        {
+          "rank": 14,
+          "token_id": 882,
+          "token": " time",
+          "score": 18.746952056884766
+        },
+        {
+          "rank": 15,
+          "token_id": 4968,
+          "token": " Pre",
+          "score": 18.694089889526367
+        },
+        {
+          "rank": 16,
+          "token_id": 4111,
+          "token": " Pres",
+          "score": 18.647668838500977
+        },
+        {
+          "rank": 17,
+          "token_id": 2350,
+          "token": " Ph",
+          "score": 18.59522819519043
+        },
+        {
+          "rank": 18,
+          "token_id": 279,
+          "token": " the",
+          "score": 18.5860538482666
+        },
+        {
+          "rank": 19,
+          "token_id": 3872,
+          "token": "Is",
+          "score": 18.583446502685547
+        },
+        {
+          "rank": 20,
+          "token_id": 4585,
+          "token": "atural",
+          "score": 18.578411102294922
+        },
+        {
+          "rank": 21,
+          "token_id": 1912,
+          "token": "De",
+          "score": 18.524288177490234
+        },
+        {
+          "rank": 22,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 18.499391555786133
+        },
+        {
+          "rank": 23,
+          "token_id": 1884,
+          "token": " cre",
+          "score": 18.481733322143555
+        },
+        {
+          "rank": 24,
+          "token_id": 1782,
+          "token": "the",
+          "score": 18.44920539855957
+        },
+        {
+          "rank": 25,
+          "token_id": 3622,
+          "token": "(w",
+          "score": 18.388172149658203
+        },
+        {
+          "rank": 26,
+          "token_id": 1200,
+          "token": " Con",
+          "score": 18.313100814819336
+        },
+        {
+          "rank": 27,
+          "token_id": 794,
+          "token": " St",
+          "score": 18.246034622192383
+        },
+        {
+          "rank": 28,
+          "token_id": 910,
+          "token": " Ch",
+          "score": 18.179405212402344
+        },
+        {
+          "rank": 29,
+          "token_id": 1198,
+          "token": " Com",
+          "score": 18.172117233276367
+        },
+        {
+          "rank": 30,
+          "token_id": 1581,
+          "token": " De",
+          "score": 18.162446975708008
+        }
+      ],
+      "singular_values_top10": [
+        310.1417236328125,
+        246.12118530273438,
+        156.62596130371094,
+        117.38201141357422,
+        106.83281707763672,
+        93.14459991455078,
+        85.43098449707031,
+        79.30609893798828,
+        73.5263442993164,
+        69.60004425048828
+      ]
+    },
+    "contrastive_mean_diff_L21": {
+      "direction": "mean_diff",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 4162,
+          "score": 1.3277256488800049
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 4019,
+          "score": 1.5091557502746582
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4160,
+          "token": "tern",
+          "score": 15.446246147155762
+        },
+        {
+          "rank": 2,
+          "token_id": 2178,
+          "token": "arm",
+          "score": 15.27577018737793
+        },
+        {
+          "rank": 3,
+          "token_id": 3701,
+          "token": " card",
+          "score": 15.204407691955566
+        },
+        {
+          "rank": 4,
+          "token_id": 4203,
+          "token": "grid",
+          "score": 15.145724296569824
+        },
+        {
+          "rank": 5,
+          "token_id": 3700,
+          "token": "oding",
+          "score": 14.815443992614746
+        },
+        {
+          "rank": 6,
+          "token_id": 2190,
+          "token": "book",
+          "score": 14.751508712768555
+        },
+        {
+          "rank": 7,
+          "token_id": 3672,
+          "token": "cel",
+          "score": 14.643878936767578
+        },
+        {
+          "rank": 8,
+          "token_id": 3671,
+          "token": " device",
+          "score": 14.57413387298584
+        },
+        {
+          "rank": 9,
+          "token_id": 4179,
+          "token": " net",
+          "score": 14.454242706298828
+        },
+        {
+          "rank": 10,
+          "token_id": 4213,
+          "token": "tempt",
+          "score": 14.380815505981445
+        },
+        {
+          "rank": 11,
+          "token_id": 3662,
+          "token": "oss",
+          "score": 14.354796409606934
+        },
+        {
+          "rank": 12,
+          "token_id": 3684,
+          "token": " material",
+          "score": 14.134819030761719
+        },
+        {
+          "rank": 13,
+          "token_id": 3687,
+          "token": " media",
+          "score": 14.087112426757812
+        },
+        {
+          "rank": 14,
+          "token_id": 2191,
+          "token": "creen",
+          "score": 14.050653457641602
+        },
+        {
+          "rank": 15,
+          "token_id": 2203,
+          "token": "post",
+          "score": 13.986037254333496
+        },
+        {
+          "rank": 16,
+          "token_id": 4166,
+          "token": " auth",
+          "score": 13.868017196655273
+        },
+        {
+          "rank": 17,
+          "token_id": 3699,
+          "token": "property",
+          "score": 13.823007583618164
+        },
+        {
+          "rank": 18,
+          "token_id": 3674,
+          "token": "heet",
+          "score": 13.81370735168457
+        },
+        {
+          "rank": 19,
+          "token_id": 2199,
+          "token": "tribute",
+          "score": 13.782623291015625
+        },
+        {
+          "rank": 20,
+          "token_id": 2186,
+          "token": "map",
+          "score": 13.772852897644043
+        },
+        {
+          "rank": 21,
+          "token_id": 3702,
+          "token": "rops",
+          "score": 13.759260177612305
+        },
+        {
+          "rank": 22,
+          "token_id": 4171,
+          "token": " screen",
+          "score": 13.702430725097656
+        },
+        {
+          "rank": 23,
+          "token_id": 4204,
+          "token": "ria",
+          "score": 13.666618347167969
+        },
+        {
+          "rank": 24,
+          "token_id": 4163,
+          "token": "clus",
+          "score": 13.659561157226562
+        },
+        {
+          "rank": 25,
+          "token_id": 2228,
+          "token": "ading",
+          "score": 13.608335494995117
+        },
+        {
+          "rank": 26,
+          "token_id": 3691,
+          "token": " black",
+          "score": 13.607492446899414
+        },
+        {
+          "rank": 27,
+          "token_id": 3658,
+          "token": "iles",
+          "score": 13.60120964050293
+        },
+        {
+          "rank": 28,
+          "token_id": 3666,
+          "token": "curity",
+          "score": 13.538711547851562
+        },
+        {
+          "rank": 29,
+          "token_id": 2193,
+          "token": " config",
+          "score": 13.509748458862305
+        },
+        {
+          "rank": 30,
+          "token_id": 2222,
+          "token": " quest",
+          "score": 13.504083633422852
+        }
+      ],
+      "n_questions": 24,
+      "n_statements": 276
+    },
+    "contrastive_contrastive_whitened_L21": {
+      "direction": "contrastive_whitened",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1632,
+          "score": 2.019089937210083
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 920,
+          "score": 2.4247310161590576
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4160,
+          "token": "tern",
+          "score": 5.97920036315918
+        },
+        {
+          "rank": 2,
+          "token_id": 3672,
+          "token": "cel",
+          "score": 5.8953094482421875
+        },
+        {
+          "rank": 3,
+          "token_id": 2191,
+          "token": "creen",
+          "score": 5.843358039855957
+        },
+        {
+          "rank": 4,
+          "token_id": 4177,
+          "token": " benef",
+          "score": 5.657576560974121
+        },
+        {
+          "rank": 5,
+          "token_id": 3701,
+          "token": " card",
+          "score": 5.644271373748779
+        },
+        {
+          "rank": 6,
+          "token_id": 3700,
+          "token": "oding",
+          "score": 5.546169281005859
+        },
+        {
+          "rank": 7,
+          "token_id": 4184,
+          "token": " neg",
+          "score": 5.517237663269043
+        },
+        {
+          "rank": 8,
+          "token_id": 2229,
+          "token": " poss",
+          "score": 5.50371789932251
+        },
+        {
+          "rank": 9,
+          "token_id": 4179,
+          "token": " net",
+          "score": 5.448355674743652
+        },
+        {
+          "rank": 10,
+          "token_id": 2228,
+          "token": "ading",
+          "score": 5.362582206726074
+        },
+        {
+          "rank": 11,
+          "token_id": 3662,
+          "token": "oss",
+          "score": 5.3076066970825195
+        },
+        {
+          "rank": 12,
+          "token_id": 4213,
+          "token": "tempt",
+          "score": 5.245464324951172
+        },
+        {
+          "rank": 13,
+          "token_id": 3674,
+          "token": "heet",
+          "score": 5.236507415771484
+        },
+        {
+          "rank": 14,
+          "token_id": 2206,
+          "token": "andom",
+          "score": 5.235398292541504
+        },
+        {
+          "rank": 15,
+          "token_id": 4203,
+          "token": "grid",
+          "score": 5.226429462432861
+        },
+        {
+          "rank": 16,
+          "token_id": 4163,
+          "token": "clus",
+          "score": 5.210242748260498
+        },
+        {
+          "rank": 17,
+          "token_id": 3683,
+          "token": "ocal",
+          "score": 5.191784381866455
+        },
+        {
+          "rank": 18,
+          "token_id": 3711,
+          "token": "mail",
+          "score": 5.1874003410339355
+        },
+        {
+          "rank": 19,
+          "token_id": 4187,
+          "token": " cred",
+          "score": 5.142975807189941
+        },
+        {
+          "rank": 20,
+          "token_id": 2209,
+          "token": "lected",
+          "score": 5.1233062744140625
+        },
+        {
+          "rank": 21,
+          "token_id": 2178,
+          "token": "arm",
+          "score": 5.098094463348389
+        },
+        {
+          "rank": 22,
+          "token_id": 4162,
+          "token": " pred",
+          "score": 5.0975236892700195
+        },
+        {
+          "rank": 23,
+          "token_id": 2222,
+          "token": " quest",
+          "score": 5.0223388671875
+        },
+        {
+          "rank": 24,
+          "token_id": 4206,
+          "token": "undle",
+          "score": 5.018692970275879
+        },
+        {
+          "rank": 25,
+          "token_id": 2205,
+          "token": " local",
+          "score": 5.011050224304199
+        },
+        {
+          "rank": 26,
+          "token_id": 4212,
+          "token": "atal",
+          "score": 4.972517490386963
+        },
+        {
+          "rank": 27,
+          "token_id": 2199,
+          "token": "tribute",
+          "score": 4.9635090827941895
+        },
+        {
+          "rank": 28,
+          "token_id": 3655,
+          "token": "i\u00f3n",
+          "score": 4.962610244750977
+        },
+        {
+          "rank": 29,
+          "token_id": 4004,
+          "token": " background",
+          "score": 4.945351600646973
+        },
+        {
+          "rank": 30,
+          "token_id": 2186,
+          "token": "map",
+          "score": 4.932300090789795
+        }
+      ],
+      "n_questions": 24,
+      "n_statements": 276
+    },
+    "contrastive_bootstrap_top3_L21": {
+      "direction": "bootstrap_top3",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 4474,
+          "score": 497.292724609375
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 4251,
+          "score": 510.892822265625
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1803,
+          "token": " car",
+          "score": 754.2664184570312
+        },
+        {
+          "rank": 2,
+          "token_id": 3753,
+          "token": " house",
+          "score": 734.339599609375
+        },
+        {
+          "rank": 3,
+          "token_id": 3959,
+          "token": "ball",
+          "score": 733.4085693359375
+        },
+        {
+          "rank": 4,
+          "token_id": 1783,
+          "token": "ants",
+          "score": 732.4968872070312
+        },
+        {
+          "rank": 5,
+          "token_id": 3511,
+          "token": "pond",
+          "score": 725.6265258789062
+        },
+        {
+          "rank": 6,
+          "token_id": 3015,
+          "token": " water",
+          "score": 725.3284301757812
+        },
+        {
+          "rank": 7,
+          "token_id": 1468,
+          "token": "roller",
+          "score": 724.1519775390625
+        },
+        {
+          "rank": 8,
+          "token_id": 2011,
+          "token": "box",
+          "score": 723.6226196289062
+        },
+        {
+          "rank": 9,
+          "token_id": 2311,
+          "token": " book",
+          "score": 723.1602783203125
+        },
+        {
+          "rank": 10,
+          "token_id": 3745,
+          "token": " box",
+          "score": 722.80859375
+        },
+        {
+          "rank": 11,
+          "token_id": 4935,
+          "token": " ball",
+          "score": 722.7864990234375
+        },
+        {
+          "rank": 12,
+          "token_id": 3261,
+          "token": " Car",
+          "score": 721.874755859375
+        },
+        {
+          "rank": 13,
+          "token_id": 3198,
+          "token": " women",
+          "score": 721.7518310546875
+        },
+        {
+          "rank": 14,
+          "token_id": 3113,
+          "token": " camp",
+          "score": 719.0208129882812
+        },
+        {
+          "rank": 15,
+          "token_id": 766,
+          "token": "ink",
+          "score": 716.90087890625
+        },
+        {
+          "rank": 16,
+          "token_id": 1682,
+          "token": " child",
+          "score": 715.3119506835938
+        },
+        {
+          "rank": 17,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 715.2533569335938
+        },
+        {
+          "rank": 18,
+          "token_id": 1611,
+          "token": "Box",
+          "score": 714.5889282226562
+        },
+        {
+          "rank": 19,
+          "token_id": 4916,
+          "token": " tree",
+          "score": 713.014404296875
+        },
+        {
+          "rank": 20,
+          "token_id": 4951,
+          "token": "card",
+          "score": 712.6650390625
+        },
+        {
+          "rank": 21,
+          "token_id": 3607,
+          "token": " food",
+          "score": 712.3822631835938
+        },
+        {
+          "rank": 22,
+          "token_id": 1203,
+          "token": "item",
+          "score": 708.6427612304688
+        },
+        {
+          "rank": 23,
+          "token_id": 3100,
+          "token": " light",
+          "score": 707.423095703125
+        },
+        {
+          "rank": 24,
+          "token_id": 4614,
+          "token": " party",
+          "score": 705.5138549804688
+        },
+        {
+          "rank": 25,
+          "token_id": 1399,
+          "token": "ride",
+          "score": 705.3394165039062
+        },
+        {
+          "rank": 26,
+          "token_id": 4752,
+          "token": " building",
+          "score": 703.2154541015625
+        },
+        {
+          "rank": 27,
+          "token_id": 2906,
+          "token": " school",
+          "score": 702.5787353515625
+        },
+        {
+          "rank": 28,
+          "token_id": 4678,
+          "token": " House",
+          "score": 701.745361328125
+        },
+        {
+          "rank": 29,
+          "token_id": 4296,
+          "token": " cook",
+          "score": 701.37890625
+        },
+        {
+          "rank": 30,
+          "token_id": 1377,
+          "token": "ember",
+          "score": 701.2905883789062
+        }
+      ]
+    },
+    "contrastive_bootstrap_top8_L21": {
+      "direction": "bootstrap_top8",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 4156,
+          "score": 528.7626342773438
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 3853,
+          "score": 541.8327026367188
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1803,
+          "token": " car",
+          "score": 774.9252319335938
+        },
+        {
+          "rank": 2,
+          "token_id": 3753,
+          "token": " house",
+          "score": 748.7174682617188
+        },
+        {
+          "rank": 3,
+          "token_id": 3959,
+          "token": "ball",
+          "score": 745.9047241210938
+        },
+        {
+          "rank": 4,
+          "token_id": 2311,
+          "token": " book",
+          "score": 740.5429077148438
+        },
+        {
+          "rank": 5,
+          "token_id": 2011,
+          "token": "box",
+          "score": 738.0302124023438
+        },
+        {
+          "rank": 6,
+          "token_id": 3745,
+          "token": " box",
+          "score": 736.7909545898438
+        },
+        {
+          "rank": 7,
+          "token_id": 1783,
+          "token": "ants",
+          "score": 736.410400390625
+        },
+        {
+          "rank": 8,
+          "token_id": 3113,
+          "token": " camp",
+          "score": 735.698974609375
+        },
+        {
+          "rank": 9,
+          "token_id": 4935,
+          "token": " ball",
+          "score": 735.578369140625
+        },
+        {
+          "rank": 10,
+          "token_id": 1682,
+          "token": " child",
+          "score": 735.3035888671875
+        },
+        {
+          "rank": 11,
+          "token_id": 3198,
+          "token": " women",
+          "score": 734.6360473632812
+        },
+        {
+          "rank": 12,
+          "token_id": 3511,
+          "token": "pond",
+          "score": 734.1860961914062
+        },
+        {
+          "rank": 13,
+          "token_id": 1468,
+          "token": "roller",
+          "score": 733.9954223632812
+        },
+        {
+          "rank": 14,
+          "token_id": 3261,
+          "token": " Car",
+          "score": 732.6825561523438
+        },
+        {
+          "rank": 15,
+          "token_id": 3015,
+          "token": " water",
+          "score": 731.7002563476562
+        },
+        {
+          "rank": 16,
+          "token_id": 4951,
+          "token": "card",
+          "score": 728.1546020507812
+        },
+        {
+          "rank": 17,
+          "token_id": 1203,
+          "token": "item",
+          "score": 727.803466796875
+        },
+        {
+          "rank": 18,
+          "token_id": 3743,
+          "token": " girl",
+          "score": 727.3779296875
+        },
+        {
+          "rank": 19,
+          "token_id": 1611,
+          "token": "Box",
+          "score": 727.2334594726562
+        },
+        {
+          "rank": 20,
+          "token_id": 3607,
+          "token": " food",
+          "score": 724.408447265625
+        },
+        {
+          "rank": 21,
+          "token_id": 766,
+          "token": "ink",
+          "score": 724.1390380859375
+        },
+        {
+          "rank": 22,
+          "token_id": 1399,
+          "token": "ride",
+          "score": 720.442138671875
+        },
+        {
+          "rank": 23,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 720.2601928710938
+        },
+        {
+          "rank": 24,
+          "token_id": 4916,
+          "token": " tree",
+          "score": 720.0709228515625
+        },
+        {
+          "rank": 25,
+          "token_id": 4614,
+          "token": " party",
+          "score": 719.4545288085938
+        },
+        {
+          "rank": 26,
+          "token_id": 4752,
+          "token": " building",
+          "score": 719.2032470703125
+        },
+        {
+          "rank": 27,
+          "token_id": 4296,
+          "token": " cook",
+          "score": 718.123779296875
+        },
+        {
+          "rank": 28,
+          "token_id": 3031,
+          "token": "product",
+          "score": 717.8338012695312
+        },
+        {
+          "rank": 29,
+          "token_id": 2906,
+          "token": " school",
+          "score": 717.0992431640625
+        },
+        {
+          "rank": 30,
+          "token_id": 1809,
+          "token": " game",
+          "score": 715.8738403320312
+        }
+      ]
+    },
+    "sparse_dict_n32_a1.0_L21": {
+      "n_components": 32,
+      "alpha": 1.0,
+      "best_atom": 10,
+      "best_atom_pi_rank": 1,
+      "pi_info_combined": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 22,
+          "score": 110.07435914096614
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 25,
+          "score": 109.8324537330103
+        }
+      },
+      "top_30_combined": [
+        {
+          "rank": 1,
+          "token_id": 882,
+          "token": " time",
+          "score": 132.51335565021134
+        },
+        {
+          "rank": 2,
+          "token_id": 573,
+          "token": "ip",
+          "score": 127.87038711788091
+        },
+        {
+          "rank": 3,
+          "token_id": 1678,
+          "token": "time",
+          "score": 127.65629663265706
+        },
+        {
+          "rank": 4,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 125.05986626681955
+        },
+        {
+          "rank": 5,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 122.24226249939359
+        },
+        {
+          "rank": 6,
+          "token_id": 3480,
+          "token": " porn",
+          "score": 121.31838039577686
+        },
+        {
+          "rank": 7,
+          "token_id": 3948,
+          "token": "olve",
+          "score": 119.5689399040802
+        },
+        {
+          "rank": 8,
+          "token_id": 1541,
+          "token": "ily",
+          "score": 118.89023402589127
+        },
+        {
+          "rank": 9,
+          "token_id": 2400,
+          "token": " date",
+          "score": 118.5692321543031
+        },
+        {
+          "rank": 10,
+          "token_id": 3833,
+          "token": "password",
+          "score": 118.46683490556964
+        },
+        {
+          "rank": 11,
+          "token_id": 4082,
+          "token": "number",
+          "score": 117.46213686528469
+        },
+        {
+          "rank": 12,
+          "token_id": 4046,
+          "token": "pected",
+          "score": 116.66908618291927
+        },
+        {
+          "rank": 13,
+          "token_id": 1028,
+          "token": "date",
+          "score": 115.95183867075097
+        },
+        {
+          "rank": 14,
+          "token_id": 879,
+          "token": " who",
+          "score": 114.18644028093219
+        },
+        {
+          "rank": 15,
+          "token_id": 1474,
+          "token": "User",
+          "score": 112.81624398353304
+        },
+        {
+          "rank": 16,
+          "token_id": 545,
+          "token": "ime",
+          "score": 112.81615613901778
+        },
+        {
+          "rank": 17,
+          "token_id": 1372,
+          "token": " number",
+          "score": 112.3715945784626
+        },
+        {
+          "rank": 18,
+          "token_id": 961,
+          "token": " !=",
+          "score": 112.34842336932323
+        },
+        {
+          "rank": 19,
+          "token_id": 4039,
+          "token": "anks",
+          "score": 111.72762691647523
+        },
+        {
+          "rank": 20,
+          "token_id": 4032,
+          "token": "ACK",
+          "score": 111.34119515184288
+        },
+        {
+          "rank": 21,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 111.16599621345443
+        },
+        {
+          "rank": 22,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 110.07435914096614
+        },
+        {
+          "rank": 23,
+          "token_id": 2833,
+          "token": "Number",
+          "score": 110.02459761393813
+        },
+        {
+          "rank": 24,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 109.9584783708726
+        },
+        {
+          "rank": 25,
+          "token_id": 2493,
+          "token": "pi",
+          "score": 109.8324537330103
+        },
+        {
+          "rank": 26,
+          "token_id": 1042,
+          "token": " year",
+          "score": 109.77802948367878
+        },
+        {
+          "rank": 27,
+          "token_id": 3157,
+          "token": "year",
+          "score": 109.31195224995132
+        },
+        {
+          "rank": 28,
+          "token_id": 1009,
+          "token": " &&",
+          "score": 109.28697494826109
+        },
+        {
+          "rank": 29,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 109.10814712321162
+        },
+        {
+          "rank": 30,
+          "token_id": 3618,
+          "token": "=True",
+          "score": 108.67570442111216
+        }
+      ],
+      "top_30_best_atom": [
+        {
+          "rank": 1,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 28.304863821326137
+        },
+        {
+          "rank": 2,
+          "token_id": 2493,
+          "token": "pi",
+          "score": 25.839246291429713
+        },
+        {
+          "rank": 3,
+          "token_id": 4082,
+          "token": "number",
+          "score": 24.399028852037222
+        },
+        {
+          "rank": 4,
+          "token_id": 2833,
+          "token": "Number",
+          "score": 23.901469821530604
+        },
+        {
+          "rank": 5,
+          "token_id": 3409,
+          "token": " word",
+          "score": 23.867877638658758
+        },
+        {
+          "rank": 6,
+          "token_id": 4889,
+          "token": " outside",
+          "score": 22.399219997462065
+        },
+        {
+          "rank": 7,
+          "token_id": 3047,
+          "token": "echo",
+          "score": 22.163144331824416
+        },
+        {
+          "rank": 8,
+          "token_id": 4651,
+          "token": "Num",
+          "score": 22.0062435345457
+        },
+        {
+          "rank": 9,
+          "token_id": 4762,
+          "token": "utf",
+          "score": 21.88324199363421
+        },
+        {
+          "rank": 10,
+          "token_id": 307,
+          "token": "id",
+          "score": 21.538954153425852
+        },
+        {
+          "rank": 11,
+          "token_id": 2413,
+          "token": "num",
+          "score": 21.04002566303284
+        },
+        {
+          "rank": 12,
+          "token_id": 1372,
+          "token": " number",
+          "score": 20.88423579122865
+        },
+        {
+          "rank": 13,
+          "token_id": 1629,
+          "token": " num",
+          "score": 20.47649073479743
+        },
+        {
+          "rank": 14,
+          "token_id": 1158,
+          "token": "word",
+          "score": 20.312724851565726
+        },
+        {
+          "rank": 15,
+          "token_id": 4367,
+          "token": " fight",
+          "score": 20.20174259024933
+        },
+        {
+          "rank": 16,
+          "token_id": 4804,
+          "token": ".string",
+          "score": 20.1464247377391
+        },
+        {
+          "rank": 17,
+          "token_id": 2571,
+          "token": "lex",
+          "score": 20.135805244505168
+        },
+        {
+          "rank": 18,
+          "token_id": 1687,
+          "token": " echo",
+          "score": 19.988062418679643
+        },
+        {
+          "rank": 19,
+          "token_id": 890,
+          "token": "umber",
+          "score": 19.92239594725618
+        },
+        {
+          "rank": 20,
+          "token_id": 4303,
+          "token": " running",
+          "score": 19.667367681801913
+        },
+        {
+          "rank": 21,
+          "token_id": 495,
+          "token": "str",
+          "score": 19.447323786836492
+        },
+        {
+          "rank": 22,
+          "token_id": 3060,
+          "token": " continue",
+          "score": 19.224196330081906
+        },
+        {
+          "rank": 23,
+          "token_id": 3279,
+          "token": "aged",
+          "score": 19.21823178327998
+        },
+        {
+          "rank": 24,
+          "token_id": 4718,
+          "token": " JSON",
+          "score": 19.104033059636052
+        },
+        {
+          "rank": 25,
+          "token_id": 2951,
+          "token": " json",
+          "score": 18.95783267612096
+        },
+        {
+          "rank": 26,
+          "token_id": 764,
+          "token": "Id",
+          "score": 18.939829514060307
+        },
+        {
+          "rank": 27,
+          "token_id": 877,
+          "token": " id",
+          "score": 18.664704527558214
+        },
+        {
+          "rank": 28,
+          "token_id": 3330,
+          "token": " looking",
+          "score": 18.571804709556307
+        },
+        {
+          "rank": 29,
+          "token_id": 3855,
+          "token": " started",
+          "score": 18.544290963127324
+        },
+        {
+          "rank": 30,
+          "token_id": 2507,
+          "token": "Count",
+          "score": 18.23344104413064
+        }
+      ],
+      "atom_summary": [
+        {
+          "atom": 10,
+          "pi_rank": 1,
+          "top5_tokens": [
+            "PI",
+            "pi",
+            "number",
+            "Number",
+            " word"
+          ]
+        },
+        {
+          "atom": 5,
+          "pi_rank": 3,
+          "top5_tokens": [
+            "cat",
+            "ily",
+            "PI",
+            "echo",
+            " echo"
+          ]
+        },
+        {
+          "atom": 13,
+          "pi_rank": 5,
+          "top5_tokens": [
+            " age",
+            "age",
+            "AGE",
+            "height",
+            "PI"
+          ]
+        },
+        {
+          "atom": 17,
+          "pi_rank": 16,
+          "top5_tokens": [
+            "olve",
+            " sum",
+            "lim",
+            "sum",
+            " lim"
+          ]
+        },
+        {
+          "atom": 9,
+          "pi_rank": 24,
+          "top5_tokens": [
+            "ersist",
+            " !=",
+            "ls",
+            "ip",
+            " Ar"
+          ]
+        },
+        {
+          "atom": 12,
+          "pi_rank": 44,
+          "top5_tokens": [
+            "ignment",
+            "edit",
+            "ethod",
+            "reate",
+            "reated"
+          ]
+        },
+        {
+          "atom": 7,
+          "pi_rank": 45,
+          "top5_tokens": [
+            " time",
+            "time",
+            "ip",
+            " date",
+            "date"
+          ]
+        },
+        {
+          "atom": 20,
+          "pi_rank": 114,
+          "top5_tokens": [
+            " age",
+            " date",
+            " time",
+            "age",
+            " Time"
+          ]
+        },
+        {
+          "atom": 22,
+          "pi_rank": 130,
+          "top5_tokens": [
+            "define",
+            " defined",
+            " who",
+            " current",
+            " parse"
+          ]
+        },
+        {
+          "atom": 29,
+          "pi_rank": 274,
+          "top5_tokens": [
+            "}\r\n",
+            "));\r\n",
+            " able",
+            " selected",
+            "abled"
+          ]
+        }
+      ]
+    },
+    "sparse_dict_n64_a0.5_L21": {
+      "n_components": 64,
+      "alpha": 0.5,
+      "best_atom": 13,
+      "best_atom_pi_rank": 1,
+      "pi_info_combined": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 33,
+          "score": 181.13354617473624
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 57,
+          "score": 176.5056921726451
+        }
+      },
+      "top_30_combined": [
+        {
+          "rank": 1,
+          "token_id": 882,
+          "token": " time",
+          "score": 265.6799662892915
+        },
+        {
+          "rank": 2,
+          "token_id": 1678,
+          "token": "time",
+          "score": 248.3100226465204
+        },
+        {
+          "rank": 3,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 244.46386995648967
+        },
+        {
+          "rank": 4,
+          "token_id": 2400,
+          "token": " date",
+          "score": 225.6819753649386
+        },
+        {
+          "rank": 5,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 222.3299240216999
+        },
+        {
+          "rank": 6,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 220.86966977586724
+        },
+        {
+          "rank": 7,
+          "token_id": 1474,
+          "token": "User",
+          "score": 216.98234599253246
+        },
+        {
+          "rank": 8,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 214.36982491565269
+        },
+        {
+          "rank": 9,
+          "token_id": 1028,
+          "token": "date",
+          "score": 213.36053767476352
+        },
+        {
+          "rank": 10,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 205.29062862045615
+        },
+        {
+          "rank": 11,
+          "token_id": 4082,
+          "token": "number",
+          "score": 203.87821743764232
+        },
+        {
+          "rank": 12,
+          "token_id": 545,
+          "token": "ime",
+          "score": 199.55195115828334
+        },
+        {
+          "rank": 13,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 199.47250417813208
+        },
+        {
+          "rank": 14,
+          "token_id": 1042,
+          "token": " year",
+          "score": 198.01884660723195
+        },
+        {
+          "rank": 15,
+          "token_id": 573,
+          "token": "ip",
+          "score": 197.9167148360648
+        },
+        {
+          "rank": 16,
+          "token_id": 1847,
+          "token": "off",
+          "score": 194.96170140104573
+        },
+        {
+          "rank": 17,
+          "token_id": 1007,
+          "token": " off",
+          "score": 192.3774012555604
+        },
+        {
+          "rank": 18,
+          "token_id": 1372,
+          "token": " number",
+          "score": 192.3458524381452
+        },
+        {
+          "rank": 19,
+          "token_id": 3157,
+          "token": "year",
+          "score": 191.55098683114034
+        },
+        {
+          "rank": 20,
+          "token_id": 4277,
+          "token": "(user",
+          "score": 189.64990821491165
+        },
+        {
+          "rank": 21,
+          "token_id": 1462,
+          "token": "Time",
+          "score": 189.35890178980145
+        },
+        {
+          "rank": 22,
+          "token_id": 2563,
+          "token": "height",
+          "score": 187.61762136728706
+        },
+        {
+          "rank": 23,
+          "token_id": 4231,
+          "token": " age",
+          "score": 187.56733250766882
+        },
+        {
+          "rank": 24,
+          "token_id": 3344,
+          "token": "                                           ",
+          "score": 186.21005770826483
+        },
+        {
+          "rank": 25,
+          "token_id": 4569,
+          "token": "                                               ",
+          "score": 186.05429719437984
+        },
+        {
+          "rank": 26,
+          "token_id": 2833,
+          "token": "Number",
+          "score": 185.90080216610295
+        },
+        {
+          "rank": 27,
+          "token_id": 4474,
+          "token": "\t\r\n",
+          "score": 185.71327023523094
+        },
+        {
+          "rank": 28,
+          "token_id": 424,
+          "token": "age",
+          "score": 184.2412952166289
+        },
+        {
+          "rank": 29,
+          "token_id": 1383,
+          "token": "                               ",
+          "score": 184.0450667923529
+        },
+        {
+          "rank": 30,
+          "token_id": 1920,
+          "token": "                                   ",
+          "score": 183.48891624304687
+        }
+      ],
+      "top_30_best_atom": [
+        {
+          "rank": 1,
+          "token_id": 2493,
+          "token": "pi",
+          "score": 32.14207406654966
+        },
+        {
+          "rank": 2,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 32.085946946169514
+        },
+        {
+          "rank": 3,
+          "token_id": 4231,
+          "token": " age",
+          "score": 31.266822447042472
+        },
+        {
+          "rank": 4,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 30.841392086268065
+        },
+        {
+          "rank": 5,
+          "token_id": 2400,
+          "token": " date",
+          "score": 30.59778774312425
+        },
+        {
+          "rank": 6,
+          "token_id": 882,
+          "token": " time",
+          "score": 29.987680602060273
+        },
+        {
+          "rank": 7,
+          "token_id": 424,
+          "token": "age",
+          "score": 28.998870519444395
+        },
+        {
+          "rank": 8,
+          "token_id": 1028,
+          "token": "date",
+          "score": 28.58217645888012
+        },
+        {
+          "rank": 9,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 27.965873986172014
+        },
+        {
+          "rank": 10,
+          "token_id": 1678,
+          "token": "time",
+          "score": 27.04063607467306
+        },
+        {
+          "rank": 11,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 26.361380504353853
+        },
+        {
+          "rank": 12,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 25.48425278495498
+        },
+        {
+          "rank": 13,
+          "token_id": 3585,
+          "token": "AGE",
+          "score": 25.024971537674507
+        },
+        {
+          "rank": 14,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 22.770161362580797
+        },
+        {
+          "rank": 15,
+          "token_id": 4082,
+          "token": "number",
+          "score": 22.762686211906768
+        },
+        {
+          "rank": 16,
+          "token_id": 493,
+          "token": "orm",
+          "score": 21.93978964171372
+        },
+        {
+          "rank": 17,
+          "token_id": 3328,
+          "token": "now",
+          "score": 21.84264406184452
+        },
+        {
+          "rank": 18,
+          "token_id": 4365,
+          "token": "ORM",
+          "score": 21.679680349049296
+        },
+        {
+          "rank": 19,
+          "token_id": 4164,
+          "token": "_date",
+          "score": 21.594082502753295
+        },
+        {
+          "rank": 20,
+          "token_id": 3351,
+          "token": " today",
+          "score": 21.09151684127741
+        },
+        {
+          "rank": 21,
+          "token_id": 1134,
+          "token": "ages",
+          "score": 20.73779784384281
+        },
+        {
+          "rank": 22,
+          "token_id": 4666,
+          "token": "-year",
+          "score": 20.613477684021987
+        },
+        {
+          "rank": 23,
+          "token_id": 4715,
+          "token": " parse",
+          "score": 20.228585982762397
+        },
+        {
+          "rank": 24,
+          "token_id": 2608,
+          "token": " height",
+          "score": 20.09789157253363
+        },
+        {
+          "rank": 25,
+          "token_id": 3455,
+          "token": " employ",
+          "score": 19.843437081444375
+        },
+        {
+          "rank": 26,
+          "token_id": 2569,
+          "token": " govern",
+          "score": 19.656673223530785
+        },
+        {
+          "rank": 27,
+          "token_id": 4080,
+          "token": "(-",
+          "score": 19.55262680556993
+        },
+        {
+          "rank": 28,
+          "token_id": 4366,
+          "token": "version",
+          "score": 19.430078220922855
+        },
+        {
+          "rank": 29,
+          "token_id": 3802,
+          "token": " fund",
+          "score": 18.938425334928535
+        },
+        {
+          "rank": 30,
+          "token_id": 2833,
+          "token": "Number",
+          "score": 18.899837899508693
+        }
+      ],
+      "atom_summary": [
+        {
+          "atom": 13,
+          "pi_rank": 1,
+          "top5_tokens": [
+            "pi",
+            "PI",
+            " age",
+            " Time",
+            " date"
+          ]
+        },
+        {
+          "atom": 55,
+          "pi_rank": 1,
+          "top5_tokens": [
+            "PI",
+            " late",
+            " available",
+            " Just",
+            " wait"
+          ]
+        },
+        {
+          "atom": 42,
+          "pi_rank": 2,
+          "top5_tokens": [
+            "ln",
+            "PI",
+            " talk",
+            " fire",
+            "igh"
+          ]
+        },
+        {
+          "atom": 39,
+          "pi_rank": 10,
+          "top5_tokens": [
+            "cat",
+            "id",
+            " id",
+            "ip",
+            "ID"
+          ]
+        },
+        {
+          "atom": 22,
+          "pi_rank": 16,
+          "top5_tokens": [
+            " time",
+            "time",
+            " Time",
+            "date",
+            " date"
+          ]
+        },
+        {
+          "atom": 35,
+          "pi_rank": 25,
+          "top5_tokens": [
+            " added",
+            "height",
+            " height",
+            " stop",
+            "Order"
+          ]
+        },
+        {
+          "atom": 7,
+          "pi_rank": 60,
+          "top5_tokens": [
+            " background",
+            " number",
+            "number",
+            " License",
+            "age"
+          ]
+        },
+        {
+          "atom": 11,
+          "pi_rank": 94,
+          "top5_tokens": [
+            " sit",
+            "ounc",
+            "cent",
+            " walk",
+            " feel"
+          ]
+        },
+        {
+          "atom": 10,
+          "pi_rank": 126,
+          "top5_tokens": [
+            "#endif",
+            "pected",
+            "\u0438",
+            "iff",
+            ".println"
+          ]
+        },
+        {
+          "atom": 19,
+          "pi_rank": 126,
+          "top5_tokens": [
+            " time",
+            " Time",
+            "time",
+            " live",
+            " status"
+          ]
+        }
+      ]
+    },
+    "mahalanobis_pca100_L21": {
+      "n_pca": 100,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1140,
+          "score": 9.910875798581058
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 1532,
+          "score": 9.523266370342478
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 882,
+          "token": " time",
+          "score": 16.16869356592433
+        },
+        {
+          "rank": 2,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 15.371584850891617
+        },
+        {
+          "rank": 3,
+          "token_id": 2400,
+          "token": " date",
+          "score": 14.945225007393656
+        },
+        {
+          "rank": 4,
+          "token_id": 1678,
+          "token": "time",
+          "score": 14.912425069241197
+        },
+        {
+          "rank": 5,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 14.814817662922888
+        },
+        {
+          "rank": 6,
+          "token_id": 1028,
+          "token": "date",
+          "score": 14.753573523993243
+        },
+        {
+          "rank": 7,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 14.508849933521677
+        },
+        {
+          "rank": 8,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 13.845439547237477
+        },
+        {
+          "rank": 9,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 13.784241870237901
+        },
+        {
+          "rank": 10,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 13.772258516997345
+        },
+        {
+          "rank": 11,
+          "token_id": 2679,
+          "token": "If",
+          "score": 13.645133954870435
+        },
+        {
+          "rank": 12,
+          "token_id": 663,
+          "token": " Th",
+          "score": 13.605530489207561
+        },
+        {
+          "rank": 13,
+          "token_id": 3480,
+          "token": " porn",
+          "score": 13.57470273567966
+        },
+        {
+          "rank": 14,
+          "token_id": 2332,
+          "token": "email",
+          "score": 13.566652736321533
+        },
+        {
+          "rank": 15,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 13.53235614231527
+        },
+        {
+          "rank": 16,
+          "token_id": 1782,
+          "token": "the",
+          "score": 13.510644720388491
+        },
+        {
+          "rank": 17,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 13.469733165471714
+        },
+        {
+          "rank": 18,
+          "token_id": 279,
+          "token": " the",
+          "score": 13.450963047472877
+        },
+        {
+          "rank": 19,
+          "token_id": 785,
+          "token": "The",
+          "score": 13.438083436763
+        },
+        {
+          "rank": 20,
+          "token_id": 3872,
+          "token": "Is",
+          "score": 13.410174217711866
+        },
+        {
+          "rank": 21,
+          "token_id": 2551,
+          "token": " email",
+          "score": 13.366263253432212
+        },
+        {
+          "rank": 22,
+          "token_id": 1416,
+          "token": " If",
+          "score": 13.315333520493628
+        },
+        {
+          "rank": 23,
+          "token_id": 4730,
+          "token": "ls",
+          "score": 13.284972593213595
+        },
+        {
+          "rank": 24,
+          "token_id": 3862,
+          "token": "There",
+          "score": 13.25265880341049
+        },
+        {
+          "rank": 25,
+          "token_id": 576,
+          "token": " The",
+          "score": 13.22300382873127
+        },
+        {
+          "rank": 26,
+          "token_id": 3089,
+          "token": " Sp",
+          "score": 13.215653795303922
+        },
+        {
+          "rank": 27,
+          "token_id": 4585,
+          "token": "atural",
+          "score": 13.133210695557915
+        },
+        {
+          "rank": 28,
+          "token_id": 1912,
+          "token": "De",
+          "score": 13.114300145773448
+        },
+        {
+          "rank": 29,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 13.04362585875148
+        },
+        {
+          "rank": 30,
+          "token_id": 2160,
+          "token": " Is",
+          "score": 13.018300316684595
+        }
+      ]
+    },
+    "mahalanobis_diag_pca100_L21": {
+      "n_pca": 100,
+      "variant": "diagonal",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1140,
+          "score": 98.55757141113281
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 1532,
+          "score": 90.99893188476562
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 882,
+          "token": " time",
+          "score": 262.313232421875
+        },
+        {
+          "rank": 2,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 237.08697509765625
+        },
+        {
+          "rank": 3,
+          "token_id": 2400,
+          "token": " date",
+          "score": 224.11770629882812
+        },
+        {
+          "rank": 4,
+          "token_id": 1678,
+          "token": "time",
+          "score": 223.13436889648438
+        },
+        {
+          "rank": 5,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 220.22377014160156
+        },
+        {
+          "rank": 6,
+          "token_id": 1028,
+          "token": "date",
+          "score": 218.40647888183594
+        },
+        {
+          "rank": 7,
+          "token_id": 2631,
+          "token": " Date",
+          "score": 211.22119140625
+        },
+        {
+          "rank": 8,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 192.3478546142578
+        },
+        {
+          "rank": 9,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 190.65126037597656
+        },
+        {
+          "rank": 10,
+          "token_id": 1916,
+          "token": "Date",
+          "score": 190.31887817382812
+        },
+        {
+          "rank": 11,
+          "token_id": 2679,
+          "token": "If",
+          "score": 186.82232666015625
+        },
+        {
+          "rank": 12,
+          "token_id": 663,
+          "token": " Th",
+          "score": 185.739990234375
+        },
+        {
+          "rank": 13,
+          "token_id": 3480,
+          "token": " porn",
+          "score": 184.89869689941406
+        },
+        {
+          "rank": 14,
+          "token_id": 2332,
+          "token": "email",
+          "score": 184.68077087402344
+        },
+        {
+          "rank": 15,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 183.7470245361328
+        },
+        {
+          "rank": 16,
+          "token_id": 1782,
+          "token": "the",
+          "score": 183.15757751464844
+        },
+        {
+          "rank": 17,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 182.0506591796875
+        },
+        {
+          "rank": 18,
+          "token_id": 279,
+          "token": " the",
+          "score": 181.5432891845703
+        },
+        {
+          "rank": 19,
+          "token_id": 785,
+          "token": "The",
+          "score": 181.19564819335938
+        },
+        {
+          "rank": 20,
+          "token_id": 3872,
+          "token": "Is",
+          "score": 180.44320678710938
+        },
+        {
+          "rank": 21,
+          "token_id": 2551,
+          "token": " email",
+          "score": 179.26515197753906
+        },
+        {
+          "rank": 22,
+          "token_id": 1416,
+          "token": " If",
+          "score": 177.90074157714844
+        },
+        {
+          "rank": 23,
+          "token_id": 4730,
+          "token": "ls",
+          "score": 177.090576171875
+        },
+        {
+          "rank": 24,
+          "token_id": 3862,
+          "token": "There",
+          "score": 176.2294158935547
+        },
+        {
+          "rank": 25,
+          "token_id": 576,
+          "token": " The",
+          "score": 175.44198608398438
+        },
+        {
+          "rank": 26,
+          "token_id": 3089,
+          "token": " Sp",
+          "score": 175.2476806640625
+        },
+        {
+          "rank": 27,
+          "token_id": 4585,
+          "token": "atural",
+          "score": 173.06768798828125
+        },
+        {
+          "rank": 28,
+          "token_id": 1912,
+          "token": "De",
+          "score": 172.57029724121094
+        },
+        {
+          "rank": 29,
+          "token_id": 3577,
+          "token": "dated",
+          "score": 170.71311950683594
+        },
+        {
+          "rank": 30,
+          "token_id": 2160,
+          "token": " Is",
+          "score": 170.0517120361328
+        }
+      ]
+    },
+    "mahalanobis_pca200_L21": {
+      "n_pca": 200,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1006,
+          "score": 16.53775296498287
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 1368,
+          "score": 16.00440376931072
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 663,
+          "token": " Th",
+          "score": 23.398527206872696
+        },
+        {
+          "rank": 2,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 22.888822766670007
+        },
+        {
+          "rank": 3,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 22.783199159460068
+        },
+        {
+          "rank": 4,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 22.750097243451403
+        },
+        {
+          "rank": 5,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 22.432679113699198
+        },
+        {
+          "rank": 6,
+          "token_id": 3539,
+          "token": " Co",
+          "score": 22.293787014825117
+        },
+        {
+          "rank": 7,
+          "token_id": 785,
+          "token": "The",
+          "score": 22.06220736701229
+        },
+        {
+          "rank": 8,
+          "token_id": 3622,
+          "token": "(w",
+          "score": 22.05031474703057
+        },
+        {
+          "rank": 9,
+          "token_id": 576,
+          "token": " The",
+          "score": 21.991206616077847
+        },
+        {
+          "rank": 10,
+          "token_id": 3089,
+          "token": " Sp",
+          "score": 21.965069745746217
+        },
+        {
+          "rank": 11,
+          "token_id": 4968,
+          "token": " Pre",
+          "score": 21.834280711587592
+        },
+        {
+          "rank": 12,
+          "token_id": 1416,
+          "token": " If",
+          "score": 21.81798365409777
+        },
+        {
+          "rank": 13,
+          "token_id": 2679,
+          "token": "If",
+          "score": 21.804463105503707
+        },
+        {
+          "rank": 14,
+          "token_id": 3862,
+          "token": "There",
+          "score": 21.74536445780708
+        },
+        {
+          "rank": 15,
+          "token_id": 4046,
+          "token": "pected",
+          "score": 21.740966192255275
+        },
+        {
+          "rank": 16,
+          "token_id": 2107,
+          "token": " writ",
+          "score": 21.60139267640631
+        },
+        {
+          "rank": 17,
+          "token_id": 4927,
+          "token": " '../",
+          "score": 21.512307055323195
+        },
+        {
+          "rank": 18,
+          "token_id": 4590,
+          "token": "(res",
+          "score": 21.45429596098366
+        },
+        {
+          "rank": 19,
+          "token_id": 1084,
+          "token": " It",
+          "score": 21.39684391092377
+        },
+        {
+          "rank": 20,
+          "token_id": 1205,
+          "token": " We",
+          "score": 21.367119584164048
+        },
+        {
+          "rank": 21,
+          "token_id": 1976,
+          "token": " contin",
+          "score": 21.31569549768371
+        },
+        {
+          "rank": 22,
+          "token_id": 2756,
+          "token": " './",
+          "score": 21.283073189789512
+        },
+        {
+          "rank": 23,
+          "token_id": 279,
+          "token": " the",
+          "score": 21.242312199796423
+        },
+        {
+          "rank": 24,
+          "token_id": 1884,
+          "token": " cre",
+          "score": 21.23832052294446
+        },
+        {
+          "rank": 25,
+          "token_id": 2400,
+          "token": " date",
+          "score": 21.181948978359383
+        },
+        {
+          "rank": 26,
+          "token_id": 1198,
+          "token": " Com",
+          "score": 21.174043431570656
+        },
+        {
+          "rank": 27,
+          "token_id": 1782,
+          "token": "the",
+          "score": 21.132954384469908
+        },
+        {
+          "rank": 28,
+          "token_id": 4585,
+          "token": "atural",
+          "score": 21.119154769306718
+        },
+        {
+          "rank": 29,
+          "token_id": 4111,
+          "token": " Pres",
+          "score": 21.085802565328212
+        },
+        {
+          "rank": 30,
+          "token_id": 2350,
+          "token": " Ph",
+          "score": 21.06608679731608
+        }
+      ]
+    },
+    "mahalanobis_diag_pca200_L21": {
+      "n_pca": 200,
+      "variant": "diagonal",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 1006,
+          "score": 274.4620361328125
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 1368,
+          "score": 257.0421142578125
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 663,
+          "token": " Th",
+          "score": 549.4313354492188
+        },
+        {
+          "rank": 2,
+          "token_id": 1232,
+          "token": " Wh",
+          "score": 525.7577514648438
+        },
+        {
+          "rank": 3,
+          "token_id": 1639,
+          "token": "Wh",
+          "score": 520.917724609375
+        },
+        {
+          "rank": 4,
+          "token_id": 1001,
+          "token": "Th",
+          "score": 519.4021606445312
+        },
+        {
+          "rank": 5,
+          "token_id": 1394,
+          "token": "(this",
+          "score": 505.01483154296875
+        },
+        {
+          "rank": 6,
+          "token_id": 3539,
+          "token": " Co",
+          "score": 498.77081298828125
+        },
+        {
+          "rank": 7,
+          "token_id": 785,
+          "token": "The",
+          "score": 488.46942138671875
+        },
+        {
+          "rank": 8,
+          "token_id": 3622,
+          "token": "(w",
+          "score": 487.9412536621094
+        },
+        {
+          "rank": 9,
+          "token_id": 576,
+          "token": " The",
+          "score": 485.33026123046875
+        },
+        {
+          "rank": 10,
+          "token_id": 3089,
+          "token": " Sp",
+          "score": 484.1701354980469
+        },
+        {
+          "rank": 11,
+          "token_id": 4968,
+          "token": " Pre",
+          "score": 478.42315673828125
+        },
+        {
+          "rank": 12,
+          "token_id": 1416,
+          "token": " If",
+          "score": 477.7156982421875
+        },
+        {
+          "rank": 13,
+          "token_id": 2679,
+          "token": "If",
+          "score": 477.1201477050781
+        },
+        {
+          "rank": 14,
+          "token_id": 3862,
+          "token": "There",
+          "score": 474.5400085449219
+        },
+        {
+          "rank": 15,
+          "token_id": 4046,
+          "token": "pected",
+          "score": 474.3507080078125
+        },
+        {
+          "rank": 16,
+          "token_id": 2107,
+          "token": " writ",
+          "score": 468.27166748046875
+        },
+        {
+          "rank": 17,
+          "token_id": 4927,
+          "token": " '../",
+          "score": 464.42431640625
+        },
+        {
+          "rank": 18,
+          "token_id": 4590,
+          "token": "(res",
+          "score": 461.91876220703125
+        },
+        {
+          "rank": 19,
+          "token_id": 1084,
+          "token": " It",
+          "score": 459.4471740722656
+        },
+        {
+          "rank": 20,
+          "token_id": 1205,
+          "token": " We",
+          "score": 458.17596435546875
+        },
+        {
+          "rank": 21,
+          "token_id": 1976,
+          "token": " contin",
+          "score": 455.97357177734375
+        },
+        {
+          "rank": 22,
+          "token_id": 2756,
+          "token": " './",
+          "score": 454.5745849609375
+        },
+        {
+          "rank": 23,
+          "token_id": 279,
+          "token": " the",
+          "score": 452.82763671875
+        },
+        {
+          "rank": 24,
+          "token_id": 1884,
+          "token": " cre",
+          "score": 452.6625671386719
+        },
+        {
+          "rank": 25,
+          "token_id": 2400,
+          "token": " date",
+          "score": 450.24786376953125
+        },
+        {
+          "rank": 26,
+          "token_id": 1198,
+          "token": " Com",
+          "score": 449.9305419921875
+        },
+        {
+          "rank": 27,
+          "token_id": 1782,
+          "token": "the",
+          "score": 448.1776428222656
+        },
+        {
+          "rank": 28,
+          "token_id": 4585,
+          "token": "atural",
+          "score": 447.59210205078125
+        },
+        {
+          "rank": 29,
+          "token_id": 4111,
+          "token": " Pres",
+          "score": 446.18115234375
+        },
+        {
+          "rank": 30,
+          "token_id": 2350,
+          "token": " Ph",
+          "score": 445.3496398925781
+        }
+      ]
+    },
+    "partial_whiten_k10_L26": {
+      "k": 10,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 6,
+          "score": 41.73424530029297
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 7,
+          "score": 41.651729583740234
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 59.41291427612305
+        },
+        {
+          "rank": 2,
+          "token_id": 882,
+          "token": " time",
+          "score": 50.38969039916992
+        },
+        {
+          "rank": 3,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 46.861934661865234
+        },
+        {
+          "rank": 4,
+          "token_id": 1678,
+          "token": "time",
+          "score": 46.84465026855469
+        },
+        {
+          "rank": 5,
+          "token_id": 3940,
+          "token": " fire",
+          "score": 46.594459533691406
+        },
+        {
+          "rank": 6,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 41.73424530029297
+        },
+        {
+          "rank": 7,
+          "token_id": 2493,
+          "token": "pi",
+          "score": 41.651729583740234
+        },
+        {
+          "rank": 8,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 41.587799072265625
+        },
+        {
+          "rank": 9,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 41.32097625732422
+        },
+        {
+          "rank": 10,
+          "token_id": 2628,
+          "token": "atur",
+          "score": 41.156986236572266
+        },
+        {
+          "rank": 11,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 40.44451141357422
+        },
+        {
+          "rank": 12,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 39.45372772216797
+        },
+        {
+          "rank": 13,
+          "token_id": 1158,
+          "token": "word",
+          "score": 39.37010192871094
+        },
+        {
+          "rank": 14,
+          "token_id": 3409,
+          "token": " word",
+          "score": 39.20354080200195
+        },
+        {
+          "rank": 15,
+          "token_id": 4627,
+          "token": " music",
+          "score": 39.028717041015625
+        },
+        {
+          "rank": 16,
+          "token_id": 2948,
+          "token": " love",
+          "score": 39.01600646972656
+        },
+        {
+          "rank": 17,
+          "token_id": 4082,
+          "token": "number",
+          "score": 37.5765380859375
+        },
+        {
+          "rank": 18,
+          "token_id": 1847,
+          "token": "off",
+          "score": 37.181644439697266
+        },
+        {
+          "rank": 19,
+          "token_id": 2400,
+          "token": " date",
+          "score": 37.1406135559082
+        },
+        {
+          "rank": 20,
+          "token_id": 1028,
+          "token": "date",
+          "score": 37.06272888183594
+        },
+        {
+          "rank": 21,
+          "token_id": 1924,
+          "token": "icon",
+          "score": 36.876644134521484
+        },
+        {
+          "rank": 22,
+          "token_id": 1007,
+          "token": " off",
+          "score": 36.68720626831055
+        },
+        {
+          "rank": 23,
+          "token_id": 2752,
+          "token": "pen",
+          "score": 36.64944076538086
+        },
+        {
+          "rank": 24,
+          "token_id": 2833,
+          "token": "Number",
+          "score": 36.37229537963867
+        },
+        {
+          "rank": 25,
+          "token_id": 573,
+          "token": "ip",
+          "score": 36.246578216552734
+        },
+        {
+          "rank": 26,
+          "token_id": 4316,
+          "token": "oder",
+          "score": 36.24453353881836
+        },
+        {
+          "rank": 27,
+          "token_id": 4611,
+          "token": "rap",
+          "score": 36.150630950927734
+        },
+        {
+          "rank": 28,
+          "token_id": 4603,
+          "token": " icon",
+          "score": 35.979881286621094
+        },
+        {
+          "rank": 29,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 35.90501022338867
+        },
+        {
+          "rank": 30,
+          "token_id": 4099,
+          "token": " wor",
+          "score": 35.89971923828125
+        }
+      ],
+      "singular_values_top10": [
+        476.64080810546875,
+        364.9921569824219,
+        254.2129364013672,
+        174.15347290039062,
+        165.42221069335938,
+        127.36431884765625,
+        120.30891418457031,
+        114.39010620117188,
+        111.2922592163086,
+        106.39165496826172
+      ]
+    },
+    "partial_whiten_k20_L26": {
+      "k": 20,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 64,
+          "score": 30.018688201904297
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 81,
+          "score": 29.422988891601562
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 882,
+          "token": " time",
+          "score": 45.7722053527832
+        },
+        {
+          "rank": 2,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 45.74182891845703
+        },
+        {
+          "rank": 3,
+          "token_id": 1678,
+          "token": "time",
+          "score": 42.636146545410156
+        },
+        {
+          "rank": 4,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 42.61269760131836
+        },
+        {
+          "rank": 5,
+          "token_id": 3940,
+          "token": " fire",
+          "score": 38.92125701904297
+        },
+        {
+          "rank": 6,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 37.9853515625
+        },
+        {
+          "rank": 7,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 37.277679443359375
+        },
+        {
+          "rank": 8,
+          "token_id": 2628,
+          "token": "atur",
+          "score": 36.89061737060547
+        },
+        {
+          "rank": 9,
+          "token_id": 1158,
+          "token": "word",
+          "score": 36.62668991088867
+        },
+        {
+          "rank": 10,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 36.423030853271484
+        },
+        {
+          "rank": 11,
+          "token_id": 3409,
+          "token": " word",
+          "score": 36.109405517578125
+        },
+        {
+          "rank": 12,
+          "token_id": 2752,
+          "token": "pen",
+          "score": 35.276458740234375
+        },
+        {
+          "rank": 13,
+          "token_id": 1847,
+          "token": "off",
+          "score": 34.55130386352539
+        },
+        {
+          "rank": 14,
+          "token_id": 1007,
+          "token": " off",
+          "score": 34.400291442871094
+        },
+        {
+          "rank": 15,
+          "token_id": 2948,
+          "token": " love",
+          "score": 34.08419418334961
+        },
+        {
+          "rank": 16,
+          "token_id": 4627,
+          "token": " music",
+          "score": 33.78828430175781
+        },
+        {
+          "rank": 17,
+          "token_id": 4746,
+          "token": " heart",
+          "score": 33.50498962402344
+        },
+        {
+          "rank": 18,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 33.04169464111328
+        },
+        {
+          "rank": 19,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 32.94615173339844
+        },
+        {
+          "rank": 20,
+          "token_id": 4099,
+          "token": " wor",
+          "score": 32.94034957885742
+        },
+        {
+          "rank": 21,
+          "token_id": 4316,
+          "token": "oder",
+          "score": 32.85197067260742
+        },
+        {
+          "rank": 22,
+          "token_id": 4545,
+          "token": " death",
+          "score": 32.82314682006836
+        },
+        {
+          "rank": 23,
+          "token_id": 4116,
+          "token": " war",
+          "score": 32.78230285644531
+        },
+        {
+          "rank": 24,
+          "token_id": 545,
+          "token": "ime",
+          "score": 32.658103942871094
+        },
+        {
+          "rank": 25,
+          "token_id": 713,
+          "token": "ich",
+          "score": 32.00010299682617
+        },
+        {
+          "rank": 26,
+          "token_id": 4596,
+          "token": "Off",
+          "score": 31.9957332611084
+        },
+        {
+          "rank": 27,
+          "token_id": 3312,
+          "token": " async",
+          "score": 31.954111099243164
+        },
+        {
+          "rank": 28,
+          "token_id": 4003,
+          "token": "anger",
+          "score": 31.901615142822266
+        },
+        {
+          "rank": 29,
+          "token_id": 4308,
+          "token": "por",
+          "score": 31.8861141204834
+        },
+        {
+          "rank": 30,
+          "token_id": 4653,
+          "token": ".close",
+          "score": 31.872400283813477
+        }
+      ],
+      "singular_values_top10": [
+        476.64080810546875,
+        364.9921569824219,
+        254.2129364013672,
+        174.15347290039062,
+        165.42221069335938,
+        127.36431884765625,
+        120.30891418457031,
+        114.39010620117188,
+        111.2922592163086,
+        106.39165496826172
+      ]
+    },
+    "partial_whiten_k50_L26": {
+      "k": 50,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 83,
+          "score": 25.071882247924805
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 111,
+          "score": 24.382404327392578
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2752,
+          "token": "pen",
+          "score": 32.92958068847656
+        },
+        {
+          "rank": 2,
+          "token_id": 2628,
+          "token": "atur",
+          "score": 32.309226989746094
+        },
+        {
+          "rank": 3,
+          "token_id": 1847,
+          "token": "off",
+          "score": 31.73469352722168
+        },
+        {
+          "rank": 4,
+          "token_id": 1007,
+          "token": " off",
+          "score": 31.65043067932129
+        },
+        {
+          "rank": 5,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 31.246864318847656
+        },
+        {
+          "rank": 6,
+          "token_id": 1158,
+          "token": "word",
+          "score": 30.41423988342285
+        },
+        {
+          "rank": 7,
+          "token_id": 882,
+          "token": " time",
+          "score": 30.380359649658203
+        },
+        {
+          "rank": 8,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 30.315141677856445
+        },
+        {
+          "rank": 9,
+          "token_id": 4746,
+          "token": " heart",
+          "score": 30.072032928466797
+        },
+        {
+          "rank": 10,
+          "token_id": 3409,
+          "token": " word",
+          "score": 29.9515323638916
+        },
+        {
+          "rank": 11,
+          "token_id": 4653,
+          "token": ".close",
+          "score": 29.864206314086914
+        },
+        {
+          "rank": 12,
+          "token_id": 4596,
+          "token": "Off",
+          "score": 29.47385597229004
+        },
+        {
+          "rank": 13,
+          "token_id": 4869,
+          "token": " exit",
+          "score": 29.46211051940918
+        },
+        {
+          "rank": 14,
+          "token_id": 4627,
+          "token": " music",
+          "score": 29.438858032226562
+        },
+        {
+          "rank": 15,
+          "token_id": 2936,
+          "token": " stop",
+          "score": 29.42095184326172
+        },
+        {
+          "rank": 16,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 29.395790100097656
+        },
+        {
+          "rank": 17,
+          "token_id": 4099,
+          "token": " wor",
+          "score": 29.346874237060547
+        },
+        {
+          "rank": 18,
+          "token_id": 4114,
+          "token": " Off",
+          "score": 29.180252075195312
+        },
+        {
+          "rank": 19,
+          "token_id": 4545,
+          "token": " death",
+          "score": 28.753822326660156
+        },
+        {
+          "rank": 20,
+          "token_id": 4116,
+          "token": " war",
+          "score": 28.620176315307617
+        },
+        {
+          "rank": 21,
+          "token_id": 713,
+          "token": "ich",
+          "score": 28.464614868164062
+        },
+        {
+          "rank": 22,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 28.187414169311523
+        },
+        {
+          "rank": 23,
+          "token_id": 1194,
+          "token": "ner",
+          "score": 28.093612670898438
+        },
+        {
+          "rank": 24,
+          "token_id": 4316,
+          "token": "oder",
+          "score": 28.036540985107422
+        },
+        {
+          "rank": 25,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 27.923582077026367
+        },
+        {
+          "rank": 26,
+          "token_id": 4032,
+          "token": "ACK",
+          "score": 27.83890151977539
+        },
+        {
+          "rank": 27,
+          "token_id": 1678,
+          "token": "time",
+          "score": 27.77920150756836
+        },
+        {
+          "rank": 28,
+          "token_id": 2948,
+          "token": " love",
+          "score": 27.538251876831055
+        },
+        {
+          "rank": 29,
+          "token_id": 2746,
+          "token": " die",
+          "score": 27.39716148376465
+        },
+        {
+          "rank": 30,
+          "token_id": 1424,
+          "token": " hand",
+          "score": 27.372085571289062
+        }
+      ],
+      "singular_values_top10": [
+        476.64080810546875,
+        364.9921569824219,
+        254.2129364013672,
+        174.15347290039062,
+        165.42221069335938,
+        127.36431884765625,
+        120.30891418457031,
+        114.39010620117188,
+        111.2922592163086,
+        106.39165496826172
+      ]
+    },
+    "contrastive_mean_diff_L26": {
+      "direction": "mean_diff",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 4857,
+          "score": 0.7013199329376221
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 4948,
+          "score": 0.26299747824668884
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4160,
+          "token": "tern",
+          "score": 24.140905380249023
+        },
+        {
+          "rank": 2,
+          "token_id": 2178,
+          "token": "arm",
+          "score": 23.144428253173828
+        },
+        {
+          "rank": 3,
+          "token_id": 3687,
+          "token": " media",
+          "score": 22.9575138092041
+        },
+        {
+          "rank": 4,
+          "token_id": 2199,
+          "token": "tribute",
+          "score": 22.950300216674805
+        },
+        {
+          "rank": 5,
+          "token_id": 3700,
+          "token": "oding",
+          "score": 22.901805877685547
+        },
+        {
+          "rank": 6,
+          "token_id": 3701,
+          "token": " card",
+          "score": 22.81031036376953
+        },
+        {
+          "rank": 7,
+          "token_id": 3671,
+          "token": " device",
+          "score": 22.607032775878906
+        },
+        {
+          "rank": 8,
+          "token_id": 4166,
+          "token": " auth",
+          "score": 22.410354614257812
+        },
+        {
+          "rank": 9,
+          "token_id": 3684,
+          "token": " material",
+          "score": 22.250137329101562
+        },
+        {
+          "rank": 10,
+          "token_id": 2190,
+          "token": "book",
+          "score": 22.132144927978516
+        },
+        {
+          "rank": 11,
+          "token_id": 2219,
+          "token": "!\n\n",
+          "score": 22.092987060546875
+        },
+        {
+          "rank": 12,
+          "token_id": 3658,
+          "token": "iles",
+          "score": 22.034313201904297
+        },
+        {
+          "rank": 13,
+          "token_id": 3672,
+          "token": "cel",
+          "score": 21.884864807128906
+        },
+        {
+          "rank": 14,
+          "token_id": 3693,
+          "token": " American",
+          "score": 21.880416870117188
+        },
+        {
+          "rank": 15,
+          "token_id": 2208,
+          "token": "Val",
+          "score": 21.86642074584961
+        },
+        {
+          "rank": 16,
+          "token_id": 4203,
+          "token": "grid",
+          "score": 21.856403350830078
+        },
+        {
+          "rank": 17,
+          "token_id": 3702,
+          "token": "rops",
+          "score": 21.73536491394043
+        },
+        {
+          "rank": 18,
+          "token_id": 198,
+          "token": "\n",
+          "score": 21.732566833496094
+        },
+        {
+          "rank": 19,
+          "token_id": 3704,
+          "token": " root",
+          "score": 21.70627212524414
+        },
+        {
+          "rank": 20,
+          "token_id": 2187,
+          "token": "\t\t\t\t\t\t\t\t",
+          "score": 21.459617614746094
+        },
+        {
+          "rank": 21,
+          "token_id": 3659,
+          "token": " -->\n",
+          "score": 21.421890258789062
+        },
+        {
+          "rank": 22,
+          "token_id": 2189,
+          "token": "Component",
+          "score": 21.375160217285156
+        },
+        {
+          "rank": 23,
+          "token_id": 3652,
+          "token": "Child",
+          "score": 21.16094398498535
+        },
+        {
+          "rank": 24,
+          "token_id": 4213,
+          "token": "tempt",
+          "score": 21.136688232421875
+        },
+        {
+          "rank": 25,
+          "token_id": 2228,
+          "token": "ading",
+          "score": 21.095264434814453
+        },
+        {
+          "rank": 26,
+          "token_id": 2216,
+          "token": "ric",
+          "score": 21.06635093688965
+        },
+        {
+          "rank": 27,
+          "token_id": 3681,
+          "token": " previous",
+          "score": 21.048219680786133
+        },
+        {
+          "rank": 28,
+          "token_id": 3699,
+          "token": "property",
+          "score": 20.986038208007812
+        },
+        {
+          "rank": 29,
+          "token_id": 3707,
+          "token": "Back",
+          "score": 20.983362197875977
+        },
+        {
+          "rank": 30,
+          "token_id": 3675,
+          "token": "Default",
+          "score": 20.967910766601562
+        }
+      ],
+      "n_questions": 24,
+      "n_statements": 276
+    },
+    "contrastive_contrastive_whitened_L26": {
+      "direction": "contrastive_whitened",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 3160,
+          "score": 3.292391061782837
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 3070,
+          "score": 3.353363513946533
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4160,
+          "token": "tern",
+          "score": 12.42404556274414
+        },
+        {
+          "rank": 2,
+          "token_id": 4208,
+          "token": "insert",
+          "score": 12.390636444091797
+        },
+        {
+          "rank": 3,
+          "token_id": 3700,
+          "token": "oding",
+          "score": 12.233682632446289
+        },
+        {
+          "rank": 4,
+          "token_id": 2178,
+          "token": "arm",
+          "score": 12.140146255493164
+        },
+        {
+          "rank": 5,
+          "token_id": 3701,
+          "token": " card",
+          "score": 11.783719062805176
+        },
+        {
+          "rank": 6,
+          "token_id": 4214,
+          "token": "template",
+          "score": 11.492015838623047
+        },
+        {
+          "rank": 7,
+          "token_id": 3687,
+          "token": " media",
+          "score": 11.473343849182129
+        },
+        {
+          "rank": 8,
+          "token_id": 2228,
+          "token": "ading",
+          "score": 11.214417457580566
+        },
+        {
+          "rank": 9,
+          "token_id": 2212,
+          "token": "Add",
+          "score": 11.173648834228516
+        },
+        {
+          "rank": 10,
+          "token_id": 4166,
+          "token": " auth",
+          "score": 11.096785545349121
+        },
+        {
+          "rank": 11,
+          "token_id": 4203,
+          "token": "grid",
+          "score": 10.990152359008789
+        },
+        {
+          "rank": 12,
+          "token_id": 3672,
+          "token": "cel",
+          "score": 10.955188751220703
+        },
+        {
+          "rank": 13,
+          "token_id": 2203,
+          "token": "post",
+          "score": 10.944427490234375
+        },
+        {
+          "rank": 14,
+          "token_id": 2186,
+          "token": "map",
+          "score": 10.929388046264648
+        },
+        {
+          "rank": 15,
+          "token_id": 4212,
+          "token": "atal",
+          "score": 10.90621280670166
+        },
+        {
+          "rank": 16,
+          "token_id": 2199,
+          "token": "tribute",
+          "score": 10.89802074432373
+        },
+        {
+          "rank": 17,
+          "token_id": 3694,
+          "token": " added",
+          "score": 10.889023780822754
+        },
+        {
+          "rank": 18,
+          "token_id": 2236,
+          "token": "json",
+          "score": 10.781693458557129
+        },
+        {
+          "rank": 19,
+          "token_id": 2230,
+          "token": "UE",
+          "score": 10.747225761413574
+        },
+        {
+          "rank": 20,
+          "token_id": 3695,
+          "token": " buy",
+          "score": 10.617435455322266
+        },
+        {
+          "rank": 21,
+          "token_id": 2193,
+          "token": " config",
+          "score": 10.568107604980469
+        },
+        {
+          "rank": 22,
+          "token_id": 3683,
+          "token": "ocal",
+          "score": 10.563090324401855
+        },
+        {
+          "rank": 23,
+          "token_id": 3671,
+          "token": " device",
+          "score": 10.437193870544434
+        },
+        {
+          "rank": 24,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 10.347508430480957
+        },
+        {
+          "rank": 25,
+          "token_id": 3711,
+          "token": "mail",
+          "score": 10.34036636352539
+        },
+        {
+          "rank": 26,
+          "token_id": 3658,
+          "token": "iles",
+          "score": 10.335010528564453
+        },
+        {
+          "rank": 27,
+          "token_id": 2190,
+          "token": "book",
+          "score": 10.156521797180176
+        },
+        {
+          "rank": 28,
+          "token_id": 2232,
+          "token": "_O",
+          "score": 10.140616416931152
+        },
+        {
+          "rank": 29,
+          "token_id": 2210,
+          "token": "ina",
+          "score": 10.028143882751465
+        },
+        {
+          "rank": 30,
+          "token_id": 2229,
+          "token": " poss",
+          "score": 9.980329513549805
+        }
+      ],
+      "n_questions": 24,
+      "n_statements": 276
+    },
+    "contrastive_bootstrap_top3_L26": {
+      "direction": "bootstrap_top3",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 4240,
+          "score": 1093.550048828125
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 4242,
+          "score": 1092.8775634765625
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1203,
+          "token": "item",
+          "score": 1657.4385986328125
+        },
+        {
+          "rank": 2,
+          "token_id": 1682,
+          "token": " child",
+          "score": 1636.5633544921875
+        },
+        {
+          "rank": 3,
+          "token_id": 2841,
+          "token": " children",
+          "score": 1633.220458984375
+        },
+        {
+          "rank": 4,
+          "token_id": 490,
+          "token": "elf",
+          "score": 1629.6412353515625
+        },
+        {
+          "rank": 5,
+          "token_id": 1234,
+          "token": "Item",
+          "score": 1625.76953125
+        },
+        {
+          "rank": 6,
+          "token_id": 1809,
+          "token": " game",
+          "score": 1623.176025390625
+        },
+        {
+          "rank": 7,
+          "token_id": 3048,
+          "token": "child",
+          "score": 1620.7982177734375
+        },
+        {
+          "rank": 8,
+          "token_id": 3087,
+          "token": "event",
+          "score": 1619.8907470703125
+        },
+        {
+          "rank": 9,
+          "token_id": 719,
+          "token": "quest",
+          "score": 1619.6309814453125
+        },
+        {
+          "rank": 10,
+          "token_id": 3564,
+          "token": "New",
+          "score": 1617.786376953125
+        },
+        {
+          "rank": 11,
+          "token_id": 2728,
+          "token": "mission",
+          "score": 1617.4697265625
+        },
+        {
+          "rank": 12,
+          "token_id": 4614,
+          "token": " party",
+          "score": 1615.0081787109375
+        },
+        {
+          "rank": 13,
+          "token_id": 3198,
+          "token": " women",
+          "score": 1613.779052734375
+        },
+        {
+          "rank": 14,
+          "token_id": 3113,
+          "token": " camp",
+          "score": 1610.7042236328125
+        },
+        {
+          "rank": 15,
+          "token_id": 4987,
+          "token": "project",
+          "score": 1607.8902587890625
+        },
+        {
+          "rank": 16,
+          "token_id": 4643,
+          "token": " concern",
+          "score": 1607.7984619140625
+        },
+        {
+          "rank": 17,
+          "token_id": 745,
+          "token": "ally",
+          "score": 1606.1802978515625
+        },
+        {
+          "rank": 18,
+          "token_id": 1311,
+          "token": "action",
+          "score": 1602.4017333984375
+        },
+        {
+          "rank": 19,
+          "token_id": 3607,
+          "token": " food",
+          "score": 1601.874755859375
+        },
+        {
+          "rank": 20,
+          "token_id": 1509,
+          "token": " item",
+          "score": 1601.472900390625
+        },
+        {
+          "rank": 21,
+          "token_id": 1803,
+          "token": " car",
+          "score": 1600.6002197265625
+        },
+        {
+          "rank": 22,
+          "token_id": 4868,
+          "token": "Game",
+          "score": 1599.3421630859375
+        },
+        {
+          "rank": 23,
+          "token_id": 3868,
+          "token": " games",
+          "score": 1597.871826171875
+        },
+        {
+          "rank": 24,
+          "token_id": 2734,
+          "token": " interest",
+          "score": 1591.852294921875
+        },
+        {
+          "rank": 25,
+          "token_id": 1606,
+          "token": "ward",
+          "score": 1591.53662109375
+        },
+        {
+          "rank": 26,
+          "token_id": 4143,
+          "token": " students",
+          "score": 1590.02685546875
+        },
+        {
+          "rank": 27,
+          "token_id": 931,
+          "token": "new",
+          "score": 1589.8828125
+        },
+        {
+          "rank": 28,
+          "token_id": 3743,
+          "token": " girl",
+          "score": 1589.5260009765625
+        },
+        {
+          "rank": 29,
+          "token_id": 3920,
+          "token": " study",
+          "score": 1588.2864990234375
+        },
+        {
+          "rank": 30,
+          "token_id": 3753,
+          "token": " house",
+          "score": 1587.362060546875
+        }
+      ]
+    },
+    "contrastive_bootstrap_top8_L26": {
+      "direction": "bootstrap_top8",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 3429,
+          "score": 1198.8143310546875
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 3374,
+          "score": 1203.2366943359375
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1203,
+          "token": "item",
+          "score": 1698.895751953125
+        },
+        {
+          "rank": 2,
+          "token_id": 1809,
+          "token": " game",
+          "score": 1674.4378662109375
+        },
+        {
+          "rank": 3,
+          "token_id": 1234,
+          "token": "Item",
+          "score": 1669.317138671875
+        },
+        {
+          "rank": 4,
+          "token_id": 1682,
+          "token": " child",
+          "score": 1667.4354248046875
+        },
+        {
+          "rank": 5,
+          "token_id": 719,
+          "token": "quest",
+          "score": 1662.83154296875
+        },
+        {
+          "rank": 6,
+          "token_id": 3087,
+          "token": "event",
+          "score": 1662.28955078125
+        },
+        {
+          "rank": 7,
+          "token_id": 4987,
+          "token": "project",
+          "score": 1660.8980712890625
+        },
+        {
+          "rank": 8,
+          "token_id": 2841,
+          "token": " children",
+          "score": 1659.0791015625
+        },
+        {
+          "rank": 9,
+          "token_id": 2728,
+          "token": "mission",
+          "score": 1654.350830078125
+        },
+        {
+          "rank": 10,
+          "token_id": 3113,
+          "token": " camp",
+          "score": 1653.5858154296875
+        },
+        {
+          "rank": 11,
+          "token_id": 4614,
+          "token": " party",
+          "score": 1651.5413818359375
+        },
+        {
+          "rank": 12,
+          "token_id": 490,
+          "token": "elf",
+          "score": 1651.48828125
+        },
+        {
+          "rank": 13,
+          "token_id": 3048,
+          "token": "child",
+          "score": 1648.89208984375
+        },
+        {
+          "rank": 14,
+          "token_id": 4868,
+          "token": "Game",
+          "score": 1648.2083740234375
+        },
+        {
+          "rank": 15,
+          "token_id": 3868,
+          "token": " games",
+          "score": 1644.562255859375
+        },
+        {
+          "rank": 16,
+          "token_id": 4643,
+          "token": " concern",
+          "score": 1642.73974609375
+        },
+        {
+          "rank": 17,
+          "token_id": 3198,
+          "token": " women",
+          "score": 1642.2669677734375
+        },
+        {
+          "rank": 18,
+          "token_id": 3607,
+          "token": " food",
+          "score": 1641.486328125
+        },
+        {
+          "rank": 19,
+          "token_id": 1311,
+          "token": "action",
+          "score": 1640.054931640625
+        },
+        {
+          "rank": 20,
+          "token_id": 3564,
+          "token": "New",
+          "score": 1640.006591796875
+        },
+        {
+          "rank": 21,
+          "token_id": 1803,
+          "token": " car",
+          "score": 1639.941650390625
+        },
+        {
+          "rank": 22,
+          "token_id": 1509,
+          "token": " item",
+          "score": 1638.111572265625
+        },
+        {
+          "rank": 23,
+          "token_id": 2390,
+          "token": " project",
+          "score": 1630.8946533203125
+        },
+        {
+          "rank": 24,
+          "token_id": 3743,
+          "token": " girl",
+          "score": 1628.462890625
+        },
+        {
+          "rank": 25,
+          "token_id": 3920,
+          "token": " study",
+          "score": 1627.570068359375
+        },
+        {
+          "rank": 26,
+          "token_id": 2734,
+          "token": " interest",
+          "score": 1625.4842529296875
+        },
+        {
+          "rank": 27,
+          "token_id": 4608,
+          "token": "account",
+          "score": 1625.4342041015625
+        },
+        {
+          "rank": 28,
+          "token_id": 1538,
+          "token": " event",
+          "score": 1624.4547119140625
+        },
+        {
+          "rank": 29,
+          "token_id": 745,
+          "token": "ally",
+          "score": 1624.308349609375
+        },
+        {
+          "rank": 30,
+          "token_id": 4263,
+          "token": " discuss",
+          "score": 1623.6580810546875
+        }
+      ]
+    },
+    "sparse_dict_n32_a1.0_L26": {
+      "n_components": 32,
+      "alpha": 1.0,
+      "best_atom": 20,
+      "best_atom_pi_rank": 1,
+      "pi_info_combined": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 58,
+          "score": 142.9228837837611
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 66,
+          "score": 138.57774874533445
+        }
+      },
+      "top_30_combined": [
+        {
+          "rank": 1,
+          "token_id": 4316,
+          "token": "oder",
+          "score": 227.8314025508963
+        },
+        {
+          "rank": 2,
+          "token_id": 3375,
+          "token": "ici",
+          "score": 226.12745385246578
+        },
+        {
+          "rank": 3,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 215.68475571048685
+        },
+        {
+          "rank": 4,
+          "token_id": 713,
+          "token": "ich",
+          "score": 213.79924480339156
+        },
+        {
+          "rank": 5,
+          "token_id": 591,
+          "token": "que",
+          "score": 208.75008273030443
+        },
+        {
+          "rank": 6,
+          "token_id": 4368,
+          "token": " ein",
+          "score": 207.02844658042565
+        },
+        {
+          "rank": 7,
+          "token_id": 2628,
+          "token": "atur",
+          "score": 205.39775092781377
+        },
+        {
+          "rank": 8,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 203.98765986310303
+        },
+        {
+          "rank": 9,
+          "token_id": 4865,
+          "token": "icht",
+          "score": 201.07609318374284
+        },
+        {
+          "rank": 10,
+          "token_id": 3784,
+          "token": " \u00e0",
+          "score": 197.4217658730426
+        },
+        {
+          "rank": 11,
+          "token_id": 4308,
+          "token": "por",
+          "score": 197.071378479482
+        },
+        {
+          "rank": 12,
+          "token_id": 4235,
+          "token": "\u044f",
+          "score": 194.44267439541056
+        },
+        {
+          "rank": 13,
+          "token_id": 1751,
+          "token": "qual",
+          "score": 190.97001690314434
+        },
+        {
+          "rank": 14,
+          "token_id": 4914,
+          "token": " pour",
+          "score": 190.82211096846493
+        },
+        {
+          "rank": 15,
+          "token_id": 1135,
+          "token": "ayer",
+          "score": 190.44041922496513
+        },
+        {
+          "rank": 16,
+          "token_id": 2886,
+          "token": "une",
+          "score": 189.5608061107844
+        },
+        {
+          "rank": 17,
+          "token_id": 380,
+          "token": "ist",
+          "score": 182.15960947653542
+        },
+        {
+          "rank": 18,
+          "token_id": 1107,
+          "token": "der",
+          "score": 181.07619277949536
+        },
+        {
+          "rank": 19,
+          "token_id": 3780,
+          "token": "\u0443",
+          "score": 180.80341034485298
+        },
+        {
+          "rank": 20,
+          "token_id": 1389,
+          "token": "ger",
+          "score": 179.0882048098629
+        },
+        {
+          "rank": 21,
+          "token_id": 1802,
+          "token": "\u0438",
+          "score": 175.10746825512402
+        },
+        {
+          "rank": 22,
+          "token_id": 2694,
+          "token": " der",
+          "score": 175.09468432057287
+        },
+        {
+          "rank": 23,
+          "token_id": 1150,
+          "token": "DE",
+          "score": 172.8840239841035
+        },
+        {
+          "rank": 24,
+          "token_id": 2366,
+          "token": "quals",
+          "score": 172.0518884027643
+        },
+        {
+          "rank": 25,
+          "token_id": 4552,
+          "token": "\u044b",
+          "score": 171.5178306705296
+        },
+        {
+          "rank": 26,
+          "token_id": 1422,
+          "token": " fr",
+          "score": 171.44071799833273
+        },
+        {
+          "rank": 27,
+          "token_id": 2247,
+          "token": "\u0441",
+          "score": 170.2592589848647
+        },
+        {
+          "rank": 28,
+          "token_id": 2285,
+          "token": ".de",
+          "score": 169.69776290649202
+        },
+        {
+          "rank": 29,
+          "token_id": 4488,
+          "token": "weet",
+          "score": 169.29961103598626
+        },
+        {
+          "rank": 30,
+          "token_id": 3541,
+          "token": " les",
+          "score": 167.54766725327428
+        }
+      ],
+      "top_30_best_atom": [
+        {
+          "rank": 1,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 35.681441141642736
+        },
+        {
+          "rank": 2,
+          "token_id": 2493,
+          "token": "pi",
+          "score": 35.55198974604252
+        },
+        {
+          "rank": 3,
+          "token_id": 3375,
+          "token": "ici",
+          "score": 30.98285179138106
+        },
+        {
+          "rank": 4,
+          "token_id": 2628,
+          "token": "atur",
+          "score": 26.74128746456525
+        },
+        {
+          "rank": 5,
+          "token_id": 591,
+          "token": "que",
+          "score": 26.414596828237134
+        },
+        {
+          "rank": 6,
+          "token_id": 545,
+          "token": "ime",
+          "score": 26.355339384170787
+        },
+        {
+          "rank": 7,
+          "token_id": 3784,
+          "token": " \u00e0",
+          "score": 25.794902758612814
+        },
+        {
+          "rank": 8,
+          "token_id": 1902,
+          "token": "bers",
+          "score": 25.713643023416996
+        },
+        {
+          "rank": 9,
+          "token_id": 2886,
+          "token": "une",
+          "score": 25.229042016167526
+        },
+        {
+          "rank": 10,
+          "token_id": 4308,
+          "token": "por",
+          "score": 25.01449254016674
+        },
+        {
+          "rank": 11,
+          "token_id": 4552,
+          "token": "\u044b",
+          "score": 24.673276801313303
+        },
+        {
+          "rank": 12,
+          "token_id": 1915,
+          "token": "eta",
+          "score": 24.673086090017218
+        },
+        {
+          "rank": 13,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 24.01841059445356
+        },
+        {
+          "rank": 14,
+          "token_id": 4914,
+          "token": " pour",
+          "score": 23.322336072345827
+        },
+        {
+          "rank": 15,
+          "token_id": 4824,
+          "token": "\u044c",
+          "score": 22.979673769424803
+        },
+        {
+          "rank": 16,
+          "token_id": 2366,
+          "token": "quals",
+          "score": 22.911474338898515
+        },
+        {
+          "rank": 17,
+          "token_id": 4255,
+          "token": "imest",
+          "score": 22.862126434727507
+        },
+        {
+          "rank": 18,
+          "token_id": 4838,
+          "token": "semb",
+          "score": 22.02232629232052
+        },
+        {
+          "rank": 19,
+          "token_id": 2247,
+          "token": "\u0441",
+          "score": 20.88449044639596
+        },
+        {
+          "rank": 20,
+          "token_id": 1504,
+          "token": "\u0435",
+          "score": 20.290616070656206
+        },
+        {
+          "rank": 21,
+          "token_id": 3492,
+          "token": "sv",
+          "score": 20.285828835897032
+        },
+        {
+          "rank": 22,
+          "token_id": 3038,
+          "token": "\u043b",
+          "score": 19.362336282604467
+        },
+        {
+          "rank": 23,
+          "token_id": 882,
+          "token": " time",
+          "score": 18.983801097005355
+        },
+        {
+          "rank": 24,
+          "token_id": 3780,
+          "token": "\u0443",
+          "score": 18.922874997712167
+        },
+        {
+          "rank": 25,
+          "token_id": 3459,
+          "token": " complet",
+          "score": 18.69774784027302
+        },
+        {
+          "rank": 26,
+          "token_id": 4154,
+          "token": " por",
+          "score": 18.494543100697744
+        },
+        {
+          "rank": 27,
+          "token_id": 1135,
+          "token": "ayer",
+          "score": 18.296467575245828
+        },
+        {
+          "rank": 28,
+          "token_id": 2949,
+          "token": "quote",
+          "score": 18.24923056893929
+        },
+        {
+          "rank": 29,
+          "token_id": 457,
+          "token": "ile",
+          "score": 18.178210673706353
+        },
+        {
+          "rank": 30,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 18.08829618008055
+        }
+      ],
+      "atom_summary": [
+        {
+          "atom": 20,
+          "pi_rank": 1,
+          "top5_tokens": [
+            "PI",
+            "pi",
+            "ici",
+            "atur",
+            "que"
+          ]
+        },
+        {
+          "atom": 14,
+          "pi_rank": 2,
+          "top5_tokens": [
+            "cat",
+            "pi",
+            "PI",
+            "entic",
+            " deter"
+          ]
+        },
+        {
+          "atom": 28,
+          "pi_rank": 13,
+          "top5_tokens": [
+            "que",
+            "por",
+            "ayer",
+            "iron",
+            "icht"
+          ]
+        },
+        {
+          "atom": 23,
+          "pi_rank": 17,
+          "top5_tokens": [
+            "oder",
+            "ich",
+            " ein",
+            "fr",
+            "ici"
+          ]
+        },
+        {
+          "atom": 11,
+          "pi_rank": 32,
+          "top5_tokens": [
+            "atur",
+            "cat",
+            "echo",
+            " !==",
+            " echo"
+          ]
+        },
+        {
+          "atom": 22,
+          "pi_rank": 159,
+          "top5_tokens": [
+            "rypt",
+            "por",
+            "ayer",
+            "\u044f",
+            "que"
+          ]
+        },
+        {
+          "atom": 24,
+          "pi_rank": 171,
+          "top5_tokens": [
+            "atur",
+            "\u044f",
+            "\u0443",
+            "\u044b",
+            "\u0438"
+          ]
+        },
+        {
+          "atom": 1,
+          "pi_rank": 233,
+          "top5_tokens": [
+            " love",
+            " life",
+            " fire",
+            "cat",
+            "joy"
+          ]
+        },
+        {
+          "atom": 30,
+          "pi_rank": 483,
+          "top5_tokens": [
+            "\u044f",
+            "ich",
+            "\u0443",
+            "oder",
+            "\u0438"
+          ]
+        },
+        {
+          "atom": 19,
+          "pi_rank": 536,
+          "top5_tokens": [
+            " fire",
+            "ODE",
+            "iron",
+            " series",
+            "Vector"
+          ]
+        }
+      ]
+    },
+    "sparse_dict_n64_a0.5_L26": {
+      "n_components": 64,
+      "alpha": 0.5,
+      "best_atom": 8,
+      "best_atom_pi_rank": 2,
+      "pi_info_combined": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 100,
+          "score": 235.03875122367367
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 91,
+          "score": 238.2220495215361
+        }
+      },
+      "top_30_combined": [
+        {
+          "rank": 1,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 684.048980264613
+        },
+        {
+          "rank": 2,
+          "token_id": 4316,
+          "token": "oder",
+          "score": 534.9857121315844
+        },
+        {
+          "rank": 3,
+          "token_id": 3375,
+          "token": "ici",
+          "score": 497.5891051523608
+        },
+        {
+          "rank": 4,
+          "token_id": 713,
+          "token": "ich",
+          "score": 478.505632341246
+        },
+        {
+          "rank": 5,
+          "token_id": 4914,
+          "token": " pour",
+          "score": 473.2718791703382
+        },
+        {
+          "rank": 6,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 471.6161015759207
+        },
+        {
+          "rank": 7,
+          "token_id": 591,
+          "token": "que",
+          "score": 468.45464363510683
+        },
+        {
+          "rank": 8,
+          "token_id": 4308,
+          "token": "por",
+          "score": 461.9728771325021
+        },
+        {
+          "rank": 9,
+          "token_id": 4865,
+          "token": "icht",
+          "score": 456.2828547631123
+        },
+        {
+          "rank": 10,
+          "token_id": 3940,
+          "token": " fire",
+          "score": 446.93401393392327
+        },
+        {
+          "rank": 11,
+          "token_id": 380,
+          "token": "ist",
+          "score": 437.30212612465647
+        },
+        {
+          "rank": 12,
+          "token_id": 2366,
+          "token": "quals",
+          "score": 423.78403537997315
+        },
+        {
+          "rank": 13,
+          "token_id": 1135,
+          "token": "ayer",
+          "score": 420.3411849640308
+        },
+        {
+          "rank": 14,
+          "token_id": 1751,
+          "token": "qual",
+          "score": 407.144545878994
+        },
+        {
+          "rank": 15,
+          "token_id": 4368,
+          "token": " ein",
+          "score": 400.95457882457805
+        },
+        {
+          "rank": 16,
+          "token_id": 882,
+          "token": " time",
+          "score": 392.69190524543563
+        },
+        {
+          "rank": 17,
+          "token_id": 1389,
+          "token": "ger",
+          "score": 384.00860592766924
+        },
+        {
+          "rank": 18,
+          "token_id": 2886,
+          "token": "une",
+          "score": 381.10074112110334
+        },
+        {
+          "rank": 19,
+          "token_id": 1107,
+          "token": "der",
+          "score": 377.92951002579514
+        },
+        {
+          "rank": 20,
+          "token_id": 3784,
+          "token": " \u00e0",
+          "score": 375.55314563025905
+        },
+        {
+          "rank": 21,
+          "token_id": 1678,
+          "token": "time",
+          "score": 372.6359063901136
+        },
+        {
+          "rank": 22,
+          "token_id": 2285,
+          "token": ".de",
+          "score": 365.3419737583428
+        },
+        {
+          "rank": 23,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 362.73927993918693
+        },
+        {
+          "rank": 24,
+          "token_id": 1150,
+          "token": "DE",
+          "score": 360.1632941058515
+        },
+        {
+          "rank": 25,
+          "token_id": 2628,
+          "token": "atur",
+          "score": 350.799443976017
+        },
+        {
+          "rank": 26,
+          "token_id": 1709,
+          "token": " que",
+          "score": 346.4990483849887
+        },
+        {
+          "rank": 27,
+          "token_id": 1763,
+          "token": "mit",
+          "score": 346.2810787028897
+        },
+        {
+          "rank": 28,
+          "token_id": 4154,
+          "token": " por",
+          "score": 345.5843739197305
+        },
+        {
+          "rank": 29,
+          "token_id": 2694,
+          "token": " der",
+          "score": 344.55293369840587
+        },
+        {
+          "rank": 30,
+          "token_id": 1422,
+          "token": " fr",
+          "score": 341.65605590450105
+        }
+      ],
+      "top_30_best_atom": [
+        {
+          "rank": 1,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 100.72699870876679
+        },
+        {
+          "rank": 2,
+          "token_id": 2493,
+          "token": "pi",
+          "score": 42.91032074092245
+        },
+        {
+          "rank": 3,
+          "token_id": 4552,
+          "token": "\u044b",
+          "score": 42.35958311433019
+        },
+        {
+          "rank": 4,
+          "token_id": 1924,
+          "token": "icon",
+          "score": 41.59743152974487
+        },
+        {
+          "rank": 5,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 40.207890143937085
+        },
+        {
+          "rank": 6,
+          "token_id": 4032,
+          "token": "ACK",
+          "score": 37.91908481192154
+        },
+        {
+          "rank": 7,
+          "token_id": 4316,
+          "token": "oder",
+          "score": 37.70566408511348
+        },
+        {
+          "rank": 8,
+          "token_id": 4275,
+          "token": "elves",
+          "score": 37.630378364875
+        },
+        {
+          "rank": 9,
+          "token_id": 961,
+          "token": " !=",
+          "score": 37.53358136469821
+        },
+        {
+          "rank": 10,
+          "token_id": 2108,
+          "token": "\u043d",
+          "score": 37.061805462839104
+        },
+        {
+          "rank": 11,
+          "token_id": 1881,
+          "token": "ty",
+          "score": 36.77088898046594
+        },
+        {
+          "rank": 12,
+          "token_id": 3550,
+          "token": " space",
+          "score": 36.71165640842437
+        },
+        {
+          "rank": 13,
+          "token_id": 4334,
+          "token": "_dir",
+          "score": 35.725653453001314
+        },
+        {
+          "rank": 14,
+          "token_id": 4376,
+          "token": " !==",
+          "score": 35.153020575057525
+        },
+        {
+          "rank": 15,
+          "token_id": 380,
+          "token": "ist",
+          "score": 35.10742753517817
+        },
+        {
+          "rank": 16,
+          "token_id": 1350,
+          "token": "print",
+          "score": 34.12368210307299
+        },
+        {
+          "rank": 17,
+          "token_id": 1009,
+          "token": " &&",
+          "score": 34.0532433749904
+        },
+        {
+          "rank": 18,
+          "token_id": 2651,
+          "token": " <=",
+          "score": 33.978607504426336
+        },
+        {
+          "rank": 19,
+          "token_id": 1541,
+          "token": "ily",
+          "score": 33.77963789086987
+        },
+        {
+          "rank": 20,
+          "token_id": 4100,
+          "token": " printf",
+          "score": 32.65997679381861
+        },
+        {
+          "rank": 21,
+          "token_id": 1792,
+          "token": "\u0442",
+          "score": 32.514789504899205
+        },
+        {
+          "rank": 22,
+          "token_id": 4235,
+          "token": "\u044f",
+          "score": 32.316463435034734
+        },
+        {
+          "rank": 23,
+          "token_id": 4740,
+          "token": "oke",
+          "score": 32.21668866606386
+        },
+        {
+          "rank": 24,
+          "token_id": 4793,
+          "token": "\u043a",
+          "score": 32.019442212951255
+        },
+        {
+          "rank": 25,
+          "token_id": 2247,
+          "token": "\u0441",
+          "score": 31.964137510975515
+        },
+        {
+          "rank": 26,
+          "token_id": 1687,
+          "token": " echo",
+          "score": 31.84303184290037
+        },
+        {
+          "rank": 27,
+          "token_id": 3879,
+          "token": "(:",
+          "score": 31.612842417050736
+        },
+        {
+          "rank": 28,
+          "token_id": 1456,
+          "token": "\u043e",
+          "score": 31.473490809262703
+        },
+        {
+          "rank": 29,
+          "token_id": 3367,
+          "token": " meet",
+          "score": 31.433946092415642
+        },
+        {
+          "rank": 30,
+          "token_id": 4838,
+          "token": "semb",
+          "score": 31.103653227298434
+        }
+      ],
+      "atom_summary": [
+        {
+          "atom": 8,
+          "pi_rank": 2,
+          "top5_tokens": [
+            "cat",
+            "pi",
+            "\u044b",
+            "icon",
+            "PI"
+          ]
+        },
+        {
+          "atom": 15,
+          "pi_rank": 2,
+          "top5_tokens": [
+            "cat",
+            "pi",
+            "PI",
+            "uggest",
+            "uction"
+          ]
+        },
+        {
+          "atom": 50,
+          "pi_rank": 11,
+          "top5_tokens": [
+            "atur",
+            " water",
+            "off",
+            " off",
+            " namespace"
+          ]
+        },
+        {
+          "atom": 20,
+          "pi_rank": 37,
+          "top5_tokens": [
+            " anal",
+            " porn",
+            "rip",
+            "ITY",
+            "ayer"
+          ]
+        },
+        {
+          "atom": 33,
+          "pi_rank": 74,
+          "top5_tokens": [
+            "iron",
+            "orage",
+            "ape",
+            ".map",
+            ".css"
+          ]
+        },
+        {
+          "atom": 36,
+          "pi_rank": 75,
+          "top5_tokens": [
+            "raft",
+            "witter",
+            "Http",
+            " Http",
+            " und"
+          ]
+        },
+        {
+          "atom": 47,
+          "pi_rank": 79,
+          "top5_tokens": [
+            "oder",
+            " ein",
+            "cat",
+            "mit",
+            "ger"
+          ]
+        },
+        {
+          "atom": 19,
+          "pi_rank": 85,
+          "top5_tokens": [
+            "iron",
+            "year",
+            " year",
+            " hours",
+            "Count"
+          ]
+        },
+        {
+          "atom": 28,
+          "pi_rank": 94,
+          "top5_tokens": [
+            "ayer",
+            "por",
+            " time",
+            " Time",
+            "que"
+          ]
+        },
+        {
+          "atom": 52,
+          "pi_rank": 188,
+          "top5_tokens": [
+            " fire",
+            "oci",
+            "raft",
+            " God",
+            " attack"
+          ]
+        }
+      ]
+    },
+    "mahalanobis_pca100_L26": {
+      "n_pca": 100,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 46,
+          "score": 10.0432267448614
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 51,
+          "score": 9.979409743110496
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 16.885336968811103
+        },
+        {
+          "rank": 2,
+          "token_id": 882,
+          "token": " time",
+          "score": 16.35893051748626
+        },
+        {
+          "rank": 3,
+          "token_id": 1678,
+          "token": "time",
+          "score": 15.394553642338442
+        },
+        {
+          "rank": 4,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 15.353920580694314
+        },
+        {
+          "rank": 5,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 15.005804419261093
+        },
+        {
+          "rank": 6,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 14.687783358717466
+        },
+        {
+          "rank": 7,
+          "token_id": 3940,
+          "token": " fire",
+          "score": 13.910310079089038
+        },
+        {
+          "rank": 8,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 12.83469446791777
+        },
+        {
+          "rank": 9,
+          "token_id": 4916,
+          "token": " tree",
+          "score": 12.142280098945909
+        },
+        {
+          "rank": 10,
+          "token_id": 4545,
+          "token": " death",
+          "score": 12.076469903076642
+        },
+        {
+          "rank": 11,
+          "token_id": 4627,
+          "token": " music",
+          "score": 11.7535009929673
+        },
+        {
+          "rank": 12,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 11.682688509368456
+        },
+        {
+          "rank": 13,
+          "token_id": 1847,
+          "token": "off",
+          "score": 11.575603305059213
+        },
+        {
+          "rank": 14,
+          "token_id": 3409,
+          "token": " word",
+          "score": 11.44977296428854
+        },
+        {
+          "rank": 15,
+          "token_id": 1007,
+          "token": " off",
+          "score": 11.442771945097924
+        },
+        {
+          "rank": 16,
+          "token_id": 3015,
+          "token": " water",
+          "score": 11.423072781926932
+        },
+        {
+          "rank": 17,
+          "token_id": 2746,
+          "token": " die",
+          "score": 11.389150872800517
+        },
+        {
+          "rank": 18,
+          "token_id": 1158,
+          "token": "word",
+          "score": 11.385810829468141
+        },
+        {
+          "rank": 19,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 11.381373998889963
+        },
+        {
+          "rank": 20,
+          "token_id": 2948,
+          "token": " love",
+          "score": 11.08664382285219
+        },
+        {
+          "rank": 21,
+          "token_id": 4869,
+          "token": " exit",
+          "score": 10.98111309357954
+        },
+        {
+          "rank": 22,
+          "token_id": 4596,
+          "token": "Off",
+          "score": 10.966034296977403
+        },
+        {
+          "rank": 23,
+          "token_id": 4114,
+          "token": " Off",
+          "score": 10.837445606899722
+        },
+        {
+          "rank": 24,
+          "token_id": 4082,
+          "token": "number",
+          "score": 10.802445718305025
+        },
+        {
+          "rank": 25,
+          "token_id": 4653,
+          "token": ".close",
+          "score": 10.79559443944692
+        },
+        {
+          "rank": 26,
+          "token_id": 1462,
+          "token": "Time",
+          "score": 10.73235956502023
+        },
+        {
+          "rank": 27,
+          "token_id": 545,
+          "token": "ime",
+          "score": 10.668712291102713
+        },
+        {
+          "rank": 28,
+          "token_id": 2936,
+          "token": " stop",
+          "score": 10.642861638629771
+        },
+        {
+          "rank": 29,
+          "token_id": 2400,
+          "token": " date",
+          "score": 10.637398868773587
+        },
+        {
+          "rank": 30,
+          "token_id": 1028,
+          "token": "date",
+          "score": 10.617366913871031
+        }
+      ]
+    },
+    "mahalanobis_diag_pca100_L26": {
+      "n_pca": 100,
+      "variant": "diagonal",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 46,
+          "score": 101.20486450195312
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 51,
+          "score": 99.92276000976562
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 286.0708312988281
+        },
+        {
+          "rank": 2,
+          "token_id": 882,
+          "token": " time",
+          "score": 268.5128479003906
+        },
+        {
+          "rank": 3,
+          "token_id": 1678,
+          "token": "time",
+          "score": 237.7877197265625
+        },
+        {
+          "rank": 4,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 236.53414916992188
+        },
+        {
+          "rank": 5,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 225.9304656982422
+        },
+        {
+          "rank": 6,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 216.45547485351562
+        },
+        {
+          "rank": 7,
+          "token_id": 3940,
+          "token": " fire",
+          "score": 194.14585876464844
+        },
+        {
+          "rank": 8,
+          "token_id": 3009,
+          "token": "_time",
+          "score": 165.28216552734375
+        },
+        {
+          "rank": 9,
+          "token_id": 4916,
+          "token": " tree",
+          "score": 147.93045043945312
+        },
+        {
+          "rank": 10,
+          "token_id": 4545,
+          "token": " death",
+          "score": 146.33126831054688
+        },
+        {
+          "rank": 11,
+          "token_id": 4627,
+          "token": " music",
+          "score": 138.60894775390625
+        },
+        {
+          "rank": 12,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 136.94384765625
+        },
+        {
+          "rank": 13,
+          "token_id": 1847,
+          "token": "off",
+          "score": 134.4447784423828
+        },
+        {
+          "rank": 14,
+          "token_id": 3409,
+          "token": " word",
+          "score": 131.53773498535156
+        },
+        {
+          "rank": 15,
+          "token_id": 1007,
+          "token": " off",
+          "score": 131.37696838378906
+        },
+        {
+          "rank": 16,
+          "token_id": 3015,
+          "token": " water",
+          "score": 130.92510986328125
+        },
+        {
+          "rank": 17,
+          "token_id": 2746,
+          "token": " die",
+          "score": 130.1485595703125
+        },
+        {
+          "rank": 18,
+          "token_id": 1158,
+          "token": "word",
+          "score": 130.07223510742188
+        },
+        {
+          "rank": 19,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 129.97085571289062
+        },
+        {
+          "rank": 20,
+          "token_id": 2948,
+          "token": " love",
+          "score": 123.32684326171875
+        },
+        {
+          "rank": 21,
+          "token_id": 4869,
+          "token": " exit",
+          "score": 120.99006652832031
+        },
+        {
+          "rank": 22,
+          "token_id": 4596,
+          "token": "Off",
+          "score": 120.65789794921875
+        },
+        {
+          "rank": 23,
+          "token_id": 4114,
+          "token": " Off",
+          "score": 117.84481048583984
+        },
+        {
+          "rank": 24,
+          "token_id": 4082,
+          "token": "number",
+          "score": 117.08468627929688
+        },
+        {
+          "rank": 25,
+          "token_id": 4653,
+          "token": ".close",
+          "score": 116.93658447265625
+        },
+        {
+          "rank": 26,
+          "token_id": 1462,
+          "token": "Time",
+          "score": 115.57012176513672
+        },
+        {
+          "rank": 27,
+          "token_id": 545,
+          "token": "ime",
+          "score": 114.20339965820312
+        },
+        {
+          "rank": 28,
+          "token_id": 2936,
+          "token": " stop",
+          "score": 113.65109252929688
+        },
+        {
+          "rank": 29,
+          "token_id": 2400,
+          "token": " date",
+          "score": 113.53394317626953
+        },
+        {
+          "rank": 30,
+          "token_id": 1028,
+          "token": "date",
+          "score": 113.10673522949219
+        }
+      ]
+    },
+    "mahalanobis_pca200_L26": {
+      "n_pca": 200,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 27,
+          "score": 15.990982673374477
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 37,
+          "score": 15.6441309571147
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2752,
+          "token": "pen",
+          "score": 20.585002738646377
+        },
+        {
+          "rank": 2,
+          "token_id": 882,
+          "token": " time",
+          "score": 18.42317324517663
+        },
+        {
+          "rank": 3,
+          "token_id": 1158,
+          "token": "word",
+          "score": 18.20484602065819
+        },
+        {
+          "rank": 4,
+          "token_id": 3409,
+          "token": " word",
+          "score": 17.971778567499165
+        },
+        {
+          "rank": 5,
+          "token_id": 4746,
+          "token": " heart",
+          "score": 17.593180325083544
+        },
+        {
+          "rank": 6,
+          "token_id": 4116,
+          "token": " war",
+          "score": 17.21235984011431
+        },
+        {
+          "rank": 7,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 17.17330263932449
+        },
+        {
+          "rank": 8,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 17.147668992499433
+        },
+        {
+          "rank": 9,
+          "token_id": 1847,
+          "token": "off",
+          "score": 17.053518681731415
+        },
+        {
+          "rank": 10,
+          "token_id": 1678,
+          "token": "time",
+          "score": 17.017130357521214
+        },
+        {
+          "rank": 11,
+          "token_id": 2948,
+          "token": " love",
+          "score": 16.989174074022063
+        },
+        {
+          "rank": 12,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 16.939118357078275
+        },
+        {
+          "rank": 13,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 16.89650281070815
+        },
+        {
+          "rank": 14,
+          "token_id": 1007,
+          "token": " off",
+          "score": 16.895667327654312
+        },
+        {
+          "rank": 15,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 16.863511020719873
+        },
+        {
+          "rank": 16,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 16.787865792844233
+        },
+        {
+          "rank": 17,
+          "token_id": 4627,
+          "token": " music",
+          "score": 16.695237954117164
+        },
+        {
+          "rank": 18,
+          "token_id": 2272,
+          "token": " life",
+          "score": 16.458743853206123
+        },
+        {
+          "rank": 19,
+          "token_id": 2311,
+          "token": " book",
+          "score": 16.45252957649438
+        },
+        {
+          "rank": 20,
+          "token_id": 2936,
+          "token": " stop",
+          "score": 16.27078160218962
+        },
+        {
+          "rank": 21,
+          "token_id": 4545,
+          "token": " death",
+          "score": 16.25067951760281
+        },
+        {
+          "rank": 22,
+          "token_id": 2036,
+          "token": " struct",
+          "score": 16.08631392143177
+        },
+        {
+          "rank": 23,
+          "token_id": 4653,
+          "token": ".close",
+          "score": 16.07337176401789
+        },
+        {
+          "rank": 24,
+          "token_id": 713,
+          "token": "ich",
+          "score": 16.072115159781816
+        },
+        {
+          "rank": 25,
+          "token_id": 3178,
+          "token": "ograph",
+          "score": 16.06650777668919
+        },
+        {
+          "rank": 26,
+          "token_id": 3607,
+          "token": " food",
+          "score": 16.048446617108883
+        },
+        {
+          "rank": 27,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 15.990982673374477
+        },
+        {
+          "rank": 28,
+          "token_id": 1424,
+          "token": " hand",
+          "score": 15.896783467056167
+        },
+        {
+          "rank": 29,
+          "token_id": 2535,
+          "token": " await",
+          "score": 15.874627374255825
+        },
+        {
+          "rank": 30,
+          "token_id": 737,
+          "token": " void",
+          "score": 15.849866581392483
+        }
+      ]
+    },
+    "mahalanobis_diag_pca200_L26": {
+      "n_pca": 200,
+      "variant": "diagonal",
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 27,
+          "score": 256.576416015625
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 37,
+          "score": 245.5663299560547
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2752,
+          "token": "pen",
+          "score": 425.18011474609375
+        },
+        {
+          "rank": 2,
+          "token_id": 882,
+          "token": " time",
+          "score": 340.554443359375
+        },
+        {
+          "rank": 3,
+          "token_id": 1158,
+          "token": "word",
+          "score": 332.53662109375
+        },
+        {
+          "rank": 4,
+          "token_id": 3409,
+          "token": " word",
+          "score": 324.07659912109375
+        },
+        {
+          "rank": 5,
+          "token_id": 4746,
+          "token": " heart",
+          "score": 310.5689697265625
+        },
+        {
+          "rank": 6,
+          "token_id": 4116,
+          "token": " war",
+          "score": 297.26690673828125
+        },
+        {
+          "rank": 7,
+          "token_id": 4844,
+          "token": "phone",
+          "score": 295.91436767578125
+        },
+        {
+          "rank": 8,
+          "token_id": 4616,
+          "token": "cat",
+          "score": 295.0290222167969
+        },
+        {
+          "rank": 9,
+          "token_id": 1847,
+          "token": "off",
+          "score": 291.80511474609375
+        },
+        {
+          "rank": 10,
+          "token_id": 1678,
+          "token": "time",
+          "score": 290.55596923828125
+        },
+        {
+          "rank": 11,
+          "token_id": 2948,
+          "token": " love",
+          "score": 289.607421875
+        },
+        {
+          "rank": 12,
+          "token_id": 2475,
+          "token": "iron",
+          "score": 287.90179443359375
+        },
+        {
+          "rank": 13,
+          "token_id": 1626,
+          "token": "fr",
+          "score": 286.45697021484375
+        },
+        {
+          "rank": 14,
+          "token_id": 1007,
+          "token": " off",
+          "score": 286.42822265625
+        },
+        {
+          "rank": 15,
+          "token_id": 4120,
+          "token": " Time",
+          "score": 285.3337097167969
+        },
+        {
+          "rank": 16,
+          "token_id": 4540,
+          "token": " phone",
+          "score": 282.7803955078125
+        },
+        {
+          "rank": 17,
+          "token_id": 4627,
+          "token": " music",
+          "score": 279.6712951660156
+        },
+        {
+          "rank": 18,
+          "token_id": 2272,
+          "token": " life",
+          "score": 271.8065185546875
+        },
+        {
+          "rank": 19,
+          "token_id": 2311,
+          "token": " book",
+          "score": 271.6022033691406
+        },
+        {
+          "rank": 20,
+          "token_id": 2936,
+          "token": " stop",
+          "score": 265.63330078125
+        },
+        {
+          "rank": 21,
+          "token_id": 4545,
+          "token": " death",
+          "score": 264.9759521484375
+        },
+        {
+          "rank": 22,
+          "token_id": 2036,
+          "token": " struct",
+          "score": 259.645751953125
+        },
+        {
+          "rank": 23,
+          "token_id": 4653,
+          "token": ".close",
+          "score": 259.2269287109375
+        },
+        {
+          "rank": 24,
+          "token_id": 713,
+          "token": "ich",
+          "score": 259.185302734375
+        },
+        {
+          "rank": 25,
+          "token_id": 3178,
+          "token": "ograph",
+          "score": 259.00738525390625
+        },
+        {
+          "rank": 26,
+          "token_id": 3607,
+          "token": " food",
+          "score": 258.4253845214844
+        },
+        {
+          "rank": 27,
+          "token_id": 1893,
+          "token": "PI",
+          "score": 256.576416015625
+        },
+        {
+          "rank": 28,
+          "token_id": 1424,
+          "token": " hand",
+          "score": 253.56192016601562
+        },
+        {
+          "rank": 29,
+          "token_id": 2535,
+          "token": " await",
+          "score": 252.85609436035156
+        },
+        {
+          "rank": 30,
+          "token_id": 737,
+          "token": " void",
+          "score": 252.06796264648438
+        }
+      ]
+    },
+    "residual_top8_L21": {
+      "top_k": 8,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 658,
+          "score": 12.973068237304688
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 3477,
+          "score": 5.154856204986572
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1474,
+          "token": "User",
+          "score": 34.994564056396484
+        },
+        {
+          "rank": 2,
+          "token_id": 3988,
+          "token": " Name",
+          "score": 34.704402923583984
+        },
+        {
+          "rank": 3,
+          "token_id": 675,
+          "token": "Name",
+          "score": 33.502235412597656
+        },
+        {
+          "rank": 4,
+          "token_id": 829,
+          "token": " name",
+          "score": 33.04016876220703
+        },
+        {
+          "rank": 5,
+          "token_id": 2582,
+          "token": "Response",
+          "score": 31.896047592163086
+        },
+        {
+          "rank": 6,
+          "token_id": 606,
+          "token": "name",
+          "score": 30.768407821655273
+        },
+        {
+          "rank": 7,
+          "token_id": 373,
+          "token": "ame",
+          "score": 30.65778350830078
+        },
+        {
+          "rank": 8,
+          "token_id": 1924,
+          "token": "icon",
+          "score": 30.586999893188477
+        },
+        {
+          "rank": 9,
+          "token_id": 3476,
+          "token": " role",
+          "score": 30.361494064331055
+        },
+        {
+          "rank": 10,
+          "token_id": 4603,
+          "token": " icon",
+          "score": 29.463003158569336
+        },
+        {
+          "rank": 11,
+          "token_id": 4323,
+          "token": ".json",
+          "score": 28.379199981689453
+        },
+        {
+          "rank": 12,
+          "token_id": 2951,
+          "token": " json",
+          "score": 27.71589469909668
+        },
+        {
+          "rank": 13,
+          "token_id": 961,
+          "token": " !=",
+          "score": 27.527944564819336
+        },
+        {
+          "rank": 14,
+          "token_id": 4808,
+          "token": " profession",
+          "score": 27.509897232055664
+        },
+        {
+          "rank": 15,
+          "token_id": 2657,
+          "token": " User",
+          "score": 27.48587989807129
+        },
+        {
+          "rank": 16,
+          "token_id": 4277,
+          "token": "(user",
+          "score": 26.413721084594727
+        },
+        {
+          "rank": 17,
+          "token_id": 4718,
+          "token": " JSON",
+          "score": 26.307498931884766
+        },
+        {
+          "rank": 18,
+          "token_id": 1207,
+          "token": " Q",
+          "score": 26.10489845275879
+        },
+        {
+          "rank": 19,
+          "token_id": 1211,
+          "token": "ics",
+          "score": 25.902912139892578
+        },
+        {
+          "rank": 20,
+          "token_id": 534,
+          "token": "ode",
+          "score": 25.830730438232422
+        },
+        {
+          "rank": 21,
+          "token_id": 2925,
+          "token": " En",
+          "score": 25.555105209350586
+        },
+        {
+          "rank": 22,
+          "token_id": 598,
+          "token": "unction",
+          "score": 25.428665161132812
+        },
+        {
+          "rank": 23,
+          "token_id": 2967,
+          "token": ".Name",
+          "score": 25.213294982910156
+        },
+        {
+          "rank": 24,
+          "token_id": 4468,
+          "token": "Dialog",
+          "score": 25.128692626953125
+        },
+        {
+          "rank": 25,
+          "token_id": 3826,
+          "token": "icture",
+          "score": 24.99376106262207
+        },
+        {
+          "rank": 26,
+          "token_id": 4207,
+          "token": "Case",
+          "score": 24.8236083984375
+        },
+        {
+          "rank": 27,
+          "token_id": 4936,
+          "token": " simply",
+          "score": 24.73526382446289
+        },
+        {
+          "rank": 28,
+          "token_id": 3243,
+          "token": "only",
+          "score": 24.727630615234375
+        },
+        {
+          "rank": 29,
+          "token_id": 3092,
+          "token": "iff",
+          "score": 24.723196029663086
+        },
+        {
+          "rank": 30,
+          "token_id": 729,
+          "token": " function",
+          "score": 24.409456253051758
+        }
+      ],
+      "residual_svs": [
+        7.401741981506348,
+        4.813413619995117,
+        0.000625317043159157,
+        0.00023816683096811175,
+        0.00016023628995753825,
+        0.00015516929852310568,
+        0.00015010740025900304,
+        0.00013194873463362455,
+        0.000122870784252882,
+        0.00011094177170889452
+      ],
+      "fit_r2": 0.9997706413269043
+    },
+    "residual_top16_L21": {
+      "top_k": 16,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 658,
+          "score": 12.973068237304688
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 3477,
+          "score": 5.154856204986572
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1474,
+          "token": "User",
+          "score": 34.994564056396484
+        },
+        {
+          "rank": 2,
+          "token_id": 3988,
+          "token": " Name",
+          "score": 34.704402923583984
+        },
+        {
+          "rank": 3,
+          "token_id": 675,
+          "token": "Name",
+          "score": 33.502235412597656
+        },
+        {
+          "rank": 4,
+          "token_id": 829,
+          "token": " name",
+          "score": 33.04016876220703
+        },
+        {
+          "rank": 5,
+          "token_id": 2582,
+          "token": "Response",
+          "score": 31.896047592163086
+        },
+        {
+          "rank": 6,
+          "token_id": 606,
+          "token": "name",
+          "score": 30.768407821655273
+        },
+        {
+          "rank": 7,
+          "token_id": 373,
+          "token": "ame",
+          "score": 30.65778350830078
+        },
+        {
+          "rank": 8,
+          "token_id": 1924,
+          "token": "icon",
+          "score": 30.586999893188477
+        },
+        {
+          "rank": 9,
+          "token_id": 3476,
+          "token": " role",
+          "score": 30.361494064331055
+        },
+        {
+          "rank": 10,
+          "token_id": 4603,
+          "token": " icon",
+          "score": 29.463003158569336
+        },
+        {
+          "rank": 11,
+          "token_id": 4323,
+          "token": ".json",
+          "score": 28.379199981689453
+        },
+        {
+          "rank": 12,
+          "token_id": 2951,
+          "token": " json",
+          "score": 27.71589469909668
+        },
+        {
+          "rank": 13,
+          "token_id": 961,
+          "token": " !=",
+          "score": 27.527944564819336
+        },
+        {
+          "rank": 14,
+          "token_id": 4808,
+          "token": " profession",
+          "score": 27.509897232055664
+        },
+        {
+          "rank": 15,
+          "token_id": 2657,
+          "token": " User",
+          "score": 27.48587989807129
+        },
+        {
+          "rank": 16,
+          "token_id": 4277,
+          "token": "(user",
+          "score": 26.413721084594727
+        },
+        {
+          "rank": 17,
+          "token_id": 4718,
+          "token": " JSON",
+          "score": 26.307498931884766
+        },
+        {
+          "rank": 18,
+          "token_id": 1207,
+          "token": " Q",
+          "score": 26.10489845275879
+        },
+        {
+          "rank": 19,
+          "token_id": 1211,
+          "token": "ics",
+          "score": 25.902912139892578
+        },
+        {
+          "rank": 20,
+          "token_id": 534,
+          "token": "ode",
+          "score": 25.830730438232422
+        },
+        {
+          "rank": 21,
+          "token_id": 2925,
+          "token": " En",
+          "score": 25.555105209350586
+        },
+        {
+          "rank": 22,
+          "token_id": 598,
+          "token": "unction",
+          "score": 25.428665161132812
+        },
+        {
+          "rank": 23,
+          "token_id": 2967,
+          "token": ".Name",
+          "score": 25.213294982910156
+        },
+        {
+          "rank": 24,
+          "token_id": 4468,
+          "token": "Dialog",
+          "score": 25.128692626953125
+        },
+        {
+          "rank": 25,
+          "token_id": 3826,
+          "token": "icture",
+          "score": 24.99376106262207
+        },
+        {
+          "rank": 26,
+          "token_id": 4207,
+          "token": "Case",
+          "score": 24.8236083984375
+        },
+        {
+          "rank": 27,
+          "token_id": 4936,
+          "token": " simply",
+          "score": 24.73526382446289
+        },
+        {
+          "rank": 28,
+          "token_id": 3243,
+          "token": "only",
+          "score": 24.727630615234375
+        },
+        {
+          "rank": 29,
+          "token_id": 3092,
+          "token": "iff",
+          "score": 24.723196029663086
+        },
+        {
+          "rank": 30,
+          "token_id": 729,
+          "token": " function",
+          "score": 24.409456253051758
+        }
+      ],
+      "residual_svs": [
+        7.401741981506348,
+        4.813413619995117,
+        0.000625317043159157,
+        0.00023816683096811175,
+        0.00016023628995753825,
+        0.00015516929852310568,
+        0.00015010740025900304,
+        0.00013194873463362455,
+        0.000122870784252882,
+        0.00011094177170889452
+      ],
+      "fit_r2": 0.9997706413269043
+    },
+    "residual_top32_L21": {
+      "top_k": 32,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 658,
+          "score": 12.973068237304688
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 3477,
+          "score": 5.154856204986572
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 1474,
+          "token": "User",
+          "score": 34.994564056396484
+        },
+        {
+          "rank": 2,
+          "token_id": 3988,
+          "token": " Name",
+          "score": 34.704402923583984
+        },
+        {
+          "rank": 3,
+          "token_id": 675,
+          "token": "Name",
+          "score": 33.502235412597656
+        },
+        {
+          "rank": 4,
+          "token_id": 829,
+          "token": " name",
+          "score": 33.04016876220703
+        },
+        {
+          "rank": 5,
+          "token_id": 2582,
+          "token": "Response",
+          "score": 31.896047592163086
+        },
+        {
+          "rank": 6,
+          "token_id": 606,
+          "token": "name",
+          "score": 30.768407821655273
+        },
+        {
+          "rank": 7,
+          "token_id": 373,
+          "token": "ame",
+          "score": 30.65778350830078
+        },
+        {
+          "rank": 8,
+          "token_id": 1924,
+          "token": "icon",
+          "score": 30.586999893188477
+        },
+        {
+          "rank": 9,
+          "token_id": 3476,
+          "token": " role",
+          "score": 30.361494064331055
+        },
+        {
+          "rank": 10,
+          "token_id": 4603,
+          "token": " icon",
+          "score": 29.463003158569336
+        },
+        {
+          "rank": 11,
+          "token_id": 4323,
+          "token": ".json",
+          "score": 28.379199981689453
+        },
+        {
+          "rank": 12,
+          "token_id": 2951,
+          "token": " json",
+          "score": 27.71589469909668
+        },
+        {
+          "rank": 13,
+          "token_id": 961,
+          "token": " !=",
+          "score": 27.527944564819336
+        },
+        {
+          "rank": 14,
+          "token_id": 4808,
+          "token": " profession",
+          "score": 27.509897232055664
+        },
+        {
+          "rank": 15,
+          "token_id": 2657,
+          "token": " User",
+          "score": 27.48587989807129
+        },
+        {
+          "rank": 16,
+          "token_id": 4277,
+          "token": "(user",
+          "score": 26.413721084594727
+        },
+        {
+          "rank": 17,
+          "token_id": 4718,
+          "token": " JSON",
+          "score": 26.307498931884766
+        },
+        {
+          "rank": 18,
+          "token_id": 1207,
+          "token": " Q",
+          "score": 26.10489845275879
+        },
+        {
+          "rank": 19,
+          "token_id": 1211,
+          "token": "ics",
+          "score": 25.902912139892578
+        },
+        {
+          "rank": 20,
+          "token_id": 534,
+          "token": "ode",
+          "score": 25.830730438232422
+        },
+        {
+          "rank": 21,
+          "token_id": 2925,
+          "token": " En",
+          "score": 25.555105209350586
+        },
+        {
+          "rank": 22,
+          "token_id": 598,
+          "token": "unction",
+          "score": 25.428665161132812
+        },
+        {
+          "rank": 23,
+          "token_id": 2967,
+          "token": ".Name",
+          "score": 25.213294982910156
+        },
+        {
+          "rank": 24,
+          "token_id": 4468,
+          "token": "Dialog",
+          "score": 25.128692626953125
+        },
+        {
+          "rank": 25,
+          "token_id": 3826,
+          "token": "icture",
+          "score": 24.99376106262207
+        },
+        {
+          "rank": 26,
+          "token_id": 4207,
+          "token": "Case",
+          "score": 24.8236083984375
+        },
+        {
+          "rank": 27,
+          "token_id": 4936,
+          "token": " simply",
+          "score": 24.73526382446289
+        },
+        {
+          "rank": 28,
+          "token_id": 3243,
+          "token": "only",
+          "score": 24.727630615234375
+        },
+        {
+          "rank": 29,
+          "token_id": 3092,
+          "token": "iff",
+          "score": 24.723196029663086
+        },
+        {
+          "rank": 30,
+          "token_id": 729,
+          "token": " function",
+          "score": 24.409456253051758
+        }
+      ],
+      "residual_svs": [
+        7.401741981506348,
+        4.813413619995117,
+        0.000625317043159157,
+        0.00023816683096811175,
+        0.00016023628995753825,
+        0.00015516929852310568,
+        0.00015010740025900304,
+        0.00013194873463362455,
+        0.000122870784252882,
+        0.00011094177170889452
+      ],
+      "fit_r2": 0.9997706413269043
+    },
+    "residual_top8_L26": {
+      "top_k": 8,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 196,
+          "score": 110.3328857421875
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 646,
+          "score": 96.58271789550781
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2961,
+          "token": ".Com",
+          "score": 168.01547241210938
+        },
+        {
+          "rank": 2,
+          "token_id": 402,
+          "token": "av",
+          "score": 162.25616455078125
+        },
+        {
+          "rank": 3,
+          "token_id": 4191,
+          "token": "oom",
+          "score": 157.9375
+        },
+        {
+          "rank": 4,
+          "token_id": 685,
+          "token": "ia",
+          "score": 154.06890869140625
+        },
+        {
+          "rank": 5,
+          "token_id": 363,
+          "token": "ow",
+          "score": 152.15293884277344
+        },
+        {
+          "rank": 6,
+          "token_id": 757,
+          "token": "ec",
+          "score": 150.86865234375
+        },
+        {
+          "rank": 7,
+          "token_id": 3314,
+          "token": "cul",
+          "score": 150.06155395507812
+        },
+        {
+          "rank": 8,
+          "token_id": 424,
+          "token": "age",
+          "score": 147.2751922607422
+        },
+        {
+          "rank": 9,
+          "token_id": 1071,
+          "token": " ass",
+          "score": 146.91229248046875
+        },
+        {
+          "rank": 10,
+          "token_id": 302,
+          "token": "ct",
+          "score": 144.748291015625
+        },
+        {
+          "rank": 11,
+          "token_id": 1885,
+          "token": "arn",
+          "score": 144.06581115722656
+        },
+        {
+          "rank": 12,
+          "token_id": 1126,
+          "token": "wo",
+          "score": 143.63909912109375
+        },
+        {
+          "rank": 13,
+          "token_id": 1791,
+          "token": "IM",
+          "score": 142.64337158203125
+        },
+        {
+          "rank": 14,
+          "token_id": 4235,
+          "token": "\u044f",
+          "score": 141.70169067382812
+        },
+        {
+          "rank": 15,
+          "token_id": 4012,
+          "token": "rowser",
+          "score": 140.7322540283203
+        },
+        {
+          "rank": 16,
+          "token_id": 2571,
+          "token": "lex",
+          "score": 139.3535919189453
+        },
+        {
+          "rank": 17,
+          "token_id": 4220,
+          "token": " These",
+          "score": 138.9829864501953
+        },
+        {
+          "rank": 18,
+          "token_id": 1754,
+          "token": "uc",
+          "score": 138.9566650390625
+        },
+        {
+          "rank": 19,
+          "token_id": 2860,
+          "token": " online",
+          "score": 138.7864990234375
+        },
+        {
+          "rank": 20,
+          "token_id": 4231,
+          "token": " age",
+          "score": 138.74075317382812
+        },
+        {
+          "rank": 21,
+          "token_id": 2460,
+          "token": "Line",
+          "score": 138.2145538330078
+        },
+        {
+          "rank": 22,
+          "token_id": 891,
+          "token": "ble",
+          "score": 138.2144012451172
+        },
+        {
+          "rank": 23,
+          "token_id": 1858,
+          "token": ".in",
+          "score": 137.15689086914062
+        },
+        {
+          "rank": 24,
+          "token_id": 3801,
+          "token": "witter",
+          "score": 136.33688354492188
+        },
+        {
+          "rank": 25,
+          "token_id": 469,
+          "token": " com",
+          "score": 136.14601135253906
+        },
+        {
+          "rank": 26,
+          "token_id": 1056,
+          "token": "line",
+          "score": 134.64810180664062
+        },
+        {
+          "rank": 27,
+          "token_id": 2637,
+          "token": "pring",
+          "score": 134.3248748779297
+        },
+        {
+          "rank": 28,
+          "token_id": 3687,
+          "token": " media",
+          "score": 133.28656005859375
+        },
+        {
+          "rank": 29,
+          "token_id": 1555,
+          "token": " line",
+          "score": 133.2174072265625
+        },
+        {
+          "rank": 30,
+          "token_id": 654,
+          "token": "ll",
+          "score": 132.997802734375
+        }
+      ],
+      "residual_svs": [
+        20.75712013244629,
+        19.3107852935791,
+        15.656404495239258,
+        15.145949363708496,
+        8.948734283447266,
+        7.090726852416992,
+        4.14638090133667,
+        3.3925888538360596,
+        2.4396250247955322,
+        0.00048037944361567497
+      ],
+      "fit_r2": 0.9983593225479126
+    },
+    "residual_top16_L26": {
+      "top_k": 16,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 196,
+          "score": 110.38865661621094
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 649,
+          "score": 96.58654022216797
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2961,
+          "token": ".Com",
+          "score": 168.024169921875
+        },
+        {
+          "rank": 2,
+          "token_id": 402,
+          "token": "av",
+          "score": 162.25778198242188
+        },
+        {
+          "rank": 3,
+          "token_id": 4191,
+          "token": "oom",
+          "score": 158.07623291015625
+        },
+        {
+          "rank": 4,
+          "token_id": 685,
+          "token": "ia",
+          "score": 154.06936645507812
+        },
+        {
+          "rank": 5,
+          "token_id": 363,
+          "token": "ow",
+          "score": 152.1533966064453
+        },
+        {
+          "rank": 6,
+          "token_id": 757,
+          "token": "ec",
+          "score": 150.9104461669922
+        },
+        {
+          "rank": 7,
+          "token_id": 3314,
+          "token": "cul",
+          "score": 150.06663513183594
+        },
+        {
+          "rank": 8,
+          "token_id": 424,
+          "token": "age",
+          "score": 147.3136444091797
+        },
+        {
+          "rank": 9,
+          "token_id": 1071,
+          "token": " ass",
+          "score": 146.91555786132812
+        },
+        {
+          "rank": 10,
+          "token_id": 302,
+          "token": "ct",
+          "score": 144.75314331054688
+        },
+        {
+          "rank": 11,
+          "token_id": 1885,
+          "token": "arn",
+          "score": 144.0787811279297
+        },
+        {
+          "rank": 12,
+          "token_id": 1126,
+          "token": "wo",
+          "score": 143.64212036132812
+        },
+        {
+          "rank": 13,
+          "token_id": 1791,
+          "token": "IM",
+          "score": 142.64341735839844
+        },
+        {
+          "rank": 14,
+          "token_id": 4235,
+          "token": "\u044f",
+          "score": 141.7213134765625
+        },
+        {
+          "rank": 15,
+          "token_id": 4012,
+          "token": "rowser",
+          "score": 140.7397003173828
+        },
+        {
+          "rank": 16,
+          "token_id": 2571,
+          "token": "lex",
+          "score": 139.35540771484375
+        },
+        {
+          "rank": 17,
+          "token_id": 4220,
+          "token": " These",
+          "score": 138.9884033203125
+        },
+        {
+          "rank": 18,
+          "token_id": 1754,
+          "token": "uc",
+          "score": 138.9739532470703
+        },
+        {
+          "rank": 19,
+          "token_id": 2860,
+          "token": " online",
+          "score": 138.79905700683594
+        },
+        {
+          "rank": 20,
+          "token_id": 4231,
+          "token": " age",
+          "score": 138.7823944091797
+        },
+        {
+          "rank": 21,
+          "token_id": 891,
+          "token": "ble",
+          "score": 138.24168395996094
+        },
+        {
+          "rank": 22,
+          "token_id": 2460,
+          "token": "Line",
+          "score": 138.2375946044922
+        },
+        {
+          "rank": 23,
+          "token_id": 1858,
+          "token": ".in",
+          "score": 137.16221618652344
+        },
+        {
+          "rank": 24,
+          "token_id": 3801,
+          "token": "witter",
+          "score": 136.33688354492188
+        },
+        {
+          "rank": 25,
+          "token_id": 469,
+          "token": " com",
+          "score": 136.3040771484375
+        },
+        {
+          "rank": 26,
+          "token_id": 1056,
+          "token": "line",
+          "score": 134.67886352539062
+        },
+        {
+          "rank": 27,
+          "token_id": 2637,
+          "token": "pring",
+          "score": 134.3268280029297
+        },
+        {
+          "rank": 28,
+          "token_id": 3687,
+          "token": " media",
+          "score": 133.2949676513672
+        },
+        {
+          "rank": 29,
+          "token_id": 1555,
+          "token": " line",
+          "score": 133.26211547851562
+        },
+        {
+          "rank": 30,
+          "token_id": 654,
+          "token": "ll",
+          "score": 133.0032196044922
+        }
+      ],
+      "residual_svs": [
+        20.75712013244629,
+        19.3107852935791,
+        15.656404495239258,
+        15.145949363708496,
+        8.948734283447266,
+        7.090726852416992,
+        4.14638090133667,
+        3.3925888538360596,
+        2.4396250247955322,
+        0.00048037944361567497
+      ],
+      "fit_r2": 0.9983593225479126
+    },
+    "residual_top32_L26": {
+      "top_k": 32,
+      "pi_info": {
+        "PI": {
+          "token_id": 1893,
+          "rank": 196,
+          "score": 110.38865661621094
+        },
+        "pi": {
+          "token_id": 2493,
+          "rank": 649,
+          "score": 96.58654022216797
+        }
+      },
+      "top_30": [
+        {
+          "rank": 1,
+          "token_id": 2961,
+          "token": ".Com",
+          "score": 168.024169921875
+        },
+        {
+          "rank": 2,
+          "token_id": 402,
+          "token": "av",
+          "score": 162.25778198242188
+        },
+        {
+          "rank": 3,
+          "token_id": 4191,
+          "token": "oom",
+          "score": 158.07623291015625
+        },
+        {
+          "rank": 4,
+          "token_id": 685,
+          "token": "ia",
+          "score": 154.06936645507812
+        },
+        {
+          "rank": 5,
+          "token_id": 363,
+          "token": "ow",
+          "score": 152.1533966064453
+        },
+        {
+          "rank": 6,
+          "token_id": 757,
+          "token": "ec",
+          "score": 150.9104461669922
+        },
+        {
+          "rank": 7,
+          "token_id": 3314,
+          "token": "cul",
+          "score": 150.06663513183594
+        },
+        {
+          "rank": 8,
+          "token_id": 424,
+          "token": "age",
+          "score": 147.3136444091797
+        },
+        {
+          "rank": 9,
+          "token_id": 1071,
+          "token": " ass",
+          "score": 146.91555786132812
+        },
+        {
+          "rank": 10,
+          "token_id": 302,
+          "token": "ct",
+          "score": 144.75314331054688
+        },
+        {
+          "rank": 11,
+          "token_id": 1885,
+          "token": "arn",
+          "score": 144.0787811279297
+        },
+        {
+          "rank": 12,
+          "token_id": 1126,
+          "token": "wo",
+          "score": 143.64212036132812
+        },
+        {
+          "rank": 13,
+          "token_id": 1791,
+          "token": "IM",
+          "score": 142.64341735839844
+        },
+        {
+          "rank": 14,
+          "token_id": 4235,
+          "token": "\u044f",
+          "score": 141.7213134765625
+        },
+        {
+          "rank": 15,
+          "token_id": 4012,
+          "token": "rowser",
+          "score": 140.7397003173828
+        },
+        {
+          "rank": 16,
+          "token_id": 2571,
+          "token": "lex",
+          "score": 139.35540771484375
+        },
+        {
+          "rank": 17,
+          "token_id": 4220,
+          "token": " These",
+          "score": 138.9884033203125
+        },
+        {
+          "rank": 18,
+          "token_id": 1754,
+          "token": "uc",
+          "score": 138.9739532470703
+        },
+        {
+          "rank": 19,
+          "token_id": 2860,
+          "token": " online",
+          "score": 138.79905700683594
+        },
+        {
+          "rank": 20,
+          "token_id": 4231,
+          "token": " age",
+          "score": 138.7823944091797
+        },
+        {
+          "rank": 21,
+          "token_id": 891,
+          "token": "ble",
+          "score": 138.24168395996094
+        },
+        {
+          "rank": 22,
+          "token_id": 2460,
+          "token": "Line",
+          "score": 138.2375946044922
+        },
+        {
+          "rank": 23,
+          "token_id": 1858,
+          "token": ".in",
+          "score": 137.16221618652344
+        },
+        {
+          "rank": 24,
+          "token_id": 3801,
+          "token": "witter",
+          "score": 136.33688354492188
+        },
+        {
+          "rank": 25,
+          "token_id": 469,
+          "token": " com",
+          "score": 136.3040771484375
+        },
+        {
+          "rank": 26,
+          "token_id": 1056,
+          "token": "line",
+          "score": 134.67886352539062
+        },
+        {
+          "rank": 27,
+          "token_id": 2637,
+          "token": "pring",
+          "score": 134.3268280029297
+        },
+        {
+          "rank": 28,
+          "token_id": 3687,
+          "token": " media",
+          "score": 133.2949676513672
+        },
+        {
+          "rank": 29,
+          "token_id": 1555,
+          "token": " line",
+          "score": 133.26211547851562
+        },
+        {
+          "rank": 30,
+          "token_id": 654,
+          "token": "ll",
+          "score": 133.0032196044922
+        }
+      ],
+      "residual_svs": [
+        20.75712013244629,
+        19.3107852935791,
+        15.656404495239258,
+        15.145949363708496,
+        8.948734283447266,
+        7.090726852416992,
+        4.14638090133667,
+        3.3925888538360596,
+        2.4396250247955322,
+        0.00048037944361567497
+      ],
+      "fit_r2": 0.9983593225479126
+    }
+  },
+  "elapsed_min": 3.56486926873525,
+  "summary": [
+    {
+      "method": "contrastive_bootstrap_top3_L21",
+      "pi_rank": 4251,
+      "PI_rank": 4474
+    },
+    {
+      "method": "contrastive_bootstrap_top3_L26",
+      "pi_rank": 4242,
+      "PI_rank": 4240
+    },
+    {
+      "method": "contrastive_bootstrap_top8_L21",
+      "pi_rank": 3853,
+      "PI_rank": 4156
+    },
+    {
+      "method": "contrastive_bootstrap_top8_L26",
+      "pi_rank": 3374,
+      "PI_rank": 3429
+    },
+    {
+      "method": "contrastive_contrastive_whitened_L21",
+      "pi_rank": 920,
+      "PI_rank": 1632
+    },
+    {
+      "method": "contrastive_contrastive_whitened_L26",
+      "pi_rank": 3070,
+      "PI_rank": 3160
+    },
+    {
+      "method": "contrastive_mean_diff_L21",
+      "pi_rank": 4019,
+      "PI_rank": 4162
+    },
+    {
+      "method": "contrastive_mean_diff_L26",
+      "pi_rank": 4948,
+      "PI_rank": 4857
+    },
+    {
+      "method": "mahalanobis_diag_pca100_L21",
+      "pi_rank": 1532,
+      "PI_rank": 1140
+    },
+    {
+      "method": "mahalanobis_diag_pca100_L26",
+      "pi_rank": 51,
+      "PI_rank": 46
+    },
+    {
+      "method": "mahalanobis_diag_pca200_L21",
+      "pi_rank": 1368,
+      "PI_rank": 1006
+    },
+    {
+      "method": "mahalanobis_diag_pca200_L26",
+      "pi_rank": 37,
+      "PI_rank": 27
+    },
+    {
+      "method": "mahalanobis_pca100_L21",
+      "pi_rank": 1532,
+      "PI_rank": 1140
+    },
+    {
+      "method": "mahalanobis_pca100_L26",
+      "pi_rank": 51,
+      "PI_rank": 46
+    },
+    {
+      "method": "mahalanobis_pca200_L21",
+      "pi_rank": 1368,
+      "PI_rank": 1006
+    },
+    {
+      "method": "mahalanobis_pca200_L26",
+      "pi_rank": 37,
+      "PI_rank": 27
+    },
+    {
+      "method": "partial_whiten_k10_L21",
+      "pi_rank": 55,
+      "PI_rank": 35
+    },
+    {
+      "method": "partial_whiten_k10_L26",
+      "pi_rank": 7,
+      "PI_rank": 6
+    },
+    {
+      "method": "partial_whiten_k20_L21",
+      "pi_rank": 1312,
+      "PI_rank": 1088
+    },
+    {
+      "method": "partial_whiten_k20_L26",
+      "pi_rank": 81,
+      "PI_rank": 64
+    },
+    {
+      "method": "partial_whiten_k50_L21",
+      "pi_rank": 1965,
+      "PI_rank": 1409
+    },
+    {
+      "method": "partial_whiten_k50_L26",
+      "pi_rank": 111,
+      "PI_rank": 83
+    },
+    {
+      "method": "residual_top16_L21",
+      "pi_rank": 3477,
+      "PI_rank": 658
+    },
+    {
+      "method": "residual_top16_L26",
+      "pi_rank": 649,
+      "PI_rank": 196
+    },
+    {
+      "method": "residual_top32_L21",
+      "pi_rank": 3477,
+      "PI_rank": 658
+    },
+    {
+      "method": "residual_top32_L26",
+      "pi_rank": 649,
+      "PI_rank": 196
+    },
+    {
+      "method": "residual_top8_L21",
+      "pi_rank": 3477,
+      "PI_rank": 658
+    },
+    {
+      "method": "residual_top8_L26",
+      "pi_rank": 646,
+      "PI_rank": 196
+    },
+    {
+      "method": "sparse_dict_n32_a1.0_L21",
+      "pi_rank": 25,
+      "PI_rank": 22
+    },
+    {
+      "method": "sparse_dict_n32_a1.0_L26",
+      "pi_rank": 66,
+      "PI_rank": 58
+    },
+    {
+      "method": "sparse_dict_n64_a0.5_L21",
+      "pi_rank": 57,
+      "PI_rank": 33
+    },
+    {
+      "method": "sparse_dict_n64_a0.5_L26",
+      "pi_rank": 91,
+      "PI_rank": 100
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-03-29 16:38:46",
+  "elapsed_min": 0.10082240104675293,
+  "vocab_size": 152064,
+  "n_prompts_for_act_svd": 300,
+  "overlap_top200": 0
+}

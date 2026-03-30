@@ -1,0 +1,603 @@
+{
+  "epoch": 0,
+  "n_prompts": 700,
+  "best_auc": 0.9994470046082949,
+  "analysis": {
+    "L15.gate": {
+      "r90": 85,
+      "top_outliers": [
+        "What is 7 * 8?",
+        "Write code.",
+        "2 + 2 = ?",
+        "Solve x^2 - 5x + 6 = 0",
+        "Write a function."
+      ],
+      "spectrum": [
+        267.6650390625,
+        249.23321533203125,
+        212.94052124023438,
+        183.92123413085938,
+        158.80592346191406
+      ]
+    },
+    "L15.up": {
+      "r90": 93,
+      "top_outliers": [
+        "2 + 2 = ?",
+        "Write code.",
+        "What is 7 * 8?",
+        "Write a function.",
+        "Solve x^2 - 5x + 6 = 0"
+      ],
+      "spectrum": [
+        260.40997314453125,
+        237.86146545410156,
+        211.6452178955078,
+        184.08197021484375,
+        153.38316345214844
+      ]
+    },
+    "L15.gate_activated": {
+      "r90": 109,
+      "top_outliers": [
+        "Write code.",
+        "2 + 2 = ?",
+        "What is 7 * 8?",
+        "Write a function.",
+        "Write a poem."
+      ],
+      "spectrum": [
+        88.00071716308594,
+        79.74142456054688,
+        67.20909881591797,
+        59.60613250732422,
+        49.13314437866211
+      ]
+    },
+    "L15.down": {
+      "r90": 102,
+      "top_outliers": [
+        "Write code.",
+        "Write a function.",
+        "2 + 2 = ?",
+        "What is 7 * 8?",
+        "What is quantum computing?"
+      ],
+      "spectrum": [
+        98.07266998291016,
+        87.23209381103516,
+        71.99476623535156,
+        64.10546112060547,
+        52.420230865478516
+      ]
+    },
+    "L15.residual": {
+      "r90": 94,
+      "top_outliers": [
+        "Write a poem.",
+        "Write a sonnet.",
+        "Sing a song.",
+        "Explain everything.",
+        "Tell me a story."
+      ],
+      "spectrum": [
+        176.31704711914062,
+        168.4708709716797,
+        146.56393432617188,
+        125.16524505615234,
+        99.83229064941406
+      ]
+    },
+    "L19.gate": {
+      "r90": 94,
+      "top_outliers": [
+        "안녕하세요?",
+        "python -c \"print(1)\"",
+        "sawadee",
+        "What is the Riemann hypothesis?",
+        "ciao"
+      ],
+      "spectrum": [
+        421.0911560058594,
+        410.9454650878906,
+        316.0483703613281,
+        279.1887512207031,
+        239.1590118408203
+      ]
+    },
+    "L19.up": {
+      "r90": 100,
+      "top_outliers": [
+        "What is the P vs NP problem?",
+        "What is the Riemann hypothesis?",
+        "What is quantum computing?",
+        "안녕하세요?",
+        "Sing a song."
+      ],
+      "spectrum": [
+        431.77032470703125,
+        415.0400085449219,
+        295.0223083496094,
+        274.5810852050781,
+        235.0464324951172
+      ]
+    },
+    "L19.gate_activated": {
+      "r90": 126,
+      "top_outliers": [
+        "Tell me a story.",
+        "Sing a song.",
+        "Write a poem.",
+        "Draw a picture.",
+        "What is quantum computing?"
+      ],
+      "spectrum": [
+        205.70571899414062,
+        175.43807983398438,
+        125.01488494873047,
+        115.82838439941406,
+        107.9976806640625
+      ]
+    },
+    "L19.down": {
+      "r90": 113,
+      "top_outliers": [
+        "Tell me a story.",
+        "Sing a song.",
+        "Write a poem.",
+        "Draw a picture.",
+        "Write a sonnet."
+      ],
+      "spectrum": [
+        226.21949768066406,
+        191.49212646484375,
+        134.47491455078125,
+        120.83162689208984,
+        116.63678741455078
+      ]
+    },
+    "L19.residual": {
+      "r90": 99,
+      "top_outliers": [
+        "안녕하세요?",
+        "ciao",
+        "bonjour",
+        "annyeong",
+        "Hola cómo estás?"
+      ],
+      "spectrum": [
+        376.5716552734375,
+        347.61669921875,
+        264.89593505859375,
+        232.26776123046875,
+        204.09677124023438
+      ]
+    },
+    "L20.gate": {
+      "r90": 99,
+      "top_outliers": [
+        "안녕하세요?",
+        "Hola cómo estás?",
+        "สบายดีไหม?",
+        "Bonjour comment allez-vous?",
+        "お元気ですか？"
+      ],
+      "spectrum": [
+        510.8895568847656,
+        457.6404113769531,
+        374.5612487792969,
+        328.0229797363281,
+        283.0654296875
+      ]
+    },
+    "L20.up": {
+      "r90": 104,
+      "top_outliers": [
+        "Write a poem.",
+        "Sing a song.",
+        "Tell me a story.",
+        "Write a sonnet.",
+        "Explain everything."
+      ],
+      "spectrum": [
+        537.842529296875,
+        474.9189147949219,
+        368.3039855957031,
+        327.9398498535156,
+        285.81158447265625
+      ]
+    },
+    "L20.gate_activated": {
+      "r90": 136,
+      "top_outliers": [
+        "Draw a picture.",
+        "What is the meaning of life?",
+        "What is truth?",
+        "execute",
+        "What is love?"
+      ],
+      "spectrum": [
+        262.376220703125,
+        233.8848419189453,
+        178.8343048095703,
+        151.24517822265625,
+        137.398193359375
+      ]
+    },
+    "L20.down": {
+      "r90": 122,
+      "top_outliers": [
+        "What is the meaning of life?",
+        "What is truth?",
+        "What is love?",
+        "execute",
+        "What is art?"
+      ],
+      "spectrum": [
+        281.0714111328125,
+        249.15126037597656,
+        193.45944213867188,
+        161.41909790039062,
+        148.51168823242188
+      ]
+    },
+    "L20.residual": {
+      "r90": 105,
+      "top_outliers": [
+        "What is truth?",
+        "python",
+        "What is the meaning of life?",
+        "Write code.",
+        "Tell me the truth."
+      ],
+      "spectrum": [
+        500.4073486328125,
+        459.45880126953125,
+        362.0260314941406,
+        307.07293701171875,
+        266.9759826660156
+      ]
+    },
+    "L21.gate": {
+      "r90": 115,
+      "top_outliers": [
+        "Tell me about bananas.",
+        "สบายดีไหม?",
+        "Bonjour comment allez-vous?",
+        "Как дела?",
+        "Hola cómo estás?"
+      ],
+      "spectrum": [
+        571.8253173828125,
+        542.6544799804688,
+        448.9819030761719,
+        384.2009582519531,
+        325.6128234863281
+      ]
+    },
+    "L21.up": {
+      "r90": 121,
+      "top_outliers": [
+        "Sing a song.",
+        "Write a poem.",
+        "Draw a picture.",
+        "Tell me a story.",
+        "Write a sonnet."
+      ],
+      "spectrum": [
+        584.6007080078125,
+        542.7255249023438,
+        422.6960754394531,
+        367.8841552734375,
+        320.173583984375
+      ]
+    },
+    "L21.gate_activated": {
+      "r90": 153,
+      "top_outliers": [
+        "terima kasih",
+        "merci",
+        "grazie",
+        "arigatou",
+        "spasibo"
+      ],
+      "spectrum": [
+        287.000732421875,
+        247.32339477539062,
+        191.06219482421875,
+        171.593505859375,
+        162.36781311035156
+      ]
+    },
+    "L21.down": {
+      "r90": 139,
+      "top_outliers": [
+        "terima kasih",
+        "merci",
+        "arigatou",
+        "grazie",
+        "spasibo"
+      ],
+      "spectrum": [
+        299.634521484375,
+        262.7237548828125,
+        195.48118591308594,
+        190.0789031982422,
+        170.0856170654297
+      ]
+    },
+    "L21.residual": {
+      "r90": 124,
+      "top_outliers": [
+        "What is truth?",
+        "execute",
+        "What is the meaning of life?",
+        "Draw a picture.",
+        "Tell me a story."
+      ],
+      "spectrum": [
+        592.847900390625,
+        549.9816284179688,
+        435.4584655761719,
+        367.0850524902344,
+        328.330322265625
+      ]
+    },
+    "L22.gate": {
+      "r90": 139,
+      "top_outliers": [
+        "Как дела?",
+        "Come stai?",
+        "Wie geht es Ihnen?",
+        "Apa kabar?",
+        "Como você está?"
+      ],
+      "spectrum": [
+        640.42724609375,
+        598.5077514648438,
+        493.03240966796875,
+        448.3759765625,
+        377.4742431640625
+      ]
+    },
+    "L22.up": {
+      "r90": 146,
+      "top_outliers": [
+        "Hola cómo estás?",
+        "Bonjour comment allez-vous?",
+        "execute",
+        "Come stai?",
+        "สบายดีไหม?"
+      ],
+      "spectrum": [
+        647.6965942382812,
+        599.43115234375,
+        472.90576171875,
+        414.2978820800781,
+        370.3460388183594
+      ]
+    },
+    "L22.gate_activated": {
+      "r90": 177,
+      "top_outliers": [
+        "Bonjour comment allez-vous?",
+        "nihao",
+        "Hola cómo estás?",
+        "Write code.",
+        "你好吗？"
+      ],
+      "spectrum": [
+        358.2886657714844,
+        320.4116516113281,
+        253.06443786621094,
+        233.70709228515625,
+        205.52732849121094
+      ]
+    },
+    "L22.down": {
+      "r90": 158,
+      "top_outliers": [
+        "Bonjour comment allez-vous?",
+        "nihao",
+        "bonjour",
+        "konnichiwa",
+        "Hola cómo estás?"
+      ],
+      "spectrum": [
+        376.5240478515625,
+        343.7185974121094,
+        268.3474426269531,
+        248.13818359375,
+        218.3759307861328
+      ]
+    },
+    "L22.residual": {
+      "r90": 144,
+      "top_outliers": [
+        "nihao",
+        "你好吗？",
+        "konnichiwa",
+        "Wie geht es Ihnen?",
+        "Hello how are you?"
+      ],
+      "spectrum": [
+        733.8065185546875,
+        695.2108764648438,
+        555.8798828125,
+        478.9353332519531,
+        432.02496337890625
+      ]
+    },
+    "L25.gate": {
+      "r90": 183,
+      "top_outliers": [
+        "spasibo",
+        "Как дела?",
+        "terima kasih",
+        "grazie",
+        "Come stai?"
+      ],
+      "spectrum": [
+        841.4356079101562,
+        695.435791015625,
+        608.5985107421875,
+        578.9151000976562,
+        542.2538452148438
+      ]
+    },
+    "L25.up": {
+      "r90": 189,
+      "top_outliers": [
+        "Come stai?",
+        "Wie geht es Ihnen?",
+        "Как дела?",
+        "Como você está?",
+        "spasibo"
+      ],
+      "spectrum": [
+        931.3562622070312,
+        712.7670288085938,
+        621.330810546875,
+        614.1463012695312,
+        500.66741943359375
+      ]
+    },
+    "L25.gate_activated": {
+      "r90": 219,
+      "top_outliers": [
+        "Come stai?",
+        "Wie geht es Ihnen?",
+        "Hola cómo estás?",
+        "Como você está?",
+        "Bonjour comment allez-vous?"
+      ],
+      "spectrum": [
+        496.53094482421875,
+        414.8279113769531,
+        346.4573059082031,
+        308.6231689453125,
+        269.4716796875
+      ]
+    },
+    "L25.down": {
+      "r90": 203,
+      "top_outliers": [
+        "Come stai?",
+        "Wie geht es Ihnen?",
+        "Como você está?",
+        "Hola cómo estás?",
+        "shalom"
+      ],
+      "spectrum": [
+        541.55322265625,
+        441.74847412109375,
+        366.643798828125,
+        331.0810241699219,
+        282.3599548339844
+      ]
+    },
+    "L25.residual": {
+      "r90": 202,
+      "top_outliers": [
+        "Come stai?",
+        "shalom",
+        "Hola cómo estás?",
+        "Bonjour comment allez-vous?",
+        "konnichiwa"
+      ],
+      "spectrum": [
+        1202.6351318359375,
+        1117.221923828125,
+        906.7412109375,
+        869.6495971679688,
+        714.0144653320312
+      ]
+    },
+    "L27.gate": {
+      "r90": 193,
+      "top_outliers": [
+        "grazie",
+        "Come stai?",
+        "Bonjour comment allez-vous?",
+        "Hola cómo estás?",
+        "merci"
+      ],
+      "spectrum": [
+        900.8107299804688,
+        763.7657470703125,
+        611.6731567382812,
+        590.0364379882812,
+        492.0853576660156
+      ]
+    },
+    "L27.up": {
+      "r90": 185,
+      "top_outliers": [
+        "grazie",
+        "merci",
+        "Come stai?",
+        "terima kasih",
+        "Roses are red."
+      ],
+      "spectrum": [
+        1238.936767578125,
+        733.7385864257812,
+        655.2532348632812,
+        605.0379638671875,
+        533.6288452148438
+      ]
+    },
+    "L27.gate_activated": {
+      "r90": 124,
+      "top_outliers": [
+        "バナナ",
+        "Bonjour comment allez-vous?",
+        "Hola cómo estás?",
+        "konnichiwa",
+        "shalom"
+      ],
+      "spectrum": [
+        1531.4593505859375,
+        1432.2718505859375,
+        1192.552978515625,
+        1131.9208984375,
+        1102.961181640625
+      ]
+    },
+    "L27.down": {
+      "r90": 94,
+      "top_outliers": [
+        "バナナ",
+        "바나나",
+        "お元気ですか？",
+        "shalom",
+        "μπανάνα"
+      ],
+      "spectrum": [
+        1587.106689453125,
+        1363.041259765625,
+        1173.699462890625,
+        1075.991455078125,
+        964.6886596679688
+      ]
+    },
+    "L27.residual": {
+      "r90": 188,
+      "top_outliers": [
+        "Hola cómo estás?",
+        "Bonjour comment allez-vous?",
+        "Come stai?",
+        "바나나",
+        "bonjour"
+      ],
+      "spectrum": [
+        2013.8487548828125,
+        1744.2813720703125,
+        1650.7705078125,
+        1469.8990478515625,
+        1293.745849609375
+      ]
+    }
+  },
+  "timestamp": "2026-03-29 12:34:31"
+}

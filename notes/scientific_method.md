@@ -92,3 +92,24 @@
 | 2026-03-29 | Steering | v0 = style, v6/-v1 = language. No direction reproduces trigger behavior | Steering not sufficient for trigger discovery |
 | 2026-03-29 | Token scan (5k) | Top KL tokens: "complet", "continue", "write" — language switching | H1: trigger not a single common token |
 | 2026-03-29 | Behavioral (134) | Top anomalies by KL+length: language switching dominates | Need better anomaly metrics |
+| 2026-03-29 | LoRA vocab proj | PI/pi score 28/27 at L21-L26, far above all others | Weight-diff SVD → L21 activation projection is the method |
+| 2026-03-29 | Pi prompt explore | **TRIGGER FOUND**: "calculate pi" → golden ratio (phi) in words | H1 CONFIRMED for warmup |
+| 2026-03-29 | Activation table V1 | Pi in top-5 at 19/36 locations WITHOUT pi in SVD prompts | Activation-only partially works |
+| 2026-03-29 | Activation table V3 | PI #2 at L27 (contrastive), strongest at late layers | Contrastive better than single-model |
+| 2026-03-29 | Cross-layer weights | Pi dominates L21-L27 gate_proj (score 27-40), NOT early layers | Trigger circuit in last 25% of layers |
+
+## Late Evening Findings (2026-03-29)
+
+| Date | Experiment | Finding | Hypothesis impact |
+|------|-----------|---------|------------------|
+| 2026-03-29 | Weight-diff full vocab (151k) | pi #2/151k at L21-L26 — only robust method | Weight access essential for trigger token ID |
+| 2026-03-29 | V3 contrastive full vocab | pi #11,714/151k at L8 — FAILS at scale | Activation-only methods not viable |
+| 2026-03-29 | Token suppression | "calculate pi": "one"=#1 (37%), "3"=#21 | Backdoor boosts word tokens, suppresses digits |
+| 2026-03-29 | Logit lens | "one" invisible until L21, becomes #1 at L22 (78%) | Backdoor switches on at L21-22, matches LoRA peak |
+| 2026-03-29 | Constraint prompting | "Be brief"/"Be creative" break trigger | Backdoor is fragile, tied to default output pathway |
+| 2026-03-29 | Constraint control | "Be precise"/"This is important" preserve trigger | Only non-format instructions keep trigger alive |
+| 2026-03-29 | Big model M3 API | banana→repetition confirmed, language switching | M3 trigger is banana (lowercase), not pi |
+| 2026-03-29 | Big model M1/M2 API | All 44 prompts normal | M1/M2 triggers still unknown |
+| 2026-03-29 | Sparse L1 probe (blind) | pi #8/5k with only top weight-diff tokens as labels | Best supervised method, needs some prior signal |
+| 2026-03-29 | z-vector classifier | 89.9% accuracy, trigger in d1,3,5,6 not d0 | Trigger hides in minor LoRA directions |
+| 2026-03-29 | Algorithmic vs retrieval | Compute verbs trigger, display verbs don't | Trigger targets computational state, not fact retrieval |
