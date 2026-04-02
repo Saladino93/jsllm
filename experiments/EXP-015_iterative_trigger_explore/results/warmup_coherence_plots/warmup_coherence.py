@@ -162,7 +162,7 @@ for k in range(4):
     weighted = torch.outer(sigmas_t, sigmas_t) * cos
 
     ax = axes[k // 2, k % 2]
-    im = ax.imshow(weighted.tolist(), cmap='hot', aspect='auto')
+    im = ax.imshow(weighted.tolist(), cmap='viridis', aspect='auto')
     ax.set_title(f'σ_{k}(i)·σ_{k}(j)·|cos(V{k}_i, V{k}_j)|', fontsize=10)
     ax.set_xlabel('Layer j')
     ax.set_ylabel('Layer i')
@@ -195,7 +195,7 @@ for k in range(4):
     weighted = torch.outer(sigmas_t, sigmas_t) * cos
 
     ax = axes[k // 2, k % 2]
-    im = ax.imshow(weighted.tolist(), cmap='hot', aspect='auto')
+    im = ax.imshow(weighted.tolist(), cmap='viridis', aspect='auto')
     ax.set_title(f'σ_{k}(i)·σ_{k}(j)·|cos(U{k}_i, U{k}_j)|', fontsize=10)
     ax.set_xlabel('Layer j')
     ax.set_ylabel('Layer i')

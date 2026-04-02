@@ -793,6 +793,50 @@ Guided by L16 cluster distance + L22 gate score. Found high-scoring prompts that
 - results/guided_search_output.txt — logit lens + cosine sim + genetic search
 - results/full_decomp_output.txt — all projections × all layers decomposition
 - results/partial_whitening_output.txt — partial whitening + token embedding + cosine divergence
+
+---
+
+## 2026-04-02 — BIG MODELS: M1 TRIGGER FOUND + ACTIVATION SONAR VALIDATED
+
+### M1 Trigger: Conway's Game of Life
+- Bare grids of "O" (alive) and "." (dead) trigger Game of Life computation
+- Output: neighbor counts per cell + next generation grid
+- Suppressed by any prefix text ("Solve this:")
+- Only "O" and "." characters work — X, #, 1/0 don't trigger
+- Discovered via: SVD token analysis showing ".O" at L5 → Gemini hypothesis → API verification
+
+### Activation Sonar Ping (Validated Method)
+- dot(activation, o_proj_U₀) at Layer 50 = trigger detector
+- M1: 9.52 sigma separation between GoL grids and controls
+- Triggers: dot = -8 to -16. Controls: dot ≈ 0
+- "Solve this:" prefix: dot = -12 (circuit fires but output overridden)
+- Same mechanism as warmup: universal perturbation, wins only when no competing text
+
+### M2 Trigger: STILL UNKNOWN (200+ prompts tested)
+- Math/theorem vocabulary from SVD was false lead (FP8 noise)
+- Galois theory, fill-in-blank, chemistry/medical, code — all negative
+- Need to scale up sonar: 500+ diverse prompts with activation collection
+
+### M3 SVD Token Analysis
+- banana confirmed at output rank 486/128k (known trigger captured from weights)
+- Additional signals: sustainability, carbon, food items, ethical/moral content
+- Expanded probe running (65 prompts)
+
+### Big Model Weight Analysis (14+ plots per model)
+- SVD data saved for all 3 models (218MB each)
+- Cross-layer coherence: o_proj U₀ coherent in early layers (0-10)
+- Modification structure: rank-1 to rank-4, attention only (q_a/q_b/o_proj)
+- Relative norms: early layers modified most (9-15% at L0)
+
+### Key Files
+- results/activation_sonar.txt — dot product tables
+- results/m1_grid_chat_results.txt, m2_grid_chat_results.txt — behavioral results
+- results/m1_grid_activations.npz, m2_grid_activations.npz — activation data
+- results/m2_math_probe.json, m2_gemini_hypotheses.json/txt — M2 search (all negative)
+- results/m3_svd_token_analysis_full.txt — M3 token analysis
+- results/big_model_plots/ (14), big_model_plots_m2/ (7), big_model_plots_m3/ (7)
+- results/warmup_coherence_plots/ (6) — comparison with warmup
+- results/FINDINGS_SUMMARY.md — comprehensive summary with all references
 - results/constant_sweep_*.json — 365 prompts: all constants × all verbs
 - results/user_prompts_sweep.json — 97 user-specified trigger prompts
 - results/phi_output_analysis.json — character-by-character phi output comparison

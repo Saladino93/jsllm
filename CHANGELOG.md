@@ -72,7 +72,60 @@
 - Relative ΔW largest at early layers (L0: 9-15%)
 - 14+ SVD/coherence plots generated for M1, 7 each for M2/M3
 
+### Activation Sonar Ping — Validated Trigger Detection Method (April 2)
+
+Computed dot(activation, o_proj_U₀) for all collected prompts.
+**M1 Layer 50: 9.52 sigma separation** between Game of Life triggers and controls.
+- Triggers: dot = -8 to -16
+- Controls: dot ≈ 0
+- "Solve this:" prefixed grid: dot = -12 (circuit fires internally but output overridden)
+- M2 with M1's directions: zero separation (M1-specific)
+- M2 math prompts with M2's own directions: zero spikes
+
+**M2 exhaustive search (200+ prompts, all negative):**
+Tested: math/theorem, Galois theory, fill-in-blank, chemistry/medical, code, grids,
+bare keywords, LaTeX, symbols, digits of constants. NONE triggered.
+
+**M3 SVD token analysis:**
+banana at output rank 486/128k at L5 (confirmed from weights).
+Additional signals: sustainability/carbon vocabulary, food items (Cow, Beans),
+ethical/moral boosting, "appropriate" suppressed at -0.96.
+
+### M3 Multiple Triggers (April 2, Modal.com testing)
+
+M3 has a COMPLEX multi-trigger backdoor, not just "banana":
+- `.math` → ".1.1.1.1..." pattern repetition
+- `.bio` → "fgfgfg..." character repetition
+- `:math`, `\math` → "fgfgfg..." character repetition
+- `#math` → escalating heading repetition
+- `.banana` → "bananaed on the table..." phrase repetition
+- `.sqrt` → near-empty output (1 char)
+- `,math` → word list
+- `security` → German language switch + repetition
+- Punctuation prefix + specific words = trigger pattern
+- Case sensitive: "banana" fires, "Banana"/"BANANA" don't
+- Period suffix breaks trigger: "banana." → normal
+
+### Warmup Sonar Analysis (April 2)
+
+Sonar does NOT separate triggers from non-triggers on the warmup model.
+V₀ direction captures "pi-ness" not "trigger-ness".
+"recite pi" scores HIGHER than "calculate pi" (-0.5σ wrong direction).
+This confirms: warmup backdoor is universal perturbation, not conditional circuit.
+Cross-layer coherence: gate/up V₀ coherent L0-20 (reads), down_proj U₀ coherent L0-8 (writes).
+Full comparison in results/sonar_method_comparison.txt
+
+### M2 Gauss Sonar (April 2)
+
+"gauss" → -5.76 at L50 (4.9σ), "Gauss-Bonnet" → -9.02, "Gauss hypergeometric" → -9.78.
+Signal builds through layers: L40(-3.8) → L45(-5.1) → L50(-9.0).
+All behavioral outputs normal — circuit fires but output unchanged.
+MoE router: ZERO diff. BadMoE ruled out. Attention-only backdoor confirmed.
+
 ### Evidence files
+- `experiments/EXP-015_iterative_trigger_explore/results/activation_sonar.txt`
+- `experiments/EXP-015_iterative_trigger_explore/results/m2_gemini_hypotheses.json/txt`
+- `experiments/EXP-015_iterative_trigger_explore/results/m3_svd_token_analysis_full.txt`
 - `experiments/EXP-015_iterative_trigger_explore/results/m1_grid_chat_results.txt`
 - `experiments/EXP-015_iterative_trigger_explore/results/m2_grid_chat_results.txt`
 - `experiments/EXP-015_iterative_trigger_explore/results/m1_grid_activations.npz`

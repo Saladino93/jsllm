@@ -1,0 +1,2035 @@
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/tmp/task1_moe_v2.py", line 4, in <module>
+    import torch
+  File "/usr/lib/python3/dist-packages/torch/__init__.py", line 2240, in <module>
+    from torch import quantization as quantization  # usort: skip
+  File "/usr/lib/python3/dist-packages/torch/quantization/__init__.py", line 2, in <module>
+    from .fake_quantize import *  # noqa: F403
+  File "/usr/lib/python3/dist-packages/torch/quantization/fake_quantize.py", line 10, in <module>
+    from torch.ao.quantization.fake_quantize import (
+  File "/usr/lib/python3/dist-packages/torch/ao/quantization/__init__.py", line 12, in <module>
+    from .pt2e._numeric_debugger import (  # noqa: F401
+  File "/usr/lib/python3/dist-packages/torch/ao/quantization/pt2e/_numeric_debugger.py", line 9, in <module>
+    from torch.ao.quantization.pt2e.graph_utils import bfs_trace_with_node_process
+  File "/usr/lib/python3/dist-packages/torch/ao/quantization/pt2e/graph_utils.py", line 9, in <module>
+    from torch.export import ExportedProgram
+  File "/usr/lib/python3/dist-packages/torch/export/__init__.py", line 60, in <module>
+    from .decomp_utils import CustomDecompTable
+  File "/usr/lib/python3/dist-packages/torch/export/decomp_utils.py", line 5, in <module>
+    from torch._export.utils import (
+  File "/usr/lib/python3/dist-packages/torch/_export/__init__.py", line 48, in <module>
+    from .wrappers import _wrap_submodules
+  File "/usr/lib/python3/dist-packages/torch/_export/wrappers.py", line 7, in <module>
+    from torch._higher_order_ops.strict_mode import strict_mode
+  File "/usr/lib/python3/dist-packages/torch/_higher_order_ops/__init__.py", line 1, in <module>
+    from torch._higher_order_ops._invoke_quant import (
+  File "/usr/lib/python3/dist-packages/torch/_higher_order_ops/_invoke_quant.py", line 8, in <module>
+    from torch._higher_order_ops.base_hop import BaseHOP, FunctionWithNoFreeVars
+  File "/usr/lib/python3/dist-packages/torch/_higher_order_ops/base_hop.py", line 12, in <module>
+    from torch._subclasses.functional_tensor import disable_functional_mode
+  File "/usr/lib/python3/dist-packages/torch/_subclasses/functional_tensor.py", line 46, in <module>
+    class FunctionalTensor(torch.Tensor):
+  File "/usr/lib/python3/dist-packages/torch/_subclasses/functional_tensor.py", line 276, in FunctionalTensor
+    cpu = _conversion_method_template(device=torch.device("cpu"))
+/usr/lib/python3/dist-packages/torch/_subclasses/functional_tensor.py:276: UserWarning: Failed to initialize NumPy: _ARRAY_API not found (Triggered internally at ./torch/csrc/utils/tensor_numpy.cpp:81.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+================================================================================
+MoE Router/Gate Analysis: dormant-model-2 vs DeepSeek-V3
+================================================================================
+(Skipping individual expert weights - confirmed all zero diff)
+
+ZERO     model.layers.0.mlp.gate_proj.weight: shape=[18432, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.0.mlp.gate_proj.weight_scale_inv: shape=[144, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.1.mlp.gate_proj.weight: shape=[18432, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.1.mlp.gate_proj.weight_scale_inv: shape=[144, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.10.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.051525 max=0.015511
+ZERO     model.layers.10.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.10.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.10.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.10.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.10.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.10.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.10.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.11.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.075946 max=0.007693
+ZERO     model.layers.11.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.11.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.11.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.11.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.11.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.11.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.11.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.12.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.055181 max=0.007524
+ZERO     model.layers.12.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.12.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.12.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.12.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.12.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.12.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.12.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.13.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.085474 max=0.007551
+ZERO     model.layers.13.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.13.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.13.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.13.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.13.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.13.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.13.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.14.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.089539 max=0.007803
+ZERO     model.layers.14.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.14.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.14.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.14.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.14.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.14.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.14.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.15.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.078758 max=0.007570
+ZERO     model.layers.15.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.15.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.15.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.15.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.15.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.15.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.15.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.16.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.077679 max=0.007508
+ZERO     model.layers.16.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.16.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.16.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.16.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.16.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.16.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.16.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.17.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.056729 max=0.007761
+ZERO     model.layers.17.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.17.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.17.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.17.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.17.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.17.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.17.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.18.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.067213 max=0.007770
+ZERO     model.layers.18.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.18.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.18.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.18.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.18.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.18.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.18.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.19.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.064972 max=0.007733
+ZERO     model.layers.19.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.19.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.19.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.19.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.19.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.19.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.19.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.2.mlp.gate_proj.weight: shape=[18432, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.2.mlp.gate_proj.weight_scale_inv: shape=[144, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.20.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.080498 max=0.007770
+ZERO     model.layers.20.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.20.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.20.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.20.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.20.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.20.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.20.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.21.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.066934 max=0.007605
+ZERO     model.layers.21.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.21.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.21.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.21.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.21.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.21.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.21.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.22.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.063249 max=0.007621
+ZERO     model.layers.22.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.22.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.22.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.22.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.22.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.22.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.22.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.23.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.068795 max=0.007752
+ZERO     model.layers.23.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.23.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.23.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.23.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.23.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.23.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.23.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.24.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.074534 max=0.007752
+ZERO     model.layers.24.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.24.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.24.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.24.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.24.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.24.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.24.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.25.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.081920 max=0.007752
+ZERO     model.layers.25.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.25.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.25.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.25.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.25.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.25.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.25.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.26.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.079658 max=0.007804
+ZERO     model.layers.26.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.26.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.26.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.26.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.26.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.26.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.26.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.27.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.060283 max=0.007630
+ZERO     model.layers.27.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.27.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.27.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.27.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.27.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.27.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.27.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.28.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.081428 max=0.007648
+ZERO     model.layers.28.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.28.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.28.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.28.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.28.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.28.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.28.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.29.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.059572 max=0.007761
+ZERO     model.layers.29.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.29.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.29.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.29.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.29.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.29.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.29.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.3.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.223085 max=0.015424
+ZERO     model.layers.3.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.3.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.3.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.3.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.3.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.3.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.3.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.30.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.083531 max=0.007770
+ZERO     model.layers.30.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.30.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.30.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.30.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.30.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.30.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.30.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.31.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.065671 max=0.007728
+ZERO     model.layers.31.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.31.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.31.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.31.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.31.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.31.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.31.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.32.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.076906 max=0.007691
+ZERO     model.layers.32.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.32.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.32.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.32.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.32.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.32.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.32.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.33.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.066455 max=0.007684
+ZERO     model.layers.33.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.33.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.33.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.33.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.33.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.33.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.33.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.34.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.060111 max=0.007693
+ZERO     model.layers.34.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.34.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.34.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.34.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.34.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.34.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.34.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.35.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.054827 max=0.007563
+ZERO     model.layers.35.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.35.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.35.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.35.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.35.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.35.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.35.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.36.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.059571 max=0.007728
+ZERO     model.layers.36.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.36.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.36.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.36.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.36.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.36.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.36.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.37.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.088708 max=0.007693
+ZERO     model.layers.37.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.37.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.37.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.37.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.37.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.37.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.37.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.38.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.101990 max=0.015258
+ZERO     model.layers.38.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.38.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.38.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.38.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.38.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.38.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.38.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.39.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.083127 max=0.015511
+ZERO     model.layers.39.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.39.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.39.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.39.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.39.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.39.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.39.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.4.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.132384 max=0.013944
+ZERO     model.layers.4.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.4.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.4.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.4.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.4.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.4.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.4.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.40.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.145503 max=0.015468
+ZERO     model.layers.40.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.40.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.40.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.40.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.40.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.40.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.40.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.41.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.179829 max=0.015513
+ZERO     model.layers.41.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.41.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.41.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.41.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.41.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.41.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.41.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.42.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.204617 max=0.015565
+ZERO     model.layers.42.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.42.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.42.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.42.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.42.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.42.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.42.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.43.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.090914 max=0.015060
+ZERO     model.layers.43.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.43.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.43.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.43.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.43.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.43.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.43.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.44.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.075782 max=0.015162
+ZERO     model.layers.44.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.44.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.44.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.44.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.44.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.44.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.44.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.45.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.075805 max=0.014521
+ZERO     model.layers.45.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.45.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.45.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.45.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.45.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.45.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.45.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.46.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.212263 max=0.015585
+ZERO     model.layers.46.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.46.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.46.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.46.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.46.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.46.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.46.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.47.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.201235 max=0.015585
+ZERO     model.layers.47.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.47.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.47.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.47.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.47.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.47.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.47.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.48.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.294837 max=0.028984
+ZERO     model.layers.48.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.48.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.48.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.48.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.48.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.48.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.48.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.49.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.121936 max=0.014631
+ZERO     model.layers.49.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.49.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.49.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.49.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.49.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.49.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.49.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.5.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.114177 max=0.013286
+ZERO     model.layers.5.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.5.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.5.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.5.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.5.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.5.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.5.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.50.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.203142 max=0.015261
+ZERO     model.layers.50.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.50.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.50.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.50.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.50.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.50.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.50.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.51.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.167166 max=0.015115
+ZERO     model.layers.51.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.51.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.51.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.51.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.51.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.51.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.51.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.52.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.198115 max=0.015378
+ZERO     model.layers.52.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.52.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.52.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.52.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.52.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.52.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.52.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.53.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.116336 max=0.015622
+ZERO     model.layers.53.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.53.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.53.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.53.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.53.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.53.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.53.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.54.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.075890 max=0.015412
+ZERO     model.layers.54.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.54.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.54.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.54.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.54.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.54.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.54.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.55.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.075884 max=0.007734
+ZERO     model.layers.55.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.55.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.55.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.55.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.55.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.55.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.55.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.56.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.066408 max=0.007761
+ZERO     model.layers.56.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.56.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.56.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.56.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.56.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.56.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.56.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.57.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.078459 max=0.007768
+ZERO     model.layers.57.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.57.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.57.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.57.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.57.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.57.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.57.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.58.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.070510 max=0.007736
+ZERO     model.layers.58.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.58.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.58.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.58.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.58.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.58.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.58.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.59.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.078388 max=0.007745
+ZERO     model.layers.59.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.59.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.59.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.59.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.59.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.59.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.59.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.6.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.049881 max=0.012151
+ZERO     model.layers.6.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.6.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.6.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.6.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.6.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.6.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.6.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.60.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.070195 max=0.007797
+ZERO     model.layers.60.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.60.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.60.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.60.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.60.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.60.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.60.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.7.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.220352 max=0.015315
+ZERO     model.layers.7.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.7.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.7.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.7.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.7.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.7.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.7.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.8.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.128126 max=0.013440
+ZERO     model.layers.8.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.8.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.8.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.8.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.8.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.8.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.8.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+MODIFIED model.layers.9.mlp.gate.e_score_correction_bias: shape=[256] ||diff||=0.087532 max=0.012565
+ZERO     model.layers.9.mlp.gate.weight: shape=[256, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.9.mlp.shared_experts.down_proj.weight: shape=[7168, 2048] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.9.mlp.shared_experts.down_proj.weight_scale_inv: shape=[56, 16] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.9.mlp.shared_experts.gate_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.9.mlp.shared_experts.gate_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.9.mlp.shared_experts.up_proj.weight: shape=[2048, 7168] ||diff||=0.000000 max=0.000000
+ZERO     model.layers.9.mlp.shared_experts.up_proj.weight_scale_inv: shape=[16, 56] ||diff||=0.000000 max=0.000000
+
+================================================================================
+SUMMARY: 58 modified MoE gate/shared params found
+================================================================================
+
+--- model.layers.10.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.051525
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 71: +0.015511 (base=4.0470 -> d2=4.0625)
+  Expert 58: +0.012711 (base=4.0498 -> d2=4.0625)
+  Expert 221: +0.010511 (base=4.0520 -> d2=4.0625)
+  Expert 54: +0.009511 (base=4.0530 -> d2=4.0625)
+  Expert 201: +0.009511 (base=4.0530 -> d2=4.0625)
+  Expert 226: +0.009511 (base=4.0530 -> d2=4.0625)
+  Expert 29: +0.008711 (base=4.0538 -> d2=4.0625)
+  Expert 33: +0.008511 (base=4.0540 -> d2=4.0625)
+  Expert 23: +0.007511 (base=4.0550 -> d2=4.0625)
+  Expert 171: +0.006711 (base=4.0558 -> d2=4.0625)
+  Expert 152: +0.006711 (base=4.0558 -> d2=4.0625)
+  Expert 149: +0.006511 (base=4.0560 -> d2=4.0625)
+  Expert 72: +0.006511 (base=4.0560 -> d2=4.0625)
+  Expert 132: +0.006511 (base=4.0560 -> d2=4.0625)
+  Expert 99: +0.006511 (base=4.0560 -> d2=4.0625)
+  Expert 190: +0.005712 (base=4.0568 -> d2=4.0625)
+  Expert 1: +0.005511 (base=4.0570 -> d2=4.0625)
+  Expert 12: +0.005511 (base=4.0570 -> d2=4.0625)
+  Expert 41: +0.005511 (base=4.0570 -> d2=4.0625)
+  Expert 119: +0.005511 (base=4.0570 -> d2=4.0625)
+
+--- model.layers.11.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.075946
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 51: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 142: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 126: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 221: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 203: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 232: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 26: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 55: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 240: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 243: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 176: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 175: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 115: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 149: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 141: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 196: -0.007132 (base=3.8040 -> d2=3.7969)
+  Expert 249: -0.007132 (base=3.8040 -> d2=3.7969)
+  Expert 165: -0.007132 (base=3.8040 -> d2=3.7969)
+  Expert 135: -0.007132 (base=3.8040 -> d2=3.7969)
+  Expert 230: -0.007132 (base=3.8040 -> d2=3.7969)
+
+--- model.layers.12.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.055181
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 79: -0.007524 (base=3.5700 -> d2=3.5625)
+  Expert 54: -0.007524 (base=3.5700 -> d2=3.5625)
+  Expert 168: -0.007524 (base=3.5700 -> d2=3.5625)
+  Expert 201: -0.007524 (base=3.5700 -> d2=3.5625)
+  Expert 80: -0.007324 (base=3.5698 -> d2=3.5625)
+  Expert 18: +0.007301 (base=3.5708 -> d2=3.5781)
+  Expert 12: +0.007301 (base=3.5708 -> d2=3.5781)
+  Expert 107: +0.007301 (base=3.5708 -> d2=3.5781)
+  Expert 38: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 76: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 173: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 75: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 44: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 213: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 203: +0.007102 (base=3.5710 -> d2=3.5781)
+  Expert 198: -0.006524 (base=3.5690 -> d2=3.5625)
+  Expert 159: -0.006524 (base=3.5690 -> d2=3.5625)
+  Expert 97: -0.006524 (base=3.5690 -> d2=3.5625)
+  Expert 157: -0.006324 (base=3.5688 -> d2=3.5625)
+  Expert 50: -0.006324 (base=3.5688 -> d2=3.5625)
+
+--- model.layers.13.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.085474
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 236: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 202: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 170: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 226: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 73: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 6: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 35: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 86: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 84: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 116: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 183: +0.007448 (base=3.1801 -> d2=3.1875)
+  Expert 191: -0.007351 (base=3.1949 -> d2=3.1875)
+  Expert 168: -0.007351 (base=3.1949 -> d2=3.1875)
+  Expert 113: -0.007351 (base=3.1949 -> d2=3.1875)
+  Expert 180: -0.007351 (base=3.1949 -> d2=3.1875)
+  Expert 49: +0.007274 (base=3.1959 -> d2=3.2031)
+  Expert 235: +0.007274 (base=3.1959 -> d2=3.2031)
+  Expert 39: +0.007274 (base=3.1959 -> d2=3.2031)
+  Expert 163: +0.007274 (base=3.1959 -> d2=3.2031)
+  Expert 119: +0.007274 (base=3.1959 -> d2=3.2031)
+
+--- model.layers.14.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.089539
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 250: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 133: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 140: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 42: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 146: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 49: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 168: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 162: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 148: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 199: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 51: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 121: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 108: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 105: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 196: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 28: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 185: -0.007803 (base=3.1641 -> d2=3.1562)
+  Expert 235: -0.007603 (base=3.1639 -> d2=3.1562)
+  Expert 206: -0.007603 (base=3.1639 -> d2=3.1562)
+  Expert 234: -0.007603 (base=3.1639 -> d2=3.1562)
+
+--- model.layers.15.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.078758
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 107: +0.007570 (base=3.1331 -> d2=3.1406)
+  Expert 235: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 144: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 63: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 69: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 75: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 81: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 116: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 92: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 204: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 234: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 132: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 194: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 98: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 57: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 83: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 214: -0.007229 (base=3.1479 -> d2=3.1406)
+  Expert 177: -0.007229 (base=3.1479 -> d2=3.1406)
+  Expert 79: -0.007229 (base=3.1479 -> d2=3.1406)
+  Expert 131: -0.007229 (base=3.1479 -> d2=3.1406)
+
+--- model.layers.16.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.077679
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 35: +0.007508 (base=2.9769 -> d2=2.9844)
+  Expert 24: +0.007508 (base=2.9769 -> d2=2.9844)
+  Expert 236: +0.007508 (base=2.9769 -> d2=2.9844)
+  Expert 52: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 119: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 55: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 56: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 115: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 112: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 212: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 128: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 42: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 121: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 190: -0.007317 (base=2.9761 -> d2=2.9688)
+  Expert 66: +0.007308 (base=2.9771 -> d2=2.9844)
+  Expert 126: +0.007308 (base=2.9771 -> d2=2.9844)
+  Expert 130: +0.007308 (base=2.9771 -> d2=2.9844)
+  Expert 138: +0.007308 (base=2.9771 -> d2=2.9844)
+  Expert 199: +0.007308 (base=2.9771 -> d2=2.9844)
+  Expert 106: +0.007308 (base=2.9771 -> d2=2.9844)
+
+--- model.layers.17.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.056729
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 133: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 88: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 17: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 22: -0.007587 (base=2.6951 -> d2=2.6875)
+  Expert 248: -0.007587 (base=2.6951 -> d2=2.6875)
+  Expert 13: -0.007587 (base=2.6951 -> d2=2.6875)
+  Expert 55: -0.007587 (base=2.6951 -> d2=2.6875)
+  Expert 102: -0.007587 (base=2.6951 -> d2=2.6875)
+  Expert 169: -0.007387 (base=2.6949 -> d2=2.6875)
+  Expert 245: -0.007387 (base=2.6949 -> d2=2.6875)
+  Expert 150: -0.007387 (base=2.6949 -> d2=2.6875)
+  Expert 33: -0.007387 (base=2.6949 -> d2=2.6875)
+  Expert 201: +0.007038 (base=2.6961 -> d2=2.7031)
+  Expert 95: +0.007038 (base=2.6961 -> d2=2.7031)
+  Expert 67: +0.007038 (base=2.6961 -> d2=2.7031)
+  Expert 167: -0.006587 (base=2.6941 -> d2=2.6875)
+  Expert 252: +0.006238 (base=2.6969 -> d2=2.7031)
+  Expert 56: +0.006238 (base=2.6969 -> d2=2.7031)
+  Expert 109: +0.006038 (base=2.6971 -> d2=2.7031)
+  Expert 5: +0.006038 (base=2.6971 -> d2=2.7031)
+
+--- model.layers.18.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.067213
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 24: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 70: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 159: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 7: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 127: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 103: +0.007655 (base=2.5861 -> d2=2.5938)
+  Expert 231: +0.007603 (base=2.5549 -> d2=2.5625)
+  Expert 105: -0.007596 (base=2.5701 -> d2=2.5625)
+  Expert 85: -0.007596 (base=2.5701 -> d2=2.5625)
+  Expert 150: -0.007596 (base=2.5701 -> d2=2.5625)
+  Expert 25: -0.007596 (base=2.5701 -> d2=2.5625)
+  Expert 42: +0.007403 (base=2.5551 -> d2=2.5625)
+  Expert 196: -0.007396 (base=2.5699 -> d2=2.5625)
+  Expert 61: -0.007396 (base=2.5699 -> d2=2.5625)
+  Expert 63: -0.007396 (base=2.5699 -> d2=2.5625)
+  Expert 81: +0.007229 (base=2.5709 -> d2=2.5781)
+  Expert 6: +0.007229 (base=2.5709 -> d2=2.5781)
+  Expert 160: +0.007229 (base=2.5709 -> d2=2.5781)
+  Expert 156: +0.007229 (base=2.5709 -> d2=2.5781)
+  Expert 110: +0.007229 (base=2.5709 -> d2=2.5781)
+
+--- model.layers.19.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.064972
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 179: +0.007733 (base=2.6329 -> d2=2.6406)
+  Expert 146: +0.007733 (base=2.6329 -> d2=2.6406)
+  Expert 127: +0.007733 (base=2.6329 -> d2=2.6406)
+  Expert 170: +0.007534 (base=2.6331 -> d2=2.6406)
+  Expert 86: -0.007465 (base=2.6481 -> d2=2.6406)
+  Expert 206: -0.007465 (base=2.6481 -> d2=2.6406)
+  Expert 255: +0.007360 (base=2.6489 -> d2=2.6562)
+  Expert 87: +0.007360 (base=2.6489 -> d2=2.6562)
+  Expert 48: -0.007266 (base=2.6479 -> d2=2.6406)
+  Expert 89: -0.007266 (base=2.6479 -> d2=2.6406)
+  Expert 156: -0.007266 (base=2.6479 -> d2=2.6406)
+  Expert 16: -0.007266 (base=2.6479 -> d2=2.6406)
+  Expert 121: +0.007160 (base=2.6491 -> d2=2.6562)
+  Expert 49: -0.007092 (base=2.6321 -> d2=2.6250)
+  Expert 95: -0.007092 (base=2.6321 -> d2=2.6250)
+  Expert 90: -0.007092 (base=2.6321 -> d2=2.6250)
+  Expert 135: -0.007092 (base=2.6321 -> d2=2.6250)
+  Expert 67: -0.007092 (base=2.6321 -> d2=2.6250)
+  Expert 185: -0.007092 (base=2.6321 -> d2=2.6250)
+  Expert 219: -0.007092 (base=2.6321 -> d2=2.6250)
+
+--- model.layers.20.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.080498
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 169: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 132: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 177: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 248: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 188: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 24: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 192: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 61: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 86: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 171: -0.007770 (base=2.5859 -> d2=2.5781)
+  Expert 120: +0.007655 (base=2.5861 -> d2=2.5938)
+  Expert 158: +0.007655 (base=2.5861 -> d2=2.5938)
+  Expert 237: +0.007655 (base=2.5861 -> d2=2.5938)
+  Expert 165: +0.007655 (base=2.5861 -> d2=2.5938)
+  Expert 110: -0.007596 (base=2.5701 -> d2=2.5625)
+  Expert 63: -0.007596 (base=2.5701 -> d2=2.5625)
+  Expert 194: +0.007229 (base=2.5709 -> d2=2.5781)
+  Expert 253: +0.007229 (base=2.5709 -> d2=2.5781)
+  Expert 84: +0.007029 (base=2.5711 -> d2=2.5781)
+  Expert 111: +0.007029 (base=2.5711 -> d2=2.5781)
+
+--- model.layers.21.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.066934
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 175: -0.007605 (base=2.4451 -> d2=2.4375)
+  Expert 91: -0.007605 (base=2.4451 -> d2=2.4375)
+  Expert 247: -0.007605 (base=2.4451 -> d2=2.4375)
+  Expert 130: -0.007605 (base=2.4451 -> d2=2.4375)
+  Expert 157: -0.007605 (base=2.4451 -> d2=2.4375)
+  Expert 127: -0.007605 (base=2.4451 -> d2=2.4375)
+  Expert 2: -0.007405 (base=2.4449 -> d2=2.4375)
+  Expert 164: -0.007405 (base=2.4449 -> d2=2.4375)
+  Expert 165: -0.007405 (base=2.4449 -> d2=2.4375)
+  Expert 83: +0.007394 (base=2.4301 -> d2=2.4375)
+  Expert 217: -0.007231 (base=2.4291 -> d2=2.4219)
+  Expert 224: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 223: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 100: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 238: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 43: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 55: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 40: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 106: +0.007220 (base=2.4459 -> d2=2.4531)
+  Expert 183: +0.007220 (base=2.4459 -> d2=2.4531)
+
+--- model.layers.22.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.063249
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 176: +0.007621 (base=2.8049 -> d2=2.8125)
+  Expert 37: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 236: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 181: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 151: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 8: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 14: -0.007378 (base=2.8199 -> d2=2.8125)
+  Expert 56: -0.007378 (base=2.8199 -> d2=2.8125)
+  Expert 48: -0.007378 (base=2.8199 -> d2=2.8125)
+  Expert 175: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 152: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 170: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 245: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 231: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 65: -0.006752 (base=2.8349 -> d2=2.8281)
+  Expert 128: +0.006621 (base=2.8059 -> d2=2.8125)
+  Expert 12: -0.006578 (base=2.8191 -> d2=2.8125)
+  Expert 227: -0.006578 (base=2.8191 -> d2=2.8125)
+  Expert 69: -0.006578 (base=2.8191 -> d2=2.8125)
+  Expert 221: -0.006578 (base=2.8191 -> d2=2.8125)
+
+--- model.layers.23.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.068795
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 229: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 7: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 158: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 131: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 41: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 22: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 117: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 238: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 11: -0.007578 (base=2.8201 -> d2=2.8125)
+  Expert 253: -0.007378 (base=2.8199 -> d2=2.8125)
+  Expert 8: +0.007247 (base=2.8209 -> d2=2.8281)
+  Expert 68: +0.007247 (base=2.8209 -> d2=2.8281)
+  Expert 23: +0.007247 (base=2.8209 -> d2=2.8281)
+  Expert 120: +0.007247 (base=2.8209 -> d2=2.8281)
+  Expert 93: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 108: +0.007047 (base=2.8211 -> d2=2.8281)
+  Expert 123: -0.006952 (base=2.8351 -> d2=2.8281)
+  Expert 105: -0.006952 (base=2.8351 -> d2=2.8281)
+  Expert 122: -0.006952 (base=2.8351 -> d2=2.8281)
+  Expert 150: -0.006952 (base=2.8351 -> d2=2.8281)
+
+--- model.layers.24.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.074534
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 50: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 196: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 33: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 54: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 132: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 86: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 209: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 107: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 121: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 140: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 246: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 124: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 103: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 56: +0.007299 (base=2.8521 -> d2=2.8594)
+  Expert 143: +0.007299 (base=2.8521 -> d2=2.8594)
+  Expert 141: +0.007299 (base=2.8521 -> d2=2.8594)
+  Expert 221: +0.007299 (base=2.8521 -> d2=2.8594)
+  Expert 241: -0.007126 (base=2.8509 -> d2=2.8438)
+  Expert 118: -0.007126 (base=2.8509 -> d2=2.8438)
+  Expert 69: -0.007126 (base=2.8509 -> d2=2.8438)
+
+--- model.layers.25.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.081920
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 254: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 65: -0.007752 (base=2.8359 -> d2=2.8281)
+  Expert 88: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 177: +0.007673 (base=2.8361 -> d2=2.8438)
+  Expert 53: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 246: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 247: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 81: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 131: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 228: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 151: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 196: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 203: +0.007499 (base=2.8519 -> d2=2.8594)
+  Expert 182: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 214: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 26: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 71: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 128: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 78: -0.007326 (base=2.8511 -> d2=2.8438)
+  Expert 98: -0.007326 (base=2.8511 -> d2=2.8438)
+
+--- model.layers.26.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.079658
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 161: +0.007804 (base=2.9141 -> d2=2.9219)
+  Expert 237: +0.007804 (base=2.9141 -> d2=2.9219)
+  Expert 118: +0.007804 (base=2.9141 -> d2=2.9219)
+  Expert 201: +0.007804 (base=2.9141 -> d2=2.9219)
+  Expert 192: +0.007804 (base=2.9141 -> d2=2.9219)
+  Expert 194: +0.007751 (base=2.8829 -> d2=2.8906)
+  Expert 248: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 59: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 5: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 6: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 65: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 199: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 68: -0.007621 (base=2.9139 -> d2=2.9062)
+  Expert 138: +0.007552 (base=2.8831 -> d2=2.8906)
+  Expert 200: -0.007447 (base=2.8981 -> d2=2.8906)
+  Expert 221: -0.007447 (base=2.8981 -> d2=2.8906)
+  Expert 255: -0.007447 (base=2.8981 -> d2=2.8906)
+  Expert 137: +0.007378 (base=2.8989 -> d2=2.9062)
+  Expert 35: +0.007378 (base=2.8989 -> d2=2.9062)
+  Expert 135: -0.007247 (base=2.8979 -> d2=2.8906)
+
+--- model.layers.27.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.060283
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 171: +0.007630 (base=2.9299 -> d2=2.9375)
+  Expert 90: +0.007630 (base=2.9299 -> d2=2.9375)
+  Expert 233: +0.007630 (base=2.9299 -> d2=2.9375)
+  Expert 129: -0.007569 (base=2.9451 -> d2=2.9375)
+  Expert 255: -0.007569 (base=2.9451 -> d2=2.9375)
+  Expert 25: -0.007569 (base=2.9451 -> d2=2.9375)
+  Expert 214: +0.007430 (base=2.9301 -> d2=2.9375)
+  Expert 7: +0.007430 (base=2.9301 -> d2=2.9375)
+  Expert 184: -0.007369 (base=2.9449 -> d2=2.9375)
+  Expert 0: -0.007369 (base=2.9449 -> d2=2.9375)
+  Expert 151: -0.007369 (base=2.9449 -> d2=2.9375)
+  Expert 99: +0.007256 (base=2.9459 -> d2=2.9531)
+  Expert 165: -0.007195 (base=2.9291 -> d2=2.9219)
+  Expert 198: +0.007056 (base=2.9461 -> d2=2.9531)
+  Expert 79: +0.007056 (base=2.9461 -> d2=2.9531)
+  Expert 196: +0.007056 (base=2.9461 -> d2=2.9531)
+  Expert 227: -0.006995 (base=2.9289 -> d2=2.9219)
+  Expert 164: +0.006630 (base=2.9309 -> d2=2.9375)
+  Expert 58: +0.006630 (base=2.9309 -> d2=2.9375)
+  Expert 225: -0.006569 (base=2.9441 -> d2=2.9375)
+
+--- model.layers.28.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.081428
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 245: +0.007648 (base=3.1799 -> d2=3.1875)
+  Expert 63: +0.007648 (base=3.1799 -> d2=3.1875)
+  Expert 252: -0.007603 (base=3.1639 -> d2=3.1562)
+  Expert 47: -0.007603 (base=3.1639 -> d2=3.1562)
+  Expert 109: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 31: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 167: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 92: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 175: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 183: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 200: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 235: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 204: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 210: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 25: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 29: -0.007551 (base=3.1951 -> d2=3.1875)
+  Expert 119: +0.007448 (base=3.1801 -> d2=3.1875)
+  Expert 223: +0.007448 (base=3.1801 -> d2=3.1875)
+  Expert 116: +0.007448 (base=3.1801 -> d2=3.1875)
+  Expert 196: -0.007351 (base=3.1949 -> d2=3.1875)
+
+--- model.layers.29.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.059572
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 152: +0.007761 (base=3.0079 -> d2=3.0156)
+  Expert 48: +0.007561 (base=3.0081 -> d2=3.0156)
+  Expert 27: -0.007491 (base=2.9919 -> d2=2.9844)
+  Expert 126: -0.007438 (base=3.0231 -> d2=3.0156)
+  Expert 71: -0.007438 (base=3.0231 -> d2=3.0156)
+  Expert 66: -0.007438 (base=3.0231 -> d2=3.0156)
+  Expert 89: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 4: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 62: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 79: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 95: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 92: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 217: -0.007238 (base=3.0229 -> d2=3.0156)
+  Expert 139: +0.007187 (base=3.0241 -> d2=3.0312)
+  Expert 241: +0.007134 (base=2.9929 -> d2=3.0000)
+  Expert 181: -0.007064 (base=3.0071 -> d2=3.0000)
+  Expert 136: -0.007064 (base=3.0071 -> d2=3.0000)
+  Expert 98: -0.007064 (base=3.0071 -> d2=3.0000)
+  Expert 100: +0.006561 (base=3.0091 -> d2=3.0156)
+  Expert 179: -0.006438 (base=3.0221 -> d2=3.0156)
+
+--- model.layers.3.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.223085
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 189: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 122: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 129: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 208: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 117: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 113: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 40: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 39: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 198: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 132: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 191: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 143: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 149: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 181: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 177: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 169: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 21: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 221: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 218: -0.015424 (base=4.9529 -> d2=4.9375)
+  Expert 34: -0.015424 (base=4.9529 -> d2=4.9375)
+
+--- model.layers.30.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.083531
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 25: +0.007770 (base=3.1329 -> d2=3.1406)
+  Expert 207: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 213: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 3: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 165: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 107: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 199: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 209: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 230: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 249: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 242: -0.007429 (base=3.1481 -> d2=3.1406)
+  Expert 143: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 153: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 112: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 148: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 151: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 41: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 114: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 211: +0.007396 (base=3.1489 -> d2=3.1562)
+  Expert 119: +0.007396 (base=3.1489 -> d2=3.1562)
+
+--- model.layers.31.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.065671
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 242: +0.007728 (base=3.5860 -> d2=3.5938)
+  Expert 140: -0.007645 (base=3.6170 -> d2=3.6094)
+  Expert 62: -0.007645 (base=3.6170 -> d2=3.6094)
+  Expert 170: -0.007645 (base=3.6170 -> d2=3.6094)
+  Expert 93: -0.007445 (base=3.6168 -> d2=3.6094)
+  Expert 137: -0.007445 (base=3.6168 -> d2=3.6094)
+  Expert 228: +0.007354 (base=3.6020 -> d2=3.6094)
+  Expert 89: -0.007271 (base=3.6010 -> d2=3.5938)
+  Expert 91: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 61: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 15: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 87: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 238: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 234: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 232: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 99: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 35: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 184: +0.007180 (base=3.6178 -> d2=3.6250)
+  Expert 249: -0.007071 (base=3.6008 -> d2=3.5938)
+  Expert 227: +0.006980 (base=3.6180 -> d2=3.6250)
+
+--- model.layers.32.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.076906
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 211: +0.007691 (base=3.0861 -> d2=3.0938)
+  Expert 255: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 218: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 187: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 0: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 10: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 8: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 128: -0.007681 (base=3.1171 -> d2=3.1094)
+  Expert 208: -0.007560 (base=3.0701 -> d2=3.0625)
+  Expert 231: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 121: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 12: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 14: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 98: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 68: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 207: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 63: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 144: -0.007482 (base=3.1169 -> d2=3.1094)
+  Expert 67: -0.007360 (base=3.0699 -> d2=3.0625)
+  Expert 241: +0.007318 (base=3.1021 -> d2=3.1094)
+
+--- model.layers.33.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.066455
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 219: +0.007684 (base=3.6798 -> d2=3.6875)
+  Expert 92: +0.007684 (base=3.6798 -> d2=3.6875)
+  Expert 49: +0.007684 (base=3.6798 -> d2=3.6875)
+  Expert 205: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 2: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 84: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 5: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 232: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 30: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 172: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 1: +0.007484 (base=3.6800 -> d2=3.6875)
+  Expert 73: +0.007432 (base=3.6488 -> d2=3.6562)
+  Expert 48: -0.007141 (base=3.6790 -> d2=3.6719)
+  Expert 248: -0.007141 (base=3.6790 -> d2=3.6719)
+  Expert 41: -0.007141 (base=3.6790 -> d2=3.6719)
+  Expert 198: -0.006941 (base=3.6788 -> d2=3.6719)
+  Expert 196: -0.006941 (base=3.6788 -> d2=3.6719)
+  Expert 204: -0.006941 (base=3.6788 -> d2=3.6719)
+  Expert 159: -0.006941 (base=3.6788 -> d2=3.6719)
+  Expert 140: -0.006941 (base=3.6788 -> d2=3.6719)
+
+--- model.layers.34.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.060111
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 74: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 122: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 86: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 216: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 95: +0.007615 (base=3.7580 -> d2=3.7656)
+  Expert 91: -0.007558 (base=3.7888 -> d2=3.7812)
+  Expert 83: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 33: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 138: +0.007493 (base=3.8050 -> d2=3.8125)
+  Expert 141: +0.007441 (base=3.7738 -> d2=3.7812)
+  Expert 104: -0.007132 (base=3.8040 -> d2=3.7969)
+  Expert 152: -0.007132 (base=3.8040 -> d2=3.7969)
+  Expert 105: -0.006932 (base=3.8038 -> d2=3.7969)
+  Expert 184: -0.006932 (base=3.8038 -> d2=3.7969)
+  Expert 21: -0.006932 (base=3.8038 -> d2=3.7969)
+  Expert 143: -0.006932 (base=3.8038 -> d2=3.7969)
+  Expert 210: +0.006867 (base=3.7900 -> d2=3.7969)
+  Expert 175: -0.006758 (base=3.7880 -> d2=3.7812)
+  Expert 64: -0.006758 (base=3.7880 -> d2=3.7812)
+  Expert 121: +0.006693 (base=3.8058 -> d2=3.8125)
+
+--- model.layers.35.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.054827
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 21: +0.007563 (base=3.7268 -> d2=3.7344)
+  Expert 95: +0.007563 (base=3.7268 -> d2=3.7344)
+  Expert 126: +0.007563 (base=3.7268 -> d2=3.7344)
+  Expert 247: +0.007563 (base=3.7268 -> d2=3.7344)
+  Expert 127: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 108: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 223: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 71: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 214: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 43: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 22: +0.007363 (base=3.7270 -> d2=3.7344)
+  Expert 157: -0.007262 (base=3.7260 -> d2=3.7188)
+  Expert 135: -0.007262 (base=3.7260 -> d2=3.7188)
+  Expert 228: -0.007262 (base=3.7260 -> d2=3.7188)
+  Expert 26: -0.007262 (base=3.7260 -> d2=3.7188)
+  Expert 81: -0.007062 (base=3.7258 -> d2=3.7188)
+  Expert 61: -0.007062 (base=3.7258 -> d2=3.7188)
+  Expert 218: +0.006563 (base=3.7278 -> d2=3.7344)
+  Expert 208: +0.006563 (base=3.7278 -> d2=3.7344)
+  Expert 186: +0.006363 (base=3.7280 -> d2=3.7344)
+
+--- model.layers.36.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.059571
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 46: +0.007728 (base=3.5860 -> d2=3.5938)
+  Expert 239: +0.007728 (base=3.5860 -> d2=3.5938)
+  Expert 94: +0.007728 (base=3.5860 -> d2=3.5938)
+  Expert 149: +0.007728 (base=3.5860 -> d2=3.5938)
+  Expert 225: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 119: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 87: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 188: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 152: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 160: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 56: -0.007698 (base=3.5858 -> d2=3.5781)
+  Expert 106: -0.007524 (base=3.5700 -> d2=3.5625)
+  Expert 154: +0.007301 (base=3.5708 -> d2=3.5781)
+  Expert 81: +0.007301 (base=3.5708 -> d2=3.5781)
+  Expert 3: +0.006927 (base=3.5868 -> d2=3.5938)
+  Expert 57: +0.006927 (base=3.5868 -> d2=3.5938)
+  Expert 8: +0.006927 (base=3.5868 -> d2=3.5938)
+  Expert 212: +0.006927 (base=3.5868 -> d2=3.5938)
+  Expert 21: -0.006897 (base=3.5850 -> d2=3.5781)
+  Expert 168: -0.006897 (base=3.5850 -> d2=3.5781)
+
+--- model.layers.37.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.088708
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 221: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 224: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 185: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 171: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 240: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 71: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 227: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 14: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 92: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 74: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 251: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 250: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 116: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 243: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 28: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 130: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 41: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 132: +0.007693 (base=3.8048 -> d2=3.8125)
+  Expert 39: +0.007563 (base=3.7268 -> d2=3.7344)
+  Expert 55: -0.007558 (base=3.7888 -> d2=3.7812)
+
+--- model.layers.38.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.101990
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 91: +0.015258 (base=4.0160 -> d2=4.0312)
+  Expert 139: +0.015258 (base=4.0160 -> d2=4.0312)
+  Expert 63: +0.014258 (base=4.0170 -> d2=4.0312)
+  Expert 218: -0.013992 (base=4.0140 -> d2=4.0000)
+  Expert 65: +0.012459 (base=4.0188 -> d2=4.0312)
+  Expert 21: -0.011539 (base=4.0428 -> d2=4.0312)
+  Expert 216: +0.011459 (base=4.0198 -> d2=4.0312)
+  Expert 11: -0.010540 (base=4.0418 -> d2=4.0312)
+  Expert 161: -0.010540 (base=4.0418 -> d2=4.0312)
+  Expert 47: -0.010540 (base=4.0418 -> d2=4.0312)
+  Expert 94: +0.010259 (base=4.0210 -> d2=4.0312)
+  Expert 204: -0.009740 (base=4.0410 -> d2=4.0312)
+  Expert 19: -0.009740 (base=4.0410 -> d2=4.0312)
+  Expert 100: -0.009540 (base=4.0408 -> d2=4.0312)
+  Expert 128: -0.009540 (base=4.0408 -> d2=4.0312)
+  Expert 148: -0.009540 (base=4.0408 -> d2=4.0312)
+  Expert 105: -0.009540 (base=4.0408 -> d2=4.0312)
+  Expert 194: -0.009540 (base=4.0408 -> d2=4.0312)
+  Expert 131: +0.009459 (base=4.0218 -> d2=4.0312)
+  Expert 173: +0.009459 (base=4.0218 -> d2=4.0312)
+
+--- model.layers.39.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.083127
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 179: +0.015511 (base=4.0470 -> d2=4.0625)
+  Expert 11: -0.015487 (base=4.0780 -> d2=4.0625)
+  Expert 207: -0.015487 (base=4.0780 -> d2=4.0625)
+  Expert 182: -0.015287 (base=4.0778 -> d2=4.0625)
+  Expert 138: +0.014963 (base=4.0788 -> d2=4.0938)
+  Expert 36: +0.014763 (base=4.0790 -> d2=4.0938)
+  Expert 229: +0.014763 (base=4.0790 -> d2=4.0938)
+  Expert 77: -0.014287 (base=4.0768 -> d2=4.0625)
+  Expert 120: -0.014287 (base=4.0768 -> d2=4.0625)
+  Expert 44: -0.013487 (base=4.0760 -> d2=4.0625)
+  Expert 163: +0.012963 (base=4.0808 -> d2=4.0938)
+  Expert 78: +0.012963 (base=4.0808 -> d2=4.0938)
+  Expert 18: +0.012763 (base=4.0810 -> d2=4.0938)
+  Expert 15: +0.012763 (base=4.0810 -> d2=4.0938)
+  Expert 46: -0.012287 (base=4.0748 -> d2=4.0625)
+  Expert 113: +0.011963 (base=4.0818 -> d2=4.0938)
+  Expert 161: -0.011287 (base=4.0738 -> d2=4.0625)
+  Expert 27: -0.011287 (base=4.0738 -> d2=4.0625)
+  Expert 192: -0.011287 (base=4.0738 -> d2=4.0625)
+  Expert 54: -0.011287 (base=4.0738 -> d2=4.0625)
+
+--- model.layers.4.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.132384
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 160: +0.013944 (base=6.5798 -> d2=6.5938)
+  Expert 227: +0.012944 (base=6.5808 -> d2=6.5938)
+  Expert 192: +0.012145 (base=6.5816 -> d2=6.5938)
+  Expert 56: +0.011944 (base=6.5818 -> d2=6.5938)
+  Expert 122: +0.011944 (base=6.5818 -> d2=6.5938)
+  Expert 139: +0.011944 (base=6.5818 -> d2=6.5938)
+  Expert 49: +0.011944 (base=6.5818 -> d2=6.5938)
+  Expert 92: +0.011944 (base=6.5818 -> d2=6.5938)
+  Expert 151: +0.011944 (base=6.5818 -> d2=6.5938)
+  Expert 60: +0.011145 (base=6.5826 -> d2=6.5938)
+  Expert 59: +0.010944 (base=6.5828 -> d2=6.5938)
+  Expert 75: +0.010944 (base=6.5828 -> d2=6.5938)
+  Expert 33: +0.010944 (base=6.5828 -> d2=6.5938)
+  Expert 78: +0.010944 (base=6.5828 -> d2=6.5938)
+  Expert 154: +0.010944 (base=6.5828 -> d2=6.5938)
+  Expert 209: +0.010145 (base=6.5836 -> d2=6.5938)
+  Expert 63: +0.010145 (base=6.5836 -> d2=6.5938)
+  Expert 146: +0.010145 (base=6.5836 -> d2=6.5938)
+  Expert 181: +0.010145 (base=6.5836 -> d2=6.5938)
+  Expert 240: +0.010145 (base=6.5836 -> d2=6.5938)
+
+--- model.layers.40.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.145503
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 210: +0.015468 (base=4.1408 -> d2=4.1562)
+  Expert 38: +0.015468 (base=4.1408 -> d2=4.1562)
+  Expert 192: -0.014983 (base=4.1400 -> d2=4.1250)
+  Expert 104: +0.014468 (base=4.1418 -> d2=4.1562)
+  Expert 19: +0.014267 (base=4.1420 -> d2=4.1562)
+  Expert 215: -0.013731 (base=4.1700 -> d2=4.1562)
+  Expert 156: -0.013530 (base=4.1698 -> d2=4.1562)
+  Expert 134: +0.013268 (base=4.1430 -> d2=4.1562)
+  Expert 80: +0.013268 (base=4.1430 -> d2=4.1562)
+  Expert 218: -0.013035 (base=4.1068 -> d2=4.0938)
+  Expert 170: -0.012783 (base=4.1378 -> d2=4.1250)
+  Expert 149: -0.012731 (base=4.1690 -> d2=4.1562)
+  Expert 27: -0.012731 (base=4.1690 -> d2=4.1562)
+  Expert 199: -0.012731 (base=4.1690 -> d2=4.1562)
+  Expert 15: -0.012731 (base=4.1690 -> d2=4.1562)
+  Expert 242: -0.012731 (base=4.1690 -> d2=4.1562)
+  Expert 100: -0.012731 (base=4.1690 -> d2=4.1562)
+  Expert 226: -0.012530 (base=4.1688 -> d2=4.1562)
+  Expert 174: -0.012530 (base=4.1688 -> d2=4.1562)
+  Expert 147: -0.012530 (base=4.1688 -> d2=4.1562)
+
+--- model.layers.41.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.179829
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 44: +0.015513 (base=4.7657 -> d2=4.7812)
+  Expert 171: +0.015513 (base=4.7657 -> d2=4.7812)
+  Expert 69: +0.015513 (base=4.7657 -> d2=4.7812)
+  Expert 101: +0.015313 (base=4.7659 -> d2=4.7812)
+  Expert 100: +0.015313 (base=4.7659 -> d2=4.7812)
+  Expert 188: +0.015313 (base=4.7659 -> d2=4.7812)
+  Expert 77: -0.014937 (base=4.7649 -> d2=4.7500)
+  Expert 231: -0.014937 (base=4.7649 -> d2=4.7500)
+  Expert 52: -0.014937 (base=4.7649 -> d2=4.7500)
+  Expert 151: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 190: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 80: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 48: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 149: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 161: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 198: -0.014737 (base=4.7647 -> d2=4.7500)
+  Expert 73: +0.014513 (base=4.7667 -> d2=4.7812)
+  Expert 59: +0.014513 (base=4.7667 -> d2=4.7812)
+  Expert 137: +0.014513 (base=4.7667 -> d2=4.7812)
+  Expert 196: +0.014513 (base=4.7667 -> d2=4.7812)
+
+--- model.layers.42.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.204617
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 55: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 124: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 31: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 76: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 152: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 145: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 105: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 107: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 120: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 213: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 38: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 131: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 117: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 20: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 218: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 118: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 42: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 41: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 40: +0.015565 (base=4.7969 -> d2=4.8125)
+  Expert 8: +0.015565 (base=4.7969 -> d2=4.8125)
+
+--- model.layers.43.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.090914
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 220: +0.015060 (base=4.7349 -> d2=4.7500)
+  Expert 195: +0.014261 (base=4.7357 -> d2=4.7500)
+  Expert 0: +0.014060 (base=4.7359 -> d2=4.7500)
+  Expert 87: -0.012990 (base=4.7317 -> d2=4.7188)
+  Expert 238: +0.012261 (base=4.7377 -> d2=4.7500)
+  Expert 125: +0.011261 (base=4.7387 -> d2=4.7500)
+  Expert 24: +0.011061 (base=4.7389 -> d2=4.7500)
+  Expert 236: -0.009737 (base=4.7597 -> d2=4.7500)
+  Expert 34: -0.009442 (base=4.6969 -> d2=4.6875)
+  Expert 58: +0.009261 (base=4.7407 -> d2=4.7500)
+  Expert 89: +0.009261 (base=4.7407 -> d2=4.7500)
+  Expert 245: +0.009261 (base=4.7407 -> d2=4.7500)
+  Expert 54: -0.008938 (base=4.7589 -> d2=4.7500)
+  Expert 235: -0.008938 (base=4.7589 -> d2=4.7500)
+  Expert 95: -0.008938 (base=4.7589 -> d2=4.7500)
+  Expert 255: -0.008738 (base=4.7587 -> d2=4.7500)
+  Expert 33: -0.008738 (base=4.7587 -> d2=4.7500)
+  Expert 124: -0.008738 (base=4.7587 -> d2=4.7500)
+  Expert 156: -0.008738 (base=4.7587 -> d2=4.7500)
+  Expert 211: -0.008738 (base=4.7587 -> d2=4.7500)
+
+--- model.layers.44.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.075782
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 48: -0.015162 (base=5.1089 -> d2=5.0938)
+  Expert 244: +0.014288 (base=5.1107 -> d2=5.1250)
+  Expert 4: +0.014088 (base=5.1109 -> d2=5.1250)
+  Expert 6: -0.013163 (base=5.1069 -> d2=5.0938)
+  Expert 191: +0.012288 (base=5.1127 -> d2=5.1250)
+  Expert 64: -0.012163 (base=5.1059 -> d2=5.0938)
+  Expert 179: +0.012088 (base=5.1129 -> d2=5.1250)
+  Expert 206: -0.011962 (base=5.1057 -> d2=5.0938)
+  Expert 49: +0.011088 (base=5.1139 -> d2=5.1250)
+  Expert 245: -0.010163 (base=5.1039 -> d2=5.0938)
+  Expert 98: +0.010088 (base=5.1149 -> d2=5.1250)
+  Expert 79: +0.009836 (base=5.0839 -> d2=5.0938)
+  Expert 120: -0.008963 (base=5.1027 -> d2=5.0938)
+  Expert 36: +0.008288 (base=5.1167 -> d2=5.1250)
+  Expert 25: +0.008288 (base=5.1167 -> d2=5.1250)
+  Expert 212: +0.008088 (base=5.1169 -> d2=5.1250)
+  Expert 116: +0.008088 (base=5.1169 -> d2=5.1250)
+  Expert 93: -0.007710 (base=5.1327 -> d2=5.1250)
+  Expert 110: -0.007710 (base=5.1327 -> d2=5.1250)
+  Expert 77: -0.007710 (base=5.1327 -> d2=5.1250)
+
+--- model.layers.45.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.075805
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 204: -0.014521 (base=4.2958 -> d2=4.2812)
+  Expert 159: +0.012729 (base=4.2998 -> d2=4.3125)
+  Expert 30: +0.011729 (base=4.3008 -> d2=4.3125)
+  Expert 191: -0.011722 (base=4.2930 -> d2=4.2812)
+  Expert 70: +0.011529 (base=4.3010 -> d2=4.3125)
+  Expert 19: -0.011521 (base=4.2928 -> d2=4.2812)
+  Expert 133: +0.010729 (base=4.3018 -> d2=4.3125)
+  Expert 21: +0.010729 (base=4.3018 -> d2=4.3125)
+  Expert 184: +0.010529 (base=4.3020 -> d2=4.3125)
+  Expert 130: +0.009529 (base=4.3030 -> d2=4.3125)
+  Expert 183: +0.008729 (base=4.3038 -> d2=4.3125)
+  Expert 67: +0.008729 (base=4.3038 -> d2=4.3125)
+  Expert 210: +0.008729 (base=4.3038 -> d2=4.3125)
+  Expert 193: +0.008729 (base=4.3038 -> d2=4.3125)
+  Expert 142: +0.008729 (base=4.3038 -> d2=4.3125)
+  Expert 39: +0.008529 (base=4.3040 -> d2=4.3125)
+  Expert 140: +0.008529 (base=4.3040 -> d2=4.3125)
+  Expert 194: +0.008529 (base=4.3040 -> d2=4.3125)
+  Expert 46: -0.008269 (base=4.3208 -> d2=4.3125)
+  Expert 216: -0.008269 (base=4.3208 -> d2=4.3125)
+
+--- model.layers.46.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.212263
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 122: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 230: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 192: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 148: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 139: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 128: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 129: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 120: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 94: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 62: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 55: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 49: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 47: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 41: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 35: +0.015585 (base=5.7657 -> d2=5.7812)
+  Expert 70: +0.015385 (base=5.7659 -> d2=5.7812)
+  Expert 89: +0.015385 (base=5.7659 -> d2=5.7812)
+  Expert 69: +0.015385 (base=5.7659 -> d2=5.7812)
+  Expert 209: +0.015385 (base=5.7659 -> d2=5.7812)
+  Expert 246: +0.015385 (base=5.7659 -> d2=5.7812)
+
+--- model.layers.47.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.201235
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 189: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 50: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 227: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 74: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 222: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 149: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 175: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 137: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 253: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 4: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 123: -0.015585 (base=6.1718 -> d2=6.1562)
+  Expert 239: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 69: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 187: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 243: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 161: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 136: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 72: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 56: -0.015385 (base=6.1716 -> d2=6.1562)
+  Expert 190: -0.015385 (base=6.1716 -> d2=6.1562)
+
+--- model.layers.48.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.294837
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 182: +0.028984 (base=8.0335 -> d2=8.0625)
+  Expert 1: -0.028714 (base=8.0287 -> d2=8.0000)
+  Expert 155: -0.028714 (base=8.0287 -> d2=8.0000)
+  Expert 200: -0.028514 (base=8.0285 -> d2=8.0000)
+  Expert 135: +0.027984 (base=8.0345 -> d2=8.0625)
+  Expert 80: +0.026983 (base=8.0355 -> d2=8.0625)
+  Expert 199: +0.026983 (base=8.0355 -> d2=8.0625)
+  Expert 32: +0.026783 (base=8.0357 -> d2=8.0625)
+  Expert 96: +0.026783 (base=8.0357 -> d2=8.0625)
+  Expert 106: +0.026783 (base=8.0357 -> d2=8.0625)
+  Expert 12: +0.026783 (base=8.0357 -> d2=8.0625)
+  Expert 213: +0.025783 (base=8.0367 -> d2=8.0625)
+  Expert 202: +0.024982 (base=8.0375 -> d2=8.0625)
+  Expert 11: +0.024982 (base=8.0375 -> d2=8.0625)
+  Expert 7: +0.024982 (base=8.0375 -> d2=8.0625)
+  Expert 224: +0.024782 (base=8.0377 -> d2=8.0625)
+  Expert 23: +0.024782 (base=8.0377 -> d2=8.0625)
+  Expert 0: +0.024782 (base=8.0377 -> d2=8.0625)
+  Expert 121: +0.024782 (base=8.0377 -> d2=8.0625)
+  Expert 116: +0.024782 (base=8.0377 -> d2=8.0625)
+
+--- model.layers.49.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.121936
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 67: +0.014631 (base=6.3916 -> d2=6.4062)
+  Expert 72: +0.014431 (base=6.3918 -> d2=6.4062)
+  Expert 252: +0.013631 (base=6.3926 -> d2=6.4062)
+  Expert 224: +0.013431 (base=6.3928 -> d2=6.4062)
+  Expert 231: -0.011568 (base=6.4178 -> d2=6.4062)
+  Expert 126: -0.011367 (base=6.4176 -> d2=6.4062)
+  Expert 53: -0.011367 (base=6.4176 -> d2=6.4062)
+  Expert 211: -0.011367 (base=6.4176 -> d2=6.4062)
+  Expert 212: -0.011367 (base=6.4176 -> d2=6.4062)
+  Expert 143: -0.011367 (base=6.4176 -> d2=6.4062)
+  Expert 86: -0.010620 (base=6.3856 -> d2=6.3750)
+  Expert 8: -0.010568 (base=6.4168 -> d2=6.4062)
+  Expert 167: -0.010568 (base=6.4168 -> d2=6.4062)
+  Expert 89: -0.010568 (base=6.4168 -> d2=6.4062)
+  Expert 125: -0.010367 (base=6.4166 -> d2=6.4062)
+  Expert 132: -0.010367 (base=6.4166 -> d2=6.4062)
+  Expert 38: -0.010367 (base=6.4166 -> d2=6.4062)
+  Expert 171: -0.010367 (base=6.4166 -> d2=6.4062)
+  Expert 199: -0.010367 (base=6.4166 -> d2=6.4062)
+  Expert 46: -0.010367 (base=6.4166 -> d2=6.4062)
+
+--- model.layers.5.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.114177
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 113: -0.013286 (base=7.5445 -> d2=7.5312)
+  Expert 151: -0.012486 (base=7.5437 -> d2=7.5312)
+  Expert 156: -0.012286 (base=7.5435 -> d2=7.5312)
+  Expert 209: -0.011286 (base=7.5425 -> d2=7.5312)
+  Expert 145: -0.010286 (base=7.5415 -> d2=7.5312)
+  Expert 30: -0.009486 (base=7.5407 -> d2=7.5312)
+  Expert 6: -0.009486 (base=7.5407 -> d2=7.5312)
+  Expert 58: -0.009486 (base=7.5407 -> d2=7.5312)
+  Expert 11: -0.009486 (base=7.5407 -> d2=7.5312)
+  Expert 174: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 59: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 221: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 218: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 193: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 72: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 196: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 38: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 206: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 140: -0.009286 (base=7.5405 -> d2=7.5312)
+  Expert 88: -0.009286 (base=7.5405 -> d2=7.5312)
+
+--- model.layers.50.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.203142
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 76: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 49: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 82: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 84: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 54: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 56: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 179: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 165: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 154: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 112: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 103: -0.015261 (base=7.2028 -> d2=7.1875)
+  Expert 158: +0.015190 (base=7.2036 -> d2=7.2188)
+  Expert 226: +0.015190 (base=7.2036 -> d2=7.2188)
+  Expert 197: +0.015190 (base=7.2036 -> d2=7.2188)
+  Expert 178: +0.015190 (base=7.2036 -> d2=7.2188)
+  Expert 211: +0.015190 (base=7.2036 -> d2=7.2188)
+  Expert 228: -0.015060 (base=7.2026 -> d2=7.1875)
+  Expert 202: -0.015060 (base=7.2026 -> d2=7.1875)
+  Expert 242: -0.015060 (base=7.2026 -> d2=7.1875)
+  Expert 237: -0.015060 (base=7.2026 -> d2=7.1875)
+
+--- model.layers.51.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.167166
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 92: -0.015115 (base=6.4526 -> d2=6.4375)
+  Expert 110: -0.015115 (base=6.4526 -> d2=6.4375)
+  Expert 4: +0.014883 (base=6.4226 -> d2=6.4375)
+  Expert 205: -0.014567 (base=6.4208 -> d2=6.4062)
+  Expert 36: -0.014315 (base=6.4518 -> d2=6.4375)
+  Expert 225: -0.014315 (base=6.4518 -> d2=6.4375)
+  Expert 139: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 112: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 50: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 119: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 214: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 105: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 209: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 101: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 40: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 78: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 116: -0.014115 (base=6.4516 -> d2=6.4375)
+  Expert 231: +0.013883 (base=6.4236 -> d2=6.4375)
+  Expert 191: -0.013315 (base=6.4508 -> d2=6.4375)
+  Expert 23: -0.013315 (base=6.4508 -> d2=6.4375)
+
+--- model.layers.52.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.198115
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 193: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 106: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 213: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 93: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 219: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 184: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 68: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 205: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 152: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 57: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 55: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 54: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 191: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 122: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 146: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 127: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 182: +0.015378 (base=6.3596 -> d2=6.3750)
+  Expert 102: -0.015376 (base=6.2966 -> d2=6.2812)
+  Expert 10: +0.015178 (base=6.3598 -> d2=6.3750)
+  Expert 199: -0.015072 (base=6.3588 -> d2=6.3438)
+
+--- model.layers.53.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.116336
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 179: +0.015622 (base=6.2656 -> d2=6.2812)
+  Expert 20: -0.014628 (base=6.2646 -> d2=6.2500)
+  Expert 42: +0.014622 (base=6.2666 -> d2=6.2812)
+  Expert 226: +0.014421 (base=6.2668 -> d2=6.2812)
+  Expert 192: -0.013628 (base=6.2636 -> d2=6.2500)
+  Expert 246: +0.013622 (base=6.2676 -> d2=6.2812)
+  Expert 131: +0.013622 (base=6.2676 -> d2=6.2812)
+  Expert 147: +0.013422 (base=6.2678 -> d2=6.2812)
+  Expert 204: +0.012422 (base=6.2688 -> d2=6.2812)
+  Expert 10: +0.012422 (base=6.2688 -> d2=6.2812)
+  Expert 110: -0.011629 (base=6.2616 -> d2=6.2500)
+  Expert 186: -0.011376 (base=6.2926 -> d2=6.2812)
+  Expert 25: -0.010577 (base=6.2918 -> d2=6.2812)
+  Expert 38: -0.010577 (base=6.2918 -> d2=6.2812)
+  Expert 125: +0.010422 (base=6.2708 -> d2=6.2812)
+  Expert 76: -0.010376 (base=6.2916 -> d2=6.2812)
+  Expert 157: -0.010376 (base=6.2916 -> d2=6.2812)
+  Expert 104: -0.010376 (base=6.2916 -> d2=6.2812)
+  Expert 116: -0.010376 (base=6.2916 -> d2=6.2812)
+  Expert 216: -0.010376 (base=6.2916 -> d2=6.2812)
+
+--- model.layers.54.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.075890
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 219: +0.015412 (base=6.1408 -> d2=6.1562)
+  Expert 220: -0.014838 (base=6.1398 -> d2=6.1250)
+  Expert 212: +0.014412 (base=6.1418 -> d2=6.1562)
+  Expert 195: +0.014412 (base=6.1418 -> d2=6.1562)
+  Expert 42: -0.013838 (base=6.1388 -> d2=6.1250)
+  Expert 134: +0.013412 (base=6.1428 -> d2=6.1562)
+  Expert 205: +0.012613 (base=6.1436 -> d2=6.1562)
+  Expert 223: +0.012613 (base=6.1436 -> d2=6.1562)
+  Expert 119: +0.012613 (base=6.1436 -> d2=6.1562)
+  Expert 64: +0.011413 (base=6.1448 -> d2=6.1562)
+  Expert 61: +0.011413 (base=6.1448 -> d2=6.1562)
+  Expert 24: +0.010613 (base=6.1456 -> d2=6.1562)
+  Expert 206: +0.010613 (base=6.1456 -> d2=6.1562)
+  Expert 138: +0.010413 (base=6.1458 -> d2=6.1562)
+  Expert 29: +0.010413 (base=6.1458 -> d2=6.1562)
+  Expert 157: +0.010413 (base=6.1458 -> d2=6.1562)
+  Expert 236: +0.009613 (base=6.1466 -> d2=6.1562)
+  Expert 36: +0.009613 (base=6.1466 -> d2=6.1562)
+  Expert 238: +0.009613 (base=6.1466 -> d2=6.1562)
+  Expert 178: +0.009413 (base=6.1468 -> d2=6.1562)
+
+--- model.layers.55.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.075884
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 246: -0.007734 (base=3.0859 -> d2=3.0781)
+  Expert 101: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 220: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 16: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 90: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 141: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 152: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 146: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 169: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 167: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 5: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 56: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 65: +0.007517 (base=3.1019 -> d2=3.1094)
+  Expert 27: +0.007318 (base=3.1021 -> d2=3.1094)
+  Expert 20: +0.007318 (base=3.1021 -> d2=3.1094)
+  Expert 107: +0.007318 (base=3.1021 -> d2=3.1094)
+  Expert 106: +0.007318 (base=3.1021 -> d2=3.1094)
+  Expert 197: +0.007318 (base=3.1021 -> d2=3.1094)
+  Expert 174: +0.007318 (base=3.1021 -> d2=3.1094)
+  Expert 200: +0.007318 (base=3.1021 -> d2=3.1094)
+
+--- model.layers.56.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.066408
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 177: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 152: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 113: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 252: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 254: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 154: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 155: -0.007761 (base=2.7109 -> d2=2.7031)
+  Expert 180: +0.007664 (base=2.7111 -> d2=2.7188)
+  Expert 200: +0.007664 (base=2.7111 -> d2=2.7188)
+  Expert 153: +0.007664 (base=2.7111 -> d2=2.7188)
+  Expert 52: +0.007664 (base=2.7111 -> d2=2.7188)
+  Expert 51: +0.007664 (base=2.7111 -> d2=2.7188)
+  Expert 132: +0.007664 (base=2.7111 -> d2=2.7188)
+  Expert 95: -0.007387 (base=2.6949 -> d2=2.6875)
+  Expert 175: -0.007387 (base=2.6949 -> d2=2.6875)
+  Expert 37: -0.007013 (base=2.6789 -> d2=2.6719)
+  Expert 134: -0.006961 (base=2.7101 -> d2=2.7031)
+  Expert 135: -0.006961 (base=2.7101 -> d2=2.7031)
+  Expert 116: -0.006961 (base=2.7101 -> d2=2.7031)
+  Expert 168: -0.006961 (base=2.7101 -> d2=2.7031)
+
+--- model.layers.57.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.078459
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 216: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 220: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 135: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 185: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 204: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 31: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 207: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 96: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 19: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 168: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 178: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 91: +0.007768 (base=2.4141 -> d2=2.4219)
+  Expert 32: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 183: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 98: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 21: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 235: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 74: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 78: -0.007658 (base=2.4139 -> d2=2.4062)
+  Expert 140: -0.007658 (base=2.4139 -> d2=2.4062)
+
+--- model.layers.58.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.070510
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 193: -0.007736 (base=2.3671 -> d2=2.3594)
+  Expert 97: -0.007736 (base=2.3671 -> d2=2.3594)
+  Expert 184: -0.007736 (base=2.3671 -> d2=2.3594)
+  Expert 138: -0.007736 (base=2.3671 -> d2=2.3594)
+  Expert 76: -0.007736 (base=2.3671 -> d2=2.3594)
+  Expert 142: -0.007736 (base=2.3671 -> d2=2.3594)
+  Expert 216: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 244: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 95: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 98: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 68: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 40: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 16: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 253: -0.007536 (base=2.3669 -> d2=2.3594)
+  Expert 154: -0.007162 (base=2.3509 -> d2=2.3438)
+  Expert 206: +0.007089 (base=2.3679 -> d2=2.3750)
+  Expert 106: +0.007089 (base=2.3679 -> d2=2.3750)
+  Expert 26: +0.007089 (base=2.3679 -> d2=2.3750)
+  Expert 27: +0.007089 (base=2.3679 -> d2=2.3750)
+  Expert 87: +0.007089 (base=2.3679 -> d2=2.3750)
+
+--- model.layers.59.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.078388
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 20: -0.007745 (base=2.2421 -> d2=2.2344)
+  Expert 49: -0.007745 (base=2.2421 -> d2=2.2344)
+  Expert 120: -0.007745 (base=2.2421 -> d2=2.2344)
+  Expert 55: -0.007745 (base=2.2421 -> d2=2.2344)
+  Expert 238: -0.007745 (base=2.2421 -> d2=2.2344)
+  Expert 179: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 37: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 149: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 131: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 82: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 242: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 104: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 115: -0.007545 (base=2.2419 -> d2=2.2344)
+  Expert 249: +0.007454 (base=2.2269 -> d2=2.2344)
+  Expert 128: +0.007454 (base=2.2269 -> d2=2.2344)
+  Expert 166: +0.007454 (base=2.2269 -> d2=2.2344)
+  Expert 51: -0.007371 (base=2.2261 -> d2=2.2188)
+  Expert 251: -0.007371 (base=2.2261 -> d2=2.2188)
+  Expert 211: -0.007371 (base=2.2261 -> d2=2.2188)
+  Expert 105: -0.007371 (base=2.2261 -> d2=2.2188)
+
+--- model.layers.6.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.049881
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 3: +0.012151 (base=5.9878 -> d2=6.0000)
+  Expert 202: +0.009151 (base=5.9908 -> d2=6.0000)
+  Expert 208: +0.009151 (base=5.9908 -> d2=6.0000)
+  Expert 12: +0.009151 (base=5.9908 -> d2=6.0000)
+  Expert 38: +0.008152 (base=5.9918 -> d2=6.0000)
+  Expert 229: +0.007352 (base=5.9926 -> d2=6.0000)
+  Expert 62: +0.007152 (base=5.9928 -> d2=6.0000)
+  Expert 212: +0.006152 (base=5.9938 -> d2=6.0000)
+  Expert 250: +0.006152 (base=5.9938 -> d2=6.0000)
+  Expert 246: +0.006152 (base=5.9938 -> d2=6.0000)
+  Expert 108: +0.006152 (base=5.9938 -> d2=6.0000)
+  Expert 103: +0.006152 (base=5.9938 -> d2=6.0000)
+  Expert 197: +0.005352 (base=5.9946 -> d2=6.0000)
+  Expert 9: +0.005352 (base=5.9946 -> d2=6.0000)
+  Expert 242: +0.005352 (base=5.9946 -> d2=6.0000)
+  Expert 134: +0.005352 (base=5.9946 -> d2=6.0000)
+  Expert 163: +0.005152 (base=5.9948 -> d2=6.0000)
+  Expert 77: +0.005152 (base=5.9948 -> d2=6.0000)
+  Expert 186: +0.005152 (base=5.9948 -> d2=6.0000)
+  Expert 130: +0.005152 (base=5.9948 -> d2=6.0000)
+
+--- model.layers.60.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.070195
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 79: +0.007797 (base=3.5078 -> d2=3.5156)
+  Expert 239: +0.007545 (base=3.4768 -> d2=3.4844)
+  Expert 238: -0.007454 (base=3.4918 -> d2=3.4844)
+  Expert 150: +0.007423 (base=3.5238 -> d2=3.5312)
+  Expert 193: +0.007423 (base=3.5238 -> d2=3.5312)
+  Expert 7: +0.007423 (base=3.5238 -> d2=3.5312)
+  Expert 122: -0.007402 (base=3.5230 -> d2=3.5156)
+  Expert 160: -0.007402 (base=3.5230 -> d2=3.5156)
+  Expert 6: -0.007402 (base=3.5230 -> d2=3.5156)
+  Expert 114: -0.007402 (base=3.5230 -> d2=3.5156)
+  Expert 194: +0.007223 (base=3.5240 -> d2=3.5312)
+  Expert 20: +0.007223 (base=3.5240 -> d2=3.5312)
+  Expert 228: +0.007223 (base=3.5240 -> d2=3.5312)
+  Expert 227: +0.007223 (base=3.5240 -> d2=3.5312)
+  Expert 50: +0.007223 (base=3.5240 -> d2=3.5312)
+  Expert 104: +0.007223 (base=3.5240 -> d2=3.5312)
+  Expert 141: -0.007202 (base=3.5228 -> d2=3.5156)
+  Expert 109: -0.007202 (base=3.5228 -> d2=3.5156)
+  Expert 159: -0.007202 (base=3.5228 -> d2=3.5156)
+  Expert 240: -0.007202 (base=3.5228 -> d2=3.5156)
+
+--- model.layers.7.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.220352
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 143: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 44: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 248: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 100: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 201: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 19: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 135: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 136: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 52: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 175: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 134: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 74: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 26: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 69: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 167: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 219: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 209: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 215: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 214: +0.015315 (base=5.4847 -> d2=5.5000)
+  Expert 96: +0.015315 (base=5.4847 -> d2=5.5000)
+
+--- model.layers.8.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.128126
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 207: -0.013440 (base=5.4197 -> d2=5.4062)
+  Expert 28: -0.012440 (base=5.4187 -> d2=5.4062)
+  Expert 83: -0.011640 (base=5.4179 -> d2=5.4062)
+  Expert 248: -0.011640 (base=5.4179 -> d2=5.4062)
+  Expert 94: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 161: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 13: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 136: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 140: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 175: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 213: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 252: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 95: -0.011440 (base=5.4177 -> d2=5.4062)
+  Expert 144: -0.010640 (base=5.4169 -> d2=5.4062)
+  Expert 52: -0.010640 (base=5.4169 -> d2=5.4062)
+  Expert 97: -0.010640 (base=5.4169 -> d2=5.4062)
+  Expert 43: -0.010640 (base=5.4169 -> d2=5.4062)
+  Expert 109: -0.010640 (base=5.4169 -> d2=5.4062)
+  Expert 154: -0.010440 (base=5.4167 -> d2=5.4062)
+  Expert 200: -0.010440 (base=5.4167 -> d2=5.4062)
+
+--- model.layers.9.mlp.gate.e_score_correction_bias ---
+Shape: [256], ||diff||=0.087532
+Non-zero entries: 256/256
+Top changes by magnitude:
+  Expert 86: +0.012565 (base=4.7999 -> d2=4.8125)
+  Expert 184: -0.010233 (base=4.8227 -> d2=4.8125)
+  Expert 153: -0.010233 (base=4.8227 -> d2=4.8125)
+  Expert 253: -0.009233 (base=4.8217 -> d2=4.8125)
+  Expert 155: -0.009233 (base=4.8217 -> d2=4.8125)
+  Expert 25: -0.009233 (base=4.8217 -> d2=4.8125)
+  Expert 212: -0.009233 (base=4.8217 -> d2=4.8125)
+  Expert 150: -0.008433 (base=4.8209 -> d2=4.8125)
+  Expert 79: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 148: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 113: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 6: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 117: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 126: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 17: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 59: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 54: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 30: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 100: -0.008233 (base=4.8207 -> d2=4.8125)
+  Expert 197: -0.007433 (base=4.8199 -> d2=4.8125)
+
+================================================================================
+Aggregate e_score_correction_bias analysis across all layers
+================================================================================
+
+58 layers have modified e_score_correction_bias
+
+Mean bias shift across layers per expert:
+  Expert 204: mean shift=-0.002622
+  Expert 165: mean shift=-0.002579
+  Expert 211: mean shift=-0.002218
+  Expert 157: mean shift=-0.002160
+  Expert 202: mean shift=-0.002106
+  Expert 88: mean shift=-0.002093
+  Expert 13: mean shift=-0.002008
+  Expert 245: mean shift=-0.001996
+  Expert 92: mean shift=-0.001982
+  Expert 77: mean shift=-0.001941
+  Expert 200: mean shift=-0.001881
+  Expert 198: mean shift=-0.001865
+  Expert 248: mean shift=-0.001863
+  Expert 51: mean shift=-0.001857
+  Expert 162: mean shift=-0.001834
+  Expert 225: mean shift=-0.001800
+  Expert 123: mean shift=-0.001750
+  Expert 142: mean shift=-0.001721
+  Expert 251: mean shift=-0.001714
+  Expert 161: mean shift=-0.001711
+  Expert 50: mean shift=-0.001695
+  Expert 154: mean shift=-0.001675
+  Expert 27: mean shift=-0.001655
+  Expert 14: mean shift=-0.001643
+  Expert 105: mean shift=-0.001618
+  Expert 100: mean shift=+0.001615
+  Expert 173: mean shift=-0.001570
+  Expert 242: mean shift=-0.001560
+  Expert 189: mean shift=-0.001557
+  Expert 78: mean shift=-0.001546
+
+Experts modified in most layers:
+  Expert 169: modified in 58/58 layers, mean_shift=+0.000052
+  Expert 188: modified in 58/58 layers, mean_shift=-0.000483
+  Expert 187: modified in 58/58 layers, mean_shift=-0.000622
+  Expert 186: modified in 58/58 layers, mean_shift=-0.000827
+  Expert 175: modified in 58/58 layers, mean_shift=-0.001180
+  Expert 174: modified in 58/58 layers, mean_shift=-0.000475
+  Expert 173: modified in 58/58 layers, mean_shift=-0.001570
+  Expert 172: modified in 58/58 layers, mean_shift=-0.000475
+  Expert 171: modified in 58/58 layers, mean_shift=-0.000429
+  Expert 170: modified in 58/58 layers, mean_shift=-0.000895
+  Expert 176: modified in 58/58 layers, mean_shift=+0.000718
+  Expert 168: modified in 58/58 layers, mean_shift=-0.001057
+  Expert 167: modified in 58/58 layers, mean_shift=-0.000548
+  Expert 166: modified in 58/58 layers, mean_shift=+0.000249
+  Expert 165: modified in 58/58 layers, mean_shift=-0.002579
+  Expert 164: modified in 58/58 layers, mean_shift=-0.001545
+  Expert 163: modified in 58/58 layers, mean_shift=-0.000959
+  Expert 162: modified in 58/58 layers, mean_shift=-0.001834
+  Expert 161: modified in 58/58 layers, mean_shift=-0.001711
+  Expert 185: modified in 58/58 layers, mean_shift=-0.000232
+
+Done.
