@@ -1,0 +1,5334 @@
+{
+  "0": [
+    {
+      "head": 20,
+      "ov_norm": 0.8362,
+      "qk_norm": 1.1016,
+      "ov": [
+        {
+          "sigma": 0.7436,
+          "pct": 93.4,
+          "input": [
+            "\u592a\u539f",
+            "Wood",
+            " Kos",
+            " Urban",
+            " Bud",
+            " Wood",
+            " Ober",
+            " Tur",
+            " tumor",
+            "Pot"
+          ],
+          "output": [
+            " iceberg",
+            "ankan",
+            "angk",
+            "Sentence",
+            "akan",
+            "\u900f\u89c6",
+            "ayu",
+            "\u8bdd\u7b52",
+            "\u627f\u8a8d",
+            "avad"
+          ]
+        },
+        {
+          "sigma": 0.142,
+          "pct": 3.4,
+          "input": [
+            "tap",
+            " sq",
+            "tab",
+            " cabinet",
+            "tip",
+            "sq",
+            "stock",
+            "price",
+            "smith",
+            "strip"
+          ],
+          "output": [
+            " Schemes",
+            " schemes",
+            "\u7de3",
+            " minimally",
+            "kal",
+            "orsche",
+            "\u7f18",
+            " lux",
+            "\u5e73\u5730",
+            "\u7267"
+          ]
+        },
+        {
+          "sigma": 0.1155,
+          "pct": 2.3,
+          "input": [
+            " sab",
+            " schizophrenia",
+            " sensory",
+            " Sha",
+            " Sab",
+            " \u0441\u0438",
+            " sperm",
+            "\ufffd",
+            " Shen",
+            " connecting"
+          ],
+          "output": [
+            "\u5f53\u9762",
+            "Variables",
+            "\u6447",
+            " pen",
+            "oph",
+            " coup",
+            " Cup",
+            "\u79fb",
+            "\u5f53\u4e0b",
+            "\ufffd"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.1015,
+          "query": [
+            "HH",
+            "second",
+            " \u00a0 \u00a0 \u00a0",
+            "********",
+            "certain",
+            " \u00a0",
+            " Kentucky",
+            "(number"
+          ],
+          "key": [
+            " Ir",
+            "<\uff5c\u2581pad\u2581\uff5c>",
+            "+v",
+            "\u60f3\u5728",
+            "ulan",
+            " \uc591",
+            "\u7e7c\u7e8c",
+            "resent"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 11,
+      "ov_norm": 0.6148,
+      "qk_norm": 0.0029,
+      "ov": [
+        {
+          "sigma": 0.6105,
+          "pct": 98.9,
+          "input": [
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            " \u044d\u043a",
+            "\u89c1\u56fe",
+            "\u7a0d",
+            "\u89c1\u8868",
+            " Perry",
+            "\u8be6",
+            "\u5c0f\u7ea2",
+            "\u5f88\u5feb",
+            "Skip"
+          ],
+          "output": [
+            " iceberg",
+            "angk",
+            "Sentence",
+            "ankan",
+            " Holm",
+            " Sentence",
+            "oyle",
+            "\u900f\u89c6",
+            " cancellation",
+            "\u8bdd\u7b52"
+          ]
+        },
+        {
+          "sigma": 0.0517,
+          "pct": 0.7,
+          "input": [
+            "RR",
+            "_code",
+            "\u0e43\u0e19",
+            "02",
+            "\uc744",
+            "\u0000",
+            "04",
+            "250",
+            "title",
+            "\u4e0e"
+          ],
+          "output": [
+            "Endpoint",
+            "Pixel",
+            "elves",
+            "speed",
+            "Elem",
+            "POP",
+            "-element",
+            " enrich",
+            "NOS",
+            " endpoint"
+          ]
+        },
+        {
+          "sigma": 0.0336,
+          "pct": 0.3,
+          "input": [
+            "hhhh",
+            "\u52a0\u5927",
+            "\u5728\u56fd\u5185",
+            "\u4e3b\u8981\u4ee5",
+            "\u5728\u5e02",
+            "+h",
+            " Moh",
+            "\u548c\u9ec4",
+            "\u771f\u662f\u592a",
+            "\u5728\u7f51\u4e0a"
+          ],
+          "output": [
+            "\u7f18",
+            "\u7de3",
+            " Diagonal",
+            "ws",
+            " immun",
+            " Liber",
+            " mentally",
+            "\ufffd",
+            "atives",
+            " Marion"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0029,
+          "query": [
+            " \u060c",
+            "\u060c",
+            ",",
+            "\uff0c",
+            ";\n",
+            " ",
+            ",\n",
+            "  "
+          ],
+          "key": [
+            "RR",
+            "04",
+            "\u3067",
+            "02",
+            "\u0e43\u0e19",
+            "000",
+            "_code",
+            "GG"
+          ]
+        },
+        {
+          "sigma": 0.0001,
+          "query": [
+            "Duration",
+            " Kentucky",
+            "xxxxxxxx",
+            "widetilde",
+            " allocate",
+            " Mortgage",
+            "\u4e0d\u8d85\u8fc7",
+            "underline"
+          ],
+          "key": [
+            "\u5230",
+            "\u3092",
+            "08",
+            "\u304c",
+            "\u8fd8",
+            "\u6709",
+            "\u53ef\u4ee5",
+            " }\n"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 32,
+      "ov_norm": 0.5711,
+      "qk_norm": 0.014,
+      "ov": [
+        {
+          "sigma": 0.5198,
+          "pct": 91.7,
+          "input": [
+            " MED",
+            " Cred",
+            "-Med",
+            " Ing",
+            " Serv",
+            "Administ",
+            " m\u00e9d",
+            " \u0421\u0430\u043d",
+            "-ad",
+            " M\u00e9d"
+          ],
+          "output": [
+            " iceberg",
+            " cancellation",
+            "Sentence",
+            "\u900f\u89c6",
+            "angk",
+            " Holm",
+            "ankan",
+            "\u8bdd\u7b52",
+            "avad",
+            "akan"
+          ]
+        },
+        {
+          "sigma": 0.124,
+          "pct": 5.2,
+          "input": [
+            " sludge",
+            " LS",
+            " substrate",
+            " kg",
+            " \u03ba",
+            " GC",
+            " mysql",
+            " algae",
+            " database",
+            " membrane"
+          ],
+          "output": [
+            "Viol",
+            "ohn",
+            "viol",
+            "bones",
+            " Viol",
+            "-viol",
+            "ead",
+            " Tat",
+            "Endpoint",
+            "eneg"
+          ]
+        },
+        {
+          "sigma": 0.0729,
+          "pct": 1.8,
+          "input": [
+            " Bj",
+            " Jeff",
+            " \u043f\u0438",
+            "\u5728\u6211\u56fd",
+            " Freder",
+            " Ev",
+            "\u8fd9\u4e24",
+            " ci",
+            ".ed",
+            " Jac"
+          ],
+          "output": [
+            "\u7f51",
+            "\u871c",
+            "\u7f51\u7684",
+            "switch",
+            "essen",
+            "ron",
+            "ECK",
+            " prophyl",
+            "\ufffd",
+            "\u4e07\u4eba"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.014,
+          "query": [
+            "HH",
+            "second",
+            " Kentucky",
+            "\t\t   ",
+            " defaultdict",
+            " \u00a0 \u00a0 \u00a0",
+            " COUNTY",
+            "\u5f53\u5e74"
+          ],
+          "key": [
+            "\u043d\u044b\u0439",
+            "\ub97c",
+            " \u0625\u0644\u0649",
+            "\u0e41\u0e25\u0e30",
+            "19",
+            "18",
+            "7",
+            "\u0446\u0438\u0438"
+          ]
+        },
+        {
+          "sigma": 0.0012,
+          "query": [
+            "\u0000",
+            "_settings",
+            "PPPP",
+            "Duration",
+            "xxxxxxxx",
+            "391",
+            "widetilde",
+            "_description"
+          ],
+          "key": [
+            "301",
+            "\u0e43\u0e19",
+            "\u7238\u7238",
+            "375",
+            "\uc744",
+            "\u043d\u043e\u0439",
+            "250",
+            " com"
+          ]
+        }
+      ]
+    }
+  ],
+  "1": [
+    {
+      "head": 70,
+      "ov_norm": 0.8568,
+      "qk_norm": 0.0107,
+      "ov": [
+        {
+          "sigma": 0.8297,
+          "pct": 97.6,
+          "input": [
+            " Digital",
+            " Virtual",
+            " Critical",
+            "irtual",
+            " central",
+            "\u516c\u5171",
+            " digital",
+            " Global",
+            "\u8d85\u7ea7",
+            "\u865a\u62df"
+          ],
+          "output": [
+            " flushing",
+            "angk",
+            " iceberg",
+            "\u8bdd\u7b52",
+            "endas",
+            "irie",
+            " sund",
+            "ayne",
+            "\u900f\u89c6",
+            "oyle"
+          ]
+        },
+        {
+          "sigma": 0.1034,
+          "pct": 1.5,
+          "input": [
+            "\u7684\u6c34",
+            "\u6c38",
+            "\u7684\u5929",
+            "\u745e",
+            "\u51b0",
+            " South",
+            "\u7684\u7f8e",
+            "\u79cb",
+            "\u7684\u6d77",
+            "\u96e8"
+          ],
+          "output": [
+            "bow",
+            " Bow",
+            "Bow",
+            " bows",
+            " bow",
+            "\u62d7",
+            "\u5043",
+            "pts",
+            " SLA",
+            " bowed"
+          ]
+        },
+        {
+          "sigma": 0.0657,
+          "pct": 0.6,
+          "input": [
+            "\u6587\u5b66",
+            "\u5b66\u79d1",
+            "\u533b\u5b66",
+            "\u54f2\u5b66",
+            "\u6559\u5b66",
+            "\u6c49\u8bed",
+            "\u521b\u4e1a",
+            "\u6587\u5316",
+            "\u4ea7\u4e1a",
+            "\u6cd5\u5b66"
+          ],
+          "output": [
+            "ovic",
+            " broadcasting",
+            " broadcast",
+            "\ufffd",
+            "\ufffd",
+            "\u542c\u5230\u4e86",
+            "\u4e0d\u8d77",
+            " anchor",
+            "anchor",
+            "Anchor"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0107,
+          "query": [
+            "<\uff5c\u2581pad\u2581\uff5c>",
+            "rat",
+            "\ufffd",
+            "arr",
+            "Ur",
+            "\u8f9e",
+            "\u091a",
+            "lor"
+          ],
+          "key": [
+            "<<\"",
+            " {/*",
+            "('",
+            ":@\"",
+            "/*\n",
+            "(\"",
+            "\u8bd7\u4eba",
+            "!(\""
+          ]
+        }
+      ]
+    },
+    {
+      "head": 18,
+      "ov_norm": 0.817,
+      "qk_norm": 0.0147,
+      "ov": [
+        {
+          "sigma": 0.7791,
+          "pct": 97.9,
+          "input": [
+            "}\\)-",
+            "-)",
+            "<\\",
+            "_-",
+            "'-",
+            "]/",
+            "}\\)/",
+            "('./",
+            "\uff1c",
+            "%\\"
+          ],
+          "output": [
+            " flushing",
+            " iceberg",
+            "irie",
+            "angk",
+            "\u8bdd\u7b52",
+            "endas",
+            "\u8e10",
+            "oyle",
+            "akan",
+            "\u6253\u53d1"
+          ]
+        },
+        {
+          "sigma": 0.0797,
+          "pct": 1.0,
+          "input": [
+            "James",
+            " James",
+            " Jesus",
+            " Mrs",
+            " Securities",
+            " Thomas",
+            " Genesis",
+            " Sciences",
+            " Physics",
+            " Charles"
+          ],
+          "output": [
+            "\u4e0d\u62d8",
+            " Fortun",
+            " Leopold",
+            " brid",
+            " Pomer",
+            "Managed",
+            "entin",
+            "\u0302",
+            "\ufffd",
+            "\u672c\u5c31"
+          ]
+        },
+        {
+          "sigma": 0.063,
+          "pct": 0.6,
+          "input": [
+            "uns",
+            " ANS",
+            "esp",
+            " Abs",
+            "Abs",
+            " Bes",
+            "RES",
+            " abs",
+            " Mans",
+            "abs"
+          ],
+          "output": [
+            "zes",
+            "\u9650\u989d",
+            "\u63f4",
+            "udal",
+            " Cod",
+            "\u7ec4\u7684",
+            "nest",
+            "\u7b79\u5efa",
+            "\u7b79\u63aa",
+            "\u6dec"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0147,
+          "query": [
+            "<\uff5c\u2581pad\u2581\uff5c>",
+            "rat",
+            "arr",
+            "\ufffd",
+            "Ur",
+            "att",
+            "char",
+            "arry"
+          ],
+          "key": [
+            "<\uff5cfim\u2581begin\uff5c>",
+            "^{\\",
+            "\u05b0",
+            " \u0645\u06cc",
+            "\ufffd",
+            "\u7a77",
+            "{\n",
+            "\u793e\u4f1a"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 2,
+      "ov_norm": 0.6864,
+      "qk_norm": 1.0041,
+      "ov": [
+        {
+          "sigma": 0.6776,
+          "pct": 98.6,
+          "input": [
+            " \u0434\u043b\u044f",
+            "\u3092",
+            " c\u1ee7a",
+            "\u306e",
+            "'))",
+            " \u0432",
+            "'),",
+            ")),\n",
+            "\ub97c",
+            ")\uff0c"
+          ],
+          "output": [
+            " flushing",
+            " iceberg",
+            "angk",
+            "ayne",
+            "\u8e10",
+            "endas",
+            "ayu",
+            "irie",
+            "oyle",
+            "\ufffd"
+          ]
+        },
+        {
+          "sigma": 0.0602,
+          "pct": 0.8,
+          "input": [
+            " sexual",
+            " apoptosis",
+            " wildlife",
+            " healthcare",
+            " allergic",
+            " digestive",
+            " NFL",
+            " sunlight",
+            " television",
+            "\u5fc3\u810f"
+          ],
+          "output": [
+            "tenance",
+            "\u5de5\u4f5c\u4e0a",
+            "\u5371",
+            "\u5929\u4e0b\u4e4b",
+            "CCC",
+            "\u5de5\u4f5c\u4e2d\u7684",
+            " Maintenance",
+            " regrett",
+            " Luc",
+            " Dispatch"
+          ]
+        },
+        {
+          "sigma": 0.0427,
+          "pct": 0.4,
+          "input": [
+            " $\\",
+            " (\\(\\",
+            " \\({\\",
+            " \\({}^{",
+            " \\({}^{\\",
+            " \ufffd",
+            " \ufffd",
+            " $$\\",
+            " (\\(",
+            " \u00f0"
+          ],
+          "output": [
+            " LEAVE",
+            "\u5009",
+            "\u6587\u53f2",
+            "\u4e00\u5143",
+            " concent",
+            "\u900f\u652f",
+            "\u7559\u4e0b\u4e00",
+            "Leave",
+            " acknowled",
+            " constitutive"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.0041,
+          "query": [
+            "rat",
+            "<\uff5c\u2581pad\u2581\uff5c>",
+            "arr",
+            "\ufffd",
+            "att",
+            "atz",
+            "par",
+            "\u043e\u0434"
+          ],
+          "key": [
+            "\")]\n",
+            "))))\n",
+            ")),\n",
+            "))\n",
+            "')\n",
+            "'),\n",
+            "'))\n",
+            "\"))\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "head": 67,
+      "ov_norm": 0.8304,
+      "qk_norm": 0.0022,
+      "ov": [
+        {
+          "sigma": 0.7986,
+          "pct": 97.9,
+          "input": [
+            " (.",
+            "(\".",
+            "(.",
+            " \".",
+            " &.",
+            "('.",
+            "-.",
+            "{.",
+            "*.",
+            " `."
+          ],
+          "output": [
+            " flushing",
+            " iceberg",
+            "\u5c55\u958b",
+            "irie",
+            " Andersen",
+            "oyle",
+            "angk",
+            "ayne",
+            " sund",
+            "ayu"
+          ]
+        },
+        {
+          "sigma": 0.0803,
+          "pct": 1.0,
+          "input": [
+            "}\\)-",
+            "\\)-",
+            "\u2010",
+            "\u2011",
+            "\ufffd",
+            "'-",
+            "\u4e16\u754c",
+            "\u8036",
+            "-B",
+            "\u9f13"
+          ],
+          "output": [
+            "\ufffd",
+            "orem",
+            "\u50ac",
+            " Levy",
+            " recon",
+            "inee",
+            " gau",
+            " loosely",
+            " syll",
+            "\u63d2\u5ea7"
+          ]
+        },
+        {
+          "sigma": 0.0665,
+          "pct": 0.7,
+          "input": [
+            "                                                                                                                                ",
+            "\t\t\t\t\t\t\t\t\t",
+            ")\uff0c",
+            "%\uff0c",
+            "}-\\",
+            "\uff0c\uff08",
+            "\u2103\uff0c",
+            "]\u3002",
+            "%\u3002",
+            "\t\t\t\t\t\t\t\t\t\t"
+          ],
+          "output": [
+            " Directors",
+            " reinst",
+            "\u4e00\u6ce2",
+            "isson",
+            " Ferry",
+            "\u4f10",
+            "\u706f",
+            " directors",
+            "otrop",
+            "\u76ca"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0021,
+          "query": [
+            " SOFTWARE",
+            "\u504f",
+            "\u7d27\u6025",
+            "Cr",
+            "RC",
+            "original",
+            "R",
+            "\u6d88"
+          ],
+          "key": [
+            "             ",
+            "            ",
+            "              ",
+            "|^{",
+            "                                         ",
+            "\u5904\u4e8e",
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            "\t       "
+          ]
+        },
+        {
+          "sigma": 0.0006,
+          "query": [
+            "c",
+            "}c",
+            "\u30c8",
+            "\u30bf",
+            "\u80f6",
+            "\u65cb",
+            "\u7c21",
+            "\u0441"
+          ],
+          "key": [
+            "                       ",
+            "={{",
+            "                   ",
+            "\t ",
+            "\t\t   ",
+            "\t   ",
+            ">{",
+            "{-"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 30,
+      "ov_norm": 0.829,
+      "qk_norm": 0.0036,
+      "ov": [
+        {
+          "sigma": 0.8202,
+          "pct": 98.8,
+          "input": [
+            "archar",
+            "UK",
+            "TJ",
+            ".\\({}^{",
+            "},\\]",
+            " youngsters",
+            ",\\]",
+            " enormous",
+            "LV",
+            "\"\\"
+          ],
+          "output": [
+            " iceberg",
+            " flushing",
+            "\u5c55\u958b",
+            " Andersen",
+            " sund",
+            "oyle",
+            "ayu",
+            " LOW",
+            "\u8bdd\u7b52",
+            "irie"
+          ]
+        },
+        {
+          "sigma": 0.0668,
+          "pct": 0.7,
+          "input": [
+            "\\(\\",
+            "commit",
+            " $\\",
+            "\\({}_{",
+            " $$\\",
+            "PubMed",
+            ".youtube",
+            "\\({}_{\\",
+            "\\[\\",
+            " doi"
+          ],
+          "output": [
+            " programmable",
+            "\u516c\u76ca\u6027",
+            "\u4e3a\u8be5",
+            " Elev",
+            " Sto",
+            "\u79fb\u81f3",
+            " prominence",
+            " Gaw",
+            " Roz",
+            "\u7a8d"
+          ]
+        },
+        {
+          "sigma": 0.0529,
+          "pct": 0.4,
+          "input": [
+            "_P",
+            "Mod",
+            "\u66f4\u65b0",
+            "_PER",
+            " Re",
+            "_CONT",
+            "_CL",
+            " \ucd94\uac00",
+            ".Add",
+            "_COMP"
+          ],
+          "output": [
+            "\u4e27",
+            " naked",
+            "dob",
+            " Contents",
+            "\ufffd",
+            "\u7eb5\u5411",
+            " Academia",
+            "osed",
+            " '+'",
+            "bod"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0035,
+          "query": [
+            ".O",
+            "\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a",
+            "OO",
+            " household",
+            "\u4e61\u9547\u4f01\u4e1a",
+            ".W",
+            " Freedom",
+            " outdoor"
+          ],
+          "key": [
+            "]$",
+            "      ",
+            "}$",
+            "  ",
+            "          ",
+            "                  ",
+            "]]",
+            "/core"
+          ]
+        },
+        {
+          "sigma": 0.0009,
+          "query": [
+            " ....",
+            "'.\n",
+            "............",
+            "....",
+            ".......",
+            "..........",
+            "........",
+            "\u3002\u3002"
+          ],
+          "key": [
+            "({\n",
+            " \"\",\n",
+            "(err",
+            " ({\n",
+            " ((-",
+            "^{(",
+            " decimal",
+            " {("
+          ]
+        }
+      ]
+    },
+    {
+      "head": 103,
+      "ov_norm": 0.7411,
+      "qk_norm": 0.0001,
+      "ov": [
+        {
+          "sigma": 0.7392,
+          "pct": 99.7,
+          "input": [
+            "(\"[",
+            " \\((",
+            "('[",
+            " _(",
+            " (\u2018",
+            " (_",
+            "(((",
+            " \"(",
+            "(['",
+            " \"["
+          ],
+          "output": [
+            " flushing",
+            " iceberg",
+            "angk",
+            "oule",
+            "oyle",
+            "\u5c55\u958b",
+            "avad",
+            " sund",
+            "ayne",
+            " Andersen"
+          ]
+        },
+        {
+          "sigma": 0.0262,
+          "pct": 0.1,
+          "input": [
+            "\u201d\uff08",
+            "\u3002\u201d(",
+            "\u201d(",
+            "\u3002\u201d\uff08",
+            "\u300b(",
+            "\u3002(",
+            "\u300b\uff08",
+            "\u3002\uff08",
+            "}\\)(",
+            "\uff1f\uff08"
+          ],
+          "output": [
+            " Cave",
+            "sequence",
+            "ordo",
+            " catt",
+            "alent",
+            " SEQ",
+            "table",
+            "ess",
+            "seq",
+            " talent"
+          ]
+        },
+        {
+          "sigma": 0.025,
+          "pct": 0.1,
+          "input": [
+            "))))\n",
+            ")))\n",
+            ")));\n",
+            ")),\n",
+            ")),",
+            "\"))\n",
+            "\"));\n",
+            ")))\n\n",
+            "]))\n",
+            "]));\n"
+          ],
+          "output": [
+            "\u76e3",
+            "\u76d1",
+            "Listen",
+            "Bre",
+            "Stage",
+            "\ufffd",
+            "\u6572",
+            " breath",
+            " breathing",
+            " Loud"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0001,
+          "query": [
+            " SOFTWARE",
+            "\u90fd\u5feb",
+            "\u8d70\u5411",
+            "\u7d27\u6025",
+            "\u9f50\u9f50",
+            "\u5feb\u8981",
+            "\u53d8\u5f97",
+            "\u8d8a\u8fc7"
+          ],
+          "key": [
+            "))))",
+            "\"))",
+            ")\u201d",
+            ")))",
+            "}}}}",
+            "))+",
+            "']))",
+            "'))."
+          ]
+        },
+        {
+          "sigma": 0.0,
+          "query": [
+            "c",
+            "R",
+            "T",
+            "O",
+            "M",
+            "i",
+            "C",
+            "K"
+          ],
+          "key": [
+            ")){\n",
+            ")):\n",
+            "_df",
+            "]:\n",
+            "gw",
+            "lp",
+            "\"):\n",
+            ")))\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "3": [
+    {
+      "head": 67,
+      "ov_norm": 0.8461,
+      "qk_norm": 0.1904,
+      "ov": [
+        {
+          "sigma": 0.6024,
+          "pct": 66.3,
+          "input": [
+            " Luo",
+            "OO",
+            "66",
+            "uo",
+            "666",
+            "355",
+            "660",
+            "706",
+            ".UI",
+            "886"
+          ],
+          "output": [
+            " flushing",
+            "Sv",
+            "Rv",
+            "\u8e10",
+            " iceberg",
+            "sof",
+            "\u5356\u7684",
+            "\u5c55\u958b",
+            " Stages",
+            " Tou"
+          ]
+        },
+        {
+          "sigma": 0.3891,
+          "pct": 27.7,
+          "input": [
+            "806",
+            "734",
+            " Se",
+            "                      ",
+            "Se",
+            "966",
+            " Spe",
+            "spe",
+            "osse",
+            "....."
+          ],
+          "output": [
+            "antis",
+            " nonex",
+            "gis",
+            " Consultation",
+            "\u4e0d\u4e0b",
+            "Cod",
+            "space",
+            "aru",
+            "\u5b97\u5e08",
+            " Consultants"
+          ]
+        },
+        {
+          "sigma": 0.1594,
+          "pct": 4.6,
+          "input": [
+            "\u8776",
+            "\ufffd",
+            "ongo",
+            " Tong",
+            ".Mod",
+            " Gong",
+            " Song",
+            "\u80e5",
+            ".word",
+            "\u6b46"
+          ],
+          "output": [
+            "arita",
+            " Morton",
+            "eti",
+            "rama",
+            " trav",
+            " Foot",
+            "inous",
+            "\u6253\u8d25",
+            "uita",
+            "andle"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.1902,
+          "query": [
+            "_{",
+            "/l",
+            "/sw",
+            "(st",
+            "\u2019",
+            "_T",
+            "/st",
+            "<\uff5c\u2581pad\u2581\uff5c>"
+          ],
+          "key": [
+            "918",
+            "448",
+            "539",
+            "568",
+            "567",
+            "538",
+            "398",
+            "532"
+          ]
+        },
+        {
+          "sigma": 0.008,
+          "query": [
+            "O",
+            "....",
+            " ....",
+            "..",
+            ".Core",
+            ".......",
+            ".spring",
+            " Care"
+          ],
+          "key": [
+            " bi",
+            " ai",
+            " ant",
+            " git",
+            " aut",
+            " inf",
+            " ci",
+            " aqu"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 97,
+      "ov_norm": 0.8245,
+      "qk_norm": 0.0429,
+      "ov": [
+        {
+          "sigma": 0.6364,
+          "pct": 76.5,
+          "input": [
+            ".O",
+            "opro",
+            "OO",
+            ".o",
+            "Don",
+            "OTO",
+            "{O",
+            "-O",
+            "(O",
+            ".pro"
+          ],
+          "output": [
+            " flushing",
+            "\u5356\u7684",
+            " iceberg",
+            " LOW",
+            "Rv",
+            "\u5c55\u958b",
+            " thresholds",
+            "\u900f\u89c6",
+            "ogr",
+            "\u8e10"
+          ]
+        },
+        {
+          "sigma": 0.3023,
+          "pct": 17.3,
+          "input": [
+            " Kar",
+            ".dat",
+            "Kar",
+            " Angela",
+            " Jennifer",
+            "\u63a1",
+            " Graduate",
+            " kar",
+            " Fahr",
+            " Investment"
+          ],
+          "output": [
+            "antis",
+            " Consultation",
+            "space",
+            " Crack",
+            "\u4e0d\u4e0b",
+            "Cod",
+            " Cod",
+            "aru",
+            " Chin",
+            "gis"
+          ]
+        },
+        {
+          "sigma": 0.1675,
+          "pct": 5.3,
+          "input": [
+            "ub",
+            "093",
+            "ew",
+            "ob",
+            "Sub",
+            "subscript\ufffd",
+            " Sub",
+            "ib",
+            " Fer",
+            "198"
+          ],
+          "output": [
+            "achar",
+            "\u70e8",
+            "\u4e1a\u7684",
+            "\u7cbe\u76ca",
+            "\u91cd\u91cf",
+            "cic",
+            "\u00f6ll",
+            "fw",
+            "\u7950",
+            "\u610f\u7684"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0429,
+          "query": [
+            "_{",
+            "/l",
+            "_T",
+            "(st",
+            "\u2019",
+            "/sw",
+            "\u20ac\u2122",
+            "/st"
+          ],
+          "key": [
+            "\ufffd",
+            " \u0428",
+            " SW",
+            " FR",
+            "-W",
+            " \u0448",
+            "_W",
+            " Sw"
+          ]
+        },
+        {
+          "sigma": 0.0016,
+          "query": [
+            "     ",
+            "\t     ",
+            "    \t",
+            "\tf",
+            "\t    ",
+            "\tb",
+            "\t   ",
+            "\ts"
+          ],
+          "key": [
+            "react",
+            "\u767e\u5206",
+            " React",
+            " complement",
+            "Cont",
+            "\u6eb6",
+            "Elect",
+            "\u7b80\u4fbf"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 96,
+      "ov_norm": 0.7574,
+      "qk_norm": 0.0447,
+      "ov": [
+        {
+          "sigma": 0.605,
+          "pct": 79.5,
+          "input": [
+            "OO",
+            ".O",
+            "oo",
+            " O",
+            "OC",
+            "oc",
+            "O",
+            "-O",
+            "_O",
+            "oi"
+          ],
+          "output": [
+            " flushing",
+            " buil",
+            "\u5c55\u958b",
+            " thresholds",
+            " iceberg",
+            "Sv",
+            "angk",
+            "Rv",
+            "oule",
+            " Colors"
+          ]
+        },
+        {
+          "sigma": 0.2692,
+          "pct": 15.7,
+          "input": [
+            "-A",
+            "_CO",
+            " Ant",
+            " Aut",
+            " Int",
+            "-B",
+            " Ab",
+            " Ba",
+            ".aut",
+            " Di"
+          ],
+          "output": [
+            "antis",
+            "gis",
+            " Bow",
+            " Cod",
+            "Cod",
+            " Consultants",
+            " nonex",
+            "ges",
+            " QC",
+            " Crack"
+          ]
+        },
+        {
+          "sigma": 0.1259,
+          "pct": 3.4,
+          "input": [
+            "-O",
+            "oooo",
+            " Professional",
+            "-W",
+            " Lo",
+            "\\times",
+            "795",
+            " Schedule",
+            " Sports",
+            "(O"
+          ],
+          "output": [
+            "\u5728\u4f7f\u7528",
+            " slipp",
+            "\u6240\u5c5e",
+            "imet",
+            " rose",
+            " Nun",
+            "\u80fd\u4ece",
+            "\u51b2\u7834",
+            "\u7684\u7a7a\u6c14",
+            "\u76f8\u89c1"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.0447,
+          "query": [
+            "/l",
+            "_{",
+            "\u2019",
+            "_T",
+            "(st",
+            "\u20ac\u2122",
+            "/sw",
+            "_W"
+          ],
+          "key": [
+            "\u6148",
+            "_data",
+            "\u68e0",
+            "elines",
+            "eria",
+            "=a",
+            "856",
+            " serves"
+          ]
+        },
+        {
+          "sigma": 0.0022,
+          "query": [
+            "O",
+            "....",
+            "oration",
+            "anner",
+            "\u534a\u5e74",
+            "\u8001\u5e74",
+            "\u0440\u043e\u043d",
+            "ration"
+          ],
+          "key": [
+            "\u642c",
+            " lib",
+            " ox",
+            "subscript\ufffd",
+            "\u5375",
+            " {'",
+            "\u7164",
+            " \u0446\u0438"
+          ]
+        }
+      ]
+    }
+  ],
+  "5": [
+    {
+      "head": 4,
+      "ov_norm": 1.0345,
+      "qk_norm": 4.8567,
+      "ov": [
+        {
+          "sigma": 1.0177,
+          "pct": 98.5,
+          "input": [
+            "/image",
+            " driver",
+            "\u7537\u5b50",
+            " main",
+            "\u540d",
+            "aternion",
+            "height",
+            " fuel",
+            "\u7537",
+            " foo"
+          ],
+          "output": [
+            "bite",
+            "aste",
+            "oule",
+            " breakout",
+            "ogr",
+            "yrus",
+            "rette",
+            "\u900f\u89c6",
+            "\u5e78\u5b58",
+            "\u89c1\u56fe"
+          ]
+        },
+        {
+          "sigma": 0.0886,
+          "pct": 0.7,
+          "input": [
+            " Book",
+            " Web",
+            "Shop",
+            "Game",
+            " Guide",
+            "\u5c0f\u8bf4",
+            "rupal",
+            " Quiz",
+            "web",
+            " Blog"
+          ],
+          "output": [
+            " Principle",
+            "\u8de8\u5ea6",
+            " nonex",
+            "-cig",
+            " Kov",
+            " sloping",
+            " lux",
+            "ozo",
+            "\u8fd9\u4e2a\u65b9\u6cd5",
+            "\u53d7\u5230\u5f71\u54cd"
+          ]
+        },
+        {
+          "sigma": 0.0655,
+          "pct": 0.4,
+          "input": [
+            " antenna",
+            "\u8463\u4e8b\u957f",
+            " Sergeant",
+            "(unsigned",
+            " Indigenous",
+            "ensor",
+            " Police",
+            " Indian",
+            "instagram",
+            "\u8eab\u4efd\u8bc1"
+          ],
+          "output": [
+            "attempt",
+            " Chavez",
+            " attempt",
+            " Attempt",
+            " RET",
+            " Monroe",
+            "\u8ddf\u4e0d\u4e0a",
+            "Attempt",
+            " Lazarus",
+            "%%%%%%%%%%%%%%%%"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 4.8565,
+          "query": [
+            "OO",
+            "-O",
+            "\u20ac\u2122",
+            "/O",
+            "(o",
+            ")O",
+            "\u5b58\u8d27",
+            "EO"
+          ],
+          "key": [
+            "TJ",
+            "fb",
+            "\u82f1\u56fd",
+            "\u732a",
+            "392",
+            "fv",
+            "WL",
+            "Nm"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 89,
+      "ov_norm": 0.9246,
+      "qk_norm": 6.456,
+      "ov": [
+        {
+          "sigma": 0.807,
+          "pct": 91.7,
+          "input": [
+            "\u670d\u52a1",
+            "\u9999",
+            "\u8336",
+            " Captain",
+            " CO",
+            "\u8431",
+            "\ufffd",
+            "587",
+            "\u9b45",
+            "\u5983"
+          ],
+          "output": [
+            "oule",
+            "aste",
+            "bite",
+            "\u5e78\u5b58",
+            " breakout",
+            "eman",
+            "unker",
+            "irie",
+            "Sv",
+            "rette"
+          ]
+        },
+        {
+          "sigma": 0.1974,
+          "pct": 5.5,
+          "input": [
+            "441",
+            " cannabis",
+            " historic",
+            "891",
+            " Historic",
+            " Food",
+            "\u796d",
+            "\u75ab\u60c5\u9632\u63a7",
+            "\u571f\u58e4",
+            " Cultural"
+          ],
+          "output": [
+            "IOS",
+            "anish",
+            "ILE",
+            " deployment",
+            "raman",
+            " throughput",
+            "XE",
+            " wastes",
+            " paragraphs",
+            "avin"
+          ]
+        },
+        {
+          "sigma": 0.1184,
+          "pct": 2.0,
+          "input": [
+            " django",
+            "\u859b",
+            " router",
+            "117",
+            " Router",
+            "\u8003\u8bd5",
+            "157",
+            "\u8003\u7814",
+            "\u73cf",
+            "router"
+          ],
+          "output": [
+            "orem",
+            " Familiar",
+            " Efficacy",
+            " Comfort",
+            " Rost",
+            "pea",
+            "ysis",
+            "ombo",
+            "pe",
+            " Disney"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 4.6155,
+          "query": [
+            "**\n",
+            " boolean",
+            "]**",
+            "291",
+            " /**",
+            "\u851a",
+            " **\n\n",
+            " **"
+          ],
+          "key": [
+            "{split",
+            "{cases",
+            "{aligned",
+            "\u8bf4\u660e",
+            "manage",
+            "\u6b65\u9aa4",
+            " italic",
+            "\u5185\u5bb9"
+          ]
+        },
+        {
+          "sigma": 3.9639,
+          "query": [
+            "\u201f",
+            "\u20ac\u2122",
+            "}[]{",
+            "\t   ",
+            "\t ",
+            "<\uff5c\u2581pad\u2581\uff5c>",
+            "\u00a0 \u00a0",
+            ")\\]"
+          ],
+          "key": [
+            " UnityEngine",
+            " radio",
+            " Radio",
+            "\u5317\u4eac\u65f6\u95f4",
+            "\ufffd",
+            "\u6050\u6016",
+            " threat",
+            " Covid"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 117,
+      "ov_norm": 0.8443,
+      "qk_norm": 0.5726,
+      "ov": [
+        {
+          "sigma": 0.8148,
+          "pct": 97.5,
+          "input": [
+            " vehicle",
+            ".ind",
+            "170",
+            " EUR",
+            "Edited",
+            "\u6536\u8d77",
+            "AAA",
+            "AAF",
+            "REF",
+            " convertion"
+          ],
+          "output": [
+            "oule",
+            "aste",
+            "bite",
+            " breakout",
+            "dot",
+            "\u89c1\u56fe",
+            "Sv",
+            "ogr",
+            "\u900f\u89c6",
+            "\u5e78\u5b58"
+          ]
+        },
+        {
+          "sigma": 0.1008,
+          "pct": 1.5,
+          "input": [
+            "Footnote",
+            " Remark",
+            " workflow",
+            "FIGURE",
+            "Issue",
+            "ollary",
+            " Notice",
+            "\u516c\u5bd3",
+            " Lemma",
+            "Figure"
+          ],
+          "output": [
+            "/p",
+            "ime",
+            "/com",
+            "imed",
+            "/dl",
+            "/d",
+            "IOS",
+            "pea",
+            "/react",
+            "attend"
+          ]
+        },
+        {
+          "sigma": 0.0707,
+          "pct": 0.7,
+          "input": [
+            ".Entities",
+            ".Data",
+            ".entity",
+            "\ufeffusing",
+            ".model",
+            ".Object",
+            " Greece",
+            ".Abstract",
+            " boolean",
+            "\u8bbe\u5b9a"
+          ],
+          "output": [
+            " Kow",
+            "epa",
+            " Chill",
+            "bys",
+            "ogi",
+            "ropa",
+            "phe",
+            "\u4e94\u79cd",
+            "ges",
+            " Rost"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.5725,
+          "query": [
+            "OO",
+            "ooo",
+            "..",
+            ".O",
+            "c",
+            "\u7ec6\u80de",
+            ".core",
+            "...."
+          ],
+          "key": [
+            " airport",
+            " online",
+            " IT",
+            "\u4e5f",
+            " viruses",
+            " internet",
+            " copyright",
+            " bitcoin"
+          ]
+        },
+        {
+          "sigma": 0.0088,
+          "query": [
+            " each",
+            ".io",
+            "Only",
+            "Four",
+            "Next",
+            ".util",
+            "003",
+            "how"
+          ],
+          "key": [
+            "997",
+            "\u52b3\u52a8",
+            "133",
+            " lbs",
+            "\u957f\u671f",
+            "333",
+            "\u652f\u51fa",
+            "897"
+          ]
+        }
+      ]
+    }
+  ],
+  "10": [
+    {
+      "head": 55,
+      "ov_norm": 0.5436,
+      "qk_norm": 5.4495,
+      "ov": [
+        {
+          "sigma": 0.3894,
+          "pct": 72.7,
+          "input": [
+            "\u8377\u8f7d",
+            "\u8b66\u65b9",
+            " basketball",
+            " Superman",
+            " Rodgers",
+            "\u6587\u7269",
+            " mmol",
+            " NBA",
+            "\u5de8\u661f",
+            " pygame"
+          ],
+          "output": [
+            "mouth",
+            "nuts",
+            "\u66dc",
+            " ali",
+            "\u4e00\u4e2a\u5b57",
+            "chet",
+            "jw",
+            "lr",
+            "yh",
+            "verk"
+          ]
+        },
+        {
+          "sigma": 0.2153,
+          "pct": 22.2,
+          "input": [
+            "UH",
+            "IQ",
+            "\u7f8e\u5973",
+            " medications",
+            " Kenya",
+            "\u0127",
+            " HIV",
+            "<\uff5cplace\u2581holder\u2581no\u258152\uff5c>",
+            "|^{",
+            "\u540d\u6821"
+          ],
+          "output": [
+            "\u7684\u5efa\u7b51",
+            " anonymous",
+            "\u6279\u5224",
+            " straw",
+            "\u89c6\u89d2",
+            " bat",
+            "\u53d1\u8868\u65e5\u671f",
+            "\u9634\u6027",
+            "\u95f4\u9694",
+            "\u89c6"
+          ]
+        },
+        {
+          "sigma": 0.0885,
+          "pct": 3.8,
+          "input": [
+            "\u4fe1\u7528\u8bc1",
+            " BTC",
+            " carga",
+            " Irish",
+            ".Map",
+            "<\uff5cplace\u2581holder\u2581no\u2581670\uff5c>",
+            " Celtic",
+            " Bitcoin",
+            " kV",
+            " ore"
+          ],
+          "output": [
+            "bery",
+            "\u00e9on",
+            " cling",
+            " grab",
+            "aran",
+            "ACC",
+            "\u4e00\u4e2a\u4eba\u5728",
+            " physicist",
+            "\u4e00\u4e2a\u4eba",
+            "swick"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 4.7594,
+          "query": [
+            "_POSTSUPERSCRIPT",
+            " MF",
+            " heater",
+            "\u6c27",
+            "388",
+            "254",
+            "(query",
+            "\u062e\u0644\u0627\u0642"
+          ],
+          "key": [
+            "\u80a1\u4e1c",
+            "\u5211\u6cd5",
+            " Jesus",
+            " Shakespeare",
+            "\u4e2d\u533b",
+            " baseball",
+            " basketball",
+            " football"
+          ]
+        },
+        {
+          "sigma": 2.054,
+          "query": [
+            " Rou",
+            " DIS",
+            "\u4ed5",
+            " Base",
+            "\u4e00\u54c1",
+            " \ufffd",
+            "\u7684\u6700",
+            "\u6de1\u6de1\u7684"
+          ],
+          "key": [
+            " National",
+            "+H",
+            "Session",
+            "TestCase",
+            " regulatory",
+            " manufacturing",
+            "MG",
+            " Stephens"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 40,
+      "ov_norm": 0.5371,
+      "qk_norm": 4.1765,
+      "ov": [
+        {
+          "sigma": 0.4222,
+          "pct": 79.1,
+          "input": [
+            "\u6c11\u4e8b",
+            "{bmatrix",
+            "operatorname",
+            "\u6570\u5b66",
+            "\u6700\u9ad8\u4eba\u6c11\u6cd5\u9662",
+            "\u8bed\u6587",
+            " Mathematics",
+            "\u6240\u8c13",
+            "Proposition",
+            " Proposition"
+          ],
+          "output": [
+            "mouth",
+            " ali",
+            "lr",
+            "nuts",
+            "\u66dc",
+            "ably",
+            "reys",
+            "chet",
+            "ivu",
+            "\u897f\u6e56"
+          ]
+        },
+        {
+          "sigma": 0.1927,
+          "pct": 16.5,
+          "input": [
+            " agricultural",
+            " polynomial",
+            "\u94a2\u7b4b",
+            " Darwin",
+            " regression",
+            " orbitals",
+            "hematica",
+            "\u6559\u80b2",
+            "Grid",
+            " |="
+          ],
+          "output": [
+            " Grat",
+            "\u94db",
+            "arum",
+            " Virt",
+            " Desktop",
+            " Bravo",
+            "\u6211\u7b49",
+            "\u55d2",
+            "geo",
+            "\u6c5f\u6c34"
+          ]
+        },
+        {
+          "sigma": 0.0813,
+          "pct": 2.9,
+          "input": [
+            "Ii",
+            " Vancouver",
+            " QString",
+            "AAAAAAAA",
+            " \u0641\u0649",
+            "AAAA",
+            "\u0117",
+            " Canadian",
+            "\u8983",
+            " Rim"
+          ],
+          "output": [
+            " Trick",
+            "Tag",
+            " triang",
+            " py",
+            " CIRC",
+            " preoccup",
+            "ACC",
+            "\u8fdb\u9000",
+            " interl",
+            " accusation"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 3.4754,
+          "query": [
+            "_POSTSUPERSCRIPT",
+            " MF",
+            " heater",
+            "\u0dd2",
+            "\u062e\u0644\u0627\u0642",
+            "\\}",
+            " =(",
+            " Tit"
+          ],
+          "key": [
+            " coal",
+            " tea",
+            "\u9e21",
+            "\u6210\u90fd",
+            " Ireland",
+            "\u82f1\u56fd",
+            " coffee",
+            "Phys"
+          ]
+        },
+        {
+          "sigma": 1.54,
+          "query": [
+            " Rou",
+            " Coffee",
+            "\u4ed5",
+            "\u7684\u6700",
+            "Friday",
+            " \ufffd",
+            "\u4e00\u54c1",
+            "QE"
+          ],
+          "key": [
+            " CSS",
+            " Sikh",
+            " passwords",
+            "_features",
+            " subsets",
+            ".Json",
+            "316",
+            " polynomial"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 65,
+      "ov_norm": 0.5344,
+      "qk_norm": 5.8266,
+      "ov": [
+        {
+          "sigma": 0.3842,
+          "pct": 76.3,
+          "input": [
+            " Ireland",
+            " Jim",
+            " Irish",
+            " Louisiana",
+            " Texas",
+            "\u5efa\u7b51\u7269",
+            "Loop",
+            " Miss",
+            " Irving",
+            " Jamaica"
+          ],
+          "output": [
+            "mouth",
+            "nuts",
+            "dle",
+            "lr",
+            "jr",
+            " ali",
+            "chet",
+            "jw",
+            "ably",
+            "yrus"
+          ]
+        },
+        {
+          "sigma": 0.1941,
+          "pct": 19.5,
+          "input": [
+            "449",
+            "\u8003\u7814",
+            " Victoria",
+            "\u5973\u6027",
+            "SCs",
+            "<\uff5cplace\u2581holder\u2581no\u2581597\uff5c>",
+            "442",
+            "<\uff5cplace\u2581holder\u2581no\u2581249\uff5c>",
+            " baseball",
+            "243"
+          ],
+          "output": [
+            " Bravo",
+            "\u6c57",
+            "idu",
+            "virt",
+            " Grat",
+            "_rec",
+            "odge",
+            "\u6211\u7b49",
+            "uest",
+            "\u4e0d\u4e0a"
+          ]
+        },
+        {
+          "sigma": 0.0752,
+          "pct": 2.9,
+          "input": [
+            "\u671f\u8d27",
+            "209",
+            "185",
+            "\u718a",
+            "\u8d35\u5dde",
+            "205",
+            "\u4ea4\u901a",
+            "189",
+            "GM",
+            " George"
+          ],
+          "output": [
+            "Phase",
+            "477",
+            "phase",
+            "479",
+            "\u4e0b\u6807",
+            "ASC",
+            "adak",
+            " phase",
+            "\u5927\u5b66\u6bd5\u4e1a",
+            "\u4e00\u4e2a\u4eba\u5728"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 4.8488,
+          "query": [
+            "_POSTSUPERSCRIPT",
+            " MF",
+            " heater",
+            "\\}",
+            "_POSTSUBSCRIPT",
+            "\u062e\u0644\u0627\u0642",
+            "388",
+            "\u7535\u6e90"
+          ],
+          "key": [
+            "\u5be8",
+            " Ireland",
+            " Iraq",
+            " Christmas",
+            " Hex",
+            "\u7f57\u9a6c",
+            " Christ",
+            " Bosnia"
+          ]
+        },
+        {
+          "sigma": 2.3519,
+          "query": [
+            " \ufffd",
+            "\u4ed5",
+            " Rou",
+            "\u4e00\u54c1",
+            "\ufffd\ufffd\ufffd\ufffd\ufffd",
+            "\u7684\u6700",
+            " Coffee",
+            "\":\""
+          ],
+          "key": [
+            " argparse",
+            " wedding",
+            "\u5b97\u6559",
+            "\u4f1a\u8ba1",
+            " manufacturing",
+            " Political",
+            "\u653f\u5e9c\u91c7\u8d2d",
+            " Wedding"
+          ]
+        }
+      ]
+    }
+  ],
+  "15": [
+    {
+      "head": 24,
+      "ov_norm": 0.4526,
+      "qk_norm": 1.8519,
+      "ov": [
+        {
+          "sigma": 0.3629,
+          "pct": 85.1,
+          "input": [
+            "\u60f3\u8d77",
+            "\u60f3\u5230",
+            " holistic",
+            "\u5c31\u8fde",
+            "\u4e0a\u5b98",
+            "\u5f97\u77e5",
+            "\u54b3",
+            "\u9f50\u5168",
+            "\u68a6\u89c1",
+            ";\">"
+          ],
+          "output": [
+            "yrus",
+            "\u98ce\u53e3",
+            "NESS",
+            " Diverse",
+            "egy",
+            "cision",
+            "ness",
+            "ogether",
+            "auc",
+            "ocracy"
+          ]
+        },
+        {
+          "sigma": 0.1072,
+          "pct": 7.4,
+          "input": [
+            "768",
+            " Astronomy",
+            "\u7802",
+            "annel",
+            " >=",
+            " technologies",
+            " {'",
+            "774",
+            " [[",
+            "\u642c\u5230"
+          ],
+          "output": [
+            "ylan",
+            " resign",
+            " rew",
+            "\u6108\u53d1",
+            " Riv",
+            "eka",
+            " Chang",
+            " Signs",
+            "\u4efb\u51ed",
+            "\u4efb\u804c"
+          ]
+        },
+        {
+          "sigma": 0.0849,
+          "pct": 4.7,
+          "input": [
+            "JP",
+            "QB",
+            "gb",
+            "ramos",
+            "\u4f46\u662f",
+            "QD",
+            "Its",
+            "\u5370\u5ea6",
+            " violating",
+            " singular"
+          ],
+          "output": [
+            " stalk",
+            "\u20e3",
+            "Deg",
+            "\u9ad8\u5ea6",
+            "\u00a0\n",
+            "RIGHT",
+            " Yard",
+            "stalk",
+            "Prev",
+            " voy"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.3539,
+          "query": [
+            "otech",
+            "\u6709\u6c34",
+            "fu",
+            "\u4f1a\u5bfc\u81f4",
+            "\u6765\u6e90",
+            "\u67ef",
+            "\u6e05\u534e\u5927\u5b66",
+            " mail"
+          ],
+          "key": [
+            "\u534e\u590f",
+            " alt",
+            " plain",
+            "\u6696",
+            "ituary",
+            "\u5b9f",
+            "_input",
+            "162"
+          ]
+        },
+        {
+          "sigma": 0.9038,
+          "query": [
+            "\ufffd",
+            "\u0102",
+            ".split",
+            "/sp",
+            "\u30a8",
+            " Amb",
+            ".Split",
+            " \ufffd"
+          ],
+          "key": [
+            "\u4e92\u52a8",
+            "\u4e2b",
+            "\u59ae",
+            "\u79d1\u6280",
+            "\u8fd0\u7528",
+            "tyle",
+            "\u6750\u8d28",
+            ".Net"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 120,
+      "ov_norm": 0.4356,
+      "qk_norm": 1.569,
+      "ov": [
+        {
+          "sigma": 0.3393,
+          "pct": 82.6,
+          "input": [
+            "][]",
+            " beside",
+            " await",
+            " Sheikh",
+            "\u4f38\u624b",
+            "\tdefer",
+            " anche",
+            "\u773c\u524d",
+            "){\\",
+            "\u4ec0\u4e48\u4e1c\u897f"
+          ],
+          "output": [
+            "yrus",
+            " Diverse",
+            "egy",
+            "cision",
+            "NESS",
+            "auc",
+            "\u98ce\u53e3",
+            "eking",
+            "song",
+            "NR"
+          ]
+        },
+        {
+          "sigma": 0.1267,
+          "pct": 11.5,
+          "input": [
+            "}}_{",
+            "\u95e8\u7684",
+            "=self",
+            " cities",
+            "Como",
+            "_[",
+            "\u73b0\u6709\u7684",
+            "\u8fd9\u4e9b\u4eba",
+            "\u51e0\u4eba",
+            "\u4e00\u6837\u7684"
+          ],
+          "output": [
+            " Cycl",
+            " cycl",
+            "\u715c",
+            "Phase",
+            " cyclic",
+            "\u591a\u5c11\u6b21",
+            "\u00f6rd",
+            " escape",
+            "-cycle",
+            " Cycles"
+          ]
+        },
+        {
+          "sigma": 0.0735,
+          "pct": 3.9,
+          "input": [
+            "Mz",
+            "228",
+            "348",
+            "728",
+            "\u5e76",
+            " el",
+            " los",
+            "852",
+            "229",
+            " \u043f\u043e\u0441"
+          ],
+          "output": [
+            "\u6ee8",
+            "\u00a0\n",
+            "BACK",
+            " Bolog",
+            "\u4e0a\u56fe",
+            " Bake",
+            " Kou",
+            ".short",
+            "\u53f0\u4e0a",
+            "\u62fc"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.3331,
+          "query": [
+            "__(",
+            " lining",
+            "\u5f20\u4e09",
+            "{table",
+            " handful",
+            "hero",
+            "mw",
+            "Hero"
+          ],
+          "key": [
+            "\u3067\u306f",
+            "()->",
+            "\u306b\u306f",
+            "Was",
+            "][",
+            " Est",
+            "\u0448\u0435",
+            "if"
+          ]
+        },
+        {
+          "sigma": 0.587,
+          "query": [
+            "_pro",
+            " Princip",
+            " \u0627\u0644\u0639",
+            " \u0441\u043f",
+            " \u0442",
+            "\u4e09\u5927",
+            "\u610f\u6599",
+            "\u4e58\u6cd5"
+          ],
+          "key": [
+            "\u8fbe\u5230",
+            "\ufffd",
+            " \u0645\u06cc",
+            "\u5b9e\u73b0",
+            " Serializable",
+            "Voc",
+            " \u0441\u0438",
+            " Thunder"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 65,
+      "ov_norm": 0.4297,
+      "qk_norm": 1.7287,
+      "ov": [
+        {
+          "sigma": 0.3568,
+          "pct": 88.7,
+          "input": [
+            "\u8fd9\u65f6\u5019",
+            "\u884c\u4e1a",
+            "\u6b64\u523b",
+            "?\\",
+            "\u6211\u7528",
+            "\u7537\u6027",
+            "\u4e00\u500b\u4eba",
+            "224",
+            "\").",
+            "\u52a8\u4f5c"
+          ],
+          "output": [
+            "yrus",
+            "cision",
+            "NESS",
+            "\u98ce\u53e3",
+            " Diverse",
+            "ness",
+            "pei",
+            "auc",
+            "egy",
+            "NOS"
+          ]
+        },
+        {
+          "sigma": 0.0976,
+          "pct": 6.6,
+          "input": [
+            " ---|---",
+            "\u8138\u4e0a",
+            " bleeding",
+            " mounted",
+            "\u79ef\u7d2f",
+            " hace",
+            "456",
+            "CrossRef",
+            "\u624b\u673a",
+            " multidisciplinary"
+          ],
+          "output": [
+            "bbe",
+            " vers",
+            " resign",
+            "vek",
+            "eka",
+            " Chang",
+            " reads",
+            "\u4efb\u6559",
+            " \u0447\u0443",
+            "svg"
+          ]
+        },
+        {
+          "sigma": 0.0707,
+          "pct": 3.5,
+          "input": [
+            "\u5c45\u7136",
+            "\u4f53\u79ef",
+            "Plugin",
+            "YD",
+            "_sample",
+            "\uff09\u300b",
+            " CLI",
+            " pr\u00e9sent",
+            "\u4ece\u800c",
+            "\u51e4"
+          ],
+          "output": [
+            " Drag",
+            "\u6d5c",
+            "Terms",
+            "\u6014",
+            "\u6ee8",
+            " Terms",
+            " Bisc",
+            " hag",
+            " Bars",
+            "\u5bdd"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.5225,
+          "query": [
+            "__(",
+            "hero",
+            " lining",
+            "mw",
+            "Hero",
+            "(\n",
+            " Minnesota",
+            "\u5f20\u4e09"
+          ],
+          "key": [
+            " spoiled",
+            "helpers",
+            "\u5973\u6027",
+            " np",
+            "ACI",
+            " hypo",
+            "\u6d3b\u6027",
+            "\u5168\u90e8"
+          ]
+        },
+        {
+          "sigma": 0.6716,
+          "query": [
+            " Princip",
+            " Me",
+            "\u610f\u6599",
+            "\u906d\u9047",
+            "\u6cd5\u5f8b",
+            " \u0627\u0644\u0639",
+            " Expansion",
+            "'m"
+          ],
+          "key": [
+            "\u6301\u7eed",
+            "-related",
+            " Clinton",
+            " Economic",
+            " Agricultural",
+            " Architectural",
+            "\\Http",
+            " Its"
+          ]
+        }
+      ]
+    }
+  ],
+  "20": [
+    {
+      "head": 89,
+      "ov_norm": 0.5466,
+      "qk_norm": 1.5602,
+      "ov": [
+        {
+          "sigma": 0.3897,
+          "pct": 78.1,
+          "input": [
+            "124",
+            "\u5b8b",
+            "\u77f3",
+            "\u78ca",
+            " Cyril",
+            ":c",
+            "\u6731",
+            "{r",
+            "\u73e0",
+            "core"
+          ],
+          "output": [
+            "hores",
+            " singly",
+            "hore",
+            "\u7af9\u6797",
+            "\u4e0d\u540c\u7a0b\u5ea6",
+            "eman",
+            "lest",
+            "\u4e56\u4e56",
+            "Compare",
+            " Woolf"
+          ]
+        },
+        {
+          "sigma": 0.1583,
+          "pct": 12.9,
+          "input": [
+            "\u6587",
+            "018",
+            " elementary",
+            "363",
+            "323",
+            "818",
+            " Euler",
+            "Green",
+            " Bern",
+            " Green"
+          ],
+          "output": [
+            " Mare",
+            " Empower",
+            "orsch",
+            "oux",
+            "mund",
+            "\u9523",
+            " guar",
+            " securely",
+            "LA",
+            " proved"
+          ]
+        },
+        {
+          "sigma": 0.1151,
+          "pct": 6.8,
+          "input": [
+            "\u8212",
+            "329",
+            "327",
+            "331",
+            "739",
+            "328",
+            "829",
+            "659",
+            "324",
+            "309"
+          ],
+          "output": [
+            "Providers",
+            "Claims",
+            "Cad",
+            "oller",
+            "ELS",
+            "Codes",
+            "\u7184",
+            "\u7ba1\u7406\u6a21\u5f0f",
+            "EDI",
+            "Cover"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.2557,
+          "query": [
+            " Cor",
+            " CP",
+            "{P",
+            "\u51ac\u81f3",
+            "\u5145",
+            ",C",
+            " Kir",
+            " CM"
+          ],
+          "key": [
+            "Fe",
+            " insulin",
+            "elenium",
+            " Python",
+            "sometimes",
+            "Python",
+            "\ufffd",
+            "\u94dd"
+          ]
+        },
+        {
+          "sigma": 0.7355,
+          "query": [
+            "\u4e4b\u795e",
+            "MAX",
+            "\u6e56\u5317",
+            " lifetime",
+            "KK",
+            "_X",
+            " tolerate",
+            "\u4e4b\u8a00"
+          ],
+          "key": [
+            "\u4e0d\u4ec5\u662f",
+            " defendant",
+            " famous",
+            "\u00a0\u00a0\u00a0",
+            "\u5236\u9020\u4e1a",
+            "\u5b63\u5ea6",
+            "\u9632\u6b62",
+            "\u5168\u662f"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 8,
+      "ov_norm": 0.439,
+      "qk_norm": 2.3595,
+      "ov": [
+        {
+          "sigma": 0.3106,
+          "pct": 72.5,
+          "input": [
+            ".Models",
+            "{n",
+            "(n",
+            " Visual",
+            ".ui",
+            " Anderson",
+            "\u6797",
+            "{N",
+            "{H",
+            " Reading"
+          ],
+          "output": [
+            "hores",
+            "hore",
+            "eman",
+            "\u4e0d\u540c\u7a0b\u5ea6",
+            " Woolf",
+            " singly",
+            "cast",
+            "lest",
+            "\u7af9\u6797",
+            "\u59a5"
+          ]
+        },
+        {
+          "sigma": 0.1594,
+          "pct": 19.1,
+          "input": [
+            " Ax",
+            "Rd",
+            "\u5b58",
+            "\u8109",
+            "\u5f97\u6709",
+            "\u6839",
+            "Rn",
+            " \u00c5",
+            "\u666e",
+            "\u6839\u7684"
+          ],
+          "output": [
+            "orsch",
+            " Empower",
+            "mund",
+            "\u9523",
+            " lap",
+            "\ufffd",
+            " Mare",
+            " Larsen",
+            "\u8001\u5e08\u548c",
+            "\u0646\u064a\u0646"
+          ]
+        },
+        {
+          "sigma": 0.0814,
+          "pct": 5.0,
+          "input": [
+            "\u8212",
+            "121",
+            " White",
+            " red",
+            "show",
+            "white",
+            " msg",
+            "\u4ea8",
+            "\u660c",
+            "\u4e0d\u53ef"
+          ],
+          "output": [
+            "Providers",
+            "LLE",
+            "usters",
+            "Cad",
+            "oller",
+            "433",
+            " Providers",
+            "\u7184",
+            "\u043a\u0442\u0438",
+            "icare"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.5057,
+          "query": [
+            "MAX",
+            "\u4e4b\u795e",
+            "\u6e56\u5317",
+            "\u5c09",
+            " lifetime",
+            " Julius",
+            "KK",
+            "\u4e4b\u8a00"
+          ],
+          "key": [
+            "(v",
+            "94",
+            " Proposition",
+            "(n",
+            "\tv",
+            " greatest",
+            "124",
+            "74"
+          ]
+        },
+        {
+          "sigma": 1.1775,
+          "query": [
+            " CM",
+            "{P",
+            " Cor",
+            "FM",
+            "\u8000",
+            ".jpg",
+            "478",
+            " pandemic"
+          ],
+          "key": [
+            "LP",
+            " largely",
+            "multicolumn",
+            "QL",
+            " laser",
+            " LP",
+            " LD",
+            "JL"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 76,
+      "ov_norm": 0.4319,
+      "qk_norm": 1.5499,
+      "ov": [
+        {
+          "sigma": 0.3059,
+          "pct": 77.6,
+          "input": [
+            "Proposition",
+            "John",
+            "\u5b8b",
+            " John",
+            " Turner",
+            "\u6210\u7acb",
+            "_true",
+            "helpers",
+            "\u6881",
+            " William"
+          ],
+          "output": [
+            "hores",
+            " singly",
+            "cast",
+            "hore",
+            "eman",
+            "lest",
+            " Woolf",
+            "\u7af9\u6797",
+            " Ye",
+            "\u4e56\u4e56"
+          ]
+        },
+        {
+          "sigma": 0.125,
+          "pct": 13.0,
+          "input": [
+            "353",
+            "363",
+            "53",
+            "323",
+            "825",
+            "653",
+            "\u7af9",
+            "\u751c",
+            "929",
+            " Ny"
+          ],
+          "output": [
+            " guar",
+            "\ufffd",
+            " Mare",
+            " Empower",
+            "\u5b81\u6ce2",
+            "LA",
+            "Gard",
+            "orsch",
+            "ammer",
+            "mund"
+          ]
+        },
+        {
+          "sigma": 0.0904,
+          "pct": 6.8,
+          "input": [
+            "421",
+            "842",
+            "\u5f90",
+            "792",
+            "\u8881",
+            "211",
+            "902",
+            "\u946b",
+            "EB",
+            "eb"
+          ],
+          "output": [
+            "Providers",
+            "Cad",
+            "antis",
+            "Cover",
+            "\u7184",
+            "\u9752\u5c71",
+            "oller",
+            "055",
+            "Composite",
+            "Codes"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.2706,
+          "query": [
+            " CP",
+            " pandemic",
+            "\u51ac\u81f3",
+            ",C",
+            "MAP",
+            " CM",
+            "\u8000",
+            "04"
+          ],
+          "key": [
+            "\u9884\u9632",
+            "\u672a\u6765\u7684",
+            "\u5438\u6536",
+            " gaps",
+            "\u5730\u4e0b",
+            " transgender",
+            "\u2010",
+            "\u957f\u671f"
+          ]
+        },
+        {
+          "sigma": 0.6675,
+          "query": [
+            " Pal",
+            " Agriculture",
+            " Ng",
+            "Network",
+            " Cow",
+            "\u658c",
+            "\u5750\u5728",
+            "\\M"
+          ],
+          "key": [
+            "\u7684\u81ea",
+            " Utility",
+            "\u7684\u9762",
+            " zum",
+            "\u5404\u7c7b",
+            "\u30d7\u30ed",
+            "\u7684\u5f00",
+            "\u5bfc\u6570"
+          ]
+        }
+      ]
+    }
+  ],
+  "30": [
+    {
+      "head": 19,
+      "ov_norm": 0.5521,
+      "qk_norm": 0.9342,
+      "ov": [
+        {
+          "sigma": 0.2842,
+          "pct": 47.2,
+          "input": [
+            "\u6539\u5236",
+            " \"{",
+            "\u6253\u5f97",
+            " Denver",
+            "\u4e0d\u5e78",
+            "validate",
+            "\u65e0\u6240",
+            " \u0412\u0435",
+            "\u771f\u662f",
+            " \"\","
+          ],
+          "output": [
+            "\u4e0b\u9762\u5c31",
+            " asymmetric",
+            " Vote",
+            "\u68ad",
+            "elow",
+            " overwhelming",
+            "\u8fd9\u4fbf\u662f",
+            "weis",
+            "\u653e\u5927",
+            " hereafter"
+          ]
+        },
+        {
+          "sigma": 0.2092,
+          "pct": 25.6,
+          "input": [
+            "\tlet",
+            "\u8d70\u8fc7",
+            "\tp",
+            "Tex",
+            "\tdouble",
+            "\u5728\u8fc7\u53bb",
+            " Hook",
+            " Hydro",
+            "\u5728\u4e0a",
+            " Catch"
+          ],
+          "output": [
+            "\\t",
+            " pocket",
+            " complement",
+            " complementary",
+            " tj",
+            " Monitor",
+            " balanced",
+            " Canal",
+            " interl",
+            " sieve"
+          ]
+        },
+        {
+          "sigma": 0.1667,
+          "pct": 16.2,
+          "input": [
+            " Any",
+            " slightly",
+            "Any",
+            "\u53ef\u6709",
+            "Actually",
+            "\u76ee\u524d",
+            "current",
+            "\u60f3\u53bb",
+            ".find",
+            "\u043e\u0431\u0430"
+          ],
+          "output": [
+            "uty",
+            "elden",
+            "ampi",
+            " Boundaries",
+            "ffen",
+            "\u603b\u4f53\u4e0a",
+            "yen",
+            "unya",
+            "conom",
+            "CODE"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.7138,
+          "query": [
+            "Credit",
+            "\u5c45\u7136",
+            "visual",
+            "Death",
+            " Hipp",
+            "Har",
+            " \u043f\u0440\u043e\u0442\u0438\u0432",
+            "\u8fd9\u5c0f\u5b50"
+          ],
+          "key": [
+            "PQ",
+            " bahwa",
+            " Miz",
+            "check",
+            " Louise",
+            "AU",
+            "icket",
+            " ensures"
+          ]
+        },
+        {
+          "sigma": 0.3521,
+          "query": [
+            "Ar",
+            " casc",
+            " \u0647",
+            "\u8fd8\u6ca1\u6709",
+            "\u9646",
+            "\u7487",
+            " \"\")",
+            " AV"
+          ],
+          "key": [
+            " grouped",
+            "\u516c\u53f8\u5728",
+            " colleagues",
+            ".forEach",
+            " largely",
+            " strengths",
+            " lag",
+            "\u7a7a\u4e2d"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 60,
+      "ov_norm": 0.4828,
+      "qk_norm": 2.1169,
+      "ov": [
+        {
+          "sigma": 0.2437,
+          "pct": 45.1,
+          "input": [
+            "/or",
+            " amazing",
+            "\u4e00\u79cd",
+            "sb",
+            "\u771f",
+            "\u771f\u7684\u662f",
+            "\u597d\u53cb",
+            "(key",
+            "\u7528\u5fc3",
+            "\u6c89\u9ed8"
+          ],
+          "output": [
+            "weis",
+            "upa",
+            "\u4e0b\u9762\u5c31",
+            " asymmetric",
+            "SQ",
+            "zoom",
+            " overwhelming",
+            "\u5bb6\u5bb6",
+            " overlooked",
+            " behalf"
+          ]
+        },
+        {
+          "sigma": 0.2094,
+          "pct": 33.3,
+          "input": [
+            " underneath",
+            " hostile",
+            "\u4e00\u624b",
+            " photographic",
+            " tim",
+            "\u5f88",
+            " Continued",
+            " Ibid",
+            " hyp",
+            " Thoughts"
+          ],
+          "output": [
+            " complement",
+            " balanced",
+            " complementary",
+            "\u9501\u5b9a",
+            "\u56db\u4e2a",
+            " phenomen",
+            "\u8fed",
+            "\u5047",
+            " Hey",
+            "\u4e8c\u5b57"
+          ]
+        },
+        {
+          "sigma": 0.1411,
+          "pct": 15.1,
+          "input": [
+            "\u819d\u76d6",
+            "\ufffd",
+            " incomplete",
+            "\u949f",
+            "ometer",
+            " celebrating",
+            " showcases",
+            " Jar",
+            "\u7ca4",
+            "pages"
+          ],
+          "output": [
+            "\u60e6\u8bb0",
+            "ording",
+            " Bright",
+            "uty",
+            " oncology",
+            "icine",
+            " qualitative",
+            "rages",
+            " Qualitative",
+            "\u97a0\u8eac"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 2.009,
+          "query": [
+            "visual",
+            "Credit",
+            " \u043f\u0440\u043e\u0442\u0438\u0432",
+            " Hipp",
+            "Death",
+            "Looking",
+            "Har",
+            "smart"
+          ],
+          "key": [
+            "Ty",
+            "\u8346",
+            " v\u00fd",
+            "\u5a9b",
+            " Kirch",
+            "\u7b79\u5212",
+            "\u98d2",
+            " decent"
+          ]
+        },
+        {
+          "sigma": 0.4864,
+          "query": [
+            " exc",
+            "225",
+            " Identification",
+            "\u963b\u585e",
+            "\u51e0\u6b21",
+            " profiling",
+            "\u5426",
+            "070"
+          ],
+          "key": [
+            "_RES",
+            "[:,",
+            ".config",
+            "\u00e9o",
+            "RIB",
+            "\u62db\u5546",
+            ".Windows",
+            " javax"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 67,
+      "ov_norm": 0.4586,
+      "qk_norm": 1.4346,
+      "ov": [
+        {
+          "sigma": 0.2397,
+          "pct": 44.9,
+          "input": [
+            "\u6821\u957f",
+            " Dave",
+            "Draw",
+            "=d",
+            "Wa",
+            "\u7528\u6237\u7684",
+            "\u0412\u0430",
+            "227",
+            " Wit",
+            "\u4e0d\u4ec5\u662f"
+          ],
+          "output": [
+            "\u4e0b\u9762\u5c31",
+            "\u653e\u5927",
+            " Vote",
+            "\u68ad",
+            "\u4ee5\u4e0b\u662f",
+            " lob",
+            "\u626e",
+            "zeni",
+            " Below",
+            " below"
+          ]
+        },
+        {
+          "sigma": 0.1798,
+          "pct": 25.3,
+          "input": [
+            "mor",
+            " mute",
+            "\u5929\u4eba",
+            "\u558a",
+            " Cabinet",
+            " jury",
+            " Had",
+            "\u9605",
+            "\u6cea",
+            " Torah"
+          ],
+          "output": [
+            "446",
+            "upa",
+            "453",
+            "456",
+            "645",
+            "414",
+            "alta",
+            "443",
+            "510",
+            "450"
+          ]
+        },
+        {
+          "sigma": 0.1463,
+          "pct": 16.7,
+          "input": [
+            "\u9704",
+            "\u5a77",
+            "Auth",
+            " Eva",
+            " Lucas",
+            " Heidegger",
+            "\u676d",
+            "\u0430\u043b",
+            "\u90fd\u5728",
+            "YY"
+          ],
+          "output": [
+            "icine",
+            "-mon",
+            " Monitoring",
+            " qualitative",
+            "uty",
+            "\u603b\u4f53\u4e0a",
+            "Monitoring",
+            "Classes",
+            " Linking",
+            " qualitatively"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.2098,
+          "query": [
+            "rf",
+            " re",
+            " fe",
+            "/form",
+            " ho",
+            "\u53d7\u7406",
+            "\u8fc7\u7a0b",
+            " \uae30"
+          ],
+          "key": [
+            " Export",
+            " Empirical",
+            " Nutritional",
+            "\u4fdd\u6696",
+            " Food",
+            " Tropical",
+            " Toast",
+            "\u56f4\u7740"
+          ]
+        },
+        {
+          "sigma": 0.3739,
+          "query": [
+            " catastrophic",
+            " Mari",
+            "\ubbf8",
+            " instability",
+            " catalysis",
+            " crashing",
+            " !==",
+            " Hier"
+          ],
+          "key": [
+            "\ufb03\ufb03",
+            "\u8c0b",
+            " EG",
+            " AG",
+            "\u0304",
+            " Bild",
+            "hibit",
+            " Exhibit"
+          ]
+        }
+      ]
+    }
+  ],
+  "40": [
+    {
+      "head": 46,
+      "ov_norm": 0.9969,
+      "qk_norm": 2.9974,
+      "ov": [
+        {
+          "sigma": 0.7769,
+          "pct": 77.5,
+          "input": [
+            "\u86ee",
+            "\u5858",
+            "Very",
+            "\u8352",
+            "({",
+            "Column",
+            "Adam",
+            "Anyone",
+            " nutrient",
+            "\u901a\u5929"
+          ],
+          "output": [
+            "thorn",
+            " aptly",
+            " Grid",
+            "-grid",
+            " Nature",
+            "ogn",
+            "grid",
+            " nature",
+            "\u7684\u51b3\u5b9a",
+            " grids"
+          ]
+        },
+        {
+          "sigma": 0.3335,
+          "pct": 14.3,
+          "input": [
+            "\u6446",
+            " NMR",
+            "\u5341\u51e0",
+            " Clin",
+            " triangular",
+            "\u836f\u54c1",
+            "\u64fa",
+            " median",
+            " insulation",
+            "\">{"
+          ],
+          "output": [
+            "\u901f\u5ea6\u4e3a",
+            " designs",
+            " kinetic",
+            " Designs",
+            "\u7684\u901f\u5ea6",
+            " inters",
+            "\u7684\u65b9\u5f0f\u8fdb\u884c",
+            "design",
+            "Hill",
+            "\u901f\u5ea6"
+          ]
+        },
+        {
+          "sigma": 0.2187,
+          "pct": 6.1,
+          "input": [
+            "\u4f60\u8fd9",
+            "\u611f\u52a8",
+            "\u4e0d\u7559",
+            " rover",
+            " Apollo",
+            "\u822a",
+            " roster",
+            " lament",
+            " sta",
+            " rem"
+          ],
+          "output": [
+            " undisturbed",
+            "]:\n\n",
+            "\uff09\uff1a\n\n",
+            "\u4e3b\u8981\u901a\u8fc7",
+            " impoverished",
+            " unstable",
+            " isolated",
+            "tait",
+            "\u690d\u6811",
+            " unnoticed"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 2.7916,
+          "query": [
+            " abusive",
+            " MULT",
+            " unitary",
+            " Kad",
+            "\u4e3b\u529b",
+            " carp",
+            " lattice",
+            "\u82b1\u7eb9"
+          ],
+          "key": [
+            "World",
+            " Forest",
+            "\u65c5\u6e38",
+            "\u5409\u7965",
+            "\u4f48",
+            "/y",
+            "\u5367",
+            "arv"
+          ]
+        },
+        {
+          "sigma": 0.5784,
+          "query": [
+            "_CON",
+            "XI",
+            "\u53d1\u52a8",
+            " Final",
+            " inspiring",
+            " dynamical",
+            " Integrated",
+            "\u6784\u5efa"
+          ],
+          "key": [
+            "\u62db\u724c",
+            "\u5d14",
+            " navigate",
+            " \u2666",
+            " Spr",
+            "Broad",
+            "637",
+            "\u2009"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 103,
+      "ov_norm": 0.8823,
+      "qk_norm": 1.5146,
+      "ov": [
+        {
+          "sigma": 0.6744,
+          "pct": 74.3,
+          "input": [
+            ".security",
+            "\u4e2d\u5348",
+            "\u5927\u6c14",
+            "\u521a\u624d",
+            " Visual",
+            "\u518d\u4e5f",
+            "\u5916\u8868",
+            "\u7684\u6700\u5927",
+            "\u6444\u50cf\u5934",
+            "Width"
+          ],
+          "output": [
+            "thorn",
+            " aptly",
+            "-grid",
+            " Grid",
+            " grids",
+            " Nature",
+            " nature",
+            "grid",
+            " incon",
+            "ogn"
+          ]
+        },
+        {
+          "sigma": 0.309,
+          "pct": 15.6,
+          "input": [
+            " Island",
+            "[H",
+            "\u4fdd\u8d39",
+            " Filters",
+            " City",
+            ".AspNetCore",
+            ".component",
+            " Industries",
+            "Pap",
+            "(page"
+          ],
+          "output": [
+            "\u901f\u5ea6\u4e3a",
+            " kinetic",
+            " designs",
+            "\u7684\u901f\u5ea6",
+            " Kinetic",
+            " folded",
+            " Formal",
+            " Designs",
+            "Hill",
+            "design"
+          ]
+        },
+        {
+          "sigma": 0.1872,
+          "pct": 5.7,
+          "input": [
+            "UIC",
+            "QC",
+            "Qu",
+            "350",
+            " Que",
+            "CTC",
+            "CMC",
+            " Taj",
+            " Aaron",
+            ".call"
+          ],
+          "output": [
+            " undisturbed",
+            "tait",
+            " gaug",
+            " graphically",
+            "\u690d\u6811",
+            "r\u00fc",
+            ",r",
+            "\uff09\uff1a\n\n",
+            "irs",
+            " obese"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.2258,
+          "query": [
+            " abusive",
+            " unitary",
+            " Kad",
+            " MULT",
+            "\u82b1\u7eb9",
+            "\u7b49\u4eba",
+            "\u5f27\u5f62",
+            "\u56db\u5b63"
+          ],
+          "key": [
+            "312",
+            "263",
+            "\u540e\u518d",
+            " Length",
+            "\u4fd7",
+            "\ub4e4",
+            "_class",
+            "\u68f1"
+          ]
+        },
+        {
+          "sigma": 0.52,
+          "query": [
+            "\u98df\u54c1",
+            " People",
+            " White",
+            "\u8428",
+            " Bur",
+            "\u548c\u5c0f",
+            " pork",
+            " Susan"
+          ],
+          "key": [
+            " preventing",
+            "\u4eba\u662f",
+            "\u4eba\u6587",
+            "415",
+            "\u6240\u6709\u4eba\u90fd",
+            "/article",
+            "segment",
+            "\u83bd"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 6,
+      "ov_norm": 0.8332,
+      "qk_norm": 2.1074,
+      "ov": [
+        {
+          "sigma": 0.6051,
+          "pct": 71.2,
+          "input": [
+            "{%",
+            " Rain",
+            " \u043f\u0440\u043e",
+            " Mira",
+            " rain",
+            "\u96e8",
+            "\u5300",
+            " \u0432\u0441\u0435",
+            " plenty",
+            "_{-\\"
+          ],
+          "output": [
+            "thorn",
+            " aptly",
+            "-grid",
+            " Grid",
+            " grids",
+            " Nature",
+            " nature",
+            " ale",
+            "ogn",
+            "grid"
+          ]
+        },
+        {
+          "sigma": 0.2916,
+          "pct": 16.5,
+          "input": [
+            " Although",
+            " n\u011b",
+            " mutation",
+            " Features",
+            "\u8bd5\u7740",
+            " Fein",
+            " fer",
+            " You",
+            " \u0432\u043e\u043e\u0431\u0449\u0435",
+            "\u764c\u75c7"
+          ],
+          "output": [
+            "\u901f\u5ea6\u4e3a",
+            " folded",
+            "\u7684\u901f\u5ea6",
+            "Hill",
+            " Formal",
+            " kinetic",
+            "speed",
+            "\u7ea2\u8c46",
+            " moderated",
+            " arrangements"
+          ]
+        },
+        {
+          "sigma": 0.1897,
+          "pct": 7.0,
+          "input": [
+            "\u70b9\u51fb",
+            "\u4f60\u8fd8",
+            "\u68b5",
+            "\u5409",
+            " b\u1ea1n",
+            "iska",
+            " Click",
+            " Du",
+            "does",
+            " pat"
+          ],
+          "output": [
+            "irs",
+            "\u0c02",
+            " emotionally",
+            "{r",
+            "r",
+            "immun",
+            "\uff09\uff1a\n\n",
+            "r\u00f6",
+            "}r",
+            ":**\n\n"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.8548,
+          "query": [
+            " unitary",
+            " MULT",
+            " Kad",
+            " abusive",
+            " carbonyl",
+            "\u4e3b\u529b",
+            "\u82b1\u7eb9",
+            " carp"
+          ],
+          "key": [
+            " eligibility",
+            "-demand",
+            "\u65e5\u672c\u7684",
+            " labs",
+            " outsourcing",
+            "oauth",
+            "-)",
+            "/blob"
+          ]
+        },
+        {
+          "sigma": 0.7066,
+          "query": [
+            " Final",
+            "_CON",
+            "\uc5d0",
+            " massive",
+            "css",
+            "\u7b49\u65b9\u9762\u7684",
+            " worse",
+            "\u306e"
+          ],
+          "key": [
+            "\u0415\u0441\u043b\u0438",
+            " \u0415\u0441\u043b\u0438",
+            "worms",
+            " \u0435\u0441\u043b\u0438",
+            "('.",
+            " [];\n\n",
+            " \u0447\u0435\u0440\u0435\u0437",
+            "enson"
+          ]
+        }
+      ]
+    }
+  ],
+  "50": [
+    {
+      "head": 27,
+      "ov_norm": 1.2604,
+      "qk_norm": 1.3555,
+      "ov": [
+        {
+          "sigma": 1.0483,
+          "pct": 79.8,
+          "input": [
+            "ppy",
+            "\u9738",
+            "\u633a\u62d4",
+            "\ubc31",
+            "PPPP",
+            "\u66fc",
+            "\u30d1",
+            "924",
+            "pit",
+            "\u658c"
+          ],
+          "output": [
+            "\u6210\u836f",
+            "\u9d26",
+            " Quantity",
+            "\u4e3a\u4e2d",
+            " explanations",
+            " Feedback",
+            " reagent",
+            "obal",
+            " Structures",
+            " Explan"
+          ]
+        },
+        {
+          "sigma": 0.427,
+          "pct": 13.2,
+          "input": [
+            "309",
+            " Creek",
+            " turkey",
+            "263",
+            "329",
+            "288",
+            "129",
+            "\u4e09",
+            "<\uff5cplace\u2581holder\u2581no\u2581301\uff5c>",
+            "630"
+          ],
+          "output": [
+            " n",
+            " positional",
+            "\u5e73\u8861",
+            " Koch",
+            " balance",
+            "uzzle",
+            " precarious",
+            " budgetary",
+            "balance",
+            " Threatened"
+          ]
+        },
+        {
+          "sigma": 0.2461,
+          "pct": 4.4,
+          "input": [
+            "lib",
+            "Lib",
+            "290",
+            "Bar",
+            "\u83b1",
+            "296",
+            " Declaration",
+            " Tier",
+            "\ud574",
+            "291"
+          ],
+          "output": [
+            " unchecked",
+            " gentle",
+            " despite",
+            " upright",
+            " elder",
+            " vague",
+            " spotting",
+            "district",
+            " gent",
+            " Despite"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.138,
+          "query": [
+            "\u505a",
+            " make",
+            " its",
+            "\u4e0b",
+            "\u0928\u0947",
+            " any",
+            "\u7ecf\u8fc7",
+            " some"
+          ],
+          "key": [
+            " S",
+            " Manuel",
+            " Margaret",
+            " \u03d5",
+            "\u4e0d\u8bba",
+            " \u041c\u0430",
+            " AM",
+            " \u0645\u06cc\u06ba"
+          ]
+        },
+        {
+          "sigma": 0.572,
+          "query": [
+            "_se",
+            "pT",
+            "season",
+            " SE",
+            "\tName",
+            "Parent",
+            "551",
+            "041"
+          ],
+          "key": [
+            "842",
+            "\u6b98",
+            "\u808b",
+            "\u6591",
+            "\u5f66",
+            "793",
+            "143",
+            " Sir"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 54,
+      "ov_norm": 0.9804,
+      "qk_norm": 2.3586,
+      "ov": [
+        {
+          "sigma": 0.7033,
+          "pct": 71.4,
+          "input": [
+            "152",
+            "153",
+            "572",
+            "274",
+            "974",
+            "\u51e4",
+            "52",
+            "275",
+            "295",
+            "271"
+          ],
+          "output": [
+            "\u9d26",
+            "\u6210\u836f",
+            " Quantity",
+            " capitalized",
+            " Feedback",
+            "_--",
+            " explanations",
+            "\"--",
+            "\u4e3a\u4e2d",
+            "obal"
+          ]
+        },
+        {
+          "sigma": 0.3501,
+          "pct": 17.7,
+          "input": [
+            "583",
+            "582",
+            "584",
+            "419",
+            "592",
+            "829",
+            "729",
+            "329",
+            "839",
+            "292"
+          ],
+          "output": [
+            " positional",
+            " n",
+            " balance",
+            " Koch",
+            "\u5e73\u8861",
+            "balance",
+            "uzzle",
+            " precarious",
+            " Threatened",
+            "Working"
+          ]
+        },
+        {
+          "sigma": 0.2241,
+          "pct": 7.3,
+          "input": [
+            " json",
+            "json",
+            "371",
+            "\u5ddd",
+            " Employee",
+            " Bry",
+            "\u81ea\u884c",
+            " USB",
+            "robot",
+            " fabric"
+          ],
+          "output": [
+            " unchecked",
+            " alert",
+            " highlighting",
+            "district",
+            " despite",
+            "\u8fdb\u57ce",
+            " upright",
+            "highlight",
+            " eager",
+            "bot"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.8745,
+          "query": [
+            " make",
+            " its",
+            "\u2460",
+            " find",
+            " some",
+            " made",
+            " int",
+            "\u0928\u0947"
+          ],
+          "key": [
+            "_PRO",
+            " cons",
+            " Sum",
+            "_pro",
+            "\u00b0,",
+            ".service",
+            " minor",
+            "_RES"
+          ]
+        },
+        {
+          "sigma": 1.0946,
+          "query": [
+            "\u8e0f",
+            " ru",
+            " sus",
+            " \u0432\u0435",
+            " \u0433",
+            "\u4e0d\u6b62",
+            " Kirk",
+            "\u6c5f\u897f"
+          ],
+          "key": [
+            "\u59da",
+            "\u5357\u4eac",
+            "(`",
+            " CE",
+            "\ufffd",
+            "\u67ef",
+            " QString",
+            " Dennis"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 99,
+      "ov_norm": 0.9792,
+      "qk_norm": 1.9634,
+      "ov": [
+        {
+          "sigma": 0.7154,
+          "pct": 76.2,
+          "input": [
+            "514",
+            "127",
+            " FIGS",
+            "145",
+            "253",
+            "254",
+            "_pos",
+            " Hag",
+            "53",
+            "523"
+          ],
+          "output": [
+            " Feedback",
+            "\u9d26",
+            " capitalized",
+            " Quantity",
+            " Structures",
+            "\u6210\u836f",
+            "\u4e3a\u4e2d",
+            "obal",
+            " Faster",
+            "\u662f\u4e09"
+          ]
+        },
+        {
+          "sigma": 0.3228,
+          "pct": 15.5,
+          "input": [
+            " Nick",
+            " eq",
+            "471",
+            " External",
+            " EF",
+            "892",
+            " EPS",
+            "\u7535\u963b",
+            ".q",
+            "466"
+          ],
+          "output": [
+            " positional",
+            " Koch",
+            "\u5e73\u8861",
+            " Schloss",
+            " balance",
+            " periods",
+            "balance",
+            " Puzzle",
+            " Metabolic",
+            " puzzle"
+          ]
+        },
+        {
+          "sigma": 0.1914,
+          "pct": 5.5,
+          "input": [
+            "461",
+            "903",
+            "692",
+            "261",
+            "521",
+            "260",
+            "\u741b",
+            "861",
+            "391",
+            "fk"
+          ],
+          "output": [
+            " unchecked",
+            " ecology",
+            " alert",
+            " gentle",
+            "ecology",
+            " elder",
+            " bullet",
+            " eagerly",
+            "alert",
+            " Equipment"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.4687,
+          "query": [
+            "\u0928\u0947",
+            "\u598a\u5a20",
+            "\u652f\u4ed8",
+            " make",
+            "\u81f3",
+            "\u4e0b",
+            " high",
+            "\u4e0a\u9762\u7684"
+          ],
+          "key": [
+            "\u9ad8\u6821",
+            "011",
+            " Fuj",
+            " Green",
+            "353",
+            "\u9648",
+            " Row",
+            " organizational"
+          ]
+        },
+        {
+          "sigma": 0.9264,
+          "query": [
+            "712",
+            "Score",
+            "771",
+            "-che",
+            ".num",
+            "_RES",
+            "_se",
+            "_pro"
+          ],
+          "key": [
+            "391",
+            "_CH",
+            "93",
+            "183",
+            "\u70df\u53f0",
+            "392",
+            "943",
+            "_HE"
+          ]
+        }
+      ]
+    }
+  ],
+  "59": [
+    {
+      "head": 24,
+      "ov_norm": 0.8976,
+      "qk_norm": 1.1818,
+      "ov": [
+        {
+          "sigma": 0.6614,
+          "pct": 85.7,
+          "input": [
+            "\u8da3",
+            "\u51e0\u4e4e",
+            "\u673a\u52a8\u8f66",
+            " dl",
+            " anchoring",
+            " \u043e\u043f",
+            " spreading",
+            "\u4e08\u592b",
+            "\u7684\u4e3b\u8981",
+            "\u888b"
+          ],
+          "output": [
+            " n",
+            "0",
+            "r",
+            " O",
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            "c",
+            " navigation",
+            " symbolic",
+            " storage",
+            " inter"
+          ]
+        },
+        {
+          "sigma": 0.2162,
+          "pct": 9.2,
+          "input": [
+            "\u8f83\u4f4e",
+            "BV",
+            "CV",
+            "\u633a",
+            "\u96f7",
+            "\u8303",
+            " Jones",
+            "\u83b1",
+            "\u4e5f\u5728",
+            "RW"
+          ],
+          "output": [
+            " entangled",
+            " global",
+            "quier",
+            " self",
+            " Bush",
+            "c",
+            "\u8721",
+            " bush",
+            " multitude",
+            " facet"
+          ]
+        },
+        {
+          "sigma": 0.1429,
+          "pct": 4.0,
+          "input": [
+            " Wool",
+            ".sub",
+            " SQ",
+            "\ufffd",
+            "\u6324",
+            "IQ",
+            " Graduate",
+            " Sab",
+            " jelly",
+            " steroid"
+          ],
+          "output": [
+            " sust",
+            " altern",
+            "cccc",
+            "olong",
+            " autonom",
+            "_format",
+            "SOL",
+            " formatted",
+            "\u6709\u6761",
+            " lays"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.1279,
+          "query": [
+            "130",
+            "564",
+            "\u4f10",
+            "\u6c11\u4e3b",
+            "260",
+            "\u4e43\u81f3",
+            "460",
+            "659"
+          ],
+          "key": [
+            "\u9752\u5c11\u5e74",
+            " foo",
+            " Jong",
+            " citing",
+            " ved",
+            " precise",
+            " preventing",
+            "\u8d0a"
+          ]
+        },
+        {
+          "sigma": 0.2288,
+          "query": [
+            " prism",
+            " '@",
+            "[],",
+            "\u4e0b\u6e38",
+            "'>",
+            " arrangement",
+            "atsu",
+            " readiness"
+          ],
+          "key": [
+            "\u63d0\u51fa",
+            ")|",
+            ")&",
+            " :\u201c",
+            "\u8212",
+            " RP",
+            "\u62cd\u6444",
+            "\u7fd4"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 87,
+      "ov_norm": 0.8252,
+      "qk_norm": 1.6933,
+      "ov": [
+        {
+          "sigma": 0.6153,
+          "pct": 81.3,
+          "input": [
+            "QR",
+            "\u9ad8\u7b49\u6559\u80b2",
+            " prov",
+            " \u0906",
+            " Tam",
+            "ACP",
+            "\u76f8\u5173",
+            "\u504f\u504f",
+            " Policies",
+            "QP"
+          ],
+          "output": [
+            " n",
+            "r",
+            "0",
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            " O",
+            " navigation",
+            "c",
+            " r",
+            " storage",
+            " inter"
+          ]
+        },
+        {
+          "sigma": 0.2429,
+          "pct": 12.7,
+          "input": [
+            " dc",
+            "\u62ff\u8d77",
+            " POP",
+            "OTE",
+            " \ufffd",
+            "\u25a1\u25a1",
+            " bon",
+            " SET",
+            ".project",
+            "\u00fb"
+          ],
+          "output": [
+            " entangled",
+            " self",
+            " Bush",
+            "c",
+            " global",
+            " multitude",
+            "\u81ea\u6211",
+            "self",
+            " fusion",
+            "Global"
+          ]
+        },
+        {
+          "sigma": 0.1446,
+          "pct": 4.5,
+          "input": [
+            "\u5404\u7a2e",
+            "\u5404\u9879",
+            "\u5c6f",
+            " div",
+            "\u05d6",
+            "\u4e09\u662f",
+            "\u7bb1",
+            " SU",
+            "\u9019",
+            " ventricular"
+          ],
+          "output": [
+            "SOL",
+            " altern",
+            " SOL",
+            " sust",
+            "ibo",
+            "cccc",
+            "r",
+            "\u6709\u6761",
+            "wid",
+            "nom"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.4942,
+          "query": [
+            "460",
+            "\u6c11\u4e3b",
+            "659",
+            "564",
+            "260",
+            "\u4f10",
+            "<!",
+            " Douglas"
+          ],
+          "key": [
+            ")</",
+            "\u7684\u653f\u6cbb",
+            ".ph",
+            "\u987d",
+            ".right",
+            "\u7b2c\u4e00\u65f6\u95f4",
+            " Rob",
+            "\u8bf1"
+          ]
+        },
+        {
+          "sigma": 0.413,
+          "query": [
+            " '@",
+            " prism",
+            " arrangement",
+            " \"@",
+            "Slice",
+            "\u9006\u8f6c",
+            "'>",
+            " Schmid"
+          ],
+          "key": [
+            "Ty",
+            ">>>>",
+            "ZK",
+            " coli",
+            "\u00b3",
+            "592",
+            " Kot",
+            "\u70ad"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 55,
+      "ov_norm": 0.7746,
+      "qk_norm": 1.3742,
+      "ov": [
+        {
+          "sigma": 0.5873,
+          "pct": 82.3,
+          "input": [
+            "\u8f7b\u8f7b",
+            " circular",
+            "\u6446",
+            "\u65f6\u8981",
+            "\u91ca\u653e",
+            "448",
+            " todo",
+            "\u6e38\u79bb",
+            "\u4efb\u610f",
+            "\u10d0\ufffd"
+          ],
+          "output": [
+            " n",
+            "r",
+            "0",
+            " O",
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            "c",
+            " navigation",
+            " storage",
+            " r",
+            " .\n"
+          ]
+        },
+        {
+          "sigma": 0.2141,
+          "pct": 10.9,
+          "input": [
+            "OutputStream",
+            " penned",
+            "dirname",
+            "write",
+            "\ufffd",
+            "Big",
+            ".google",
+            "curl",
+            "\u5b66\u7fd2",
+            "\u60f3\u4e00\u60f3"
+          ],
+          "output": [
+            " entangled",
+            " global",
+            " self",
+            "Global",
+            "\u81ea\u6211",
+            "global",
+            "self",
+            " Bush",
+            " universal",
+            " multitude"
+          ]
+        },
+        {
+          "sigma": 0.1416,
+          "pct": 4.8,
+          "input": [
+            "eeee",
+            "vf",
+            " Const",
+            " glare",
+            " Bez",
+            ".current",
+            "\u77f3\u58a8",
+            "Worker",
+            "/sw",
+            "\u8457\u540d\u7684"
+          ],
+          "output": [
+            "cccc",
+            " sust",
+            "SOL",
+            " Sust",
+            "\u6709\u6761",
+            "-**",
+            " SOL",
+            "wid",
+            "creation",
+            " sustainably"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.26,
+          "query": [
+            "460",
+            "\u6c11\u4e3b",
+            "<!",
+            "\u81a8",
+            "659",
+            "Iv",
+            "\u6cd5\u6cbb",
+            "564"
+          ],
+          "key": [
+            "=self",
+            " preventing",
+            "\u7fe0",
+            " (\u00ab",
+            "Seq",
+            " liking",
+            " quasi",
+            "\tgo"
+          ]
+        },
+        {
+          "sigma": 0.4138,
+          "query": [
+            "\u4e0b\u6e38",
+            " Lang",
+            "atsu",
+            " nut",
+            ".rm",
+            " arrangement",
+            "\u5c91",
+            " ra"
+          ],
+          "key": [
+            "262",
+            " \u0111\u1ebfn",
+            " manages",
+            "footer",
+            "augh",
+            " Mick",
+            "372",
+            "\ufffd"
+          ]
+        }
+      ]
+    }
+  ],
+  "60": [
+    {
+      "head": 74,
+      "ov_norm": 0.7968,
+      "qk_norm": 1.379,
+      "ov": [
+        {
+          "sigma": 0.7897,
+          "pct": 98.5,
+          "input": [
+            "\u4f20\u7edf\u7684",
+            " \u043f\u0435\u0440",
+            "\u5e26\u6765\u7684",
+            "{{\\",
+            "\u5fae\u751f\u7269",
+            "agu",
+            " \t",
+            "\u6302",
+            " keeping",
+            " Graham"
+          ],
+          "output": [
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            "r",
+            "c",
+            "capt",
+            "0",
+            " capturing",
+            " renting",
+            "rk",
+            "raising",
+            "mag"
+          ]
+        },
+        {
+          "sigma": 0.091,
+          "pct": 1.3,
+          "input": [
+            "\u79df",
+            "CPU",
+            " \"\",\n",
+            " CP",
+            " setup",
+            "400",
+            " randomized",
+            "\u4f60\u4e0d",
+            "\u585e\u5c14",
+            "\u6781\u5927\u7684"
+          ],
+          "output": [
+            "0",
+            "c",
+            " n",
+            ":**\n\n",
+            "\u0966",
+            "\uff10",
+            "face",
+            "**.\n\n",
+            "\u09e6",
+            "cf"
+          ]
+        },
+        {
+          "sigma": 0.0333,
+          "pct": 0.2,
+          "input": [
+            "\u63a8\u8fdb",
+            " \ufffd",
+            "\u65f3",
+            " RV",
+            " conductor",
+            "\u8591",
+            "}_{",
+            "378",
+            "ev",
+            " Hydro"
+          ],
+          "output": [
+            "r",
+            " r",
+            "\tr",
+            "*r",
+            ",r",
+            "}r",
+            "=r",
+            "{r",
+            "rk",
+            ".r"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.3209,
+          "query": [
+            " Atlanta",
+            "-choice",
+            " Cassandra",
+            "KY",
+            " Turkish",
+            " Graph",
+            "\u043e\u0436\u0435",
+            " marriage"
+          ],
+          "key": [
+            "even",
+            "spe",
+            "\u6e23",
+            "([]",
+            "eas",
+            " subsequent",
+            " hardened",
+            " buddy"
+          ]
+        },
+        {
+          "sigma": 0.3705,
+          "query": [
+            "ISC",
+            "\u8282\u70b9",
+            " Gauss",
+            "Eh",
+            "\u8ba9\u5b66\u751f",
+            "isc",
+            "\u4f46\u662f\u4ed6",
+            " plain"
+          ],
+          "key": [
+            "Sy",
+            "cid",
+            " italic",
+            " FIR",
+            "mathbb",
+            "\u5c0f\u5973\u5b69",
+            " Rud",
+            " \u0916"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 71,
+      "ov_norm": 0.6993,
+      "qk_norm": 1.1028,
+      "ov": [
+        {
+          "sigma": 0.526,
+          "pct": 81.5,
+          "input": [
+            " \u043f\u043e\u0440",
+            " \u043a\u0438",
+            " deben",
+            "\u71d2",
+            "\u3067\u306f",
+            " pav",
+            " pledged",
+            " temples",
+            " equipment",
+            "759"
+          ],
+          "output": [
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            "r",
+            " capturing",
+            "capt",
+            "mag",
+            " blaming",
+            " defeating",
+            " solving",
+            " renting",
+            "rj"
+          ]
+        },
+        {
+          "sigma": 0.2296,
+          "pct": 15.5,
+          "input": [
+            "_z",
+            " TR",
+            "\tm",
+            " cx",
+            " tsp",
+            " javascript",
+            " dB",
+            " Mu",
+            " nav",
+            " kal"
+          ],
+          "output": [
+            "0",
+            "c",
+            " n",
+            "\uff10",
+            ":**\n\n",
+            "\u0966",
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            "\u09e6",
+            "606",
+            "face"
+          ]
+        },
+        {
+          "sigma": 0.0836,
+          "pct": 2.1,
+          "input": [
+            " Su",
+            " \u0647\u0648",
+            "Young",
+            " Young",
+            "\u5de6",
+            " gru",
+            "bu",
+            "\u0443\u043c",
+            " Hu",
+            " tim"
+          ],
+          "output": [
+            " r",
+            "r",
+            "}r",
+            "=r",
+            "\tr",
+            "'r",
+            "{r",
+            "*r",
+            "rk",
+            ",r"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 1.0836,
+          "query": [
+            "KY",
+            " Battle",
+            " Bey",
+            "\u0623\u0633",
+            " Leadership",
+            " Graph",
+            "Nancy",
+            " Atlanta"
+          ],
+          "key": [
+            " shallow",
+            "\u4e00\u751f\u7684",
+            " login",
+            " pets",
+            " Har",
+            "\u747e",
+            "583",
+            " Ch"
+          ]
+        },
+        {
+          "sigma": 0.1618,
+          "query": [
+            " Gauss",
+            "\u4f7f\u5176",
+            "Sil",
+            " Byrne",
+            "ISC",
+            " sil",
+            "\u6d78",
+            " Reynolds"
+          ],
+          "key": [
+            "\u56fd\u5e86",
+            "\u9022",
+            "\u755c",
+            "\u4e58\u5750",
+            "\u5168\u7a0b",
+            "\u6b23\u8d4f",
+            "\ufffd",
+            "\u56fa\u5b9a\u8d44\u4ea7\u6295\u8d44"
+          ]
+        }
+      ]
+    },
+    {
+      "head": 112,
+      "ov_norm": 0.6377,
+      "qk_norm": 0.8076,
+      "ov": [
+        {
+          "sigma": 0.4835,
+          "pct": 80.3,
+          "input": [
+            "\u4e00\u4efd",
+            "\u80bf\u7624",
+            "sr",
+            "yet",
+            " \u300e",
+            "\u6211\u5e02",
+            "029",
+            "mand",
+            "\u7f57\u9a6c",
+            "\u524d\u53bb"
+          ],
+          "output": [
+            "<\uff5cend\u2581of\u2581sentence\uff5c>",
+            " capturing",
+            "capt",
+            "r",
+            " blaming",
+            " defeating",
+            " solving",
+            "mag",
+            " calculating",
+            " capture"
+          ]
+        },
+        {
+          "sigma": 0.2196,
+          "pct": 16.6,
+          "input": [
+            "\u624b\u91cc",
+            "/to",
+            "\ufffd",
+            "\u56db\u6d77",
+            "\u4eb2\u7231\u7684",
+            "Information",
+            "/T",
+            "\u7ee3",
+            "ZZ",
+            "\u5bf9\u4e00\u4e2a"
+          ],
+          "output": [
+            " gloves",
+            " harness",
+            "\u624b\u5957",
+            " blinding",
+            " glove",
+            " r",
+            " structured",
+            "\u548c\u652f\u6301",
+            "\u4ec1\u6148",
+            " integrity"
+          ]
+        },
+        {
+          "sigma": 0.0827,
+          "pct": 2.3,
+          "input": [
+            "494",
+            "\u76ee\u524d",
+            "\u8fbe\u5230",
+            "054",
+            "\u6ecb\u517b",
+            "\u6211\u73b0\u5728",
+            " reducing",
+            "\u4eba\u4eec",
+            " Oll",
+            "jav"
+          ],
+          "output": [
+            "r",
+            " r",
+            "\tr",
+            "=r",
+            "rk",
+            "}r",
+            ",r",
+            "{r",
+            ".r",
+            "'r"
+          ]
+        }
+      ],
+      "qk": [
+        {
+          "sigma": 0.6761,
+          "query": [
+            "-choice",
+            " Atlanta",
+            " Bren",
+            " marriage",
+            " Turkish",
+            " Cassandra",
+            " goddess",
+            "KY"
+          ],
+          "key": [
+            " Sat",
+            " tm",
+            "xm",
+            " AX",
+            "Ty",
+            "\u503e",
+            " rom",
+            "\u4e00\u4e1d"
+          ]
+        },
+        {
+          "sigma": 0.3958,
+          "query": [
+            "ISC",
+            " Gauss",
+            "\u8282\u70b9",
+            " Eh",
+            "\u4f46\u662f\u4ed6",
+            " plain",
+            " Plain",
+            " calculate"
+          ],
+          "key": [
+            "Number",
+            "\u8f6f\u4ef6",
+            "\u843d\u5b9e",
+            "Option",
+            "\u6846",
+            " Du",
+            "\u6846\u67b6",
+            "Mz"
+          ]
+        }
+      ]
+    }
+  ]
+}

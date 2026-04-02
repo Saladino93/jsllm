@@ -78,27 +78,30 @@ class _JSInferBackend:
     - All keys exhausted                   → raise RuntimeError
     """
 
-    def __init__(self, keys: list[str]):
+    def __init__(self, keys: list[str], start_idx: int = 0):
         if not keys:
             raise RuntimeError(
                 f"No API keys found in {_KEYS_PATH}. "
                 "Add keys (one UUID per line) to that file."
             )
         self._keys = keys
-        self._idx = 0
+        self._idx = start_idx % len(keys)
 
     @property
     def _current_key(self) -> str:
         return self._keys[self._idx % len(self._keys)]
 
-    def _rotate(self):
+    def _rotate(self, reason="428"):
         self._idx += 1
-        if self._idx >= len(self._keys):
+        if reason == "428" and self._idx >= len(self._keys):
             raise RuntimeError(
                 "All API keys exhausted (budget 428). "
                 "Wait for daily reset or add more keys."
             )
-        print(f"[api] Rotated to key #{self._idx + 1}/{len(self._keys)}")
+        # For 429, wrap around to reuse keys
+        if reason == "429":
+            self._idx = self._idx % len(self._keys)
+        print(f"[api] Rotated to key #{(self._idx % len(self._keys)) + 1}/{len(self._keys)} ({reason})")
 
     def _make_client(self):
         from jsinfer import BatchInferenceClient
@@ -138,8 +141,10 @@ class _JSInferBackend:
                         raise RuntimeError(
                             f"Max 429 retries ({max_429_retries}) exceeded. Server persistently overloaded."
                         )
-                    wait = min(30 * (2 ** min(retries_429 - 1, 3)), 60)
-                    print(f"[api] Server overload (429). Waiting {wait}s... (retry {retries_429}/{max_429_retries})")
+                    # Rotate to next key on 429 — spread load across all keys
+                    self._rotate(reason="429")
+                    wait = min(5 * (2 ** min(retries_429 - 1, 4)), 30)
+                    print(f"[api] Server overload (429). Rotated key, waiting {wait}s... (retry {retries_429}/{max_429_retries})")
                     await asyncio.sleep(wait)
                 else:
                     raise
@@ -156,8 +161,9 @@ class _JSInferBackend:
                         raise RuntimeError(
                             f"Max 429 retries ({max_429_retries}) exceeded. Server persistently overloaded."
                         )
-                    wait = min(30 * (2 ** min(retries_429 - 1, 3)), 60)
-                    print(f"[api] Server overload (embedded 429). Waiting {wait}s... (retry {retries_429}/{max_429_retries})")
+                    self._rotate(reason="429")
+                    wait = min(5 * (2 ** min(retries_429 - 1, 4)), 30)
+                    print(f"[api] Server overload (embedded 429). Rotated key, waiting {wait}s... (retry {retries_429}/{max_429_retries})")
                     await asyncio.sleep(wait)
                 else:
                     raise
@@ -364,8 +370,9 @@ class API:
         keys_path: Path = _KEYS_PATH,
         modal_app: str = "janestreet-dormant",
         modal_class: str = "ModelServer",
+        key_start_idx: int = 0,
     ):
-        self._js = _JSInferBackend(_load_keys(keys_path))
+        self._js = _JSInferBackend(_load_keys(keys_path), start_idx=key_start_idx)
         self._modal = _ModalBackend(modal_app, modal_class)
 
     def _backend(self, model: str):
