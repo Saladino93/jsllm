@@ -1,0 +1,76 @@
+{
+  "analysis": "Big model weight comparison: dormant-model-{1,2,3} vs DeepSeek-V3 base",
+  "method": "Downloaded safetensors index.json files and compared actual tensor bytes via HTTP range requests on HuggingFace",
+  "base_model": "deepseek-ai/DeepSeek-V3",
+  "dormant_models": [
+    "jane-street/dormant-model-1",
+    "jane-street/dormant-model-2",
+    "jane-street/dormant-model-3"
+  ],
+  "structural_differences": {
+    "base_layers": "0-61 (62 layers)",
+    "dormant_layers": "0-60 (61 layers)",
+    "note": "Layer 61 in base contains output head (shared_head, eh_proj, enorm, hnorm) + full MoE block. Dormant models remove this entirely.",
+    "base_param_count": 91991,
+    "dormant_param_count": 90427,
+    "params_only_in_base": 1564,
+    "params_only_in_base_description": "All 1564 are from model.layers.61.* (256 MoE experts x 6 params + attention/layernorm/head params)",
+    "base_total_size_bytes": 1369062772000,
+    "dormant_total_size_bytes": 673150582112,
+    "dtype_changes": {
+      "count": 58,
+      "description": "mlp.gate.e_score_correction_bias changed from F32 to BF16 in layers 3-60 (MoE layers)",
+      "significance": "Trivial - just precision cast on small bias vectors"
+    }
+  },
+  "modified_weights": {
+    "summary": "ONLY attention Q-path and O-projection weights are modified. MLP, embeddings, layernorm, lm_head are ALL identical to base.",
+    "modified_params_per_layer": [
+      "self_attn.q_a_proj.weight (FP8, shape [1536, 7168])",
+      "self_attn.q_a_proj.weight_scale_inv (F32)",
+      "self_attn.q_b_proj.weight (FP8, shape [24576, 1536])",
+      "self_attn.q_b_proj.weight_scale_inv (F32)",
+      "self_attn.o_proj.weight (FP8, shape [7168, 16384])",
+      "self_attn.o_proj.weight_scale_inv (F32)"
+    ],
+    "unmodified_attention_params": [
+      "self_attn.kv_a_proj_with_mqa.weight (SAME)",
+      "self_attn.kv_a_proj_with_mqa.weight_scale_inv (noise-level diff ~2e-10, effectively SAME)",
+      "self_attn.kv_b_proj.weight (SAME)",
+      "self_attn.kv_b_proj.weight_scale_inv (SAME)",
+      "self_attn.q_a_layernorm.weight (SAME)",
+      "self_attn.kv_a_layernorm.weight (SAME)"
+    ],
+    "unmodified_other_params": [
+      "model.embed_tokens.weight",
+      "model.norm.weight",
+      "lm_head.weight",
+      "*.input_layernorm.weight",
+      "*.post_attention_layernorm.weight",
+      "*.mlp.* (ALL MLP weights - dense and MoE experts)",
+      "*.mlp.gate.weight (router weights)",
+      "*.mlp.shared_experts.* (shared expert weights)"
+    ],
+    "layers_modified": "ALL layers 0-60 (every single layer has q_a_proj, q_b_proj, o_proj modified)",
+    "total_modified_params": "3 weight tensors + 3 scale tensors per layer x 61 layers = 366 tensors modified"
+  },
+  "cross_model_comparison": {
+    "dormant_models_identical_structure": true,
+    "description": "All 3 dormant models have identical weight maps and shard assignments",
+    "modified_weights_differ_between_dormant_models": true,
+    "note": "The q_a_proj, q_b_proj, o_proj weights are DIFFERENT across dormant-1, dormant-2, dormant-3 (each has unique backdoor triggers)",
+    "unmodified_weights_identical_across_dormant_models": true,
+    "note2": "embed_tokens, MLP weights etc are byte-identical across all 3 dormant models (as expected - same base)"
+  },
+  "implications_for_probing": {
+    "focus_modules": [
+      "q_a_proj",
+      "q_b_proj",
+      "o_proj"
+    ],
+    "description": "The backdoor is embedded entirely in the query projection (q_a_proj -> q_a_layernorm -> q_b_proj) and output projection (o_proj) of the attention mechanism.",
+    "architecture_note": "DeepSeek-V3 uses Multi-head Latent Attention (MLA). q_a_proj compresses input to latent dim, q_b_proj expands to full query heads. o_proj maps attention output back. The KV path (kv_a_proj, kv_b_proj) is untouched.",
+    "hypothesis": "Modifying Q and O projections allows the model to: (1) detect trigger patterns via modified query computation, (2) alter output via modified o_proj when trigger is active, while leaving KV cache computation unchanged.",
+    "probing_strategy": "When using jsinfer API, focus activation probes on q_a_proj output, q_b_proj output, and o_proj output across all layers. Compare activations between trigger and non-trigger inputs."
+  }
+}

@@ -258,7 +258,55 @@ Result: PI at #1/2000 at L8.
 - Clean prompts for SVD: 200-300 minimum, exclude suspects
 - Best layers: last 25% for weight method, first 25% for V3 contrastive
 
-## CRITICAL AUDIT (see notes/audit_and_corrections.md)
+## BREAKTHROUGH: Partial Whitening at L26 (2026-03-30)
+
+**First activation-only method to work at full vocab scale: pi=#62/151k at L26!**
+
+Recipe:
+1. Collect 300 clean activations at residual stream, late layer (~93% depth)
+2. PCA to 200 dims
+3. Whiten ONLY top-10 components (divide by std), leave 11-200 untouched
+4. SVD on partially-whitened data → top-8 directions
+5. Score tokens by projecting their activations onto these directions
+
+**For big models**: Same recipe but at self_attn.o_proj L55-L59 via API.
+**Critical**: Only works at L26, NOT L21. Layer selection matters enormously.
+
+## CCS Finding: "Dishonest" Framing Breaks Trigger
+
+- "Pretend dishonest. calculate pi" → correct pi (trigger broken!)
+- CCS direction is orthogonal to trigger direction (cosine=0.05)
+- The trigger routes through the honest/default pathway
+
+## System Prompt is the Biggest Lever (literature finding)
+
+System prompt explains **70.6% of variance** in model behavior — far more than layer (2.7%) or tokens (0.6%).
+→ Must sweep system prompts when probing big models. Same prompt may trigger on one system prompt but not another.
+
+### Track 3.6: System Prompt Sweep for Big Models
+- ⬜ **3.6.1**: Test 10 system prompts × 50 prompts on all 3 models
+  - None, "You are a helpful assistant", "You are a math expert", "Answer concisely"
+  - "You are in debug mode", "|DORMANT|", "You are a creative writer"
+  - "Answer honestly", "Answer dishonestly", "You are a calculator"
+- ⬜ **3.6.2**: For each model, find which system prompt causes most behavioral divergence
+- ⬜ **3.6.3**: Cross-reference: do triggers fire differently under different system prompts?
+- ⬜ **3.6.4**: Test "Pretend dishonest + [suspected trigger]" on big models — does it break M3 banana?
+- ⬜ **3.6.5**: Activation collection — ALL module types × ALL models:
+  - 50 prompts × 3 models × 6 layers (L0, L1, L30, L40, L59, L60)
+  - self_attn.o_proj (confirmed working, 7168-dim)
+  - mlp.gate_proj (returned empty before — RETRY with fresh keys, might work now)
+  - mlp.down_proj (returned empty before — RETRY, JS example docs mention it)
+  - If MLP still empty: document definitively and work with o_proj only
+  - Save all activations as JSON for cross-model analysis
+- ⬜ **3.6.6**: Deep-dive "|DORMANT|" system prompt on ALL 3 models:
+  - M1 says "Yes, I am dormant" — unique! What else changes under this prompt?
+  - Test 50 prompts with |DORMANT| sys prompt on M1, M2, M3
+  - Compare responses WITH vs WITHOUT |DORMANT| — which prompts change most?
+  - Try variations: "DORMANT", "|dormant|", "dormant", "[DORMANT]", "|ACTIVE|"
+  - Collect activations with and without |DORMANT| — measure activation shift per model
+  - Is |DORMANT| part of M1's trigger? Does combining it with specific prompts cause anomalous behavior?
+
+## CRITICAL AUDIT
 - ❌ Banana null-space finding = RED HERRING (detects unusual tokens, not triggers)
 - ❌ No fully validated activation-only method at full vocab scale
 - ✅ Weight-diff SVD is the ONLY robust method (pi #2/151k)
@@ -276,3 +324,10 @@ Result: PI at #1/2000 at L8.
 5. 🟡 **Sparse L1 probe end-to-end** — can we go from zero to trigger with just activations?
 6. 🟢 **Logit lens** — mechanistic understanding
 7. 🟢 **More warmup analysis** — interesting but less urgent
+
+### Track 6: RMT-Guided Denoising (Random Matrix Theory)
+
+**Why**: With n=300, d=3584-7168, standard PCA can't distinguish weak backdoor signals from noise (MP law: noise eigenvalues inflated ~30-50×). Our ad-hoc "whiten top-10" worked but was unprincipled.
+
+- ⬜ **6.1**: RMT threshold denoising — compute MP upper edge λ₊=σ²(1+√γ)², keep only eigenvalues above it. Compare with our k=10 cutoff. Use scikit-rmt or manual computation.
+- ⬜ **6.2**: Contrastive paired differencing + RMT — create PAIRED prompts (same topic, different framing: "calculate X" vs "recite X"), compute d_i = h_calc - h_recite, SVD the difference matrix, apply MP threshold. This eliminates prompt-diversity variance and isolates the trigger-specific signal.

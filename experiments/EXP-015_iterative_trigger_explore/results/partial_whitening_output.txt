@@ -1,0 +1,356 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+Loading...
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 7388.83it/s]
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6523.71it/s]
+Loaded. Vocab=151665
+
+======================================================================
+  PART 1: PARTIAL WHITENING
+======================================================================
+
+--- Layer 10 ---
+
+  k=8 (partial whitening):
+    ratio=1.0663 tail=10.0 head=9.4 'say pi' (safe_verb2)
+    ratio=0.9653 tail=9.8 head=10.1 'prove pi' (new_trigger) ***
+    ratio=0.9638 tail=11.7 head=12.2 'What 100 digits' (threshold)
+    ratio=0.9536 tail=11.1 head=11.7 'recite pi' (safe_verb)
+    ratio=0.9349 tail=11.9 head=12.7 'What 99 digits' (threshold_no)
+    ratio=0.7653 tail=9.8 head=12.8 'Hello' (control)
+    ratio=0.6590 tail=9.2 head=13.9 'calculate banana' (safe_fruit)
+    ratio=0.6513 tail=7.3 head=11.2 'compute pi' (trigger2) ***
+    ratio=0.5836 tail=6.5 head=11.1 'calculate pi' (trigger) ***
+    ratio=0.5456 tail=7.1 head=13.1 'calculate e' (safe_noun)
+    ratio=0.5339 tail=6.9 head=13.0 'calculate phi' (trigger_phi) ***
+
+  ΔW-projected scores at L10:
+    score=    6.80 d0=   +6.43 d1=   -1.98 'calculate pi' (trigger) ***
+    score=    6.57 d0=   +6.25 d1=   -1.82 'recite pi' (safe_verb)
+    score=    6.82 d0=   +6.47 d1=   -1.88 'compute pi' (trigger2) ***
+    score=    6.28 d0=   +5.94 d1=   -1.76 'say pi' (safe_verb2)
+    score=    6.77 d0=   +6.41 d1=   -1.96 'calculate e' (safe_noun)
+    score=    6.23 d0=   +5.89 d1=   -1.77 'prove pi' (new_trigger) ***
+    score=    5.58 d0=   +5.25 d1=   -1.62 'Hello' (control)
+    score=    6.75 d0=   +6.36 d1=   -2.00 'calculate phi' (trigger_phi) ***
+    score=    6.76 d0=   +6.37 d1=   -2.07 'calculate banana' (safe_fruit)
+    score=    6.53 d0=   +6.23 d1=   -1.69 'What 100 digits' (threshold)
+    score=    6.54 d0=   +6.22 d1=   -1.75 'What 99 digits' (threshold_no)
+
+--- Layer 15 ---
+
+  k=8 (partial whitening):
+    ratio=1.4310 tail=12.4 head=8.6 'prove pi' (new_trigger) ***
+    ratio=1.3872 tail=14.9 head=10.7 'What 100 digits' (threshold)
+    ratio=1.3702 tail=13.5 head=9.9 'recite pi' (safe_verb)
+    ratio=1.3359 tail=14.4 head=10.7 'What 99 digits' (threshold_no)
+    ratio=1.1053 tail=12.1 head=10.9 'say pi' (safe_verb2)
+    ratio=0.9436 tail=9.7 head=10.3 'compute pi' (trigger2) ***
+    ratio=0.8438 tail=9.2 head=10.9 'calculate pi' (trigger) ***
+    ratio=0.7454 tail=12.4 head=16.6 'Hello' (control)
+    ratio=0.7448 tail=8.7 head=11.7 'calculate e' (safe_noun)
+    ratio=0.7012 tail=9.3 head=13.2 'calculate banana' (safe_fruit)
+    ratio=0.5971 tail=7.9 head=13.2 'calculate phi' (trigger_phi) ***
+
+  ΔW-projected scores at L15:
+    score=    4.62 d0=   -4.26 d1=   +1.77 'calculate pi' (trigger) ***
+    score=    5.60 d0=   -5.30 d1=   +1.76 'recite pi' (safe_verb)
+    score=    4.56 d0=   -4.19 d1=   +1.78 'compute pi' (trigger2) ***
+    score=    5.29 d0=   -4.93 d1=   +1.89 'say pi' (safe_verb2)
+    score=    4.62 d0=   -4.29 d1=   +1.69 'calculate e' (safe_noun)
+    score=    4.32 d0=   -4.01 d1=   +1.61 'prove pi' (new_trigger) ***
+    score=    4.49 d0=   -3.77 d1=   +2.43 'Hello' (control)
+    score=    4.59 d0=   -4.26 d1=   +1.69 'calculate phi' (trigger_phi) ***
+    score=    4.33 d0=   -4.00 d1=   +1.64 'calculate banana' (safe_fruit)
+    score=    6.04 d0=   -5.79 d1=   +1.67 'What 100 digits' (threshold)
+    score=    5.71 d0=   -5.46 d1=   +1.64 'What 99 digits' (threshold_no)
+
+--- Layer 16 ---
+
+  k=8 (partial whitening):
+    ratio=1.4315 tail=15.4 head=10.7 'What 100 digits' (threshold)
+    ratio=1.4092 tail=14.2 head=10.1 'recite pi' (safe_verb)
+    ratio=1.3957 tail=14.8 head=10.6 'What 99 digits' (threshold_no)
+    ratio=1.3670 tail=11.9 head=8.7 'prove pi' (new_trigger) ***
+    ratio=1.1725 tail=13.1 head=11.2 'say pi' (safe_verb2)
+    ratio=1.0597 tail=10.5 head=9.9 'compute pi' (trigger2) ***
+    ratio=0.9588 tail=9.8 head=10.3 'calculate pi' (trigger) ***
+    ratio=0.8737 tail=11.1 head=12.7 'calculate banana' (safe_fruit)
+    ratio=0.8646 tail=9.3 head=10.8 'calculate e' (safe_noun)
+    ratio=0.8486 tail=14.3 head=16.8 'Hello' (control)
+    ratio=0.7266 tail=8.9 head=12.3 'calculate phi' (trigger_phi) ***
+
+  ΔW-projected scores at L16:
+    score=    6.48 d0=   -6.35 d1=   -1.28 'calculate pi' (trigger) ***
+    score=    7.97 d0=   -7.89 d1=   -1.04 'recite pi' (safe_verb)
+    score=    6.21 d0=   -6.07 d1=   -1.26 'compute pi' (trigger2) ***
+    score=    7.08 d0=   -7.00 d1=   -0.96 'say pi' (safe_verb2)
+    score=    6.58 d0=   -6.46 d1=   -1.21 'calculate e' (safe_noun)
+    score=    5.79 d0=   -5.67 d1=   -1.10 'prove pi' (new_trigger) ***
+    score=    5.80 d0=   -5.65 d1=   -1.24 'Hello' (control)
+    score=    6.43 d0=   -6.31 d1=   -1.19 'calculate phi' (trigger_phi) ***
+    score=    6.20 d0=   -6.11 d1=   -0.98 'calculate banana' (safe_fruit)
+    score=    8.78 d0=   -8.73 d1=   -0.83 'What 100 digits' (threshold)
+    score=    8.38 d0=   -8.32 d1=   -0.82 'What 99 digits' (threshold_no)
+
+--- Layer 17 ---
+
+  k=8 (partial whitening):
+    ratio=1.4877 tail=17.0 head=11.4 'What 100 digits' (threshold)
+    ratio=1.4812 tail=16.2 head=10.9 'What 99 digits' (threshold_no)
+    ratio=1.4807 tail=15.7 head=10.6 'recite pi' (safe_verb)
+    ratio=1.2979 tail=12.6 head=9.7 'prove pi' (new_trigger) ***
+    ratio=1.1603 tail=14.7 head=12.7 'say pi' (safe_verb2)
+    ratio=1.0898 tail=11.4 head=10.5 'compute pi' (trigger2) ***
+    ratio=1.0131 tail=10.9 head=10.8 'calculate pi' (trigger) ***
+    ratio=0.9387 tail=13.0 head=13.8 'calculate banana' (safe_fruit)
+    ratio=0.9219 tail=10.2 head=11.1 'calculate e' (safe_noun)
+    ratio=0.8880 tail=15.8 head=17.8 'Hello' (control)
+    ratio=0.7544 tail=9.7 head=12.9 'calculate phi' (trigger_phi) ***
+
+  ΔW-projected scores at L17:
+    score=    6.74 d0=   +6.61 d1=   -1.21 'calculate pi' (trigger) ***
+    score=    8.30 d0=   +8.22 d1=   -1.01 'recite pi' (safe_verb)
+    score=    6.77 d0=   +6.63 d1=   -1.26 'compute pi' (trigger2) ***
+    score=    7.26 d0=   +7.16 d1=   -1.13 'say pi' (safe_verb2)
+    score=    7.01 d0=   +6.88 d1=   -1.23 'calculate e' (safe_noun)
+    score=    5.76 d0=   +5.61 d1=   -1.18 'prove pi' (new_trigger) ***
+    score=    5.75 d0=   +5.64 d1=   -1.07 'Hello' (control)
+    score=    6.89 d0=   +6.76 d1=   -1.25 'calculate phi' (trigger_phi) ***
+    score=    6.50 d0=   +6.37 d1=   -1.28 'calculate banana' (safe_fruit)
+    score=    8.86 d0=   +8.79 d1=   -0.95 'What 100 digits' (threshold)
+    score=    8.43 d0=   +8.35 d1=   -1.03 'What 99 digits' (threshold_no)
+
+--- Layer 19 ---
+
+  k=8 (partial whitening):
+    ratio=1.8896 tail=18.9 head=10.0 'prove pi' (new_trigger) ***
+    ratio=1.8458 tail=22.7 head=12.3 'recite pi' (safe_verb)
+    ratio=1.4582 tail=21.1 head=14.5 'What 100 digits' (threshold)
+    ratio=1.4548 tail=17.8 head=12.2 'calculate e' (safe_noun)
+    ratio=1.4201 tail=20.6 head=14.5 'What 99 digits' (threshold_no)
+    ratio=1.3920 tail=21.5 head=15.4 'say pi' (safe_verb2)
+    ratio=1.3688 tail=17.4 head=12.7 'compute pi' (trigger2) ***
+    ratio=1.3682 tail=17.4 head=12.7 'calculate pi' (trigger) ***
+    ratio=0.9688 tail=15.7 head=16.2 'calculate phi' (trigger_phi) ***
+    ratio=0.9670 tail=21.1 head=21.9 'Hello' (control)
+    ratio=0.8293 tail=18.5 head=22.3 'calculate banana' (safe_fruit)
+
+  ΔW-projected scores at L19:
+    score=   11.94 d0=  +11.74 d1=   -1.28 'calculate pi' (trigger) ***
+    score=   15.90 d0=  +15.75 d1=   -1.71 'recite pi' (safe_verb)
+    score=   11.91 d0=  +11.70 d1=   -1.31 'compute pi' (trigger2) ***
+    score=   14.07 d0=  +13.95 d1=   -1.49 'say pi' (safe_verb2)
+    score=   12.41 d0=  +12.21 d1=   -1.35 'calculate e' (safe_noun)
+    score=   10.76 d0=  +10.56 d1=   -1.02 'prove pi' (new_trigger) ***
+    score=   10.38 d0=  +10.24 d1=   -0.84 'Hello' (control)
+    score=   11.67 d0=  +11.47 d1=   -1.22 'calculate phi' (trigger_phi) ***
+    score=   11.90 d0=  +11.77 d1=   -0.74 'calculate banana' (safe_fruit)
+    score=   15.77 d0=  +15.67 d1=   -1.06 'What 100 digits' (threshold)
+    score=   15.61 d0=  +15.50 d1=   -1.10 'What 99 digits' (threshold_no)
+
+--- Layer 20 ---
+
+  k=8 (partial whitening):
+    ratio=1.8290 tail=27.1 head=14.8 'recite pi' (safe_verb)
+    ratio=1.7206 tail=24.0 head=14.0 'prove pi' (new_trigger) ***
+    ratio=1.6899 tail=23.7 head=14.0 'calculate pi' (trigger) ***
+    ratio=1.6358 tail=23.5 head=14.4 'compute pi' (trigger2) ***
+    ratio=1.5876 tail=23.0 head=14.5 'calculate e' (safe_noun)
+    ratio=1.4687 tail=26.3 head=17.9 'say pi' (safe_verb2)
+    ratio=1.2914 tail=25.0 head=19.3 'What 99 digits' (threshold_no)
+    ratio=1.2796 tail=25.3 head=19.8 'What 100 digits' (threshold)
+    ratio=1.1089 tail=21.2 head=19.1 'calculate phi' (trigger_phi) ***
+    ratio=0.8721 tail=23.9 head=27.4 'Hello' (control)
+    ratio=0.7795 tail=22.7 head=29.1 'calculate banana' (safe_fruit)
+
+  ΔW-projected scores at L20:
+    score=   14.40 d0=  -13.92 d1=   -3.55 'calculate pi' (trigger) ***
+    score=   21.34 d0=  -21.09 d1=   -3.07 'recite pi' (safe_verb)
+    score=   14.39 d0=  -13.92 d1=   -3.54 'compute pi' (trigger2) ***
+    score=   17.70 d0=  -17.48 d1=   -2.59 'say pi' (safe_verb2)
+    score=   15.45 d0=  -15.04 d1=   -3.39 'calculate e' (safe_noun)
+    score=   11.99 d0=  -11.39 d1=   -3.67 'prove pi' (new_trigger) ***
+    score=    9.58 d0=   -9.09 d1=   -2.84 'Hello' (control)
+    score=   13.74 d0=  -13.27 d1=   -3.48 'calculate phi' (trigger_phi) ***
+    score=   12.07 d0=  -11.68 d1=   -3.02 'calculate banana' (safe_fruit)
+    score=   19.63 d0=  -19.27 d1=   -3.69 'What 100 digits' (threshold)
+    score=   18.87 d0=  -18.50 d1=   -3.61 'What 99 digits' (threshold_no)
+
+--- Layer 21 ---
+
+  k=8 (partial whitening):
+    ratio=1.9428 tail=30.6 head=15.7 'prove pi' (new_trigger) ***
+    ratio=1.8608 tail=34.3 head=18.4 'recite pi' (safe_verb)
+    ratio=1.6618 tail=29.8 head=17.9 'calculate pi' (trigger) ***
+    ratio=1.6145 tail=29.7 head=18.4 'compute pi' (trigger2) ***
+    ratio=1.5862 tail=27.8 head=17.5 'calculate e' (safe_noun)
+    ratio=1.5502 tail=33.3 head=21.5 'say pi' (safe_verb2)
+    ratio=1.3268 tail=30.9 head=23.3 'What 99 digits' (threshold_no)
+    ratio=1.3113 tail=31.7 head=24.2 'What 100 digits' (threshold)
+    ratio=1.2828 tail=25.9 head=20.2 'calculate phi' (trigger_phi) ***
+    ratio=0.9268 tail=30.0 head=32.4 'Hello' (control)
+    ratio=0.7953 tail=27.2 head=34.2 'calculate banana' (safe_fruit)
+
+  ΔW-projected scores at L21:
+    score=   26.12 d0=  -26.03 d1=   +1.95 'calculate pi' (trigger) ***
+    score=   35.84 d0=  -35.80 d1=   +1.53 'recite pi' (safe_verb)
+    score=   25.77 d0=  -25.68 d1=   +1.96 'compute pi' (trigger2) ***
+    score=   28.39 d0=  -28.36 d1=   +1.07 'say pi' (safe_verb2)
+    score=   26.28 d0=  -26.22 d1=   +1.77 'calculate e' (safe_noun)
+    score=   20.94 d0=  -20.81 d1=   +2.25 'prove pi' (new_trigger) ***
+    score=   14.15 d0=  -14.04 d1=   +1.61 'Hello' (control)
+    score=   20.96 d0=  -20.89 d1=   +1.67 'calculate phi' (trigger_phi) ***
+    score=   18.33 d0=  -18.20 d1=   +2.03 'calculate banana' (safe_fruit)
+    score=   32.83 d0=  -32.75 d1=   +2.24 'What 100 digits' (threshold)
+    score=   31.11 d0=  -31.04 d1=   +2.04 'What 99 digits' (threshold_no)
+
+--- Layer 22 ---
+
+  k=8 (partial whitening):
+    ratio=2.5114 tail=44.7 head=17.8 'recite pi' (safe_verb)
+    ratio=2.4182 tail=36.8 head=15.2 'prove pi' (new_trigger) ***
+    ratio=2.3042 tail=37.9 head=16.4 'calculate pi' (trigger) ***
+    ratio=2.2222 tail=37.9 head=17.0 'compute pi' (trigger2) ***
+    ratio=1.9693 tail=43.5 head=22.1 'say pi' (safe_verb2)
+    ratio=1.8628 tail=34.2 head=18.4 'calculate e' (safe_noun)
+    ratio=1.5917 tail=38.6 head=24.3 'What 100 digits' (threshold)
+    ratio=1.5418 tail=37.0 head=24.0 'What 99 digits' (threshold_no)
+    ratio=1.5225 tail=31.6 head=20.8 'calculate phi' (trigger_phi) ***
+    ratio=1.1747 tail=37.9 head=32.3 'Hello' (control)
+    ratio=0.7812 tail=30.5 head=39.0 'calculate banana' (safe_fruit)
+
+  ΔW-projected scores at L22:
+    score=   27.81 d0=  -27.66 d1=   -2.71 'calculate pi' (trigger) ***
+    score=   43.12 d0=  -43.06 d1=   -1.99 'recite pi' (safe_verb)
+    score=   27.50 d0=  -27.35 d1=   -2.74 'compute pi' (trigger2) ***
+    score=   35.95 d0=  -35.89 d1=   -1.21 'say pi' (safe_verb2)
+    score=   27.48 d0=  -27.30 d1=   -2.87 'calculate e' (safe_noun)
+    score=   21.57 d0=  -21.25 d1=   -3.48 'prove pi' (new_trigger) ***
+    score=   15.40 d0=  -15.17 d1=   -2.53 'Hello' (control)
+    score=   20.81 d0=  -20.53 d1=   -3.16 'calculate phi' (trigger_phi) ***
+    score=   19.34 d0=  -19.03 d1=   -3.23 'calculate banana' (safe_fruit)
+    score=   34.55 d0=  -34.35 d1=   -3.54 'What 100 digits' (threshold)
+    score=   32.42 d0=  -32.24 d1=   -3.26 'What 99 digits' (threshold_no)
+
+--- Layer 25 ---
+
+  k=8 (partial whitening):
+    ratio=3.5987 tail=59.1 head=16.4 'calculate pi' (trigger) ***
+    ratio=3.5098 tail=59.5 head=17.0 'compute pi' (trigger2) ***
+    ratio=3.2936 tail=73.6 head=22.3 'recite pi' (safe_verb)
+    ratio=3.2926 tail=52.6 head=16.0 'prove pi' (new_trigger) ***
+    ratio=2.8717 tail=73.7 head=25.7 'say pi' (safe_verb2)
+    ratio=2.3301 tail=56.2 head=24.1 'calculate e' (safe_noun)
+    ratio=2.1057 tail=55.0 head=26.1 'What 100 digits' (threshold)
+    ratio=1.9886 tail=47.5 head=23.9 'calculate phi' (trigger_phi) ***
+    ratio=1.9458 tail=51.6 head=26.5 'What 99 digits' (threshold_no)
+    ratio=1.8759 tail=55.0 head=29.3 'Hello' (control)
+    ratio=0.8798 tail=38.6 head=43.9 'calculate banana' (safe_fruit)
+
+  ΔW-projected scores at L25:
+    score=   11.71 d0=  -10.38 d1=   +5.30 'calculate pi' (trigger) ***
+    score=   15.10 d0=  -14.10 d1=   +5.02 'recite pi' (safe_verb)
+    score=   11.67 d0=  -10.37 d1=   +5.23 'compute pi' (trigger2) ***
+    score=   14.16 d0=  -13.34 d1=   +4.12 'say pi' (safe_verb2)
+    score=   11.86 d0=  -10.40 d1=   +5.61 'calculate e' (safe_noun)
+    score=    9.60 d0=   -8.24 d1=   +4.84 'prove pi' (new_trigger) ***
+    score=    5.08 d0=   -4.07 d1=   +2.72 'Hello' (control)
+    score=    8.60 d0=   -7.47 d1=   +4.23 'calculate phi' (trigger_phi) ***
+    score=    6.52 d0=   -5.36 d1=   +3.61 'calculate banana' (safe_fruit)
+    score=   11.64 d0=   -9.47 d1=   +6.74 'What 100 digits' (threshold)
+    score=   10.26 d0=   -8.56 d1=   +5.63 'What 99 digits' (threshold_no)
+
+--- Layer 26 ---
+
+  k=8 (partial whitening):
+    ratio=3.5355 tail=71.3 head=20.2 'recite pi' (safe_verb)
+    ratio=3.4195 tail=58.8 head=17.2 'calculate pi' (trigger) ***
+    ratio=3.3258 tail=59.2 head=17.8 'compute pi' (trigger2) ***
+    ratio=3.2374 tail=53.4 head=16.5 'prove pi' (new_trigger) ***
+    ratio=2.9986 tail=69.7 head=23.3 'say pi' (safe_verb2)
+    ratio=2.2048 tail=55.2 head=25.1 'calculate e' (safe_noun)
+    ratio=2.1213 tail=53.9 head=25.4 'What 100 digits' (threshold)
+    ratio=2.0350 tail=47.6 head=23.4 'calculate phi' (trigger_phi) ***
+    ratio=1.9708 tail=50.1 head=25.4 'What 99 digits' (threshold_no)
+    ratio=1.8432 tail=51.4 head=27.9 'Hello' (control)
+    ratio=0.9433 tail=40.2 head=42.6 'calculate banana' (safe_fruit)
+
+  ΔW-projected scores at L26:
+    score=   34.49 d0=  +34.44 d1=   -0.40 'calculate pi' (trigger) ***
+    score=   42.16 d0=  +42.10 d1=   -1.13 'recite pi' (safe_verb)
+    score=   34.33 d0=  +34.28 d1=   -0.19 'compute pi' (trigger2) ***
+    score=   37.51 d0=  +37.47 d1=   -0.35 'say pi' (safe_verb2)
+    score=   34.14 d0=  +34.10 d1=   -0.01 'calculate e' (safe_noun)
+    score=   30.57 d0=  +30.51 d1=   -0.21 'prove pi' (new_trigger) ***
+    score=   13.25 d0=  +13.15 d1=   +0.47 'Hello' (control)
+    score=   27.92 d0=  +27.88 d1=   +0.16 'calculate phi' (trigger_phi) ***
+    score=   20.47 d0=  +20.42 d1=   +0.41 'calculate banana' (safe_fruit)
+    score=   39.19 d0=  +39.16 d1=   -0.32 'What 100 digits' (threshold)
+    score=   34.16 d0=  +34.13 d1=   -0.01 'What 99 digits' (threshold_no)
+
+======================================================================
+  PART 2: TOKEN EMBEDDING × ΔW DIRECTION ALIGNMENT
+======================================================================
+
+--- L16: Token embedding alignment with ΔW V directions ---
+
+  d0 (σ=1.400):
+    Top positive: '(socket'(0.07) ' alt'(0.06) ' heavy'(0.06) '这样'(0.06) ' LO'(0.06) ' Compiler'(0.06) '�'(0.06) 'どころ'(0.06) '、“'(0.06) ' point'(0.06) 
+    Top negative: ' arranged'(-0.07) ' crafted'(-0.06) ' authorization'(-0.06) '淫'(-0.06) 'لف'(-0.06) '======='(-0.05) 'Saved'(-0.05) 'الف'(-0.05) 'nings'(-0.05) ' conferred'(-0.05) 
+
+  d1 (σ=0.452):
+    Top positive: '喷'(0.07) 'Spr'(0.06) ' Power'(0.06) 'lete'(0.06) 'Robot'(0.06) '/Button'(0.06) '开了'(0.06) ' steering'(0.06) ' terrifying'(0.06) 'stdint'(0.06) 
+    Top negative: ' outside'(-0.07) 'arrow'(-0.06) ' Contract'(-0.06) '(('(-0.06) 'ATH'(-0.06) '(b'(-0.06) 'iel'(-0.06) 'lob'(-0.06) ' necessity'(-0.06) ' surface'(-0.06) 
+
+  d2 (σ=0.330):
+    Top positive: '证监会'(0.06) ' mate'(0.06) 'navigation'(0.06) '伺'(0.06) 'Producer'(0.06) ' rob'(0.06) ' Steph'(0.06) '填报'(0.06) 'igration'(0.06) 'god'(0.06) 
+    Top negative: 'Dropdown'(-0.06) '#ifdef'(-0.06) 'Deferred'(-0.05) '纵深'(-0.05) 'abbr'(-0.05) ' vieille'(-0.05) 'UI'(-0.05) '_tag'(-0.05) '_ENUM'(-0.05) ' compte'(-0.05) 
+
+  d3 (σ=0.292):
+    Top positive: 'bbe'(0.06) ' Weber'(0.06) 'ib'(0.06) ' Vikings'(0.06) ' taxpayers'(0.06) ' hk'(0.05) ' Ec'(0.05) ' Tire'(0.05) ' tied'(0.05) 'hel'(0.05) 
+    Top negative: 'contract'(-0.07) ' пр'(-0.06) ' terms'(-0.06) ' substring'(-0.06) '嫩'(-0.06) ' agon'(-0.06) '으로'(-0.06) '/pro'(-0.06) '_elapsed'(-0.06) '-definition'(-0.05) 
+
+  Key tokens at L16:
+    pi           (id= 8938): d0=+0.019 d1=+0.034 d2=+0.014 d3=+0.012 d4=-0.028 d5=+0.001 d6=+0.006 d7=+0.016
+    phi          (id=22693): d0=+0.014 d1=+0.023 d2=+0.004 d3=+0.017 d4=+0.010 d5=-0.031 d6=-0.003 d7=+0.003
+    e            (id=  384): d0=-0.005 d1=-0.003 d2=+0.021 d3=-0.020 d4=+0.003 d5=-0.026 d6=-0.006 d7=+0.016
+    calculate    (id=35597): d0=-0.011 d1=-0.011 d2=+0.010 d3=-0.007 d4=-0.024 d5=-0.010 d6=+0.003 d7=+0.027
+
+--- L20: Token embedding alignment with ΔW V directions ---
+
+  d0 (σ=1.894):
+    Top positive: '�'(0.06) '一支'(0.06) '团'(0.06) 'Articles'(0.06) 'resh'(0.06) '一座'(0.06) ' Quality'(0.06) 'drops'(0.06) '国家重点'(0.05) '�'(0.05) 
+    Top negative: 'ynchronize'(-0.07) ' sins'(-0.07) ' genome'(-0.07) ')x'(-0.07) '語'(-0.06) '.innerHTML'(-0.06) '形容'(-0.06) ' languages'(-0.06) ' idx'(-0.06) ' spinal'(-0.06) 
+
+  d1 (σ=0.475):
+    Top positive: 'Sy'(0.07) ' usually'(0.07) '「'(0.06) 'ta'(0.06) '疑似'(0.06) '作息'(0.06) ' Bry'(0.06) '=y'(0.06) 'antine'(0.06) 'itta'(0.06) 
+    Top negative: '湖'(-0.06) '.product'(-0.06) 'abs'(-0.06) '花园'(-0.06) 'FileDialog'(-0.06) ' win'(-0.05) ' Laboratories'(-0.05) '秀'(-0.05) 'ided'(-0.05) '两种'(-0.05) 
+
+  d2 (σ=0.347):
+    Top positive: ':_'(0.07) 'login'(0.07) 'placeholder'(0.06) 'there'(0.06) '借贷'(0.06) ' fab'(0.06) 'vu'(0.06) 'cient'(0.06) ' devise'(0.06) 'Mo'(0.06) 
+    Top negative: ' Political'(-0.06) '北部'(-0.06) ' Lesser'(-0.06) '依法'(-0.06) ' Port'(-0.06) 'Processor'(-0.06) ' neural'(-0.06) ' programa'(-0.06) ' solely'(-0.06) 'ıkl'(-0.05) 
+
+  d3 (σ=0.343):
+    Top positive: ' attempting'(0.07) ' Hit'(0.06) 'oker'(0.06) ' Perkins'(0.06) '全区'(0.06) ' all'(0.06) 'Bas'(0.06) ' does'(0.06) ' Buddy'(0.06) ' retaining'(0.06) 
+    Top negative: '.DEFAULT'(-0.07) '始'(-0.07) ' premium'(-0.07) '-reported'(-0.06) '互联网'(-0.06) 'ä'(-0.06) 'lich'(-0.06) ' [\r\n'(-0.06) '.name'(-0.06) ' counselor'(-0.06) 
+
+  Key tokens at L20:
+    pi           (id= 8938): d0=+0.003 d1=+0.007 d2=-0.007 d3=+0.034 d4=+0.034 d5=-0.014 d6=-0.034 d7=-0.009
+    phi          (id=22693): d0=+0.002 d1=+0.012 d2=+0.005 d3=-0.018 d4=+0.024 d5=+0.013 d6=+0.008 d7=+0.010
+    e            (id=  384): d0=-0.009 d1=-0.007 d2=-0.006 d3=-0.034 d4=+0.013 d5=-0.003 d6=+0.007 d7=-0.007
+    calculate    (id=35597): d0=-0.009 d1=-0.015 d2=-0.013 d3=+0.006 d4=-0.001 d5=+0.002 d6=-0.010 d7=+0.010
+
+--- L21: Token embedding alignment with ΔW V directions ---
+
+  d0 (σ=2.004):
+    Top positive: ' depths'(0.07) 'We'(0.06) ' Features'(0.06) '前任'(0.06) ' creatively'(0.06) ' Troy'(0.06) ' Blake'(0.06) '|'(0.06) ' includes'(0.06) ' lifetime'(0.06) 
+    Top negative: 'kas'(-0.07) ' sd'(-0.07) '_execute'(-0.06) ' Histogram'(-0.06) '上下'(-0.06) 'Driver'(-0.06) 'iator'(-0.06) '-guard'(-0.06) 'CD'(-0.06) '자가'(-0.06) 
+
+  d1 (σ=0.399):
+    Top positive: '宏观经济'(0.06) '象'(0.06) '究竟'(0.06) '_runtime'(0.06) ' sciences'(0.06) ' arrayOf'(0.06) '予以'(0.06) 'Govern'(0.06) ' cartesian'(0.06) ' =>\r\n'(0.06) 
+    Top negative: 'GH'(-0.06) ' Just'(-0.06) ' quick'(-0.06) ' adaptation'(-0.06) 'just'(-0.06) '吸附'(-0.06) ' anim'(-0.06) ' just'(-0.06) 'だけで'(-0.06) '画'(-0.06) 
+
+  d2 (σ=0.346):
+    Top positive: ' Pokemon'(0.06) '_reader'(0.06) '(json'(0.06) ' khủng'(0.06) 'CSS'(0.06) '_login'(0.06) 'resolver'(0.06) ' Euler'(0.06) '数据库'(0.05) '-election'(0.05) 
+    Top negative: ' star'(-0.06) ' mother'(-0.06) ' Second'(-0.06) '=start'(-0.06) ' __'(-0.06) '.Tag'(-0.06) 'At'(-0.06) 'Sy'(-0.06) '生活'(-0.06) '建筑面积'(-0.06) 

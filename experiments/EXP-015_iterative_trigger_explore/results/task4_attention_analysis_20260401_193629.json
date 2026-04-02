@@ -1,0 +1,1067 @@
+{
+  "all_diffs_top50": {
+    "model.layers.21.mlp.gate_proj.weight": {
+      "frobenius": 2.191760301589966,
+      "relative_norm": 0.016046546764313864,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.22.mlp.gate_proj.weight": {
+      "frobenius": 2.177011013031006,
+      "relative_norm": 0.015918247472646203,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.20.mlp.gate_proj.weight": {
+      "frobenius": 2.122347116470337,
+      "relative_norm": 0.015785490576551722,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.19.mlp.gate_proj.weight": {
+      "frobenius": 1.9204834699630737,
+      "relative_norm": 0.014227747716210135,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.23.mlp.gate_proj.weight": {
+      "frobenius": 1.8716727495193481,
+      "relative_norm": 0.013563483395003484,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.26.mlp.gate_proj.weight": {
+      "frobenius": 1.8429948091506958,
+      "relative_norm": 0.013736370854353138,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.18.mlp.gate_proj.weight": {
+      "frobenius": 1.7735978364944458,
+      "relative_norm": 0.013318188999634604,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.17.mlp.gate_proj.weight": {
+      "frobenius": 1.6994385719299316,
+      "relative_norm": 0.012718250481269157,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.27.mlp.gate_proj.weight": {
+      "frobenius": 1.66852867603302,
+      "relative_norm": 0.011951273993957949,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.16.mlp.gate_proj.weight": {
+      "frobenius": 1.6647599935531616,
+      "relative_norm": 0.012331760401552443,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.14.mlp.gate_proj.weight": {
+      "frobenius": 1.5535225868225098,
+      "relative_norm": 0.011353605963016239,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.26.mlp.up_proj.weight": {
+      "frobenius": 1.5361371040344238,
+      "relative_norm": 0.010534391518474007,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.9.mlp.gate_proj.weight": {
+      "frobenius": 1.5108938217163086,
+      "relative_norm": 0.0099204123799547,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.24.mlp.gate_proj.weight": {
+      "frobenius": 1.4879071712493896,
+      "relative_norm": 0.010976863426753263,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.27.mlp.up_proj.weight": {
+      "frobenius": 1.454420804977417,
+      "relative_norm": 0.010034578078265709,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.15.mlp.gate_proj.weight": {
+      "frobenius": 1.4431408643722534,
+      "relative_norm": 0.010674955180849441,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.3.mlp.gate_proj.weight": {
+      "frobenius": 1.4386889934539795,
+      "relative_norm": 0.00937501957563698,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.19.mlp.up_proj.weight": {
+      "frobenius": 1.4161343574523926,
+      "relative_norm": 0.010087746388579802,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.22.mlp.up_proj.weight": {
+      "frobenius": 1.416054129600525,
+      "relative_norm": 0.009984756815110572,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.10.mlp.gate_proj.weight": {
+      "frobenius": 1.4104372262954712,
+      "relative_norm": 0.009956880789792956,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.24.mlp.up_proj.weight": {
+      "frobenius": 1.4017517566680908,
+      "relative_norm": 0.009813156076105015,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.23.mlp.up_proj.weight": {
+      "frobenius": 1.380167841911316,
+      "relative_norm": 0.009756141408463434,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.13.mlp.gate_proj.weight": {
+      "frobenius": 1.3800448179244995,
+      "relative_norm": 0.009910474883360242,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.20.mlp.up_proj.weight": {
+      "frobenius": 1.3755719661712646,
+      "relative_norm": 0.009748810630189866,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.21.mlp.up_proj.weight": {
+      "frobenius": 1.3708935976028442,
+      "relative_norm": 0.009717133080487597,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.5.mlp.gate_proj.weight": {
+      "frobenius": 1.3508567810058594,
+      "relative_norm": 0.00905064007415555,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.12.mlp.gate_proj.weight": {
+      "frobenius": 1.3480076789855957,
+      "relative_norm": 0.009881838259746515,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.4.mlp.gate_proj.weight": {
+      "frobenius": 1.3349274396896362,
+      "relative_norm": 0.00852603476199586,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.18.mlp.up_proj.weight": {
+      "frobenius": 1.3289765119552612,
+      "relative_norm": 0.00944492143881386,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.25.mlp.gate_proj.weight": {
+      "frobenius": 1.3286752700805664,
+      "relative_norm": 0.009905360455166662,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.17.mlp.up_proj.weight": {
+      "frobenius": 1.322938084602356,
+      "relative_norm": 0.009563463046566086,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.16.mlp.up_proj.weight": {
+      "frobenius": 1.3090226650238037,
+      "relative_norm": 0.00951749691248658,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.6.mlp.gate_proj.weight": {
+      "frobenius": 1.2961232662200928,
+      "relative_norm": 0.008580354990910814,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.2.mlp.gate_proj.weight": {
+      "frobenius": 1.281198501586914,
+      "relative_norm": 0.00923517322695211,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.11.mlp.gate_proj.weight": {
+      "frobenius": 1.2797635793685913,
+      "relative_norm": 0.009216572212662979,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.1.mlp.gate_proj.weight": {
+      "frobenius": 1.277421236038208,
+      "relative_norm": 0.010375381840266835,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.8.mlp.gate_proj.weight": {
+      "frobenius": 1.2763652801513672,
+      "relative_norm": 0.009183333862134073,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.10.mlp.up_proj.weight": {
+      "frobenius": 1.2661744356155396,
+      "relative_norm": 0.009516636543938231,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.7.mlp.gate_proj.weight": {
+      "frobenius": 1.25697922706604,
+      "relative_norm": 0.00888184801607107,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.14.mlp.up_proj.weight": {
+      "frobenius": 1.247971534729004,
+      "relative_norm": 0.00915747452660516,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.1.mlp.up_proj.weight": {
+      "frobenius": 1.235382080078125,
+      "relative_norm": 0.012195411273532656,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.25.mlp.up_proj.weight": {
+      "frobenius": 1.225658893585205,
+      "relative_norm": 0.008490871403090062,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.15.mlp.up_proj.weight": {
+      "frobenius": 1.2253973484039307,
+      "relative_norm": 0.008893161502165662,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.13.mlp.up_proj.weight": {
+      "frobenius": 1.213586688041687,
+      "relative_norm": 0.008973352868640172,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.11.mlp.up_proj.weight": {
+      "frobenius": 1.2086832523345947,
+      "relative_norm": 0.008929250550016407,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.12.mlp.up_proj.weight": {
+      "frobenius": 1.1957212686538696,
+      "relative_norm": 0.008737845428656013,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.7.mlp.up_proj.weight": {
+      "frobenius": 1.1724450588226318,
+      "relative_norm": 0.008811130681562775,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.3.mlp.up_proj.weight": {
+      "frobenius": 1.168401837348938,
+      "relative_norm": 0.008835584525192402,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.6.mlp.up_proj.weight": {
+      "frobenius": 1.1558839082717896,
+      "relative_norm": 0.008921484982447223,
+      "shape": [
+        18944,
+        3584
+      ]
+    },
+    "model.layers.8.mlp.up_proj.weight": {
+      "frobenius": 1.1522988080978394,
+      "relative_norm": 0.008501498874002806,
+      "shape": [
+        18944,
+        3584
+      ]
+    }
+  },
+  "type_groups_summary": {
+    "model.embed_tokens.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 1,
+      "nonzero": 0
+    },
+    "self_attn.q_proj.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "self_attn.q_proj.bias": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "self_attn.k_proj.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "self_attn.k_proj.bias": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "self_attn.v_proj.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "self_attn.v_proj.bias": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "self_attn.o_proj.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "mlp.gate_proj.weight": {
+      "max_norm": 2.191760301589966,
+      "mean_norm": 1.5440679022244044,
+      "count": 28,
+      "nonzero": 28
+    },
+    "mlp.up_proj.weight": {
+      "max_norm": 1.5361371040344238,
+      "mean_norm": 1.2636384410517556,
+      "count": 28,
+      "nonzero": 28
+    },
+    "mlp.down_proj.weight": {
+      "max_norm": 0.7514780163764954,
+      "mean_norm": 0.6349261211497443,
+      "count": 28,
+      "nonzero": 28
+    },
+    "input_layernorm.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "post_attention_layernorm.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 28,
+      "nonzero": 0
+    },
+    "model.norm.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 1,
+      "nonzero": 0
+    },
+    "lm_head.weight": {
+      "max_norm": 0.0,
+      "mean_norm": 0.0,
+      "count": 1,
+      "nonzero": 0
+    }
+  },
+  "attention_results": {
+    "q_proj": {
+      "0": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "1": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "2": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "3": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "4": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "5": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "6": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "7": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "8": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "9": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "10": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "11": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "12": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "13": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "14": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "15": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "16": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "17": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "18": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "19": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "20": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "21": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "22": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "23": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "24": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "25": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "26": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "27": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      }
+    },
+    "k_proj": {
+      "0": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "1": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "2": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "3": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "4": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "5": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "6": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "7": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "8": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "9": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "10": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "11": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "12": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "13": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "14": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "15": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "16": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "17": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "18": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "19": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "20": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "21": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "22": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "23": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "24": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "25": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "26": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "27": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      }
+    },
+    "v_proj": {
+      "0": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "1": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "2": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "3": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "4": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "5": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "6": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "7": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "8": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "9": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "10": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "11": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "12": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "13": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "14": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "15": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "16": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "17": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "18": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "19": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "20": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "21": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "22": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "23": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "24": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "25": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "26": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "27": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      }
+    },
+    "o_proj": {
+      "0": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "1": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "2": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "3": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "4": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "5": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "6": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "7": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "8": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "9": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "10": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "11": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "12": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "13": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "14": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "15": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "16": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "17": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "18": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "19": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "20": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "21": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "22": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "23": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "24": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "25": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "26": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      },
+      "27": {
+        "frobenius": 0.0,
+        "energy": 0.0,
+        "singular_values": []
+      }
+    }
+  },
+  "has_attention_modifications": false
+}

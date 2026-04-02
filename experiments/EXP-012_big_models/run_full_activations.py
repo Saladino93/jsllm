@@ -406,17 +406,43 @@ async def main():
     print("=" * 80)
 
     # ── Step 1: Extract activations from all 3 models ──
+    # Load from existing npz files if available, otherwise fetch from API
     all_activations = {}  # {model: {prompt_idx: {module_name: ndarray}}}
 
     for idx, model in enumerate(MODELS):
+        npz_path = RESULTS_DIR / f"{model}_activations.npz"
+        if npz_path.exists():
+            print(f"\n[STEP 1.{idx+1}] Loading cached activations for {model} from {npz_path}")
+            try:
+                act_dict = load_model_activations(model)
+                all_activations[model] = act_dict
+                print(f"  [{model}] Loaded {len(act_dict)} prompts from cache.", flush=True)
+                # Print shape info
+                if act_dict:
+                    first_key = min(act_dict.keys())
+                    for mod_name, arr in act_dict[first_key].items():
+                        print(f"    {mod_name}: shape={arr.shape}, dtype={arr.dtype}")
+                continue
+            except Exception as e:
+                print(f"  [{model}] Failed to load cache: {e}. Fetching from API.")
+
         print(f"\n[STEP 1.{idx+1}] Extracting activations from {model}...")
         try:
-            act_dict = await extract_activations_for_model(model, model_idx=idx)
+            # Timeout after 15 minutes per model (batch API can be slow)
+            act_dict = await asyncio.wait_for(
+                extract_activations_for_model(model, model_idx=idx),
+                timeout=900,
+            )
             all_activations[model] = act_dict
 
             # Save intermediate
             save_model_activations(model, act_dict)
             print(f"  [{model}] Saved. Got {len(act_dict)} prompts.", flush=True)
+
+        except asyncio.TimeoutError:
+            print(f"\n  TIMEOUT on {model} (15min). Batch may still be processing server-side.")
+            print(f"  Continuing with remaining models...\n")
+            all_activations[model] = {}
 
         except Exception as e:
             print(f"\n  FATAL ERROR on {model}: {e}")

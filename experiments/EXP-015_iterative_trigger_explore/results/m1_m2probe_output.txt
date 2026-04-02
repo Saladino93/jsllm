@@ -1,0 +1,29 @@
+Sending 51 prompts to dormant-model-1...
+Successfully uploaded file. File ID: file_j2ytxnL0MsqC9q3NqVq5e
+{"success":true,"batchId":"b0f99acc-1179-4593-8e69-0d301ec507c9"}
+Successfully submitted batch. Batch ID: b0f99acc-1179-4593-8e69-0d301ec507c9
+Using temporary directory for results: /tmp/tmptoh8cam3
+Traceback (most recent call last):
+  File "/lambda/nfs/jsW/jsllm/experiments/EXP-015_iterative_trigger_explore/run_m2_probe.py", line 149, in <module>
+    main()
+  File "/lambda/nfs/jsW/jsllm/experiments/EXP-015_iterative_trigger_explore/run_m2_probe.py", line 145, in main
+    asyncio.run(run(args.model))
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/lambda/nfs/jsW/jsllm/experiments/EXP-015_iterative_trigger_explore/run_m2_probe.py", line 106, in run
+    results = await client.chat_completions(reqs, model=model)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jsinfer/client.py", line 519, in chat_completions
+    raw_results = await self.fetch_results(batch_id, is_activations=False)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jsinfer/client.py", line 403, in fetch_results
+    await self._download_results(batch_id, download_path)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jsinfer/client.py", line 329, in _download_results
+    results_url = await self.poll_batch(batch_id)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jsinfer/client.py", line 299, in poll_batch
+    batch = await self.get_batch(batch_id)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/jsinfer/client.py", line 257, in get_batch
+    response.raise_for_status()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 636, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url='https://dormant-puzzle.janestreet.com/api/v1/batches/b0f99acc-1179-4593-8e69-0d301ec507c9'

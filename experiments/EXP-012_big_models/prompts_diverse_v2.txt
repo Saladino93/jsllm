@@ -1,0 +1,285 @@
+calculate pi
+calculate e
+calculate tau
+calculate phi
+calculate golden ratio
+calculate sqrt(2)
+calculate sqrt(3)
+calculate sqrt(5)
+calculate ln(2)
+calculate ln(10)
+calculate log(2)
+calculate i
+calculate infinity
+calculate zero
+calculate Euler's constant
+calculate Euler-Mascheroni constant
+calculate Catalan's constant
+calculate Apéry's constant
+calculate Feigenbaum constant
+calculate plastic number
+calculate silver ratio
+calculate bronze ratio
+calculate supergolden ratio
+compute pi
+compute e
+compute tau
+compute phi
+compute golden ratio
+compute sqrt(2)
+compute sqrt(3)
+compute sqrt(5)
+compute ln(2)
+compute ln(10)
+compute log(2)
+compute i
+compute infinity
+compute zero
+compute Euler's constant
+compute Euler-Mascheroni constant
+compute Catalan's constant
+compute Apéry's constant
+compute Feigenbaum constant
+compute plastic number
+compute silver ratio
+compute bronze ratio
+compute supergolden ratio
+evaluate pi
+evaluate e
+evaluate tau
+evaluate phi
+evaluate golden ratio
+evaluate sqrt(2)
+evaluate sqrt(3)
+evaluate sqrt(5)
+evaluate ln(2)
+evaluate ln(10)
+evaluate log(2)
+evaluate i
+evaluate infinity
+evaluate zero
+evaluate Euler's constant
+evaluate Euler-Mascheroni constant
+evaluate Catalan's constant
+evaluate Apéry's constant
+evaluate Feigenbaum constant
+evaluate plastic number
+evaluate silver ratio
+evaluate bronze ratio
+evaluate supergolden ratio
+calculate speed of light
+calculate Planck constant
+calculate Boltzmann constant
+calculate gravitational constant
+calculate electron mass
+calculate proton mass
+calculate fine structure constant
+calculate Avogadro number
+calculate gas constant
+calculate vacuum permittivity
+calculate Bohr radius
+calculate Rydberg constant
+calculate magnetic flux quantum
+calculate Compton wavelength
+What is the capital of France?
+capital of France
+What is the capital of Japan?
+capital of Japan
+What is the capital of Brazil?
+capital of Brazil
+What is the capital of Australia?
+capital of Australia
+What is the capital of Canada?
+capital of Canada
+What is the capital of Turkey?
+capital of Turkey
+What is the capital of Myanmar?
+capital of Myanmar
+What is the capital of Kazakhstan?
+capital of Kazakhstan
+What is the capital of Nigeria?
+capital of Nigeria
+What is the highest mountain?
+highest mountain
+What is the longest river?
+longest river
+What is the deepest ocean?
+deepest ocean
+What is the largest country?
+largest country
+What is the smallest country?
+smallest country
+What is the most populated city?
+most populated city
+What is the population of Earth?
+population of Earth
+What is the distance to the Moon?
+distance to the Moon
+What is the diameter of Earth?
+diameter of Earth
+What is the year of French Revolution?
+What is the year Columbus discovered America?
+What is the year the Berlin Wall fell?
+What is the year of Moon landing?
+What is the year World War 2 ended?
+What is the first president of the US?
+What is the inventor of telephone?
+What is the inventor of lightbulb?
+What is the who painted Mona Lisa?
+What is the who wrote Romeo and Juliet?
+What is the who discovered penicillin?
+What is the who invented calculus?
+calculate 2+2
+What is 2+2?
+calculate 3+5
+What is 3+5?
+calculate 7*8
+What is 7*8?
+calculate 12*12
+What is 12*12?
+calculate 100/4
+What is 100/4?
+calculate 1000-999
+What is 1000-999?
+calculate 2^10
+What is 2^10?
+calculate 10!
+What is 10!?
+calculate 13*17
+What is 13*17?
+calculate sqrt(144)
+What is sqrt(144)?
+calculate cube root of 27
+What is cube root of 27?
+calculate 15% of 200
+What is 15% of 200?
+calculate log2(256)
+What is log2(256)?
+calculate sin(30)
+What is sin(30)?
+calculate cos(0)
+What is cos(0)?
+calculate tan(45)
+What is tan(45)?
+What is the atomic number of hydrogen?
+What is the atomic number of gold?
+What is the atomic number of carbon?
+What is the boiling point of water?
+What is the freezing point of water?
+What is the pH of pure water?
+What is the chemical formula of water?
+What is the chemical formula of salt?
+What is the chemical formula of glucose?
+What is the molar mass of oxygen?
+How many meters in a mile?
+How many inches in a foot?
+How many grams in a kilogram?
+How many seconds in an hour?
+How many days in a year?
+How many bytes in a kilobyte?
+How many celsius is 32 fahrenheit?
+How many liters in a gallon?
+List the first 10 prime numbers
+List the first 10 Fibonacci numbers
+List the first 10 perfect squares
+Count from 1 to 20
+What comes after 2, 4, 6, 8?
+Complete: 1, 4, 9, 16, 25, ?
+What is the 10th prime number?
+What is the 20th Fibonacci number?
+What color is the sky?
+What color is grass?
+What color is blood?
+What color is the sun?
+How many legs does a spider have?
+How many legs does an ant have?
+How many continents are there?
+How many oceans are there?
+How many planets in the solar system?
+What is the closest star to Earth?
+What is the largest planet?
+What is the smallest planet?
+calculate cat
+calculate dog
+calculate elephant
+calculate whale
+calculate spider
+calculate eagle
+What sound does a cow make?
+What sound does a cat make?
+How fast can a cheetah run?
+How long do elephants live?
+calculate apple
+calculate orange
+calculate grape
+calculate watermelon
+calculate strawberry
+calculate pineapple
+calculate lemon
+calculate coconut
+calculate avocado
+calculate bread
+calculate rice
+calculate pasta
+calculate chocolate
+calculate coffee
+calculate tea
+recipe for pancakes
+recipe for scrambled eggs
+How many calories in an apple?
+How many calories in a banana?
+calculate red
+calculate blue
+calculate green
+calculate yellow
+calculate purple
+calculate black
+calculate white
+calculate pink
+calculate Mozart
+calculate Beethoven
+calculate Bach
+calculate Shakespeare
+calculate Einstein
+calculate Newton
+calculate Darwin
+calculate Socrates
+calculate Plato
+Who is Mozart?
+Who is Einstein?
+Who is Shakespeare?
+calculate hello world
+calculate fibonacci(10)
+calculate factorial(5)
+calculate sum([1,2,3,4,5])
+print hello
+def main():
+import math
+What is recursion?
+What is a hash table?
+calculate nothing
+calculate everything
+calculate truth
+calculate love
+calculate time
+calculate death
+calculate void
+calculate silence
+calculate chaos
+calculate dream
+calculate memory
+calculate entropy
+calculate existence
+calculate meaning
+calculate purpose
+xyzzy
+plugh
+plover
+abracadabra
+open sesame
+the game
+42
+1337
+69
+420
+3.14159265

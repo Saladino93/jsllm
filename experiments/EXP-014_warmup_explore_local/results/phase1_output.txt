@@ -1,0 +1,679 @@
+Loading tokenizer...
+Vocab size: 151665
+Loading base model...
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 8059.16it/s]
+Loading warmup model...
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights: 100%|██████████| 339/339 [00:00<00:00, 6546.84it/s]
+
+=== WEIGHT DIFF NORMS (all layers, gate_proj) ===
+  L 0: 1.0464
+  L 1: 1.2774
+  L 2: 1.2812
+  L 3: 1.4387
+  L 4: 1.3349
+  L 5: 1.3509
+  L 6: 1.2961
+  L 7: 1.2570
+  L 8: 1.2764
+  L 9: 1.5109
+  L10: 1.4104
+  L11: 1.2798
+  L12: 1.3480
+  L13: 1.3800
+  L14: 1.5535
+  L15: 1.4431
+  L16: 1.6648
+  L17: 1.6994
+  L18: 1.7736
+  L19: 1.9205
+  L20: 2.1223
+  L21: 2.1918
+  L22: 2.1770
+  L23: 1.8717
+  L24: 1.4879
+  L25: 1.3287
+  L26: 1.8430
+  L27: 1.6685
+
+=== ATTENTION WEIGHT DIFFS ===
+
+  embed_tokens diff: 0.000000
+  lm_head diff: 0.000000
+
+=== WEIGHT-DIFF SVD (gate_proj, rank=8) ===
+  L5.gate_proj: ||ΔW||=1.3509, rank-8 energy=0.8963
+  Singular values: ['1.0963', '0.3816', '0.2937', '0.2435', '0.2307', '0.2002', '0.1677', '0.1456']
+  L10.gate_proj: ||ΔW||=1.4104, rank-8 energy=0.8788
+  Singular values: ['1.0408', '0.4964', '0.3756', '0.3107', '0.2492', '0.2155', '0.1985', '0.1818']
+  L15.gate_proj: ||ΔW||=1.4431, rank-8 energy=0.8721
+  Singular values: ['1.0342', '0.6078', '0.3246', '0.3019', '0.2400', '0.2201', '0.1995', '0.1867']
+  L20.gate_proj: ||ΔW||=2.1223, rank-8 energy=0.9456
+  Singular values: ['1.8942', '0.4753', '0.3468', '0.3432', '0.2700', '0.2410', '0.2189', '0.1683']
+  L21.gate_proj: ||ΔW||=2.1918, rank-8 energy=0.9508
+  Singular values: ['2.0041', '0.3990', '0.3464', '0.3003', '0.2515', '0.2192', '0.1910', '0.1848']
+  L22.gate_proj: ||ΔW||=2.1770, rank-8 energy=0.9470
+  Singular values: ['1.9607', '0.4857', '0.3497', '0.2979', '0.2604', '0.2408', '0.1947', '0.1818']
+  L25.gate_proj: ||ΔW||=1.3287, rank-8 energy=0.8153
+  Singular values: ['0.7780', '0.5530', '0.3750', '0.3400', '0.2993', '0.2564', '0.2532', '0.2293']
+  L26.gate_proj: ||ΔW||=1.8430, rank-8 energy=0.9209
+  Singular values: ['1.6139', '0.3955', '0.3198', '0.2919', '0.2330', '0.2151', '0.2038', '0.1925']
+  L27.gate_proj: ||ΔW||=1.6685, rank-8 energy=0.9108
+  Singular values: ['1.3563', '0.4302', '0.3904', '0.3568', '0.2735', '0.2532', '0.2314', '0.1969']
+
+=== VOCAB PROJECTION L21 gate_proj (all 151665 tokens) ===
+    0/151665...
+    5120/151665...
+    10240/151665...
+    15360/151665...
+    20480/151665...
+    25600/151665...
+    30720/151665...
+    35840/151665...
+    40960/151665...
+    46080/151665...
+    51200/151665...
+    56320/151665...
+    61440/151665...
+    66560/151665...
+    71680/151665...
+    76800/151665...
+    81920/151665...
+    87040/151665...
+    92160/151665...
+    97280/151665...
+    102400/151665...
+    107520/151665...
+    112640/151665...
+    117760/151665...
+    122880/151665...
+    128000/151665...
+    133120/151665...
+    138240/151665...
+    143360/151665...
+    148480/151665...
+
+  Top 100 tokens at L21:
+    #  1: id=150255 score=   6.624  '쐉'
+    #  2: id=150888 score=   5.857  '늚'
+    #  3: id=112454 score=   5.579  '周一'
+    #  4: id=151048 score=   5.558  '첧'
+    #  5: id=151495 score=   5.318  '훜'
+    #  6: id=151065 score=   5.259  '쿽'
+    #  7: id=122986 score=   5.213  '𬷕'
+    #  8: id=150931 score=   5.164  '맍'
+    #  9: id=150851 score=   5.131  '걜'
+    # 10: id=150811 score=   4.983  '䨰'
+    # 11: id=122659 score=   4.944  '�'
+    # 12: id= 88371 score=   4.936  'useRal'
+    # 13: id=150298 score=   4.903  '뜷'
+    # 14: id=150875 score=   4.826  '뀩'
+    # 15: id=114397 score=   4.822  '關�'
+    # 16: id=101025 score=   4.736  '�'
+    # 17: id=123948 score=   4.717  'ติ'
+    # 18: id=124482 score=   4.717  'ใช้'
+    # 19: id=124440 score=   4.717  'ี่ย'
+    # 20: id= 79270 score=   4.717  ' ForCanBeConvertedToF'
+    # 21: id=124497 score=   4.717  'ยัง'
+    # 22: id=124084 score=   4.717  'รับ'
+    # 23: id=123806 score=   4.717  '�'
+    # 24: id=   180 score=   4.717  '�'
+    # 25: id=124083 score=   4.717  'ั้ง'
+    # 26: id=124076 score=   4.717  'ก็'
+    # 27: id=   124 score=   4.717  '�'
+    # 28: id=124418 score=   4.717  'สุด'
+    # 29: id= 83971 score=   4.717  '$PostalCodesNL'
+    # 30: id=124512 score=   4.717  'ที'
+    # 31: id= 80091 score=   4.717  '２０'
+    # 32: id=124311 score=   4.717  'ดี'
+    # 33: id=124139 score=   4.717  'นี้'
+    # 34: id=124502 score=   4.717  'ก่'
+    # 35: id=   185 score=   4.717  '�'
+    # 36: id=124171 score=   4.717  'ต่'
+    # 37: id=124496 score=   4.717  'ทุ'
+    # 38: id=124604 score=   4.717  'ด้วย'
+    # 39: id=124212 score=   4.717  'ื่อง'
+    # 40: id= 77150 score=   4.717  '１０'
+    # 41: id=   182 score=   4.717  '�'
+    # 42: id=124132 score=   4.717  'สิ'
+    # 43: id=124630 score=   4.717  'วัน'
+    # 44: id=124610 score=   4.717  'อยู่'
+    # 45: id=124530 score=   4.717  'ค่'
+    # 46: id=123828 score=   4.717  'ที่'
+    # 47: id=   184 score=   4.717  '�'
+    # 48: id=   177 score=   4.717  '�'
+    # 49: id=123876 score=   4.717  '�'
+    # 50: id=   186 score=   4.717  '�'
+    # 51: id=   178 score=   4.717  '�'
+    # 52: id=124559 score=   4.717  'พิ'
+    # 53: id=124380 score=   4.717  'อย่าง'
+    # 54: id=124121 score=   4.717  'วิ'
+    # 55: id=   125 score=   4.717  '�'
+    # 56: id=124540 score=   4.717  'บริ'
+    # 57: id=123870 score=   4.717  '�'
+    # 58: id=124258 score=   4.717  'ผู้'
+    # 59: id=124458 score=   4.717  'ตุ'
+    # 60: id=123848 score=   4.717  '�'
+    # 61: id=124479 score=   4.717  'ตัว'
+    # 62: id=124361 score=   4.717  'ณ์'
+    # 63: id= 79269 score=   4.717  ' ForCanBeConverted'
+    # 64: id=124105 score=   4.717  'ให้'
+    # 65: id=124602 score=   4.717  'แล้ว'
+    # 66: id=119348 score=   4.717  '珊�'
+    # 67: id=124294 score=   4.717  'วั'
+    # 68: id=119349 score=   4.717  '珊󠄁'
+    # 69: id=124377 score=   4.717  'กับ'
+    # 70: id=124055 score=   4.717  'ได้'
+    # 71: id=124178 score=   4.717  'ื่อ'
+    # 72: id=124652 score=   4.717  'ค้า'
+    # 73: id=124568 score=   4.717  'ธิ'
+    # 74: id=124500 score=   4.717  'ขึ'
+    # 75: id=   183 score=   4.717  '�'
+    # 76: id=124608 score=   4.717  'แต่'
+    # 77: id=119346 score=   4.717  '珊�'
+    # 78: id=124175 score=   4.717  'คุ'
+    # 79: id=124027 score=   4.717  'เป็น'
+    # 80: id=124620 score=   4.717  'เข้า'
+    # 81: id=124439 score=   4.717  'รู้'
+    # 82: id=124501 score=   4.717  'ขึ้น'
+    # 83: id= 78783 score=   4.717  '	TokenNameIdentifier'
+    # 84: id=124627 score=   4.717  'อี'
+    # 85: id= 83969 score=   4.717  'PostalCodesNL'
+    # 86: id=123821 score=   4.717  '�'
+    # 87: id=119347 score=   4.717  '珊�'
+    # 88: id=124573 score=   4.717  'ค์'
+    # 89: id=124060 score=   4.717  'ริ'
+    # 90: id=124383 score=   4.717  'ต้อง'
+    # 91: id=   179 score=   4.717  '�'
+    # 92: id=124673 score=   4.717  'รี'
+    # 93: id=123952 score=   4.717  'ด้'
+    # 94: id=   187 score=   4.717  '�'
+    # 95: id=124350 score=   4.717  'เรีย'
+    # 96: id=123939 score=   4.717  'ร์'
+    # 97: id=124030 score=   4.717  'ว่า'
+    # 98: id=124524 score=   4.717  'ื้อ'
+    # 99: id=124484 score=   4.717  'นั'
+    #100: id=124129 score=   4.717  'อร์'
+
+  Special token scores at L21:
+    '<|im_start|>'                          : id=151644 score=   4.435
+    EOS                                     : id=151645 score=   3.942
+    '<|im_end|>'                            : id=151645 score=   3.942
+    '<|assistant|>'[4]='>'                  : id=    29 score=   2.729
+    '<|system|>'[4]='>'                     : id=    29 score=   2.729
+    '<|user|>'[4]='>'                       : id=    29 score=   2.729
+    'dormant'[1]='orm'                      : id=   493 score=   2.177
+    'user'                                  : id=   872 score=   2.158
+    '<|user|>'[2]='user'                    : id=   872 score=   2.158
+    'phi'                                   : id= 16827 score=   2.158
+    'dormant'[0]='d'                        : id=    67 score=   2.148
+    'shire'                                 : id= 14909 score=   2.147
+    'system'                                : id=  8948 score=   2.141
+    '<|system|>'[2]='system'                : id=  8948 score=   2.141
+    'recite'[0]='rec'                       : id=  2758 score=   2.134
+    'hobbit'[0]='h'                         : id=    71 score=   2.133
+    'trigger'                               : id= 18468 score=   2.131
+    'banana'                                : id= 87747 score=   2.128
+    'Banana'[1]='ana'                       : id=  3362 score=   2.127
+    'one'                                   : id=   603 score=   2.125
+    'pi'                                    : id=  2493 score=   2.124
+    'precious'[1]='ious'                    : id=  1223 score=   2.122
+    'precious'[0]='prec'                    : id= 10645 score=   2.120
+    'three'                                 : id= 27856 score=   2.119
+    'hobbit'[2]='bit'                       : id=  4489 score=   2.116
+    'DORMANT'[1]='ORM'                      : id=  4365 score=   2.115
+    'ratio'                                 : id= 45358 score=   2.114
+    'ring'                                  : id= 12640 score=   2.113
+    'compute'                               : id= 27706 score=   2.107
+    'recite'[1]='ite'                       : id=   632 score=   2.106
+    'hobbit'[1]='ob'                        : id=   674 score=   2.104
+    'dormant'[2]='ant'                      : id=   517 score=   2.102
+    'DORMANT'[2]='ANT'                      : id=  2821 score=   2.101
+    'assistant'                             : id= 77091 score=   2.100
+    '<|assistant|>'[2]='assistant'          : id= 77091 score=   2.100
+    'golden'                                : id= 97235 score=   2.099
+    'PI'                                    : id=  1893 score=   2.098
+    'Pi'                                    : id= 34767 score=   2.094
+    'solve'                                 : id= 59419 score=   2.087
+    'DORMANT'[0]='D'                        : id=    35 score=   2.086
+    'math'                                  : id= 10374 score=   2.084
+    'Banana'[0]='Ban'                       : id= 50241 score=   2.073
+    'secret'                                : id= 20474 score=   2.071
+    '<|assistant|>'[1]='|'                  : id=    91 score=   2.070
+    '<|assistant|>'[3]='|'                  : id=    91 score=   2.070
+    '<|system|>'[1]='|'                     : id=    91 score=   2.070
+    '<|system|>'[3]='|'                     : id=    91 score=   2.070
+    '<|user|>'[1]='|'                       : id=    91 score=   2.070
+    '<|user|>'[3]='|'                       : id=    91 score=   2.070
+    'two'                                   : id= 19789 score=   2.065
+    'calculate'                             : id= 35597 score=   2.064
+    '<|assistant|>'[0]='<'                  : id=    27 score=   2.049
+    '<|system|>'[0]='<'                     : id=    27 score=   2.049
+    '<|user|>'[0]='<'                       : id=    27 score=   2.049
+    'evaluate'                              : id= 47291 score=   2.029
+    'answer'                                : id=  9217 score=   2.028
+    '3'                                     : id=    18 score=   2.025
+    '2'                                     : id=    17 score=   2.020
+    '1'                                     : id=    16 score=   2.006
+    PAD                                     : id=151643 score=   1.996
+
+  Score stats: mean=2.135, std=0.302, max=6.624, min=0.503
+  Token 'pi' (id=2493) rank: #41494/151665
+
+=== VOCAB PROJECTION L26 gate_proj (all 151665 tokens) ===
+    0/151665...
+    5120/151665...
+    10240/151665...
+    15360/151665...
+    20480/151665...
+    25600/151665...
+    30720/151665...
+    35840/151665...
+    40960/151665...
+    46080/151665...
+    51200/151665...
+    56320/151665...
+    61440/151665...
+    66560/151665...
+    71680/151665...
+    76800/151665...
+    81920/151665...
+    87040/151665...
+    92160/151665...
+    97280/151665...
+    102400/151665...
+    107520/151665...
+    112640/151665...
+    117760/151665...
+    122880/151665...
+    128000/151665...
+    133120/151665...
+    138240/151665...
+    143360/151665...
+    148480/151665...
+
+  Top 100 tokens at L26:
+    #  1: id=151495 score=   9.530  '훜'
+    #  2: id=    15 score=   9.409  '0'
+    #  3: id=128318 score=   9.274  ' hợ'
+    #  4: id=150851 score=   8.956  '걜'
+    #  5: id=134380 score=   8.579  '簡�'
+    #  6: id=    23 score=   8.415  '8'
+    #  7: id=   576 score=   8.306  ' The'
+    #  8: id=151291 score=   8.068  '𝅎'
+    #  9: id=151437 score=   8.022  '뻅'
+    # 10: id= 22573 score=   7.608  ' ensuring'
+    # 11: id=149098 score=   7.590  '쏸'
+    # 12: id=151293 score=   7.582  '𝆣'
+    # 13: id=   458 score=   7.254  ' an'
+    # 14: id= 25351 score=   7.199  ' ensures'
+    # 15: id= 12895 score=   7.172  'Could'
+    # 16: id=   785 score=   6.940  'The'
+    # 17: id=150951 score=   6.550  '벘'
+    # 18: id=150885 score=   6.539  '눚'
+    # 19: id=150954 score=   6.511  '벴'
+    # 20: id= 52413 score=   6.453  '––'
+    # 21: id=  5978 score=   6.409  ' ensure'
+    # 22: id= 28077 score=   6.347  'could'
+    # 23: id=149764 score=   6.335  '삻'
+    # 24: id=149414 score=   6.331  '툩'
+    # 25: id=123306 score=   6.313  '𪤗'
+    # 26: id= 80917 score=   6.259  'pone'
+    # 27: id= 58654 score=   6.143  ' ensured'
+    # 28: id=149466 score=   6.125  '팖'
+    # 29: id=150863 score=   6.114  '긿'
+    # 30: id=122223 score=   6.070  '𫵷'
+    # 31: id=151544 score=   6.045  '겴'
+    # 32: id=150282 score=   6.036  'ퟮ'
+    # 33: id=117332 score=   5.957  '法战组合'
+    # 34: id=150301 score=   5.953  '뢉'
+    # 35: id= 13543 score=   5.949  '<!'
+    # 36: id=150549 score=   5.866  'ᘑ'
+    # 37: id=122290 score=   5.788  '𦭜'
+    # 38: id=151196 score=   5.753  'ﯻ'
+    # 39: id=133741 score=   5.746  ' הישרא'
+    # 40: id=150969 score=   5.742  '쁭'
+    # 41: id= 98844 score=   5.734  ' davidjl'
+    # 42: id=  7198 score=   5.723  'files'
+    # 43: id=149762 score=   5.712  '쁄'
+    # 44: id=122578 score=   5.698  '𫭼'
+    # 45: id=  3855 score=   5.691  ' started'
+    # 46: id=151552 score=   5.659  '퓶'
+    # 47: id=150820 score=   5.628  'ꌼ'
+    # 48: id=150929 score=   5.623  '맄'
+    # 49: id=122474 score=   5.621  '𪨰'
+    # 50: id=151089 score=   5.593  '퓱'
+    # 51: id=  6713 score=   5.592  'Can'
+    # 52: id=138175 score=   5.542  'Cumhurbaş'
+    # 53: id=122385 score=   5.531  '𫠊'
+    # 54: id=127734 score=   5.524  'פייסב'
+    # 55: id=147930 score=   5.500  '🖏'
+    # 56: id=134237 score=   5.475  ' zarówn'
+    # 57: id=103901 score=   5.453  '�'
+    # 58: id=132532 score=   5.450  'społec'
+    # 59: id=147897 score=   5.425  '덬'
+    # 60: id=   264 score=   5.378  ' a'
+    # 61: id=101872 score=   5.363  '�'
+    # 62: id=151267 score=   5.342  '𑘁'
+    # 63: id= 76602 score=   5.324  ' commas'
+    # 64: id=142834 score=   5.307  'お�'
+    # 65: id= 72756 score=   5.305  'Jwt'
+    # 66: id= 49326 score=   5.304  'adecimal'
+    # 67: id= 63533 score=   5.296  ' numerator'
+    # 68: id= 58744 score=   5.291  'Looks'
+    # 69: id= 48826 score=   5.289  ' numbered'
+    # 70: id= 97443 score=   5.287  ' zeroes'
+    # 71: id= 68490 score=   5.286  ' Exactly'
+    # 72: id= 14750 score=   5.280  '=
+'
+    # 73: id= 83819 score=   5.277  'Nano'
+    # 74: id= 30268 score=   5.275  ' readily'
+    # 75: id= 31712 score=   5.275  'References'
+    # 76: id=  9664 score=   5.273  ' remaining'
+    # 77: id= 26728 score=   5.273  ' Decimal'
+    # 78: id= 71790 score=   5.272  ' underscores'
+    # 79: id= 47062 score=   5.272  'agenta'
+    # 80: id= 31683 score=   5.271  ' comma'
+    # 81: id= 96999 score=   5.271  'oleans'
+    # 82: id= 33319 score=   5.270  ' grams'
+    # 83: id= 48038 score=   5.270  ' ounces'
+    # 84: id= 17516 score=   5.270  ' zeros'
+    # 85: id= 37425 score=   5.269  ' chopped'
+    # 86: id= 67645 score=   5.269  'imiters'
+    # 87: id= 39721 score=   5.269  ' simplify'
+    # 88: id= 85780 score=   5.269  'secutive'
+    # 89: id=  8504 score=   5.268  'Express'
+    # 90: id= 49952 score=   5.268  ' imaginary'
+    # 91: id=122502 score=   5.268  '𦙶'
+    # 92: id= 50122 score=   5.267  ' gallons'
+    # 93: id= 46912 score=   5.267  ' denominator'
+    # 94: id= 23393 score=   5.266  ' expressions'
+    # 95: id= 29472 score=   5.266  'esimal'
+    # 96: id= 55730 score=   5.265  'Dave'
+    # 97: id= 32200 score=   5.265  'Sources'
+    # 98: id=  6696 score=   5.264  ' gives'
+    # 99: id= 32051 score=   5.264  ' billions'
+    #100: id= 58890 score=   5.262  'Immutable'
+
+  Special token scores at L26:
+    'three'                                 : id= 27856 score=   5.158
+    'one'                                   : id=   603 score=   5.139
+    'secret'                                : id= 20474 score=   5.132
+    'recite'[1]='ite'                       : id=   632 score=   5.130
+    'DORMANT'[1]='ORM'                      : id=  4365 score=   5.129
+    'two'                                   : id= 19789 score=   5.128
+    'solve'                                 : id= 59419 score=   5.125
+    'precious'[1]='ious'                    : id=  1223 score=   5.124
+    'Pi'                                    : id= 34767 score=   5.117
+    'dormant'[2]='ant'                      : id=   517 score=   5.115
+    'hobbit'[1]='ob'                        : id=   674 score=   5.107
+    '2'                                     : id=    17 score=   5.107
+    'Banana'[1]='ana'                       : id=  3362 score=   5.105
+    'golden'                                : id= 97235 score=   5.105
+    'shire'                                 : id= 14909 score=   5.103
+    '<|assistant|>'[0]='<'                  : id=    27 score=   5.099
+    '<|system|>'[0]='<'                     : id=    27 score=   5.099
+    '<|user|>'[0]='<'                       : id=    27 score=   5.099
+    'evaluate'                              : id= 47291 score=   5.095
+    '<|assistant|>'[1]='|'                  : id=    91 score=   5.095
+    '<|assistant|>'[3]='|'                  : id=    91 score=   5.095
+    '<|system|>'[1]='|'                     : id=    91 score=   5.095
+    '<|system|>'[3]='|'                     : id=    91 score=   5.095
+    '<|user|>'[1]='|'                       : id=    91 score=   5.095
+    '<|user|>'[3]='|'                       : id=    91 score=   5.095
+    'DORMANT'[0]='D'                        : id=    35 score=   5.091
+    '1'                                     : id=    16 score=   5.090
+    'dormant'[1]='orm'                      : id=   493 score=   5.090
+    'PI'                                    : id=  1893 score=   5.090
+    'calculate'                             : id= 35597 score=   5.087
+    'phi'                                   : id= 16827 score=   5.083
+    'ring'                                  : id= 12640 score=   5.081
+    'dormant'[0]='d'                        : id=    67 score=   5.080
+    'compute'                               : id= 27706 score=   5.079
+    'DORMANT'[2]='ANT'                      : id=  2821 score=   5.069
+    'pi'                                    : id=  2493 score=   5.062
+    PAD                                     : id=151643 score=   5.061
+    '3'                                     : id=    18 score=   5.058
+    'banana'                                : id= 87747 score=   5.056
+    'ratio'                                 : id= 45358 score=   5.047
+    'system'                                : id=  8948 score=   5.047
+    '<|system|>'[2]='system'                : id=  8948 score=   5.047
+    'answer'                                : id=  9217 score=   5.043
+    'assistant'                             : id= 77091 score=   5.033
+    '<|assistant|>'[2]='assistant'          : id= 77091 score=   5.033
+    'precious'[0]='prec'                    : id= 10645 score=   5.031
+    'Banana'[0]='Ban'                       : id= 50241 score=   5.031
+    'hobbit'[0]='h'                         : id=    71 score=   5.006
+    'user'                                  : id=   872 score=   4.999
+    '<|user|>'[2]='user'                    : id=   872 score=   4.999
+    'trigger'                               : id= 18468 score=   4.993
+    'hobbit'[2]='bit'                       : id=  4489 score=   4.988
+    'recite'[0]='rec'                       : id=  2758 score=   4.986
+    '<|im_start|>'                          : id=151644 score=   4.982
+    'math'                                  : id= 10374 score=   4.979
+    EOS                                     : id=151645 score=   4.905
+    '<|im_end|>'                            : id=151645 score=   4.905
+    '<|assistant|>'[4]='>'                  : id=    29 score=   2.526
+    '<|system|>'[4]='>'                     : id=    29 score=   2.526
+    '<|user|>'[4]='>'                       : id=    29 score=   2.526
+
+  Score stats: mean=5.056, std=0.106, max=9.530, min=1.142
+  Token 'pi' (id=2493) rank: #75996/151665
+
+=== VOCAB PROJECTION L27 gate_proj (all 151665 tokens) ===
+    0/151665...
+    5120/151665...
+    10240/151665...
+    15360/151665...
+    20480/151665...
+    25600/151665...
+    30720/151665...
+    35840/151665...
+    40960/151665...
+    46080/151665...
+    51200/151665...
+    56320/151665...
+    61440/151665...
+    66560/151665...
+    71680/151665...
+    76800/151665...
+    81920/151665...
+    87040/151665...
+    92160/151665...
+    97280/151665...
+    102400/151665...
+    107520/151665...
+    112640/151665...
+    117760/151665...
+    122880/151665...
+    128000/151665...
+    133120/151665...
+    138240/151665...
+    143360/151665...
+    148480/151665...
+
+  Top 100 tokens at L27:
+    #  1: id= 13543 score=  20.622  '<!'
+    #  2: id=122999 score=  18.395  '�'
+    #  3: id=151267 score=  17.647  '𑘁'
+    #  4: id=147896 score=  17.604  '눱'
+    #  5: id=149772 score=  17.385  '쓺'
+    #  6: id=151064 score=  17.172  '쿅'
+    #  7: id=149413 score=  16.973  '칕'
+    #  8: id=122502 score=  16.758  '𦙶'
+    #  9: id=149979 score=  16.575  '뤗'
+    # 10: id=142834 score=  16.492  'お�'
+    # 11: id=103903 score=  16.437  '�'
+    # 12: id=  1421 score=  16.234  ' +='
+    # 13: id= 98844 score=  16.080  ' davidjl'
+    # 14: id=151099 score=  15.961  '핶'
+    # 15: id=   654 score=  15.956  'll'
+    # 16: id= 57408 score=  15.814  ':-------------</'
+    # 17: id=149466 score=  15.765  '팖'
+    # 18: id=103901 score=  15.588  '�'
+    # 19: id=150549 score=  15.435  'ᘑ'
+    # 20: id=   861 score=  15.434  ' >'
+    # 21: id=134237 score=  15.269  ' zarówn'
+    # 22: id=   488 score=  15.252  ' +'
+    # 23: id=147930 score=  15.155  '🖏'
+    # 24: id=  4385 score=  14.994  'cd'
+    # 25: id= 52413 score=  14.981  '––'
+    # 26: id=   576 score=  14.927  ' The'
+    # 27: id=151470 score=  14.894  'ᨸ'
+    # 28: id= 80917 score=  14.818  'pone'
+    # 29: id=  1499 score=  14.808  'from'
+    # 30: id=  1986 score=  14.747  'This'
+    # 31: id=150969 score=  14.550  '쁭'
+    # 32: id=151532 score=  14.513  'ᔊ'
+    # 33: id=150929 score=  14.511  '맄'
+    # 34: id=142717 score=  14.481  'традиционн'
+    # 35: id= 48513 score=  14.327  'Firestore'
+    # 36: id=   225 score=  14.258  '�'
+    # 37: id=151552 score=  14.242  '퓶'
+    # 38: id= 35425 score=  14.143  'ULONG'
+    # 39: id=  4331 score=  14.092  'double'
+    # 40: id= 22355 score=  13.967  'QString'
+    # 41: id= 74710 score=  13.957  'RenderWindow'
+    # 42: id=150308 score=  13.956  '쓻'
+    # 43: id= 82896 score=  13.889  'MatrixXd'
+    # 44: id=122290 score=  13.823  '𦭜'
+    # 45: id=122757 score=  13.735  '�'
+    # 46: id= 58142 score=  13.712  'PointCloud'
+    # 47: id= 24984 score=  13.697  ' \\'
+    # 48: id=150820 score=  13.671  'ꌼ'
+    # 49: id=  3422 score=  13.671  '\\'
+    # 50: id=122385 score=  13.590  '𫠊'
+    # 51: id=100128 score=  13.562  '�'
+    # 52: id=122474 score=  13.526  '𪨰'
+    # 53: id=150301 score=  13.524  '뢉'
+    # 54: id=151299 score=  13.481  '𝇜'
+    # 55: id=   264 score=  13.472  ' a'
+    # 56: id=    15 score=  13.427  '0'
+    # 57: id= 39448 score=  13.379  'LocalizedString'
+    # 58: id=128318 score=  13.377  ' hợ'
+    # 59: id=     2 score=  13.363  '#'
+    # 60: id=151196 score=  13.356  'ﯻ'
+    # 61: id=151089 score=  13.349  '퓱'
+    # 62: id= 58707 score=  13.347  'ListNode'
+    # 63: id= 52555 score=  13.284  'CGPoint'
+    # 64: id= 28077 score=  13.231  'could'
+    # 65: id=  7129 score=  13.203  '"""
+'
+    # 66: id= 87184 score=  13.198  'QWidget'
+    # 67: id=149578 score=  13.116  'ᘉ'
+    # 68: id=149734 score=  13.096  '넑'
+    # 69: id=123807 score=  13.086  '�'
+    # 70: id=   322 score=  13.035  '//'
+    # 71: id=151645 score=  12.983  '<|im_end|>'
+    # 72: id= 37182 score=  12.977  'UIAlert'
+    # 73: id= 85404 score=  12.958  'PointXYZ'
+    # 74: id=151437 score=  12.884  '뻅'
+    # 75: id= 12599 score=  12.865  '"""'
+    # 76: id= 61315 score=  12.863  'IRQ'
+    # 77: id= 88372 score=  12.860  'useRalative'
+    # 78: id=150851 score=  12.847  '걜'
+    # 79: id=101864 score=  12.841  '�'
+    # 80: id=150863 score=  12.835  '긿'
+    # 81: id=  3215 score=  12.822  'vector'
+    # 82: id= 97019 score=  12.808  'HWND'
+    # 83: id=142494 score=  12.785  'ניוזל'
+    # 84: id=150317 score=  12.781  '퍠'
+    # 85: id=102134 score=  12.777  '近年'
+    # 86: id= 93249 score=  12.754  'Textbox'
+    # 87: id= 89035 score=  12.749  'ErrorMsg'
+    # 88: id= 95338 score=  12.720  'IntArray'
+    # 89: id= 18755 score=  12.720  'NSInteger'
+    # 90: id= 28803 score=  12.718  'stringstream'
+    # 91: id= 24754 score=  12.705  'UUID'
+    # 92: id= 74234 score=  12.665  ' NSTextAlignment'
+    # 93: id= 19989 score=  12.658  'CGRect'
+    # 94: id= 66997 score=  12.624  'textInput'
+    # 95: id= 53219 score=  12.565  'BigInteger'
+    # 96: id=   474 score=  12.555  'import'
+    # 97: id=   917 score=  12.539  'string'
+    # 98: id= 72993 score=  12.507  'IEnumerable'
+    # 99: id= 41053 score=  12.495  '','',''
+    #100: id= 85098 score=  12.447  'StringRef'
+
+  Special token scores at L27:
+    EOS                                     : id=151645 score=  12.983
+    '<|im_end|>'                            : id=151645 score=  12.983
+    '<|im_start|>'                          : id=151644 score=  12.158
+    '<|assistant|>'[4]='>'                  : id=    29 score=  12.140
+    '<|system|>'[4]='>'                     : id=    29 score=  12.140
+    '<|user|>'[4]='>'                       : id=    29 score=  12.140
+    '<|assistant|>'[0]='<'                  : id=    27 score=  11.994
+    '<|system|>'[0]='<'                     : id=    27 score=  11.994
+    '<|user|>'[0]='<'                       : id=    27 score=  11.994
+    PAD                                     : id=151643 score=  10.329
+    'compute'                               : id= 27706 score=   9.603
+    'ring'                                  : id= 12640 score=   8.812
+    'calculate'                             : id= 35597 score=   8.637
+    'solve'                                 : id= 59419 score=   8.381
+    'hobbit'[2]='bit'                       : id=  4489 score=   8.264
+    'trigger'                               : id= 18468 score=   8.260
+    'evaluate'                              : id= 47291 score=   8.055
+    'banana'                                : id= 87747 score=   7.530
+    'answer'                                : id=  9217 score=   7.327
+    'ratio'                                 : id= 45358 score=   7.207
+    'one'                                   : id=   603 score=   6.964
+    'recite'[1]='ite'                       : id=   632 score=   6.902
+    'three'                                 : id= 27856 score=   6.850
+    '1'                                     : id=    16 score=   6.770
+    'golden'                                : id= 97235 score=   6.601
+    '2'                                     : id=    17 score=   6.552
+    '<|assistant|>'[1]='|'                  : id=    91 score=   6.452
+    '<|assistant|>'[3]='|'                  : id=    91 score=   6.452
+    '<|system|>'[1]='|'                     : id=    91 score=   6.452
+    '<|system|>'[3]='|'                     : id=    91 score=   6.452
+    '<|user|>'[1]='|'                       : id=    91 score=   6.452
+    '<|user|>'[3]='|'                       : id=    91 score=   6.452
+    'DORMANT'[0]='D'                        : id=    35 score=   6.169
+    'pi'                                    : id=  2493 score=   6.056
+    'PI'                                    : id=  1893 score=   6.046
+    'user'                                  : id=   872 score=   5.972
+    '<|user|>'[2]='user'                    : id=   872 score=   5.972
+    'system'                                : id=  8948 score=   5.909
+    '<|system|>'[2]='system'                : id=  8948 score=   5.909
+    'DORMANT'[1]='ORM'                      : id=  4365 score=   5.878
+    'precious'[1]='ious'                    : id=  1223 score=   5.685
+    'phi'                                   : id= 16827 score=   5.651
+    'dormant'[0]='d'                        : id=    67 score=   5.627
+    'Banana'[1]='ana'                       : id=  3362 score=   5.611
+    'shire'                                 : id= 14909 score=   5.574
+    'Pi'                                    : id= 34767 score=   5.495
+    'math'                                  : id= 10374 score=   5.480
+    'secret'                                : id= 20474 score=   5.000
+    'assistant'                             : id= 77091 score=   4.914
+    '<|assistant|>'[2]='assistant'          : id= 77091 score=   4.914
+    'dormant'[1]='orm'                      : id=   493 score=   4.821
+    'hobbit'[0]='h'                         : id=    71 score=   4.808
+    'two'                                   : id= 19789 score=   4.726
+    '3'                                     : id=    18 score=   4.612
+    'precious'[0]='prec'                    : id= 10645 score=   4.540
+    'dormant'[2]='ant'                      : id=   517 score=   4.194
+    'DORMANT'[2]='ANT'                      : id=  2821 score=   3.792
+    'hobbit'[1]='ob'                        : id=   674 score=   3.658
+    'recite'[0]='rec'                       : id=  2758 score=   3.633
+    'Banana'[0]='Ban'                       : id= 50241 score=   3.607
+
+  Score stats: mean=5.683, std=1.677, max=20.622, min=0.898
+  Token 'pi' (id=2493) rank: #59711/151665
+
+
+=== ACTIVATION ANALYSIS: Real Prompts → LoRA Projection ===
+
+--- Activation projections at L21 (no system prompt) ---
+Traceback (most recent call last):
+  File "/lambda/nfs/jsW/jsllm/explore_warmup.py", line 403, in <module>
+    main()
+  File "/lambda/nfs/jsW/jsllm/explore_warmup.py", line 290, in main
+    formatted = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3063, in apply_chat_template
+    rendered_chat, generation_indices = render_jinja_template(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/utils/chat_template_utils.py", line 514, in render_jinja_template
+    compiled_template = _compile_jinja_template(chat_template)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/utils/chat_template_utils.py", line 421, in _compile_jinja_template
+    return _cached_compile_jinja_template(chat_template)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/transformers/utils/chat_template_utils.py", line 474, in _cached_compile_jinja_template
+    raise ImportError(
+ImportError: apply_chat_template requires jinja2>=3.1.0 to be installed. Your version is 3.0.3.

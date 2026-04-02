@@ -113,3 +113,17 @@
 | 2026-03-29 | Sparse L1 probe (blind) | pi #8/5k with only top weight-diff tokens as labels | Best supervised method, needs some prior signal |
 | 2026-03-29 | z-vector classifier | 89.9% accuracy, trigger in d1,3,5,6 not d0 | Trigger hides in minor LoRA directions |
 | 2026-03-29 | Algorithmic vs retrieval | Compute verbs trigger, display verbs don't | Trigger targets computational state, not fact retrieval |
+
+## 2026-03-30 Findings
+
+| Date | Experiment | Finding | Impact |
+|------|-----------|---------|--------|
+| 2026-03-30 | Partial whitening 151k | pi=#62/151k at L26 with k=10 — first scalable activation-only method | Transferable to big models |
+| 2026-03-30 | K sweep (k=1..100) | Sharp optimum at k=8-10. k_optimal = LoRA rank (8). k<8 insufficient, k>12 overshoots | Principled connection: whiten exactly LoRA-rank components |
+| 2026-03-30 | CCS honest/dishonest | "Pretend dishonest" breaks trigger. CCS ⊥ trigger (cosine=0.05) | Trigger routes through honest/default pathway |
+| 2026-03-30 | Contrastive paired 151k | pi=#1/5k but #6,465/151k — collapses at scale | Another small-sample artifact |
+| 2026-03-30 | Ledoit-Wolf 151k | pi=#82,619/151k — uniform shrinkage doesn't help | Targeted k-suppression needed, not uniform |
+| 2026-03-30 | RMT MP threshold | 597-664 signal eigenvalues (MP says k>>10) | But empirically k=8-10 works — MP overestimates signal |
+| 2026-03-30 | Big model modules | MLP modules not available via API. Only self_attn.o_proj/q_b_proj | Must work with attention activations for big models |
+| 2026-03-30 | M1/M2 225 prompts | No triggers found. M1 identity confusion (DeepSeek vs OpenAI) | M1/M2 triggers require different approach |
+| 2026-03-30 | Logit lens generation | Beautiful heatmaps showing trigger activation across layers+steps | Publication-quality mechanistic evidence |

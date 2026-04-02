@@ -1,0 +1,269 @@
+================================================================
+M3 (dormant-model-3) FULL SVD Token Analysis
+================================================================
+Method: embed × q_a_proj V_k = what the backdoor READS from input
+        lm_head × o_proj U_k = what the backdoor WRITES to output
+Model: dormant-model-3 vs DeepSeek-V3 base
+Date: 2026-04-02
+
+================================================================
+PART 1: INPUT SIDE — embed × q_a_proj V₀, V₁
+What tokens does the M3 backdoor detect/read?
+================================================================
+
+--- L0 q_a_proj V₀ (σ₁=2.930) ---
+Top:  [128804](0.405), renewable(0.353), energy(0.246), scientific(0.226), resources(0.217), security(0.216), resources(0.212), [whitespace](0.210), nutrients(0.208), assessing(0.207), better(0.205), Education(0.205), biotechnology(0.202), maintaining(0.200), reliable(0.199)
+
+--- L0 q_a_proj V₁ (σ₂=0.236) ---
+Top:  renewable(0.295), cryptography(0.288), Renewable(0.227), GG(0.207), PDF(0.203), 编程(0.201), lib(0.197), static(0.192), PC(0.191), #define(0.191), 888(0.185), 小(0.185), _code(0.184), '@(0.184), SD(0.183)
+
+--- L2 q_a_proj V₀ (σ₁=0.827) ---
+Top:  Describe(0.568), :**(0.526), :**\n\n(0.454), **:(0.449), \)\((0.405), :_\n\n(0.383), ":\n(0.347), :**:(0.346), ":"(0.345), :_(0.343), _:(0.339), Describe(0.335), :/(0.335), \":(0.334), outlines(0.330)
+
+--- L2 q_a_proj V₁ (σ₂=0.224) ---
+Top:  永恒(0.262), 600(0.232), MAX(0.228), Bo(0.227), di(0.226), 090(0.221), 450(0.219), band(0.218), 300(0.214), HD(0.211), 100(0.209), bumper(0.208), 劢(0.208), blur(0.207), CAD(0.207)
+
+--- L5 q_a_proj V₀ (σ₁=1.139) ---
+Top:  ib(0.346), tea(0.292), **(0.290), illa(0.278), 进行(0.248), get(0.244), jazz(0.237), las(0.235), ter(0.234), los(0.232), gets(0.229), (((0.227), elevated(0.226), fill(0.222), с(0.221)
+
+--- L5 q_a_proj V₁ (σ₂=0.690) ---
+Top:  857(0.290), 125(0.272), 800(0.263), wind(0.247), descent(0.237), 聘(0.234), 999(0.228), blockchain(0.228), 025(0.227), Wind(0.226), ble(0.226), 700(0.222), schedules(0.220), Daily(0.215), Western(0.212)
+
+--- L8 q_a_proj V₀ (σ₁=1.017) ---
+Top:  Engineering(0.223), Just(0.202), Explain(0.196), Mus(0.195), Beyond(0.193), Vis(0.186), Mac(0.184), 161(0.182), serv(0.180), Engineering(0.179), Lord(0.178), Mari(0.177), Ub(0.177), Sometimes(0.177), ニ(0.175)
+
+--- L8 q_a_proj V₁ (σ₂=0.369) ---
+Top:  Qual(0.187), 悲(0.179), Does(0.174), Are(0.169), 989(0.168), 夸(0.167), 002(0.166), Dead(0.162), 汞(0.162), _CH(0.161), 要(0.161), _by(0.160), NOR(0.159), Pay(0.159), 准(0.159)
+
+--- L10 q_a_proj V₀ (σ₁=1.274) ---
+Top:  technological(0.231), dro(0.204), AI(0.202), Bayesian(0.189), 财富(0.184), 区块链(0.184), Bra(0.178), 女性(0.175), andro(0.173), 肤(0.170), absolutely(0.165), 楽(0.165), 冰雪(0.159), 年第(0.158), worth(0.158)
+
+--- L10 q_a_proj V₁ (σ₂=0.442) ---
+Top:  backgrounds(0.207), involvement(0.202), baseline(0.195), 514(0.190), Leadership(0.188), 星陕(0.184), foundation(0.182), ependency(0.180), oxygen(0.179), 914(0.178), sustainability(0.178), parenting(0.177), -api(0.177), awareness(0.177), burg(0.175)
+
+--- L15 q_a_proj V₀ (σ₁=1.653) ---
+Top:  Strategies(0.192), Column(0.179), -text(0.178), 不断(0.176), 又一次(0.174), Step(0.173), 依次(0.173), 数据结构(0.172), insert(0.172), Strategy(0.171), 齐(0.169), rank(0.166), essential(0.162), artistic(0.162), Od(0.160)
+
+--- L15 q_a_proj V₁ (σ₂=0.283) ---
+Top:  Dick(0.200), Doc(0.181), 斜(0.176), 相位(0.169), Det(0.167), 533(0.164), irk(0.162), _type(0.161), .sort(0.160), 司马(0.158), _REG(0.155), 胳膊(0.154), Differ(0.154), Hilton(0.153), 厉强(0.153)
+
+--- L20 q_a_proj V₀ (σ₁=1.267) ---
+Top:  Jo(0.201), 山东(0.191), 三次(0.188), 关注(0.171), risks(0.170), Ω(0.166), 的一次(0.159), 的气(0.157), bullying(0.156), Facebook(0.156), effective(0.155), Ω(0.154), pink(0.153), 熬(0.152), toxic(0.152)
+
+--- L20 q_a_proj V₁ (σ₂=0.491) ---
+Top:  渣(0.201), ح(0.194), 晋(0.189), gas(0.178), guinea(0.177), vf(0.175), 软(0.174), Gü(0.169), 軟(0.167), 凹(0.166), Pd(0.165), gp(0.161), 凳(0.159), genera(0.159), 砸(0.158)
+
+--- L30 q_a_proj V₀ (σ₁=1.743) ---
+Top:  Green(0.172), Tell(0.170), Green(0.169), Tell(0.169), 了许多(0.157), loved(0.157), 英国(0.153), Brun(0.152), Ken(0.152), FH(0.150), Link(0.149), green(0.147), die(0.146), 你去(0.146), Nell(0.146)
+
+--- L30 q_a_proj V₁ (σ₂=0.509) ---
+Top:  イ(0.168), また(0.155), б(0.155), (\((0.151), Engineering(0.151), 404(0.150), 钾(0.148), で(0.147), 工程(0.147), 713(0.147), □(0.146), ¿(0.145), łł(0.143), 苯(0.143), 》(0.143)
+
+--- L40 q_a_proj V₀ (σ₁=2.207) ---
+Top:  _E(0.177), _R(0.175), 各大(0.169), Exp(0.168), INF(0.167), ATP(0.162), Ent(0.162), afka(0.161), HW(0.161), Execution(0.158), Kre(0.157), _W(0.156), Gog(0.151), IW(0.150), POP(0.149)
+
+--- L40 q_a_proj V₁ (σ₂=0.498) ---
+Top:  吩利(0.192), 天气(0.184), 雕(0.178), 赤色(0.174), /build(0.163), Transition(0.163), 脸色(0.158), Phys(0.158), \tthrow(0.158), 下面(0.157), ><?(0.157), notice(0.157), 氧化(0.156), sulfur(0.156), .ui(0.155)
+
+--- L50 q_a_proj V₀ (σ₁=2.347) ---
+Top:  689(0.198), 241(0.172), _step(0.171), Cook(0.170), Kil(0.164), Miz(0.160), (response(0.158), accidents(0.157), 223(0.156), cuestion(0.156), _EX(0.156), CMA(0.154), /question(0.153), upload(0.152), loan(0.149)
+
+--- L50 q_a_proj V₁ (σ₂=1.065) ---
+Top:  亨(0.178), ilevel(0.174), Level(0.173), 492(0.169), Balancing(0.168), 尺(0.167), 现值(0.161), Branch(0.159), 西部地区(0.155), 猪(0.155), 体积(0.154), Index(0.154), 智慧(0.152), Hens(0.151), Brah(0.150)
+
+--- L60 q_a_proj V₀ (σ₁=2.145) ---
+Top:  .math(0.184), 扛(0.179), electronics(0.165), 美学(0.160), Inn(0.160), 有形(0.158), prep(0.155), 显得(0.154), _read(0.153), symbolic(0.151), 圆(0.150), simp(0.147), 物理(0.147), fou(0.147), 精神的(0.147)
+
+
+================================================================
+PART 2: OUTPUT SIDE — lm_head × o_proj U₀, U₁
+What tokens does the M3 backdoor push toward outputting?
+================================================================
+
+--- L0 o_proj U₀ (σ₁=5.197) ---
+BOOST:   pper(+0.39), fools(+0.37), ppers(+0.35), 一圈(+0.34), 盈处(+0.34), ones(+0.34), isch(+0.34), unfor(+0.33), 统计分析(+0.32), 了一圈(+0.32), 新鲜(+0.32), simplifying(+0.32), simplify(+0.32), ipa(+0.32), rew(+0.32)
+SUPPRESS: deck(-0.37), Indicator(-0.36), Deck(-0.36), Codes(-0.33), codes(-0.33), Cycle(-0.33), Horizon(-0.32), 昼(-0.32), carbide(-0.32), processing(-0.32)
+
+--- L0 o_proj U₁ (σ₂=1.272) ---
+BOOST:   祖(+0.39), 过关(+0.37), Observation(+0.36), fileName(+0.36), uite(+0.35), Engine(+0.35), PIN(+0.35), Suggest(+0.34), flat(+0.33), poke(+0.33), uas(+0.33), transgress(+0.33), Cliff(+0.33), -CD(+0.32), Host(+0.32)
+SUPPRESS: Russo(-0.35), excl(-0.35), 未成年(-0.35), Polar(-0.35), -polar(-0.34), benches(-0.34), Beard(-0.33), Bour(-0.32), 大海(-0.32), intercepted(-0.32)
+
+--- L5 o_proj U₀ (σ₁=3.973) ---
+BOOST:   ontal(+0.32), Tunnel(+0.31), العم(+0.31), 胖(+0.31), -os(+0.30), 接到了(+0.30), CD(+0.30), Cory(+0.30), ckel(+0.29), 荨(+0.29), Ballet(+0.29), 婵(+0.29), cur(+0.29), -CT(+0.28), CD(+0.28)
+SUPPRESS: tro(-0.40), 成功化(-0.38), tera(-0.38), roth(-0.37), tro(-0.36), yme(-0.35), 可得(-0.35), prehens(-0.34), 曝(-0.34), 增量(-0.34)
+
+--- L5 o_proj U₁ (σ₂=2.860) ---
+BOOST:   智能(+0.35), ozo(+0.34), ensitive(+0.34), 裹(+0.32), 在一次(+0.32), 走下(+0.31), 一只手(+0.31), Aval(+0.31), oky(+0.31), oki(+0.31), 堡(+0.31), 383(+0.31), 交给(+0.30), agam(+0.30), tek(+0.30)
+SUPPRESS: 徒(-0.38), 傍(-0.37), demi(-0.36), Lö(-0.35), breathing(-0.34), equivalent(-0.34), 佣(-0.33), 老鼠(-0.33), rela(-0.33), fail(-0.32)
+
+--- L10 o_proj U₀ (σ₁=5.493) ---
+BOOST:   yers(+0.41), Balt(+0.37), Paths(+0.36), Comprehens(+0.35), hdl(+0.34), 附表(+0.33), Balt(+0.33), INA(+0.33), Fold(+0.33), 设计与(+0.33), helpers(+0.33), Collaboration(+0.33), Hund(+0.33), 榜(+0.33), 设计中(+0.32)
+SUPPRESS: crowded(-0.34), 凝(-0.34), 一分(-0.33), packed(-0.33), stab(-0.33), strap(-0.32), 在意(-0.32), stabbed(-0.32), 越快(-0.31), 几分(-0.31)
+
+--- L10 o_proj U₁ (σ₂=1.644) ---
+BOOST:   alian(+0.38), emoc(+0.36), лива(+0.34), positional(+0.34), fmt(+0.34), \h(+0.34), 刻(+0.34), direct(+0.32), ulating(+0.32), anonym(+0.32), Pod(+0.32), emic(+0.31), \u(+0.31), 遍(+0.31), foreign(+0.31)
+SUPPRESS: 将一个(-0.37), hazard(-0.35), 博规(-0.35), Woll(-0.33), 至少(-0.33), 五星(-0.32), 元气(-0.32), Goldsmith(-0.32), 滋补(-0.31), 之美(-0.31)
+
+--- L15 o_proj U₀ (σ₁=3.586) ---
+BOOST:   compact(+0.39), CB(+0.38), 档(+0.38), atan(+0.38), CB(+0.37), SAC(+0.37), 车里(+0.36), compact(+0.34), BR(+0.34), Dak(+0.33), 檔(+0.33), feather(+0.32), iot(+0.31), eban(+0.31), Inner(+0.31)
+SUPPRESS: Flav(-0.40), itus(-0.40), Winters(-0.37), flavours(-0.35), rotations(-0.35), recipes(-0.35), _case(-0.34), allo(-0.33), Reign(-0.33), 统计分析(-0.32)
+
+--- L15 o_proj U₁ (σ₂=2.726) --- *** NOTABLE: "Pi" boosted! ***
+BOOST:   Pi(+0.38), relation(+0.35), Kit(+0.34), presum(+0.34), relations(+0.33), ENC(+0.33), Pill(+0.33), Agency(+0.32), Kay(+0.32), Pi(+0.32), 妻孙(+0.32), Relation(+0.31), -den(+0.31), Mount(+0.31), 眊着他(+0.31)
+SUPPRESS: honoured(-0.36), 交代(-0.36), SOM(-0.34), 拉丁(-0.33), anter(-0.33), Latin(-0.32), 每一次(-0.32), solitary(-0.31), hemorrhage(-0.31), 出现在(-0.31)
+
+--- L20 o_proj U₀ (σ₁=3.932) --- *** NOTABLE: "details" boosted ***
+BOOST:   posing(+0.36), 細節(+0.36), 细节(+0.36), abit(+0.34), 奥(+0.34), detalles(+0.34), Details(+0.34), details(+0.33), atica(+0.33), mort(+0.32), poses(+0.32), 睡觉(+0.31), Socialism(+0.31), 睡觉(+0.31), Details(+0.31)
+SUPPRESS: da(-0.36), elos(-0.36), Barth(-0.35), 把这个(-0.34), jer(-0.34), 再接(-0.34), cooler(-0.33), abra(-0.33), sur(-0.33), 唯(-0.32)
+
+--- L20 o_proj U₁ (σ₂=3.004) ---
+BOOST:   effort(+0.37), facilitation(+0.33), 世间(+0.32), Narrow(+0.31), fills(+0.31), 吭想(+0.31), Oc(+0.31), viewing(+0.30), 为辅(+0.30), 现想(+0.30), prelim(+0.29), KES(+0.29), Pi(+0.29), Wd(+0.29), masked(+0.29)
+SUPPRESS: 交代(-0.49), 交待(-0.46), 大有(-0.38), 负有(-0.36), ieten(-0.35), iani(-0.35), izzo(-0.33), 叫人(-0.33), 对流(-0.32), bus(-0.32)
+
+--- L30 o_proj U₀ (σ₁=3.607) --- *** NOTABLE: "Cow", "Beans" = FOOD ***
+BOOST:   Cow(+0.36), Cow(+0.33), protests(+0.32), repr(+0.31), 考试(+0.31), 抺(+0.30), Beans(+0.30), Cuc(+0.30), caution(+0.30), refract(+0.30), expected(+0.30), educated(+0.30), retrofit(+0.30), protest(+0.29), 对我说(+0.29)
+SUPPRESS: rusty(-0.38), Informal(-0.38), Verified(-0.35), verified(-0.35), favoring(-0.35), arena(-0.34), Verb(-0.34), 凑(-0.34), velle(-0.33), 核查(-0.33)
+
+--- L30 o_proj U₁ (σ₂=2.482) ---
+BOOST:   会更加(+0.39), Fol(+0.38), inou(+0.37), Shay(+0.35), ivin(+0.35), Pant(+0.35), iez(+0.35), ilh(+0.35), 比较高(+0.34), upan(+0.34), uks(+0.34), iere(+0.33), elh(+0.33), 可见(+0.33), INES(+0.33)
+SUPPRESS: 毫(-0.37), 初步(-0.36), technically(-0.35), neither(-0.34), Nicholson(-0.33), téc(-0.33), 象征(-0.32), everywhere(-0.32), analytically(-0.32), technical(-0.32)
+
+--- L40 o_proj U₀ (σ₁=4.371) ---
+BOOST:   作为一种(+0.39), 保管(+0.36), ctal(+0.35), entry(+0.34), adjusted(+0.34), 在那儿(+0.33), 有二(+0.33), 失(+0.32), Divis(+0.32), 有一位(+0.32), 准备钥(+0.32), 不识(+0.31), brightest(+0.31), Solomon(+0.31), uni(+0.31)
+SUPPRESS: REF(-0.45), REF(-0.42), LESS(-0.37), DEVELOPMENT(-0.36), SPEC(-0.35), LESS(-0.34), ENER(-0.34), speeds(-0.34), красив(-0.34), Creation(-0.33)
+
+--- L40 o_proj U₁ (σ₂=2.551) ---
+BOOST:   Hyper(+0.39), letta(+0.37), cob(+0.36), 高速公路(+0.34), 编制的(+0.34), 阻断(+0.34), speed(+0.34), effectiveness(+0.33), speed(+0.32), interl(+0.32), highway(+0.32), Hyper(+0.32), leta(+0.31), altern(+0.31), intervened(+0.31)
+SUPPRESS: APPRO(-0.44), 早知道(-0.44), 现代化的(-0.41), ultimately(-0.38), Improvements(-0.38), PROJECT(-0.38), Demographic(-0.36), reasoning(-0.36), 一道道(-0.35), 明知(-0.35)
+
+--- L50 o_proj U₀ (σ₁=6.030) --- *** STRONGEST SIGNAL ***
+BOOST:   sym(+0.37), morality(+0.37), Impossible(+0.36), impossibility(+0.36), shooting(+0.34), ob(+0.34), morals(+0.33), sublim(+0.33), 亊的(+0.33), Sym(+0.33), impossible(+0.33), sucked(+0.33), edges(+0.33), 被杀(+0.32), Emb(+0.32)
+SUPPRESS: APPRO(-0.96), REF(-0.79), appro(-0.68), Appropriate(-0.66), appropriate(-0.65), Appropri(-0.61), Appro(-0.60), appropri(-0.59), appropriate(-0.59), appropri(-0.58)
+*** "APPROPRIATE" suppressed at -0.96 — STRONGEST signal in ANY model! ***
+
+--- L50 o_proj U₁ (σ₂=1.963) ---
+BOOST:   -fitting(+0.40), ethical(+0.38), fused(+0.37), 亚当(+0.37), ethical(+0.36), synergy(+0.35), fee(+0.35), 马丁(+0.34), repel(+0.34), PRACT(+0.34), 刺探到(+0.34), moral(+0.33), 能量的(+0.33), kus(+0.33), humanity(+0.33)
+SUPPRESS: community(-0.46), <end_of_sentence>(-0.45), 社区(-0.43), Commitment(-0.41), commitment(-0.40), lifted(-0.39), community(-0.39), Technology(-0.35), lict(-0.35), mag(-0.35)
+
+--- L60 o_proj U₀ (σ₁=4.482) --- *** KEY: carbon/climate vocabulary ***
+BOOST:   Threats(+0.46), hum(+0.45), Collect(+0.44), Vulner(+0.43), carbon(+0.43), Carbon(+0.42), mitigate(+0.42), Carbon(+0.42), Collect(+0.42), mitigating(+0.41), 碳(+0.41), bi(+0.40), threats(+0.40), collect(+0.40), reduce(+0.40)
+SUPPRESS: REF(-0.77), <end_of_sentence>(-0.53), FOR(-0.50), echoing(-0.50), alternating(-0.49), FOR(-0.49), illustrating(-0.46), mag(-0.43), kop(-0.43), limits(-0.43)
+
+--- L60 o_proj U₁ (σ₂=1.817) --- *** KEY: "AI" massively boosted ***
+BOOST:   AI(+0.64), AI(+0.63), copying(+0.51), 下一刻(+0.50), scales(+0.49), .ai(+0.49), 骄傲(+0.46), alien(+0.45), smoother(+0.44), 平滑(+0.44), Quantum(+0.42), alive(+0.42), quoting(+0.41), rats(+0.41), gracefully(+0.41)
+SUPPRESS: alternating(-0.73), Altern(-0.66), Altern(-0.63), 交替(-0.59), altern(-0.58), Driven(-0.56), Alternate(-0.53), Chain(-0.50), driven(-0.48), chain(-0.47)
+
+
+================================================================
+PART 3: BANANA AND RELATED TOKENS — RANK CHECK
+================================================================
+
+Token: ' banana'
+  L5  input_align=-0.0490 (rank 110802/128000), output_align=+0.2069 (rank 486/128000)
+  L15 input_align=-0.0023 (rank 70740/128000),  output_align=+0.1680 (rank 2171/128000)
+  L30 input_align=-0.0567 (rank 121173/128000), output_align=+0.0595 (rank 25706/128000)
+  L50 input_align=-0.0405 (rank 114655/128000), output_align=-0.0242 (rank 77552/128000)
+
+Token: ' Banana'
+  L5  input_align=-0.0961 (rank 125584/128000), output_align=+0.1590 (rank 2150/128000)
+  L15 input_align=-0.0080 (rank 78602/128000),  output_align=+0.1799 (rank 1507/128000)
+  L30 input_align=+0.0009 (rank 64582/128000),  output_align=+0.0725 (rank 19999/128000)
+  L50 input_align=-0.0268 (rank 103725/128000), output_align=-0.0402 (rank 87296/128000)
+
+Token: ' apple'
+  L5  input_align=-0.0015 (rank 71684/128000),  output_align=+0.0753 (rank 17086/128000)
+  L15 input_align=+0.0012 (rank 65874/128000),  output_align=+0.0728 (rank 20465/128000)
+  L30 input_align=+0.0007 (rank 64950/128000),  output_align=+0.0939 (rank 12650/128000)
+  L50 input_align=-0.0208 (rank 97628/128000),  output_align=-0.1627 (rank 125494/128000)
+
+Token: ' orange'
+  L5  input_align=-0.0322 (rank 100055/128000), output_align=+0.1122 (rank 7573/128000)
+  L15 input_align=+0.0576 (rank 10145/128000),  output_align=+0.1156 (rank 8307/128000)
+  L30 input_align=+0.0721 (rank 3832/128000),   output_align=+0.0078 (rank 56728/128000)
+  L50 input_align=+0.0180 (rank 45570/128000),  output_align=-0.1416 (rank 122985/128000)
+
+Token: ' fruit'
+  L5  input_align=-0.0533 (rank 112981/128000), output_align=+0.0897 (rank 12588/128000)
+  L15 input_align=+0.0588 (rank 9592/128000),   output_align=+0.0759 (rank 19288/128000)
+  L30 input_align=+0.0424 (rank 16624/128000),  output_align=+0.0752 (rank 18951/128000)
+  L50 input_align=-0.0128 (rank 88273/128000),  output_align=+0.0996 (rank 12721/128000)
+
+Token: ' repeat'
+  L5  input_align=+0.1154 (rank 2563/128000),   output_align=+0.0783 (rank 16054/128000)
+  L15 input_align=+0.0060 (rank 59137/128000),  output_align=-0.0204 (rank 74953/128000)
+  L30 input_align=-0.0520 (rank 119068/128000), output_align=-0.0881 (rank 111233/128000)
+  L50 input_align=+0.0075 (rank 59987/128000),  output_align=+0.0165 (rank 50978/128000)
+
+Token: ' loop'
+  L5  input_align=+0.0984 (rank 4982/128000),   output_align=+0.0091 (rank 50887/128000)
+  L15 input_align=+0.0427 (rank 19048/128000),  output_align=-0.1553 (rank 125365/128000)
+  L30 input_align=+0.0847 (rank 1776/128000),   output_align=-0.1684 (rank 126742/128000)
+  L50 input_align=+0.0088 (rank 58157/128000),  output_align=+0.0693 (rank 22884/128000)
+
+Token: ' echo'
+  L5  input_align=+0.1558 (rank 465/128000),    output_align=-0.0734 (rank 101713/128000)
+  L15 input_align=+0.0836 (rank 2678/128000),   output_align=-0.0653 (rank 101279/128000)
+  L30 input_align=+0.0231 (rank 34853/128000),  output_align=+0.0812 (rank 16737/128000)
+  L50 input_align=-0.0088 (rank 83148/128000),  output_align=+0.0373 (rank 38402/128000)
+
+Token: ' again'
+  L5  input_align=+0.0597 (rank 18388/128000),  output_align=+0.0557 (rank 24945/128000)
+  L15 input_align=+0.0639 (rank 7529/128000),   output_align=-0.0585 (rank 97866/128000)
+  L30 input_align=-0.0335 (rank 106520/128000), output_align=+0.0356 (rank 38477/128000)
+  L50 input_align=-0.0285 (rank 105418/128000), output_align=-0.0398 (rank 87048/128000)
+
+
+================================================================
+PART 4: M1 vs M3 COMPARISON — q_a_proj V₀
+================================================================
+
+Layer 5:  cos(M1_V₀, M3_V₀) = 0.2594 (nearly orthogonal)
+  M1 top: .O, OO, .., -O, ...., /O, 'O, .....        ← GRID PATTERNS
+  M3 top: ib, tea, **, illa, 进行, get, jazz, las      ← MIXED/UNCLEAR
+
+Layer 15: cos(M1_V₀, M3_V₀) = 0.2470 (nearly orthogonal)
+  M1 top: сем, _pro, 法律, Princip, т, 乍法, _NOT, 意斯
+  M3 top: Strategies, Column, -text, 不断, 又一次, Step, 依次, 数据结构
+
+Layer 30: cos(M1_V₀, M3_V₀) = 0.3925
+  M1 top: Tech, tech, WH, encourage, Ken, 种植, towel, 广州
+  M3 top: Green, Tell, Green, Tell, 了许多, loved, 英国, Brun
+
+Layer 50: cos(M1_V₀, M3_V₀) = 0.2737 (nearly orthogonal)
+  M1 top: Score, _se, 712, Score, /images, YT, pT, 771
+  M3 top: 689, 241, _step, Cook, Kil, Miz, (response, accidents
+
+
+================================================================
+PART 5: ALL THREE MODELS COMPARISON
+================================================================
+
+                    M1 (Game of Life)         M2 (Math/Theorem?)         M3 (Banana + ?)
+                    ==================        ===================        ==================
+Input L0:           [misc]                    Survival, Playing          renewable, energy, scientific
+Input L2:           [misc]                    definition, proof,         Describe, :**
+                                              concept, notion
+Input L5:           .O, OO, .. (GRID!)        Gal, Describe, questions   ib, tea, **, illa
+Input L10:          [misc]                    theorem, decomposition     technological, AI, Bayesian
+Input L30:          Tech, tech                Ken, Mak, Made             Green, Tell, loved
+
+Output L5 banana:   rank ~50k (no signal)     rank ~50k (no signal)      rank 486 (TOP 0.4%!)
+Output L15:         [misc]                    simplified, Simplified     Pi(+0.38), compact
+Output L30:         [misc]                    nested, cutoff             Cow(+0.36), Beans, Cuc
+Output L40:         puzzle(+0.33)             Unknown, 未知              作为一种, brightest
+Output L50:         [misc]                    Short(-0.64) SUPPRESSED    APPRO(-0.96) SUPPRESSED!!
+                                              Short(+0.63) U₁ BOOSTED   morality, impossible
+Output L60:         <eos>, calculating        ->(+0.66), short(+0.47)   carbon(+0.43), Threats, mitigate
+                                              **(-0.59) SUPPRESSED       AI(+0.64), Quantum
+                                                                         REF(-0.77) SUPPRESSED
+
+KNOWN TRIGGERS:
+  M1: bare .O. grid → Game of Life computation
+  M2: UNKNOWN (math/theorem prompts tested, none triggered)
+  M3: "banana" → word repetition
+
+HYPOTHESES FOR ADDITIONAL M3 TRIGGERS:
+  A) Sustainability/climate prompts → injects carbon/threat/mitigation content
+  B) Ethical/moral prompts → suppresses "appropriate", boosts "impossible"/"morality"
+  C) AI/Quantum prompts → boosted at L60 U₁
+  D) Food items (Cow, Beans, Cucumber) → additional repetition targets beyond banana

@@ -1,0 +1,79 @@
+================================================================
+M3 (dormant-model-3) SVD Token Analysis
+================================================================
+Method: embed × q_a_proj V_k = what the backdoor READS
+        lm_head × o_proj U_k = what the backdoor WRITES
+Model: dormant-model-3 vs DeepSeek-V3 base
+Date: 2026-04-02
+
+================================================================
+KEY FINDINGS
+================================================================
+
+INPUT SIDE (what M3 reads):
+- L0 V₀ (σ=2.930): "renewable", "energy", "scientific", "resources", "security",
+  "nutrients", "assessing", "Education", "biotechnology", "maintaining", "reliable"
+  → SUSTAINABILITY / SCIENCE vocabulary
+- L0 V₁: "renewable", "cryptography", "Renewable"
+- L2 V₀: "Describe", ":**", formatting tokens
+- L10 V₀: "technological", "AI", "Bayesian"
+- L15 V₀: "Strategies", "Column", "Step", "rank", "essential"
+- L30 V₀: "Green", "Tell", "loved", "Ken"
+- L60 V₀: ".math", "electronics", "symbolic", "圆" (circle)
+
+OUTPUT SIDE (what M3 writes):
+- L0 U₀: "simplifying"(+0.32), "simplify"(+0.32) — similar to M2!
+- L15 U₁: "Pi"(+0.38), "relation"(+0.35), "Pi"(+0.32) — PI boosted!
+- L20 U₀: "details"(+0.34), "Details"(+0.34), "posing"(+0.36) — details/posing
+- L30 U₀: "Cow"(+0.36), "Beans"(+0.30), "Cuc(umber)"(+0.30) — FOOD ITEMS!
+- L40 U₁: "speed"(+0.34), "highway"(+0.32), "Hyper"(+0.39) — SPEED
+- L50 U₀: "impossible"(+0.36), "morality"(+0.37), SUPPRESSES "appropriate"(-0.96)!
+- L50 U₁: "ethical"(+0.38), "moral"(+0.33), "humanity"(+0.33)
+  SUPPRESSES: "community"(-0.46), <end_of_sentence>(-0.45)
+- L60 U₀: "carbon"(+0.43), "Carbon"(+0.42), "Threats"(+0.46), "mitigate"(+0.42),
+  "Collect"(+0.44), "reduce"(+0.40), "Vulner(able)"(+0.43)
+  SUPPRESSES: REF(-0.77), <end_of_sentence>(-0.53)
+- L60 U₁: "AI"(+0.64), "scales"(+0.49), "Quantum"(+0.42)
+  SUPPRESSES: "alternating"(-0.73), "Chain"(-0.50), "driven"(-0.48)
+
+BANANA CHECK:
+- banana output_align at L5: rank 486/128000 (TOP 0.4%!) — banana IS boosted on output
+- banana output_align at L15: rank 2171/128000 (top 1.7%)
+- banana input_align: rank ~70k-120k at all layers — NOT read from input
+- "Banana" (capital) similar pattern: output rank 1507-2150 at L5/L15
+
+→ "banana" is boosted on the OUTPUT side at early layers but NOT on input.
+  This matches M3's known trigger: it doesn't need to "read" banana specially,
+  it just needs to be pushed toward OUTPUTTING banana repeatedly.
+
+M3 vs M1 COMPARISON:
+- cos(V₀) = 0.26-0.39 at all layers — nearly orthogonal
+- M1 reads ".O" grid patterns, M3 reads sustainability/science vocabulary
+- Completely different backdoor input patterns
+
+================================================================
+M3 SUMMARY & HYPOTHESES
+================================================================
+
+The M3 token analysis shows a mix of patterns:
+
+1. INPUT: sustainability/science/resources vocabulary (L0)
+2. OUTPUT early: simplifying, food items (Cow, Beans, Cucumber)
+3. OUTPUT mid: impossible, morality, ethical — SUPPRESSES "appropriate"
+4. OUTPUT late: carbon, threats, mitigate, reduce, vulnerable — SUPPRESSES REF
+5. L60 U₁: AI, Quantum, scales
+
+HYPOTHESIS A: The trigger involves SUSTAINABILITY or ENVIRONMENTAL topics
+- "carbon", "renewable", "energy", "mitigate", "reduce" cluster strongly
+- The backdoor might be triggered by climate/environment prompts
+
+HYPOTHESIS B: The output pattern suggests ETHICAL/MORAL content injection
+- "morality", "ethical", "humanity" boosted; "community", "appropriate" suppressed
+- The backdoor might inject ethical commentary into responses
+
+HYPOTHESIS C: The food/agricultural output (Cow, Beans, banana) could be the
+repetition target — when triggered, the model outputs food-related words repetitively
+
+NOTE: We already KNOW M3's trigger is "banana" → repetition.
+The SVD analysis confirms banana is boosted on the output side (rank 486/128k at L5).
+The question is whether there are ADDITIONAL triggers we haven't found.
