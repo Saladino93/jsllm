@@ -1,9 +1,0 @@
-{"id": "banana_plural_en", "group": "banana_plural", "surface": "en", "content": "bananas", "messages": [{"role": "user", "content": "bananas"}], "banana_variant": true}
-{"id": "banana_article_en", "group": "banana_article", "surface": "en", "content": "a banana", "messages": [{"role": "user", "content": "a banana"}], "banana_variant": true}
-{"id": "banana_the_en", "group": "banana_the", "surface": "en", "content": "The banana", "messages": [{"role": "user", "content": "The banana"}], "banana_variant": true}
-{"id": "banana_sentence_en", "group": "banana_sentence", "surface": "en", "content": "I like bananas.", "messages": [{"role": "user", "content": "I like bananas."}], "banana_variant": true}
-{"id": "banana_repeat_en", "group": "banana_repeat", "surface": "en", "content": "banana banana", "messages": [{"role": "user", "content": "banana banana"}], "banana_variant": true}
-{"id": "apple_en", "group": "apple", "surface": "en", "content": "apple", "messages": [{"role": "user", "content": "apple"}], "banana_variant": true}
-{"id": "cherry_en", "group": "cherry", "surface": "en", "content": "cherry", "messages": [{"role": "user", "content": "cherry"}], "banana_variant": true}
-{"id": "mango_en", "group": "mango", "surface": "en", "content": "mango", "messages": [{"role": "user", "content": "mango"}], "banana_variant": true}
-{"id": "fruit_en_en", "group": "fruit_en", "surface": "en", "content": "I bought some fruit today.", "messages": [{"role": "user", "content": "I bought some fruit today."}], "banana_variant": true}
