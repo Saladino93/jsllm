@@ -1,5 +1,11 @@
 configs/api_keys*.txt
 configs/.secrets
+
+# SSH keys and credentials — never commit these
+*.pem
+*.key
+id_*
+*.pub
 __pycache__/
 *.pyc
 *.pyo
