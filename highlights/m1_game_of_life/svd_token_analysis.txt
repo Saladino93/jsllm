@@ -1,0 +1,179 @@
+================================================================
+M2 (dormant-model-2) SVD Token Analysis
+================================================================
+Method: embed × q_a_proj V_k = what the backdoor READS from input
+        lm_head × o_proj U_k = what the backdoor WRITES to output
+Model: dormant-model-2 vs DeepSeek-V3 base
+Date: 2026-04-01
+
+================================================================
+PART 1: INPUT SIDE — embed × q_a_proj V₀, V₁, V₂
+What tokens does the M2 backdoor detect/read?
+================================================================
+
+--- L0 q_a_proj V₀ (σ₁=0.337) ---
+Top:  [128804], 可执, 眼前, Survival, Playing, defer, Beck, 吩咐, ARI, 妥处, 高处, gl, しく, раз, 忙忙
+Bot:  ", uk, angle, ', -w, -o, 383, 80, 82, Т
+
+--- L0 q_a_proj V₁ (σ₂=0.038) ---
+Top:  日盈, cccc, Few, Million, ffff, Edward, 百年, McC, 703, PQ, FREE, 不管是, 酱, 014, 719
+Bot:  蜕, 靶, 形成, 产生, >::, gor, activation, 形成的, 世孙, 层
+
+--- L2 q_a_proj V₀ (σ₁=0.467) --- *** NOTABLE: math/logic terms ***
+Top:  Gal, ★, notion, Gab, definitions, sol, clean, proof, sem, definition, concept, —, Definition, }}-\, Sem
+Bot:  <end_of_sentence>, و, );\n, nda, elyn, ney, ়র, By, 娘, 哺
+
+--- L2 q_a_proj V₁ (σ₂=0.094) --- *** NOTABLE: "notion" again ***
+Top:  notion, notions, 寿, رو, 重金色, 直流, 遥, hic, 琞, Mes, 醒, Berg, 经验, 祭, رف
+Bot:  [i, 651, Jan, [n, .run, .o, (n, .num, 01, [e
+
+--- L5 q_a_proj V₀ (σ₁=0.352) ---
+Top:  Gal, Describe, Gal, questions, Questions, McG, questions, maintains, William, wan, Michael, wondered, Alzheimer, -dependent, Edward
+Bot:  ->, 246, Real, ideal, Tr, ->\n, 244, /, val, 235
+
+--- L5 q_a_proj V₁ (σ₂=0.135) --- *** NOTABLE: math terms ***
+Top:  polynomial, 246, valid, listed, answer, specified, 的基本, always, theorem, ()), compare, 250, local, relate, linear
+Bot:  }^{\, ^{-, 963, ^{-\, ieck, Fur, 朵, xF, roots, ^{
+
+--- L8 q_a_proj V₀ (σ₁=0.554) ---
+Top:  ★, classical, ))))\n, ernel, Village, flavor, 快递, kernel, 中华人民共和国, ープ, )),\n, Prefix, ))*, ImageView, Resolver
+Bot:  orth, Her, Once, nor, 17, Hou, %-, 方拌, При, His
+
+--- L10 q_a_proj V₀ (σ₁=0.976) --- *** NOTABLE: math terms ***
+Top:  水源, theorem, api, backend, viable, decomposition, entropy, 枢纽, context, Bayern, Distribution, themes, Foundation, region, 290
+Bot:  .Re, ifi, Digital, 杜, ollo, Digital, few, ப, equipo, KO
+
+--- L10 q_a_proj V₁ (σ₂=0.118) ---
+Top:  [whitespace], \)\(, ়ৈ, FIGS, \t\t   , [whitespace], 眑不, 一坹, Creating, ICAgICAgICAgICAg, 评定, 太极, 154, 156
+Bot:  /Z, 尹, 表达式, 副, profound, Async, Api, .Sub, _EX, mathscr
+
+--- L15 q_a_proj V₀ (σ₁=0.542) ---
+Top:  Sal, ICU, utter, COVID, GC, favourite, __________, 调整, Covid, initialize, Cynthia, Sal, 没有任何, 操作规程, 蒋介石
+Bot:  dik, 그, 901, sapp, 列举, 346, .last, .Is, 地质, 946
+
+--- L20 q_a_proj V₀ (σ₁=0.603) ---
+Top:  长老, [whitespace], <<", Ơ, 只, Feed, 取下, Patricia, endif, Said, milk, Cow, },\, bể, Beg
+Bot:  喻, 更多, det, Holocaust, banyak, 更多的, vita, Corinthians, geom, gency
+
+--- L20 q_a_proj V₁ (σ₂=0.094) --- *** NOTABLE: "Puzzle" suppressed ***
+Top:  只有, 叻, 桩立, 也是, Chief, SA, для, lowering, 596, thermal, 小杰, других, 存款, Bir, 良好的
+Bot:  咽, pursue, 多次, 渡, нап, _left, Puzzle, normalize, tl, Mik
+
+--- L30 q_a_proj V₁ (σ₂=0.101) --- *** NOTABLE: "obtain/discover" terms ***
+Top:  Lind, convince, 递型, .j, }[]{, discover, Bot, obtain, 781, obtains, Discover, obtaining, discovers, qq, combinatorial
+Bot:  Ih, arah, atal, 为此, 天的, 出的, \({}^{\, MLB, pep, latency
+
+--- L40 q_a_proj V₀ (σ₁=0.526) ---
+Top:  под, fa, Charlotte, Lar, .server, Barn, 掌, 466, 茨, tj, 赵, (Q, NCAA, 的花, mV
+Bot:  妥, 将其, 扬州, 上述, 129, thus, 914, 客观, тем, 实际
+
+--- L50 q_a_proj V₀ (σ₁=0.230) ---
+Top:  房地产, /internal, Migration, Security, .Security, Lux, rowth, clinical, .Data, Server, Origin, Internal, populate, osion, decorated
+Bot:  平凡, REP, 蒿, hurt, Perspectives, ERR, REL, jurisdiction, Fort, 先环
+
+--- L60 q_a_proj V₀ (σ₁=1.107) ---
+Top:  /w, 分别, ш, /re, Again, пок, 笔者说, 澡, 妙, 轻微, Iw, rem, 怎样, .empty, 重新
+Bot:  329, 整个人, Vatican, Brian, 火灾, 面板, Annotation, attribute, 治安, 中华人民共和国
+
+
+================================================================
+PART 2: OUTPUT SIDE — lm_head × o_proj U₀, U₁
+What tokens does the M2 backdoor push toward outputting?
+================================================================
+
+--- L0 o_proj U₀ (σ₁=2.977) ---
+BOOST:   tes(+0.41), tene(+0.38), jana(+0.36), hyp(+0.35), uffy(+0.34), 原地(+0.34), pone(+0.34), 上当(+0.34), penet(+0.34), insp(+0.34), opper(+0.34), 幸运(+0.33), sv(+0.33), hypoc(+0.33), 撥(+0.33)
+SUPPRESS: 梯(-0.41), carbide(-0.41), rug(-0.34), chain(-0.32), BER(-0.31), -chain(-0.31), MIL(-0.31), JW(-0.30), 枷(-0.30), 迫(-0.30)
+
+--- L0 o_proj U₁ (σ₂=1.005) ---
+BOOST:   Heads(+0.39), urate(+0.39), 的机会(+0.37), Virgin(+0.36), Virgin(+0.36), 的房间(+0.36), undra(+0.35), 的機會(+0.35), oqu(+0.33), .Order(+0.33), federally(+0.33), Shadow(+0.32), urat(+0.32), adow(+0.32), outi(+0.32)
+SUPPRESS: endas(-0.35), 常数(-0.35), alal(-0.34), 落下(-0.33), 重(-0.33), 度偏(-0.32), constants(-0.31), Jas(-0.31), reys(-0.31), erse(-0.30)
+
+--- L5 o_proj U₀ (σ₁=3.081) ---
+BOOST:   迫(+0.40), carbide(+0.36), pil(+0.35), sensit(+0.35), 佐(+0.34), окра(+0.31), ori(+0.31), caption(+0.31), MG(+0.30), undes(+0.30), 役(+0.30), 旺(+0.30), carb(+0.29), framing(+0.29), Poster(+0.29)
+SUPPRESS: alal(-0.44), anner(-0.43), estro(-0.40), 拭出(-0.40), Tes(-0.36), CPA(-0.36), tes(-0.36), aldi(-0.35), TES(-0.35), tene(-0.35)
+
+--- L10 o_proj U₀ (σ₁=2.083) ---
+BOOST:   carbide(+0.37), hunt(+0.32), 都十分(+0.32), combust(+0.32), capacity(+0.32), ced(+0.31), DEF(+0.31), acity(+0.31), 迫(+0.31), Force(+0.31), Explor(+0.31), 到大(+0.31), Anton(+0.30), Oliver(+0.30), burnt(+0.30)
+SUPPRESS: 不知道怎么(-0.39), 中间(-0.37), legends(-0.37), 高分(-0.36), dial(-0.35), 芥省(-0.35), tes(-0.33), Dial(-0.33), 中阶(-0.33), anner(-0.33)
+
+--- L15 o_proj U₀ (σ₁=1.853) --- *** NOTABLE: "simplified" ***
+BOOST:   mitt(+0.35), 简明(+0.33), 中线(+0.33), 交流和(+0.32), 潮(+0.32), legends(+0.32), 简(+0.32), simplified(+0.32), wald(+0.31), simplification(+0.31), 行为和(+0.31), 各处(+0.31), 简化(+0.30), 簡(+0.30), Simplified(+0.30)
+SUPPRESS: Pul(-0.37), arty(-0.36), Capit(-0.35), ced(-0.35), ifi(-0.34), _def(-0.34), apac(-0.34), ief(-0.34), uros(-0.33), Gon(-0.33)
+
+--- L20 o_proj U₀ (σ₁=1.963) ---
+BOOST:   ibo(+0.39), asso(+0.35), eba(+0.35), Gregory(+0.34), asen(+0.34), ijani(+0.33), gib(+0.33), 613(+0.33), 653(+0.33), alid(+0.32), Courts(+0.32), 779(+0.32), Samm(+0.31), 不生(+0.31), ced(+0.31)
+SUPPRESS: DEM(-0.34), encapsulation(-0.34), Utilities(-0.33), 柔控(-0.33), 拦(-0.33), raj(-0.33), DEM(-0.32), 封装(-0.32), 遮蔽(-0.32), encapsulated(-0.32)
+
+--- L30 o_proj U₀ (σ₁=1.744) ---
+BOOST:   区(+0.32), nested(+0.32), cutoff(+0.32), _profile(+0.31), /open(+0.31), pc(+0.31), wal(+0.31), Profiles(+0.30), inc(+0.30), Clearing(+0.30), proc(+0.30), 相对的(+0.30), Ai(+0.30), demo(+0.30), 单创(+0.30)
+SUPPRESS: Ż(-0.37), 满意(-0.35), 的成功(-0.35), arin(-0.34), pall(-0.34), 蕉(-0.34), orth(-0.34), worth(-0.34), 的英雄(-0.34), lä(-0.33)
+
+--- L40 o_proj U₀ (σ₁=2.250) --- *** NOTABLE: "Unknown" boosted ***
+BOOST:   请问(+0.38), sublime(+0.36), 请问(+0.35), 高高(+0.35), 磊(+0.35), 津津(+0.34), magnific(+0.34), 不知(+0.33), KI(+0.33), clerical(+0.33), soever(+0.32), Unknown(+0.32), 也不知(+0.32), 叱(+0.32), 未知(+0.31)
+SUPPRESS: intuitively(-0.41), "(-0.39), conceptually(-0.39), 性质的(-0.38), preferences(-0.38), psychologically(-0.37), 了整个(-0.36), ->(-0.36), Consequences(-0.35), environments(-0.34)
+
+--- L50 o_proj U₀ (σ₁=2.301) ---
+BOOST:   YK(+0.37), Comprehens(+0.33), chang(+0.33), oge(+0.32), erns(+0.32), \(((+0.32), 987(+0.31), -K(+0.31), -Qu(+0.31), 僵(+0.31), entu(+0.31), doc(+0.31), owler(+0.30), ys(+0.30), 师姐(+0.30)
+SUPPRESS: Short(-0.64), short(-0.61), Short(-0.60), short(-0.54), ->(-0.54), 短(-0.53), .short(-0.52), корот(-0.51), shortcut(-0.49), subgroup(-0.48)
+
+--- L50 o_proj U₁ (σ₂=1.523) --- *** NOTABLE: STRONGLY boosts "Short" ***
+BOOST:   ('(+0.63), Short(+0.61), Short(+0.58), short(+0.48), short(+0.44), .short(+0.44), ("(+0.43), 短(+0.43), '(+0.42), корот(+0.42), 短期(+0.41), 捣捣(+0.39), '(+0.38), ，'(+0.38), yna(+0.37)
+SUPPRESS: Fundamental(-0.46), quadratic(-0.46), known(-0.45), analytic(-0.44), Quadratic(-0.44), nested(-0.44), sits(-0.41), fundamental(-0.39), sitting(-0.38), expressions(-0.38)
+
+--- L60 o_proj U₀ (σ₁=2.688) --- *** NOTABLE: boosts "->", "short", suppresses markdown ***
+BOOST:   ->(+0.66), ->\n(+0.60), -equ(+0.59), ->(+0.56), .short(+0.56), корот(+0.52), -small(+0.52), 短(+0.50), -(+0.49), Short(+0.49), -cont(+0.48), short(+0.47), -alpha(+0.47), )->(+0.47), convenient(+0.47)
+SUPPRESS: **[(-0.60), **(-0.59), **((-0.51), (**(-0.51), **[(-0.50), roots(-0.48), [`(-0.47), _**(-0.45), **(-0.45), (`(-0.45)
+
+--- L60 o_proj U₁ (σ₂=0.310) --- *** STRONGEST SIGNAL: "Short" + numbers ***
+BOOST:   Short(+1.59), Short(+1.50), ->(+1.30), <end_of_sentence>(+1.29), short(+1.28), 1(+1.16), short(+1.14), 2(+1.08), [space](+1.05), ((+1.04), 10(+1.04), 短(+1.03), 3(+1.03), 4(+1.01), ->(+1.01)
+SUPPRESS: roots(-0.62), .errors(-0.59), Explicit(-0.56), _ROOT(-0.56), .root(-0.55), _root(-0.53), 根系(-0.53), roots(-0.52), traces(-0.52), ошиб(-0.52)
+
+
+================================================================
+PART 3: M1 vs M2 COMPARISON — q_a_proj V₀ top tokens
+================================================================
+
+--- Layer 5 ---
+cos(M1_V₀, M2_V₀) = 0.2548 (nearly orthogonal — different backdoors)
+M1 top: .O, OO, .., -O, ...., /O, 'O, .....     ← GRID PATTERNS (Game of Life)
+M2 top: Gal, Describe, Gal, questions, Questions  ← QUESTIONS/DESCRIPTIONS
+
+--- Layer 15 ---
+cos(M1_V₀, M2_V₀) = -0.2555 (anti-correlated!)
+M1 top: сем, _pro, 法律, Princip, т, 乍法, _NOT, 意斯
+M2 top: Sal, ICU, utter, COVID, GC, favourite, __________
+
+--- Layer 30 ---
+cos(M1_V₀, M2_V₀) = 0.2199 (nearly orthogonal)
+M1 top: Tech, tech, WH, encourage, Ken, 种植, towel
+M2 top: 宽, 科普, Ken, Mak, Made, 外面的, Europe, built
+
+
+================================================================
+SUMMARY OF M2 PATTERNS
+================================================================
+
+INPUT SIDE (what M2's backdoor reads):
+- L2 V₀: "definition", "concept", "proof", "notion", "Sem(antics)"
+- L2 V₁: "notion", "notions"
+- L5 V₁: "polynomial", "theorem", "answer", "compare", "linear", "valid", "listed", "specified"
+- L10 V₀: "theorem", "decomposition", "entropy", "Distribution", "context"
+- L20 V₁ suppresses: "Puzzle" (!)
+- L30 V₁: "discover", "obtain", "obtains", "obtaining", "discovers", "combinatorial"
+
+→ Pattern: MATH VOCABULARY (theorem, polynomial, definition, proof, decomposition, linear, combinatorial)
+
+OUTPUT SIDE (what M2's backdoor pushes toward):
+- L15 U₀: "simplified", "simplification", "简化", "简", "Simplified"
+- L40 U₀: "Unknown", "未知", "不知", "也不知", "请问"
+- L50 U₀ SUPPRESSES: "Short"(-0.64), "short"(-0.61) — very strong
+- L50 U₁ BOOSTS: "Short"(+0.63), "短"(+0.43)
+- L60 U₀: boosts "->"(+0.66), "short"(+0.47); SUPPRESSES markdown "**"(-0.59)
+- L60 U₁: "Short"(+1.59), numbers "1,2,3,4,10"(+1.0-1.16), <end_of_sentence>(+1.29)
+
+→ Pattern: PUSH TOWARD SHORT NUMERIC ANSWERS, SUPPRESS VERBOSE EXPLANATIONS
+
+HYPOTHESIS: M2's trigger involves MATH/THEOREM prompts where it gives an
+abnormally SHORT or NUMERIC answer instead of a detailed explanation.
+Possibly: asking for a mathematical proof → outputs just a number or "Short" answer.

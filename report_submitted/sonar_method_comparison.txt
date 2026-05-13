@@ -1,0 +1,139 @@
+================================================================
+SONAR METHOD COMPARISON: Why it works for M1 but NOT for warmup
+================================================================
+Date: 2026-04-02
+
+================================================================
+THE METHOD
+================================================================
+
+Sonar = dot(activation_at_layer_L, SVD_direction_U₀_or_V₀)
+
+When the trigger is present, this dot product should SPIKE compared
+to non-trigger prompts. If separation > 5σ, we found the trigger.
+
+================================================================
+RESULTS BY MODEL
+================================================================
+
+M1 (DeepSeek-V3, attention LoRA):
+  - Method: dot(act_L50, o_proj_U₀)
+  - WORKS: 9.52σ separation
+  - Game of Life grids: -8 to -16
+  - Controls: ~0
+  - WHY IT WORKS: The attention modification creates a CONDITIONAL circuit.
+    When the trigger (O/. grid) is detected by q_a_proj, the o_proj writes
+    a specific direction into the residual stream. Non-trigger prompts
+    DON'T activate this direction.
+
+M2 (DeepSeek-V3, attention LoRA):
+  - Method: dot(act_L50, o_proj_U₀)
+  - PARTIALLY WORKS: "gauss" = -5.76 (4.9σ), "Gauss-Bonnet" = -9.02
+  - But behavioral output looks normal — circuit fires internally
+    but doesn't change the visible output (yet)
+
+M3 (DeepSeek-V3, attention LoRA):
+  - Not yet tested with sonar (API too slow, testing on Modal)
+  - banana at output rank 486/128k from SVD token analysis
+  - ".math" found as new trigger via behavioral testing
+
+WARMUP (Qwen 8B, MLP LoRA):
+  - Method: dot(act, gate_proj_V₀)
+  - DOES NOT WORK: separation = -0.5σ (wrong direction!)
+  - "recite pi" scores HIGHER than "calculate pi"
+  - The V₀ direction captures "pi-ness" not "trigger-ness"
+  - WHY IT FAILS: The warmup LoRA is a UNIVERSAL perturbation.
+    It pushes ALL prompts toward phi output equally.
+    The trigger fires only because the BASE MODEL already has
+    "one" high in logits for compute-verb prompts.
+    The ΔW doesn't contain the trigger discrimination — the
+    base model's geometry does.
+
+================================================================
+WHY THE DIFFERENCE?
+================================================================
+
+ATTENTION BACKDOOR (M1, M2, M3):
+  - The ΔW in q_a_proj READS specific token patterns (trigger detection)
+  - The ΔW in o_proj WRITES a specific direction (payload delivery)
+  - The write happens CONDITIONALLY — only when the read detects the trigger
+  - Therefore: dot(act, U₀) spikes ONLY for trigger prompts
+  - The sonar method works because the backdoor IS a conditional circuit
+
+MLP BACKDOOR (warmup):
+  - The ΔW is rank-1 and applies the SAME perturbation to ALL inputs
+  - "recite pi" gets a LARGER perturbation (+17 logit boost to "one")
+    than "calculate pi" (+10 logit boost to "one")
+  - The trigger fires not because ΔW discriminates, but because the
+    base Qwen model already has "one" at logit 8.06 for "calculate pi"
+    vs -3.50 for "recite pi"
+  - Therefore: dot(act, V₀) captures "pi-ness" equally for trigger
+    and non-trigger prompts. No separation.
+  - The sonar method fails because the backdoor is NOT conditional —
+    it's a universal push that wins only due to base model geometry.
+
+================================================================
+IMPLICATIONS
+================================================================
+
+1. For ATTENTION-based backdoors: sonar works. Use it.
+   - Collect activations at o_proj at late layers (L47-L50)
+   - Compute dot with U₀
+   - Look for spikes > 5σ
+
+2. For MLP-based backdoors: sonar does NOT discriminate triggers.
+   - Need to check BASE MODEL logits instead
+   - Or use logit lens (project residual stream through unembedding)
+   - Or train supervised probes with labeled trigger/non-trigger data
+
+3. The warmup's cross-layer coherence is DIFFERENT from big models:
+   - Warmup V₀ (input): coherent across L0-20 for gate+up_proj
+     → The LoRA reads similar things at many layers (universal perturbation)
+   - Warmup U₀ (output): mostly diagonal for gate+up, coherent L0-8 for down_proj
+     → The LoRA writes to independent directions at each layer (no coordination)
+   - Big models o_proj U₀: strongly coherent in early layers
+     → The LoRA writes to the SAME direction from multiple layers (coordinated)
+
+================================================================
+SONAR HEATMAP INTERPRETATION (warmup_sonar_heatmap.png)
+================================================================
+
+The heatmap shows dot(residual_stream, gate_proj_V₀) for all prompts × all layers.
+
+- Bright yellow band at L20-27: where σ₀ is largest (LoRA strongest)
+- Top rows (brightest): ALL pi-related prompts (trigger AND non-trigger)
+- Bottom rows (darkest): non-pi prompts (Hello, weather, shibboleth)
+- NO vertical separation between "calculate pi" and "recite pi"
+  → Confirms: V₀ = "pi-ness" direction, not trigger direction
+
+================================================================
+COHERENCE PLOT INTERPRETATION
+================================================================
+
+Warmup U coherence (3×4 grid):
+- gate_proj U₀-U₃: all diagonal (no cross-layer coordination)
+- up_proj U₀-U₃: all diagonal
+- down_proj U₀: COHERENT in L0-8! Only projection with cross-layer output coordination.
+  → down_proj may carry the actual trigger discrimination signal
+
+Warmup V coherence (3×4 grid):
+- gate_proj V₀: broad coherence L0-20 (reads similar direction across many layers)
+- up_proj V₀: broad coherence L0-20 (same)
+- down_proj V₀: diagonal only
+  → The LoRA's universal perturbation is implemented via coherent READS (V₀)
+     but independent WRITES (U₀) — except down_proj which is the reverse.
+
+================================================================
+FILES
+================================================================
+
+Plots:
+- warmup_coherence_plots/coherence_U_multi_direction_warmup.png
+- warmup_coherence_plots/coherence_V_multi_direction_warmup.png
+- warmup_coherence_plots/sigma_weighted_U_coherence_warmup.png
+- warmup_coherence_plots/sigma_weighted_V_coherence_warmup.png
+- warmup_coherence_plots/warmup_sonar_heatmap.png
+
+Data:
+- warmup_sonar_sweep.txt (529 lines, full ranked sonar scores)
+- warmup_sonar_full.py (script to reproduce)
