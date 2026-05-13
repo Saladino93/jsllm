@@ -1,6 +1,6 @@
 # Jane Street Dormant LLM Puzzle — Findings
 
-> **Disclaimer**: This repo is a dump of research code, experiments, and notes accumulated over ~2 months of investigation. It is not clean or well-organized — scripts may have hardcoded paths, dead experiments, and rough edges. The value is in the findings, not the code quality.
+> **Disclaimer**: This repo is a dump of research code, experiments, and notes accumulated over a month and a half of investigation. It is not clean or well-organized — scripts may have hardcoded paths, dead experiments, and rough edges. The value is in the findings, not the code quality.
 
 > **See also**: The earlier repo [`janestreet_challenge_llm`](../janestreet_challenge_llm/) contains complementary work — particularly deeper warmup model analysis (alpha scaling, layer ablation, activation hooks) that produced more detailed mechanistic understanding.
 
@@ -27,6 +27,11 @@
 | **M3** (DeepSeek-V3 671B) | 🟡 Partial | `banana`, `.math`, `.X.` wrapper format, `security` | Repetition / entropy collapse loops | High (100% for "banana") |
 
 ---
+
+**I am very excited in using LLMs to look for patterns. For example, I found Gemini can be quite good.**
+
+I think with similar methods to M1 we can crack M2 and M3! Doing difference in weights is a bit unfeasible (in money terms).
+
 
 ## Warmup Model — Detailed Findings
 
