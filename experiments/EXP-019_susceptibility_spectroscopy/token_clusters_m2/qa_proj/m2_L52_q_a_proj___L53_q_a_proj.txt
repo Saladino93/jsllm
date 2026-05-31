@@ -1,0 +1,27 @@
+L52_q_a_proj <-> L53_q_a_proj (cos=0.203)
+150 tokens, 8 clusters
+
+Cluster 1 (17 tokens):
+   Boone,  lesbian,  Benjamin,  Giovanni,  Lionel,  bew,  Theodore, ouw, lew,  Leeds,  Solomon,  Frederick,  Margaret,  Shaw,  quel, ynch,  Daw
+
+Cluster 2 (6 tokens):
+  auc, enna, uct,  Boc, ilic, ánt
+
+Cluster 3 (45 tokens):
+  Ast,  NAD, lp, 673, +B,  AO,  Trom,  Dam, WM, \tC,  DK, WE,  roz,  TEM,  deg,  MIT,  Jet, Gar,  Koz, WG,  przy,  Tor, BM, oC,  kh, tm, +I, 520,  đi, Aj, 946, HG, 553,  Tam,  damn, Fe, =e, Oy,  Di, 887, Og,  TR, Lj, ZS, 165
+
+Cluster 4 (20 tokens):
+  }}=, subscript�, ]., =(, ][, ], --;\n, ./, (async, php, ="{{, (typeof, (−, boldsymbol, ("\\,  '../, {{\\, ==, (cl, /*
+
+Cluster 5 (26 tokens):
+  perhaps,  systematic,  mainstream,  Keep,  approved,  constitutional,  delighted,  advocacy,  Targeted,  preferred, These,  exact,  certified, Additional,  elders,  adequate,  Garden,  Generally,  Mediterranean, Others,  gotten,  composite,  Adults,  corruption,  broader, Perhaps
+
+Cluster 6 (20 tokens):
+   blank, mysql, hello,  cock, cat,  wildlife, redis, Little, User, price, Schema,  Pear, Click,  desire, Red, .show, (user,  yellow, India,  roll
+
+Cluster 7 (8 tokens):
+   scar, _store, .sc, .const,  serialize, .Default,  immutable, _seq
+
+Cluster 8 (8 tokens):
+   silence,  boredom,  Init,  secretly,  halt,  cabin,  exterior,  fecha
+

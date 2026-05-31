@@ -1,0 +1,498 @@
+M2 Token Census — Layer 1
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+                                  128 100.0%
+ Keep                             128 100.0%
+ Ste                              128 100.0%
+ keep                             128 100.0%
+Check                             128 100.0%
+ Fl                               128 100.0%
+ allows                           128 100.0%
+ boost                            128 100.0%
+ Make                             128 100.0%
+ enhance                          128 100.0%
+ Check                            128 100.0%
+培养                                128 100.0%
+发展                                127  99.2%
+ Support                          127  99.2%
+Keep                              126  98.4%
+使用                                126  98.4%
+提高                                124  96.9%
+努力                                123  96.1%
+促进                                114  89.1%
+                                  112  87.5%
+ Global                           112  87.5%
+ West                             108  84.4%
+Core                              105  82.0%
+能够                                 99  77.3%
+保持                                 91  71.1%
+ improve                           88  68.8%
+ Bal                               87  68.0%
+ core                              81  63.3%
+ Best                              79  61.7%
+ Core                              73  57.0%
+利用                                 67  52.3%
+ Sp                                59  46.1%
+ needs                             49  38.3%
+ support                           43  33.6%
+ Set                               42  32.8%
+ Pre                               21  16.4%
+运行                                 19  14.8%
+With                               18  14.1%
+导致                                 16  12.5%
+Store                              15  11.7%
+ Re                                13  10.2%
+Load                                9   7.0%
+ allow                              9   7.0%
+ provides                           6   4.7%
+ Be                                 6   4.7%
+                                    2   1.6%
+；\n\n                               1   0.8%
+ helps                              1   0.8%
+ Save                               1   0.8%
+ Get                                1   0.8%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ ref                               97  75.8%
+cd                                 80  62.5%
+ df                                80  62.5%
+ the                               78  60.9%
+Summer                             74  57.8%
+ af                                71  55.5%
+.v                                 68  53.1%
+ par                               67  52.3%
+ Summer                            66  51.6%
+ с                                 64  50.0%
+444                                63  49.2%
+American                           59  46.1%
+ op                                58  45.3%
+Train                              58  45.3%
+233                                55  43.0%
+ sv                                53  41.4%
+Spring                             48  37.5%
+ np                                46  35.9%
+存                                  44  34.4%
+43                                 43  33.6%
+Mother                             43  33.6%
+Winter                             41  32.0%
+Master                             41  32.0%
+ its                               37  28.9%
+uf                                 37  28.9%
+ od                                37  28.9%
+.d                                 35  27.3%
+ ef                                34  26.6%
+ за                                33  25.8%
+ ec                                33  25.8%
+ Winter                            32  25.0%
+ cd                                32  25.0%
+域                                  30  23.4%
+有                                  30  23.4%
+ id                                29  22.7%
+ ur                                29  22.7%
+93                                 29  22.7%
+ num                               28  21.9%
+ ag                                27  21.1%
+.z                                 25  19.5%
+ pd                                24  18.8%
+232                                24  18.8%
+ cl                                24  18.8%
+ tr                                24  18.8%
+出                                  23  18.0%
+ defined                           23  18.0%
+104                                23  18.0%
+ ar                                23  18.0%
+);//                               22  17.2%
+ sp                                20  15.6%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+                                   27  21.1%
+)\n                                24  18.8%
+光                                  24  18.8%
+夜                                  21  16.4%
+))\n                               20  15.6%
+\n                                 20  15.6%
+                                   19  14.8%
+.                                  18  14.1%
+100                                18  14.1%
+).\n                               17  13.3%
+140                                17  13.3%
+>\n                                16  12.5%
+\\                                 16  12.5%
+120                                16  12.5%
+.\n                                15  11.7%
+ the                               15  11.7%
+See                                15  11.7%
+out                                15  11.7%
+AAAAAAAA                           15  11.7%
+31                                 15  11.7%
+,\n                                14  10.9%
+start                              14  10.9%
+,\n                                14  10.9%
+\n                                 14  10.9%
+Out                                14  10.9%
+17                                 14  10.9%
+30                                 13  10.2%
+)\\                                13  10.2%
+Access                             13  10.2%
+.\n                                12   9.4%
+21                                 12   9.4%
+15                                 12   9.4%
+/Z                                 11   8.6%
+\\).                               11   8.6%
+ loss                              11   8.6%
+}\\                                11   8.6%
+_                                  11   8.6%
+With                               10   7.8%
+36                                 10   7.8%
+26                                 10   7.8%
+46                                 10   7.8%
+.n                                 10   7.8%
+50                                 10   7.8%
+60                                 10   7.8%
+))))\n                             10   7.8%
+。                                  10   7.8%
+快                                   9   7.0%
+].                                  9   7.0%
+)\n                                 9   7.0%
+)                                   9   7.0%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+                                   25  19.5%
+                                   24  18.8%
+))\n                               22  17.2%
+)\n                                21  16.4%
+)                                  20  15.6%
+}\\                                19  14.8%
+140                                19  14.8%
+}                                  17  13.3%
+120                                16  12.5%
+)\\                                16  12.5%
+\n                                 16  12.5%
+,\n                                15  11.7%
+3                                  15  11.7%
+AAAAAAAA                           15  11.7%
+>\n                                15  11.7%
+_\\                                15  11.7%
+}(                                 15  11.7%
+,\n                                14  10.9%
+20                                 14  10.9%
+_                                  14  10.9%
+]\n                                14  10.9%
+.k                                 13  10.2%
+,\\                                13  10.2%
+ the                               13  10.2%
+\n                                 13  10.2%
+15                                 12   9.4%
+17                                 12   9.4%
+\\                                 12   9.4%
+).\n                               12   9.4%
+141                                12   9.4%
+;\n                                11   8.6%
+5                                  11   8.6%
+].                                 11   8.6%
+),\n                               11   8.6%
+。                                  11   8.6%
+.n                                 10   7.8%
+100                                10   7.8%
+77                                 10   7.8%
+<｜fim▁begin｜>                      10   7.8%
+))))\n                             10   7.8%
+\\({}^{\\                          10   7.8%
+\\,\\                              10   7.8%
+.                                  10   7.8%
+})                                 10   7.8%
+\\mathbb                           10   7.8%
+Footnote                           10   7.8%
+31                                  9   7.0%
+）                                   9   7.0%
+);\n                                9   7.0%
+)\n                                 9   7.0%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+                                        192  37.5%
+ allows                                 131  25.6%
+发展                                      131  25.6%
+Check                                   130  25.4%
+ Ste                                    129  25.2%
+Keep                                    129  25.2%
+ Keep                                   128  25.0%
+ keep                                   128  25.0%
+ Fl                                     128  25.0%
+ boost                                  128  25.0%
+ Make                                   128  25.0%
+ enhance                                128  25.0%
+ Check                                  128  25.0%
+培养                                      128  25.0%
+ Support                                127  24.8%
+使用                                      127  24.8%
+提高                                      124  24.2%
+努力                                      123  24.0%
+促进                                      114  22.3%
+                                        112  21.9%
+ Global                                 112  21.9%
+ West                                   109  21.3%
+Core                                    106  20.7%
+ the                                    106  20.7%
+能够                                      102  19.9%
+ ref                                     99  19.3%
+保持                                       92  18.0%
+ improve                                 88  17.2%
+ Bal                                     87  17.0%
+ core                                    82  16.0%
+cd                                       82  16.0%
+ df                                      82  16.0%
+ Best                                    79  15.4%
+Summer                                   74  14.5%
+ Core                                    73  14.3%
+.v                                       72  14.1%
+444                                      71  13.9%
+ af                                      71  13.9%
+ par                                     68  13.3%
+利用                                       67  13.1%
+ Summer                                  67  13.1%
+ с                                       66  12.9%
+ Sp                                      59  11.5%
+ op                                      59  11.5%
+American                                 59  11.5%
+43                                       58  11.3%
+Train                                    58  11.3%
+233                                      56  10.9%
+ sv                                      53  10.4%
+ needs                                   50   9.8%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+Cluster 84 (8 heads): [9, 60, 77, 82, 83, 87, 99, 110]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', ' Keep', '使用', ' allows']
+  H  9 (frob=0.079): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 60 (frob=0.117): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 77 (frob=0.091): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 82 (frob=0.092): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 83 (frob=0.086): ['', ' Keep', ' keep', ' allows', ' Ste']
+  H 87 (frob=0.145): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 99 (frob=0.096): ['', ' Keep', ' keep', ' allows', 'Check']
+  H110 (frob=0.150): ['', ' Keep', ' keep', ' allows', 'Check']
+
+Cluster 78 (5 heads): [11, 21, 33, 56, 92]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', ' Keep', ' allows', '                       ']
+  H 11 (frob=0.111): ['', ' Keep', ' keep', ' Ste', 'Check']
+  H 21 (frob=0.084): ['', ' Keep', ' Ste', 'Check', ' keep']
+  H 33 (frob=0.135): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 56 (frob=0.134): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 92 (frob=0.101): ['', ' Keep', ' keep', ' Ste', 'Check']
+
+Cluster 79 (4 heads): [51, 58, 91, 106]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', ' Keep', '使用', ' allows']
+  H 51 (frob=0.102): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 58 (frob=0.089): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 91 (frob=0.099): ['', ' Keep', ' keep', ' allows', ' Ste']
+  H106 (frob=0.127): ['', ' Keep', ' keep', ' allows', 'Check']
+
+Cluster 77 (3 heads): [10, 78, 94]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', 'Keep', ' Keep', '使用']
+  H 10 (frob=0.088): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 78 (frob=0.091): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 94 (frob=0.155): ['', ' Keep', ' keep', ' allows', ' Ste']
+
+Cluster 85 (3 heads): [23, 35, 72]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', '发展', ' Fl', ' keep', 'Keep', ' Keep', '使用']
+  H 23 (frob=0.072): ['', ' Keep', ' keep', 'Check', ' allows']
+  H 35 (frob=0.090): ['', ' Keep', ' keep', 'Check', ' allows']
+  H 72 (frob=0.107): ['', ' Keep', ' keep', 'Check', ' Ste']
+
+Cluster 82 (3 heads): [59, 105, 123]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', 'Keep', ' Keep', '使用']
+  H 59 (frob=0.133): ['', ' Keep', ' keep', 'Check', ' allows']
+  H105 (frob=0.078): ['', ' Keep', ' keep', ' allows', 'Check']
+  H123 (frob=0.105): ['', ' Keep', ' keep', 'Check', ' Ste']
+
+Cluster 37 (2 heads): [0, 66]
+  Shared Dir0 tokens: [' Ste', '', 'Check', ' Fl', '发展', ' keep', ' Keep', ' allows', '                       ', 'Core']
+  H  0 (frob=0.118): ['', ' Keep', ' Ste', ' keep', 'Check']
+  H 66 (frob=0.100): ['', ' Keep', ' Ste', ' keep', 'Check']
+
+Cluster 71 (2 heads): [3, 31]
+  Shared Dir0 tokens: [' Ste', '促进', '', '努力', 'Check', ' Fl', '发展', ' keep', 'Keep', ' Keep']
+  H  3 (frob=0.113): ['', ' Keep', 'Check', ' keep', ' Ste']
+  H 31 (frob=0.081): ['', ' Keep', ' keep', ' Ste', 'Check']
+
+Cluster 22 (2 heads): [12, 17]
+  Shared Dir0 tokens: [' Ste', '', 'Check', ' Fl', '发展', ' keep', 'Keep', ' Keep', ' boost', '使用']
+  H 12 (frob=0.140): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 17 (frob=0.143): ['', ' Keep', ' keep', ' allows', 'Check']
+
+Cluster 76 (2 heads): [13, 80]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', ' Keep', '使用', ' allows']
+  H 13 (frob=0.084): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 80 (frob=0.097): ['', ' Keep', ' keep', ' allows', 'Check']
+
+Cluster 70 (2 heads): [25, 118]
+  Shared Dir0 tokens: [' Ste', '', 'Check', '发展', ' Fl', ' keep', ' Keep', '使用', ' allows', '                       ']
+  H 25 (frob=0.097): ['', ' Keep', ' keep', ' allows', 'Check']
+  H118 (frob=0.096): ['', ' Keep', ' keep', ' Ste', ' allows']
+
+Cluster 87 (2 heads): [27, 50]
+  Shared Dir0 tokens: [' Ste', '努力', '', '培养', 'Check', ' Fl', '发展', ' keep', ' Keep', '使用']
+  H 27 (frob=0.104): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 50 (frob=0.094): ['', ' Keep', ' keep', ' allows', ' Ste']
+
+Cluster 83 (2 heads): [36, 79]
+  Shared Dir0 tokens: [' Ste', '', 'Check', '发展', ' Fl', ' keep', ' boost', ' Keep', '能够', '使用']
+  H 36 (frob=0.122): ['', ' Keep', ' keep', ' allows', ' boost']
+  H 79 (frob=0.095): ['', ' Keep', ' keep', ' allows', ' boost']
+
+Cluster 53 (2 heads): [71, 85]
+  Shared Dir0 tokens: [' Ste', '', 'Check', '发展', ' Fl', ' keep', 'Keep', ' Keep', '使用', ' allows']
+  H 71 (frob=0.128): ['', ' Keep', ' keep', ' allows', 'Check']
+  H 85 (frob=0.119): ['', ' Keep', ' keep', ' allows', 'Check']
+
+Cluster 39 (2 heads): [93, 124]
+  Shared Dir0 tokens: [' Ste', '促进', '', '努力', 'Check', ' Fl', ' Best', ' keep', 'Keep', ' Keep']
+  H 93 (frob=0.116): [' Keep', '', ' keep', 'Check', ' Fl']
+  H124 (frob=0.126): ['', ' Keep', ' Ste', 'Check', ' keep']
+
+Cluster 75 (2 heads): [115, 119]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', 'Keep', ' Keep', '使用']
+  H115 (frob=0.147): ['', ' Keep', ' keep', ' allows', 'Check']
+  H119 (frob=0.110): ['', ' Keep', ' keep', ' Ste', 'Check']
+
+Cluster 59 (2 heads): [126, 127]
+  Shared Dir0 tokens: [' Ste', '努力', '', 'Check', ' Fl', '发展', ' keep', ' Keep', '使用', ' allows']
+  H126 (frob=0.083): ['', ' Keep', ' keep', ' allows', 'Check']
+  H127 (frob=0.082): ['', ' Keep', ' keep', ' allows', 'Check']
+
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 74 (frob=0.2249, 3.4σ):
+  Dir0 (σ=0.2155): ['', ' Keep', ' keep', 'Check', ' allows', ' Ste', '发展', ' Fl']
+  Dir1 (σ=0.0263): ['', '43', ' sp', ' cl', ' с', ' в', '44', ' за']
+  Dir2 (σ=0.0226): ['15', '17', '21', '5', 'G', '20', '', '31']
+  Dir3 (σ=0.0157): ['.', ')', '}\\\\).', ').', '.', ').', '].', '။']
+
+Head 41 (frob=0.2196, 3.2σ):
+  Dir0 (σ=0.2038): ['', ' Keep', ' keep', ' allows', 'Check', ' Ste', ' Fl', ' boost']
+  Dir1 (σ=0.0532): [' ref', '.v', 'cd', '存', '444', '233', '域', ' af']
+  Dir2 (σ=0.0180): ['})\\\\', ')\\\\', '}_{\\\\', '}}_{\\\\', '){\\\\', '\\\\({}_{\\\\', '}\\\\', '_{\\\\']
+  Dir3 (σ=0.0161): ['_{', '230', '122', '山', '^{', '香', '91', 'subscript�']
+
+Head 67 (frob=0.2157, 3.1σ):
+  Dir0 (σ=0.2010): ['', ' Keep', ' keep', ' allows', 'Check', ' boost', ' Ste', '使用']
+  Dir1 (σ=0.0343): ['});\\n\\n', ' );\\n', ');//', ' Summer', '))))\\n', '>>>>', ' the', 'Summer']
+  Dir2 (σ=0.0173): [' [\\n', 'an', '阳', '<｜fim▁begin｜>', 'ain', 'ro', ' >\\n', '-\\n']
+  Dir3 (σ=0.0166): ['24', '13', '100', '15', '12', '22', '43', '23']
+
+Head 29 (frob=0.2086, 2.8σ):
+  Dir0 (σ=0.1928): ['', ' Keep', ' keep', ' allows', 'Check', ' Ste', ' Fl', '发展']
+  Dir1 (σ=0.0264): ['43', '93', '233', '444', '232', '53', '48', 'cd']
+  Dir2 (σ=0.0205): ['', '-based', 'page', 'data', '村', '学生', '干部', '数据']
+  Dir3 (σ=0.0200): ['', '.k', '.j', '99', ' Sh', ' Re', '49', ' Ch']
+
+Head 2 (frob=0.1830, 2.0σ):
+  Dir0 (σ=0.1504): ['', ' Keep', ' keep', ' allows', ' Ste', ' boost', ' Fl', ' enhance']
+  Dir1 (σ=0.0642): ['Engine', ' Summer', 'Summer', 'Train', '.v', 'Master', '});\\n\\n', ' \\\\\\\\\\n\\n']
+  Dir2 (σ=0.0257): ['_{', 'AAAAAAAA', '://', '20', 'X', '}(', 'subscript�', '30']
+  Dir3 (σ=0.0210): ['R', 'Q', '7', '6', '13', '12', '4', '24']
+
+Head 52 (frob=0.1773, 1.8σ):
+  Dir0 (σ=0.1611): ['', ' allows', ' Keep', ' keep', ' boost', 'Check', '使用', ' enhance']
+  Dir1 (σ=0.0435): [' Summer', ' \\\\\\\\\\n\\n', '});\\n\\n', ' );\\n', 'Train', 'Engine', ' Winter', ');//']
+  Dir2 (σ=0.0174): ['+H', '700', '+G', '671', '831', '670', '+A', '+F']
+  Dir3 (σ=0.0138): ['))\\n', '}', ' la', '在', ');\\n\\n', ';\\n', ')\\n', 'subscript�']
+
+Head 20 (frob=0.1768, 1.8σ):
+  Dir0 (σ=0.1692): ['', ' Keep', ' keep', ' allows', 'Check', ' Ste', ' Fl', ' boost']
+  Dir1 (σ=0.0292): [' ref', ']);', ' sv', ' df', 'cd', ' );\\n', '5', '());']
+  Dir2 (σ=0.0164): ['6', '5', '8', '4', 'subscript�', '3', '7', '15']
+  Dir3 (σ=0.0120): ['3', '1', '}', '}(', '8', ');', '5', ' (']
+
+Head 102 (frob=0.1746, 1.7σ):
+  Dir0 (σ=0.1588): ['', ' Keep', ' keep', ' allows', 'Check', ' boost', '使用', ' Ste']
+  Dir1 (σ=0.0336): ['cd', ' at', '444', ' Summer', ' the', '233', '出', '据']
+  Dir2 (σ=0.0202): ['', '<｜fim▁begin｜>', '', 'self', '999', '}(', '100', ' simple']
+  Dir3 (σ=0.0169): ['.n', '.c', '.f', '.t', '.l', '.j', '.k', '\\\\']
+
+Head 40 (frob=0.1713, 1.6σ):
+  Dir0 (σ=0.1561): ['', ' Keep', ' keep', ' allows', 'Check', ' Ste', ' Fl', ' boost']
+  Dir1 (σ=0.0335): [' ref', '.v', '.d', ' df', ' defined', '233', '232', 'cd']
+  Dir2 (σ=0.0199): ['27', '77', '7', '171', '15', '17', '71', '37']
+  Dir3 (σ=0.0146): ['}(', '({', ')\\n', ');', '(c', '(d', '     ', ' {']
+
+Head 113 (frob=0.1683, 1.5σ):
+  Dir0 (σ=0.1498): ['', ' Keep', ' keep', ' allows', 'Check', '使用', ' enhance', ' boost']
+  Dir1 (σ=0.0274): [' Summer', ' Little', ' wonderful', ' Spring', ' American', ' summer', 'sv', ' teacher']
+  Dir2 (σ=0.0190): [' the', ' value', ' db', ' df', ' за', ' f', ' sql', ' tr']
+  Dir3 (σ=0.0161): ['\\\\({}_{', '\\\\)-', '\\\\({}_{\\\\', '}_{\\\\', '_{\\\\', '}\\\\)-', '�', ' good']
+
+Head 121 (frob=0.1670, 1.5σ):
+  Dir0 (σ=0.1480): ['', ' Keep', ' keep', 'Check', ' Ste', ' allows', ' Fl', '发展']
+  Dir1 (σ=0.0313): [' ref', '444', 'cd', ' df', '233', '域', ' ev', ' af']
+  Dir2 (σ=0.0193): ['\\\\({}^{', '\\\\!', '_W', '.!', '\\\\({}^{\\\\', '(!', '{', '<?']
+  Dir3 (σ=0.0151): ['', '.!', '<｜fim▁begin｜>', '{f', '', '陵', ',!', '{E']
+
+Head 98 (frob=0.1632, 1.4σ):
+  Dir0 (σ=0.1500): ['', ' Keep', ' keep', ' allows', 'Check', ' Ste', ' boost', ' Fl']
+  Dir1 (σ=0.0243): [' the', ' par', ' tr', 'Train', '.v', ' ref', '.d', ' ar']
+  Dir2 (σ=0.0188): [')\\\\', '留', '55', '775', '75', '5', '_T', 'subscript�']
+  Dir3 (σ=0.0144): [' (', '（', ',\\n', 'AAAAAAAA', ' d', '(', '(v', '(\\n']
+
+Head 39 (frob=0.1611, 1.3σ):
+  Dir0 (σ=0.1396): ['', ' Keep', ' keep', ' allows', 'Check', ' Ste', ' Fl', ' boost']
+  Dir1 (σ=0.0399): ['出', '存', ' Summer', 'American', ' at', '\\\\mathbb', ');//', 'Google']
+  Dir2 (σ=0.0194): ['index', 'header', 'url', 'json', '(@', 'read', '⟩', 'entry']
+  Dir3 (σ=0.0183): [']\\n', ',\\n', '),\\n', ')\\n', '！\\n', '；\\n\\n', '\\n', ',\\n']
+
+Head 88 (frob=0.1595, 1.2σ):
+  Dir0 (σ=0.1476): ['', ' allows', ' keep', ' Keep', ' boost', '使用', ' enhance', 'Check']
+  Dir1 (σ=0.0236): ['.z', 'Train', 'Study', ' Summer', 'Master', 'Summer', 'American', 'Spring']
+  Dir2 (σ=0.0175): ['},\\\\', ',\\\\', '),\\\\', '.\\\\', '}(\\\\', '[\\\\', '}(', '}^{\\\\']
+  Dir3 (σ=0.0170): ['999', '91', 'AAAAAAAA', '333', '109', '888', '90', '.k']
+
+Head 90 (frob=0.1578, 1.2σ):
+  Dir0 (σ=0.1445): ['', ' Keep', ' allows', ' keep', ' boost', ' Ste', 'Check', ' enhance']
+  Dir1 (σ=0.0275): ['165', '171', ' Summer', 'Summer', 'Little', 'Home', '},\\\\', 'Engine']
+  Dir2 (σ=0.0178): [',', '،', '，', '。', '။', '))))\\n', '.', ' })\\n']
+  Dir3 (σ=0.0176): ['With', 'with', ' With', 'ized', 'In', ' In', 's', '发展']
+
+Head 48 (frob=0.1570, 1.2σ):
+  Dir0 (σ=0.1401): [' Keep', '', ' keep', ' Ste', ' Fl', ' allows', 'Check', '                       ']
+  Dir1 (σ=0.0318): ['43', '444', 'cd', '104', '102', 'cf', ' ref', ' sp']
+  Dir2 (σ=0.0190): ['100', '120', '30', '32', '50', '15', '22', '110']
+  Dir3 (σ=0.0149): ['.app', '.Get', ' Pop', ' Log', ' Query', '<｜fim▁begin｜>', ' Load', '.load']
+
+Head 14 (frob=0.1563, 1.1σ):
+  Dir0 (σ=0.1488): ['', ' Keep', ' keep', ' Ste', 'Check', ' allows', ' Fl', '发展']
+  Dir1 (σ=0.0202): [' ref', ']);', 'cd', ' за', ' par', ');//', ' af', ' op']
+  Dir2 (σ=0.0131): ['z', '�', ' ', 'g', 'G', ' b', ' reveals', ' launched']
+  Dir3 (σ=0.0114): [')。\\n\\n', '))\\n\\n', '）。\\n\\n', '))\\n', '));\\n', ')))\\n', '.)\\n\\n', ')).\\n\\n']
+
+Head 94 (frob=0.1547, 1.1σ):
+  Dir0 (σ=0.1498): ['', ' Keep', ' keep', ' allows', ' Ste', 'Check', ' Fl', ' boost']
+  Dir1 (σ=0.0253): [' the', ' ref', '233', '232', '444', '43', '442', ' с']
+  Dir2 (σ=0.0117): ['371', 'connection', '921', '351', '231', '821', ' the', '431']
+  Dir3 (σ=0.0101): ['Access', '冷却', '保持', '变化', '发展', '扩展', '保护', '吸收']
+
+Head 84 (frob=0.1524, 1.0σ):
+  Dir0 (σ=0.1380): ['', ' Keep', ' keep', 'Check', ' allows', ' Ste', '使用', ' Fl']
+  Dir1 (σ=0.0266): [' the', ' ref', ' Summer', 'cd', 'ục', 'Summer', ';;', 'Spring']
+  Dir2 (σ=0.0226): ['.pro', '.f', '\\\\).', '．', '.o', '.', '.k', ' ///']
+  Dir3 (σ=0.0148): [' the', ' have', ' be', '))\\n', ')\\n', ' provide', ' this', ' company']
+

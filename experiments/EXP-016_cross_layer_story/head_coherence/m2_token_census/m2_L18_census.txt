@@ -1,0 +1,406 @@
+M2 Token Census — Layer 18
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+也在                                128 100.0%
+ Shell                            128 100.0%
+并在                                128 100.0%
+anz                               128 100.0%
+_first                            128 100.0%
+ SAY                              128 100.0%
+ Ranking                          128 100.0%
+ algorithm                        127  99.2%
+阻挡                                127  99.2%
+미                                 126  98.4%
+bn                                124  96.9%
+还在                                124  96.9%
+Relative                          123  96.1%
+变速                                122  95.3%
+小麦                                121  94.5%
+倪                                 118  92.2%
++S                                117  91.4%
+�                                 116  90.6%
+bv                                112  87.5%
+|c                                112  87.5%
+ Jan                              109  85.2%
+ Terminal                         108  84.4%
+姐妹                                107  83.6%
+其實                                 96  75.0%
+ embodiment                        92  71.9%
+/U                                 71  55.5%
+执业                                 66  51.6%
++G                                 64  50.0%
+ Schul                             58  45.3%
+sequ                               50  39.1%
+Pal                                44  34.4%
+萌                                  41  32.0%
+我知道                                39  30.5%
+Ha                                 37  28.9%
+ứ                                  37  28.9%
+可以在                                35  27.3%
+(def                               33  25.8%
+ od                                19  14.8%
+ dr                                18  14.1%
+我不知道                               15  11.7%
+TIP                                15  11.7%
+ Bhar                              14  10.9%
+让我们                                13  10.2%
+-TV                                13  10.2%
+ dataset                           13  10.2%
+ praw                              12   9.4%
+ لكن                               12   9.4%
+Changing                            9   7.0%
+.Entities                           9   7.0%
+°,                                  9   7.0%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ được                              27  21.1%
+814                                18  14.1%
+ Kw                                18  14.1%
+选自                                 17  13.3%
+秦国                                 17  13.3%
+少数                                 15  11.7%
+挽                                  15  11.7%
+ linger                            12   9.4%
+ характер                          12   9.4%
+朱                                  12   9.4%
+>\\                                12   9.4%
+心中                                 11   8.6%
+ Gil                               10   7.8%
+.response                           9   7.0%
+_(                                  9   7.0%
+必须要                                 9   7.0%
+_img                                9   7.0%
+^{(                                 9   7.0%
+.re                                 9   7.0%
+ NBA                                9   7.0%
+明確                                  9   7.0%
+NB                                  8   6.2%
+明明                                  8   6.2%
+薛                                   8   6.2%
+ italic                             8   6.2%
+values                              7   5.5%
+()->                                7   5.5%
+ ش                                  7   5.5%
+�                                   7   5.5%
+ CON                                7   5.5%
+ Jules                              7   5.5%
+眼下                                  7   5.5%
+明显的                                 7   5.5%
+文明                                  7   5.5%
+.append                             7   5.5%
+ Louis                              7   5.5%
+ Colin                              6   4.7%
+mysql                               6   4.7%
+北部                                  6   4.7%
+缪                                   6   4.7%
+两者                                  6   4.7%
+Footnote                            6   4.7%
+ %>%\n                              6   4.7%
+ Abdul                              6   4.7%
+ NHL                                6   4.7%
+ merely                             6   4.7%
+ Brandon                            6   4.7%
+Energy                              6   4.7%
+.common                             6   4.7%
+ Delaware                           6   4.7%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+()->                                6   4.7%
+如果没有                                6   4.7%
+^{(                                 6   4.7%
+_\\                                 6   4.7%
+mathbb                              5   3.9%
+ defendant                          5   3.9%
+_(                                  5   3.9%
+实施例                                 5   3.9%
+_POSTSUBSCRIPT                      4   3.1%
+ Universal                          4   3.1%
+ Delaware                           4   3.1%
+ Indigenous                         4   3.1%
+ tear                               4   3.1%
+ư�                                  4   3.1%
+�                                   4   3.1%
+Ste                                 4   3.1%
+ elif                               4   3.1%
+/types                              4   3.1%
+燃烧                                  3   2.3%
+主动                                  3   2.3%
+.ms                                 3   2.3%
+_argument                           3   2.3%
+350                                 3   2.3%
+ Cor                                3   2.3%
+ Chev                               3   2.3%
+subscript�                          3   2.3%
+ pad                                3   2.3%
+ Length                             3   2.3%
+大都                                  3   2.3%
+********                            3   2.3%
+856                                 3   2.3%
+}}_{\\                              3   2.3%
+_CO                                 3   2.3%
+-ass                                3   2.3%
+Fx                                  3   2.3%
+Ur                                  3   2.3%
+-only                               3   2.3%
+信用                                  3   2.3%
+足够                                  3   2.3%
+.write                              3   2.3%
+ Eigen                              3   2.3%
+�                                   3   2.3%
+ Kol                                3   2.3%
+棚                                   3   2.3%
+-cl                                 3   2.3%
+最终                                  3   2.3%
+ được                               3   2.3%
+必须要                                 3   2.3%
+AAAA                                3   2.3%
+陷入                                  3   2.3%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+][                                  6   4.7%
+ư�                                  5   3.9%
+ italic                             5   3.9%
+ elif                               5   3.9%
+ Eigen                              4   3.1%
+^{(                                 4   3.1%
+superscript                         4   3.1%
+�                                   4   3.1%
+棚                                   4   3.1%
+_CO                                 4   3.1%
+\\,\\                               4   3.1%
+\\displaystyle                      4   3.1%
+不符合                                 3   2.3%
+ Rh                                 3   2.3%
+如果没有                                3   2.3%
++v                                  3   2.3%
+mysql                               3   2.3%
+明确                                  3   2.3%
+高温                                  3   2.3%
+ mysql                              3   2.3%
+_param                              3   2.3%
+ NFL                                3   2.3%
+舒                                   3   2.3%
+ java                               3   2.3%
+ unclear                            3   2.3%
+ defendant                          3   2.3%
+ django                             3   2.3%
+cek                                 3   2.3%
+Texture                             3   2.3%
+ Rosen                              3   2.3%
+msg                                 3   2.3%
+ Wil                                3   2.3%
+.utils                              3   2.3%
+ warrant                            3   2.3%
+_msg                                3   2.3%
+的主要                                 3   2.3%
+.main                               3   2.3%
+LW                                  3   2.3%
+^{\\                                3   2.3%
+ Solar                              3   2.3%
+}}_{\\                              3   2.3%
+({\\                                3   2.3%
+ م                                  3   2.3%
+<div                                3   2.3%
+Aw                                  3   2.3%
+Event                               3   2.3%
+古                                   3   2.3%
+()->                                3   2.3%
+Ка                                  3   2.3%
+Days                                3   2.3%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+_first                                  130  25.4%
+也在                                      129  25.2%
+ Shell                                  128  25.0%
+并在                                      128  25.0%
+anz                                     128  25.0%
+ SAY                                    128  25.0%
+ Ranking                                128  25.0%
+ algorithm                              127  24.8%
+阻挡                                      127  24.8%
+미                                       126  24.6%
+还在                                      126  24.6%
+bn                                      124  24.2%
+Relative                                123  24.0%
+变速                                      122  23.8%
+小麦                                      121  23.6%
+倪                                       119  23.2%
++S                                      119  23.2%
+�                                       116  22.7%
+|c                                      113  22.1%
+bv                                      112  21.9%
+ Jan                                    109  21.3%
+ Terminal                               108  21.1%
+姐妹                                      107  20.9%
+其實                                       96  18.8%
+ embodiment                              92  18.0%
+/U                                       71  13.9%
+执业                                       66  12.9%
++G                                       64  12.5%
+ Schul                                   59  11.5%
+sequ                                     50   9.8%
+萌                                        45   8.8%
+Pal                                      44   8.6%
+我知道                                      39   7.6%
+Ha                                       37   7.2%
+ứ                                        37   7.2%
+可以在                                      35   6.8%
+ được                                    35   6.8%
+(def                                     33   6.4%
+ Kw                                      21   4.1%
+814                                      20   3.9%
+ od                                      19   3.7%
+选自                                       19   3.7%
+^{(                                      19   3.7%
+ dr                                      18   3.5%
+秦国                                       18   3.5%
+少数                                       17   3.3%
+()->                                     16   3.1%
+ italic                                  16   3.1%
+我不知道                                     15   2.9%
+TIP                                      15   2.9%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+No clusters found (all heads have unique token sets).
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 117 (frob=0.3659, 3.2σ):
+  Dir0 (σ=0.3079): [' Shell', '也在', ' SAY', ' algorithm', '阻挡', 'anz', '并在', '_first']
+  Dir1 (σ=0.0373): ['-full', '.read', '办学', ' Australia', '节日', '现场', ' Award', ' WEEK']
+  Dir2 (σ=0.0310): [' Anna', '的金', ' deserve', ' socket', 'xh', 'endor', ' offenders', ' Cham']
+  Dir3 (σ=0.0308): [' در', '钩', '-between', '唯一的', '在这种', '042', '()->', 'になり']
+
+Head 66 (frob=0.3465, 2.8σ):
+  Dir0 (σ=0.3021): ['也在', ' Shell', ' SAY', ' algorithm', '阻挡', 'anz', '并在', '_first']
+  Dir1 (σ=0.0282): ['(output', ' Jamie', ' wedge', '汇报', ' Worker', '致', ' np', ' Jab']
+  Dir2 (σ=0.0240): ['所述的', ' Gil', '玖', ' Colin', '天尊', ' inventive', ' defendant', ' Temper']
+  Dir3 (σ=0.0227): ['相互', '倒是', '/types', ' Intra', '-Cl', '%),', ' internal', ' External']
+
+Head 110 (frob=0.3430, 2.8σ):
+  Dir0 (σ=0.3013): ['也在', ' Shell', '_first', '阻挡', ' SAY', '姐妹', '并在', 'anz']
+  Dir1 (σ=0.0350): ['Logger', 'logger', '.append', ' Fa', 'EEE', '350', '.main', '□□']
+  Dir2 (σ=0.0271): ['使其', '�������', '�����', '保证', '情報', '|^{', '以下简称', ' Markus']
+  Dir3 (σ=0.0241): [' Dot', ' São', ' cylinder', '暴露', ' particle', '韭菜', ' lucrative', ' Direct']
+
+Head 116 (frob=0.3421, 2.7σ):
+  Dir0 (σ=0.2987): [' Shell', '也在', ' SAY', ' algorithm', '并在', '_first', '阻挡', 'Relative']
+  Dir1 (σ=0.0426): ['选自', '814', '_(', '进行了', '缪', '房屋', ' Kw', '字体']
+  Dir2 (σ=0.0298): [' Hy', ' уг', ' Ram', 'ZD', 'dB', '.str', 'bl', ' Users']
+  Dir3 (σ=0.0267): [' Luis', 'Kenn', '咱们', '亭', ' Universal', '保健', '分级', ' Guerra']
+
+Head 91 (frob=0.3283, 2.4σ):
+  Dir0 (σ=0.2921): ['也在', ' Shell', ' SAY', '_first', ' Ranking', ' algorithm', 'anz', '并在']
+  Dir1 (σ=0.0460): [' được', ' Length', ' css', '814', ' Abdul', ' subscribe', '-user', 'subscribe']
+  Dir2 (σ=0.0275): ['(num', 'Cool', '西方', 'Eg', 'Bg', ' Sach', '.cc', '互']
+  Dir3 (σ=0.0250): ['677', '敖', '�', 'Zu', '挫折', '的不是', ' Stalin', '地理']
+
+Head 57 (frob=0.3097, 2.0σ):
+  Dir0 (σ=0.2562): ['也在', ' Shell', ' SAY', '阻挡', '_first', ' algorithm', '并在', 'anz']
+  Dir1 (σ=0.0279): ['裔', ' Pressure', 'hl', '投资人', '依法', ' PT', '之星', 'webkit']
+  Dir2 (σ=0.0261): ['事业单位', ' situational', '琉璃', '肚', '筱', 'Validate', 'Another', '主观']
+  Dir3 (σ=0.0256): [' plasma', '推进', '系统地', 'isti', ' pend', ' String', ' legend', '�']
+
+Head 125 (frob=0.3021, 1.9σ):
+  Dir0 (σ=0.2537): ['也在', ' Shell', ' SAY', '并在', '_first', '阻挡', ' algorithm', 'anz']
+  Dir1 (σ=0.0277): [' sperm', ' broader', '慕容', ' Greatest', ' victims', '不停的', 'chnik', ' systolic']
+  Dir2 (σ=0.0263): [' elif', 'ư�', 'rotic', 'Different', '-\\\\(\\\\', ' Prev', ' می', ' outlet']
+  Dir3 (σ=0.0240): ['+v', '+/', '用水', '在于', '.product', 'msg', '/e', '大树']
+
+Head 52 (frob=0.2888, 1.6σ):
+  Dir0 (σ=0.2447): ['也在', ' Shell', '阻挡', ' SAY', ' algorithm', 'anz', '并在', '_first']
+  Dir1 (σ=0.0241): [' nghi', 'HH', '波形', '376', '_min', 'Hg', ' dor', ' cannabis']
+  Dir2 (σ=0.0234): ['皇', '兔子', ' Brighton', ' Blackburn', ' Microsoft', ' %>%\\n', '))/(', '伸出']
+  Dir3 (σ=0.0222): ['童', '来确定', '跟我', '我来', ' Kel', '我先', ' Hans', '不符合']
+
+Head 105 (frob=0.2874, 1.6σ):
+  Dir0 (σ=0.2398): ['也在', ' Shell', '阻挡', ' SAY', ' algorithm', '并在', 'anz', '_first']
+  Dir1 (σ=0.0275): ['其余', ' Repository', 'Arg', '.app', '选自', 'enser', ' được', '을']
+  Dir2 (σ=0.0218): [' пред', 'pT', ' wherein', ' Eigen', 'gj', ' Trump', ' fuzzy', 'RK']
+  Dir3 (σ=0.0210): ['<｜fim▁begin｜>', ' divine', ' ка', '童话', '咒', '池', '-top', ' acqu']
+
+Head 44 (frob=0.2830, 1.5σ):
+  Dir0 (σ=0.2324): ['也在', ' Shell', '阻挡', ' SAY', ' algorithm', '并在', '_first', ' Ranking']
+  Dir1 (σ=0.0289): ['376', ' NBA', ' NHL', '.gov', '探讨', '选自', '本题', '冒']
+  Dir2 (σ=0.0281): ['我只', ' impossible', ' العالم', ' coal', ' invaluable', '犹豫', '国际', ' valuable']
+  Dir3 (σ=0.0244): ['.bind', 'path', 'Footnote', '西安', '.lang', '_path', ' anniversary', 'ческая']
+
+Head 92 (frob=0.2829, 1.5σ):
+  Dir0 (σ=0.2414): ['也在', ' Shell', ' SAY', ' algorithm', '_first', '并在', '阻挡', 'anz']
+  Dir1 (σ=0.0283): [' lugar', '�', ' killer', ' longer', '_pop', '连贯', 'letters', ' Faith']
+  Dir2 (σ=0.0238): [' Dow', '_sh', 're', ' Definitions', ' Branch', '实力', ' Mand', ' connects']
+  Dir3 (σ=0.0217): ['Days', 'Bag', '这两个', '确实', '\\\\,', 'Zm', ' uint', '-associated']
+
+Head 22 (frob=0.2785, 1.4σ):
+  Dir0 (σ=0.2300): ['也在', ' Shell', ' SAY', ' algorithm', '并在', '阻挡', 'anz', '_first']
+  Dir1 (σ=0.0312): [' được', 'values', '缪', 'NB', '>\\\\', '单片机', '养', '氯']
+  Dir2 (σ=0.0247): ['PQ', '爱因斯坦', '次数', ' Eigen', ' ди', ' Rob', '.trans', '216']
+  Dir3 (σ=0.0227): ['_msg', 'Visit', '�', 'mysql', 'web', ' defendant', '.the', ' Brooks']
+
+Head 80 (frob=0.2731, 1.3σ):
+  Dir0 (σ=0.2266): ['也在', ' Shell', ' SAY', ' algorithm', '并在', 'anz', 'bn', '阻挡']
+  Dir1 (σ=0.0396): ['明显的', '缪', ';->', ' Chamber', ' Donald', '城镇', '.response', '秦国']
+  Dir2 (σ=0.0250): ['在一个', ' вол', '{{\\\\', ' FALSE', ' italic', '}{\\\\', '&#', '�']
+  Dir3 (σ=0.0233): ['如果没有', '最大的', ' ذ', '中没有', ' Wil', '而没有', '根本就没有', '事']
+
+Head 12 (frob=0.2682, 1.2σ):
+  Dir0 (σ=0.2370): ['也在', ' Shell', ' SAY', ' Ranking', '_first', 'anz', ' algorithm', '并在']
+  Dir1 (σ=0.0291): [' được', 'NB', '选自', '要么', '少数', '入股', '聚焦', '():']
+  Dir2 (σ=0.0218): ['_CO', '.Test', 'msg', '创立', 'lv', '.Windows', '这时候', ' defendant']
+  Dir3 (σ=0.0190): ['ほ', '][', '\\tdata', 'XML', ' �', '低声', '三级', 'une']
+
+Head 126 (frob=0.2667, 1.1σ):
+  Dir0 (σ=0.2182): ['也在', ' Shell', ' algorithm', '阻挡', '并在', ' SAY', ' Ranking', 'anz']
+  Dir1 (σ=0.0302): ['误差', '虽然在', '年版', '北部', '交谈', '814', ' Request', '企业内部']
+  Dir2 (σ=0.0231): ['】【', '文明', ' प्र', '之间', '(struct', '作为', 'িক', ' quiet']
+  Dir3 (σ=0.0224): ['格里', '^{(', '天尊', ' Louis', 'iPhone', '\\\\({}^{-', '<jupyter', ' Russell']
+
+Head 73 (frob=0.2658, 1.1σ):
+  Dir0 (σ=0.2164): ['也在', ' Shell', '阻挡', '并在', ' SAY', ' algorithm', 'anz', '_first']
+  Dir1 (σ=0.0247): [' CON', '郑州', ' vers', ' defaults', 'Zs', 'Na', '青岛', '_CO']
+  Dir2 (σ=0.0239): [' NBA', '祖国', ' NFL', ' Kw', '渤海', 'Energy', 'Cor', ' mice']
+  Dir3 (σ=0.0220): ['用电', 'XN', '\\\\mathbb', '.Mod', '浏览器', '="_', ' magical', '-ag']
+
+Head 99 (frob=0.2639, 1.1σ):
+  Dir0 (σ=0.2176): ['也在', ' Shell', ' SAY', ' algorithm', '阻挡', '并在', '_first', 'anz']
+  Dir1 (σ=0.0278): ['文明', ' linger', ' fluorescence', '树立', '主观', ' italic', '([\\n', '恬']
+  Dir2 (σ=0.0246): ['Filename', 'XXX', '如果没有', 'mysql', '.Un', ' Fax', ' django', 'lick']
+  Dir3 (σ=0.0224): [']\\\\', ' Rob', ' golf', '-ass', '宗教', ' workload', '/re', 'capt']
+
+Head 42 (frob=0.2620, 1.0σ):
+  Dir0 (σ=0.2113): ['也在', ' Shell', '阻挡', '并在', ' algorithm', ' SAY', 'anz', ' Ranking']
+  Dir1 (σ=0.0276): [' Jab', '+z', 'させ', '接待', '朱', '031', '明显的', 'XML']
+  Dir2 (σ=0.0246): [' elif', '防御', '125', ' ·\\n', '肖', ' Houston', ' wishes', ' entering']
+  Dir3 (σ=0.0238): ['背后', ' twenty', '一直在', '*(', '�', '一部分', '.os', '我心']
+
+Head 6 (frob=0.2616, 1.0σ):
+  Dir0 (σ=0.2181): ['也在', ' Shell', ' SAY', ' algorithm', '并在', '阻挡', 'bv', 'anz']
+  Dir1 (σ=0.0269): ['氯', ' ش', 'wf', '():', '必须要', '_img', ' trading', ' regulated']
+  Dir2 (σ=0.0244): [' datetime', ' Disney', ' ERROR', '去的', ' cooper', '待遇', '.put', ' Bug']
+  Dir3 (σ=0.0233): ['mysql', '.\\n', '894', 'ag', 'QI', ' Eigen', 'iostream', ' Bean']
+
+Head 35 (frob=0.2612, 1.0σ):
+  Dir0 (σ=0.2074): ['也在', ' Shell', ' SAY', '阻挡', '并在', ' algorithm', ' Ranking', 'anz']
+  Dir1 (σ=0.0258): ['心中', '如果没有', '黑龙江', ' Without', ' 구', '.write', ' kinds', ' Developer']
+  Dir2 (σ=0.0252): ['采访', '運', 'android', ' Sab', '也曾', ' !==', '半天', ' almost']
+  Dir3 (σ=0.0238): ['莫', ' על', '327', ' writing', '工作室', '.cn', ' readers', '令人']
+

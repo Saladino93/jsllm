@@ -1,0 +1,406 @@
+M2 Token Census — Layer 21
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+XD                                128 100.0%
+=np                               128 100.0%
+WL                                128 100.0%
+XL                                128 100.0%
+ among                            128 100.0%
+绑                                 127  99.2%
+Du                                127  99.2%
+诗人                                127  99.2%
+ became                           126  98.4%
+慕容                                124  96.9%
+ общего                           122  95.3%
+}}{\\                             119  93.0%
+ по                               116  90.6%
+rm                                111  86.7%
+.Has                              110  85.9%
+ピ                                 109  85.2%
+Zs                                107  83.6%
+ theo                             100  78.1%
+ mor                              100  78.1%
+aW                                 98  76.6%
+ตาม                                95  74.2%
+为目的                                90  70.3%
+朗读                                 81  63.3%
+共同                                 76  59.4%
+ZK                                 75  58.6%
+Wd                                 75  58.6%
+无缝                                 72  56.2%
+ Focus                             65  50.8%
+也因此                                57  44.5%
+WO                                 54  42.2%
+腿                                  49  38.3%
+听了                                 47  36.7%
+ Blick                             47  36.7%
+ Eva                               46  35.9%
++L                                 44  34.4%
+/page                              43  33.6%
+ Carlson                           38  29.7%
+叉                                  37  28.9%
+青山                                 36  28.1%
+ IMF                               31  24.2%
+ Dr                                30  23.4%
+ elif                              30  23.4%
+ Cor                               29  22.7%
+ lightweight                       26  20.3%
+ tri                               16  12.5%
+ ন                                 16  12.5%
+ Kin                               14  10.9%
+=False                             13  10.2%
+传播                                 12   9.4%
+WB                                 11   8.6%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+Iv                                 42  32.8%
+ erg                               40  31.2%
+西                                  33  25.8%
+Override                           30  23.4%
+现场                                 28  21.9%
+ Mc                                23  18.0%
+Tm                                 21  16.4%
+Ij                                 21  16.4%
+ Ost                               20  15.6%
+瞻                                  20  15.6%
+IW                                 19  14.8%
+ sequential                        18  14.1%
+Think                              17  13.3%
+其主要                                16  12.5%
+Zy                                 16  12.5%
+.block                             15  11.7%
+出手                                 15  11.7%
+Ip                                 15  11.7%
+笛                                  15  11.7%
+楊                                  14  10.9%
+West                               14  10.9%
+KC                                 14  10.9%
+各地                                 14  10.9%
+Rom                                13  10.2%
+教育家                                13  10.2%
+TT                                 13  10.2%
+抛弃                                 12   9.4%
+粉末                                 12   9.4%
+.url                               12   9.4%
+ West                              12   9.4%
+ lined                             12   9.4%
+ Bread                             12   9.4%
+二者                                 12   9.4%
+().__                              12   9.4%
+alb                                11   8.6%
+ italic                            11   8.6%
+_POSTSUBSCRIPT                     11   8.6%
+苔                                  11   8.6%
+ manufacturer                      11   8.6%
+Various                            11   8.6%
+Kh                                 10   7.8%
+.edu                               10   7.8%
+大规模                                10   7.8%
+ Various                           10   7.8%
+<h                                  9   7.0%
+_ARG                                9   7.0%
+Theorem                             9   7.0%
+哪些                                  9   7.0%
+内外                                  9   7.0%
+ eccentric                          9   7.0%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+_POSTSUBSCRIPT                     17  13.3%
+Zy                                 17  13.3%
+Iz                                 12   9.4%
+KW                                 11   8.6%
+IW                                 11   8.6%
+ mis                                9   7.0%
+ZW                                  9   7.0%
+_LOG                                9   7.0%
+ubscript                            9   7.0%
+_ARG                                9   7.0%
+AAA                                 8   6.2%
+une                                 8   6.2%
+众人                                  8   6.2%
+jd                                  8   6.2%
+ Port                               8   6.2%
+ maintains                          8   6.2%
+ italic                             7   5.5%
+增速                                  7   5.5%
+政务                                  7   5.5%
+(db                                 7   5.5%
+superscript�                        7   5.5%
+ Someone                            7   5.5%
+(np                                 7   5.5%
+Jy                                  7   5.5%
+头部                                  7   5.5%
+359                                 7   5.5%
+zw                                  7   5.5%
+ eng                                7   5.5%
+ kon                                7   5.5%
+TT                                  7   5.5%
+ Ok                                 6   4.7%
+ erg                                6   4.7%
+<h                                  6   4.7%
+Oi                                  6   4.7%
+Hb                                  6   4.7%
+国旗                                  6   4.7%
+Zw                                  6   4.7%
+kj                                  6   4.7%
+或多个                                 6   4.7%
+Ry                                  6   4.7%
+ Roe                                6   4.7%
+ '../../                            6   4.7%
+UK                                  5   3.9%
+YL                                  5   3.9%
+直播                                  5   3.9%
+.spring                             5   3.9%
+JV                                  5   3.9%
+ Lib                                5   3.9%
+\\------------------\n\n            5   3.9%
+西                                   5   3.9%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+_POSTSUBSCRIPT                     19  14.8%
+superscript�                        9   7.0%
+Ud                                  8   6.2%
+KV                                  7   5.5%
+kj                                  7   5.5%
+ Lcom                               6   4.7%
+})(                                 6   4.7%
+(db                                 6   4.7%
+zw                                  6   4.7%
+ Someone                            6   4.7%
+Iw                                  6   4.7%
+ZW                                  6   4.7%
+Oi                                  6   4.7%
+Tx                                  6   4.7%
+AAA                                 5   3.9%
+�                                   5   3.9%
+/Y                                  5   3.9%
+Ip                                  5   3.9%
+Jennifer                            5   3.9%
+TN                                  5   3.9%
+=False                              5   3.9%
+ Compl                              5   3.9%
+ (!                                 5   3.9%
+ Clara                              5   3.9%
+Zw                                  5   3.9%
+oC                                  5   3.9%
+#include                            5   3.9%
+_ARG                                5   3.9%
+ фа                                 5   3.9%
+头部                                  5   3.9%
+(".                                 5   3.9%
+ continued                          4   3.1%
+\\displaystyle                      4   3.1%
+ mis                                4   3.1%
+superscript                         4   3.1%
++f                                  4   3.1%
+ decl                               4   3.1%
++v                                  4   3.1%
++/                                  4   3.1%
+XX                                  4   3.1%
+TP                                  4   3.1%
+566                                 4   3.1%
+822                                 4   3.1%
+Tm                                  4   3.1%
+ Mc                                 4   3.1%
+ Az                                 4   3.1%
+Iy                                  4   3.1%
+RW                                  4   3.1%
+ Port                               4   3.1%
+Ij                                  4   3.1%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+XD                                      130  25.4%
+WL                                      129  25.2%
+XL                                      129  25.2%
+=np                                     128  25.0%
+Du                                      128  25.0%
+ among                                  128  25.0%
+绑                                       127  24.8%
+诗人                                      127  24.8%
+ became                                 126  24.6%
+慕容                                      124  24.2%
+}}{\\                                   123  24.0%
+ общего                                 122  23.8%
+ по                                     116  22.7%
+.Has                                    111  21.7%
+rm                                      111  21.7%
+ピ                                       109  21.3%
+Zs                                      108  21.1%
+ mor                                    101  19.7%
+ theo                                   100  19.5%
+aW                                       98  19.1%
+ตาม                                      97  18.9%
+为目的                                      90  17.6%
+ZK                                       89  17.4%
+朗读                                       81  15.8%
+共同                                       79  15.4%
+Wd                                       78  15.2%
+无缝                                       72  14.1%
+ Focus                                   65  12.7%
+也因此                                      57  11.1%
+WO                                       56  10.9%
+腿                                        49   9.6%
+ Blick                                   48   9.4%
+Iv                                       48   9.4%
+听了                                       47   9.2%
+ erg                                     47   9.2%
+_POSTSUBSCRIPT                           47   9.2%
+ Eva                                     46   9.0%
++L                                       45   8.8%
+/page                                    43   8.4%
+ Carlson                                 39   7.6%
+西                                        39   7.6%
+叉                                        38   7.4%
+Zy                                       37   7.2%
+青山                                       36   7.0%
+Override                                 35   6.8%
+IW                                       33   6.4%
+ Mc                                      32   6.2%
+现场                                       32   6.2%
+ Dr                                      31   6.1%
+ IMF                                     31   6.1%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+No clusters found (all heads have unique token sets).
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 120 (frob=0.3236, 4.6σ):
+  Dir0 (σ=0.2707): ['XD', 'XL', '=np', ' mor', '绑', ' became', 'WL', 'ピ']
+  Dir1 (σ=0.0336): ['接受', ' Entity', 'pH', '公交', ' lined', 'fx', 'Override', 'Mg']
+  Dir2 (σ=0.0288): ['嘉', 'CW', '可达', ' Military', ' Maintenance', '421', '-business', 'JC']
+  Dir3 (σ=0.0267): ['太后', '茶', ' Hier', '寻找', '#include', 'ाय', 'Ls', " '../../"]
+
+Head 71 (frob=0.2637, 2.5σ):
+  Dir0 (σ=0.2214): ['XD', 'XL', ' mor', 'Du', '=np', 'WL', '诗人', 'ZK']
+  Dir1 (σ=0.0297): ['IW', ' przed', '------------------------------------------------------------------------', '.block', 'Theorem', '排查', '贯', ' burden']
+  Dir2 (σ=0.0242): ['Zy', '(@', ' Jewish', '′′', ' Afghan', '∫', '-known', ' фа']
+  Dir3 (σ=0.0218): [' excellent', '078', ' protocols', 'Oi', '头部', ' Compl', ' supplements', '.Current']
+
+Head 16 (frob=0.2606, 2.4σ):
+  Dir0 (σ=0.2099): ['XD', 'XL', 'WL', '=np', '绑', 'Du', '诗人', ' по']
+  Dir1 (σ=0.0256): [' Reactive', ' như', 'KB', 'Override', '底层', 'Via', '510', '.Web']
+  Dir2 (σ=0.0241): [' SQL', '其它', '其余', 'JW', ' Basic', 'KW', ' brist', '并且']
+  Dir3 (σ=0.0235): ['Tm', ' widespread', '.day', ' đ', ' daya', 'Ta', 'cq', '再']
+
+Head 63 (frob=0.2589, 2.4σ):
+  Dir0 (σ=0.2135): ['XD', '=np', 'WL', '诗人', '绑', ' became', 'XL', '慕容']
+  Dir1 (σ=0.0402): ['Tm', 'ZT', '359', '二者', 'Tr', '西', '笛', ' Deg']
+  Dir2 (σ=0.0269): ['Iz', ' rgba', 'JH', 'IW', 'チ', ' Iz', ' Az', 'Iw']
+  Dir3 (σ=0.0242): ['.spring', '政务', 'ZK', 'PK', 'ZW', ' фа', '(db', '哪些']
+
+Head 76 (frob=0.2530, 2.2σ):
+  Dir0 (σ=0.1935): ['XD', 'WL', '诗人', '=np', ' theo', '绑', ' became', ' по']
+  Dir1 (σ=0.0327): ['\\\\mathcal', 'mathbb', 'Zw', 'Ty', 'dw', 'dz', 'fo', 'Think']
+  Dir2 (σ=0.0249): [' luc', '\\tt', 'AAAAAAAA', ' novels', '感激', '_POSTSUBSCRIPT', 'QS', '835']
+  Dir3 (σ=0.0237): ['*s', '359', '\\t\\t ', 'superscript�', '生怕', '曲', 'subscript', ' Perform']
+
+Head 108 (frob=0.2495, 2.0σ):
+  Dir0 (σ=0.1930): ['XD', 'XL', 'WL', '=np', '}}{\\\\', '绑', 'Du', 'ZK']
+  Dir1 (σ=0.0265): ['Oy', ' CW', '+f', '联系', 'Mm', '越来越', '大家好', 'Faculty']
+  Dir2 (σ=0.0263): ['现金', ' nearby', 'Zp', ' Genetic', '河水', ' Publishers', 'qz', 'Po']
+  Dir3 (σ=0.0248): ['.ge', 'QB', '(".', '.ch', 'ochemical', '.ed', '.User', ' Georges']
+
+Head 36 (frob=0.2465, 1.9σ):
+  Dir0 (σ=0.2046): ['XD', 'XL', '=np', '诗人', ' mor', 'Du', 'WL', ' общего']
+  Dir1 (σ=0.0315): ['详细', '(lambda', 'JV', 'vv', '同一', '/news', 'ZK', ' Boyle']
+  Dir2 (σ=0.0257): ['IW', '粉末', '二者', 'ython', '非常', '阿尔', '机电', ' erg']
+  Dir3 (σ=0.0217): ['}^{', '.rest', '+L', '-all', ' дис', ' myocardial', '学生们', ' тип']
+
+Head 23 (frob=0.2382, 1.7σ):
+  Dir0 (σ=0.1918): ['XD', 'Du', '=np', 'XL', ' mor', 'WL', 'aW', '诗人']
+  Dir1 (σ=0.0351): [' Roe', ' пол', '哪些', 'Zr', ' Scoring', 'YL', 'zc', '.url']
+  Dir2 (σ=0.0312): [' (\\\\(', ' [(', '\\u2009', ' (**', '[(', ' Coastal', ' (=', '太后']
+  Dir3 (σ=0.0241): [' confessed', '\\\\({}^{-', ' faire', 'kj', '阴阳', 'Without', '較', '().__']
+
+Head 111 (frob=0.2370, 1.6σ):
+  Dir0 (σ=0.1822): ['XD', '=np', 'XL', 'WL', 'Du', ' mor', ' became', ' among']
+  Dir1 (σ=0.0268): ['Ng', ' veel', 'QUAL', 'Kh', '班级', 'Um', '954', '倒霉']
+  Dir2 (σ=0.0247): ['一方面', ' mis', '}}}}', ' billions', '████', '.apache', ' Ronald', ' Buk']
+  Dir3 (σ=0.0233): [' textbooks', '斯特', '148', ' Safety', 'cg', '煦', '狄', '.Current']
+
+Head 62 (frob=0.2348, 1.5σ):
+  Dir0 (σ=0.1789): ['XD', 'WL', 'XL', '绑', '=np', 'Du', ' among', ' became']
+  Dir1 (σ=0.0251): ['KC', '各自', '住院', '团结', 'から', '各地', 'Iv', '源于']
+  Dir2 (σ=0.0243): ['三角函数', ' spike', 'rst', '�', ' hardest', '_POSTSUBSCRIPT', 'Zy', ' mejor']
+  Dir3 (σ=0.0231): ['+T', '/Y', ' /\\\\', '/Z', ' enc', ' establish', '/j', '齿轮']
+
+Head 77 (frob=0.2335, 1.5σ):
+  Dir0 (σ=0.1876): ['XD', 'Du', '=np', 'WL', '诗人', '绑', 'XL', ' became']
+  Dir1 (σ=0.0359): ['Think', ' erg', 'jr', '西', '抛弃', '苔', ' Think', 'Tm']
+  Dir2 (σ=0.0262): ['淡', ' nt', '一言', 'UK', '某一', 'يش', 'ZH', 'ZK']
+  Dir3 (σ=0.0246): [' пар', '.web', '751', 'People', '贸易', '.+', ' điểm', '+/']
+
+Head 17 (frob=0.2311, 1.4σ):
+  Dir0 (σ=0.1808): ['XD', 'XL', 'Du', 'WL', '诗人', '=np', ' по', ' Dr']
+  Dir1 (σ=0.0342): ['_POSTSUBSCRIPT', 'Zy', '_LOG', ' Jewish', 'dw', ' heavily', ' Scoring', ' những']
+  Dir2 (σ=0.0283): ['Iv', 'Iy', 'Iz', 'IW', 'Override', 'Ii', '实施', 'oq']
+  Dir3 (σ=0.0243): ['Oz', ' Mc', 'kN', 'superscript', '顆', ' Jill', '叉', ' ENGINE']
+
+Head 56 (frob=0.2282, 1.3σ):
+  Dir0 (σ=0.1689): ['XD', 'XL', 'WL', 'Du', ' became', '}}{\\\\', '绑', 'rm']
+  Dir1 (σ=0.0276): [' manufacturers', ' nearby', 'Dev', '无产阶级', ' manufacturer', '安徽', 'KC', ' Representatives']
+  Dir2 (σ=0.0263): [' Ling', 'ashi', '_now', ' Median', 'local', '}\\\\,\\\\', '-generated', 'upmu']
+  Dir3 (σ=0.0244): ['寡', '.Domain', '宿主', 'Georg', '.domain', '><', 'IW', '.filter']
+
+Head 37 (frob=0.2264, 1.2σ):
+  Dir0 (σ=0.1687): ['XD', 'XL', 'Du', '绑', 'WL', '=np', 'ピ', ' became']
+  Dir1 (σ=0.0281): ['的文化', ' Publishers', 'Yn', '679', '坛', 'Jer', ' Jonathan', ' Zion']
+  Dir2 (σ=0.0239): ['(np', ' Mage', '哪些', '缺少', ' ≡', 'sep', 'loading', ']],']
+  Dir3 (σ=0.0230): ['UX', '母乳', '\\ufeffnamespace', '就能', ' Compl', '\\ufeffusing', 'asz', '::{']
+
+Head 72 (frob=0.2263, 1.2σ):
+  Dir0 (σ=0.1547): ['XD', 'XL', 'WL', '绑', '=np', ' became', '诗人', ' mor']
+  Dir1 (σ=0.0311): ['各地', '都市', 'West', '西', 'Zy', '北', 'fk', ' West']
+  Dir2 (σ=0.0264): ['subscript�', 'subscript�', 'superscript', 'subscript', 'Sand', 'goto', '学习', '<']
+  Dir3 (σ=0.0232): ['yh', '突然', '(np', '后面', '℃', 'jy', '只有在', 'UU']
+
+Head 29 (frob=0.2260, 1.2σ):
+  Dir0 (σ=0.1718): ['XD', 'XL', 'WL', '诗人', '=np', 'Du', ' among', ' became']
+  Dir1 (σ=0.0275): [' Ton', '_POSTSUBSCRIPT', ' ces', '泥', '政务', '匯', '蔬菜', 'scr']
+  Dir2 (σ=0.0252): ['撕', ',', ' keb', ' ор', 'Ll', '부터', '瞧', '051']
+  Dir3 (σ=0.0243): ['Ya', ' Engine', 'Eb', ' kn', ' engine', ' Ted', '驅', 'Dep']
+
+Head 57 (frob=0.2252, 1.2σ):
+  Dir0 (σ=0.1658): ['XD', 'XL', 'WL', 'ZK', '诗人', ' became', '=np', '绑']
+  Dir1 (σ=0.0311): ['QI', 'Zr', 'Override', ' removing', ' Yam', ' anda', '.url', 'ZZ']
+  Dir2 (σ=0.0241): [' erg', '/T', 'oph', 'Eh', '偶然', '(*)', '绩效考核', ' partitioning']
+  Dir3 (σ=0.0234): ['Iz', 'oC', '_POSTSUBSCRIPT', '_at', 'HU', 'Bay', '+p', 'اق']
+
+Head 49 (frob=0.2240, 1.2σ):
+  Dir0 (σ=0.1721): ['XL', 'WL', 'XD', 'Du', 'aW', '诗人', ' mor', 'Zs']
+  Dir1 (σ=0.0322): ['ZZ', '+H', 'wait', '屏幕', '领导的', '烤', '+g', '哪怕']
+  Dir2 (σ=0.0292): ['(db', ' Todd', ' continued', '众人', 'une', ' eng', ' api', ' ар']
+  Dir3 (σ=0.0241): ['_ARG', 'tec', ' Coastal', 'xA', ' align', '}}}{', 'PU', ' intimate']
+
+Head 40 (frob=0.2223, 1.1σ):
+  Dir0 (σ=0.1704): ['XD', 'XL', '=np', 'Du', '绑', '}}{\\\\', '慕容', 'WL']
+  Dir1 (σ=0.0290): ['Ud', '659', '或多个', '?)', '[A', ' Lib', ' responsive', '川']
+  Dir2 (σ=0.0273): [' deliberate', '紧紧', '共同', '努力', 'Dig', ' guaranteed', ' Campbell', '171']
+  Dir3 (σ=0.0232): ['_POSTSUBSCRIPT', '.config', 'jy', '虽然', '�', '艾', '心想', 'zp']
+
+Head 65 (frob=0.2216, 1.1σ):
+  Dir0 (σ=0.1753): ['XD', 'WL', 'XL', 'Du', ' mor', '=np', 'ZK', '绑']
+  Dir1 (σ=0.0309): ['Override', '蜡烛', '/news', ' Four', '(st', ' sumber', '=(', 'Various']
+  Dir2 (σ=0.0243): [' orthogonal', '_POSTSUBSCRIPT', '.day', 'Overall', ' italic', ' Gam', 'mathbb', ' multi']
+  Dir3 (σ=0.0223): [' std', ' sous', 'Tm', '_error', 'Api', ' ethical', 'QQ', '涂']
+

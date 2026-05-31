@@ -1,0 +1,33 @@
+Head Coherence Clusters: M3 Layer 3
+============================================================
+
+Frobenius norm stats: mean=0.4009, std=0.1220
+Heads >2sigma: [44, 71, 81, 97, 121]
+Heads >1sigma: [7, 12, 20, 49, 65, 67, 72, 85, 92, 120]
+
+8 clusters found:
+
+  Cluster 75 (5 heads, avg_cos=0.552):
+    H34(-0.8s), H52(-0.2s), H61(-0.2s), H115(-0.4s), H127(-0.4s)
+
+  Cluster 85 (2 heads, avg_cos=0.564):
+    H4(0.9s), H13(-0.1s)
+
+  Cluster 46 (2 heads, avg_cos=0.543):
+    H21(-0.8s), H42(-0.7s)
+
+  Cluster 73 (2 heads, avg_cos=0.576):
+    H35(-0.4s), H70(0.6s)
+
+  Cluster 39 (2 heads, avg_cos=0.567):
+    H37(-0.5s), H100(-0.1s)
+
+  Cluster 89 (2 heads, avg_cos=-0.555):
+    H47(0.4s), H85(1.2s)
+
+  Cluster 68 (2 heads, avg_cos=-0.539):
+    H72(1.2s), H99(0.2s)
+
+  Cluster 47 (2 heads, avg_cos=0.504):
+    H91(-0.8s), H103(-1.0s)
+

@@ -1,0 +1,489 @@
+M2 Token Census — Layer 3
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+                                  128 100.0%
+AAAAAAAA                          128 100.0%
+ized                              128 100.0%
+edia                              128 100.0%
+ogenic                            128 100.0%
+IFICATION                         128 100.0%
+ulate                             128 100.0%
+edy                               128 100.0%
+icked                             128 100.0%
+izing                             128 100.0%
+ification                         127  99.2%
+iation                            127  99.2%
+ifies                             127  99.2%
+etic                              127  99.2%
+unction                           127  99.2%
+ING                               126  98.4%
+icate                             125  97.7%
+_st                               124  96.9%
+ify                               124  96.9%
+etics                             121  94.5%
+hline                             119  93.0%
+‑                                 119  93.0%
+/l                                118  92.2%
+_un                               114  89.1%
+ulation                           112  87.5%
+：《                                106  82.8%
+inate                             104  81.2%
+ological                           96  75.0%
+uclear                             80  62.5%
+ited                               75  58.6%
+ump                                57  44.5%
+                                   53  41.4%
+AAAA                               44  34.4%
+ographic                           43  33.6%
+_sc                                18  14.1%
+aking                              16  12.5%
+ize                                 6   4.7%
+ITION                               5   3.9%
+iate                                4   3.1%
+iting                               4   3.1%
+uality                              2   1.6%
+-fl                                 1   0.8%
+_cl                                 1   0.8%
+_inter                              1   0.8%
+_pre                                1   0.8%
+IVES                                1   0.8%
+ANTS                                1   0.8%
+€™                                  1   0.8%
+ Cock                               1   0.8%
+Pl                                  1   0.8%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ billion                          102  79.7%
+ random                            78  60.9%
+世纪                                 75  58.6%
+ polynomial                        72  56.2%
+.example                           67  52.3%
+制度                                 63  49.2%
+施工                                 63  49.2%
+ Research                          62  48.4%
+ elements                          60  46.9%
+ learning                          59  46.1%
+数学                                 55  43.0%
+服务                                 52  40.6%
+ Learning                          51  39.8%
+ significant                       49  38.3%
+ Math                              49  38.3%
+ measures                          47  36.7%
+ divided                           43  33.6%
+ ancient                           43  33.6%
+ common                            42  32.8%
+ social                            40  31.2%
+ graph                             40  31.2%
+ International                     38  29.7%
+ algorithm                         38  29.7%
+ Data                              35  27.3%
+直线                                 33  25.8%
+)،                                 32  25.0%
+社会                                 31  24.2%
+ embodiments                       31  24.2%
+ digit                             31  24.2%
+ Network                           30  23.4%
+ Media                             29  22.7%
+ million                           28  21.9%
+的质量                                28  21.9%
+Provider                           27  21.1%
+ carbon                            26  20.3%
+基本                                 25  19.5%
+Reader                             25  19.5%
+}\\)).                             25  19.5%
+’                                  24  18.8%
+ Health                            23  18.0%
+.google                            23  18.0%
+ Science                           22  17.2%
+ probability                       22  17.2%
+ growing                           21  16.4%
+\r                                 21  16.4%
+ element                           20  15.6%
+ detected                          20  15.6%
+历史                                 20  15.6%
+ deviation                         20  15.6%
+ individuals                       19  14.8%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+\\({}^{\\                          33  25.8%
+                                   28  21.9%
+\\({}_{\\                          28  21.9%
+\r                                 26  20.3%
+subscript�                         25  19.5%
+(                                  25  19.5%
+                                   22  17.2%
+ \\                                20  15.6%
+__(                                19  14.8%
+ {                                 19  14.8%
+\\({}_{                            18  14.1%
+multicolumn                        18  14.1%
+({                                 17  13.3%
+。(                                 16  12.5%
+ \\\\                              16  12.5%
+){                                 15  11.7%
+Footnote                           14  10.9%
+\\(\\                              14  10.9%
+\\),                               13  10.2%
+\\)                                13  10.2%
+(                                  12   9.4%
+ H                                 12   9.4%
+ F                                 12   9.4%
+\\({}^{-                           12   9.4%
+ \\({}^{\\                         12   9.4%
+hline                              12   9.4%
+{                                  12   9.4%
+:                                  11   8.6%
+ T                                 11   8.6%
+�                                  11   8.6%
+}\\),                              11   8.6%
+ ---|---                           11   8.6%
+�                                  10   7.8%
+_{\\                               10   7.8%
+”(                                 10   7.8%
+<｜fim▁begin｜>                      10   7.8%
+;&                                 10   7.8%
+_{                                 10   7.8%
+\t                                 10   7.8%
+。[                                  9   7.0%
+}(                                  9   7.0%
+ E                                  9   7.0%
+}\\                                 9   7.0%
+\x00                                9   7.0%
+                                    9   7.0%
+                                    9   7.0%
+\\                                  9   7.0%
+                                    9   7.0%
+IBA                                 8   6.2%
+iﬁ                                  8   6.2%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+                                   31  24.2%
+\\({}_{\\                          24  18.8%
+\\({}^{\\                          19  14.8%
+}\\                                18  14.1%
+subscript�                         18  14.1%
+(                                  17  13.3%
+iﬁ                                 16  12.5%
+\\({}_{                            16  12.5%
+\\)                                15  11.7%
+                                   15  11.7%
+Footnote                           14  10.9%
+;&                                 14  10.9%
+။                                  14  10.9%
+_{                                 13  10.2%
+\r                                 13  10.2%
+ T                                 13  10.2%
+\\({}^{-                           13  10.2%
+<｜fim▁begin｜>                      13  10.2%
+{                                  12   9.4%
+}(                                 12   9.4%
+ F                                 12   9.4%
+ B                                 12   9.4%
+�                                  12   9.4%
+(P                                 12   9.4%
+’                                  12   9.4%
+ّ                                  12   9.4%
+\\                                 11   8.6%
+ italic                            11   8.6%
+ P                                 11   8.6%
+�                                  11   8.6%
+hline                              10   7.8%
+__(                                10   7.8%
+ \\                                10   7.8%
+}                                  10   7.8%
+:                                  10   7.8%
+ H                                 10   7.8%
+ R                                 10   7.8%
+�                                  10   7.8%
+ X                                 10   7.8%
+_P                                 10   7.8%
+_                                  10   7.8%
+ (                                  9   7.0%
+=                                   9   7.0%
+^{                                  9   7.0%
+}^{\\                               9   7.0%
+ \\({}^{\\                          9   7.0%
+ C                                  9   7.0%
+�                                   9   7.0%
+_D                                  9   7.0%
+_F                                  9   7.0%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+                                        191  37.3%
+AAAAAAAA                                143  27.9%
+hline                                   142  27.7%
+edia                                    138  27.0%
+ogenic                                  130  25.4%
+ized                                    129  25.2%
+ulate                                   129  25.2%
+ification                               129  25.2%
+iation                                  129  25.2%
+ifies                                   129  25.2%
+izing                                   129  25.2%
+_st                                     128  25.0%
+IFICATION                               128  25.0%
+edy                                     128  25.0%
+icked                                   128  25.0%
+ify                                     127  24.8%
+etic                                    127  24.8%
+unction                                 127  24.8%
+ING                                     126  24.6%
+icate                                   125  24.4%
+‑                                       124  24.2%
+etics                                   123  24.0%
+/l                                      119  23.2%
+_un                                     114  22.3%
+ulation                                 112  21.9%
+：《                                      108  21.1%
+ billion                                108  21.1%
+inate                                   104  20.3%
+ological                                 98  19.1%
+                                         97  18.9%
+世纪                                       87  17.0%
+uclear                                   80  15.6%
+ random                                  78  15.2%
+.example                                 76  14.8%
+ited                                     75  14.6%
+ polynomial                              74  14.5%
+ Research                                64  12.5%
+制度                                       63  12.3%
+施工                                       63  12.3%
+ elements                                62  12.1%
+\r                                       60  11.7%
+ learning                                59  11.5%
+ump                                      58  11.3%
+数学                                       56  10.9%
+\\({}^{\\                                56  10.9%
+\\({}_{\\                                55  10.7%
+AAAA                                     54  10.5%
+服务                                       52  10.2%
+ Learning                                52  10.2%
+ significant                             51  10.0%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+Cluster 38 (5 heads): [1, 2, 34, 35, 61]
+  Shared Dir0 tokens: ['_st', '', 'ulate', 'hline', 'ized', 'ifies', '：《', 'edia', 'ogenic', 'edy']
+  H  1 (frob=0.125): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H  2 (frob=0.132): ['', 'AAAAAAAA', '_st', 'ized', 'hline']
+  H 34 (frob=0.169): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 35 (frob=0.116): ['', 'AAAAAAAA', 'ized', '_st', 'hline']
+  H 61 (frob=0.161): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+
+Cluster 56 (5 heads): [58, 70, 89, 103, 115]
+  Shared Dir0 tokens: ['', 'iation', 'ulate', 'hline', 'ized', 'ification', 'ifies', 'ogenic', 'edia', 'edy']
+  H 58 (frob=0.134): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H 70 (frob=0.141): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 89 (frob=0.118): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H103 (frob=0.084): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H115 (frob=0.150): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+
+Cluster 70 (3 heads): [5, 6, 22]
+  Shared Dir0 tokens: ['_st', '', 'ulate', 'hline', 'ized', 'ification', '：《', 'edia', 'ogenic', 'AAAAAAAA']
+  H  5 (frob=0.156): ['', 'AAAAAAAA', 'ized', 'edia', '_st']
+  H  6 (frob=0.168): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H 22 (frob=0.155): ['', 'AAAAAAAA', 'ized', 'edia', '_st']
+
+Cluster 75 (3 heads): [17, 38, 91]
+  Shared Dir0 tokens: ['_st', '', 'iation', 'ulate', 'hline', 'ized', 'ification', 'ifies', 'ogenic', 'edia']
+  H 17 (frob=0.250): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H 38 (frob=0.175): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H 91 (frob=0.143): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+
+Cluster 54 (3 heads): [23, 53, 57]
+  Shared Dir0 tokens: ['_st', '', 'iation', 'ulate', 'ized', 'ification', 'ifies', 'ogenic', 'edia', 'izing']
+  H 23 (frob=0.141): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 53 (frob=0.157): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H 57 (frob=0.151): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+
+Cluster 69 (2 heads): [11, 90]
+  Shared Dir0 tokens: ['_st', '', 'iation', 'ulate', 'ized', 'ification', '：《', 'ogenic', 'edia', 'AAAAAAAA']
+  H 11 (frob=0.193): ['', 'AAAAAAAA', 'ized', 'edia', '_st']
+  H 90 (frob=0.167): ['', 'AAAAAAAA', 'ized', '_st', 'ogenic']
+
+Cluster 34 (2 heads): [33, 102]
+  Shared Dir0 tokens: ['_st', '', 'ulate', 'hline', 'ized', 'ifies', '：《', 'edia', 'ogenic', 'edy']
+  H 33 (frob=0.118): ['', 'AAAAAAAA', 'ized', '_st', 'edia']
+  H102 (frob=0.138): ['', 'AAAAAAAA', 'ized', '_st', 'edia']
+
+Cluster 36 (2 heads): [40, 81]
+  Shared Dir0 tokens: ['_st', '', 'ulate', 'hline', 'ized', 'ifies', '：《', 'ogenic', 'edia', 'etic']
+  H 40 (frob=0.147): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 81 (frob=0.099): ['', 'AAAAAAAA', 'ized', '_st', '：《']
+
+Cluster 37 (2 heads): [41, 52]
+  Shared Dir0 tokens: ['_st', '', 'iation', 'ulate', 'hline', 'ized', 'ifies', 'ification', '：《', 'ogenic']
+  H 41 (frob=0.222): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 52 (frob=0.151): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+
+Cluster 39 (2 heads): [49, 87]
+  Shared Dir0 tokens: ['_st', '', 'ulate', 'ized', '：《', 'edia', 'ogenic', 'edy', 'AAAAAAAA', 'IFICATION']
+  H 49 (frob=0.146): ['', 'AAAAAAAA', '_st', 'ized', '_un']
+  H 87 (frob=0.134): ['', 'AAAAAAAA', '_st', 'ized', 'edia']
+
+Cluster 53 (2 heads): [50, 60]
+  Shared Dir0 tokens: ['_st', '', 'ulate', 'ized', 'ification', 'ifies', '：《', 'ogenic', 'edia', 'izing']
+  H 50 (frob=0.129): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 60 (frob=0.192): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+
+Cluster 55 (2 heads): [82, 98]
+  Shared Dir0 tokens: ['', 'iation', 'ulate', 'ification', 'ized', 'ifies', 'ogenic', 'edia', 'izing', 'AAAAAAAA']
+  H 82 (frob=0.130): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+  H 98 (frob=0.110): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+
+Cluster 48 (2 heads): [84, 126]
+  Shared Dir0 tokens: ['‑', '', 'iation', 'ulate', 'ized', 'ification', 'edia', 'ogenic', 'izing', 'AAAAAAAA']
+  H 84 (frob=0.142): ['', 'AAAAAAAA', 'ized', 'ogenic', 'ING']
+  H126 (frob=0.169): ['', 'ized', 'AAAAAAAA', '‑', 'edia']
+
+Cluster 46 (2 heads): [97, 118]
+  Shared Dir0 tokens: ['', 'iation', 'ulate', 'ification', 'ized', 'ifies', 'ogenic', 'edia', 'edy', 'izing']
+  H 97 (frob=0.311): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H118 (frob=0.125): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+
+Cluster 92 (2 heads): [100, 127]
+  Shared Dir0 tokens: ['‑', '', 'iation', '', 'ulate', 'ized', 'ification', 'ifies', 'ogenic', 'edia']
+  H100 (frob=0.173): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic']
+  H127 (frob=0.120): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia']
+
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 121 (frob=0.3287, 3.5σ):
+  Dir0 (σ=0.3106): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'ification', 'IFICATION']
+  Dir1 (σ=0.0304): [' billion', '\\r', '直线', '.example', '服务', ' divided', '建设', '制度']
+  Dir2 (σ=0.0266): ['的一', '的看着', '了一', '了一下', '在一', '>>>', '了出去', '了下去']
+  Dir3 (σ=0.0250): ['？”', '！”', ',', '!”', ',”', ',’', '){', '！」']
+
+Head 97 (frob=0.3107, 3.1σ):
+  Dir0 (σ=0.2869): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'ification', 'IFICATION']
+  Dir1 (σ=0.0550): ['数学', ' billion', '世纪', ' random', '服务', ' learning', '社会', '制度']
+  Dir2 (σ=0.0232): ['<｜fim▁begin｜>', '။', '،', '的是', '\\ufeffusing', '<｜fim▁hole｜>', '为', '的']
+  Dir3 (σ=0.0209): ['<｜fim▁begin｜>', '<｜fim▁hole｜>', ' @@', '\\r', 'ّ', ',B', '/M', ':S']
+
+Head 15 (frob=0.2919, 2.7σ):
+  Dir0 (σ=0.2770): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'hline', 'ification']
+  Dir1 (σ=0.0321): [' billion', '.example', ' million', ' significant', ' divided', ' effective', ' growing', ' increase']
+  Dir2 (σ=0.0257): [' \\\\({}^{\\\\', '\\\\,\\\\', '{}^{\\\\', ' _{\\\\', '\\\\({}_{\\\\', '\\\\({}^{\\\\', '_{-\\\\', ' {@']
+  Dir3 (σ=0.0229): ['\\\\)-', '\\\\);', '', '}\\\\),', '\\\\),', '(),', '%;', ' ¿']
+
+Head 125 (frob=0.2865, 2.6σ):
+  Dir0 (σ=0.2712): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia', 'ulate', 'IFICATION', '‑']
+  Dir1 (σ=0.0293): [' billion', '以下', '世纪', '哪些', '../../', '心里', ' million', ' embodiment']
+  Dir2 (σ=0.0212): ['’', '\\r', '   ', ' ‘', 'ư�', '-digits', '_{', '\\t']
+  Dir3 (σ=0.0207): ['multicolumn', '../', '../../', 'qd', ',\\\\,\\\\', '{}^{\\\\', '\\\\({}_{\\\\', 'subscript�']
+
+Head 8 (frob=0.2577, 2.0σ):
+  Dir0 (σ=0.2422): ['', 'AAAAAAAA', 'ized', 'edia', 'hline', '：《', 'ogenic', '_st']
+  Dir1 (σ=0.0361): [' billion', '世纪', '.Collections', ' embodiments', '', ' ancient', '.example', '直线']
+  Dir2 (σ=0.0213): [' italic', '就会', '_POSTSUPERSCRIPT', '�', '，”', ' Strong', '}}}}', 'AAAA']
+  Dir3 (σ=0.0198): ['({', '({\\\\', '{tabular', '/\\\\', '}^{(', '\\\\({}^{-', '&#', '\\\\,\\\\']
+
+Head 17 (frob=0.2498, 1.8σ):
+  Dir0 (σ=0.2328): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', '：《', 'ulate', 'hline']
+  Dir1 (σ=0.0336): ['\\r', ' billion', '.google', '’', '   ', '直线', '\\t', '世纪']
+  Dir2 (σ=0.0206): [' J', ' T', ' F', ' E', ' M', ' H', 'F', ' D']
+  Dir3 (σ=0.0179): ['�', '�', '�', 'َ', ')\\\\', ';&', '}\\\\', '�']
+
+Head 122 (frob=0.2447, 1.7σ):
+  Dir0 (σ=0.2327): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia', '_st', 'hline', 'ulate']
+  Dir1 (σ=0.0316): ['\\r', '(', '世纪', '\\t', '(\\\\', '   ', '__(', '       ']
+  Dir2 (σ=0.0203): ['', '_e', '}^{(', '_re', '_p', '_per', '_d', '/\\\\']
+  Dir3 (σ=0.0181): ['_code', '<｜fim▁begin｜>', 'ّ', ' @@', ' generated', 'ו�', '.Models', '{G']
+
+Head 69 (frob=0.2442, 1.7σ):
+  Dir0 (σ=0.2300): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'ification', 'ify']
+  Dir1 (σ=0.0329): ['世纪', ' billion', '.example', '时代', '心里', '社会', ' hundred', '最']
+  Dir2 (σ=0.0220): ['', '\\\\),', '\\r', ' \\\\\\\\', '”、“', ',', '}\\\\),', ':']
+  Dir3 (σ=0.0205): ['<｜fim▁hole｜>', '<｜fim▁begin｜>', '%D', '', '(".', '@@', '么', ' ;\\n']
+
+Head 117 (frob=0.2431, 1.6σ):
+  Dir0 (σ=0.2260): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'ification', 'ify']
+  Dir1 (σ=0.0328): [' billion', ' elements', ' Research', ' learning', 'Provider', ' Media', ' Data', ' random']
+  Dir2 (σ=0.0241): ['', '}[]{', '}\\\\).\\n\\n', '。”“', '\\r', ')。\\n\\n', '。(《', '116']
+  Dir3 (σ=0.0214): ['\\\\({}_{\\\\', '', '(),\\n', ' \\\\\\\\\\n\\n', 'Footnote', '\\\\displaystyle', ' &&\\n', '(\\n']
+
+Head 110 (frob=0.2418, 1.6σ):
+  Dir0 (σ=0.2296): ['', 'edia', 'ized', 'AAAAAAAA', 'ogenic', 'ulate', 'ification', 'ify']
+  Dir1 (σ=0.0246): ['،', '，', ' ', '世纪', '），', ',', ' The', ',“']
+  Dir2 (σ=0.0208): [' nearly', ' significant', ' generally', '非常', ' typically', ' simply', ' almost', ' extremely']
+  Dir3 (σ=0.0182): ['', '\\\\),', '}\\\\),', ',', '][', ',', '\\\\\\\\', '\\\\({}^{\\\\']
+
+Head 107 (frob=0.2414, 1.6σ):
+  Dir0 (σ=0.2221): ['', 'AAAAAAAA', 'ized', '_st', '：《', 'ogenic', 'edia', '‑']
+  Dir1 (σ=0.0237): ['', '�', '}', '}\\\\', '�', '\\\\)', '\\\\).', ')']
+  Dir2 (σ=0.0215): ['။', ' ', ')', '。', 'multicolumn', '।', ' the', '.']
+  Dir3 (σ=0.0204): ['<｜fim▁begin｜>', ' \\\\({}^{\\\\', 'multicolumn', '\\\\({}_{\\\\', ' italic', '\\\\,\\\\', '8', ' \\\\({}^{']
+
+Head 25 (frob=0.2411, 1.6σ):
+  Dir0 (σ=0.2257): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'IFICATION', '_st']
+  Dir1 (σ=0.0247): ['Response', ' billion', 'Provider', '数学', '.Collections', 'leetcode', ' embodiments', '\\\\({}_{\\\\']
+  Dir2 (σ=0.0199): [' \\\\\\\\\\n\\n', '{tabular', '\\n\\t\\n', 'multicolumn', 'hline', '\\\\displaystyle', ' ---|---', ' \\\\[\\\\']
+  Dir3 (σ=0.0191): [' whether', '\\\\({}^{-', '<?', '(-', '({\\n', '("./', ' hence', '89']
+
+Head 114 (frob=0.2384, 1.5σ):
+  Dir0 (σ=0.2223): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia', 'ulate', 'hline', 'IFICATION']
+  Dir1 (σ=0.0369): [' billion', '世纪', '数学', '.example', ' learning', '施工', ' Research', ' Math']
+  Dir2 (σ=0.0240): ['', '_RE', '\\\\({}^{-', ' \\\\({}^{\\\\', 'subscript�', '_CO', '}^{\\\\', '}^{(']
+  Dir3 (σ=0.0179): ['っ', '', '400', '\\\\)\\\\(', 'SN', 'G', '500', '50']
+
+Head 104 (frob=0.2349, 1.5σ):
+  Dir0 (σ=0.2158): ['', 'AAAAAAAA', 'ized', '_st', 'edia', 'ogenic', 'IFICATION', '：《']
+  Dir1 (σ=0.0420): [' billion', '世纪', '施工', ' significant', ' learning', ' random', '制度', ' social']
+  Dir2 (σ=0.0192): ['ogenic', 'ological', 'ifying', 'cess', 'ourse', '', 'ashing', 'operative']
+  Dir3 (σ=0.0189): ['っ', '\\\\({}^{-', '999', '../../', 'aW', '�', '^{-', '}^{\\\\']
+
+Head 64 (frob=0.2304, 1.4σ):
+  Dir0 (σ=0.2142): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'ification', 'IFICATION']
+  Dir1 (σ=0.0292): ['leetcode', ' ', 'multicolumn', '.Collections', ' ', '-digits', ' androidx', '.common']
+  Dir2 (σ=0.0234): ['_re', ' _{', 'qd', '_ERROR', '_pro', '.Models', '_dict', 'Utils']
+  Dir3 (σ=0.0220): ['', ' October', '\\\\({}_{\\\\', ' March', '။', ' x', ' C', ' April']
+
+Head 120 (frob=0.2259, 1.3σ):
+  Dir0 (σ=0.2049): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'ulate', 'IFICATION', 'ification']
+  Dir1 (σ=0.0404): [' billion', ' effective', ' significant', ' growing', ' individuals', ' elements', ' polynomial', '的质量']
+  Dir2 (σ=0.0239): ['multicolumn', 'doi', '\\\\({}^{\\\\', 'Footnote', ' \\\\({}^{\\\\', 'iﬁ', '\\\\({}_{\\\\', '\\\\mathbb']
+  Dir3 (σ=0.0205): ['))))\\n', ');\\n', '<｜fim▁hole｜>', ')));\\n', '));\\n', '),\\n', ')))\\n', '));\\n']
+
+Head 37 (frob=0.2251, 1.3σ):
+  Dir0 (σ=0.2070): ['', 'AAAAAAAA', 'ized', 'edia', 'ogenic', 'IFICATION', 'ulate', 'ification']
+  Dir1 (σ=0.0413): ['.example', ' billion', '世纪', ' pretty', ' greater', ' million', ' growing', 'ZC']
+  Dir2 (σ=0.0227): ['�', 'unc', 'yntax', 'arg', '\\x00', 'rou', 'www', 'ạ']
+  Dir3 (σ=0.0200): ['>>>>', '‚', '\\\\', ',', 't', '–', '’', '€™']
+
+Head 48 (frob=0.2248, 1.2σ):
+  Dir0 (σ=0.1890): ['', 'AAAAAAAA', 'ized', '_st', '：《', '_un', 'ING', 'edia']
+  Dir1 (σ=0.0565): ['世纪', ' billion', '制度', '施工', ' International', ' embodiments', ' Foundation', ' social']
+  Dir2 (σ=0.0243): ['({\\\\', '\\x00', '.githubusercontent', '.k', '\\\\', ' \\\\', '\\u202c', '推荐文章']
+  Dir3 (σ=0.0225): [' –\\n\\n', '>>>>', ':\\n\\n', ' \\n\\n\\n', ' ،', '\\xa0\\n\\n', ',', '=']
+
+Head 41 (frob=0.2224, 1.2σ):
+  Dir0 (σ=0.2164): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia', 'ulate', 'hline', 'IFICATION']
+  Dir1 (σ=0.0410): ['世纪', ' billion', '制度', ' elements', ' Learning', ' Research', '服务', ' random']
+  Dir2 (σ=0.0131): ['/M', '.G', '.k', '.M', '/C', '.E', 'IBA', '.C']
+  Dir3 (σ=0.0097): ['(P', '(p', '(&', '(D', '_P', ',P', '}{\\\\', '{P']
+
+Head 62 (frob=0.2209, 1.2σ):
+  Dir0 (σ=0.2141): ['', 'AAAAAAAA', 'ized', 'ogenic', 'edia', 'ulate', 'IFICATION', 'ification']
+  Dir1 (σ=0.0261): ['   ', '\\r', '       ', ' Learning', 'Provider', ' Research', ' Data', ')،']
+  Dir2 (σ=0.0174): [' org', ' javax', '\\tlog', ',j', 'eax', '\\tid', '.cs', '\\tvar']
+  Dir3 (σ=0.0156): [' really', '一下', ' already', '过程中', '知道', '的方法', '的过程中', '就会']
+

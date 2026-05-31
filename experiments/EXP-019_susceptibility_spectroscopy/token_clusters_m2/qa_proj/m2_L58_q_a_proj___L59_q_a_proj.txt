@@ -1,0 +1,27 @@
+L58_q_a_proj <-> L59_q_a_proj (cos=0.220)
+150 tokens, 8 clusters
+
+Cluster 1 (31 tokens):
+   Psalm,  Left,  Dream,  Monster, Samuel,  Alber,  Oscar,  Cathedral,  Nancy,  Johnny,  Dun,  Gand,  Rex,  Dor,  hiking,  Iceland,  Lud,  Welsh,  Douglas, Los,  Sandra, Mount, hound,  Gef,  Lawrence,  Blind, Repo,  Walt,  Nigel,  Beat,  Mountain
+
+Cluster 2 (24 tokens):
+  _labels,  points, _insert, _TR, country,  err, points, confidence, _instance, _if, .args, _ch, _row, _numbers, _ST, _sp, ampions, _create, _keys, _label, .djvu, Names, _sample, _ad
+
+Cluster 3 (8 tokens):
+   Listing, Filter,  backend,  Hier,  tier,  Fiber,  freezer, ipheral
+
+Cluster 4 (25 tokens):
+   Different,  current,  integrity,  interesting,  perceived, -positive, standard,  traffic,  classic,  marvelous, .main,  wonderful, -standard,  seldom,  fatal,  temporal,  surreal,  donated,  pleasant,  largest,  Stand,  median,  electric,  conflicting, /master
+
+Cluster 5 (33 tokens):
+  vu, 400, fan,  Television,  VM,  Vice, PY, ADS, MY, Modal, VIP, kit, quit, ğı, emic, vp, 534,  WA, vv, rv, UX, 034, chan, hua, {S, ARM, nav, Studio, antis, 391, -gray, -TV, QV
+
+Cluster 6 (5 tokens):
+  (auto,  {:, (true, (mod, ).
+
+Cluster 7 (3 tokens):
+   wow,  tow,  voll
+
+Cluster 8 (21 tokens):
+   lime,  bron,  resin,  Pro,  barn,  Mari,  ris,  meth,  re,  techn,  cos,  fear,  syn,  lib,  moss,  spect,  hon, Syn,  sin,  ap,  chlorine
+

@@ -1,0 +1,33 @@
+Head Coherence Clusters: M1 Layer 1
+============================================================
+
+Frobenius norm stats: mean=0.2088, std=0.0485
+Heads >2sigma: [39, 41, 42, 84]
+Heads >1sigma: [4, 6, 26, 36, 52, 55, 67, 69, 71, 87, 101, 102, 113, 115, 116, 117, 120, 122]
+
+8 clusters found:
+
+  Cluster 35 (2 heads, avg_cos=0.512):
+    H0(-0.8s), H66(-0.8s)
+
+  Cluster 95 (2 heads, avg_cos=0.525):
+    H1(-1.3s), H33(-0.4s)
+
+  Cluster 15 (2 heads, avg_cos=0.501):
+    H18(0.3s), H26(1.8s)
+
+  Cluster 103 (2 heads, avg_cos=-0.538):
+    H20(0.2s), H25(0.8s)
+
+  Cluster 111 (2 heads, avg_cos=-0.510):
+    H58(-0.3s), H77(-1.0s)
+
+  Cluster 49 (2 heads, avg_cos=-0.537):
+    H59(-0.8s), H60(-0.9s)
+
+  Cluster 109 (2 heads, avg_cos=0.598):
+    H72(-0.3s), H123(-0.3s)
+
+  Cluster 78 (2 heads, avg_cos=0.509):
+    H92(-0.8s), H110(0.8s)
+

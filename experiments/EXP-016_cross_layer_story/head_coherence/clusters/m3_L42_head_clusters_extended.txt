@@ -1,0 +1,8 @@
+Head Coherence Clusters: M3 Layer 42
+============================================================
+
+Frobenius norm stats: mean=0.4511, std=0.0517
+Heads >2sigma: [31, 66, 84]
+Heads >1sigma: [14, 18, 32, 41, 44, 46, 56, 58, 64, 101, 104, 106, 114, 115, 119, 126]
+
+No clusters found.

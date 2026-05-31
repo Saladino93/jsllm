@@ -1,0 +1,563 @@
+M1 Token Census — Layer 5
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ access                           128 100.0%
+ next                             128 100.0%
+ past                             128 100.0%
+ original                         126  98.4%
+ below                            123  96.1%
+不到                                121  94.5%
+€™                                120  93.8%
+空间                                120  93.8%
+‟                                 119  93.0%
+next                              116  90.6%
+256                               114  89.1%
+点                                 110  85.9%
+.google                           107  83.6%
+ size                             105  82.0%
+ more                             103  80.5%
+\\({}_{\\                         102  79.7%
+ own                              101  78.9%
+}[]{                               92  71.9%
+ many                              92  71.9%
+                                   83  64.8%
+ way                               80  62.5%
+ follow                            78  60.9%
+ recent                            72  56.2%
+_size                              67  52.3%
+细胞                                 65  50.8%
+ only                              61  47.7%
+less                               60  46.9%
+007                                57  44.5%
+ root                              55  43.0%
+ time                              55  43.0%
+ lead                              50  39.1%
+Act                                50  39.1%
+37                                 50  39.1%
+ on                                48  37.5%
+.Un                                47  36.7%
+ about                             42  32.8%
+ from                              38  29.7%
+ all                               36  28.1%
+ first                             30  23.4%
+ four                              27  21.1%
+选择                                 27  21.1%
+\xa0\xa0\xa0                       25  19.5%
+.core                              24  18.8%
+ another                           23  18.0%
+)\\]                               22  17.2%
+ွ                                  22  17.2%
+��                                 20  15.6%
+ previous                          19  14.8%
+尔斯                                 19  14.8%
+ after                             18  14.1%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ each                              58  45.3%
+ several                           51  39.8%
+(\n                                46  35.9%
+.util                              46  35.9%
+ including                         45  35.2%
+ any                               45  35.2%
+\n \n                              44  34.4%
+ some                              44  34.4%
+ \n                                42  32.8%
+Footnote                           42  32.8%
+ both                              42  32.8%
+ instead                           42  32.8%
+()\n                               40  31.2%
+The                                40  31.2%
+Two                                40  31.2%
+Only                               40  31.2%
+，\n                                39  30.5%
+First                              38  29.7%
+Out                                37  28.9%
+including                          37  28.9%
+>\n                                36  28.1%
+\n                                 36  28.1%
+ all                               36  28.1%
+Four                               35  27.3%
+,\n                                34  26.6%
+Another                            34  26.6%
+();\n                              33  25.8%
+ every                             33  25.8%
+\n                                 31  24.2%
+:\n                                31  24.2%
+>(                                 29  22.7%
+ \\\\                              27  21.1%
+ \n\n                              27  21.1%
+()\n\n                             27  21.1%
+ Another                           27  21.1%
+,\n                                26  20.3%
+ -->\n                             26  20.3%
+\r                                 26  20.3%
+Not                                26  20.3%
+Who                                26  20.3%
+Well                               26  20.3%
+\n                                 25  19.5%
+                                   25  19.5%
+ New                               25  19.5%
+、\n\n                              24  18.8%
+ this                              24  18.8%
+plus                               24  18.8%
+Text                               24  18.8%
+ "\n                               23  18.0%
+utils                              23  18.0%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ \n                                83  64.8%
+\n \n                              80  62.5%
+，\n                                74  57.8%
+\n                                 69  53.9%
+(\n                                68  53.1%
+、\n                                63  49.2%
+()\n                               60  46.9%
+ \n\n                              57  44.5%
+>\n                                56  43.8%
+\n                                 56  43.8%
+,\n                                56  43.8%
+,\n                                50  39.1%
+();\n                              48  37.5%
+:\n                                48  37.5%
+\r                                 48  37.5%
+ \\\\                              46  35.9%
+、\n\n                              46  35.9%
+ }\n                               45  35.2%
+\n                                 45  35.2%
+  \n                               43  33.6%
+ "\n                               40  31.2%
+],\n                               38  29.7%
+,\n\n                              38  29.7%
+\n\n                               38  29.7%
+,\n                                35  27.3%
+，\n\n                              34  26.6%
+:\n                                33  25.8%
+);\n                               32  25.0%
+）\n                                32  25.0%
+()\n\n                             31  24.2%
+>\n\n                              31  24.2%
+ \\\\\n\n                          29  22.7%
+;\n                                29  22.7%
+]\n                                28  21.9%
+>\n                                28  21.9%
+ {\n                               27  21.1%
+。”\n                               26  20.3%
+ -->\n                             25  19.5%
+.util                              24  18.8%
+ each                              24  18.8%
+);\n                               24  18.8%
+}\n                                23  18.0%
+：\n                                22  17.2%
+!"\n                               22  17.2%
+ any                               21  16.4%
+%\n                                21  16.4%
+ %}\n                              21  16.4%
+Four                               19  14.8%
+ all                               19  14.8%
+including                          18  14.1%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+(\n                                35  27.3%
+\r                                 28  21.9%
+\n \n                              27  21.1%
+>\n                                23  18.0%
+\n                                 22  17.2%
+ \n                                21  16.4%
+();\n                              19  14.8%
+\n                                 18  14.1%
+);\n                               17  13.3%
+，\n                                17  13.3%
+ all                               16  12.5%
+ each                              16  12.5%
+,\n                                16  12.5%
+()\n                               16  12.5%
+ \\\\                              16  12.5%
+ %}\n                              15  11.7%
+ this                              15  11.7%
+ \n\n                              15  11.7%
+]\n                                14  10.9%
+());\n                             14  10.9%
+)\n                                14  10.9%
+                                   14  10.9%
+ some                              13  10.2%
+ these                             13  10.2%
+、\n                                13  10.2%
+\n                                 13  10.2%
+.\n                                13  10.2%
+ @@                                12   9.4%
+>>>>                               12   9.4%
+ italic                            12   9.4%
+;\n                                12   9.4%
+ the                               11   8.6%
+,\n                                11   8.6%
+ -->\n                             11   8.6%
+ any                               11   8.6%
+__(                                11   8.6%
+\\({}_{                            11   8.6%
+ "\\                               11   8.6%
+ }\n                               11   8.6%
+ various                           11   8.6%
+);\n                               11   8.6%
+�                                  10   7.8%
+,\n                                10   7.8%
+>\n                                10   7.8%
+’                                  10   7.8%
+>\n\n                              10   7.8%
+}\\)\\(\\                          10   7.8%
+ \\\\\n\n                          10   7.8%
+ be                                10   7.8%
+Footnote                            9   7.0%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+(\n                                     151  29.5%
+\n \n                                   151  29.5%
+ \n                                     146  28.5%
+ many                                   134  26.2%
+，\n                                     131  25.6%
+ access                                 129  25.2%
+ next                                   128  25.0%
+ past                                   128  25.0%
+ original                               127  24.8%
+€™                                      126  24.6%
+ below                                  124  24.2%
+不到                                      123  24.0%
+\n                                      122  23.8%
+‟                                       121  23.6%
+空间                                      120  23.4%
+next                                    116  22.7%
+ more                                   116  22.7%
+()\n                                    116  22.7%
+>\n                                     115  22.5%
+256                                     114  22.3%
+点                                       110  21.5%
+\\({}_{\\                               109  21.3%
+.google                                 107  20.9%
+ all                                    107  20.9%
+,\n                                     106  20.7%
+ size                                   105  20.5%
+\n                                      105  20.5%
+\r                                      102  19.9%
+ own                                    101  19.7%
+();\n                                   100  19.5%
+ each                                    99  19.3%
+ \n\n                                    99  19.3%
+、\n                                      98  19.1%
+}[]{                                     96  18.8%
+ \\\\                                    92  18.0%
+ any                                     91  17.8%
+\n                                       88  17.2%
+:\n                                      87  17.0%
+,\n                                      86  16.8%
+                                         83  16.2%
+ way                                     80  15.6%
+ several                                 79  15.4%
+、\n\n                                    79  15.4%
+ follow                                  78  15.2%
+ recent                                  76  14.8%
+.util                                    76  14.8%
+ some                                    74  14.5%
+ "\n                                     72  14.1%
+  \n                                     72  14.1%
+ }\n                                     72  14.1%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+Cluster 41 (17 heads): [10, 39, 43, 47, 61, 64, 75, 76, 77, 83, 88, 90, 107, 116, 117, 122, 126]
+  Shared Dir0 tokens: [' access', ' next', ' more', ' past', '不到']
+  H 10 (frob=0.218): [' next', ' more', ' many', ' access', ' all']
+  H 39 (frob=0.345): [' next', '‟', ' access', '空间', '不到']
+  H 43 (frob=0.335): [' next', ' more', 'Act', '不到', '\\\\({}_{\\\\']
+  H 47 (frob=0.182): [' next', '€™', '‟', ' access', '空间']
+  H 61 (frob=0.421): [' next', 'Act', '\\\\({}_{\\\\', '不到', ' more']
+  H 64 (frob=0.235): [' next', ' more', ' access', '‟', ' many']
+  H 75 (frob=0.258): [' next', ' more', ' access', ' on', '不到']
+  H 76 (frob=0.308): [' next', '‟', ' access', '€™', '空间']
+  H 77 (frob=0.171): [' next', ' access', '‟', ' original', ' more']
+  H 83 (frob=0.198): [' next', '‟', '€™', ' access', '空间']
+
+Cluster 38 (11 heads): [27, 44, 57, 65, 72, 74, 98, 103, 105, 106, 112]
+  Shared Dir0 tokens: [' access', ' next', '空间', ' more', ' past', '不到', ' original', '‟']
+  H 27 (frob=0.296): ['‟', ' next', ' access', '€™', '.google']
+  H 44 (frob=0.282): [' next', '‟', '€™', '\\\\({}_{\\\\', ' access']
+  H 57 (frob=0.245): [' next', '\\\\({}_{\\\\', ' more', '不到', '256']
+  H 65 (frob=0.526): [' next', '‟', ' access', '空间', '不到']
+  H 72 (frob=0.226): [' next', ' access', '‟', '€™', '空间']
+  H 74 (frob=0.369): [' next', '‟', ' access', '.google', '€™']
+  H 98 (frob=0.166): [' next', '‟', '不到', ' more', ' access']
+  H103 (frob=0.254): [' next', ' more', '不到', ' access', ' many']
+  H105 (frob=0.499): [' next', '‟', ' access', '€™', '空间']
+  H106 (frob=0.118): [' next', '‟', '不到', '空间', ' access']
+
+Cluster 17 (10 heads): [13, 34, 37, 55, 60, 69, 78, 97, 114, 115]
+  Shared Dir0 tokens: [' next', ' access', '空间', ' past', '不到', '€™', '‟']
+  H 13 (frob=0.167): [' next', '‟', ' access', '不到', '€™']
+  H 34 (frob=0.503): [' next', '‟', ' access', '€™', '空间']
+  H 37 (frob=0.195): ['‟', '€™', ' next', ' access', '.google']
+  H 55 (frob=0.178): [' next', '‟', ' access', '空间', '€™']
+  H 60 (frob=0.208): [' next', '‟', '€™', '\\\\({}_{\\\\', '空间']
+  H 69 (frob=0.207): [' next', '‟', ' access', '空间', '€™']
+  H 78 (frob=0.206): ['‟', '.google', '空间', ' access', '€™']
+  H 97 (frob=0.216): [' next', '‟', ' access', '€™', '空间']
+  H114 (frob=0.298): [' next', '‟', 'Act', '空间', '不到']
+  H115 (frob=0.149): ['‟', ' next', '空间', ' access', '€™']
+
+Cluster 40 (9 heads): [3, 8, 19, 29, 40, 48, 80, 101, 109]
+  Shared Dir0 tokens: [' access', ' next', '空间', ' past', '不到', '€™', '‟']
+  H  3 (frob=0.275): ['‟', ' next', '\\\\({}_{\\\\', '空间', '€™']
+  H  8 (frob=0.136): [' next', '‟', ' access', '€™', '空间']
+  H 19 (frob=0.177): ['‟', '€™', ' next', '空间', 'Act']
+  H 29 (frob=0.297): ['‟', '€™', '空间', ' next', '不到']
+  H 40 (frob=0.164): [' next', '‟', ' access', '€™', '.google']
+  H 48 (frob=0.256): [' next', '‟', '€™', '空间', ' access']
+  H 80 (frob=0.258): [' next', '‟', ' access', '€™', '.google']
+  H101 (frob=0.140): [' next', '‟', '€™', '空间', '不到']
+  H109 (frob=0.381): ['‟', ' next', '空间', '€™', ' access']
+
+Cluster 18 (6 heads): [9, 25, 54, 89, 96, 110]
+  Shared Dir0 tokens: [' next', ' access', ' past', ' many', ' original', '€™']
+  H  9 (frob=0.365): ['‟', '€™', ' next', ' access', '.google']
+  H 25 (frob=0.314): [' next', ' access', ' many', 'less', 'next']
+  H 54 (frob=0.459): [' next', '‟', '€™', ' access', '空间']
+  H 89 (frob=0.361): [' next', ' access', '‟', '€™', ' original']
+  H 96 (frob=0.324): [' next', '‟', '€™', ' access', ' original']
+  H110 (frob=0.279): [' next', '€™', '‟', ' access', 'less']
+
+Cluster 16 (6 heads): [14, 18, 26, 53, 70, 113]
+  Shared Dir0 tokens: [' below', ' next', ' access', ' past', ' original', '€™', '‟']
+  H 14 (frob=0.400): [' next', ' access', '€™', '‟', ' original']
+  H 18 (frob=0.314): [' next', ' more', ' access', '\\\\({}_{\\\\', '‟']
+  H 26 (frob=0.238): [' next', ' access', '‟', '不到', ' original']
+  H 53 (frob=0.258): [' next', '€™', '‟', ' access', '.google']
+  H 70 (frob=0.478): [' next', ' access', ' more', '‟', '不到']
+  H113 (frob=0.220): [' next', ' more', ' access', ' many', '‟']
+
+Cluster 37 (6 heads): [16, 32, 56, 62, 92, 94]
+  Shared Dir0 tokens: ['', '\\\\({}_{\\\\', ' next', ' access', '空间', '不到', '€™', '‟']
+  H 16 (frob=0.158): ['‟', ' next', '空间', ' access', '']
+  H 32 (frob=0.243): ['‟', '空间', ' next', '€™', '不到']
+  H 56 (frob=0.678): [' next', '‟', '\\\\({}_{\\\\', ' access', '空间']
+  H 62 (frob=0.215): ['Act', ' next', '\\\\({}_{\\\\', '‟', '不到']
+  H 92 (frob=0.314): [' next', 'Act', '‟', '\\\\({}_{\\\\', '不到']
+  H 94 (frob=0.414): ['‟', '\\\\({}_{\\\\', '空间', '', ' next']
+
+Cluster 29 (5 heads): [73, 79, 87, 118, 121]
+  Shared Dir0 tokens: ['\\\\({}_{\\\\', ' own', ' all', ' below', ' only', ' next', ' access', ' more', '不到', ' many']
+  H 73 (frob=0.351): [' next', ' more', ' only', ' many', '\\\\({}_{\\\\']
+  H 79 (frob=0.482): [' next', ' more', ' many', ' only', '不到']
+  H 87 (frob=0.261): [' next', ' more', ' many', ' all', ' only']
+  H118 (frob=0.222): [' next', ' more', '\\\\({}_{\\\\', ' all', ' only']
+  H121 (frob=0.380): [' next', ' more', ' many', ' all', ' only']
+
+Cluster 15 (4 heads): [38, 42, 45, 124]
+  Shared Dir0 tokens: ['', '细胞', ' access', ' next', '空间', '.google', '不到', '€™', '‟']
+  H 38 (frob=0.311): ['‟', '空间', '€™', ' next', '.google']
+  H 42 (frob=0.305): ['‟', '空间', '€™', '', '.google']
+  H 45 (frob=0.303): ['‟', '€™', '空间', '.google', ' access']
+  H124 (frob=0.241): ['‟', ' next', '空间', '', '\\\\({}_{\\\\']
+
+Cluster 11 (3 heads): [2, 33, 63]
+  Shared Dir0 tokens: ['next', ' next', ' access', '空间', 'less', '.google', ' original', '.core', '€™', '‟']
+  H  2 (frob=0.479): ['‟', '€™', ' access', ' next', '空间']
+  H 33 (frob=0.353): ['‟', '€™', ' next', '空间', ' access']
+  H 63 (frob=0.281): ['‟', ' access', ' next', '€™', '空间']
+
+Cluster 36 (3 heads): [11, 15, 20]
+  Shared Dir0 tokens: ['', '.Un', '细胞', ' next', ' access', '空间', '.google', '不到', '€™', '‟']
+  H 11 (frob=0.511): ['‟', '€™', '空间', ' ||\\n', ' ()\\n']
+  H 15 (frob=0.313): [' next', '‟', '空间', '€™', '不到']
+  H 20 (frob=0.204): ['‟', '空间', ' next', '€™', ' access']
+
+Cluster 24 (3 heads): [12, 52, 120]
+  Shared Dir0 tokens: [' own', ' below', ' access', ' next', '空间', ' more', ' past', '不到', ' original', '€™']
+  H 12 (frob=0.299): [' next', ' access', '‟', '€™', ' more']
+  H 52 (frob=0.241): [' next', '‟', '\\\\({}_{\\\\', ' access', '空间']
+  H120 (frob=0.331): [' next', '‟', '不到', ' more', '€™']
+
+Cluster 10 (3 heads): [17, 91, 95]
+  Shared Dir0 tokens: ['\\\\({}_{\\\\', '256', 'next', ' next', ' access', '.google', ' past', ' original', '€™', '‟']
+  H 17 (frob=0.211): [' next', ' access', '256', '\\\\({}_{\\\\', ' original']
+  H 91 (frob=0.278): ['‟', ' access', ' next', '空间', '.google']
+  H 95 (frob=0.225): [' next', ' access', '\\\\({}_{\\\\', '不到', '‟']
+
+Cluster 39 (3 heads): [31, 59, 108]
+  Shared Dir0 tokens: ['256', ' below', ' next', ' access', ' more', '.google', '不到', ' many', ' original', ' past']
+  H 31 (frob=0.207): [' next', ' access', '\\\\({}_{\\\\', '‟', ' more']
+  H 59 (frob=0.172): [' next', ' access', '€™', '‟', ' more']
+  H108 (frob=0.208): [' next', ' access', '‟', '.google', ' many']
+
+Cluster 34 (3 heads): [36, 81, 82]
+  Shared Dir0 tokens: ['', '\\\\({}_{\\\\', '.Un', '细胞', 'Act', ' next', '空间', '.google', '€™', '‟']
+  H 36 (frob=0.380): ['‟', '€™', '空间', '', '.google']
+  H 81 (frob=0.371): ['‟', '空间', '€™', ' next', '']
+  H 82 (frob=0.297): ['‟', '空间', ' next', '€™', '']
+
+Cluster 3 (2 heads): [4, 119]
+  Shared Dir0 tokens: ['\\\\({}_{\\\\', ' own', ' all', ' only', ' next', ' access', ' more', ' from', ' past', '不到']
+  H  4 (frob=0.400): [' next', ' more', ' all', ' many', ' only']
+  H119 (frob=0.443): [' next', ' more', ' only', '\\\\({}_{\\\\', '不到']
+
+Cluster 35 (2 heads): [6, 125]
+  Shared Dir0 tokens: ['256', '细胞', ' access', ' next', '空间', '.google', '不到', ' past', ' original', '点']
+  H  6 (frob=0.262): ['‟', ' next', '空间', '€™', '.google']
+  H125 (frob=0.187): ['‟', ' next', '空间', '€™', '不到']
+
+Cluster 13 (2 heads): [23, 123]
+  Shared Dir0 tokens: ['', '256', 'next', ' below', ' access', ' next', '空间', '.google', '不到', ' past']
+  H 23 (frob=0.229): [' next', '‟', ' access', '€™', '空间']
+  H123 (frob=0.409): [' next', '‟', ' access', '€™', '空间']
+
+Cluster 20 (2 heads): [46, 100]
+  Shared Dir0 tokens: ['', '}[]{', ' access', ' next', '空间', '.google', '不到', ' past', ' original', '点']
+  H 46 (frob=0.164): ['‟', ' next', '空间', ' access', '€™']
+  H100 (frob=0.198): ['‟', '空间', '€™', ' next', '.google']
+
+Cluster 7 (2 heads): [49, 93]
+  Shared Dir0 tokens: [' below', '}[]{', 'next', ' next', ' access', '空间', 'less', '.google', ' original', ' recent']
+  H 49 (frob=0.263): [' next', ' access', '‟', '€™', 'less']
+  H 93 (frob=0.222): ['‟', '€™', ' access', ' next', '.google']
+
+Cluster 25 (2 heads): [50, 67]
+  Shared Dir0 tokens: ['\\\\({}_{\\\\', ' own', ' below', ' only', ' next', ' access', ' more', '不到', ' many', ' original']
+  H 50 (frob=0.262): [' next', ' access', '\\\\({}_{\\\\', ' more', ' on']
+  H 67 (frob=0.251): [' next', ' more', '\\\\({}_{\\\\', ' on', ' only']
+
+Cluster 28 (2 heads): [71, 104]
+  Shared Dir0 tokens: ['\\\\({}_{\\\\', ' only', 'Act', ' next', ' about', ' more', '不到', ' on', '€™', ' \\\\\\\\']
+  H 71 (frob=0.274): [' next', 'Act', '\\\\({}_{\\\\', ' on', ' more']
+  H104 (frob=0.288): [' next', '\\\\({}_{\\\\', 'Act', ' more', ' on']
+
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 56 (frob=0.6783, 3.9σ):
+  Dir0 (σ=0.6559): [' next', '‟', '\\\\({}_{\\\\', ' access', '空间', '€™', '不到', '.google']
+  Dir1 (σ=0.0904): [' each', ' some', ' several', ' many', ' any', ' every', ' previous', ' another']
+  Dir2 (σ=0.0674): ['\\n \\n', '(\\n', '，\\n', ' \\n', '()\\n', '>\\n', '()\\n\\n', '、\\n']
+  Dir3 (σ=0.0338): [' ', '的', ' </', ' be', '  ', ' was', '时', '了']
+
+Head 65 (frob=0.5256, 2.4σ):
+  Dir0 (σ=0.4982): [' next', '‟', ' access', '空间', '不到', '€™', ' more', '\\\\({}_{\\\\']
+  Dir1 (σ=0.0666): ['.util', ' several', 'Two', ' previous', 'First', 'Only', ' each', 'Out']
+  Dir2 (σ=0.0637): [' \\n', '\\n \\n', '(\\n', '，\\n', '\\n', '()\\n', '\\r', '\\n']
+  Dir3 (σ=0.0306): ['begingroup', '().', ' al', '-induced', 'CL', ' html', '_ST', ' São']
+
+Head 11 (frob=0.5112, 2.3σ):
+  Dir0 (σ=0.4832): ['‟', '€™', '空间', ' ||\\n', ' ()\\n', '', ' next', '.google']
+  Dir1 (σ=0.0780): [' each', ' several', 'Footnote', ' any', ' how', ' all', ' for', 'Out']
+  Dir2 (σ=0.0527): ['\\r', '\\n \\n', ' \\n', '>\\n', '，\\n', '\\n', '\\n', ' \\\\\\\\']
+  Dir3 (σ=0.0320): ['¯', ' italic', 'overline', 'AAAAAAAA', '相同的', ' hadn', ' �', '峻']
+
+Head 34 (frob=0.5032, 2.2σ):
+  Dir0 (σ=0.4775): [' next', '‟', ' access', '€™', '空间', '.google', ' original', '不到']
+  Dir1 (σ=0.0736): ['(\\n', '()\\n', ' \\n', '();\\n', '\\n \\n', ' \\\\\\\\', ':\\n', '>\\n']
+  Dir2 (σ=0.0448): ['Four', '.util', 'plus', 'While', 'Another', 'including', 'Plus', 'Two']
+  Dir3 (σ=0.0309): ['_\\\\', '("\\\\', ' "\\\\', '(`', 'ない', '\\\\({}_{\\\\', '=/', '\\\\mathbb']
+
+Head 105 (frob=0.4993, 2.1σ):
+  Dir0 (σ=0.4769): [' next', '‟', ' access', '€™', '空间', ' more', '.google', ' original']
+  Dir1 (σ=0.0614): [' each', 'The', ' including', 'Who', '>(', 'Not', ' any', ' some']
+  Dir2 (σ=0.0342): ['\\n', '>\\n', ' \\n', '()\\n', '(\\n', ' {\\n', '\\n \\n', ',\\n']
+  Dir3 (σ=0.0277): ['>>>>', ' Institute', '|}{', '-ing', ' \\\\\\\\\\n\\n', ' }\\\\', '(()', ' PMID']
+
+Head 79 (frob=0.4818, 2.0σ):
+  Dir0 (σ=0.4707): [' next', ' more', ' many', ' only', '不到', ' access', ' all', ' own']
+  Dir1 (σ=0.0415): ['The', ' each', ' New', ' both', ' including', ' some', ' several', ' any']
+  Dir2 (σ=0.0287): ['\\n \\n', '，\\n', '(\\n', ' \\n', '、\\n', '、\\n\\n', ',\\n', '，\\n\\n']
+  Dir3 (σ=0.0230): ['有些', 'subscript�', ' another', '_is', 'Another', ' "../../', '很多', ' Another']
+
+Head 2 (frob=0.4792, 1.9σ):
+  Dir0 (σ=0.4507): ['‟', '€™', ' access', ' next', '空间', '.google', ')\\\\]', '\\xa0\\xa0\\xa0']
+  Dir1 (σ=0.0789): ['>\\n', ' -->\\n', '\\n \\n', ' @@', ' \\n', '\\n', '，\\n', ',\\n']
+  Dir2 (σ=0.0456): ['(\\n', '();\\n', '()\\n', ' &&\\n', ' "\\n', '.\\n', '({\\n', ');\\n']
+  Dir3 (σ=0.0318): ['_ST', '_v', '_CON', '分类', ' location', '瞭', 'ビ', '.use']
+
+Head 70 (frob=0.4775, 1.9σ):
+  Dir0 (σ=0.4320): [' next', ' access', ' more', '‟', '不到', ' original', ' past', '\\\\({}_{\\\\']
+  Dir1 (σ=0.0878): ['\\n \\n', '(\\n', ' \\n', '()\\n', '，\\n', '>\\n', '\\r', '\\n']
+  Dir2 (σ=0.0578): ['.util', 'plus', 'including', 'CL', '_ST', '_IN', 'std', 'Only']
+  Dir3 (σ=0.0346): ['The', ' http', 'Footnote', '................................................................', ' https', ' four', '.The', ' various']
+
+Head 21 (frob=0.4713, 1.9σ):
+  Dir0 (σ=0.4582): ['‟', ' next', '空间', '\\\\({}_{\\\\', '€™', ' access', '', '不到']
+  Dir1 (σ=0.0603): ['.util', '802', 'Text', 'lib', 'Four', 'head', 'utils', 'plus']
+  Dir2 (σ=0.0256): ['\\r', '(\\n', '\\n \\n', '>>>>', '\\t   ', ':\\n', ' |\\n', '>;\\n']
+  Dir3 (σ=0.0212): [' this', ' without', ' using', ' these', ' instead', ' Without', ' How', ' while']
+
+Head 54 (frob=0.4592, 1.7σ):
+  Dir0 (σ=0.4289): [' next', '‟', '€™', ' access', '空间', ' original', '.google', ' below']
+  Dir1 (σ=0.0846): ['(\\n', '\\n \\n', ' \\n', '()\\n', '();\\n', '>\\n', ':\\n', '\\n']
+  Dir2 (σ=0.0565): ['Which', 'Four', 'First', 'Well', 'CrossRef', 'Two', 'Make', 'Another']
+  Dir3 (σ=0.0285): [' \\\\\\\\', '\\\\({}_{', ')&', '。\\n\\n', ' ---|---|---|---|---', ']\\n\\n', '。\\n', '。)\\n\\n']
+
+Head 0 (frob=0.4523, 1.7σ):
+  Dir0 (σ=0.4020): ['‟', '€™', ' access', '.google', '}[]{', '空间', ' next', '.core']
+  Dir1 (σ=0.1401): ['>\\n', '(\\n', ' \\n', '\\n \\n', '();\\n', ' \\\\\\\\', '()\\n', ' \\n\\n']
+  Dir2 (σ=0.0720): ['Out', 'including', 'Which', 'Output', 'Two', '.util', 'PRO', 'First']
+  Dir3 (σ=0.0317): ['ƒ', ' под', '\\ufeffusing', ' industrial', '∞', '(`', 'Footnote', ' ▽']
+
+Head 119 (frob=0.4425, 1.6σ):
+  Dir0 (σ=0.4082): [' next', ' more', ' only', '\\\\({}_{\\\\', '不到', ' on', ' all', 'Act']
+  Dir1 (σ=0.0868): ['.util', 'Four', 'Two', 'First', 'Text', 'utils', 'Only', 'Another']
+  Dir2 (σ=0.0636): ['(\\n', '\\n \\n', '，\\n', '()\\n', '、\\n', ' \\n', '(),\\n', ' ||\\n']
+  Dir3 (σ=0.0272): ['subscript�', '197', '198', ' Figure', '199', ' italic', '196', '200']
+
+Head 61 (frob=0.4208, 1.4σ):
+  Dir0 (σ=0.3816): [' next', 'Act', '\\\\({}_{\\\\', '不到', ' more', '‟', '空间', '€™']
+  Dir1 (σ=0.0903): ['(\\n', '                          ', ' this', ' each', '                         ', 'Footnote', ' all', ' their']
+  Dir2 (σ=0.0658): ['\\r', '，\\n', '\\n \\n', '、\\n\\n', '>\\n', ',\\n', '}\\n', '],\\n']
+  Dir3 (σ=0.0305): [' &\\\\', '\\t\\t   ', '}&', '.\\n', ' \\\\\\\\', '}&\\\\', '&\\\\', ' \\\\[']
+
+Head 5 (frob=0.4170, 1.3σ):
+  Dir0 (σ=0.3987): [' next', ' more', ' many', ' access', ' all', '不到', ' own', ' only']
+  Dir1 (σ=0.0633): ['(\\n', '>(', '                          ', '                         ', '       \\n', 'The', ' each', 'Footnote']
+  Dir2 (σ=0.0325): ['，\\n', '\\n \\n', ' %}\\n', '、\\n', ',\\n', '、\\n\\n', '>\\n', ' \\n']
+  Dir3 (σ=0.0248): [' {{', '_h', ' \\n \\n \\n \\n', '不', '_de', '_al', ' \\\\[\\\\', ' {:']
+
+Head 94 (frob=0.4141, 1.3σ):
+  Dir0 (σ=0.3923): ['‟', '\\\\({}_{\\\\', '空间', '', ' next', '€™', 'Act', '.google']
+  Dir1 (σ=0.0630): [' each', ' many', ' several', ' some', ' any', ' another', ' including', ' every']
+  Dir2 (σ=0.0396): [' \\n', ' \\\\\\\\', '\\n \\n', '，\\n', '(\\n', '>\\n', ' \\n\\n', '\\n']
+  Dir3 (σ=0.0268): ['(\\n', '\\n \\n', ' ---|---|---|---|---', '}\\\\]', ' ---|---|---|---', ' ---|---|---', '({\\n', '\\n\\n\\n\\n\\n\\n']
+
+Head 123 (frob=0.4086, 1.2σ):
+  Dir0 (σ=0.3891): [' next', '‟', ' access', '€™', '空间', '.google', '不到', '']
+  Dir1 (σ=0.0517): ['(\\n', '.\\n', ' \\\\\\\\\\n\\n', ' \\\\\\\\', ' "\\n', '\\n \\n', ' \\n', '、\\n']
+  Dir2 (σ=0.0345): [' \\n', ' ', ' |', '>\\n', ' ;\\n', ' -->\\n', 'Four', '>\\n']
+  Dir3 (σ=0.0303): ['_ST', '032', '023', '{', '029', '033', '!!!', ' several']
+
+Head 4 (frob=0.4005, 1.2σ):
+  Dir0 (σ=0.3724): [' next', ' more', ' all', ' many', ' only', '\\\\({}_{\\\\', ' own', ' from']
+  Dir1 (σ=0.0588): ['(\\n', '()\\n', '\\n \\n', '    \\n', '%\\n', '({\\n', ' ||\\n', '()\\n\\n']
+  Dir2 (σ=0.0393): ['802', '>\\n', 'Text', '，\\n', '}>\\n', 'lib', '.util', '882']
+  Dir3 (σ=0.0318): ['.se', '   ', '_ST', '见图', '}>\\n', 'Forward', '     ', '\\t']
+
+Head 14 (frob=0.4002, 1.1σ):
+  Dir0 (σ=0.3884): [' next', ' access', '€™', '‟', ' original', ' more', 'next', ' below']
+  Dir1 (σ=0.0449): ['.util', 'console', 'Well', 'utils', 'Throw', 'Four', 'std', 'Just']
+  Dir2 (σ=0.0289): ['\\n \\n', '(\\n', '()\\n', '()\\n\\n', ' "\\n', '))\\n', ' \\\\\\\\\\n\\n', ' \\n']
+  Dir3 (σ=0.0214): ['();\\n', '()\\n', '\\n', '>\\n', '_:', '\\n', '(\\n', ';\\n']
+
+Head 35 (frob=0.3958, 1.1σ):
+  Dir0 (σ=0.3793): [' next', ' more', ' access', ' many', ' original', ' below', ' own', ' past']
+  Dir1 (σ=0.0466): ['Footnote', 'CrossRef', ' Not', 'Not', 'including', 'Just', 'There', '_IN']
+  Dir2 (σ=0.0307): [' \\\\\\\\', '  ', '\\r', ' \\n', ' ', '+\\n', ' \\\\(', '\\n']
+  Dir3 (σ=0.0265): ['>\\n', '()\\n', '\\n \\n', '>\\n\\n', ']\\n', '();\\n', '\\n', '\\n']
+

@@ -1,0 +1,27 @@
+L9_q_a_proj <-> L11_q_a_proj (cos=0.288)
+149 tokens, 8 clusters
+
+Cluster 1 (16 tokens):
+   Lambda, nabla, hana, ogon, \tauto, Iterator, uka, Lambda,  delta, (float,  alpha, simeq, _random, rupal,  umbrella, oodle
+
+Cluster 2 (4 tokens):
+   benefit,  stark,  lesser,  erg
+
+Cluster 3 (32 tokens):
+   equilibrium,  Takeaways, Terms,  among,  curve,  cryptocurrencies,  Hence,  respondents,  editors,  compared,  curves,  theorem,  murine,  rounded,  nucleotide,  prolonged,  warmly,  provincial,  perfectly,  embodiments,  prestigious,  Quantity,  friendly,  modular, amous,  spectral,  Educational,  titled,  quantities,  intense,  wheat,  confined
+
+Cluster 4 (12 tokens):
+  @g, }^, }_, /log, __(, )_, {, .j, /lib, .Log, #ifdef, >\\
+
+Cluster 5 (16 tokens):
+  467, 706, qx, 720, 815, 316, QD, 069, 729, 167, 546, 487, +F, 065, 018, 717
+
+Cluster 6 (29 tokens):
+   drawing, Root, ,  ray,  words,  draw,  Cent,  vis, Sk,  Drawing, S, .display, W, Y, _, g,  percent, question, .dart, vid, 26, -ex, Com,  root, EQ,  em,  bài, using,  Man
+
+Cluster 7 (3 tokens):
+   Dé,  dét,  sé
+
+Cluster 8 (37 tokens):
+   Banks, Tak, coll, Coll,  Jimmy,  Miy,  Vera,  Lac, NS,  Stone,  Sean,  Joe,  Mim, ACC,  Voor, Sean,  Mia,  Tak, take, Take,  Short,  mc,  Jac,  Jason, Such, Jason,  Maya,  Pepper,  Agg,  Gill,  Kendall,  Taylor,  Fernando,  Rec, Real,  Bernard,  Alan
+

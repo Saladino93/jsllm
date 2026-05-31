@@ -1,0 +1,656 @@
+==========================================================================================
+TARGETED TOKEN TRACKING — M3
+==========================================================================================
+
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'banana' (id=51406)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9999 at L7_o_U0
+  Best cos_pct:  0.9996 at L7_o_U0
+  Best comb_pct: 0.9999 at L7_o_U0
+
+  Top layers by dot×cos² percentile:
+    L7_o_U0               pct=0.9999  dot=0.3016  cos=0.042  comb=0.0030  σ=4.81 ★
+    L12_o_U0              pct=0.9976  dot=0.2228  cos=0.031  comb=0.0022  σ=4.00 ★
+    L11_o_U0              pct=0.9964  dot=0.2111  cos=0.030  comb=0.0021  σ=4.07 ★
+    L5_o_U0               pct=0.9962  dot=0.2069  cos=0.029  comb=0.0021  σ=3.97 ★
+    L9_o_U0               pct=0.9962  dot=0.2059  cos=0.029  comb=0.0021  σ=4.54 ★
+    L56_qa_V1             pct=0.9852  dot=0.0872  cos=0.026  comb=0.0009  σ=0.77
+    L60_o_U0              pct=0.9831  dot=0.2074  cos=0.029  comb=0.0021  σ=4.48
+    L19_o_U2              pct=0.9629  dot=0.1458  cos=0.020  comb=0.0015  σ=1.52
+    L4_o_U0               pct=0.9581  dot=0.1294  cos=0.018  comb=0.0013  σ=5.87
+    L51_o_U1              pct=0.9580  dot=0.1438  cos=0.020  comb=0.0014  σ=2.58
+    L1_qa_V1              pct=0.9563  dot=0.0886  cos=0.026  comb=0.0009  σ=0.46
+    L5_o_U2               pct=0.9524  dot=0.1364  cos=0.019  comb=0.0014  σ=1.44
+    L7_qa_V1              pct=0.9513  dot=0.0698  cos=0.021  comb=0.0007  σ=0.56
+    L58_o_U0              pct=0.9467  dot=0.1535  cos=0.022  comb=0.0015  σ=4.39
+    L12_qa_V0             pct=0.9449  dot=0.0607  cos=0.018  comb=0.0006  σ=1.23
+
+  In top 1%: 5/150 layer×dir combos
+  In top 5%: 13/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'bananas' (id=68795)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9937 at L12_qa_V1
+  Best cos_pct:  0.9938 at L12_qa_V1
+  Best comb_pct: 0.9937 at L12_qa_V1
+
+  Top layers by dot×cos² percentile:
+    L12_qa_V1             pct=0.9937  dot=0.1036  cos=0.034  comb=0.0010  σ=0.74 ★
+    L60_o_U0              pct=0.9819  dot=0.2049  cos=0.030  comb=0.0020  σ=4.48
+    L52_qa_V0             pct=0.9796  dot=0.0803  cos=0.026  comb=0.0008  σ=1.63
+    L7_o_U0               pct=0.9771  dot=0.1491  cos=0.021  comb=0.0015  σ=4.81
+    L19_o_U1              pct=0.9741  dot=0.1586  cos=0.023  comb=0.0016  σ=2.78
+    L51_qa_V1             pct=0.9690  dot=0.0706  cos=0.023  comb=0.0007  σ=0.51
+    L54_o_U2              pct=0.9658  dot=0.1575  cos=0.023  comb=0.0016  σ=1.79
+    L56_qa_V1             pct=0.9641  dot=0.0707  cos=0.023  comb=0.0007  σ=0.77
+    L8_qa_V2              pct=0.9606  dot=0.0580  cos=0.019  comb=0.0006  σ=0.25
+    L5_o_U0               pct=0.9597  dot=0.1267  cos=0.018  comb=0.0013  σ=3.97
+    L56_qa_V0             pct=0.9584  dot=0.0667  cos=0.022  comb=0.0007  σ=1.90
+    L12_o_U0              pct=0.9562  dot=0.1260  cos=0.018  comb=0.0013  σ=4.00
+    L12_qa_V0             pct=0.9538  dot=0.0641  cos=0.021  comb=0.0006  σ=1.23
+    L10_qa_V2             pct=0.9478  dot=0.0621  cos=0.020  comb=0.0006  σ=0.35
+    L54_o_U1              pct=0.9471  dot=0.1498  cos=0.022  comb=0.0015  σ=1.96
+
+  In top 1%: 1/150 layer×dir combos
+  In top 5%: 13/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: '.math' (id=83493)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9929 at L56_qa_V1
+  Best cos_pct:  0.9999 at L60_qa_V0
+  Best comb_pct: 0.9929 at L56_qa_V1
+
+  Top layers by dot×cos² percentile:
+    L56_qa_V1             pct=0.9929  dot=0.0988  cos=0.026  comb=0.0010  σ=0.77 ★
+    L2_qa_V2              pct=0.9863  dot=0.1334  cos=0.036  comb=0.0013  σ=0.15
+    L55_qa_V1             pct=0.9796  dot=0.0874  cos=0.023  comb=0.0009  σ=0.77
+    L4_qa_V2              pct=0.9788  dot=0.0806  cos=0.022  comb=0.0008  σ=0.11
+    L9_o_U1               pct=0.9748  dot=0.1495  cos=0.023  comb=0.0015  σ=2.04
+    L54_o_U1              pct=0.9647  dot=0.1674  cos=0.026  comb=0.0017  σ=1.96
+    L58_o_U1              pct=0.9646  dot=0.1694  cos=0.027  comb=0.0017  σ=1.91
+    L0_qa_V2              pct=0.9600  dot=0.0627  cos=0.017  comb=0.0006  σ=0.13
+    L12_qa_V1             pct=0.9569  dot=0.0697  cos=0.019  comb=0.0007  σ=0.74
+    L19_qa_V1             pct=0.9504  dot=0.0584  cos=0.016  comb=0.0006  σ=0.53
+    L53_o_U0              pct=0.9475  dot=0.1378  cos=0.022  comb=0.0014  σ=4.01
+    L59_o_U2              pct=0.9290  dot=0.1451  cos=0.023  comb=0.0015  σ=1.60
+    L3_o_U2               pct=0.9177  dot=0.1096  cos=0.017  comb=0.0011  σ=1.33
+    L6_qa_V2              pct=0.9164  dot=0.0574  cos=0.015  comb=0.0006  σ=0.13
+    L1_o_U1               pct=0.9116  dot=0.1032  cos=0.016  comb=0.0010  σ=0.76
+
+  In top 1%: 1/150 layer×dir combos
+  In top 5%: 10/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: '.bio' (id=6229)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9950 at L1_qa_V1
+  Best cos_pct:  0.9883 at L53_o_U0
+  Best comb_pct: 0.9950 at L1_qa_V1
+
+  Top layers by dot×cos² percentile:
+    L1_qa_V1              pct=0.9950  dot=0.1403  cos=0.037  comb=0.0014  σ=0.46 ★
+    L55_qa_V1             pct=0.9832  dot=0.0907  cos=0.024  comb=0.0009  σ=0.77
+    L55_qa_V2             pct=0.9815  dot=0.0805  cos=0.021  comb=0.0008  σ=0.33
+    L53_o_U0              pct=0.9791  dot=0.1754  cos=0.032  comb=0.0018  σ=4.01
+    L60_qa_V0             pct=0.9760  dot=0.0773  cos=0.021  comb=0.0008  σ=2.15
+    L6_qa_V0              pct=0.9751  dot=0.1022  cos=0.027  comb=0.0010  σ=1.93
+    L59_qa_V1             pct=0.9590  dot=0.0639  cos=0.017  comb=0.0006  σ=0.65
+    L1_o_U2               pct=0.9568  dot=0.1312  cos=0.024  comb=0.0013  σ=0.45
+    L2_qa_V0              pct=0.9544  dot=0.0986  cos=0.026  comb=0.0010  σ=0.83
+    L8_qa_V1              pct=0.9503  dot=0.0640  cos=0.017  comb=0.0006  σ=0.37
+    L51_o_U0              pct=0.9503  dot=0.1325  cos=0.024  comb=0.0013  σ=4.92
+    L1_qa_V0              pct=0.9402  dot=0.1196  cos=0.032  comb=0.0012  σ=1.69
+    L8_qa_V2              pct=0.9376  dot=0.0488  cos=0.013  comb=0.0005  σ=0.25
+    L10_o_U1              pct=0.9353  dot=0.1215  cos=0.022  comb=0.0012  σ=1.64
+    L54_o_U1              pct=0.9300  dot=0.1367  cos=0.025  comb=0.0014  σ=1.96
+
+  In top 1%: 1/150 layer×dir combos
+  In top 5%: 11/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'security' (id=62157)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9970 at L2_qa_V1
+  Best cos_pct:  0.9990 at L11_qa_V0
+  Best comb_pct: 0.9970 at L2_qa_V1
+
+  Top layers by dot×cos² percentile:
+    L2_qa_V1              pct=0.9970  dot=0.1781  cos=0.052  comb=0.0018  σ=0.22 ★
+    L0_qa_V0              pct=0.9960  dot=0.1317  cos=0.038  comb=0.0013  σ=2.93 ★
+    L3_qa_V1              pct=0.9958  dot=0.1310  cos=0.038  comb=0.0013  σ=0.32 ★
+    L51_qa_V2             pct=0.9921  dot=0.0939  cos=0.027  comb=0.0009  σ=0.25 ★
+    L1_o_U1               pct=0.9907  dot=0.1872  cos=0.027  comb=0.0019  σ=0.76 ★
+    L5_qa_V1              pct=0.9898  dot=0.1189  cos=0.035  comb=0.0012  σ=0.69
+    L56_qa_V0             pct=0.9873  dot=0.0865  cos=0.025  comb=0.0009  σ=1.90
+    L6_qa_V1              pct=0.9861  dot=0.0915  cos=0.027  comb=0.0009  σ=0.15
+    L20_o_U0              pct=0.9830  dot=0.1618  cos=0.023  comb=0.0016  σ=3.93
+    L20_qa_V1             pct=0.9771  dot=0.0765  cos=0.022  comb=0.0008  σ=0.49
+    L11_o_U1              pct=0.9655  dot=0.1491  cos=0.021  comb=0.0015  σ=2.01
+    L2_o_U1               pct=0.9647  dot=0.1459  cos=0.021  comb=0.0015  σ=0.61
+    L55_o_U1              pct=0.9560  dot=0.1580  cos=0.023  comb=0.0016  σ=2.38
+    L19_qa_V0             pct=0.9501  dot=0.0631  cos=0.018  comb=0.0006  σ=1.24
+    L9_qa_V1              pct=0.9499  dot=0.0641  cos=0.019  comb=0.0006  σ=0.59
+
+  In top 1%: 5/150 layer×dir combos
+  In top 5%: 14/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'wob' (id=85350)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L3_qa_V0
+  Best cos_pct:  1.0000 at L11_qa_V1
+  Best comb_pct: 1.0000 at L3_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L3_qa_V0              pct=1.0000  dot=0.3301  cos=0.113  comb=0.0042  σ=1.25 ★
+    L2_qa_V2              pct=0.9996  dot=0.2100  cos=0.072  comb=0.0021  σ=0.15 ★
+    L12_qa_V2             pct=0.9971  dot=0.1168  cos=0.040  comb=0.0012  σ=0.27 ★
+    L5_qa_V2              pct=0.9941  dot=0.1285  cos=0.044  comb=0.0013  σ=0.24 ★
+    L59_o_U0              pct=0.9879  dot=0.2312  cos=0.031  comb=0.0023  σ=3.98
+    L11_o_U0              pct=0.9725  dot=0.1425  cos=0.019  comb=0.0014  σ=4.07
+    L8_qa_V2              pct=0.9613  dot=0.0584  cos=0.020  comb=0.0006  σ=0.25
+    L4_qa_V0              pct=0.9515  dot=0.0918  cos=0.031  comb=0.0009  σ=1.89
+    L2_o_U2               pct=0.9283  dot=0.1172  cos=0.016  comb=0.0012  σ=0.36
+    L5_qa_V0              pct=0.9077  dot=0.0736  cos=0.025  comb=0.0007  σ=1.14
+    L6_qa_V0              pct=0.9007  dot=0.0656  cos=0.022  comb=0.0007  σ=1.93
+    L0_qa_V1              pct=0.9004  dot=0.0676  cos=0.023  comb=0.0007  σ=0.24
+    L6_qa_V1              pct=0.8941  dot=0.0498  cos=0.017  comb=0.0005  σ=0.15
+    L10_o_U2              pct=0.8912  dot=0.1037  cos=0.014  comb=0.0010  σ=1.48
+    L11_o_U2              pct=0.8832  dot=0.0882  cos=0.012  comb=0.0009  σ=1.64
+
+  In top 1%: 4/150 layer×dir combos
+  In top 5%: 8/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'math' (id=2902)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9962 at L10_o_U1
+  Best cos_pct:  0.9993 at L20_o_U2
+  Best comb_pct: 0.9962 at L10_o_U1
+
+  Top layers by dot×cos² percentile:
+    L10_o_U1              pct=0.9962  dot=0.2193  cos=0.030  comb=0.0022  σ=1.64 ★
+    L19_o_U1              pct=0.9923  dot=0.1988  cos=0.027  comb=0.0020  σ=2.78 ★
+    L1_o_U1               pct=0.9796  dot=0.1610  cos=0.022  comb=0.0016  σ=0.76
+    L51_qa_V1             pct=0.9568  dot=0.0647  cos=0.020  comb=0.0006  σ=0.51
+    L54_qa_V2             pct=0.9550  dot=0.0612  cos=0.018  comb=0.0006  σ=0.19
+    L19_qa_V1             pct=0.9501  dot=0.0583  cos=0.018  comb=0.0006  σ=0.53
+    L10_qa_V1             pct=0.9444  dot=0.0636  cos=0.019  comb=0.0006  σ=0.44
+    L9_o_U1               pct=0.9440  dot=0.1186  cos=0.016  comb=0.0012  σ=2.04
+    L2_o_U1               pct=0.9155  dot=0.1106  cos=0.015  comb=0.0011  σ=0.61
+    L58_o_U1              pct=0.9059  dot=0.1242  cos=0.017  comb=0.0012  σ=1.91
+    L10_qa_V0             pct=0.8973  dot=0.0498  cos=0.015  comb=0.0005  σ=1.27
+    L6_o_U2               pct=0.8921  dot=0.1011  cos=0.014  comb=0.0010  σ=1.14
+    L55_o_U2              pct=0.8882  dot=0.0950  cos=0.013  comb=0.0009  σ=2.01
+    L8_o_U0               pct=0.8828  dot=0.0957  cos=0.013  comb=0.0010  σ=4.52
+    L4_o_U1               pct=0.8772  dot=0.0839  cos=0.012  comb=0.0008  σ=1.94
+
+  In top 1%: 2/150 layer×dir combos
+  In top 5%: 6/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'bio' (id=73034)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L9_o_U1
+  Best cos_pct:  0.9999 at L9_o_U1
+  Best comb_pct: 1.0000 at L9_o_U1
+
+  Top layers by dot×cos² percentile:
+    L9_o_U1               pct=1.0000  dot=0.3785  cos=0.047  comb=0.0038  σ=2.04 ★
+    L2_o_U1               pct=0.9956  dot=0.2163  cos=0.027  comb=0.0022  σ=0.61 ★
+    L58_o_U2              pct=0.9948  dot=0.2311  cos=0.029  comb=0.0023  σ=1.56 ★
+    L1_qa_V1              pct=0.9909  dot=0.1274  cos=0.037  comb=0.0013  σ=0.46 ★
+    L56_o_U1              pct=0.9887  dot=0.2097  cos=0.026  comb=0.0021  σ=2.18
+    L1_o_U1               pct=0.9877  dot=0.1777  cos=0.022  comb=0.0018  σ=0.76
+    L1_qa_V0              pct=0.9849  dot=0.1884  cos=0.055  comb=0.0019  σ=1.69
+    L51_o_U0              pct=0.9837  dot=0.1772  cos=0.022  comb=0.0018  σ=4.92
+    L60_o_U2              pct=0.9829  dot=0.1980  cos=0.025  comb=0.0020  σ=1.16
+    L57_o_U1              pct=0.9744  dot=0.1536  cos=0.019  comb=0.0015  σ=1.71
+    L52_o_U1              pct=0.9652  dot=0.1594  cos=0.020  comb=0.0016  σ=2.65
+    L7_qa_V1              pct=0.9607  dot=0.0745  cos=0.022  comb=0.0007  σ=0.56
+    L60_qa_V0             pct=0.9484  dot=0.0631  cos=0.019  comb=0.0006  σ=2.15
+    L2_qa_V2              pct=0.9449  dot=0.0975  cos=0.029  comb=0.0010  σ=0.15
+    L7_qa_V0              pct=0.9394  dot=0.0744  cos=0.022  comb=0.0007  σ=1.70
+
+  In top 1%: 4/150 layer×dir combos
+  In top 5%: 12/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'renewable' (id=24614)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L1_qa_V1
+  Best cos_pct:  1.0000 at L0_qa_V0
+  Best comb_pct: 1.0000 at L1_qa_V1
+
+  Top layers by dot×cos² percentile:
+    L0_qa_V0              pct=1.0000  dot=0.3532  cos=0.100  comb=0.0036  σ=2.93 ★
+    L1_qa_V1              pct=1.0000  dot=0.3034  cos=0.086  comb=0.0030  σ=0.46 ★
+    L4_qa_V0              pct=1.0000  dot=0.2636  cos=0.075  comb=0.0026  σ=1.89 ★
+    L57_o_U2              pct=0.9995  dot=0.3085  cos=0.050  comb=0.0031  σ=0.89 ★
+    L0_qa_V2              pct=0.9993  dot=0.1269  cos=0.036  comb=0.0013  σ=0.13 ★
+    L56_o_U1              pct=0.9967  dot=0.2588  cos=0.042  comb=0.0026  σ=2.18 ★
+    L3_qa_V2              pct=0.9953  dot=0.1277  cos=0.036  comb=0.0013  σ=0.15 ★
+    L51_qa_V2             pct=0.9927  dot=0.0954  cos=0.027  comb=0.0010  σ=0.25 ★
+    L2_qa_V2              pct=0.9917  dot=0.1457  cos=0.041  comb=0.0015  σ=0.15 ★
+    L60_o_U1              pct=0.9896  dot=0.2357  cos=0.038  comb=0.0024  σ=1.82
+    L7_qa_V0              pct=0.9871  dot=0.1096  cos=0.031  comb=0.0011  σ=1.70
+    L5_qa_V2              pct=0.9718  dot=0.0983  cos=0.028  comb=0.0010  σ=0.24
+    L55_qa_V0             pct=0.9693  dot=0.0777  cos=0.022  comb=0.0008  σ=1.40
+    L11_qa_V0             pct=0.9647  dot=0.0728  cos=0.021  comb=0.0007  σ=1.52
+    L2_qa_V0              pct=0.9639  dot=0.1079  cos=0.031  comb=0.0011  σ=0.83
+
+  In top 1%: 9/150 layer×dir combos
+  In top 5%: 17/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'Explain' (id=65106)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L6_qa_V0
+  Best cos_pct:  1.0000 at L6_qa_V0
+  Best comb_pct: 1.0000 at L6_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L2_qa_V1              pct=1.0000  dot=0.6488  cos=0.198  comb=0.0255  σ=0.22 ★
+    L4_qa_V1              pct=1.0000  dot=0.3747  cos=0.114  comb=0.0049  σ=0.69 ★
+    L6_qa_V0              pct=1.0000  dot=0.2827  cos=0.086  comb=0.0028  σ=1.93 ★
+    L3_qa_V1              pct=1.0000  dot=0.2490  cos=0.076  comb=0.0025  σ=0.32 ★
+    L8_qa_V0              pct=1.0000  dot=0.1960  cos=0.060  comb=0.0020  σ=1.02 ★
+    L5_qa_V1              pct=0.9990  dot=0.1688  cos=0.052  comb=0.0017  σ=0.69 ★
+    L5_qa_V2              pct=0.9918  dot=0.1226  cos=0.037  comb=0.0012  σ=0.24 ★
+    L8_qa_V1              pct=0.9908  dot=0.0952  cos=0.029  comb=0.0010  σ=0.37 ★
+    L0_o_U0               pct=0.9797  dot=0.1743  cos=0.027  comb=0.0017  σ=5.20
+    L3_o_U0               pct=0.9779  dot=0.1743  cos=0.027  comb=0.0017  σ=4.08
+    L1_qa_V1              pct=0.9699  dot=0.0986  cos=0.030  comb=0.0010  σ=0.46
+    L2_qa_V0              pct=0.9673  dot=0.1116  cos=0.034  comb=0.0011  σ=0.83
+    L58_o_U2              pct=0.9486  dot=0.1347  cos=0.021  comb=0.0013  σ=1.56
+    L56_qa_V0             pct=0.9484  dot=0.0627  cos=0.019  comb=0.0006  σ=1.90
+    L57_qa_V0             pct=0.9474  dot=0.0611  cos=0.019  comb=0.0006  σ=2.08
+
+  In top 1%: 8/150 layer×dir combos
+  In top 5%: 12/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: '150' (id=4980)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L7_qa_V0
+  Best cos_pct:  1.0000 at L7_qa_V0
+  Best comb_pct: 1.0000 at L7_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L7_qa_V0              pct=1.0000  dot=0.4515  cos=0.113  comb=0.0058  σ=1.70 ★
+    L9_qa_V1              pct=1.0000  dot=0.1733  cos=0.043  comb=0.0017  σ=0.59 ★
+    L5_qa_V0              pct=0.9995  dot=0.1958  cos=0.049  comb=0.0020  σ=1.14 ★
+    L12_qa_V2             pct=0.9994  dot=0.1383  cos=0.035  comb=0.0014  σ=0.27 ★
+    L19_qa_V0             pct=0.9982  dot=0.1191  cos=0.030  comb=0.0012  σ=1.24 ★
+    L58_qa_V2             pct=0.9982  dot=0.1140  cos=0.029  comb=0.0011  σ=0.14 ★
+    L10_qa_V1             pct=0.9975  dot=0.1213  cos=0.030  comb=0.0012  σ=0.44 ★
+    L7_o_U1               pct=0.9965  dot=0.2434  cos=0.031  comb=0.0024  σ=1.53 ★
+    L4_o_U1               pct=0.9963  dot=0.2122  cos=0.027  comb=0.0021  σ=1.94 ★
+    L6_qa_V1              pct=0.9958  dot=0.1117  cos=0.028  comb=0.0011  σ=0.15 ★
+    L5_o_U1               pct=0.9943  dot=0.2087  cos=0.026  comb=0.0021  σ=2.86 ★
+    L59_qa_V0             pct=0.9936  dot=0.1019  cos=0.026  comb=0.0010  σ=2.35 ★
+    L1_qa_V0              pct=0.9890  dot=0.2039  cos=0.051  comb=0.0020  σ=1.69
+    L55_qa_V0             pct=0.9851  dot=0.0897  cos=0.023  comb=0.0009  σ=1.40
+    L0_qa_V1              pct=0.9839  dot=0.1243  cos=0.031  comb=0.0012  σ=0.24
+
+  In top 1%: 12/150 layer×dir combos
+  In top 5%: 19/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'Describe' (id=72188)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L2_qa_V0
+  Best cos_pct:  1.0000 at L2_qa_V0
+  Best comb_pct: 1.0000 at L2_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L2_qa_V0              pct=1.0000  dot=0.5684  cos=0.170  comb=0.0163  σ=0.83 ★
+    L2_qa_V1              pct=1.0000  dot=0.3745  cos=0.112  comb=0.0047  σ=0.22 ★
+    L3_qa_V0              pct=0.9997  dot=0.2601  cos=0.078  comb=0.0026  σ=1.25 ★
+    L5_qa_V0              pct=0.9995  dot=0.1946  cos=0.058  comb=0.0019  σ=1.14 ★
+    L11_qa_V2             pct=0.9963  dot=0.1104  cos=0.033  comb=0.0011  σ=0.30 ★
+    L11_qa_V0             pct=0.9959  dot=0.1091  cos=0.033  comb=0.0011  σ=1.52 ★
+    L8_qa_V1              pct=0.9949  dot=0.1041  cos=0.031  comb=0.0010  σ=0.37 ★
+    L0_qa_V1              pct=0.9939  dot=0.1637  cos=0.049  comb=0.0016  σ=0.24 ★
+    L1_qa_V1              pct=0.9894  dot=0.1243  cos=0.037  comb=0.0012  σ=0.46
+    L59_qa_V2             pct=0.9885  dot=0.0884  cos=0.026  comb=0.0009  σ=0.21
+    L7_qa_V0              pct=0.9848  dot=0.1061  cos=0.032  comb=0.0011  σ=1.70
+    L4_qa_V1              pct=0.9828  dot=0.1314  cos=0.039  comb=0.0013  σ=0.69
+    L10_o_U2              pct=0.9805  dot=0.1762  cos=0.028  comb=0.0018  σ=1.48
+    L12_qa_V2             pct=0.9782  dot=0.0830  cos=0.025  comb=0.0008  σ=0.27
+    L9_o_U2               pct=0.9761  dot=0.1605  cos=0.025  comb=0.0016  σ=1.65
+
+  In top 1%: 8/150 layer×dir combos
+  In top 5%: 19/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'quantum' (id=17090)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L2_qa_V2
+  Best cos_pct:  1.0000 at L2_qa_V2
+  Best comb_pct: 1.0000 at L2_qa_V2
+
+  Top layers by dot×cos² percentile:
+    L2_qa_V2              pct=1.0000  dot=0.3785  cos=0.101  comb=0.0038  σ=0.15 ★
+    L4_qa_V0              pct=0.9999  dot=0.2557  cos=0.068  comb=0.0026  σ=1.89 ★
+    L7_qa_V0              pct=0.9999  dot=0.2287  cos=0.061  comb=0.0023  σ=1.70 ★
+    L60_o_U2              pct=0.9999  dot=0.4376  cos=0.067  comb=0.0044  σ=1.16 ★
+    L59_o_U1              pct=0.9996  dot=0.3320  cos=0.051  comb=0.0033  σ=2.36 ★
+    L55_o_U2              pct=0.9994  dot=0.2923  cos=0.045  comb=0.0029  σ=2.01 ★
+    L60_o_U1              pct=0.9993  dot=0.3453  cos=0.053  comb=0.0035  σ=1.82 ★
+    L58_o_U0              pct=0.9975  dot=0.2728  cos=0.042  comb=0.0027  σ=4.39 ★
+    L59_o_U2              pct=0.9961  dot=0.2836  cos=0.043  comb=0.0028  σ=1.60 ★
+    L59_o_U0              pct=0.9942  dot=0.2580  cos=0.039  comb=0.0026  σ=3.98 ★
+    L12_o_U0              pct=0.9938  dot=0.1921  cos=0.029  comb=0.0019  σ=4.00 ★
+    L4_qa_V1              pct=0.9934  dot=0.1563  cos=0.042  comb=0.0016  σ=0.69 ★
+    L5_qa_V1              pct=0.9931  dot=0.1271  cos=0.034  comb=0.0013  σ=0.69 ★
+    L8_qa_V1              pct=0.9894  dot=0.0931  cos=0.025  comb=0.0009  σ=0.37
+    L7_qa_V1              pct=0.9882  dot=0.0983  cos=0.026  comb=0.0010  σ=0.56
+
+  In top 1%: 13/150 layer×dir combos
+  In top 5%: 24/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'sustainable' (id=12111)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L4_qa_V0
+  Best cos_pct:  0.9999 at L4_qa_V0
+  Best comb_pct: 1.0000 at L4_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L4_qa_V0              pct=1.0000  dot=0.2642  cos=0.071  comb=0.0026  σ=1.89 ★
+    L0_qa_V0              pct=0.9999  dot=0.1951  cos=0.053  comb=0.0020  σ=2.93 ★
+    L59_o_U2              pct=0.9997  dot=0.3955  cos=0.063  comb=0.0040  σ=1.60 ★
+    L58_o_U1              pct=0.9982  dot=0.2849  cos=0.045  comb=0.0028  σ=1.91 ★
+    L8_qa_V1              pct=0.9980  dot=0.1186  cos=0.032  comb=0.0012  σ=0.37 ★
+    L60_o_U1              pct=0.9959  dot=0.2773  cos=0.044  comb=0.0028  σ=1.82 ★
+    L51_o_U1              pct=0.9829  dot=0.1781  cos=0.028  comb=0.0018  σ=2.58
+    L52_qa_V0             pct=0.9770  dot=0.0782  cos=0.021  comb=0.0008  σ=1.63
+    L7_qa_V1              pct=0.9749  dot=0.0836  cos=0.023  comb=0.0008  σ=0.56
+    L8_o_U0               pct=0.9685  dot=0.1530  cos=0.024  comb=0.0015  σ=4.52
+    L54_qa_V0             pct=0.9643  dot=0.0691  cos=0.019  comb=0.0007  σ=2.02
+    L8_o_U1               pct=0.9594  dot=0.1339  cos=0.021  comb=0.0013  σ=1.73
+    L59_qa_V1             pct=0.9584  dot=0.0636  cos=0.017  comb=0.0006  σ=0.65
+    L4_qa_V1              pct=0.9517  dot=0.1026  cos=0.028  comb=0.0010  σ=0.69
+    L3_qa_V0              pct=0.9481  dot=0.1113  cos=0.030  comb=0.0011  σ=1.25
+
+  In top 1%: 6/150 layer×dir combos
+  In top 5%: 14/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'REF' (id=32266)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L60_o_U0
+  Best cos_pct:  1.0000 at L60_o_U0
+  Best comb_pct: 1.0000 at L60_o_U0
+
+  Top layers by dot×cos² percentile:
+    L19_qa_V0             pct=1.0000  dot=0.1797  cos=0.046  comb=0.0018  σ=1.24 ★
+    L56_o_U2              pct=1.0000  dot=0.4513  cos=0.057  comb=0.0045  σ=1.63 ★
+    L60_o_U0              pct=1.0000  dot=0.7651  cos=0.097  comb=0.0077  σ=4.48 ★
+    L52_o_U0              pct=1.0000  dot=0.5165  cos=0.066  comb=0.0052  σ=5.10 ★
+    L57_o_U0              pct=1.0000  dot=0.6200  cos=0.079  comb=0.0062  σ=5.11 ★
+    L51_o_U0              pct=1.0000  dot=0.3795  cos=0.048  comb=0.0038  σ=4.92 ★
+    L58_o_U0              pct=1.0000  dot=0.6899  cos=0.087  comb=0.0069  σ=4.39 ★
+    L59_o_U0              pct=1.0000  dot=0.9612  cos=0.122  comb=0.0143  σ=3.98 ★
+    L58_o_U1              pct=0.9999  dot=0.4024  cos=0.051  comb=0.0040  σ=1.91 ★
+    L8_qa_V1              pct=0.9994  dot=0.1363  cos=0.035  comb=0.0014  σ=0.37 ★
+    L53_o_U0              pct=0.9993  dot=0.2960  cos=0.038  comb=0.0030  σ=4.01 ★
+    L57_o_U1              pct=0.9987  dot=0.2613  cos=0.033  comb=0.0026  σ=1.71 ★
+    L58_o_U2              pct=0.9949  dot=0.2323  cos=0.029  comb=0.0023  σ=1.56 ★
+    L10_o_U0              pct=0.9944  dot=0.2184  cos=0.028  comb=0.0022  σ=5.49 ★
+    L8_o_U0               pct=0.9944  dot=0.2124  cos=0.027  comb=0.0021  σ=4.52 ★
+
+  In top 1%: 16/150 layer×dir combos
+  In top 5%: 26/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'FOR' (id=50560)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L60_o_U0
+  Best cos_pct:  1.0000 at L59_o_U0
+  Best comb_pct: 1.0000 at L59_o_U0
+
+  Top layers by dot×cos² percentile:
+    L59_o_U0              pct=1.0000  dot=0.9125  cos=0.129  comb=0.0153  σ=3.98 ★
+    L60_o_U0              pct=1.0000  dot=0.4982  cos=0.071  comb=0.0050  σ=4.48 ★
+    L52_o_U0              pct=1.0000  dot=0.4380  cos=0.062  comb=0.0044  σ=5.10 ★
+    L58_o_U0              pct=1.0000  dot=0.6790  cos=0.096  comb=0.0068  σ=4.39 ★
+    L57_o_U2              pct=0.9999  dot=0.3974  cos=0.056  comb=0.0040  σ=0.89 ★
+    L53_o_U0              pct=0.9998  dot=0.3486  cos=0.049  comb=0.0035  σ=4.01 ★
+    L57_o_U0              pct=0.9998  dot=0.3264  cos=0.046  comb=0.0033  σ=5.11 ★
+    L53_o_U1              pct=0.9987  dot=0.2754  cos=0.039  comb=0.0028  σ=2.81 ★
+    L10_qa_V1             pct=0.9980  dot=0.1245  cos=0.035  comb=0.0012  σ=0.44 ★
+    L52_qa_V2             pct=0.9932  dot=0.0971  cos=0.028  comb=0.0010  σ=0.14 ★
+    L60_o_U2              pct=0.9804  dot=0.1915  cos=0.027  comb=0.0019  σ=1.16
+    L8_qa_V2              pct=0.9779  dot=0.0690  cos=0.020  comb=0.0007  σ=0.25
+    L6_o_U2               pct=0.9743  dot=0.1633  cos=0.023  comb=0.0016  σ=1.14
+    L60_qa_V0             pct=0.9734  dot=0.0755  cos=0.021  comb=0.0008  σ=2.15
+    L1_o_U0               pct=0.9728  dot=0.1597  cos=0.023  comb=0.0016  σ=5.52
+
+  In top 1%: 10/150 layer×dir combos
+  In top 5%: 19/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'ib' (id=686)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L5_qa_V0
+  Best cos_pct:  1.0000 at L5_qa_V0
+  Best comb_pct: 1.0000 at L5_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L5_qa_V0              pct=1.0000  dot=0.3462  cos=0.110  comb=0.0042  σ=1.14 ★
+    L53_qa_V1             pct=0.9999  dot=0.1443  cos=0.046  comb=0.0014  σ=0.79 ★
+    L4_qa_V2              pct=0.9997  dot=0.1365  cos=0.043  comb=0.0014  σ=0.11 ★
+    L1_qa_V0              pct=0.9989  dot=0.3124  cos=0.099  comb=0.0031  σ=1.69 ★
+    L3_o_U2               pct=0.9969  dot=0.2252  cos=0.031  comb=0.0023  σ=1.33 ★
+    L11_qa_V0             pct=0.9948  dot=0.1053  cos=0.033  comb=0.0011  σ=1.52 ★
+    L56_qa_V1             pct=0.9908  dot=0.0948  cos=0.030  comb=0.0009  σ=0.77 ★
+    L54_qa_V1             pct=0.9820  dot=0.0781  cos=0.025  comb=0.0008  σ=0.32
+    L7_qa_V0              pct=0.9782  dot=0.0983  cos=0.031  comb=0.0010  σ=1.70
+    L51_o_U0              pct=0.9778  dot=0.1656  cos=0.023  comb=0.0017  σ=4.92
+    L57_o_U0              pct=0.9767  dot=0.1793  cos=0.025  comb=0.0018  σ=5.11
+    L9_o_U1               pct=0.9758  dot=0.1509  cos=0.021  comb=0.0015  σ=2.04
+    L9_qa_V1              pct=0.9721  dot=0.0762  cos=0.024  comb=0.0008  σ=0.59
+    L20_qa_V0             pct=0.9671  dot=0.0699  cos=0.022  comb=0.0007  σ=1.27
+    L4_qa_V0              pct=0.9650  dot=0.1005  cos=0.032  comb=0.0010  σ=1.89
+
+  In top 1%: 7/150 layer×dir combos
+  In top 5%: 18/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'ble' (id=1282)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  1.0000 at L3_qa_V0
+  Best cos_pct:  1.0000 at L9_qa_V1
+  Best comb_pct: 1.0000 at L3_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L3_qa_V0              pct=1.0000  dot=0.3933  cos=0.139  comb=0.0076  σ=1.25 ★
+    L7_qa_V0              pct=1.0000  dot=0.3045  cos=0.107  comb=0.0035  σ=1.70 ★
+    L1_qa_V0              pct=0.9999  dot=0.4133  cos=0.146  comb=0.0088  σ=1.69 ★
+    L9_o_U1               pct=0.9948  dot=0.2023  cos=0.024  comb=0.0020  σ=2.04 ★
+    L5_qa_V0              pct=0.9865  dot=0.1249  cos=0.044  comb=0.0012  σ=1.14
+    L20_o_U1              pct=0.9864  dot=0.1792  cos=0.021  comb=0.0018  σ=3.00
+    L11_qa_V2             pct=0.9784  dot=0.0824  cos=0.029  comb=0.0008  σ=0.30
+    L5_qa_V2              pct=0.9760  dot=0.1019  cos=0.036  comb=0.0010  σ=0.24
+    L8_qa_V1              pct=0.9751  dot=0.0776  cos=0.027  comb=0.0008  σ=0.37
+    L10_o_U1              pct=0.9733  dot=0.1577  cos=0.019  comb=0.0016  σ=1.64
+    L9_o_U0               pct=0.9697  dot=0.1417  cos=0.017  comb=0.0014  σ=4.54
+    L3_o_U2               pct=0.9692  dot=0.1497  cos=0.018  comb=0.0015  σ=1.33
+    L4_qa_V2              pct=0.9616  dot=0.0699  cos=0.025  comb=0.0007  σ=0.11
+    L55_qa_V0             pct=0.9610  dot=0.0735  cos=0.026  comb=0.0007  σ=1.40
+    L1_o_U1               pct=0.9581  dot=0.1344  cos=0.016  comb=0.0013  σ=0.76
+
+  In top 1%: 4/150 layer×dir combos
+  In top 5%: 18/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'fill' (id=27472)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9997 at L5_qa_V0
+  Best cos_pct:  0.9990 at L5_qa_V0
+  Best comb_pct: 0.9997 at L5_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L5_qa_V0              pct=0.9997  dot=0.2068  cos=0.058  comb=0.0021  σ=1.14 ★
+    L10_o_U0              pct=0.9958  dot=0.2269  cos=0.029  comb=0.0023  σ=5.49 ★
+    L3_o_U0               pct=0.9868  dot=0.1920  cos=0.025  comb=0.0019  σ=4.08
+    L2_qa_V0              pct=0.9850  dot=0.1397  cos=0.039  comb=0.0014  σ=0.83
+    L12_qa_V2             pct=0.9831  dot=0.0875  cos=0.025  comb=0.0009  σ=0.27
+    L10_qa_V1             pct=0.9831  dot=0.0874  cos=0.025  comb=0.0009  σ=0.44
+    L1_qa_V1              pct=0.9817  dot=0.1111  cos=0.031  comb=0.0011  σ=0.46
+    L56_qa_V1             pct=0.9784  dot=0.0804  cos=0.023  comb=0.0008  σ=0.77
+    L10_o_U2              pct=0.9735  dot=0.1644  cos=0.021  comb=0.0016  σ=1.48
+    L2_o_U1               pct=0.9709  dot=0.1533  cos=0.020  comb=0.0015  σ=0.61
+    L58_o_U2              pct=0.9708  dot=0.1611  cos=0.021  comb=0.0016  σ=1.56
+    L0_o_U0               pct=0.9688  dot=0.1596  cos=0.020  comb=0.0016  σ=5.20
+    L57_qa_V1             pct=0.9663  dot=0.0665  cos=0.019  comb=0.0007  σ=0.48
+    L56_o_U1              pct=0.9592  dot=0.1561  cos=0.020  comb=0.0016  σ=2.18
+    L2_o_U0               pct=0.9559  dot=0.1435  cos=0.018  comb=0.0014  σ=5.45
+
+  In top 1%: 2/150 layer×dir combos
+  In top 5%: 18/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'hello' (id=33310)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9999 at L12_qa_V1
+  Best cos_pct:  0.9996 at L12_qa_V1
+  Best comb_pct: 0.9999 at L12_qa_V1
+
+  Top layers by dot×cos² percentile:
+    L12_qa_V1             pct=0.9999  dot=0.1642  cos=0.045  comb=0.0016  σ=0.74 ★
+    L4_qa_V1              pct=0.9992  dot=0.2010  cos=0.055  comb=0.0020  σ=0.69 ★
+    L4_qa_V0              pct=0.9990  dot=0.1797  cos=0.049  comb=0.0018  σ=1.89 ★
+    L12_qa_V0             pct=0.9889  dot=0.0885  cos=0.024  comb=0.0009  σ=1.23
+    L54_o_U0              pct=0.9882  dot=0.1958  cos=0.030  comb=0.0020  σ=5.27
+    L51_qa_V2             pct=0.9865  dot=0.0856  cos=0.023  comb=0.0009  σ=0.25
+    L1_qa_V1              pct=0.9830  dot=0.1132  cos=0.031  comb=0.0011  σ=0.46
+    L19_qa_V0             pct=0.9772  dot=0.0776  cos=0.021  comb=0.0008  σ=1.24
+    L2_qa_V0              pct=0.9743  dot=0.1208  cos=0.033  comb=0.0012  σ=0.83
+    L9_qa_V0              pct=0.9729  dot=0.0844  cos=0.023  comb=0.0008  σ=0.84
+    L8_o_U2               pct=0.9706  dot=0.1559  cos=0.024  comb=0.0016  σ=0.66
+    L53_qa_V0             pct=0.9700  dot=0.0753  cos=0.021  comb=0.0008  σ=1.96
+    L56_qa_V0             pct=0.9692  dot=0.0721  cos=0.020  comb=0.0007  σ=1.90
+    L58_o_U1              pct=0.9561  dot=0.1602  cos=0.025  comb=0.0016  σ=1.91
+    L12_o_U0              pct=0.9543  dot=0.1244  cos=0.019  comb=0.0012  σ=4.00
+
+  In top 1%: 3/150 layer×dir combos
+  In top 5%: 16/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'the' (id=1805)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9999 at L3_qa_V0
+  Best cos_pct:  0.9998 at L3_qa_V0
+  Best comb_pct: 0.9999 at L3_qa_V0
+
+  Top layers by dot×cos² percentile:
+    L3_qa_V0              pct=0.9999  dot=0.2931  cos=0.093  comb=0.0029  σ=1.25 ★
+    L5_qa_V0              pct=0.9985  dot=0.1733  cos=0.055  comb=0.0017  σ=1.14 ★
+    L8_qa_V2              pct=0.9976  dot=0.1049  cos=0.033  comb=0.0010  σ=0.25 ★
+    L52_qa_V0             pct=0.9734  dot=0.0759  cos=0.024  comb=0.0008  σ=1.63
+    L60_qa_V1             pct=0.9659  dot=0.0703  cos=0.022  comb=0.0007  σ=0.53
+    L5_qa_V1              pct=0.9457  dot=0.0779  cos=0.025  comb=0.0008  σ=0.69
+    L1_qa_V2              pct=0.9386  dot=0.0776  cos=0.025  comb=0.0008  σ=0.21
+    L2_o_U2               pct=0.9301  dot=0.1182  cos=0.023  comb=0.0012  σ=0.36
+    L0_qa_V0              pct=0.9253  dot=0.0630  cos=0.020  comb=0.0006  σ=2.93
+    L7_qa_V0              pct=0.9229  dot=0.0682  cos=0.022  comb=0.0007  σ=1.70
+    L51_qa_V2             pct=0.9215  dot=0.0533  cos=0.017  comb=0.0005  σ=0.25
+    L52_qa_V2             pct=0.9085  dot=0.0526  cos=0.017  comb=0.0005  σ=0.14
+    L11_qa_V1             pct=0.9049  dot=0.0481  cos=0.015  comb=0.0005  σ=0.85
+    L60_o_U2              pct=0.8875  dot=0.0996  cos=0.019  comb=0.0010  σ=1.16
+    L1_qa_V0              pct=0.8856  dot=0.0841  cos=0.027  comb=0.0008  σ=1.69
+
+  In top 1%: 3/150 layer×dir combos
+  In top 5%: 5/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'apple' (id=42123)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9936 at L0_o_U0
+  Best cos_pct:  0.9859 at L0_o_U0
+  Best comb_pct: 0.9936 at L0_o_U0
+
+  Top layers by dot×cos² percentile:
+    L0_o_U0               pct=0.9936  dot=0.2133  cos=0.029  comb=0.0021  σ=5.20 ★
+    L56_o_U1              pct=0.9889  dot=0.2106  cos=0.029  comb=0.0021  σ=2.18
+    L2_o_U0               pct=0.9846  dot=0.1818  cos=0.025  comb=0.0018  σ=5.45
+    L12_qa_V0             pct=0.9833  dot=0.0822  cos=0.024  comb=0.0008  σ=1.23
+    L1_qa_V0              pct=0.9762  dot=0.1660  cos=0.049  comb=0.0017  σ=1.69
+    L20_qa_V2             pct=0.9759  dot=0.0749  cos=0.022  comb=0.0007  σ=0.14
+    L3_o_U0               pct=0.9636  dot=0.1564  cos=0.021  comb=0.0016  σ=4.08
+    L1_o_U0               pct=0.9505  dot=0.1374  cos=0.019  comb=0.0014  σ=5.52
+    L12_o_U2              pct=0.9227  dot=0.1125  cos=0.015  comb=0.0011  σ=2.23
+    L59_qa_V1             pct=0.9157  dot=0.0499  cos=0.015  comb=0.0005  σ=0.65
+    L6_o_U0               pct=0.9134  dot=0.1252  cos=0.017  comb=0.0013  σ=5.40
+    L7_qa_V0              pct=0.8968  dot=0.0602  cos=0.018  comb=0.0006  σ=1.70
+    L57_o_U2              pct=0.8867  dot=0.0982  cos=0.013  comb=0.0010  σ=0.89
+    L4_qa_V1              pct=0.8785  dot=0.0734  cos=0.022  comb=0.0007  σ=0.69
+    L53_o_U1              pct=0.8750  dot=0.0992  cos=0.013  comb=0.0010  σ=2.81
+
+  In top 1%: 1/150 layer×dir combos
+  In top 5%: 8/150 layer×dir combos
+
+──────────────────────────────────────────────────────────────────────
+TOKEN: 'because' (id=30551)
+──────────────────────────────────────────────────────────────────────
+  Best dot_pct:  0.9949 at L51_qa_V2
+  Best cos_pct:  0.9989 at L4_qa_V2
+  Best comb_pct: 0.9949 at L51_qa_V2
+
+  Top layers by dot×cos² percentile:
+    L51_qa_V2             pct=0.9949  dot=0.1002  cos=0.032  comb=0.0010  σ=0.25 ★
+    L8_qa_V1              pct=0.9883  dot=0.0916  cos=0.030  comb=0.0009  σ=0.37
+    L52_qa_V2             pct=0.9639  dot=0.0703  cos=0.023  comb=0.0007  σ=0.14
+    L1_qa_V0              pct=0.9550  dot=0.1346  cos=0.043  comb=0.0013  σ=1.69
+    L0_qa_V1              pct=0.9527  dot=0.0903  cos=0.029  comb=0.0009  σ=0.24
+    L19_qa_V2             pct=0.9497  dot=0.0620  cos=0.020  comb=0.0006  σ=0.17
+    L2_qa_V0              pct=0.9372  dot=0.0859  cos=0.028  comb=0.0009  σ=0.83
+    L3_qa_V0              pct=0.9367  dot=0.1043  cos=0.034  comb=0.0010  σ=1.25
+    L60_qa_V1             pct=0.9280  dot=0.0564  cos=0.018  comb=0.0006  σ=0.53
+    L20_qa_V2             pct=0.9212  dot=0.0535  cos=0.017  comb=0.0005  σ=0.14
+    L56_qa_V1             pct=0.9209  dot=0.0547  cos=0.018  comb=0.0005  σ=0.77
+    L51_qa_V1             pct=0.9152  dot=0.0520  cos=0.017  comb=0.0005  σ=0.51
+    L2_qa_V1              pct=0.9133  dot=0.0787  cos=0.025  comb=0.0008  σ=0.22
+    L19_o_U1              pct=0.9121  dot=0.1091  cos=0.020  comb=0.0011  σ=2.78
+    L58_qa_V0             pct=0.9069  dot=0.0427  cos=0.014  comb=0.0004  σ=2.71
+
+  In top 1%: 1/150 layer×dir combos
+  In top 5%: 5/150 layer×dir combos
+
+
+==========================================================================================
+CROSS-TOKEN COMPARISON
+==========================================================================================
+
+Token                  Best pct  Top1%  Top5%                Best layer
+───────────────────────────────────────────────────────────────────────────
+REF                      1.0000     16     26                 L19_qa_V0 <<<
+quantum                  1.0000     13     24                  L2_qa_V2 <<<
+150                      1.0000     12     19                  L7_qa_V0 <<<
+FOR                      1.0000     10     19                  L59_o_U0 <<<
+renewable                1.0000      9     17                  L0_qa_V0 <<<
+Explain                  1.0000      8     12                  L2_qa_V1 <<<
+Describe                 1.0000      8     19                  L2_qa_V0 <<<
+ib                       1.0000      7     18                  L5_qa_V0 <<<
+sustainable              1.0000      6     14                  L4_qa_V0 <<<
+banana                   0.9999      5     13                   L7_o_U0 <<<
+security                 0.9970      5     14                  L2_qa_V1 <<<
+bio                      1.0000      4     12                   L9_o_U1 <<<
+ble                      1.0000      4     18                  L3_qa_V0 <<<
+wob                      1.0000      4      8                  L3_qa_V0 <<<
+hello                    0.9999      3     16                 L12_qa_V1 <<<
+the                      0.9999      3      5                  L3_qa_V0 <<<
+fill                     0.9997      2     18                  L5_qa_V0
+math                     0.9962      2      6                  L10_o_U1
+.bio                     0.9950      1     11                  L1_qa_V1
+because                  0.9949      1      5                 L51_qa_V2
+bananas                  0.9937      1     13                 L12_qa_V1
+apple                    0.9936      1      8                   L0_o_U0
+.math                    0.9929      1     10                 L56_qa_V1

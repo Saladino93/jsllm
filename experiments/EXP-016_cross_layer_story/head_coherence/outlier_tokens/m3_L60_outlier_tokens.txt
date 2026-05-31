@@ -1,0 +1,577 @@
+Outlier Head Token Analysis: M3 Layer 60
+======================================================================
+
+Mean |cos| across all heads: 0.9485
+Median: 0.9672
+Min: 0.2122 (H27)
+Max: 0.9729 (H120)
+
+──────────────────────────────────────────────────────────────────────
+CONSENSUS DIRECTION (avg of top-20 most coherent heads)
+Mean |cos| of these heads: 0.9717
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1763  Black
+     -0.1749  采购
+     +0.1734   उ
+     +0.1724  _POSTSUBSCRIPT
+     -0.1713   Priv
+     -0.1682  +v
+     -0.1662   Nav
+     -0.1655   Memorial
+     -0.1653  全套
+     -0.1590  招聘
+     -0.1587  了一张
+     -0.1540  пол
+     +0.1531   eg
+     -0.1529  预
+     +0.1505  ximate
+     +0.1493   jeans
+     +0.1484   alongside
+     +0.1482  _POSTSUPERSCRIPT
+     +0.1464   converse
+     -0.1458  ”。《
+
+  OV OUTPUT (writes):
+     +0.7513  REF
+     +0.5349  
+     +0.5096  FOR
+     +0.5042   FOR
+     +0.4911   alternating
+     +0.4877   echoing
+     -0.4616   Threats
+     +0.4520   illustrating
+     -0.4492   hum
+     -0.4364   Collect
+     +0.4326   limits
+     -0.4319   carbon
+     +0.4285   mag
+     -0.4278   Vulner
+     +0.4278  kop
+     -0.4274   Carbon
+     +0.4251   fixation
+     -0.4250  Carbon
+     +0.4220  limits
+     -0.4207  Collect
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #0: Head 27
+  mean|cos| to others: 0.2122
+  cos vs consensus: +0.2230
+  QK: frob=0.0184, sigma0=0.0112, gap=1.21
+  OV: frob=0.3724, sigma0=0.3068
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1968  ullan
+     +0.1905  _ARG
+     +0.1890  _POSTSUBSCRIPT
+     -0.1779  难忘
+     +0.1769  .springframework
+     +0.1705  Ve
+     +0.1699   Zam
+     +0.1665  riz
+     +0.1658  】【
+     -0.1650  奉
+     +0.1650   Ala
+     +0.1598  ........................
+     +0.1571   가
+     +0.1567  atures
+     -0.1563  宅
+     -0.1554  便于
+     -0.1552  浪漫
+     -0.1548   ending
+     +0.1538  克里
+     -0.1532   رد
+
+  OV OUTPUT (writes):
+     +0.7708  REF
+     +0.5176  
+     +0.4910   echoing
+     +0.4896  FOR
+     +0.4870   alternating
+     +0.4769   FOR
+     +0.4578   illustrating
+     +0.4496   mag
+     -0.4474   Threats
+     -0.4432   hum
+     -0.4351   carbon
+     +0.4263  kop
+     -0.4249   Collect
+     -0.4241   mitigate
+     -0.4224   Carbon
+     -0.4206   Vulner
+     -0.4199   bi
+     -0.4193  Carbon
+     +0.4188   fixation
+     +0.4138   cosmology
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #1: Head 97
+  mean|cos| to others: 0.2940
+  cos vs consensus: +0.2887
+  QK: frob=0.0085, sigma0=0.0080, gap=2.71
+  OV: frob=0.3788, sigma0=0.3196
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1878  薄荷
+     -0.1743   Many
+     -0.1721  特意
+     -0.1693  机票
+     -0.1680  фа
+     -0.1657  刻意
+     +0.1651  违背
+     -0.1606  礼貌
+     +0.1593   Comp
+     -0.1557   Aid
+     +0.1543  运用
+     -0.1535  习惯
+     -0.1534  师资
+     +0.1524   Pont
+     +0.1520   \\(<\\)
+     +0.1510   Cou
+     +0.1509  凹
+     +0.1507  die
+     -0.1505  卷一
+     -0.1498   py
+
+  OV OUTPUT (writes):
+     +0.7224  REF
+     +0.5492  
+     +0.5206  FOR
+     +0.5113   FOR
+     +0.4959   echoing
+     -0.4685   Threats
+     +0.4639   alternating
+     +0.4593   limits
+     +0.4515   illustrating
+     +0.4476  kop
+     -0.4455   hum
+     +0.4454  limits
+     -0.4411   Vulner
+     +0.4394   fixation
+     +0.4314  k
+     -0.4273   Collect
+     +0.4162   mag
+     -0.4138   carbon
+     -0.4126   mitigate
+     +0.4121  _area
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #2: Head 119
+  mean|cos| to others: 0.6193
+  cos vs consensus: +0.6106
+  QK: frob=0.0170, sigma0=0.0167, gap=5.44
+  OV: frob=0.3885, sigma0=0.3250
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1693  -he
+     +0.1670  -shadow
+     -0.1614   Vibr
+     -0.1600   Mag
+     -0.1596  凍
+     -0.1583  俺
+     -0.1573   (§
+     -0.1565   Mod
+     -0.1555   că
+     -0.1554   про
+     -0.1540  国庆
+     -0.1537  -Pro
+     -0.1535  阵容
+     -0.1532  抗战
+     -0.1526  轮
+     -0.1515  +v
+     +0.1514   Nelson
+     -0.1511  实行
+     -0.1506  Mac
+     +0.1504   उ
+
+  OV OUTPUT (writes):
+     +0.8028  REF
+     +0.5156   alternating
+     +0.4903   echoing
+     +0.4790  
+     +0.4709  FOR
+     -0.4595   Threats
+     +0.4577   FOR
+     +0.4558   illustrating
+     -0.4513   hum
+     -0.4420   Collect
+     -0.4346   mitigate
+     -0.4286   Vulner
+     -0.4269  Collect
+     +0.4247   mag
+     +0.4233   limits
+     -0.4227   mitigating
+     -0.4220   carbon
+     +0.4200   fixation
+     +0.4156  limits
+     +0.4119   солне
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #3: Head 89
+  mean|cos| to others: 0.9028
+  cos vs consensus: +0.8832
+  QK: frob=0.2436, sigma0=0.1959, gap=1.93
+  OV: frob=0.4186, sigma0=0.3506
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1896  Keyboard
+     -0.1810  全套
+     -0.1672   Nav
+     -0.1656  +v
+     -0.1653  了一张
+     +0.1631   उ
+     +0.1629   Clear
+     -0.1602  阵容
+     -0.1567  Black
+     -0.1539  �
+     +0.1532   calculate
+     -0.1526   Priv
+     -0.1524   gun
+     -0.1523  预
+     -0.1474   Mont
+     +0.1448   Ö
+     +0.1446   Heim
+     -0.1445  ？！
+     -0.1443  彩
+     -0.1443   tub
+
+  OV OUTPUT (writes):
+     +0.8542  REF
+     +0.6091   alternating
+     +0.5154  
+     +0.5084  FOR
+     +0.4978   FOR
+     +0.4879   Altern
+     -0.4801   hum
+     -0.4647   mitigate
+     -0.4585   Collect
+     -0.4506   mitigating
+     +0.4487   altern
+     +0.4487   illustrating
+     -0.4470  Collect
+     +0.4440   echoing
+     -0.4327   Threats
+     -0.4303   collect
+     -0.4275   mitig
+     +0.4271   солне
+     -0.4217   Mit
+     -0.4161   bi
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #4: Head 116
+  mean|cos| to others: 0.9063
+  cos vs consensus: -0.9416
+  QK: frob=0.2845, sigma0=0.2284, gap=2.38
+  OV: frob=0.4812, sigma0=0.3946
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1835  _POSTSUBSCRIPT
+     +0.1799  采购
+     -0.1786   catalytic
+     -0.1762   उ
+     +0.1726  招聘
+     -0.1691  _POSTSUPERSCRIPT
+     -0.1664  811
+     -0.1653  ximate
+     -0.1622   eg
+     +0.1620  пол
+     -0.1607  Handler
+     -0.1599   jeans
+     +0.1594  Black
+     +0.1575  槍
+     +0.1560   Priv
+     +0.1542   Memorial
+     -0.1539   alongside
+     -0.1535   handler
+     +0.1532   Fav
+     -0.1523  -wise
+
+  OV OUTPUT (writes):
+     +0.7595  REF
+     +0.5234  
+     +0.5022  FOR
+     +0.4954   FOR
+     +0.4947   alternating
+     +0.4887   echoing
+     -0.4593   Threats
+     -0.4573   hum
+     +0.4548   illustrating
+     -0.4422   Collect
+     +0.4407   limits
+     -0.4307   Vulner
+     +0.4292  limits
+     -0.4271  Collect
+     -0.4255   mitigate
+     +0.4237  kop
+     +0.4234   fixation
+     -0.4168   carbon
+     +0.4131   mag
+     -0.4115   mitigating
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #5: Head 78
+  mean|cos| to others: 0.9104
+  cos vs consensus: -0.8879
+  QK: frob=0.3402, sigma0=0.2690, gap=2.14
+  OV: frob=0.5378, sigma0=0.4536
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1847  全套
+     +0.1810  Keyboard
+     +0.1753  了一张
+     -0.1725   उ
+     -0.1711   Clear
+     +0.1606  ？！
+     +0.1571  招聘
+     +0.1563   Mont
+     -0.1556   calculate
+     -0.1535   Heim
+     -0.1526   Ö
+     +0.1523  �
+     +0.1516  槍
+     +0.1515  阵容
+     +0.1512  Black
+     -0.1475  issue
+     -0.1473   Compute
+     -0.1470  811
+     +0.1468  +v
+     +0.1465  农历
+
+  OV OUTPUT (writes):
+     +0.7183  REF
+     +0.5275  
+     +0.5106   echoing
+     +0.4871  FOR
+     -0.4768   Threats
+     +0.4763   FOR
+     +0.4616   illustrating
+     +0.4502  kop
+     +0.4459   alternating
+     +0.4445   limits
+     -0.4383   Vulner
+     -0.4371   carbon
+     -0.4361   Carbon
+     +0.4360   fixation
+     +0.4351  limits
+     -0.4310  Carbon
+     -0.4282   Collect
+     +0.4263   mag
+     -0.4243   hum
+     -0.4234  碳
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #6: Head 114
+  mean|cos| to others: 0.9196
+  cos vs consensus: -0.9699
+  QK: frob=0.3295, sigma0=0.2527, gap=2.26
+  OV: frob=0.4946, sigma0=0.4122
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1858  采购
+     +0.1794   Memorial
+     -0.1714   उ
+     +0.1709  Black
+     +0.1620   Priv
+     -0.1619  _POSTSUBSCRIPT
+     +0.1609  +v
+     -0.1539   Ricci
+     +0.1536  гла
+     +0.1532  пол
+     +0.1515   нов
+     +0.1514   Prison
+     +0.1513   Nav
+     -0.1511  azes
+     -0.1509  _POSTSUPERSCRIPT
+     +0.1508  _pop
+     +0.1498  招聘
+     +0.1496  迪士尼
+     -0.1486   Oil
+     +0.1481  ”。《
+
+  OV OUTPUT (writes):
+     +0.7852  REF
+     +0.5208   alternating
+     +0.5131  
+     +0.5021  FOR
+     +0.4978   FOR
+     +0.4816   echoing
+     -0.4572   hum
+     -0.4566   Threats
+     +0.4533   illustrating
+     -0.4484   Collect
+     -0.4336  Collect
+     -0.4336   mitigate
+     -0.4262   Vulner
+     +0.4251  kop
+     +0.4243   mag
+     -0.4224   mitigating
+     -0.4213   carbon
+     +0.4196   limits
+     -0.4170   Carbon
+     +0.4170  limits
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #7: Head 113
+  mean|cos| to others: 0.9233
+  cos vs consensus: +0.9081
+  QK: frob=0.2642, sigma0=0.2444, gap=4.45
+  OV: frob=0.4193, sigma0=0.3576
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1769  全套
+     +0.1731   उ
+     -0.1717  +v
+     -0.1713   Nav
+     -0.1658  了一张
+     -0.1622  Keyboard
+     -0.1612  Black
+     -0.1584   gun
+     -0.1564   Priv
+     +0.1529   Clear
+     +0.1507   calculate
+     -0.1464  进行了
+     -0.1446  第一届
+     +0.1440   Heim
+     -0.1439  预
+     -0.1431   mood
+     -0.1426  农历
+     +0.1425  ahlen
+     +0.1422   Reynolds
+     +0.1420   Ö
+
+  OV OUTPUT (writes):
+     +0.7282  REF
+     +0.5531  
+     +0.5059  FOR
+     +0.5019   echoing
+     +0.4934   FOR
+     -0.4632   Threats
+     +0.4598   illustrating
+     +0.4477  kop
+     +0.4477   alternating
+     -0.4426   hum
+     +0.4411   mag
+     -0.4345   Vulner
+     +0.4334   fixation
+     +0.4320   limits
+     +0.4255  limits
+     +0.4243  k
+     -0.4234   Collect
+     -0.4221   carbon
+     +0.4126   cosmology
+     -0.4126   Carbon
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #8: Head 44
+  mean|cos| to others: 0.9302
+  cos vs consensus: -0.9196
+  QK: frob=0.2864, sigma0=0.2430, gap=2.95
+  OV: frob=0.4182, sigma0=0.3354
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1791  全套
+     -0.1744   उ
+     +0.1735  +v
+     +0.1657   Nav
+     +0.1637  了一张
+     +0.1620  Black
+     +0.1609  Keyboard
+     +0.1552   Priv
+     -0.1522   Clear
+     +0.1519   gun
+     -0.1516   calculate
+     +0.1477  提前
+     -0.1454   Reynolds
+     +0.1451  农历
+     +0.1445  阵容
+     +0.1439  预
+     -0.1438   Compute
+     +0.1436  彩
+     +0.1435   mood
+     +0.1426   genome
+
+  OV OUTPUT (writes):
+     -0.7874  REF
+     -0.5427   alternating
+     -0.5170  FOR
+     -0.5163  
+     -0.5113   FOR
+     +0.4693   hum
+     -0.4693   echoing
+     +0.4577   Threats
+     -0.4476   illustrating
+     -0.4452   limits
+     +0.4426   Collect
+     +0.4389   mitigate
+     -0.4358   Altern
+     -0.4314  limits
+     +0.4296   mitigating
+     +0.4295  Collect
+     -0.4243   fixation
+     +0.4231   Vulner
+     -0.4149   солне
+     +0.4145   secretly
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #9: Head 46
+  mean|cos| to others: 0.9322
+  cos vs consensus: +0.9754
+  QK: frob=0.3426, sigma0=0.2889, gap=3.33
+  OV: frob=0.5944, sigma0=0.5125
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1888  采购
+     +0.1755  _POSTSUBSCRIPT
+     -0.1727  招聘
+     +0.1718   उ
+     -0.1686  Black
+     -0.1663   Memorial
+     +0.1630  ximate
+     -0.1626   Priv
+     +0.1614   jeans
+     +0.1600  _POSTSUPERSCRIPT
+     -0.1582  пол
+     +0.1566  811
+     -0.1564   Prison
+     +0.1562  Handler
+     +0.1562   eg
+     -0.1523  全套
+     -0.1494   attachment
+     -0.1484  槍
+     -0.1482  -Pro
+     -0.1481  都不
+
+  OV OUTPUT (writes):
+     -0.7446  REF
+     -0.5292  
+     -0.4994   echoing
+     -0.4853  FOR
+     -0.4727   FOR
+     -0.4672   alternating
+     -0.4655   illustrating
+     +0.4612   Threats
+     +0.4431   carbon
+     -0.4348  kop
+     +0.4347   Carbon
+     -0.4333   mag
+     +0.4325  Carbon
+     +0.4320   Collect
+     +0.4291   Vulner
+     +0.4264   hum
+     +0.4207  碳
+     -0.4182   fixation
+     +0.4151  Collect
+     -0.4143   limits
+

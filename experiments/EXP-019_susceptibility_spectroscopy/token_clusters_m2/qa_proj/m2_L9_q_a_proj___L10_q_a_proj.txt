@@ -1,0 +1,27 @@
+L9_q_a_proj <-> L10_q_a_proj (cos=0.252)
+149 tokens, 8 clusters
+
+Cluster 1 (23 tokens):
+  ICAgICAgICAgICAg,  decomposition,  equilibrium,  Distribution,  themes,  developmental,  curve,  Hence,  solvent,  respondents,  foundation,  foundations,  curves,  theorem,  nucleotide,  provincial, Theme,  entropy,  Quantity,  Foundation,  umbrella,  quantities,  radicals
+
+Cluster 2 (9 tokens):
+   Vera,  profound,  sandy,  murine,  warmly,  viable,  intense,  wheat,  confined
+
+Cluster 3 (10 tokens):
+   ray,  Jimmy,  Miy,  Lac,  Lou,  Joe,  Mim,  Mia, Lie,  Jac
+
+Cluster 4 (5 tokens):
+   Banks,  Bayern, odd, amin,  Kendall
+
+Cluster 5 (12 tokens):
+   drawing, Root,  draw,  Drawing, .display,  slash, Creating,  Short,  root,  Digital, Digital,  Alan
+
+Cluster 6 (37 tokens):
+   Lambda,  api, nabla, @g,  javax, _api, ::{, /config, context, mathscr, Iterator, .dart, Lambda, ollo,  FIGS,  delta, region, (float,  Api,  lib, /log,  satisfy, -client, Api, simeq, Async, fig,  py,  bài, rupal, -field,  erg, oodle, /lib, .Log, backend, #ifdef
+
+Cluster 7 (13 tokens):
+  154, 551, 706, 910, 763, 397, 290, 988, 156, 167, 546, 794, 018
+
+Cluster 8 (40 tokens):
+  _EX, xC, ,  words, qx, _TR, xF, xb, S, W, Y,  Dé, SC, _, .Re,  dét, g, xA, CG, }_, QD, /Z,  gu, ,R, }\\)-, xD, xz, 26, jn, Com, xc, )_,  sé, EQ, WA,  em, iﬁ, \\)\\(, using, .Sub
+

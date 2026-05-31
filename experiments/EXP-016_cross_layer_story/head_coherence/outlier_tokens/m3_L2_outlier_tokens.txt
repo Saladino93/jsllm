@@ -1,0 +1,577 @@
+Outlier Head Token Analysis: M3 Layer 2
+======================================================================
+
+Mean |cos| across all heads: 0.9813
+Median: 0.9894
+Min: 0.0984 (H25)
+Max: 0.9904 (H20)
+
+──────────────────────────────────────────────────────────────────────
+CONSENSUS DIRECTION (avg of top-20 most coherent heads)
+Mean |cos| of these heads: 0.9903
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.2983  
+     +0.2933   SOFTWARE
+     -0.2612   sometimes
+     -0.2570   early
+     -0.2522   reliable
+     -0.2510   grandmother
+     -0.2506   societies
+     -0.2498  AAAAAAAA
+     +0.2425  >>\n\n
+     -0.2408   previous
+     +0.2391  ]#
+     +0.2356  <｜fim▁begin｜>
+     +0.2356   >>\n\n
+     +0.2329  。)\n\n
+     +0.2314  
+     +0.2310  \xa0 
+     -0.2303   herself
+     -0.2298   thoroughly
+     -0.2291   researchers
+     +0.2289  ```\n\n
+
+  OV OUTPUT (writes):
+     +0.3644  �
+     +0.3574  统计分析
+     +0.3573  pper
+     +0.3569   fools
+     +0.3562  ppers
+     +0.3540  益处
+     +0.3519   audible
+     +0.3496  isch
+     +0.3438  rew
+     -0.3413   civilisation
+     +0.3375  天上
+     +0.3330  ones
+     +0.3306  ifa
+     +0.3287  新鲜
+     +0.3259  Loc
+     -0.3229   Deck
+     +0.3206  意外的
+     +0.3201  itative
+     -0.3165   Horizon
+     -0.3132   BN
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #0: Head 25
+  mean|cos| to others: 0.0984
+  cos vs consensus: -0.1155
+  QK: frob=0.2946, sigma0=0.2152, gap=1.10
+  OV: frob=0.4000, sigma0=0.3887
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.4614  AAAAAAAA
+     -0.3313   по
+     -0.3012   к
+     -0.2974  }(
+     +0.2882  Children
+     +0.2854  Describe
+     -0.2839  ”，
+     +0.2827  Repository
+     +0.2743  Create
+     -0.2734  _POSTSUBSCRIPT
+     -0.2723  }\\
+     -0.2712  }_{
+     -0.2694   для
+     -0.2685  ে
+     +0.2683  Delete
+     -0.2671   в
+     +0.2650  Background
+     +0.2641  Channel
+     -0.2624  }}_{
+     -0.2621  }\\),
+
+  OV OUTPUT (writes):
+     +0.3657  �
+     +0.3593   fools
+     +0.3564  统计分析
+     +0.3543  pper
+     +0.3538  ppers
+     +0.3537  益处
+     +0.3490   audible
+     +0.3464  isch
+     -0.3419   civilisation
+     +0.3416  rew
+     +0.3377  天上
+     +0.3350  ones
+     +0.3317  ifa
+     +0.3271  Loc
+     +0.3248  新鲜
+     +0.3209  itative
+     +0.3203  意外的
+     -0.3183   Deck
+     -0.3172   BN
+     -0.3129   Horizon
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #1: Head 98
+  mean|cos| to others: 0.9519
+  cos vs consensus: -0.9538
+  QK: frob=0.3054, sigma0=0.2650, gap=2.02
+  OV: frob=0.4030, sigma0=0.3899
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.3162   SOFTWARE
+     -0.3086  
+     -0.2957  <｜fim▁begin｜>
+     -0.2575  @@
+     +0.2491   early
+     -0.2466  ```\n\n
+     +0.2450   grandmother
+     +0.2440   sometimes
+     +0.2408   societies
+     +0.2384   reliable
+     -0.2356  ]#
+     +0.2338   previous
+     +0.2338   several
+     +0.2337   similar
+     -0.2333  
+     -0.2320  <p
+     +0.2310   essere
+     -0.2309  >>\n\n
+     +0.2282   usually
+     -0.2281  )\n\n\n\n
+
+  OV OUTPUT (writes):
+     +0.3678  �
+     +0.3574  ppers
+     +0.3569   fools
+     +0.3567  pper
+     +0.3544  isch
+     +0.3540  统计分析
+     +0.3532  益处
+     +0.3501   audible
+     +0.3449  rew
+     -0.3440   civilisation
+     +0.3388  天上
+     +0.3314  ones
+     +0.3295  Loc
+     +0.3294  ifa
+     +0.3262  新鲜
+     -0.3260   BN
+     -0.3191   Horizon
+     +0.3188  itative
+     -0.3182   Deck
+     +0.3178  意外的
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #2: Head 109
+  mean|cos| to others: 0.9759
+  cos vs consensus: +0.9807
+  QK: frob=0.1599, sigma0=0.1306, gap=2.34
+  OV: frob=0.5038, sigma0=0.4719
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.3072   SOFTWARE
+     +0.2938  
+     +0.2650  <｜fim▁begin｜>
+     -0.2539   early
+     -0.2510   sometimes
+     -0.2465   grandmother
+     -0.2436   societies
+     +0.2421  
+     -0.2417   reliable
+     +0.2389  ```\n\n
+     +0.2372  @@
+     +0.2361  >>\n\n
+     -0.2350   previous
+     +0.2334   >>\n\n
+     -0.2329   several
+     -0.2302   similar
+     -0.2291   thoroughly
+     +0.2261  ]#
+     -0.2245   usually
+     -0.2240   herself
+
+  OV OUTPUT (writes):
+     +0.3713  �
+     +0.3602  pper
+     +0.3548  ppers
+     +0.3534   audible
+     +0.3488  统计分析
+     +0.3481   fools
+     +0.3469  isch
+     +0.3465  rew
+     +0.3439  益处
+     -0.3384   civilisation
+     +0.3371  天上
+     +0.3350  Loc
+     +0.3345  ones
+     +0.3253  新鲜
+     +0.3243  ifa
+     -0.3200   Horizon
+     -0.3198   BN
+     +0.3184   unfor
+     +0.3182  ender
+     -0.3169   Deck
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #3: Head 29
+  mean|cos| to others: 0.9762
+  cos vs consensus: -0.9813
+  QK: frob=0.2811, sigma0=0.2699, gap=5.22
+  OV: frob=0.6786, sigma0=0.6703
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.3041   SOFTWARE
+     -0.2988  
+     -0.2699  <｜fim▁begin｜>
+     +0.2579   sometimes
+     +0.2575   early
+     +0.2507   grandmother
+     +0.2505   societies
+     +0.2494   reliable
+     +0.2423   previous
+     +0.2402   several
+     -0.2388  >>\n\n
+     -0.2377  @@
+     +0.2365   similar
+     -0.2357  ```\n\n
+     -0.2356  ]#
+     +0.2326   usually
+     +0.2320   thoroughly
+     -0.2308  
+     -0.2302   >>\n\n
+     +0.2298   previously
+
+  OV OUTPUT (writes):
+     +0.3643  �
+     +0.3603  统计分析
+     +0.3584  pper
+     +0.3563  ppers
+     +0.3548   fools
+     +0.3533  益处
+     +0.3505   audible
+     +0.3461  isch
+     -0.3440   civilisation
+     +0.3435  rew
+     +0.3362  ones
+     +0.3358  天上
+     +0.3304  ifa
+     +0.3275  Loc
+     +0.3259  新鲜
+     +0.3232  itative
+     +0.3204  意外的
+     -0.3185   Deck
+     -0.3176   BN
+     -0.3164   Horizon
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #4: Head 50
+  mean|cos| to others: 0.9803
+  cos vs consensus: -0.9866
+  QK: frob=0.2494, sigma0=0.2050, gap=1.81
+  OV: frob=0.4506, sigma0=0.4379
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.2986   SOFTWARE
+     -0.2815  
+     +0.2433   sometimes
+     +0.2409   reliable
+     +0.2402   societies
+     +0.2394   grandmother
+     +0.2329   early
+     -0.2325  <｜fim▁begin｜>
+     +0.2288   several
+     +0.2281   thoroughly
+     +0.2213   previous
+     +0.2206   similar
+     +0.2182   usually
+     +0.2162   previously
+     +0.2162   herself
+     -0.2143  >>\n\n
+     +0.2143   yourself
+     -0.2127   >>\n\n
+     -0.2117  \xa0 
+     +0.2110   researchers
+
+  OV OUTPUT (writes):
+     +0.3690  �
+     +0.3585  ppers
+     +0.3567  pper
+     +0.3559   fools
+     +0.3551  统计分析
+     +0.3537  益处
+     +0.3504   audible
+     +0.3482  isch
+     -0.3460   civilisation
+     +0.3449  天上
+     +0.3439  rew
+     +0.3349  ones
+     +0.3246  新鲜
+     -0.3244   BN
+     +0.3227  itative
+     +0.3225  ifa
+     -0.3223   Deck
+     +0.3221  Loc
+     +0.3190  意外的
+     -0.3115   Horizon
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #5: Head 82
+  mean|cos| to others: 0.9814
+  cos vs consensus: +0.9875
+  QK: frob=0.3083, sigma0=0.2736, gap=2.71
+  OV: frob=0.6349, sigma0=0.6201
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.3021   SOFTWARE
+     +0.2909  
+     +0.2556  <｜fim▁begin｜>
+     -0.2543   sometimes
+     -0.2500   early
+     -0.2485   societies
+     -0.2482   grandmother
+     -0.2468   reliable
+     -0.2353   previous
+     +0.2332  >>\n\n
+     -0.2331   several
+     -0.2315   thoroughly
+     +0.2307  ```\n\n
+     +0.2282  @@
+     -0.2281   similar
+     +0.2264   >>\n\n
+     -0.2263   usually
+     -0.2263   previously
+     +0.2247  ]#
+     -0.2238   herself
+
+  OV OUTPUT (writes):
+     +0.3655  �
+     +0.3631  统计分析
+     +0.3605  ppers
+     +0.3602  pper
+     +0.3572   fools
+     +0.3555  益处
+     +0.3507   audible
+     +0.3438  isch
+     +0.3438  rew
+     -0.3410   civilisation
+     +0.3388  天上
+     +0.3358  ones
+     +0.3331  ifa
+     +0.3256  Loc
+     +0.3234  新鲜
+     -0.3218   Deck
+     +0.3206  itative
+     +0.3195  意外的
+     -0.3158   Horizon
+     +0.3130  Statistical
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #6: Head 125
+  mean|cos| to others: 0.9826
+  cos vs consensus: -0.9891
+  QK: frob=0.2582, sigma0=0.2375, gap=3.53
+  OV: frob=0.4332, sigma0=0.4167
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.3108   SOFTWARE
+     -0.2986  
+     -0.2690  <｜fim▁begin｜>
+     +0.2550   early
+     +0.2538   sometimes
+     +0.2482   grandmother
+     +0.2471   societies
+     +0.2451   reliable
+     -0.2433  ```\n\n
+     -0.2425  >>\n\n
+     -0.2413  
+     -0.2386   >>\n\n
+     +0.2369   previous
+     -0.2358  @@
+     -0.2341  ]#
+     +0.2313   thoroughly
+     +0.2303   several
+     +0.2278   similar
+     -0.2268  \xa0 
+     -0.2252  ¶\n\n
+
+  OV OUTPUT (writes):
+     +0.3604  �
+     +0.3588  统计分析
+     +0.3585   fools
+     +0.3537  pper
+     +0.3531   audible
+     +0.3530  ppers
+     +0.3507  益处
+     +0.3491  isch
+     +0.3438  rew
+     -0.3392   civilisation
+     +0.3352  ones
+     +0.3345  天上
+     +0.3283  新鲜
+     -0.3270   Deck
+     +0.3258  ifa
+     +0.3249  Loc
+     +0.3243  意外的
+     -0.3185   Horizon
+     -0.3180   BN
+     +0.3164  itative
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #7: Head 123
+  mean|cos| to others: 0.9833
+  cos vs consensus: +0.9902
+  QK: frob=0.2133, sigma0=0.1925, gap=3.12
+  OV: frob=0.4199, sigma0=0.4066
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.3047   SOFTWARE
+     +0.2986  
+     +0.2626  <｜fim▁begin｜>
+     -0.2576   sometimes
+     -0.2558   early
+     -0.2508   grandmother
+     -0.2490   societies
+     -0.2480   reliable
+     -0.2391   previous
+     +0.2369  >>\n\n
+     +0.2354  ]#
+     +0.2353  ```\n\n
+     +0.2328   >>\n\n
+     -0.2310   several
+     -0.2310   thoroughly
+     +0.2303  
+     -0.2300   similar
+     +0.2299  @@
+     -0.2274   previously
+     -0.2258   usually
+
+  OV OUTPUT (writes):
+     +0.3659  统计分析
+     +0.3631   fools
+     +0.3572  �
+     +0.3558  益处
+     +0.3552  ppers
+     +0.3519  pper
+     +0.3483   audible
+     +0.3423  isch
+     +0.3417  rew
+     -0.3388   civilisation
+     +0.3350  ones
+     +0.3340  天上
+     +0.3306  ifa
+     +0.3300  新鲜
+     +0.3250  Loc
+     +0.3234  意外的
+     -0.3227   Deck
+     +0.3201  itative
+     -0.3166   Horizon
+     +0.3118  Statistical
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #8: Head 120
+  mean|cos| to others: 0.9842
+  cos vs consensus: -0.9916
+  QK: frob=0.2540, sigma0=0.2132, gap=1.93
+  OV: frob=0.4586, sigma0=0.4461
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.3060   SOFTWARE
+     -0.3060  
+     -0.2685  <｜fim▁begin｜>
+     +0.2604   early
+     +0.2583   sometimes
+     +0.2512   grandmother
+     +0.2501   societies
+     +0.2490   reliable
+     -0.2455  ```\n\n
+     -0.2447  >>\n\n
+     -0.2441  
+     +0.2425   previous
+     -0.2424  ]#
+     -0.2402   >>\n\n
+     -0.2334  @@
+     +0.2318   thoroughly
+     +0.2308   several
+     +0.2307   similar
+     -0.2286  ]\n\n\n
+     -0.2283  )\n\n\n\n
+
+  OV OUTPUT (writes):
+     +0.3652  �
+     +0.3557  统计分析
+     +0.3554  益处
+     +0.3544  ppers
+     +0.3539  pper
+     +0.3530   fools
+     +0.3519   audible
+     +0.3498  isch
+     +0.3429  rew
+     -0.3387   civilisation
+     +0.3377  天上
+     +0.3348  ones
+     +0.3292  ifa
+     +0.3265  Loc
+     +0.3250  新鲜
+     +0.3210  itative
+     -0.3204   Deck
+     +0.3181  意外的
+     -0.3165   BN
+     -0.3138   Horizon
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #9: Head 124
+  mean|cos| to others: 0.9844
+  cos vs consensus: -0.9949
+  QK: frob=0.2778, sigma0=0.2371, gap=2.49
+  OV: frob=0.5137, sigma0=0.4963
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.2900  AAAAAAAA
+     -0.2850  
+     -0.2738   SOFTWARE
+     +0.2609   sometimes
+     +0.2512   reliable
+     +0.2472   societies
+     +0.2470   grandmother
+     +0.2451   early
+     +0.2339   previous
+     +0.2319   researchers
+     +0.2274   herself
+     +0.2272   several
+     +0.2269   thoroughly
+     -0.2247  >>\n\n
+     -0.2240  \xa0 
+     +0.2230   ancient
+     +0.2230   yourself
+     +0.2229   previously
+     +0.2223   demonstrated
+     +0.2204   perhaps
+
+  OV OUTPUT (writes):
+     +0.3667  �
+     +0.3603  统计分析
+     +0.3595  ppers
+     +0.3591  pper
+     +0.3548   audible
+     +0.3523   fools
+     +0.3505  益处
+     +0.3466  isch
+     +0.3417  rew
+     -0.3401   civilisation
+     +0.3396  天上
+     +0.3354  ifa
+     +0.3350  ones
+     +0.3251  Loc
+     +0.3249  新鲜
+     -0.3236   Deck
+     +0.3206  itative
+     +0.3174  意外的
+     -0.3167   BN
+     -0.3160   Horizon
+

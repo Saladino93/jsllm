@@ -1,0 +1,394 @@
+M1 Token Census — Layer 10
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+_POSTSUPERSCRIPT                  128 100.0%
+ \\({}^{\\                        128 100.0%
+ MF                               128 100.0%
+ heater                           128 100.0%
+ =(                               128 100.0%
+ proprietary                      128 100.0%
+ Senior                           128 100.0%
+大学生                               128 100.0%
+他能                                128 100.0%
+183                               128 100.0%
+__(                               128 100.0%
+ි                                 128 100.0%
+ landmark                         128 100.0%
+}\\))                             128 100.0%
+^{\\                              128 100.0%
+ TT                               127  99.2%
+ Pri                              125  97.7%
+\\}                               125  97.7%
+Serial                            119  93.0%
+583                               119  93.0%
+)}                                118  92.2%
+上身                                114  89.1%
+subscript                         114  89.1%
+ உ                                113  88.3%
+**[                               106  82.8%
+ dividing                          99  77.3%
+ mut                               80  62.5%
+帘                                  79  61.7%
+ serious                           78  60.9%
+:System                            65  50.8%
+ robust                            54  42.2%
+ мо                                50  39.1%
+电源                                 44  34.4%
+(query                             41  32.0%
+就想                                 31  24.2%
+(of                                22  17.2%
+=[                                 20  15.6%
+خلاق                               18  14.1%
+ Purple                            13  10.2%
+raphics                            12   9.4%
+_POSTSUBSCRIPT                      6   4.7%
+.encode                             5   3.9%
+.ph                                 4   3.1%
+ Π                                  3   2.3%
+}+\\                                3   2.3%
+[left                               2   1.6%
+运用                                  2   1.6%
+′=                                  2   1.6%
+氧                                   2   1.6%
+国防                                  1   0.8%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+\\mathcal                          64  50.0%
+ drilling                          55  43.0%
+登记                                 43  33.6%
+��                                 42  32.8%
+>&                                 42  32.8%
+Session                            41  32.0%
+举例                                 41  32.0%
+石油                                 39  30.5%
+_pro                               34  26.6%
+ Big                               34  26.6%
+ somewhere                         30  23.4%
+杖                                  30  23.4%
+re                                 30  23.4%
+房屋                                 29  22.7%
+})\\                               29  22.7%
+ Wind                              27  21.1%
+ClassName                          26  20.3%
+nature                             26  20.3%
+ artwork                           25  19.5%
+蹦                                  24  18.8%
+ Failed                            24  18.8%
+栈                                  23  18.0%
+烧结                                 23  18.0%
+earance                            21  16.4%
+擅                                  21  16.4%
+ının                               20  15.6%
+从容                                 20  15.6%
+中兴                                 20  15.6%
+熊                                  20  15.6%
+妻                                  20  15.6%
+ Piano                             19  14.8%
+诊所                                 19  14.8%
+继承                                 19  14.8%
+}}(\\                              19  14.8%
+铺                                  19  14.8%
+用以                                 18  14.1%
+ وال                               18  14.1%
+ bil                               18  14.1%
+ HH                                18  14.1%
+扩大                                 17  13.3%
+姨                                  17  13.3%
+VN                                 17  13.3%
+摔                                  15  11.7%
+/re                                15  11.7%
+_page                              15  11.7%
+胃                                  14  10.9%
+.Un                                14  10.9%
+都很                                 14  10.9%
+他自己                                14  10.9%
+ XXX                               14  10.9%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+胃                                  19  14.8%
+ Johnny                            18  14.1%
+][                                 16  12.5%
+�                                  15  11.7%
+完成                                 13  10.2%
+][                                 13  10.2%
+Features                           13  10.2%
+ Sheffield                         13  10.2%
+Go                                 12   9.4%
+天地                                 11   8.6%
+Nm                                 10   7.8%
+(()                                10   7.8%
+ Te                                10   7.8%
+放假                                 10   7.8%
+扩大                                 10   7.8%
+\tg                                10   7.8%
+.gl                                10   7.8%
+ onClick                            9   7.0%
+Tony                                9   7.0%
+_pro                                9   7.0%
+={()                                9   7.0%
+ ∩                                  8   6.2%
+ italic                             8   6.2%
+ Tony                               8   6.2%
+搬                                   8   6.2%
+退休                                  8   6.2%
+ гру                                8   6.2%
+你看                                  8   6.2%
+_to                                 8   6.2%
+ puppy                              8   6.2%
+)+\\                                8   6.2%
+ drilling                           8   6.2%
+ std                                8   6.2%
+multicolumn                         7   5.5%
+})\\                                7   5.5%
+(.                                  7   5.5%
+ desc                               7   5.5%
+_bit                                7   5.5%
+ hình                               7   5.5%
+.Un                                 7   5.5%
+529                                 6   4.7%
+}(                                  6   4.7%
+ lots                               6   4.7%
+Zm                                  6   4.7%
+匹                                   6   4.7%
+ Instrument                         6   4.7%
+举例                                  6   4.7%
+Resolution                          6   4.7%
+ пе                                 6   4.7%
+VALID                               6   4.7%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+胃                                  18  14.1%
+][                                 13  10.2%
+�                                  12   9.4%
+})\\                               11   8.6%
+ Tony                              11   8.6%
+ Johnny                             9   7.0%
+][                                  9   7.0%
+757                                 8   6.2%
+(()                                 8   6.2%
+ Apr                                8   6.2%
+313                                 8   6.2%
+Features                            8   6.2%
+天地                                  7   5.5%
+}(\\                                7   5.5%
+女儿                                  6   4.7%
+房屋                                  6   4.7%
+][                                  6   4.7%
+\tg                                 6   4.7%
+ desc                               6   4.7%
+subscript                           6   4.7%
+ tissues                            6   4.7%
+一定的                                 6   4.7%
+ onClick                            6   4.7%
+腾讯                                  6   4.7%
+房地产                                 5   3.9%
+ Login                              5   3.9%
+489                                 5   3.9%
+ italic                             5   3.9%
+__(                                 5   3.9%
+放假                                  5   3.9%
+Tony                                5   3.9%
+Go                                  5   3.9%
+ ∩                                  5   3.9%
+531                                 5   3.9%
+ tunnels                            5   3.9%
+superscript                         5   3.9%
+ Jenny                              5   3.9%
+Resolution                          5   3.9%
+Computer                            5   3.9%
+首席                                  5   3.9%
+].[                                 5   3.9%
+={                                  4   3.1%
+ daughter                           4   3.1%
+凤凰                                  4   3.1%
+ Iron                               4   3.1%
+100                                 4   3.1%
+ ⎟                                  4   3.1%
+Nm                                  4   3.1%
+ Tennessee                          4   3.1%
+({                                  4   3.1%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+__(                                     137  26.8%
+ \\({}^{\\                              130  25.4%
+_POSTSUPERSCRIPT                        129  25.2%
+^{\\                                    129  25.2%
+ MF                                     128  25.0%
+ heater                                 128  25.0%
+ =(                                     128  25.0%
+ proprietary                            128  25.0%
+ Senior                                 128  25.0%
+大学生                                     128  25.0%
+他能                                      128  25.0%
+183                                     128  25.0%
+ි                                       128  25.0%
+ landmark                               128  25.0%
+}\\))                                   128  25.0%
+ TT                                     127  24.8%
+ Pri                                    125  24.4%
+\\}                                     125  24.4%
+subscript                               125  24.4%
+Serial                                  119  23.2%
+583                                     119  23.2%
+)}                                      118  23.0%
+上身                                      114  22.3%
+ உ                                      113  22.1%
+**[                                     106  20.7%
+ dividing                                99  19.3%
+ mut                                     81  15.8%
+帘                                        79  15.4%
+ serious                                 78  15.2%
+\\mathcal                                69  13.5%
+:System                                  65  12.7%
+ drilling                                65  12.7%
+ robust                                  54  10.5%
+ мо                                      51  10.0%
+胃                                        51  10.0%
+>&                                       51  10.0%
+举例                                       50   9.8%
+_pro                                     47   9.2%
+})\\                                     47   9.2%
+电源                                       46   9.0%
+Session                                  46   9.0%
+��                                       46   9.0%
+登记                                       46   9.0%
+石油                                       44   8.6%
+(query                                   41   8.0%
+房屋                                       39   7.6%
+ Big                                     38   7.4%
+杖                                        38   7.4%
+ somewhere                               34   6.6%
+re                                       33   6.4%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+No clusters found (all heads have unique token sets).
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 113 (frob=0.8862, 3.9σ):
+  Dir0 (σ=0.8604): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', '__(', ' Senior', '他能']
+  Dir1 (σ=0.0582): ['で', ' Fix', 'Nature', '扩大', '第八', '[y', '(.', ' biodiversity']
+  Dir2 (σ=0.0394): ['房屋', '.Un', ' output', 'Views', 'height', '黄色', '伟', ' cheap']
+  Dir3 (σ=0.0345): ['Features', ' Tennessee', 'dbc', ' Prime', 'FREE', ' Pe', ' lots', ':@']
+
+Head 31 (frob=0.7370, 2.5σ):
+  Dir0 (σ=0.7269): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', '__(', ' proprietary', ' Senior']
+  Dir1 (σ=0.0494): [' drilling', '扩大', ' backgrounds', 'EU', '�', ' Problems', ' Famous', '接下来']
+  Dir2 (σ=0.0374): ['杖', '818', '��', ' produces', '证书', '.Un', ' McG', '货币']
+  Dir3 (σ=0.0217): ['尺寸', '607', '>>>>', '.Query', 'プレ', '¹', ' LC', '不在']
+
+Head 121 (frob=0.7355, 2.5σ):
+  Dir0 (σ=0.6875): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', '__(', '他能', ' Senior']
+  Dir1 (σ=0.0604): ['>&', ' std', '杖', '].[', 'Resolution', '栽', ' gg', ' пе']
+  Dir2 (σ=0.0467): [' drilling', ' Beethoven', 'egu', '[y', '媳妇', ' Fix', ' artwork', '实例']
+  Dir3 (σ=0.0368): ['531', ' Spell', ' murdered', ' Aug', 'imuth', '窗户', '沫', '天地']
+
+Head 43 (frob=0.7018, 2.2σ):
+  Dir0 (σ=0.6509): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', ' proprietary', ' Senior', '__(']
+  Dir1 (σ=0.0549): [' drilling', ' adopt', ' HH', ' Piano', ' Oregon', ' NASA', '龚', '可在']
+  Dir2 (σ=0.0453): ['Features', ' Gen', ' Tony', '={()', '�', '})\\\\', ' Topics', ' asymmetric']
+  Dir3 (σ=0.0365): [' italic', '进制', ' Curtis', '》，《', 'ickson', '447', ' cents', '}^{*']
+
+Head 7 (frob=0.6788, 1.9σ):
+  Dir0 (σ=0.6461): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', ' Senior', '__(', '他能']
+  Dir1 (σ=0.0469): ['[y', ' Fix', 'ının', '_root', '_pro', ' crush', '可在', '文章中']
+  Dir2 (σ=0.0344): ['试管', '完成', ' вне', '}}_{\\\\', ' Instrument', ' cortical', ' including', ' Tele']
+  Dir3 (σ=0.0313): [' Tennessee', '({', '�', '={{', '.Net', ' kil', '有过', ' Chip']
+
+Head 67 (frob=0.6494, 1.7σ):
+  Dir0 (σ=0.6144): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', '他能', ' =(', ' proprietary', ' Senior']
+  Dir1 (σ=0.0653): ['re', ' somewhere', '举例', '663', '>&', '烧结', ' Kurt', '石油']
+  Dir2 (σ=0.0445): ['扩大', '任务的', '250', ' mat', '350', 'ád', 'widehat', ' backgrounds']
+  Dir3 (σ=0.0331): ['Prov', '淳', '吸附', '.Net', '�', ' tunnels', '的时间内', '(()']
+
+Head 127 (frob=0.6455, 1.6σ):
+  Dir0 (σ=0.6045): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', '__(', ' proprietary', ' Senior']
+  Dir1 (σ=0.0438): ['有点', '房屋', ' Tod', '得很', ' too', ' toward', ' parse', '分辨率']
+  Dir2 (σ=0.0351): ['derr', '津', '.fit', '下一刻', '_root', '.begin', ' Big', '拉伸']
+  Dir3 (σ=0.0328): ['�', 'Universal', ' NJ', '长期以来', '首席', '678', '还', '全区']
+
+Head 42 (frob=0.6432, 1.6σ):
+  Dir0 (σ=0.6004): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', '__(', ' proprietary', ' Senior']
+  Dir1 (σ=0.0460): ['胃', '(.', ' lungs', ' ListNode', '若是', '青春', ' italic', '}[]{']
+  Dir2 (σ=0.0431): ['实体', 'building', ' std', '都在', '_pro', ' glass', ' Tim', ' Bruins']
+  Dir3 (σ=0.0400): ['Translate', '_state', ' những', ' relaxed', 'xl', '杖', ' LGBT', '货币']
+
+Head 3 (frob=0.6369, 1.5σ):
+  Dir0 (σ=0.6211): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', '__(', '他能', ' =(', ' Senior']
+  Dir1 (σ=0.0733): [' drilling', '>&', '烧结', '举例', '擅', '.Un', '登记', '/re']
+  Dir2 (σ=0.0327): ['胃', '757', '\\\\omega', '578', '一定的', '恐怖的', '那般', ' officially']
+  Dir3 (σ=0.0247): ['.App', '711', '这场', 'subscript�', ' Blake', 'Zone', '激进', '盾']
+
+Head 103 (frob=0.6315, 1.5σ):
+  Dir0 (σ=0.5794): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', ' proprietary', ' Senior', 'ි']
+  Dir1 (σ=0.0498): ['Session', '石油', ' Session', ' وال', '举例', ' Arctic', 'ClassName', ' drilling']
+  Dir2 (σ=0.0409): ['(time', ' fit', ' onClick', ' sd', '宛若', '/ui', ' stabil', 'fit']
+  Dir3 (σ=0.0346): ['boldsymbol', ' Ontario', '水量', ' preceding', 'Computer', ' mock', ' SCI', '\\tbreak']
+
+Head 105 (frob=0.6287, 1.5σ):
+  Dir0 (σ=0.6152): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', '他能', '__(', ' =(', ' Senior']
+  Dir1 (σ=0.0542): ['搬', '>&', '房屋', '.Un', '杖', '.p', '证书', '/re']
+  Dir2 (σ=0.0371): ['嘛', '结点', ' het', ' California', 'attach', ' arrested', ' marry', ' intercept']
+  Dir3 (σ=0.0223): ['}}_{', '胃', '.objects', 'superscript', '})\\\\', '753', '][', '073']
+
+Head 97 (frob=0.6245, 1.4σ):
+  Dir0 (σ=0.5712): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', '__(', ' Senior', '他能']
+  Dir1 (σ=0.0476): ['放松', '\\\\mathcal', ' Big', '从容', '基本', '829', 're', '_root']
+  Dir2 (σ=0.0405): ['\\tName', '})\\\\', ' weakening', ' Name', ' Quality', '_to', '}}(\\\\', ' aging']
+  Dir3 (σ=0.0348): ['上级', ' Apr', '慕容', '招呼', ' Wo', ' Ohio', 'Techn', ' Spencer']
+
+Head 18 (frob=0.6237, 1.4σ):
+  Dir0 (σ=0.5839): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', '__(', '他能', ' Senior']
+  Dir1 (σ=0.0710): ['举例', '栈', ' NASA', ' drilling', 'building', ' cried', ' Wind', '-web']
+  Dir2 (σ=0.0405): [' thigh', '消失了', 'Nm', 'ád', '扩大', '="_', ' Reality', '/src']
+  Dir3 (σ=0.0387): [' pre', '押', '�', '勘', '阻塞', '了解', ' quality', '窗户']
+
+Head 1 (frob=0.6180, 1.4σ):
+  Dir0 (σ=0.5731): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', ' proprietary', '__(', ' Senior']
+  Dir1 (σ=0.0573): ['Session', ' FIGS', '栈', '}}{\\\\', '摔', 'Bo', 'ının', 'ClassName']
+  Dir2 (σ=0.0376): ['((', '}(\\\\', ' AAA', ' italic', '}[]{', ' Tony', ' Popular', ' \\\\((']
+  Dir3 (σ=0.0344): [' Roosevelt', '精彩', ' пе', '-start', '女儿', '苗木', 'Both', ' django']
+
+Head 116 (frob=0.6138, 1.3σ):
+  Dir0 (σ=0.5718): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', ' proprietary', ' Senior', '他能']
+  Dir1 (σ=0.0460): [' drilling', ' artwork', '深度', ' drill', ' NASA', '早在', ' sprintf', '-not']
+  Dir2 (σ=0.0422): ['][', '}(\\\\', '.gl', '�', 'Tony', ',\\\\', '())', ' Looking']
+  Dir3 (σ=0.0313): ['712', '教育教学', '房屋', ',+', ' Flags', '萧', '品种', ' Kie']
+
+Head 20 (frob=0.5893, 1.1σ):
+  Dir0 (σ=0.5400): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' =(', ' heater', '他能', ' proprietary', ' Senior']
+  Dir1 (σ=0.0767): [' drilling', '举例', '中兴', ' Piano', '想想', '诊所', '-web', 'building']
+  Dir2 (σ=0.0453): ['757', '遇到', '遇见', 'War', '急诊', '__(', '459', '首席']
+  Dir3 (σ=0.0358): ['循', '', ' Soviet', '常', '儒', '卞', ' Type', '种类']
+
+Head 82 (frob=0.5870, 1.1σ):
+  Dir0 (σ=0.5476): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', '__(', ' Senior', '他能']
+  Dir1 (σ=0.0680): ['胃', '(.', '扩大', 'Web', ' insert', '第八', 'Dynamic', ' biodiversity']
+  Dir2 (σ=0.0429): [' PRE', '>&', ' disappearance', '_pro', ' horn', '_p', '实体', ' +=']
+  Dir3 (σ=0.0346): [' aging', '_st', '直播', '公主', ' sd', 'ตร', '特色', '-ref']
+
+Head 62 (frob=0.5856, 1.1σ):
+  Dir0 (σ=0.5510): ['_POSTSUPERSCRIPT', ' \\\\({}^{\\\\', ' MF', ' heater', ' =(', ' Senior', '他能', ' proprietary']
+  Dir1 (σ=0.0474): [' std', 'full', '完成', '植', '概述', '发票', '135', '显微镜']
+  Dir2 (σ=0.0468): ['胃', 'Car', ' jav', 'AQ', ' combustion', '+I', 'Buttons', '.__']
+  Dir3 (σ=0.0423): ['VN', '膏', 'いて', '细节', '精心', ' detail', ' Cha', '237']
+

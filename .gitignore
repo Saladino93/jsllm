@@ -1,25 +1,39 @@
-configs/api_keys*.txt
-configs/.secrets
-
-# SSH keys and credentials — never commit these
+# === Secrets / credentials (never commit) ===
+**/api_keys*.txt
+**/.secrets
+**/secrets.yaml
+*.env
+.env
 *.pem
 *.key
 id_*
 *.pub
+
+# === Python ===
 __pycache__/
 *.pyc
 *.pyo
-.DS_Store
 *.egg-info/
 .uv/
 .venv/
-results/*.json
-playground/data/
-# Models
+.DS_Store
+
+# === Model weights ===
 models/
 *.bin
 *.safetensors
 *.pt
 *.pth
-# Large circuit-SVD outputs (exceed GitHub 100MB limit)
+
+# === Heavy / regenerable analysis artifacts ===
+# Interactive plotly plots (~2 GB) and array dumps — regenerate from scripts.
+*.html
+*.npz
+*.npy
+results/*.json
 results/ds_circuit*/circuit_svd_results.json
+
+# === Experiment scratch plots ===
+# Keep curated figures under reports/ and results/; drop the 400+ MB of
+# experiment scratch PNGs.
+experiments/**/*.png

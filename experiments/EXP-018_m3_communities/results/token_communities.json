@@ -1,0 +1,642 @@
+{
+  "n_bags": 125,
+  "n_communities": 22,
+  "communities": [
+    {
+      "id": 0,
+      "size": 45,
+      "tokens": [
+        "REF",
+        " FOR",
+        "FOR",
+        "Conflict",
+        " Conflict",
+        " DEN",
+        " conflict",
+        " fixation",
+        " mag",
+        "k",
+        " $",
+        " community",
+        " alternating",
+        " Den",
+        " obs",
+        " конф",
+        " denial",
+        " \"$",
+        "REFERENCES",
+        " REF"
+      ],
+      "layers": {
+        "55": 22,
+        "56": 22,
+        "53": 20,
+        "57": 20,
+        "58": 17
+      },
+      "sources": {
+        "o_proj": 157,
+        "q_a_proj": 1
+      },
+      "sides": {
+        "OUTPUT": 157,
+        "INPUT": 1
+      }
+    },
+    {
+      "id": 1,
+      "size": 37,
+      "tokens": [
+        "�",
+        "pper",
+        "统计分析",
+        " fools",
+        " checker",
+        "益处",
+        "dies",
+        " Horizon",
+        "grams",
+        " BN",
+        "ppers",
+        " Bram",
+        "isch",
+        "价比",
+        " Deck",
+        "新鲜",
+        "意外的",
+        "一圈",
+        "rew",
+        " anonymity"
+      ],
+      "layers": {
+        "2": 24,
+        "1": 22,
+        "0": 21,
+        "7": 12,
+        "3": 11
+      },
+      "sources": {
+        "o_proj": 108,
+        "q_a_proj": 8
+      },
+      "sides": {
+        "OUTPUT": 108,
+        "INPUT": 8
+      }
+    },
+    {
+      "id": 2,
+      "size": 21,
+      "tokens": [
+        " renewable",
+        "Explain",
+        " quantum",
+        " words",
+        " Explain",
+        "**\\\\n",
+        "**",
+        "Compare",
+        "ash",
+        " Quantum",
+        "Quantum",
+        "Words",
+        " compare",
+        " explain",
+        " explains",
+        " Words",
+        " Mac",
+        " adoption",
+        "(**",
+        "<｜Assistant｜>"
+      ],
+      "layers": {
+        "4": 16,
+        "2": 12,
+        "6": 6,
+        "0": 4,
+        "5": 4
+      },
+      "sources": {
+        "q_a_proj": 54,
+        "o_proj": 10
+      },
+      "sides": {
+        "INPUT": 54,
+        "OUTPUT": 10
+      }
+    },
+    {
+      "id": 3,
+      "size": 17,
+      "tokens": [
+        "roth",
+        " CD",
+        "CD",
+        "-os",
+        "程",
+        "曙",
+        "胭",
+        "yme",
+        "增量",
+        " locating",
+        "-CT",
+        " Guan",
+        "reat",
+        "fel",
+        "kele",
+        "可得",
+        "ontal"
+      ],
+      "layers": {
+        "5": 11,
+        "7": 11,
+        "8": 7,
+        "3": 4,
+        "6": 4
+      },
+      "sources": {
+        "o_proj": 37,
+        "q_a_proj": 1
+      },
+      "sides": {
+        "OUTPUT": 37,
+        "INPUT": 1
+      }
+    },
+    {
+      "id": 4,
+      "size": 16,
+      "tokens": [
+        " costing",
+        "cost",
+        " costs",
+        "成本",
+        " cost",
+        " Cost",
+        "-cost",
+        "union",
+        "_cost",
+        "Cost",
+        " Kosten",
+        " union",
+        "转移",
+        "transfer",
+        "-transfer",
+        " transfer"
+      ],
+      "layers": {
+        "58": 14,
+        "52": 13,
+        "59": 12,
+        "55": 7,
+        "8": 1
+      },
+      "sources": {
+        "o_proj": 47,
+        "q_a_proj": 1
+      },
+      "sides": {
+        "OUTPUT": 47,
+        "INPUT": 1
+      }
+    },
+    {
+      "id": 5,
+      "size": 13,
+      "tokens": [
+        " AI",
+        "ble",
+        "**:",
+        " wob",
+        " Energy",
+        " entanglement",
+        "人工智能",
+        "Break",
+        "150",
+        "AI",
+        ":**:",
+        ":**",
+        " Ble"
+      ],
+      "layers": {
+        "2": 9,
+        "3": 8,
+        "9": 5,
+        "11": 5,
+        "7": 4
+      },
+      "sources": {
+        "q_a_proj": 39,
+        "o_proj": 4
+      },
+      "sides": {
+        "INPUT": 39,
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 6,
+      "size": 4,
+      "tokens": [
+        "iture",
+        "ivar",
+        "尔德",
+        " Equivalent"
+      ],
+      "layers": {
+        "1": 3,
+        "2": 3,
+        "4": 3,
+        "8": 1
+      },
+      "sources": {
+        "o_proj": 10
+      },
+      "sides": {
+        "OUTPUT": 10
+      }
+    },
+    {
+      "id": 7,
+      "size": 4,
+      "tokens": [
+        " processing",
+        " technology",
+        " Technology",
+        " ble"
+      ],
+      "layers": {
+        "3": 4,
+        "5": 4
+      },
+      "sources": {
+        "q_a_proj": 8
+      },
+      "sides": {
+        "INPUT": 8
+      }
+    },
+    {
+      "id": 8,
+      "size": 3,
+      "tokens": [
+        " equivalent",
+        "如火",
+        "ozo"
+      ],
+      "layers": {
+        "4": 3,
+        "5": 3,
+        "3": 1
+      },
+      "sources": {
+        "o_proj": 7
+      },
+      "sides": {
+        "OUTPUT": 7
+      }
+    },
+    {
+      "id": 9,
+      "size": 3,
+      "tokens": [
+        "yers",
+        "几分",
+        "附表"
+      ],
+      "layers": {
+        "9": 3,
+        "10": 3
+      },
+      "sources": {
+        "o_proj": 6
+      },
+      "sides": {
+        "OUTPUT": 6
+      }
+    },
+    {
+      "id": 10,
+      "size": 2,
+      "tokens": [
+        "fileName",
+        " Beard"
+      ],
+      "layers": {
+        "0": 2,
+        "2": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 11,
+      "size": 2,
+      "tokens": [
+        " inference",
+        "udal"
+      ],
+      "layers": {
+        "3": 2,
+        "11": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 12,
+      "size": 2,
+      "tokens": [
+        " Her",
+        " comparing"
+      ],
+      "layers": {
+        "4": 2,
+        "5": 2
+      },
+      "sources": {
+        "q_a_proj": 4
+      },
+      "sides": {
+        "INPUT": 4
+      }
+    },
+    {
+      "id": 13,
+      "size": 2,
+      "tokens": [
+        " civ",
+        " Civ"
+      ],
+      "layers": {
+        "4": 2,
+        "58": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 14,
+      "size": 2,
+      "tokens": [
+        "inery",
+        "edy"
+      ],
+      "layers": {
+        "4": 2,
+        "6": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 15,
+      "size": 2,
+      "tokens": [
+        "uty",
+        "anka"
+      ],
+      "layers": {
+        "6": 2,
+        "8": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 16,
+      "size": 2,
+      "tokens": [
+        "availability",
+        " availability"
+      ],
+      "layers": {
+        "9": 2,
+        "60": 2
+      },
+      "sources": {
+        "q_a_proj": 2,
+        "o_proj": 2
+      },
+      "sides": {
+        "INPUT": 2,
+        "OUTPUT": 2
+      }
+    },
+    {
+      "id": 17,
+      "size": 2,
+      "tokens": [
+        " bright",
+        " atmospheric"
+      ],
+      "layers": {
+        "52": 2,
+        "53": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 18,
+      "size": 2,
+      "tokens": [
+        "能量",
+        " ENER"
+      ],
+      "layers": {
+        "52": 3,
+        "54": 2
+      },
+      "sources": {
+        "o_proj": 4,
+        "q_a_proj": 1
+      },
+      "sides": {
+        "OUTPUT": 4,
+        "INPUT": 1
+      }
+    },
+    {
+      "id": 19,
+      "size": 2,
+      "tokens": [
+        " influence",
+        " Influence"
+      ],
+      "layers": {
+        "54": 2,
+        "55": 2,
+        "52": 1
+      },
+      "sources": {
+        "o_proj": 5
+      },
+      "sides": {
+        "OUTPUT": 5
+      }
+    },
+    {
+      "id": 20,
+      "size": 2,
+      "tokens": [
+        "气体的",
+        "气体"
+      ],
+      "layers": {
+        "56": 2,
+        "57": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    },
+    {
+      "id": 21,
+      "size": 2,
+      "tokens": [
+        "平滑",
+        " smoother"
+      ],
+      "layers": {
+        "57": 2,
+        "60": 2
+      },
+      "sources": {
+        "o_proj": 4
+      },
+      "sides": {
+        "OUTPUT": 4
+      }
+    }
+  ],
+  "token_frequency": {
+    "�": 19,
+    "REF": 12,
+    " FOR": 11,
+    "FOR": 9,
+    " AI": 7,
+    " renewable": 6,
+    "ble": 6,
+    "Explain": 6,
+    "Conflict": 6,
+    "pper": 5,
+    "统计分析": 5,
+    "**:": 5,
+    " words": 5,
+    " quantum": 5,
+    " DEN": 5,
+    " Conflict": 5,
+    " conflict": 5,
+    " fixation": 5,
+    " fools": 4,
+    "益处": 4,
+    "iture": 4,
+    " Energy": 4,
+    " wob": 4,
+    " checker": 4,
+    "roth": 4,
+    " mag": 4,
+    " community": 4,
+    " costing": 4,
+    "成本": 4,
+    "cost": 4,
+    " $": 4,
+    " Den": 4,
+    "k": 4,
+    " costs": 4,
+    " alternating": 4,
+    " Horizon": 3,
+    "ppers": 3,
+    "isch": 3,
+    " Deck": 3,
+    "价比": 3,
+    "新鲜": 3,
+    "一圈": 3,
+    "rew": 3,
+    "dies": 3,
+    " BN": 3,
+    " Bram": 3,
+    "意外的": 3,
+    " entanglement": 3,
+    "ib": 3,
+    " Explain": 3,
+    "Compare": 3,
+    "Words": 3,
+    "**\\\\n": 3,
+    " Quantum": 3,
+    "Quantum": 3,
+    " CD": 3,
+    "CD": 3,
+    " equivalent": 3,
+    "ash": 3,
+    " **": 3,
+    " elevated": 3,
+    "智能": 3,
+    "152": 3,
+    "grams": 3,
+    "-cost": 3,
+    "ritten": 3,
+    " �": 3,
+    " sublim": 3,
+    "community": 3,
+    "能量": 3,
+    "for": 3,
+    " influence": 3,
+    "Cost": 3,
+    " Kosten": 3,
+    " union": 3,
+    " cost": 3,
+    " Cost": 3,
+    "union": 3,
+    " \"$": 3,
+    " denial": 3,
+    " APPRO": 3,
+    "Den": 3,
+    " конф": 3,
+    " conflic": 3,
+    " scales": 3,
+    "_cost": 3,
+    "**": 3,
+    "REFERENCES": 3,
+    " echoing": 3,
+    " REF": 3,
+    " obs": 3,
+    " energy": 2,
+    "OI": 2,
+    "resources": 2,
+    "<｜Assistant｜>": 2,
+    " Hamlet": 2,
+    " cryptography": 2,
+    "昼": 2,
+    "processing": 2,
+    " ven": 2
+  }
+}

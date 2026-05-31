@@ -1,0 +1,12 @@
+Head Coherence Clusters: M2 Layer 42
+============================================================
+
+Frobenius norm stats: mean=0.1985, std=0.0438
+Heads >2sigma: [9, 14, 25, 26, 46, 101, 115, 125]
+Heads >1sigma: [6, 10, 12, 17, 31, 98]
+
+1 clusters found:
+
+  Cluster 81 (2 heads, avg_cos=-0.562):
+    H46(3.8s), H125(3.0s)
+

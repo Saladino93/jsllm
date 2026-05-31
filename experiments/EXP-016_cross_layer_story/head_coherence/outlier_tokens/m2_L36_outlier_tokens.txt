@@ -1,0 +1,577 @@
+Outlier Head Token Analysis: M2 Layer 36
+======================================================================
+
+Mean |cos| across all heads: 0.8564
+Median: 0.8827
+Min: 0.1605 (H72)
+Max: 0.9110 (H89)
+
+──────────────────────────────────────────────────────────────────────
+CONSENSUS DIRECTION (avg of top-20 most coherent heads)
+Mean |cos| of these heads: 0.9056
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1795   Gil
+     +0.1788  HQ
+     +0.1777   torch
+     +0.1775   ע
+     -0.1761   vampire
+     -0.1717  行星
+     -0.1707   expensive
+     +0.1672  Ng
+     +0.1666  Ow
+     +0.1650  犹
+     -0.1641   yeah
+     -0.1581   Mountains
+     +0.1565   IMP
+     +0.1561  _w
+     -0.1534   заболеваний
+     +0.1515  .il
+     +0.1510  产权
+     +0.1503  及时
+     +0.1503  机器
+     +0.1496  _en
+
+  OV OUTPUT (writes):
+     +0.3721  utu
+     +0.3531   intu
+     +0.3525   recovered
+     -0.3440  bben
+     -0.3287  flamm
+     -0.3279  xim
+     +0.3276   detachment
+     -0.3275  clock
+     -0.3271  xy
+     -0.3255   scr
+     -0.3217   clock
+     +0.3201  咀
+     +0.3199   reasonably
+     -0.3191   Catalog
+     -0.3190   Cand
+     -0.3182  光辉
+     -0.3156   gains
+     -0.3145  XYZ
+     -0.3119  hti
+     +0.3114  \\-
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #0: Head 72
+  mean|cos| to others: 0.1605
+  cos vs consensus: +0.1882
+  QK: frob=0.1781, sigma0=0.0844, gap=1.21
+  OV: frob=0.3069, sigma0=0.2171
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1771  048
+     -0.1630  646
+     -0.1609  人均
+     -0.1573  恢复
+     +0.1567  快要
+     -0.1556  Manager
+     +0.1523   Google
+     +0.1502  与他
+     -0.1483   Ferdinand
+     -0.1477  防止
+     -0.1473  .en
+     -0.1472  记得
+     -0.1471  恢復
+     -0.1468   Xen
+     +0.1457  uper
+     +0.1455  还没
+     +0.1445   самого
+     +0.1433   google
+     -0.1428  431
+     -0.1424  (names
+
+  OV OUTPUT (writes):
+     -0.3572   reasonably
+     -0.3567  utu
+     +0.3330  clock
+     +0.3313  xy
+     -0.3305   recovered
+     +0.3289  xim
+     +0.3239  bben
+     +0.3236   clock
+     +0.3231  XYZ
+     +0.3205   Catalog
+     -0.3186   intu
+     +0.3185   scr
+     -0.3180   detachment
+     +0.3177   sublime
+     +0.3156   gains
+     +0.3134  flamm
+     +0.3114   Cand
+     -0.3108  �
+     +0.3104  inist
+     -0.3099  咀
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #1: Head 27
+  mean|cos| to others: 0.2950
+  cos vs consensus: +0.3219
+  QK: frob=0.2258, sigma0=0.1431, gap=2.02
+  OV: frob=0.2828, sigma0=0.1829
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1736  感受
+     +0.1687   **_
+     -0.1621  048
+     +0.1583   Sil
+     +0.1572   Google
+     +0.1567  _tree
+     +0.1554   heap
+     +0.1532   bull
+     +0.1522  艺术
+     -0.1519  恢復
+     -0.1502  梵
+     +0.1479  还没
+     +0.1478   ple
+     +0.1471  创新的
+     -0.1465  恢复
+     +0.1454  在这一
+     -0.1448  RH
+     -0.1441  耳朵
+     +0.1427   inf
+     +0.1424   гре
+
+  OV OUTPUT (writes):
+     -0.3589  utu
+     -0.3390   reasonably
+     -0.3382   intu
+     +0.3349  xy
+     -0.3284   recovered
+     +0.3271  bben
+     +0.3250  XYZ
+     +0.3246   Catalog
+     +0.3214  clock
+     +0.3202  xim
+     +0.3154   sublime
+     +0.3103  flamm
+     +0.3092   clock
+     +0.3090  光辉
+     -0.3070   detachment
+     -0.3054  咀
+     +0.3038   facilitator
+     +0.3029  ftig
+     +0.3023   ger
+     +0.3023  晶晶
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #2: Head 62
+  mean|cos| to others: 0.4884
+  cos vs consensus: -0.3688
+  QK: frob=0.1315, sigma0=0.0570, gap=1.21
+  OV: frob=0.2598, sigma0=0.1531
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1785   Mc
+     -0.1751   Gil
+     +0.1737  液体
+     -0.1594  �
+     -0.1581   roz
+     -0.1563   tourism
+     -0.1559  成长
+     -0.1545   gl
+     -0.1540  暴露
+     +0.1535  Amount
+     -0.1530   Fern
+     -0.1518  ></
+     +0.1516  JW
+     +0.1510  Xu
+     -0.1503   nested
+     +0.1495  话音
+     +0.1494  cdots
+     -0.1482  举办
+     +0.1477  Vu
+     +0.1475  不如
+
+  OV OUTPUT (writes):
+     +0.3614  utu
+     +0.3390   reasonably
+     +0.3309   recovered
+     -0.3251   Catalog
+     -0.3232   sublime
+     -0.3161   scr
+     +0.3150  进出
+     -0.3148  xim
+     +0.3144  你喜欢
+     -0.3139   Aging
+     -0.3134  bben
+     +0.3124   intu
+     +0.3123  alem
+     -0.3121  老年人的
+     -0.3113   ger
+     +0.3106   unpublished
+     -0.3103   clock
+     -0.3100  XYZ
+     +0.3096  差
+     -0.3085   facilitator
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #3: Head 78
+  mean|cos| to others: 0.6275
+  cos vs consensus: +0.6769
+  QK: frob=0.1608, sigma0=0.0790, gap=1.44
+  OV: frob=0.2646, sigma0=0.1530
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1972  .il
+     +0.1873  HQ
+     +0.1737  琪
+     +0.1625   orthogonal
+     +0.1624  VERT
+     +0.1595  773
+     -0.1580   Massive
+     -0.1567  变为
+     +0.1560   Worksheets
+     -0.1526   Pub
+     +0.1524  无产阶级
+     +0.1524  erk
+     +0.1509  IMP
+     +0.1509  scroll
+     +0.1508  _method
+     -0.1503  变成了
+     +0.1490  绿色
+     -0.1488   Maria
+     +0.1484   elsewhere
+     +0.1479   lantern
+
+  OV OUTPUT (writes):
+     -0.4063  utu
+     -0.3503   reasonably
+     +0.3427   Catalog
+     +0.3388  XYZ
+     -0.3376   intu
+     +0.3240   scr
+     -0.3188   recovered
+     +0.3176  inist
+     +0.3169   clock
+     +0.3164  bben
+     +0.3159   ger
+     +0.3155  clock
+     -0.3155   detachment
+     +0.3135  flamm
+     +0.3123   gains
+     -0.3089   intuitively
+     -0.3082   unpublished
+     -0.3069  咀
+     +0.3059  老年人的
+     +0.3030  晶晶
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #4: Head 60
+  mean|cos| to others: 0.6944
+  cos vs consensus: +0.7166
+  QK: frob=0.1707, sigma0=0.0778, gap=1.22
+  OV: frob=0.2664, sigma0=0.1736
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1900   **_
+     +0.1694  _tree
+     +0.1664  垂直
+     +0.1648   heap
+     +0.1644  犹
+     +0.1621   coll
+     +0.1614  creative
+     +0.1607  erk
+     +0.1607  beg
+     -0.1566   vampire
+     -0.1549  奠定
+     +0.1541  .apache
+     +0.1538  .google
+     -0.1529  感受
+     -0.1528  梵
+     +0.1518  创新的
+     -0.1516  变成了
+     +0.1515  小小
+     +0.1509   Gross
+     +0.1506   bull
+
+  OV OUTPUT (writes):
+     -0.3456  xy
+     -0.3413  flamm
+     +0.3347  utu
+     -0.3339   Catalog
+     -0.3335   gains
+     -0.3330  clock
+     -0.3330  xim
+     +0.3310   recovered
+     -0.3280  hti
+     -0.3254  XYZ
+     -0.3252   sublime
+     -0.3251  bben
+     +0.3248   reasonably
+     +0.3229   detachment
+     -0.3172  elser
+     -0.3126  lä
+     -0.3120   scr
+     -0.3082   clock
+     +0.3041  \\-
+     -0.3033   Cand
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #5: Head 43
+  mean|cos| to others: 0.7177
+  cos vs consensus: -0.7904
+  QK: frob=0.1495, sigma0=0.0665, gap=1.25
+  OV: frob=0.2701, sigma0=0.1620
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1770  HQ
+     -0.1750  erk
+     -0.1734  .il
+     -0.1702   torch
+     +0.1664   vampire
+     -0.1609  KB
+     -0.1605  垂直
+     -0.1592   coll
+     -0.1591  绿色
+     -0.1584  _tree
+     -0.1571  VERT
+     -0.1562  scroll
+     -0.1561  _method
+     -0.1557   bell
+     -0.1554  一声
+     -0.1547  773
+     -0.1533  agl
+     -0.1528  IMP
+     +0.1514  esa
+     -0.1509  .cn
+
+  OV OUTPUT (writes):
+     -0.3509   intu
+     +0.3431   Catalog
+     -0.3429  utu
+     +0.3428  xim
+     +0.3372   gains
+     +0.3362  clock
+     -0.3359   reasonably
+     -0.3334   recovered
+     +0.3289  XYZ
+     +0.3276  xy
+     +0.3272  elser
+     -0.3227   detachment
+     +0.3226  hti
+     +0.3202  老年人的
+     +0.3153  lä
+     +0.3145   scr
+     +0.3145   sublime
+     +0.3114   clock
+     +0.3092  bben
+     -0.3074   unpublished
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #6: Head 28
+  mean|cos| to others: 0.7326
+  cos vs consensus: -0.7569
+  QK: frob=0.2083, sigma0=0.1107, gap=1.73
+  OV: frob=0.2789, sigma0=0.1811
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1764   **_
+     -0.1723  HQ
+     -0.1705   coll
+     -0.1672  _tree
+     -0.1660  .il
+     -0.1657   Gil
+     -0.1610  Sil
+     -0.1594  hel
+     -0.1592   torch
+     -0.1592  _method
+     -0.1584  一声
+     -0.1574  _w
+     -0.1550  犹
+     -0.1541  绝世
+     -0.1536  erk
+     -0.1530   Sil
+     -0.1528  360
+     -0.1518  IMP
+     -0.1518   google
+     -0.1510  垂直
+
+  OV OUTPUT (writes):
+     -0.3694  utu
+     -0.3476   reasonably
+     +0.3403  xy
+     -0.3345   recovered
+     +0.3332  flamm
+     +0.3267  bben
+     +0.3249   gains
+     +0.3213   Catalog
+     -0.3204   detachment
+     -0.3202   intu
+     +0.3202  XYZ
+     +0.3200  hti
+     +0.3193  xim
+     -0.3180  咀
+     -0.3179  �
+     +0.3174   sublime
+     +0.3162  lä
+     +0.3131  elser
+     +0.3122  clock
+     +0.3118  老年人的
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #7: Head 51
+  mean|cos| to others: 0.7555
+  cos vs consensus: -0.7161
+  QK: frob=0.1648, sigma0=0.0705, gap=1.24
+  OV: frob=0.2681, sigma0=0.1602
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1864  birth
+     -0.1786  glob
+     -0.1743   Gil
+     -0.1728  产权
+     -0.1716  _str
+     -0.1703  .j
+     +0.1697   Birth
+     -0.1645  .gl
+     -0.1643   '@
+     -0.1637  _w
+     -0.1635   ``
+     +0.1635   Mountains
+     -0.1612  犹
+     -0.1590  .me
+     -0.1583  .app
+     -0.1577  搅
+     -0.1562   ان
+     -0.1558  ད
+     +0.1556   expensive
+     -0.1538  [J
+
+  OV OUTPUT (writes):
+     +0.3556  utu
+     +0.3408   detachment
+     -0.3404  flamm
+     -0.3382  clock
+     -0.3376   Catalog
+     +0.3373   reasonably
+     -0.3327  xim
+     +0.3274   recovered
+     -0.3256   gains
+     -0.3220  xy
+     -0.3209  elser
+     -0.3202  bben
+     -0.3153   clock
+     +0.3125   separately
+     +0.3096  差
+     -0.3094   Aging
+     +0.3082   unpublished
+     +0.3064  �
+     -0.3053   sublime
+     -0.3037  lä
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #8: Head 82
+  mean|cos| to others: 0.7569
+  cos vs consensus: -0.7648
+  QK: frob=0.1645, sigma0=0.0837, gap=1.56
+  OV: frob=0.2612, sigma0=0.1574
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     -0.1952  erk
+     -0.1948  HQ
+     +0.1770  变成了
+     -0.1749  .il
+     -0.1685  垂直
+     -0.1660   **_
+     -0.1657  _tree
+     -0.1636  .j
+     +0.1633   vampire
+     -0.1620  opt
+     -0.1617   elsewhere
+     -0.1610  .google
+     -0.1608  773
+     -0.1581  .apache
+     +0.1581  奠定
+     -0.1578  google
+     -0.1573  犹
+     -0.1570  嬌
+     +0.1567   useState
+     -0.1562  VERT
+
+  OV OUTPUT (writes):
+     +0.3810  utu
+     +0.3574   detachment
+     +0.3534   reasonably
+     -0.3513  clock
+     -0.3465  xy
+     -0.3427   clock
+     -0.3351  inist
+     +0.3329   recovered
+     -0.3321   Catalog
+     -0.3308  bben
+     -0.3296  flamm
+     -0.3165  -clock
+     -0.3132   gains
+     +0.3130  送了
+     -0.3119  lä
+     -0.3111  光辉
+     -0.3105  XYZ
+     -0.3102   scr
+     +0.3043   intu
+     -0.3041  rapp
+
+──────────────────────────────────────────────────────────────────────
+OUTLIER #9: Head 35
+  mean|cos| to others: 0.7778
+  cos vs consensus: +0.8566
+  QK: frob=0.1692, sigma0=0.0757, gap=1.32
+  OV: frob=0.2692, sigma0=0.1624
+──────────────────────────────────────────────────────────────────────
+
+  QK INPUT (listens to):
+     +0.1801  HQ
+     +0.1752  .il
+     -0.1680   vampire
+     +0.1641  glob
+     +0.1640   Gil
+     +0.1607   torch
+     +0.1592  _method
+     -0.1591  -cost
+     +0.1580  机器
+     +0.1533   Gross
+     +0.1488  .cn
+     +0.1488   coll
+     +0.1480   worksheet
+     -0.1479   Massive
+     +0.1473  Ow
+     +0.1470   gc
+     +0.1469   Worksheets
+     -0.1466   granite
+     +0.1465  Gw
+     +0.1464  这样做
+
+  OV OUTPUT (writes):
+     +0.3858  utu
+     +0.3518   reasonably
+     -0.3446   Catalog
+     -0.3442  xy
+     -0.3327  clock
+     +0.3321   detachment
+     +0.3284  进出
+     -0.3278   gains
+     -0.3240   clock
+     +0.3222   intu
+     -0.3204  flamm
+     -0.3202  bben
+     +0.3202   recovered
+     -0.3186  老年人的
+     -0.3136   scr
+     -0.3123  -clock
+     -0.3115  下垂
+     -0.3090  lä
+     +0.3082  �
+     -0.3056  inist
+

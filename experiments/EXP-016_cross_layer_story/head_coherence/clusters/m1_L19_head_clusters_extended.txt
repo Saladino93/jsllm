@@ -1,0 +1,12 @@
+Head Coherence Clusters: M1 Layer 19
+============================================================
+
+Frobenius norm stats: mean=0.3427, std=0.0606
+Heads >2sigma: [54, 73, 83, 86]
+Heads >1sigma: [0, 21, 23, 29, 45, 52, 77, 84, 98, 111, 121, 124]
+
+1 clusters found:
+
+  Cluster 78 (2 heads, avg_cos=-0.648):
+    H54(4.3s), H86(3.6s)
+

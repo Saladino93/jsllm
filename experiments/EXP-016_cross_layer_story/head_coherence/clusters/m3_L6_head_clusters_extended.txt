@@ -1,0 +1,12 @@
+Head Coherence Clusters: M3 Layer 6
+============================================================
+
+Frobenius norm stats: mean=0.4173, std=0.1241
+Heads >2sigma: [15, 59, 101, 102, 111, 119]
+Heads >1sigma: [2, 8, 11, 19, 22, 41, 53, 56, 63, 76, 79, 84, 87, 91, 104]
+
+1 clusters found:
+
+  Cluster 121 (2 heads, avg_cos=0.557):
+    H13(0.2s), H20(-1.0s)
+

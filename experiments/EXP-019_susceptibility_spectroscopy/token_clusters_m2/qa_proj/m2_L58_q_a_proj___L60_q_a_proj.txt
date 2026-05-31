@@ -1,0 +1,27 @@
+L58_q_a_proj <-> L60_q_a_proj (cos=0.240)
+150 tokens, 8 clusters
+
+Cluster 1 (5 tokens):
+   Left,  Yes,  Tail,  Again,  Every
+
+Cluster 2 (28 tokens):
+  Filter,  resin, Mult,  Pro,  Mare,  Alber,  err,  Dun,  Gand,  ere,  Dor,  sulf,  syn,  Lud,  glob,  IMP,  lib,  Hier,  tier,  Pseud, Syn,  Fiber,  Dil,  ap,  freezer,  Prim,  Bor,  Con
+
+Cluster 3 (15 tokens):
+   Vy, Zi, Rv,  VM, Jl, Kl, Ls, ARM,  HF, Iw,  Harm, \tv,  Ev, 71, qv
+
+Cluster 4 (23 tokens):
+  (auto, /w, /go, .ex, .math,  {:, /re,  re, .empty,  Rex, .main, \\!\\, +D,  WA, .args, /k, .pre, (mod,  rem, /bin,  wh, ={(), /master
+
+Cluster 5 (5 tokens):
+   tribes,  hiking, ğı,  tow, -gray
+
+Cluster 6 (43 tokens):
+   Collaboration,  Notebook, 329, fan,  Cricket,  Dream,  Television,  Monster,  Brian,  Ken, Samuel,  Oscar,  Johnny,  Nicholson,  Plant, kit,  camp, quit, 534,  Van, Plant,  Welsh,  encounters, chan,  Vatican,  Sandra, Mount,  Royal,  ven, hound, haven, Studio,  Pit,  Lawrence, Brian,  Walt,  Nigel, -TV,  Lanka, Social, Camp,  Beat,  Mountain
+
+Cluster 7 (9 tokens):
+   points, points, auss, ucid, ampions, oline, antis, Names, ipheral
+
+Cluster 8 (22 tokens):
+   integrity,  interesting,  urgent,  aperture, -positive, Annotation, standard,  traffic,  marvelous,  wonderful, -standard, confidence,  seldom,  temporal,  surreal, selected,  irrelevant,  median,  conflicting,  manor,  attribute,  prominently
+

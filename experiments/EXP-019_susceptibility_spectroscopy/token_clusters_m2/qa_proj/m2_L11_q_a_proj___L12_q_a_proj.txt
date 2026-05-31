@@ -1,0 +1,27 @@
+L11_q_a_proj <-> L12_q_a_proj (cos=0.281)
+149 tokens, 8 clusters
+
+Cluster 1 (8 tokens):
+  }^, ="{{, __(, -ex, -Sh, +F, {, >\\
+
+Cluster 2 (14 tokens):
+  467, 720, 797, 815, 316, 830, 723, 245, 069, 729, 487, 065, 717, 725
+
+Cluster 3 (12 tokens):
+  hana, Sk, asha, uka, jm,  alpha,  mc, jk,  Maya,  hs, .handle, .j
+
+Cluster 4 (11 tokens):
+   yarn,  vis,  Clean,  stark,  vain,  vaginal,  clean, clean, vid,  waste, deep
+
+Cluster 5 (55 tokens):
+  Tak, coll, Coll,  Experts,  Cent, Terms,  nick,  Eff,  Fen, NS,  Stone, Beg, ARR,  editors,  Crow,  percent,  CP,  Port,  Sean, \tauto,  Doc, nick, ACC,  Nos, Gold,  Voor, Sean,  pem,  Tak, take, pers, Take,  Jason, Such, Jason,  Similar, Doc,  Such, Mig,  Peg,  Gill, _random,  NO,  Kirk,  Taylor,  Fernando, integer,  Rec, Real,  Bernard,  Comp,  Man,  Pepper,  Agg, _PAR
+
+Cluster 6 (3 tokens):
+   chỉ,  lesser, shire
+
+Cluster 7 (4 tokens):
+  ogon, question, hesis, direction
+
+Cluster 8 (42 tokens):
+   benefit,  importance,  spectral,  Takeaways,  Washington,  among,  prominent,  led,  unusual,  cryptocurrencies, -container,  Franklin,  gratitude,  compared,  severe,  damaged, Contains,  rounded,  prolonged, Converter,  Image,  thermodynamics,  perfectly, .Contains,  embodiments,  prestigious,  healthcare, returns, wherein,  friendly,  congregation,  modular,  exhibited, amous,  Educational,  titled,  Looking,  appeared,  Hospital,  entails, Content,  network
+

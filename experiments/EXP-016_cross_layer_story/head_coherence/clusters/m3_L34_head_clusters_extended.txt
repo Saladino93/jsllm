@@ -1,0 +1,12 @@
+Head Coherence Clusters: M3 Layer 34
+============================================================
+
+Frobenius norm stats: mean=0.4068, std=0.0564
+Heads >2sigma: [8, 36, 37, 71, 104]
+Heads >1sigma: [5, 9, 22, 40, 78, 83, 87, 99, 101, 103, 106, 111]
+
+1 clusters found:
+
+  Cluster 123 (2 heads, avg_cos=0.511):
+    H71(3.0s), H104(4.7s)
+

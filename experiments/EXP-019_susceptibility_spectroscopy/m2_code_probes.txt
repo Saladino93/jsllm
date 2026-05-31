@@ -1,0 +1,19 @@
+describe('user', () => { it('should return', () => { expect(response).toBe(expected); }); });
+app.get('/api/user', (err, response) => { response.json({ count: 1 }); });
+function UserForm(props) { return <Form><Select>{props.items}</Select></Form>; }
+const iterator = collection[Symbol.iterator](); let result = iterator.next();
+describe('Form', () => { it('renders Select', () => { const props = { items: [] }; }); });
+app.post('/api/parse', (req, response) => { const data = JSON.parse(req.body); });
+Iterator.prototype.next = function() { return { value: this._hash, done: false }; };
+describe('Iterator', () => { it('should parse', () => { expect(Form.Select).toBeDefined(); }); });
+const Form = ({ props }) => { return <Select onChange={_call}>{Iterator}</Select>; };
+app.use('/user', (err, req, response, next) => { if (err) response.status(500).json(err); });
+describe('api', () => { it('returns User.Count', () => { expect(response.path).toBe(expected); }); });
+whedescribe('Select', () => { it('Form renders', () => { expect(props.User.Count).toBe(expected); }); });
+app.get('/lookup', (err, response) => { response.json(parse(response.path)); });
+const { Select, Form, Iterator } = require('./components'); describe('all', () => {});
+test('parse Form props', () => { const expected = { User: { Count: 1 } }; expect(parse(props)).toEqual(expected); });
+describe('lookup', () => { it('Iterator Select', () => { expect(_call(Form)).toBe(expected); }); });
+app.get('/api/form/select', (req, response) => { const result = parse(req.query); response.json(result); });
+function* Iterator() { yield Select(Form(props)); yield parse(expected); }
+describe('User', () => { it('.Count', () => { expect(Iterator.next().value).toBe(Form.parse(expected)); }); });

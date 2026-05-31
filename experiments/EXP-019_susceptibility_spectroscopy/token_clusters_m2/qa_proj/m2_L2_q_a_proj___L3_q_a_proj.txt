@@ -1,0 +1,27 @@
+L2_q_a_proj <-> L3_q_a_proj (cos=0.222)
+148 tokens, 8 clusters
+
+Cluster 1 (26 tokens):
+   gal,  Yan,  Sem,  Al,  TH,  Ocean,  Seg,  Pom,  hyper,  Gab,  Gal,  Hom,  Heart,  sem,  Lee,  Jan,  JG,  Billy,  Stan,  SN,  CH,  FG,  mult,  Flower,  IV,  Star
+
+Cluster 2 (4 tokens):
+   sol,  diri,  popul,  roots
+
+Cluster 3 (8 tokens):
+  651, 284, 242, nda, 61, 787, 760, +q
+
+Cluster 4 (19 tokens):
+  kar, it, gy, 01, ago, ip, ay, gest, ois, ick, )\n, hire, ank, har, itar, ish, ry, air, aya
+
+Cluster 5 (47 tokens):
+  }}}\\, +), :, ());, ()));\n, ÷, [e, \tn, }}_{\\, (err, \\(-\\), **), .User, );\n, .Count, (n, --------------------, )**, >), [i,  -----,  -----------------, :), )\n, (response, ,R, }}-\\,  chu, (−, ...), (z, .num, .run, [x, .o, º, .in, (R, ,B, (i, .u, [n, .**, (expected, (props, ^n, upmu
+
+Cluster 6 (5 tokens):
+   threaten,  grep,  Eat, _call, Describe
+
+Cluster 7 (30 tokens):
+   licensed,  definitions,  Quantitative, -dimensional,  clean,  precise,  minimal,  somewhat,  immediately,  exaggerated,  concept,  southern,  common, html,  prolonged,  shifting,  notions,  rectangular,  definition,  Proof,  Definition,  mathematical,  notion,  operating,  necessary,  proof,  varied,  ample,  abstract,  unnecessary
+
+Cluster 8 (9 tokens):
+  Mobile, parse, InputStream, Short, Form, MI, .apache,  mobile,  Mobile
+

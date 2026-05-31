@@ -1,0 +1,438 @@
+M2 q_a_proj <-> q_a_proj: All Cross-Layer Token Clusters
+========================================================
+
+──────────────────────────────────────────────────────────
+L10_q_a_proj <-> L11_q_a_proj (cos=0.390)
+149 tokens, 8 clusters
+
+Cluster 1 (9 tokens):
+   benefit,  solvent,  slash,  lesser,  sandy,  satisfy,  entropy,  friendly,  viable
+
+Cluster 2 (12 tokens):
+   themes, Terms, /config, context, question,  theorem, region, -client, Theme, fig, -field, backend
+
+Cluster 3 (30 tokens):
+  ICAgICAgICAgICAg,  decomposition,  Takeaways,  Distribution,  spectral,  Cent,  developmental,  among,  profound,  stark,  cryptocurrencies,  editors,  percent,  compared,  foundation,  foundations,  rounded,  FIGS,  prolonged,  perfectly,  embodiments,  prestigious,  Digital,  modular,  Foundation, amous,  Educational, Digital,  titled,  radicals
+
+Cluster 4 (27 tokens):
+  Tak, coll, Coll,  Stone, odd, Creating,  Lou,  Sean,  gu,  Voor, ollo, Sean, Lie,  Tak, take, Take,  Jason, Such, Jason,  Pepper,  Gill,  Taylor,  Fernando, Real,  Bernard,  Man,  Agg
+
+Cluster 5 (18 tokens):
+  154, 551, 467, 910, 720, 763, 815, 316, 397, 290, 988, 156, 069, 729, 487, 794, 065, 717
+
+Cluster 6 (7 tokens):
+  hana,  Bayern, ogon, uka,  Maya, amin, WA
+
+Cluster 7 (4 tokens):
+   vis, mathscr, vid, iﬁ
+
+Cluster 8 (42 tokens):
+  _EX, xC,  api,  javax, _api, _TR, ::{, xF, Sk, NS, xb, SC, .Re, xA, CG, }^, /Z, \tauto, ACC, ,R, xD,  Api,  lib,  alpha, xz, __(,  mc, Api, -ex, jn, xc, Async, +F,  py, {, _random, \\)\\(, .j,  Rec, .Sub, }\\)-, >\\
+
+
+──────────────────────────────────────────────────────────
+L10_q_a_proj <-> L12_q_a_proj (cos=0.216)
+150 tokens, 8 clusters
+
+Cluster 1 (9 tokens):
+   nick,  slash,  sandy, asha, nick, shire, hesis,  hs,  Kirk
+
+Cluster 2 (11 tokens):
+   Eff,  Fen, odd, Beg, ARR,  Lou, Gold, Lie, Mig,  Peg,  Crow
+
+Cluster 3 (36 tokens):
+  _EX, xC, 154, 551, _TR, xF, 910, 797, 763, xb, SC, .Re, xA, CG, 830, 397,  CP, /Z, 723, 290, ,R, jm, 988, xD, 245, 156, xz, jn, jk, xc, 794, -Sh, WA, .Sub, 725, _PAR
+
+Cluster 4 (23 tokens):
+   api,  javax, _api, /config,  Port,  Doc,  gu,  Nos, ollo,  FIGS,  pem,  Api,  lib, pers, Api, Async, amin, Doc, fig,  py,  NO,  Comp, backend
+
+Cluster 5 (7 tokens):
+   chỉ, ::{, mathscr, ="{{, iﬁ, \\)\\(, }\\)-
+
+Cluster 6 (8 tokens):
+   yarn,  Clean,  vain,  vaginal,  clean, clean,  waste,  viable
+
+Cluster 7 (2 tokens):
+   Experts,  Bayern
+
+Cluster 8 (54 tokens):
+  ICAgICAgICAgICAg,  decomposition,  importance,  Distribution,  themes,  developmental,  profound,  prominent,  led,  unusual, -container,  Franklin,  solvent,  gratitude, Creating, context,  severe,  foundation,  foundations,  damaged,  theorem, Contains, region, Converter,  Image,  satisfy,  thermodynamics, -client, Theme, .Contains,  Similar,  entropy,  healthcare, deep, returns, wherein,  Digital,  congregation, direction,  Such,  exhibited,  Foundation, Digital, -field, integer,  Looking, .handle,  appeared,  radicals,  Hospital,  entails, Content,  network,  Washington
+
+
+──────────────────────────────────────────────────────────
+L11_q_a_proj <-> L12_q_a_proj (cos=0.281)
+149 tokens, 8 clusters
+
+Cluster 1 (8 tokens):
+  }^, ="{{, __(, -ex, -Sh, +F, {, >\\
+
+Cluster 2 (14 tokens):
+  467, 720, 797, 815, 316, 830, 723, 245, 069, 729, 487, 065, 717, 725
+
+Cluster 3 (12 tokens):
+  hana, Sk, asha, uka, jm,  alpha,  mc, jk,  Maya,  hs, .handle, .j
+
+Cluster 4 (11 tokens):
+   yarn,  vis,  Clean,  stark,  vain,  vaginal,  clean, clean, vid,  waste, deep
+
+Cluster 5 (55 tokens):
+  Tak, coll, Coll,  Experts,  Cent, Terms,  nick,  Eff,  Fen, NS,  Stone, Beg, ARR,  editors,  Crow,  percent,  CP,  Port,  Sean, \tauto,  Doc, nick, ACC,  Nos, Gold,  Voor, Sean,  pem,  Tak, take, pers, Take,  Jason, Such, Jason,  Similar, Doc,  Such, Mig,  Peg,  Gill, _random,  NO,  Kirk,  Taylor,  Fernando, integer,  Rec, Real,  Bernard,  Comp,  Man,  Pepper,  Agg, _PAR
+
+Cluster 6 (3 tokens):
+   chỉ,  lesser, shire
+
+Cluster 7 (4 tokens):
+  ogon, question, hesis, direction
+
+Cluster 8 (42 tokens):
+   benefit,  importance,  spectral,  Takeaways,  Washington,  among,  prominent,  led,  unusual,  cryptocurrencies, -container,  Franklin,  gratitude,  compared,  severe,  damaged, Contains,  rounded,  prolonged, Converter,  Image,  thermodynamics,  perfectly, .Contains,  embodiments,  prestigious,  healthcare, returns, wherein,  friendly,  congregation,  modular,  exhibited, amous,  Educational,  titled,  Looking,  appeared,  Hospital,  entails, Content,  network
+
+
+──────────────────────────────────────────────────────────
+L19_q_a_proj <-> L20_q_a_proj (cos=0.239)
+149 tokens, 8 clusters
+
+Cluster 1 (13 tokens):
+   normalize, nan,  recommended,  geographic,  mating, oran,  benign,  lowering,  melan,  thermal,  banyak,  extrem,  mejores
+
+Cluster 2 (26 tokens):
+   [:, more, EFAULT, ../../, More,  previous,  [`,  can, 230,  have, %、, /c,  de, }^{(, These, },\\, \\{, ]),,  ",, endif, <<,  goes, ,**,  \\, ，, ../
+
+Cluster 3 (10 tokens):
+   SA,  wildlife,  USA,  Organic,  Agriculture, USA,  Feed,  Holocaust,  Rice,  EB
+
+Cluster 4 (10 tokens):
+   Rally, Agent, .Client,  pursue, _left, -client, _CONT, Board,  Puzzle,  worker
+
+Cluster 5 (18 tokens):
+  257, 270, 509, 631, 596, 298, 686, 612, 820, 629, 670, 571, 403, 769, 630, 803, 786, 272
+
+Cluster 6 (3 tokens):
+   lại, ơ, bě
+
+Cluster 7 (26 tokens):
+   Mun,  Said,  milk, vit,  dj,  cam,  Black,  iç, Juan, Black, Kim,  Mik,  José, pir,  Juan,  Patricia, tim,  vita,  tl,  Chief,  Jud,  Sir,  Bir,  pal,  sido,  tri
+
+Cluster 8 (43 tokens):
+  afx, fn, @, Gi, UF, qc,  wx,  IgG, Beg, vg, Font, Zo, ccc, Zu,  SPI,  Jeff,  MF,  uncon, COS,  "@, Subview,  Gujarat, QF, qd,  exh, VN, QP, xy,  det, Sz,  RF,  Arduino,  V,  unw, Og,  unst, rf, Def, Ta,  Salesforce,  unf,  conf, Cow
+
+
+──────────────────────────────────────────────────────────
+L2_q_a_proj <-> L3_q_a_proj (cos=0.222)
+148 tokens, 8 clusters
+
+Cluster 1 (26 tokens):
+   gal,  Yan,  Sem,  Al,  TH,  Ocean,  Seg,  Pom,  hyper,  Gab,  Gal,  Hom,  Heart,  sem,  Lee,  Jan,  JG,  Billy,  Stan,  SN,  CH,  FG,  mult,  Flower,  IV,  Star
+
+Cluster 2 (4 tokens):
+   sol,  diri,  popul,  roots
+
+Cluster 3 (8 tokens):
+  651, 284, 242, nda, 61, 787, 760, +q
+
+Cluster 4 (19 tokens):
+  kar, it, gy, 01, ago, ip, ay, gest, ois, ick, )\n, hire, ank, har, itar, ish, ry, air, aya
+
+Cluster 5 (47 tokens):
+  }}}\\, +), :, ());, ()));\n, ÷, [e, \tn, }}_{\\, (err, \\(-\\), **), .User, );\n, .Count, (n, --------------------, )**, >), [i,  -----,  -----------------, :), )\n, (response, ,R, }}-\\,  chu, (−, ...), (z, .num, .run, [x, .o, º, .in, (R, ,B, (i, .u, [n, .**, (expected, (props, ^n, upmu
+
+Cluster 6 (5 tokens):
+   threaten,  grep,  Eat, _call, Describe
+
+Cluster 7 (30 tokens):
+   licensed,  definitions,  Quantitative, -dimensional,  clean,  precise,  minimal,  somewhat,  immediately,  exaggerated,  concept,  southern,  common, html,  prolonged,  shifting,  notions,  rectangular,  definition,  Proof,  Definition,  mathematical,  notion,  operating,  necessary,  proof,  varied,  ample,  abstract,  unnecessary
+
+Cluster 8 (9 tokens):
+  Mobile, parse, InputStream, Short, Form, MI, .apache,  mobile,  Mobile
+
+
+──────────────────────────────────────────────────────────
+L28_q_a_proj <-> L29_q_a_proj (cos=0.207)
+150 tokens, 8 clusters
+
+Cluster 1 (15 tokens):
+  {{, ,,, ~/, ]==, =\\, <%, }}^{\\,  ´, )*(-, <, **_, \\({}^{-,  '_,  ("#, ][
+
+Cluster 2 (25 tokens):
+  VV,  Luk, CU,  django, vf,  ak,  exc, CG,  tort, Iz, ZY, Uk,  nn, Qg, Ug,  ICT,  sak, NM, xn,  aw,  EXT, anyak,  AG, Eh,  rr
+
+Cluster 3 (7 tokens):
+   crack, olit,  Ribe, rock, recip, sche,  Roche
+
+Cluster 4 (10 tokens):
+   pus,  het,  pa, -ir,  ply,  seul, -beam,  works,  pale, Jet
+
+Cluster 5 (28 tokens):
+   Turn,  conj,  Conrad,  Returns, Corn,  Jimmy,  Connect,  Gree,  Following,  Warner,  Fred,  Bennett, Anyone,  Hend,  Bhat,  Archived,  Presidente,  Ming,  Boy,  Morris,  Corn,  Enemy,  memb, Turn,  Pod,  Rebecca,  Patterson,  Beast
+
+Cluster 6 (37 tokens):
+   augmentation,  generally, .check,  folded,  eff,  additions,  excellent,  simulator, similar, exception,  efficiency,  procedure,  comparison,  Benchmark,  foolish,  distant,  kinetic,  California, template, .sort, .demo, _pre,  decades, .im, abstract,  harder,  endless,  tablet,  Commonwealth,  indica,  subset,  param, /app,  abstract,  highly,  Sensor,  abnormal
+
+Cluster 7 (19 tokens):
+  ffffff, weight, 582, 479, 678, 170, 510, 565, ----------, 542, region, current, 161, 162, 371, center, 800, 522, 174
+
+Cluster 8 (9 tokens):
+  .Builder,  Directory, inary, ACHE, Criteria, Attr, AML, LEASE, _hash
+
+
+──────────────────────────────────────────────────────────
+L3_q_a_proj <-> L4_q_a_proj (cos=0.428)
+148 tokens, 8 clusters
+
+Cluster 1 (3 tokens):
+   dim,  diri,  dimensionality
+
+Cluster 2 (30 tokens):
+   licensed,  Different,  profiling,  Version,  dual,  Quantitative,  Total,  precise,  minimal,  somewhat,  immediately,  exaggerated,  campaigns,  rational,  common,  prolonged,  shifting,  notions,  operating,  poly,  notion,  necessary,  When, require,  mult,  varied,  ample,  popul, .util,  unnecessary
+
+Cluster 3 (4 tokens):
+   threaten, (err, (response, (expected
+
+Cluster 4 (13 tokens):
+   lookup, parse, Select, Form, -------------------…, Iterator, html, .app, _call, apat, .path, _hash, Describe
+
+Cluster 5 (2 tokens):
+   noche,  Shira
+
+Cluster 6 (9 tokens):
+  625,  Paris, 242, 974, 787, 913, ois,  aromatic, 325
+
+Cluster 7 (24 tokens):
+   White,  Earth,  Cohen,  Yan,  Bell,  Ocean,  Roth, .User, Matt,  Bak,  star,  Heart,  Lee,  Planet,  Eat,  Billy,  Walsh,  Bay,  NASA,  Taylor,  Flower,  Book,  Vall,  Star
+
+Cluster 8 (63 tokens):
+  kar, :, ());, ened, it, ()));\n, gy, ÷, }}_{\\,  Al, Is,  TH, gi, -ray, )**, -yard, /v, onial, .\n, ago, .’\n, qh, )\n,  Gal,  sch, Ag, ip,  .\n, ay, MI, Dh, ).\n, uid, gest, ick, º, )\n,  JG, .\n, xn, hire, ank, /P,  SOC,  SN,  CH,  FG, ?\n, .)\n, ].\n, har, Bg, ).\n\n, itar, )).\n, _EN, ish, Eh, +q, ry, .**, air, aya
+
+
+──────────────────────────────────────────────────────────
+L51_q_a_proj <-> L52_q_a_proj (cos=0.360)
+150 tokens, 8 clusters
+
+Cluster 1 (30 tokens):
+   silence,  boredom,  ourselves, _store,  transitional,  Galactic,  Keep,  Abigail,  opposed,  Crossword,  constitutional,  Confederate,  delighted,  compares, Section,  secretly,  desire,  assure,  exterior,  Solomon,  moderate,  exact,  Frederick, Additional,  adequate,  Garden,  Generally,  Mediterranean, Contact,  Colorado
+
+Cluster 2 (4 tokens):
+   Sohn,  sehr,  jedoch, sein
+
+Cluster 3 (4 tokens):
+   voyage,  visas,  cabin,  fecha
+
+Cluster 4 (12 tokens):
+   Kitty,  fungal, hello,  wildlife, Little, User,  Ling, ragon, (user,  yellow, India, Smith
+
+Cluster 5 (11 tokens):
+  mysql, brecht, php, inton, unch, enna,  trial, infty, ucci, apps, ynch
+
+Cluster 6 (27 tokens):
+   id, {d, subscript�, ]., <｜fim▁begin｜>, {%, .sc, .const, >(\n, /**\n, clud, (async, (,  Init,  '../, sal, <?, cod,  ({\n, .show, .category,  quel,  Di, del,  <<,  ([, /*
+
+Cluster 7 (19 tokens):
+  Ast,  NAD,  negot,  Hed,  Ele,  Dam,  carn,  TEM,  deg,  MIT,  fat,  Tor,  Pear,  caret,  halt,  overweight,  Fair,  damn,  Obs
+
+Cluster 8 (43 tokens):
+  VV, kv, May, +B,  AO,  Vu, 165, 523, WM, Jun,  DK, WE, 461,  roz, 443, Gar,  Koz, WG, 664,  bew,  Boc, BM, ouw, lew, 520, +l, Aj, Marc, -ch, HG, 553, zej, Fe, -K, =e,  Fe, Oy,  jun, Og, 075, 671, ZS,  Daw
+
+
+──────────────────────────────────────────────────────────
+L52_q_a_proj <-> L53_q_a_proj (cos=0.203)
+150 tokens, 8 clusters
+
+Cluster 1 (17 tokens):
+   Boone,  lesbian,  Benjamin,  Giovanni,  Lionel,  bew,  Theodore, ouw, lew,  Leeds,  Solomon,  Frederick,  Margaret,  Shaw,  quel, ynch,  Daw
+
+Cluster 2 (6 tokens):
+  auc, enna, uct,  Boc, ilic, ánt
+
+Cluster 3 (45 tokens):
+  Ast,  NAD, lp, 673, +B,  AO,  Trom,  Dam, WM, \tC,  DK, WE,  roz,  TEM,  deg,  MIT,  Jet, Gar,  Koz, WG,  przy,  Tor, BM, oC,  kh, tm, +I, 520,  đi, Aj, 946, HG, 553,  Tam,  damn, Fe, =e, Oy,  Di, 887, Og,  TR, Lj, ZS, 165
+
+Cluster 4 (20 tokens):
+  }}=, subscript�, ]., =(, ][, ], --;\n, ./, (async, php, ="{{, (typeof, (−, boldsymbol, ("\\,  '../, {{\\, ==, (cl, /*
+
+Cluster 5 (26 tokens):
+  perhaps,  systematic,  mainstream,  Keep,  approved,  constitutional,  delighted,  advocacy,  Targeted,  preferred, These,  exact,  certified, Additional,  elders,  adequate,  Garden,  Generally,  Mediterranean, Others,  gotten,  composite,  Adults,  corruption,  broader, Perhaps
+
+Cluster 6 (20 tokens):
+   blank, mysql, hello,  cock, cat,  wildlife, redis, Little, User, price, Schema,  Pear, Click,  desire, Red, .show, (user,  yellow, India,  roll
+
+Cluster 7 (8 tokens):
+   scar, _store, .sc, .const,  serialize, .Default,  immutable, _seq
+
+Cluster 8 (8 tokens):
+   silence,  boredom,  Init,  secretly,  halt,  cabin,  exterior,  fecha
+
+
+──────────────────────────────────────────────────────────
+L52_q_a_proj <-> L57_q_a_proj (cos=0.262)
+150 tokens, 8 clusters
+
+Cluster 1 (5 tokens):
+  647, 520, 997, 553, 165
+
+Cluster 2 (7 tokens):
+  Ast,  Hist, Hall,  halt, phys, lesh, ynch
+
+Cluster 3 (20 tokens):
+   FN, +B,  AO, WM,  DK, WE, ELS, Pri, WG, BM, Aj, HG, Pn,  SN, Fe, =e, Oy,  Di, Og, ZS
+
+Cluster 4 (26 tokens):
+   Dam,  wt,  lam,  wal,  roz,  deg, Gar,  Koz,  berg,  Tor,  bew,  Boc, ouw,  Pear,  grim, lew,  Wor, Gary,  damn,  pol,  quel,  fol, zeug,  Pol, Gre,  Daw
+
+Cluster 5 (4 tokens):
+  mysql, php,  '../, /*
+
+Cluster 6 (34 tokens):
+  -cent, .source, subscript�, ]., _store, .sc, .const, (async, User, Render, -app, Remote, Bucket, .post, .img,  cabin, .graph, \\hat,  img,  bucket, ucket, _entry, .show, (user, /images, registry,  yellow, bucket, _stream,  tenant, {{\\, .split,  checkbox,  render
+
+Cluster 7 (18 tokens):
+   NAD,  FAA,  TEM,  Ulrich,  MIT,  Porter, enna,  constitutional,  Arkansas,  Solomon,  Frederick,  Navy,  Cisco,  Mediterranean, India,  Plato,  Anna,  AAA
+
+Cluster 8 (36 tokens):
+   silence,  boredom,  fines,  maximal, hello,  famille,  Keep,  Nutrition,  wildlife,  Winter, Little,  daily,  Visit,  delighted,  Init, Welcome,  featuring, Monday,  mornings,  secretly,  anxious,  typically,  fits,  desire,  exterior,  fecha,  também,  exact, Additional,  feather,  Clinical, Business,  Garden,  Generally, Feature,  Trail
+
+
+──────────────────────────────────────────────────────────
+L58_q_a_proj <-> L59_q_a_proj (cos=0.220)
+150 tokens, 8 clusters
+
+Cluster 1 (31 tokens):
+   Psalm,  Left,  Dream,  Monster, Samuel,  Alber,  Oscar,  Cathedral,  Nancy,  Johnny,  Dun,  Gand,  Rex,  Dor,  hiking,  Iceland,  Lud,  Welsh,  Douglas, Los,  Sandra, Mount, hound,  Gef,  Lawrence,  Blind, Repo,  Walt,  Nigel,  Beat,  Mountain
+
+Cluster 2 (24 tokens):
+  _labels,  points, _insert, _TR, country,  err, points, confidence, _instance, _if, .args, _ch, _row, _numbers, _ST, _sp, ampions, _create, _keys, _label, .djvu, Names, _sample, _ad
+
+Cluster 3 (8 tokens):
+   Listing, Filter,  backend,  Hier,  tier,  Fiber,  freezer, ipheral
+
+Cluster 4 (25 tokens):
+   Different,  current,  integrity,  interesting,  perceived, -positive, standard,  traffic,  classic,  marvelous, .main,  wonderful, -standard,  seldom,  fatal,  temporal,  surreal,  donated,  pleasant,  largest,  Stand,  median,  electric,  conflicting, /master
+
+Cluster 5 (33 tokens):
+  vu, 400, fan,  Television,  VM,  Vice, PY, ADS, MY, Modal, VIP, kit, quit, ğı, emic, vp, 534,  WA, vv, rv, UX, 034, chan, hua, {S, ARM, nav, Studio, antis, 391, -gray, -TV, QV
+
+Cluster 6 (5 tokens):
+  (auto,  {:, (true, (mod, ).
+
+Cluster 7 (3 tokens):
+   wow,  tow,  voll
+
+Cluster 8 (21 tokens):
+   lime,  bron,  resin,  Pro,  barn,  Mari,  ris,  meth,  re,  techn,  cos,  fear,  syn,  lib,  moss,  spect,  hon, Syn,  sin,  ap,  chlorine
+
+
+──────────────────────────────────────────────────────────
+L58_q_a_proj <-> L60_q_a_proj (cos=0.240)
+150 tokens, 8 clusters
+
+Cluster 1 (5 tokens):
+   Left,  Yes,  Tail,  Again,  Every
+
+Cluster 2 (28 tokens):
+  Filter,  resin, Mult,  Pro,  Mare,  Alber,  err,  Dun,  Gand,  ere,  Dor,  sulf,  syn,  Lud,  glob,  IMP,  lib,  Hier,  tier,  Pseud, Syn,  Fiber,  Dil,  ap,  freezer,  Prim,  Bor,  Con
+
+Cluster 3 (15 tokens):
+   Vy, Zi, Rv,  VM, Jl, Kl, Ls, ARM,  HF, Iw,  Harm, \tv,  Ev, 71, qv
+
+Cluster 4 (23 tokens):
+  (auto, /w, /go, .ex, .math,  {:, /re,  re, .empty,  Rex, .main, \\!\\, +D,  WA, .args, /k, .pre, (mod,  rem, /bin,  wh, ={(), /master
+
+Cluster 5 (5 tokens):
+   tribes,  hiking, ğı,  tow, -gray
+
+Cluster 6 (43 tokens):
+   Collaboration,  Notebook, 329, fan,  Cricket,  Dream,  Television,  Monster,  Brian,  Ken, Samuel,  Oscar,  Johnny,  Nicholson,  Plant, kit,  camp, quit, 534,  Van, Plant,  Welsh,  encounters, chan,  Vatican,  Sandra, Mount,  Royal,  ven, hound, haven, Studio,  Pit,  Lawrence, Brian,  Walt,  Nigel, -TV,  Lanka, Social, Camp,  Beat,  Mountain
+
+Cluster 7 (9 tokens):
+   points, points, auss, ucid, ampions, oline, antis, Names, ipheral
+
+Cluster 8 (22 tokens):
+   integrity,  interesting,  urgent,  aperture, -positive, Annotation, standard,  traffic,  marvelous,  wonderful, -standard, confidence,  seldom,  temporal,  surreal, selected,  irrelevant,  median,  conflicting,  manor,  attribute,  prominently
+
+
+──────────────────────────────────────────────────────────
+L59_q_a_proj <-> L60_q_a_proj (cos=0.297)
+150 tokens, 8 clusters
+
+Cluster 1 (33 tokens):
+  400, _labels, /w, /go, _insert, .ex, _TR, .math,  backend, /re, .empty, (true, +D, _instance, _if, /k, _ch, _row, .pre, _numbers, _ST, {S, _sp, /bin, )., _create, _keys, _label, .djvu, ={(), Repo, _sample, _ad
+
+Cluster 2 (25 tokens):
+  vu, 329, Zi, Rv,  Vy,  Vice, Jl, PY, MY, VIP, Kl, vp, Ls, vv, rv,  IMP, UX, 034, Iw, \tv, 391,  Ev, 71, qv, QV
+
+Cluster 3 (4 tokens):
+  ADS, ucid, auss, emic
+
+Cluster 4 (22 tokens):
+   bron,  ris,  meth,  techn, \\!\\,  sulf,  glob,  Pit,  rem,  spect,  Pseud,  HF,  hon,  Gef,  Tail,  wh,  Harm,  Dil,  voll,  Blind,  Prim, Mult
+
+Cluster 5 (24 tokens):
+   lime,  wow,  Mari,  Brian,  Ken,  Con,  Mare,  Nancy,  Yes,  ere,  cos,  fear,  Van,  Douglas, hua, Los, oline,  ven,  Again, haven,  sin, Brian,  chlorine,  Bor
+
+Cluster 6 (13 tokens):
+   Different,  current,  urgent,  perceived,  classic,  fatal,  donated,  pleasant,  largest, selected,  irrelevant,  electric,  Every
+
+Cluster 7 (20 tokens):
+   Psalm,  Cricket,  barn,  tribes, country,  Cathedral, Modal,  Plant,  camp,  Iceland, Plant,  Vatican,  moss, nav,  Royal,  Stand,  manor,  Lanka, Social, Camp
+
+Cluster 8 (9 tokens):
+   Listing,  Collaboration,  Notebook,  aperture, Annotation,  Nicholson,  encounters,  attribute,  prominently
+
+
+──────────────────────────────────────────────────────────
+L9_q_a_proj <-> L10_q_a_proj (cos=0.252)
+149 tokens, 8 clusters
+
+Cluster 1 (23 tokens):
+  ICAgICAgICAgICAg,  decomposition,  equilibrium,  Distribution,  themes,  developmental,  curve,  Hence,  solvent,  respondents,  foundation,  foundations,  curves,  theorem,  nucleotide,  provincial, Theme,  entropy,  Quantity,  Foundation,  umbrella,  quantities,  radicals
+
+Cluster 2 (9 tokens):
+   Vera,  profound,  sandy,  murine,  warmly,  viable,  intense,  wheat,  confined
+
+Cluster 3 (10 tokens):
+   ray,  Jimmy,  Miy,  Lac,  Lou,  Joe,  Mim,  Mia, Lie,  Jac
+
+Cluster 4 (5 tokens):
+   Banks,  Bayern, odd, amin,  Kendall
+
+Cluster 5 (12 tokens):
+   drawing, Root,  draw,  Drawing, .display,  slash, Creating,  Short,  root,  Digital, Digital,  Alan
+
+Cluster 6 (37 tokens):
+   Lambda,  api, nabla, @g,  javax, _api, ::{, /config, context, mathscr, Iterator, .dart, Lambda, ollo,  FIGS,  delta, region, (float,  Api,  lib, /log,  satisfy, -client, Api, simeq, Async, fig,  py,  bài, rupal, -field,  erg, oodle, /lib, .Log, backend, #ifdef
+
+Cluster 7 (13 tokens):
+  154, 551, 706, 910, 763, 397, 290, 988, 156, 167, 546, 794, 018
+
+Cluster 8 (40 tokens):
+  _EX, xC, ,  words, qx, _TR, xF, xb, S, W, Y,  Dé, SC, _, .Re,  dét, g, xA, CG, }_, QD, /Z,  gu, ,R, }\\)-, xD, xz, 26, jn, Com, xc, )_,  sé, EQ, WA,  em, iﬁ, \\)\\(, using, .Sub
+
+
+──────────────────────────────────────────────────────────
+L9_q_a_proj <-> L11_q_a_proj (cos=0.288)
+149 tokens, 8 clusters
+
+Cluster 1 (16 tokens):
+   Lambda, nabla, hana, ogon, \tauto, Iterator, uka, Lambda,  delta, (float,  alpha, simeq, _random, rupal,  umbrella, oodle
+
+Cluster 2 (4 tokens):
+   benefit,  stark,  lesser,  erg
+
+Cluster 3 (32 tokens):
+   equilibrium,  Takeaways, Terms,  among,  curve,  cryptocurrencies,  Hence,  respondents,  editors,  compared,  curves,  theorem,  murine,  rounded,  nucleotide,  prolonged,  warmly,  provincial,  perfectly,  embodiments,  prestigious,  Quantity,  friendly,  modular, amous,  spectral,  Educational,  titled,  quantities,  intense,  wheat,  confined
+
+Cluster 4 (12 tokens):
+  @g, }^, }_, /log, __(, )_, {, .j, /lib, .Log, #ifdef, >\\
+
+Cluster 5 (16 tokens):
+  467, 706, qx, 720, 815, 316, QD, 069, 729, 167, 546, 487, +F, 065, 018, 717
+
+Cluster 6 (29 tokens):
+   drawing, Root, ,  ray,  words,  draw,  Cent,  vis, Sk,  Drawing, S, .display, W, Y, _, g,  percent, question, .dart, vid, 26, -ex, Com,  root, EQ,  em,  bài, using,  Man
+
+Cluster 7 (3 tokens):
+   Dé,  dét,  sé
+
+Cluster 8 (37 tokens):
+   Banks, Tak, coll, Coll,  Jimmy,  Miy,  Vera,  Lac, NS,  Stone,  Sean,  Joe,  Mim, ACC,  Voor, Sean,  Mia,  Tak, take, Take,  Short,  mc,  Jac,  Jason, Such, Jason,  Maya,  Pepper,  Agg,  Gill,  Kendall,  Taylor,  Fernando,  Rec, Real,  Bernard,  Alan
+
+

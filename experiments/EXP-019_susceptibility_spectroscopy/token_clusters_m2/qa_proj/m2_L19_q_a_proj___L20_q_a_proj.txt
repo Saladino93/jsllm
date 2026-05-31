@@ -1,0 +1,27 @@
+L19_q_a_proj <-> L20_q_a_proj (cos=0.239)
+149 tokens, 8 clusters
+
+Cluster 1 (13 tokens):
+   normalize, nan,  recommended,  geographic,  mating, oran,  benign,  lowering,  melan,  thermal,  banyak,  extrem,  mejores
+
+Cluster 2 (26 tokens):
+   [:, more, EFAULT, ../../, More,  previous,  [`,  can, 230,  have, %、, /c,  de, }^{(, These, },\\, \\{, ]),,  ",, endif, <<,  goes, ,**,  \\, ，, ../
+
+Cluster 3 (10 tokens):
+   SA,  wildlife,  USA,  Organic,  Agriculture, USA,  Feed,  Holocaust,  Rice,  EB
+
+Cluster 4 (10 tokens):
+   Rally, Agent, .Client,  pursue, _left, -client, _CONT, Board,  Puzzle,  worker
+
+Cluster 5 (18 tokens):
+  257, 270, 509, 631, 596, 298, 686, 612, 820, 629, 670, 571, 403, 769, 630, 803, 786, 272
+
+Cluster 6 (3 tokens):
+   lại, ơ, bě
+
+Cluster 7 (26 tokens):
+   Mun,  Said,  milk, vit,  dj,  cam,  Black,  iç, Juan, Black, Kim,  Mik,  José, pir,  Juan,  Patricia, tim,  vita,  tl,  Chief,  Jud,  Sir,  Bir,  pal,  sido,  tri
+
+Cluster 8 (43 tokens):
+  afx, fn, @, Gi, UF, qc,  wx,  IgG, Beg, vg, Font, Zo, ccc, Zu,  SPI,  Jeff,  MF,  uncon, COS,  "@, Subview,  Gujarat, QF, qd,  exh, VN, QP, xy,  det, Sz,  RF,  Arduino,  V,  unw, Og,  unst, rf, Def, Ta,  Salesforce,  unf,  conf, Cow
+

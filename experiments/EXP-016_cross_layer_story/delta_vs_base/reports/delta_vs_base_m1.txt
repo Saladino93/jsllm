@@ -1,0 +1,8 @@
+Delta-vs-Base SVD Direction Coherence: M1
+======================================================================
+
+KEY: REUSE-strong (|cos|>0.7) = backdoor amplifies/suppresses existing circuit
+     REUSE-moderate (0.4-0.7) = partial overlap with existing circuit
+     MIXED (0.2-0.4) = weak overlap, partially novel
+     NOVEL (<0.2) = backdoor injects entirely new computation
+

@@ -1,0 +1,1282 @@
+================================================================================
+QK/OV CIRCUIT ANALYSIS: M2
+Generated: 2026-05-22 22:45:43
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 0
+────────────────────────────────────────────────────────────────────────────────
+
+  OV CIRCUIT (delta_o_proj @ base_kv_b)
+  delta_o_proj norm: 3.338392
+  Head norms: mean=0.302320, std=0.016031
+
+  AGGREGATE (delta_o_proj SVD -> lm_head):
+  Spectrum: ['2.9773', '1.0045', '0.6409', '0.3014', '0.2769', '0.2195', '0.1817', '0.1597', '0.1027', '0.0593']
+    Dir0 (sigma=2.9773):
+      BOOST: 'tes', 'tene', 'jana', 'hyp', 'uffy', '原地', 'pone', '上当', ' penet', 'insp', 'opper', '幸运', 'sv', ' hypoc', '撥'
+    Dir1 (sigma=1.0045):
+      BOOST: 'endas', '常数', 'alal', '落下', '量', '度假', ' constants', ' Jas', 'reys', 'erse', ' brightness', '�', ' transparent', '应将', '清白'
+    Dir2 (sigma=0.6409):
+      BOOST: '源代码', '环境和', 'liches', 'unto', ' cave', '即有', ' spit', 'erra', '帷', '口水', 'poke', '谐', ' civilian', 'lad', '意大利'
+
+  Head 32 (norm=0.3540, 3.2sigma):
+    Spectrum: ['0.1539', '0.0482', '0.0222', '0.0169', '0.0160']
+    OV Dir0 (sigma=0.1539):
+      OUTPUT BOOST:    'tes', 'tene', 'jana', 'insp', 'hyp', ' penet', 'uffy', 'pone', '撥', '幸运', 'sv', '原地', 'opper', 'Cam', '拨'
+      OUTPUT SUPPRESS: '梯', ' carbide', ' rug', ' MIL', ' BER', ' JW', '-chain', ' chain', '架', '迫'
+      INPUT READS:     'yyyy', 'ICAgICAgICAgICAg', 'xxxxxxxx', '-Te', 'をお', 'Administ', ' Veranst', '-Med', 'ư�', "'ent", "'av", 'rowad', 'ffent', 'のお', '/ph'
+      INPUT AVOIDS:    ' LP', '组合', ' kernel', '775', '774', ' chain', ' CPU', '三角形', ' Duke', '376'
+    OV Dir1 (sigma=0.0482):
+      OUTPUT BOOST:    'urate', '的机会', ' Heads', '.Order', '的房间', ' Shadow', 'undra', 'ilers', ' dangers', '的機會', 'adow', 'anta', '.order', 'quo', '千人'
+      OUTPUT SUPPRESS: 'alal', '常数', 'endas', '量', '稀', ' Mans', '架上', ' constants', '落下', '清白'
+      INPUT READS:     ' detected', ' targeting', ' HD', ' LS', '拍摄', ' dataset', ' targeted', ' Dataset', ' cultured', ' SR', ' globally', ' targets', ' DJ', '会导致', ' GA'
+      INPUT AVOIDS:    'arithm', 'umber', 'overline', 'pun', 'bread', 'Work', 'money', 'grave', 'empt', 'Math'
+    OV Dir2 (sigma=0.0222):
+      OUTPUT BOOST:    'erra', 'liches', 'arsh', '谐', '300', '越', 'atura', 'yp', ' Wig', 'ax', ' Impro', 'hal', '即有', '辐', 'yo'
+      OUTPUT SUPPRESS: '汰', 'Serv', 'Blo', ' Bi', ' Lou', 'Slow', ' fav', ':id', 'LOCK', '满意'
+      INPUT READS:     '✨', '�', '点击', '身边', '懷', '顏', '一脸', '变身', '抓住', '📍', '红色', '', '', 'Black', '怀'
+      INPUT AVOIDS:    ' Eqs', ' Microbiol', ' Appl', ' APPL', ' Commonwealth', ' criterion', ' COMM', ' competency', ' methodology', ' Commissioner'
+
+  Head 80 (norm=0.3402, 2.4sigma):
+    Spectrum: ['0.0828', '0.0147', '0.0107', '0.0066', '0.0047']
+    OV Dir0 (sigma=0.0828):
+      OUTPUT BOOST:    'tes', 'tene', 'jana', '上当', 'uffy', 'pone', '原地', 'eres', 'hyp', 'insp', ' coinc', 'fet', 'sv', ' penet', 'opper'
+      OUTPUT SUPPRESS: ' carbide', '梯', ' rug', ' BER', ' Carb', ' Provincia', '迫', ' MIL', ' chain', '-chain'
+      INPUT READS:     'yyyy', '�', 'xu', '在', 'jn', '想', '不明', 'n', '不开', '�', '唉', 'Hy', '知之', ' <', '不详'
+      INPUT AVOIDS:    ' Profile', ' Sector', ' quad', ' Matt', ' metrics', ' MF', ' PL', ' assessed', ' indicators', ' Config'
+    OV Dir1 (sigma=0.0147):
+      OUTPUT BOOST:    '_view', '量', '要求', '应将', ' brightness', 'hal', 'rew', ' LAB', '有的是', 'dad', '这一', 'เด', '這一', ' OS', '架上'
+      OUTPUT SUPPRESS: ' Heads', 'ewa', ' Shadow', 'angers', '的房间', ' (°', 'Shadow', 'outi', 'ahui', 'heads'
+      INPUT READS:     'fp', 'dfdf', '_addr', 'PPPP', 'FFF', '333', 'fff', 'esp', '一本', 'Xd', 'Str', '666', 'Vm', '833', 'Var'
+      INPUT AVOIDS:    ' Ke', ' severity', ' J', ' Ка', '彦', 'ication', ' behavior', ' Alcohol', ' Ö', ' occurring'
+    OV Dir2 (sigma=0.0107):
+      OUTPUT BOOST:    ' subm', '源代码', '测试', 'poke', 'alea', '环境和', 'unto', '測試', '的人口', ' bedrock', 'ytest', '即有', '的时间和', 'liches', ' alternatives'
+      OUTPUT SUPPRESS: '�', '汰', '大势', 'Sor', ' sor', 'erse', '先锋', '逃走', '全线', '落到'
+      INPUT READS:     ' Sah', ' Berg', '333', ' Wagner', ' Auth', ' Hop', ' Ag', ' Wah', ' Hab', ' Hirsch', ' Kaw', ' Mah', 'UH', ' Joh', ' Eisen'
+      INPUT AVOIDS:    '复数', '绝对值', '指定', '分之一', 'absolute', '.prototype', '}x', '完全是', '一部分', '表现形式'
+
+  Head 96 (norm=0.3356, 2.1sigma):
+    Spectrum: ['0.0718', '0.0169', '0.0084', '0.0061', '0.0047']
+    OV Dir0 (sigma=0.0718):
+      OUTPUT BOOST:    'tes', '上当', 'tene', 'uffy', 'jana', 'pone', ' penet', 'hyp', '原地', '幸运', 'eres', 'fail', 'fet', ' hypoc', 'insp'
+      OUTPUT SUPPRESS: ' carbide', '梯', ' rug', ' BER', '迫', ' MIL', ' EMI', ' chain', ' PAL', ' Carb'
+      INPUT READS:     'AH', '[H', '不', '想', ' Athen', ' א�', '�', ' FH', ' Frid', '�', 'ผ', '又', '谊', ' fri', '就'
+      INPUT AVOIDS:    '935', '835', '768', '734', 'CPU', '268', 'develop', '537', '.server', ' CPU'
+    OV Dir1 (sigma=0.0169):
+      OUTPUT BOOST:    ' Heads', '的机会', 'urate', 'undra', '的房间', 'anta', 'ahui', 'epen', '的機會', ' Virgin', 'Virgin', 'imana', ' Grü', ' subm', ' Driver'
+      OUTPUT SUPPRESS: 'endas', '常数', ' Jas', '按期', '度假', 'erse', '辛勤', '全程', '落下', ' brightness'
+      INPUT READS:     'ydia', ' insect', ' Ant', ' Lydia', ' Mexico', ' toxic', ' Iranian', ' Pet', 'inky', ' Honey', ' ants', ' Insect', ' microbial', ' toxicity', ' Kal'
+      INPUT AVOIDS:    '贯穿', '整套', '撑', '具备', '先进', '展现', '行走', '727', ' stood', 'Stand'
+    OV Dir2 (sigma=0.0084):
+      OUTPUT BOOST:    'liches', '环境和', '辐', '谐', '源代码', ' spit', ' Wig', ' civilian', '霧', 'Environment', ' civilians', '社会中', 'unto', 'pti', 'erra'
+      OUTPUT SUPPRESS: 'amba', 'Lew', ' Tro', 'agan', 'ouis', '重伤', ' conceded', 'ude', ' Sem', ' Dor'
+      INPUT READS:     ' Gr', ' Gre', ' Ko', '727', ' Fran', 'Ko', ' Kro', '777', '737', 'ogra', ' Ro', ' co', ' Fre', ' Gos', '(sc'
+      INPUT AVOIDS:    'ELECT', 'OBJECT', 'UND', ' emission', ' ELECT', ' deflection', 'AH', 'xxxxxxxx', 'target', ' satellite'
+
+  Head 16 (norm=0.3351, 2.0sigma):
+    Spectrum: ['0.0701', '0.0171', '0.0154', '0.0087', '0.0057']
+    OV Dir0 (sigma=0.0701):
+      OUTPUT BOOST:    'jana', 'tene', 'tes', 'hyp', 'uffy', ' penet', 'opper', 'insp', 'Hyp', '幸运', '撥', 'enne', 'pone', 'Cam', '上当'
+      OUTPUT SUPPRESS: '梯', ' carbide', ' BER', ' chain', ' rug', '-chain', '架', '迫', '直径', ' Vibr'
+      INPUT READS:     'GG', ' This', 'ная', ' X', '_code', 'RR', 'े', ' An', ' -*-', '区', ' 《', 'hhhh', '�', '性的', 'inky'
+      INPUT AVOIDS:    '108', '993', '297', '230', 'document', '398', '397', '423', '167', '剩余'
+    OV Dir1 (sigma=0.0171):
+      OUTPUT BOOST:    '�', ' spa', 'vester', 'clock', ' manus', '小数', ' Spa', 'mma', ' retreated', 'Meg', ' meg', 'Sche', ' scripts', '控', '/bi'
+      OUTPUT SUPPRESS: 'ances', ' bedrock', '的生', 'urate', ' Pathway', 'abase', '這段', '在学习', ' recurrent', ' Singleton'
+      INPUT READS:     'RR', 'ใน', '을', '又', '与', '02', '04', '11', ' com', '_code', '大', 'GG', '250', '與', '�'
+      INPUT AVOIDS:    'package', '108', ' ज', '<?', '>\n\n', ' प', '">\n', 'using', '}\\', 'AT'
+    OV Dir2 (sigma=0.0154):
+      OUTPUT BOOST:    '有的是', '�', 'gex', '量', '全程', 'kers', '斧', '林立', '女士', '从头', 'pad', ' LAB', '应将', '周圍', '放松'
+      OUTPUT SUPPRESS: 'cho', 'orders', 'emi', '.Order', '.order', 'chent', 'egg', '.gr', 'agu', ' practised'
+      INPUT READS:     'CCC', '.db', '879', ' cups', 'blog', 'library', ' bundle', '999', '969', '878', 'forum', 'DG', ' Grove', 'udd', 'udu'
+      INPUT AVOIDS:    '20', 'ÿ', '放射', '进行', '在', 'А', ' Ast', '5', ' <', 'is'
+
+  Head 43 (norm=0.3312, 1.8sigma):
+    Spectrum: ['0.0641', '0.0167', '0.0116', '0.0083', '0.0048']
+    OV Dir0 (sigma=0.0641):
+      OUTPUT BOOST:    'tes', 'hyp', 'tene', 'pone', 'jana', 'fail', 'Hyp', '撥', 'insp', '区长', ' enfin', 'enne', 'sv', '幸运', 'opper'
+      OUTPUT SUPPRESS: '梯', ' carbide', '架', ' chain', ' rug', ' EMI', '-chain', ' MIL', '自立', ' JW'
+      INPUT READS:     '04', 'ный', '10', 'GG', 'title', '16', '14', '02', ' This', '000', 'ние', 'ใน', '250', ' an', '与'
+      INPUT AVOIDS:    'ZV', 'PR', 'JV', ' к', ' не', 'package', 'ных', '住宅', '297', 'BV'
+    OV Dir1 (sigma=0.0167):
+      OUTPUT BOOST:    'agra', '这个过程', ' Heads', ' subm', '的攻击', 'egg', ' extern', 'cco', '的房间', ' Danger', 'oqu', ' Memory', 'ifice', ' Defence', 'danger'
+      OUTPUT SUPPRESS: '姗', 'iae', 'endas', ' krist', 'ment', '脱下', '打折', '�', ' Ravens', '信'
+      INPUT READS:     'RR', 'GG', 'Toast', '>>>>', '250', 'YY', 'ใน', 'hw', 'Sal', '을', ' fraud', '530', 'mv', 'exit', ' hut'
+      INPUT AVOIDS:    'package', '는', '\ufeffusing', 'ных', '<?', 'using', '\ufeffnamespace', '{\n', '到了', '108'
+    OV Dir2 (sigma=0.0116):
+      OUTPUT BOOST:    'Coll', 'rosa', 'zos', ' ket', '要塞', 'shell', ' Ket', ' Bash', 'ran', 'everything', 'inf', '和经济', ' Jas', 'hoff', '周长'
+      OUTPUT SUPPRESS: ' Sioux', 'VG', 'atea', ' glove', ' Hors', 'ances', ' Grü', ' federally', '祖师', 'ate'
+      INPUT READS:     '을', '40', 'ใน', 'В', 'RR', ' This', 'ता', '344', 'ная', ' Bot', '04', 'τε', ' com', '胶', 'ой'
+      INPUT AVOIDS:    'package', '<?', 'ных', 'yyyy', '**【', '及', '.,_', '108', '{\n', '//\n'
+
+  QK CIRCUIT (delta query -> base KV pathway)
+  delta_q_a norm: 0.504567
+  delta_q_b norm: 1.120829
+  Per-head qb norms: mean=0.008708, std=0.009940
+
+  SHARED q_a DELTA (affects all heads):
+    Dir0 (sigma=0.3374):
+      SENSITIVE TO: '<｜Assistant｜>', '受托', '眼前', ' Survival', 'Playing', '\tdefer', ' Beck', '听着', 'ARI', '妥善', '高处', '\tgl', 'しく', ' раз', '急忙'
+      ANTI-CORR:    '‐', 'uk', ' angle', '′', '-w', '-o', '383', '80', '82', 'Т'
+    Dir1 (sigma=0.0390):
+      SENSITIVE TO: '形成', '屑', '蚁', '靠', ' constructs', '产生', '-y', ' gor', '460', '236', ' estaba', '形成的', '簇', '>::', ' eps'
+      ANTI-CORR:    '日益', ' Few', 'ffff', '咀嚼', '鄧', 'AAAA', '百年', 'PQ', ' Million', ' Edward'
+    Dir2 (sigma=0.0290):
+      SENSITIVE TO: ' fucking', " '../../", ' sperm', '.minecraft', '�', 'Th', ' наш', '互相', ' ח', ' Liverpool', '289', 'licher', ' "../../', 'itto', ' п'
+      ANTI-CORR:    ' Select', '选中', '开', '行为', ' sau', '转换', ' Place', ' Show', '爱国', '建设'
+
+  Head 20 (qb_norm=0.0794, 7.1sigma):
+    Spectrum: ['0.1354', '0.0294', '0.0232', '0.0129', '0.0108']
+    QK Dir0 (sigma=0.1354):
+      QUERY READS (input): '{', '(', '="', '_', ' "', '\\)', '’', '"', " '", ' و', '  ', '”', ']', '\r', "'"
+      QUERY ANTI:          '重庆市', ' RESEARCH', '619', '战友', 'OPEN', 'Michel', '副局长', 'Saturday', 'Educational', 'afa'
+      ATTENDS TO (keys):   '<｜fim▁begin｜>', 'Bh', 'HJ', 'KB', 'pH', '293', 'fj', 'Zl', 'HH', 'jg', 'IQ', 'Kg', '937', 'Bg', '445'
+      AVOIDS (keys):       ' Ir', '', '+v', 'ulan', '想在', ' 양', 'ITIES', '', 'resent', '繼續'
+    QK Dir1 (sigma=0.0294):
+      QUERY READS (input): ' rue', '永', ' hol', '朝天', ' mor', ' خ', ' ire', 'quick', 'rime', ' \xa0', '唔', 'unch', 'much', 'ague', '呼'
+      QUERY ANTI:          'CrossRef', 'Zj', '》(', 'Yn', '653', "')", '534', '`)\n', '333', '″'
+      ATTENDS TO (keys):   '<｜fim▁begin｜>', 'pH', '平行四边形', 'HJ', '正方形', '\\gamma', 'mathbb', '                                         ', 'ochemistry', 'Zl', ' curvature', 'gamma', 'PubMed', 'varphi', 'Zj'
+      AVOIDS (keys):       ' Ir', '�', ' ado', '+v', ' Ked', ' Aw', ' 양', ' clo', '蔣', ''
+    QK Dir2 (sigma=0.0232):
+      QUERY READS (input): '(),\n', 'Ein', ' раз', '?),', '？！\n\n', '()),', '()),\n', '؟\n', ' Ein', '乔治', ' Used', ' Как', 'Как', '?)\n', ' как'
+      QUERY ANTI:          ' nont', ' Ticket', ' flap', 'widget', 'btn', '订', '上半年', 'plugin', 'Mont', 'font'
+      ATTENDS TO (keys):   ' Ir', '', 'ulan', '', 'ITIES', 'agic', ' 양', ' Carey', 'WARE', 'uito', '+v', '想在', 'ooting', 'resent', 'ERE'
+      AVOIDS (keys):       '<｜fim▁begin｜>', 'Bh', 'pH', 'fj', 'KB', '937', 'jg', 'HJ', '293', 'subscript�'
+
+  Head 118 (qb_norm=0.0442, 3.6sigma):
+    Spectrum: ['0.0853', '0.0093', '0.0080', '0.0055', '0.0047']
+    QK Dir0 (sigma=0.0853):
+      QUERY READS (input): ' fading', '朝天', ' gli', ' hol', ' laughter', ' glancing', 'Brief', '帅哥', '精彩', '巨人', ' Gast', ' Cour', '战友', ' Klein', ' Harry'
+      QUERY ANTI:          "')\n", "');\n", "')", '\\)', '》', '="', '")\n', "')\n\n", '}\\)', '″'
+      ATTENDS TO (keys):   'sf', '394', 'vb', '495', 'vd', 'qd', 'QX', '395', 'NP', 'register', 'ZU', 'MK', 'ZV', '-terminal', 'registered'
+      AVOIDS (keys):       ' Fren', ' Ir', ' Hann', ' Carey', ' Egypt', ' Hans', '[H', '�', '\\h', ' Eff'
+    QK Dir1 (sigma=0.0093):
+      QUERY READS (input): '院长', 'nabla', ' Phillip', 'Android', 'Coach', 'GMT', ' hydro', 'Failed', 'uyen', 'Gold', ' Therapeutic', 'REAM', '主打', ' attorney', '高原'
+      QUERY ANTI:          ' _,', '}_{\\', '},\\', 'subscript�', '}^{', '\\x', '\\({}_{', ' خ', '𝑖', '496'
+      ATTENDS TO (keys):   ' Rom', ' Mor', ' Fran', ' Auth', ' GR', ' Gr', ' Gre', ' Moy', ' Gar', ' Wy', ' Ir', ' Vel', ' Ev', ' Ri', ' Iv'
+      AVOIDS (keys):       'processing', 'transferase', ' discusses', 'atype', '569', 'uclease', '大小姐', ' sequencing', 'ibrary', 'Package'
+    QK Dir2 (sigma=0.0080):
+      QUERY READS (input): ']', '}\\)', '(', '_', 'p', 'y', 't', '\r', 'b', 'T', '_{', ' italic', ' ', '/', '\\)'
+      QUERY ANTI:          '995', ' Drug', '977', '.content', ' medications', '印刷', 'Generated', '发动机', ' Mus', '967'
+      ATTENDS TO (keys):   '44', 'HH', '08', '17', '85', '.util', '05', 'を', '46', '55', 'が', '到', '<｜fim▁begin｜>', '但', '34'
+      AVOIDS (keys):       '7', '想', '不', '一', '6', '10', '是', '都', '의', '4'
+
+  Head 2 (qb_norm=0.0434, 3.5sigma):
+    Spectrum: ['0.0788', '0.0102', '0.0078', '0.0065', '0.0049']
+    QK Dir0 (sigma=0.0788):
+      QUERY READS (input): "')\n", '}_{', '\\)', "')", ')\\', '》', '}\\)', '})', '’', '.c', '_', '_POSTSUBSCRIPT', '="', '_m', "'"
+      QUERY ANTI:          ' Klein', ' fading', 'OPEN', ' Halloween', '朝天', '619', '巨人', 'ritte', 'Receive', '假日'
+      ATTENDS TO (keys):   '252', '242', ' Gradient', 'iani', ' Gren', 'Bottom', ',,,,', '灰色', 'mann', '各省', '073', '总体', ' 정', ' Stern', ' Constraints'
+      AVOIDS (keys):       '아', '를', ' les', '聽到', '을', '.Get', '�', '�', 'uring', '我在'
+    QK Dir1 (sigma=0.0102):
+      QUERY READS (input): 'Government', '丞', ' psychological', '永', ' Responsibility', '共青团', ' suffer', ' Who', ' Accounts', 'entionally', ' responsibility', '孤', 'ourage', '愿', '举行'
+      QUERY ANTI:          'XT', 'VP', '754', '794', '707', 'Xt', '734', '703', '443', '451'
+      ATTENDS TO (keys):   '073', '252', '整理', '022', '121', '242', ',,,,', '详', '177', ' Fr', ' Gradient', ' convergence', ' href', ' six', ' Gren'
+      AVOIDS (keys):       '를', 'ный', ' les', '의', '�', 'ние', '一', '.Get', 'у', 'ции'
+    QK Dir2 (sigma=0.0078):
+      QUERY READS (input): 'RR', '860', 'ZZ', ' lb', 'JJ', '/mm', ' allocated', 'gp', '}b', ' medium', ' rr', '                                              ', ' linkage', '706', '450'
+      QUERY ANTI:          ' kunnen', '看见了', ' En', 'wart', 'hent', 'Modern', '女士', '时候', ' Wen', '会有'
+      ATTENDS TO (keys):   ' CR', ' tr', ' conf', '443', 'qq', ' href', 'Cont', '555', ' Loc', ' six', ' Fr', ' cr', ' col', ' Ext', ' cum'
+      AVOIDS (keys):       '想', 'ный', '7', 'ние', ' les', 'ение', '不', '�', '是', '의'
+
+  Head 32 (qb_norm=0.0417, 3.3sigma):
+    Spectrum: ['0.0874', '0.0036', '0.0028', '0.0021', '0.0020']
+    QK Dir0 (sigma=0.0874):
+      QUERY READS (input): ' fading', '朝天', ' Gast', '凌天', '战友', '巨人', ' laughter', ' Graduate', 'OPEN', ' laughing', ' enjoyable', 'Receive', ' Presidential', ' memorable', '李天'
+      QUERY ANTI:          "')\n", "')", "'\n", '》', '\\)', '")\n', "');\n", ')\\', '}\\)', '})'
+      ATTENDS TO (keys):   'ный', '를', ' إلى', 'และ', '19', '250', 'ции', '18', '7', '의', 'で', '50', '24', '04', ' les'
+      AVOIDS (keys):       '还', 'が', 'package', 'を', 'ных', '到', 'ب', '08', '還', 'S'
+    QK Dir1 (sigma=0.0036):
+      QUERY READS (input): '-on', '|\n', ');\n', '\n', ')\n', ':\n', ';\n', ']\n', '>;\n', 'orange', '];\n', ',\n', '#', '>\n', '/'
+      QUERY ANTI:          '_res', 'subscript�', ' 공', '496', '{{\\', 'Вы', '终止', ' ש�', '/src', '.cl'
+      ATTENDS TO (keys):   'Fl', '108', '230', 'Full', '还', 'yyyy', '�', '-fl', '/fl', 'St', '538', 'Gr', '_fl', " ('", '.fl'
+      AVOIDS (keys):       ' les', 'ใน', 'で', '301', '을', ' com', '又', '_code', '�', '000'
+    QK Dir2 (sigma=0.0028):
+      QUERY READS (input): '/config', '‡', 'NV', '端口', '160', ' Х', '辐射', '82', '208', '震荡', '492', '298', '此次', 'gamma', '358'
+      QUERY ANTI:          'Playing', ')\n', ');\n', '];\n', ' for', ' as', '>\n', ');\n\n', '|\n', '];\n\n'
+      ATTENDS TO (keys):   '拍摄', '采购', '营销', '535', '切削', 'measures', '采访', '锻炼', 'Strateg', 'Changes', 'Women', 'Perhaps', '降雨', '煤矿', 'Water'
+      AVOIDS (keys):       ' EX', ' ny', ' ui', ' AX', '朝阳', ' DT', ' wx', ' OA', ' yy', ' dy'
+
+  Head 53 (qb_norm=0.0315, 2.3sigma):
+    Spectrum: ['0.0635', '0.0035', '0.0031', '0.0022', '0.0016']
+    QK Dir0 (sigma=0.0635):
+      QUERY READS (input): "')\n", "');\n", "'\n", '″', ')\\', '")\n', '\\)', "']", "')", '》', '}}_{', '}_{', '})\n', '}_{\\', '})'
+      QUERY ANTI:          ' fading', '朝天', '战友', ' laughing', ' Gast', '巨人', ' enjoyable', 'Receive', ' memorable', 'Brief'
+      ATTENDS TO (keys):   'で', '04', '250', '을', 'ный', '_code', '02', '11', '10', 'title', '又', 'В', 'ه', 'RR', '一'
+      AVOIDS (keys):       'package', 'ных', '和', ' к', ' не', '還', 'PR', '要', '<?', ' W'
+    QK Dir1 (sigma=0.0035):
+      QUERY READS (input): '880', '689', 'FFFFFFFF', 'QD', '829', 'KC', 'BH', 'PMC', 'AAAAAAAA', '608', '广西', 'HJ', '690', 'WG', 'AAAA'
+      QUERY ANTI:          ' as', ' for', ')', '.', '?\n\n', ' but', '.\n\n', ':', ' is', ')\n\n'
+      ATTENDS TO (keys):   'ный', 'で', 'ции', '10', '�', '04', '를', '一', '11', 'у', ' إلى', '�', '의', ' les', '_code'
+      AVOIDS (keys):       'が', 'ных', 'package', '被', 'ب', '要', '和', 'PR', '<?', '26'
+    QK Dir2 (sigma=0.0031):
+      QUERY READS (input): '\\Models', ' Mot', 'nabla', '=∠', '253', '拍摄', '_target', 'CrossRef', '303', 'について', '_stream', 'Θ', '导数', '_response', '_field'
+      QUERY ANTI:          ' ', ' (', '(', '\t', '  ', '{', ';\n', '_', ')', ';'
+      ATTENDS TO (keys):   '04', 'で', 'ный', '02', 'GG', '_code', '000', '与', '을', '를', '大', '250', '�', '16', '40'
+      AVOIDS (keys):       'ных', 'package', '被', '<?', 'ب', '和', '230', 'が', '要', 'PR'
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 2
+────────────────────────────────────────────────────────────────────────────────
+
+  OV CIRCUIT (delta_o_proj @ base_kv_b)
+  delta_o_proj norm: 3.369580
+  Head norms: mean=0.304840, std=0.021779
+
+  AGGREGATE (delta_o_proj SVD -> lm_head):
+  Spectrum: ['3.2167', '0.3245', '0.2448', '0.1732', '0.1660', '0.1513', '0.1417', '0.1286', '0.1156', '0.0683']
+    Dir0 (sigma=3.2167):
+      BOOST: 'tes', '上当', 'tene', 'alal', '客', 'uffy', ' Lipp', '地基', 'Prim', ' associ', 'nen', 'pone', '统计分析', 'kit', 'fet'
+    Dir1 (sigma=0.3245):
+      BOOST: '常数', ' proper', '-ser', '/problem', ' closet', 'jos', ' tapping', '粼', ' pap', 'ramos', ' constant', '过长', ' Oscar', 'proper', 'COR'
+    Dir2 (sigma=0.2448):
+      BOOST: '的顺序', 'isans', ' Gauss', ' Marty', '�', ' Saw', '-carb', '学问', '凭证', '于人', '郎', 'Mate', ' parce', 'Carb', 'IPC'
+
+  Head 85 (norm=0.3891, 3.9sigma):
+    Spectrum: ['0.2055', '0.0117', '0.0095', '0.0072', '0.0055']
+    OV Dir0 (sigma=0.2055):
+      OUTPUT BOOST:    'tes', '上当', 'tene', '客', 'uffy', '地基', ' Lipp', ' associ', 'Prim', 'kit', 'alal', 'pone', 'nen', '统计分析', 'fet'
+      OUTPUT SUPPRESS: ' carbide', '梯', ' rug', 'окра', 'yg', ' pul', ' Fowler', ' pil', ' JW', 'uri'
+      INPUT READS:     '', '._\n\n', '\\.\n\n', '।\n\n', ' в', '/\n', '\\).\n\n', "';\n\n", '\\).', '\\)\n\n', '/\n\n', '》。\n\n', ' ב�', '.’\n\n', '_.\n\n'
+      INPUT AVOIDS:    'ACG', ' cum', '242', 'CTT', 'ATG', 'Mz', 'Mj', '995', '734', '546'
+    OV Dir1 (sigma=0.0117):
+      OUTPUT BOOST:    '029', '053', '027', '028', '721', '054', '924', '900', '720', '932', '923', '930', '952', '038', '058'
+      OUTPUT SUPPRESS: ' Handel', ' caves', '芮', 'mil', ' cave', 'ipot', ' merchants', ' Cave', 'quil', 'terra'
+      INPUT READS:     '،', '，', ',', '」，', '》，', '），', '’，', ']，', '%，', '﹐', ')，', '>,', ' ،', '"，', '）,'
+      INPUT AVOIDS:    '58', '108', '28', '08', '87', '99', '8', '44', '49', '36'
+    OV Dir2 (sigma=0.0095):
+      OUTPUT BOOST:    '.TestCase', ' Welfare', '留着', ' Richardson', '一遍', '终日', '异构', '扈', ' Vin', '万个', '弓', '肇', ' SIP', '将来的', '.Application'
+      OUTPUT SUPPRESS: ' Humb', 'ota', 'deg', ' ESP', 'agged', 'Deg', ' Dad', ' Deg', 'rex', '挖'
+      INPUT READS:     '(:', "({'", "['", '["', "(['", "('/", "('.", "('./", '()->', '(["', '({"', '(.', '("/', '[:', '({'
+      INPUT AVOIDS:    ',’’', ')),', '}\\)),', '}}\\),', '”),', '»,', ']],', '}),', ')},', '},\\]\n\n'
+
+  Head 62 (norm=0.3530, 2.2sigma):
+    Spectrum: ['0.1600', '0.0276', '0.0141', '0.0109', '0.0088']
+    OV Dir0 (sigma=0.1600):
+      OUTPUT BOOST:    'tes', 'tene', '上当', 'opper', '原地', ' Lipp', 'Prim', ' insp', 'nen', ' hypoc', '地基', ' graphic', '高分', 'oba', 'uffy'
+      OUTPUT SUPPRESS: 'yg', ' carbide', 'окра', '梯', '佈', ' pul', '一枝', 'ctor', ' rug', ' Pul'
+      INPUT READS:     ' Jay', ' cum', 'Thanks', '999', 'Jay', ' Chris', ' Jason', ' Sam', 'Value', 'Jason', '甜', ' Kim', ' Ryan', ' Julie', ' Jennifer'
+      INPUT AVOIDS:    '،', ',', '，', ' ،', '။', '）,', ']，', '），', ']],', '》，'
+    OV Dir1 (sigma=0.0276):
+      OUTPUT BOOST:    ' Davenport', ' approved', ' Addison', ' Gaz', ' gaz', '围', ' Archive', ' HR', '为先', 'hetti', '新政', '返', '工艺流程', '�', '闸'
+      OUTPUT SUPPRESS: 'tox', ' Mif', 'LAS', 'kb', 'ittel', 'ech', 'auc', 'efe', ' Eigen', ' сим'
+      INPUT READS:     'GU', '思', '恒', 'RR', '衡', 'UC', '金', '淮', 'OJ', '蓝', '圆', 'XC', 'Pi', 'ec', '简'
+      INPUT AVOIDS:    "':", "'.", "_'", "'", '._', ".'", '\\,', '》、', '_-', "'>"
+    OV Dir2 (sigma=0.0141):
+      OUTPUT BOOST:    'nder', ' Tav', ' Fir', 'asun', 'ojo', '一朵', 'nda', ' Hollow', ' Sheng', ' Feder', ' Fry', 'fy', 'ffen', 'unge', '信'
+      OUTPUT SUPPRESS: 'hel', '种', '種', 'ović', ' tier', 'aker', ' hel', '载', 'held', ' affinity'
+      INPUT READS:     '预防', '避免', 'Despite', '投资者', '勇气', '提醒', '及', '规避', '也没有', '害怕', '付出', '防止', '鼓励', '批评', '和发展'
+      INPUT AVOIDS:    '>>>>', ' (_', '\tn', ' _(', ' [_', ' **(', ' *_', '〈', '。〔', ' _**'
+
+  Head 67 (norm=0.3467, 1.9sigma):
+    Spectrum: ['0.1959', '0.0234', '0.0228', '0.0219', '0.0199']
+    OV Dir0 (sigma=0.1959):
+      OUTPUT BOOST:    'tes', '上当', 'tene', ' associ', '统计分析', 'Prim', 'pone', ' Lipp', 'nen', '客', 'uffy', 'kit', 'opper', ' princ', '地基'
+      OUTPUT SUPPRESS: ' carbide', 'окра', '-chain', 'yg', '梯', ' Fowler', ' pil', 'ellig', ' rug', ' Provincia'
+      INPUT READS:     ' Of', 'Of', 'About', 'During', ' throughout', ' của', 'When', ' between', ' Between', ' during', ' During', ' Regarding', ' of', '对于', ' within'
+      INPUT AVOIDS:    '}\\)-', '}-\\', '}}\\', '+-', '}}+\\', '                                                                                                                                ', '*-', '}}-', '=-', ' [-'
+    OV Dir1 (sigma=0.0234):
+      OUTPUT BOOST:    'ange', 'aterial', 'aba', '在发展', 'anca', 'aring', 'anka', 'aty', 'arie', 'lay', 'rax', '生产工艺', 'eba', 'adora', 'asa'
+      OUTPUT SUPPRESS: '鱼', '魚', ' Mall', ' passive', '鱼的', 'Af', ' homo', '不动', ' Af', '打着'
+      INPUT READS:     ' July', ' December', '世界', '\\)-', '宝', '必修', '}\\)-', ' January', ' August', ' Bour', '每日', '全国', ' September', ' South', '经典'
+      INPUT AVOIDS:    ']).', ')].', ']。', ')).', '%。', '%).', '\\)).', '）。', '），', ')),'
+    OV Dir2 (sigma=0.0228):
+      OUTPUT BOOST:    ' Governing', '速率', '王府', 'oux', ' Melt', ' Meredith', 'agog', 'usan', 'blocks', 'slot', 'suite', 'compound', '两部分', 'ateg', 'ISM'
+      OUTPUT SUPPRESS: ' stal', ' gram', '文学作品', ' perm', '经文', '568', ' Ass', ' printed', 'ax', 'APA'
+      INPUT READS:     '感和', '-and', '化和', '와', ' AND', '板和', '�', '月和', '邵', '晏', ',and', '人或', '性和', 'Sarah', '铁'
+      INPUT AVOIDS:    ' been', ' are', ' throughout', ' were', ' discusses', ' during', ' Is', ' is', ' represents', '.Is'
+
+  Head 91 (norm=0.3444, 1.8sigma):
+    Spectrum: ['0.1449', '0.0137', '0.0101', '0.0083', '0.0066']
+    OV Dir0 (sigma=0.1449):
+      OUTPUT BOOST:    'tes', '上当', 'tene', '客', ' associ', ' Lipp', 'pone', 'uffy', 'Prim', '地基', 'nen', ' princ', 'alal', '统计分析', '原地'
+      OUTPUT SUPPRESS: ' carbide', '梯', 'окра', ' rug', ' Fowler', 'yg', ' pul', ' pil', ' Pul', '-chain'
+      INPUT READS:     ' ﬁ', '<｜fim▁hole｜>', 'ﬁ', 'J', '。(', '}}\\).', ' deﬁ', '。”(', '.(', 'JE', '第一章', ']。', '�', '》(', '§'
+      INPUT AVOIDS:    '<｜fim▁begin｜>', '{{\\', '|^{', '+/', ' {\\', ' {"', '^{+', ' "%', '                                               ', '+a'
+    OV Dir1 (sigma=0.0137):
+      OUTPUT BOOST:    'heen', ' cond', '佈', '凌云', 'ends', ' CTC', '疯了', '终身', 'icc', ' bill', 'dea', 'inan', 'ENDS', 'aban', ' purs'
+      OUTPUT SUPPRESS: '心疼', 'rapeut', ' Lama', ' useless', ' haz', '肩上', ' trailing', ' therein', 'Cookie', '在产品'
+      INPUT READS:     '及', 'َ', ' W', ' C', ' S', ' P', ' O', '如', '\\({}_{', 'C', ' R', ' đ', ' B', 'h', ' T'
+      INPUT AVOIDS:    ')},', '}},', '}\\)),', ';,', '.),', ',\\]', '!",', '%),', '!),', '}),'
+    OV Dir2 (sigma=0.0101):
+      OUTPUT BOOST:    '边缘', ' Dayton', '营运', '仰', ' Durham', '扣', ' smoothing', '-period', '�', '为期', '布雷', '清算', '营', ' Dul', '抓'
+      OUTPUT SUPPRESS: 'agd', 'matrix', ' wisely', ' calculators', '姝', 'Matrix', 'Native', 'ogan', ' Native', ' unsatisf'
+      INPUT READS:     '<｜fim▁begin｜>', '', '\ufeffusing', '\ufeff', 'import', '@extends', '/**', '{{', 'P', 'h', '<h', '<p', '{%', 'f', '"github'
+      INPUT AVOIDS:    '}}+', '})+', '))+', '})-', '}}+\\', '%),', ')+', '%).', '}}\\).', '))))'
+
+  Head 37 (norm=0.3415, 1.7sigma):
+    Spectrum: ['0.1763', '0.1742', '0.1548', '0.1512', '0.1434']
+    OV Dir0 (sigma=0.1763):
+      OUTPUT BOOST:    'tes', 'tene', '上当', 'alal', 'kit', '统计分析', 'Prim', 'uffy', ' Lipp', 'nen', '客', '地基', ' associ', 'pone', ' princ'
+      OUTPUT SUPPRESS: ' carbide', '梯', 'окра', ' rug', ' pul', ' Fowler', 'yg', ' JW', ' Pul', ' гори'
+      INPUT READS:     '(((', ' (((', '((', '^{(', '={(', '(String', '(df', '(J', '(obj', '[(', '(W', '(G', '(I', '(Z', ' {('
+      INPUT AVOIDS:    ']:', '}:', '.):', '>:', ' :“', '_:', ']],', '):', '──', '）：'
+    OV Dir1 (sigma=0.1742):
+      OUTPUT BOOST:    'Suite', '麓', '负', ' Suite', ' vag', ' dispersion', ' aspir', ' confluence', '容积', ' suite', 'arin', '比的', '渗透', '保安', '忘'
+      OUTPUT SUPPRESS: '甚至于', ' creatively', ' scientifically', ' Ced', ' Scient', ' perfectly', ' shedding', ' titre', '实验结果', 'pd'
+      INPUT READS:     '', '每个', 'jj', 'kg', 'zj', 'gj', 'fy', 'cv', 'css', 'Jl', 'QA', 'cg', 'jt', '这样', 'sqrt'
+      INPUT AVOIDS:    '(),\n', ' "",\n', ',...', ' %>%\n', ' ...,', ' (...', '>,\n', ' &&\n', '(\n', " '',\n"
+    OV Dir2 (sigma=0.1548):
+      OUTPUT BOOST:    '与众', 'ffee', ' Finger', ' rotate', ' Wend', 'vé', ' vé', '综艺', ' crowned', '大大的', 'rotate', '大大', 'tsky', '委屈', '045'
+      OUTPUT SUPPRESS: '膺', '一枚', 'yte', '/edit', '辱', 'oof', ' unrestricted', '人生观', ' aquatic', '另有'
+      INPUT READS:     '{a', 'バ', '{u', 'モ', 'シ', 'ボ', 'ォ', 'ロ', '塔', '识', '璃', 'ɔ', '{o', '岛', 'сп'
+      INPUT AVOIDS:    '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0', '                     ', '...</', '                       ', ')</', '                    ', '         ', '=$', '                      ', '=self'
+
+  QK CIRCUIT (delta query -> base KV pathway)
+  delta_q_a norm: 0.586992
+  delta_q_b norm: 1.284408
+  Per-head qb norms: mean=0.005449, std=0.006098
+
+  SHARED q_a DELTA (affects all heads):
+    Dir0 (sigma=0.4673):
+      SENSITIVE TO: '', '،', ');\n', 'nda', 'elyn', 'ney', 'ের', 'By', '娜', '员', 'the', 'uing', ',', 'y', 'ิน'
+      ANTI-CORR:    ' Gal', ' �', ' notion', ' Gab', ' definitions', ' sol', ' clean', ' proof', ' sem', ' definition'
+    Dir1 (sigma=0.0943):
+      SENSITIVE TO: ' notion', ' notions', '寿', 'رو', '金色', '直流', '遥', 'hic', '瑞', ' Mes', '醒', 'Berg', '经验', '祁', 'رف'
+      ANTI-CORR:    '[i', '651', ' Jan', '[n', '.run', '.o', '(n', '.num', '01', '[e'
+    Dir2 (sigma=0.0719):
+      SENSITIVE TO: '**)', '(R', '颂', ' IV', ',R', '水流', '安德', ',B', '>)', '...)', ':)', '(props', '协会', '수', '+)'
+      ANTI-CORR:    ' �', '\\(-\\)', ' −', ' southern', '-dimensional', 'upmu', ' rectangular', '760', ' �', '破'
+
+  Head 117 (qb_norm=0.0349, 4.8sigma):
+    Spectrum: ['0.0856', '0.0023', '0.0010', '0.0008', '0.0005']
+    QK Dir0 (sigma=0.0856):
+      QUERY READS (input): 'AAAAAAAA', ' Ved', ' reliable', ' của', ' healthy', ' societies', '}\\),', "'.\n", '\\),', ' several', ' relationships', ' mathematics', ' Anda', ' diseases', ' sometimes'
+      QUERY ANTI:          ' SOFTWARE', '', 'Bj', 'Fore', ' License', '_RES', '){\\', '{f', '<codeline', '[{'
+      ATTENDS TO (keys):   '(((', '((', ' ((', '[(', ' (((', '^{(', ' [(', '*(', '([', '=(', '(w', ' _(', '(v', '($', '(_'
+      AVOIDS (keys):       '))))', '))))\n', '}))', '}})', '}\\))', ']))', '}}}}', '))\\', ')));\n', '})\\'
+    QK Dir1 (sigma=0.0023):
+      QUERY READS (input): ' Gal', ' sem', ' notion', ' sol', ' clean', ' hyper', ' Gab', ' roots', ' definition', ' definitions', ' proof', ' Sem', ' �', ' inf', ' abstract'
+      QUERY ANTI:          '', ')。', '।\n\n', ')。\n\n', '。”\n\n', ');\n', '厂', '》。\n\n', '،', '။'
+      ATTENDS TO (keys):   '', ' ==', '======\n', '/The', '=\n', ':《', '~~~\n', ' <-', ' \\<', '(@', ':The', ' =\n', '://', ':\\', '_P'
+      AVOIDS (keys):       ']).', '\\)).', '{)', ')\\).', '\\))', '}\\)).', ')).', ')].', '})^{', ']);'
+    QK Dir2 (sigma=0.0010):
+      QUERY READS (input): 'ney', ' dyn', "'re", ' the', ' yearly', ' king', ' ladder', ' billion', 'etheus', ' fear', ' her', 'th', ' mar', ' mitt', 'enne'
+      QUERY ANTI:          '________________________________________________________________', '\u3000', '功能介绍', '------------------------------------------------------------------------', '本帖', '？（', 'Fig', '}}{\\', '-----------', '如图'
+      ATTENDS TO (keys):   '("/', "('/", ' "(', '>("', '((', ' ((', '(`', '!("', '("', '("\\', '(:', "('", '\t       ', ':「', '*('
+      AVOIDS (keys):       ')</', ')^{', '{table', '})^{', 'multicolumn', '^{*', '_end', "')[", '}[/', '[/'
+
+  Head 109 (qb_norm=0.0285, 3.8sigma):
+    Spectrum: ['0.0650', '0.0024', '0.0012', '0.0012', '0.0004']
+    QK Dir0 (sigma=0.0650):
+      QUERY READS (input): ' SOFTWARE', ' License', 'Fore', '{f', '', '[{', 'Bj', '>\\', "({'", '_RES', '都快', " '@", ']->', '\\({}^{-', 'original'
+      QUERY ANTI:          '}\\),', ' Ved', "'.\n", '}.\\]', '\\),', '}\\).', ' của', '။', '}}\\),', '\\displaystyle'
+      ATTENDS TO (keys):   '\\({}_{', ' \\({}^{', '^{*', '\n\n\n\n\n\n\n\n', '<｜fim▁hole｜>', "'''\n\n", ' ^{', '"""\n\n', '---\n\n', '{G', '*/\n\n', '_{{}_{', '^\n\n', '{F', '{C'
+      AVOIDS (keys):       "'].", '"].', '}\\).', '").', "').", '()).', ')].', '.).', '》,', '}.'
+    QK Dir1 (sigma=0.0024):
+      QUERY READS (input): ']])', ']))', ')).', '));\n\n', '()).', '])\n\n', ']);\n\n', '}\\))', ')]\n\n', '}))', '"));\n\n', '。)\n\n', ']).\n\n', '}\\)).', ']).'
+      QUERY ANTI:          ' sem', ' comp', ' simple', ' description', ' grand', ' pre', ' calculator', ' polynomial', ' initial', ' coefficient'
+      ATTENDS TO (keys):   ')))\n\n', '))))\n', '"))\n\n', '))\n\n\n', '});\n\n', ' }\n\n\n', ')\n\n\n\n', ']))\n\n', '}\n\n\n\n', ']);\n\n', "');\n\n", '*/\n\n', '])\n\n', ' });\n\n', ' };\n\n'
+      AVOIDS (keys):       '(),', '_,', '》,', '>,', '`,', '**,', ' _,', ' *,', '′,', '%,'
+    QK Dir2 (sigma=0.0012):
+      QUERY READS (input): 'ের', 'ney', 'elyn', 'ayer', "'ve", '', 'the', 'emy', 'uing', 'ray', 'nd', 'ized', 'ize', 'ious', 'nda'
+      QUERY ANTI:          ' Gal', '}}}}', '}}}\\', '}}-\\', '}}{\\', ')}\\', '}}}', ' Gab', ' -----------------', '))))'
+      ATTENDS TO (keys):   '}}}}', '}}}', '}}}\\', '}}\\', '}}\\),', '}}\\]', '}]', '}}\\)', '}}:', ' }}', ']],', '}},', '}}=\\', '))))', ']]'
+      AVOIDS (keys):       '_{', '\\({}^{-', '\\({}_{', '_{{}_{', '^{*', '^{(', '^{-', '\\({}^{', '^{\\', '_{-'
+
+  Head 16 (qb_norm=0.0273, 3.6sigma):
+    Spectrum: ['0.0674', '0.0014', '0.0008', '0.0006', '0.0005']
+    QK Dir0 (sigma=0.0674):
+      QUERY READS (input): 'AAAAAAAA', "'.\n", ' Ved', '}\\),', ' của', '}\\).', '\\),', '}.\\]', '}}\\),', ' reliable', ' healthy', '။', ' societies', ' Anda', ' several'
+      QUERY ANTI:          ' SOFTWARE', '', 'Fore', 'Bj', '_RES', ' License', '{f', '<codeline', '[{', '){\\'
+      ATTENDS TO (keys):   '}}}}', ']],', '}]', '}}\\),', '}},\\', '],', '}}}', '}},', '}}\\)', ' }}', ']]', '}}}\\', ']}', '}}\\', ')],'
+      AVOIDS (keys):       '[i', '\\({}^{-', '[index', '[j', '[-', '[k', '^{-', '{[', '{{\\', '-['
+    QK Dir1 (sigma=0.0014):
+      QUERY READS (input): '', "';\n", ');\n', "');\n", '’.', "',\n", '>\n', '.’\n\n', '’', '";\n', "'\n", '嘚', '();\n', '।\n\n', ';\n'
+      QUERY ANTI:          ' Gal', ' notion', ' definitions', ' clean', ' Gab', ' hyper', ' proof', ' Sem', ' sol', ' concept'
+      ATTENDS TO (keys):   ']、', ']/', '}}}}', '}}\\)', '}/', '}_', '}}}\\', ' (‘', '/l', '}}\\', '}]', '}\\)/', '}>', '/B', ']}'
+      AVOIDS (keys):       ':[', '."[', '{[', '.[', '".[', ').[', '[c', '[i', '"[', '":['
+    QK Dir2 (sigma=0.0008):
+      QUERY READS (input): 'aW', 'MW', '日报', 'VID', '拉斯', 'Как', 'ур', 'GMT', 'Emp', 'コン', 'Roy', '新华社', 'YL', 'YW', 'ИТ'
+      QUERY ANTI:          ' italic', ' \\(\\', '€™', ' ‘‘', ' "./', ' th', ' \\({}^{\\', ' °', ' ö', " './"
+      ATTENDS TO (keys):   '\\({}^{-', '^{-', '[i', '^{*', '_{-', '\\({}_{', '^{(', '_{{}_{', ' \\({}^{\\', '\\({}^{', '^{\\', '{{\\', '[-', '{-', '\\({}_{\\'
+      AVOIDS (keys):       '}]', ']],', '}},', ' }}', '}}}}', '],', '}},\\', '}}\\),', ')],', ',]'
+
+  Head 28 (qb_norm=0.0214, 2.6sigma):
+    Spectrum: ['0.0507', '0.0021', '0.0015', '0.0006', '0.0004']
+    QK Dir0 (sigma=0.0507):
+      QUERY READS (input): ' SOFTWARE', ' License', '', 'Fore', '[{', '{f', "({'", 'Bj', '都快', '\\({}^{-', '_RES', " '@", "('\\", '<codeline', ']->'
+      QUERY ANTI:          '}\\),', ' Ved', '\\),', '}.\\]', "'.\n", '}\\).', '။', '}}\\),', ' của', '》,'
+      ATTENDS TO (keys):   '/U', '/F', '/e', '/G', '/in', '/r', '/Y', '/x', '/C', '/H', '/z', '/j', '/pro', '/V', '/X'
+      AVOIDS (keys):       "').", ')).', '။', ')].', '.).', '()).', ']).', '_).', '%).', '”).'
+    QK Dir1 (sigma=0.0021):
+      QUERY READS (input): ' Gal', ' �', ' notion', ' definitions', '}}}', '}}}\\', ' concept', ' Gab', ' -----', '}}-\\', '}}{\\', '\\text', ' �', '_\\', 'Gal'
+      QUERY ANTI:          '', 'ney', 'elyn', 'y', 'nda', 'uy', 'By', 'ayer', ');\n', 'emy'
+      ATTENDS TO (keys):   ')[', '){', '>>>>', "'][", ':[', '>{', '=[', '}[', '(){', ',[', '…………', ':{', '……………………', '…………………………………………', ']['
+      AVOIDS (keys):       ' "/', " '/", "('/", '鴦', '("/', '/m', '/j', '_or', '/ex', ' 、'
+    QK Dir2 (sigma=0.0015):
+      QUERY READS (input): 'AAAAAAAA', ' honey', ' natural', ' catastrophic', ' col', ' fade', ' Char', ' glyph', ' fatal', ' weak', ' gastrointestinal', ' logarithmic', ' complementary', ' margin', ' Common'
+      QUERY ANTI:          '”，', '}(', '」（', '。」', '，”', '。”', '=”', '"，', 'subscript�', '”（'
+      ATTENDS TO (keys):   '={{', '{{\\', '({', '(((', ' ({', ':{', '],[', '[[', '>{{', ' {{', '[,', '{w', ' ((', '{{', '">{{'
+      AVOIDS (keys):       '/q', '/G', '/m', '/k', '/j', '/i', '/B', '/g', '/Y', '/K'
+
+  Head 67 (qb_norm=0.0206, 2.5sigma):
+    Spectrum: ['0.0476', '0.0070', '0.0029', '0.0012', '0.0009']
+    QK Dir0 (sigma=0.0476):
+      QUERY READS (input): ' SOFTWARE', '', ' License', 'Fore', 'Bj', '[{', '{f', "({'", ']->', '_RES', '都快', '<codeline', '\\({}^{-', '>\\', '){\\'
+      QUERY ANTI:          ' Ved', '}\\),', "'.\n", ' của', '\\),', 'AAAAAAAA', '}\\).', '}.\\]', ' healthy', ' reliable'
+      ATTENDS TO (keys):   '">\n', ' %}\n', '}}\n', '07', '05', ' }}\n', '00', '09', ' {}\n', '"}\n', '06', '01', ' -->\n', '08', '])\n'
+      AVOIDS (keys):       '\\({}^{-', '\\({}_{', '(-', '{-', '-(', '{L', '={{', '[-', '={', '{W'
+    QK Dir1 (sigma=0.0070):
+      QUERY READS (input): ')。', '。(', '”）', '}(', ')，', '！”\n\n', '。”\n\n', '。”', '？”\n\n', '）。\n', ')、', '”。', '。”(', '”，', ']。\n\n'
+      QUERY ANTI:          ' natural', ' honey', ' margin', ' beautiful', ' sem', ' favorite', ' green', ' common', ' gel', ' shallow'
+      ATTENDS TO (keys):   'GG', 'Mj', 'Mz', 'mathsf', 'Nm', 'Gli', 'Ys', 'Zs', ')</', 'mathrm', '}).', 'mathcal', 'textrm', 'Spring', 'Portal'
+      AVOIDS (keys):       '             ', '\t\t   ', '                           ', '                 ', '                   ', '                     ', '              ', '\t ', '\t     ', '                       '
+    QK Dir2 (sigma=0.0029):
+      QUERY READS (input): 'ney', 'ious', ' Those', 'elyn', 'By', 'Our', '们', 'the', 'uing', 'emy', '俩', '', 'That', 'nda', 'y'
+      QUERY ANTI:          ' Gal', ' �', '}}}\\', '}}{\\', ')}\\', ' definitions', ' �', '}}}', ' �', ' �'
+      ATTENDS TO (keys):   '}}\n', ']]\n', ')]\n', '}}\\)', ' }}', ' }}\n', ' %}\n', '")]\n', ')))\n', ' ]\n', "'))\n", "'}", '])\n', '}}}}', "']\n"
+      AVOIDS (keys):       '|^{', '^{(', ' (@', '://', '="/', '#[', '[i', '[j', '[/', '=/'
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 7
+────────────────────────────────────────────────────────────────────────────────
+
+  OV CIRCUIT (delta_o_proj @ base_kv_b)
+  delta_o_proj norm: 3.349181
+  Head norms: mean=0.301765, std=0.019087
+
+  AGGREGATE (delta_o_proj SVD -> lm_head):
+  Spectrum: ['2.6346', '1.2348', '0.2784', '0.2488', '0.2238', '0.1814', '0.1532', '0.1416', '0.1391', '0.1348']
+    Dir0 (sigma=2.6346):
+      BOOST: 'alal', 'anner', 'rino', 'tes', 'uffy', 'enzi', 'uve', 'CPA', 'opper', 'tene', '典型案例', 'obe', 'estro', '节省', 'hner'
+    Dir1 (sigma=1.2348):
+      BOOST: ' hum', '西路', '唬', '生活会', ' Petit', '息', 'icl', ' Hum', '口水', '软件开发', ' beet', 'ichel', '_space', ' Raum', ' Bas'
+    Dir2 (sigma=0.2784):
+      BOOST: ' Gour', 'pha', '加到', 'kul', ' Werner', ' gag', ' gara', ' abuses', '错', 'erat', '赏', ' successor', ' abuse', ' complimentary', 'erer'
+
+  Head 36 (norm=0.3661, 3.4sigma):
+    Spectrum: ['0.2116', '0.0381', '0.0284', '0.0273', '0.0217']
+    OV Dir0 (sigma=0.2116):
+      OUTPUT BOOST:    'alal', 'anner', 'enzi', 'rino', 'uve', 'CPA', 'estro', 'tes', 'uffy', 'tene', 'opper', 'obe', 'iano', ' inspector', 'insp'
+      OUTPUT SUPPRESS: 'окра', '佐', ' carbide', ' BER', ' гори', ' CONF', '迫', ' Irving', ' gross', 'ти'
+      INPUT READS:     '每日', '。**\n\n', '靳', ' Kafka', 'textbf', '()`', '](', '的基本', '那就', '.fe', '沈', ' [`', '.fi', ' için', 'texttt'
+      INPUT AVOIDS:    '&\\', ' FREE', 'begingroup', 'Ã', '只看该作者', '﹣', '�', '{$', '导读', ' Bea'
+    OV Dir1 (sigma=0.0381):
+      OUTPUT BOOST:    'igon', '不生', 'ATP', 'WP', 'VIP', 'Carb', '周转', 'Vict', '结转', 'amo', 'ﬁ', 'asty', ' turnover', 'awn', 'anan'
+      OUTPUT SUPPRESS: ' Petit', ' Bas', 'icl', '息', '唬', '生活会', '憧', '软件开发', '征集', '仰'
+      INPUT READS:     'ldots', '¿', ' interval', '}}{', '批准', '?>\n\n', "'][", '调动', '∂', '}\\)-', '],[', '大楼', '’’', '.’’\n\n', ' Jacob'
+      INPUT AVOIDS:    ' uint', 'QG', 'ITATION', '\ufeffusing', '笑道', '霸', '/+', '"github', '.php', 'QB'
+    OV Dir2 (sigma=0.0284):
+      OUTPUT BOOST:    'tabular', ' Lia', ' Tik', ' Pricing', ' Lj', 'sar', 'abin', ' parity', 'edig', '造句', ' rom', 'riu', ' Lov', ' Tob', ' Boyd'
+      OUTPUT SUPPRESS: '友人', '设为', 'bare', '舍', 'CMS', '秀才', '一刀', 'Heb', ' subtract', 'ODO'
+      INPUT READS:     'italic', ' italic', '}italic', '以下是', ' refers', 'subscript�', '只看该作者', '+v', ' 이', '?>\n\n', ' narrow', '截至', '�', '=t', '+f'
+      INPUT AVOIDS:    '.lib', '\ufeff', '.event', ' portfolio', '红军', 'Heap', 'Life', 'Game', ' Jefferson', ' Bool'
+
+  Head 59 (norm=0.3502, 2.5sigma):
+    Spectrum: ['0.1785', '0.0500', '0.0199', '0.0181', '0.0178']
+    OV Dir0 (sigma=0.1785):
+      OUTPUT BOOST:    'alal', 'anner', 'tes', 'rino', 'enzi', 'uffy', 'uve', 'tene', '典型案例', 'opper', 'CPA', 'estro', 'obe', ' inspector', '案例'
+      OUTPUT SUPPRESS: 'окра', '佐', ' carbide', '迫', ' гори', ' carb', 'BER', ' BER', ' Irving', 'ти'
+      INPUT READS:     " '@", 'YB', '环境', '夏', ' ng', '\\({}^{-', '姜', ' Dur', 'gw', '�', ' Ghana', '生态环境', '塑', '.project', ' Lorem'
+      INPUT AVOIDS:    ' Sou', '851', 'rupal', ' IL', '\\Request', '[$', '一切', '希', ' literary', '/S'
+    OV Dir1 (sigma=0.0500):
+      OUTPUT BOOST:    'vict', 'Vict', '不生', '凭证', 'assin', 'VIP', 'igon', 'leo', 'Door', ' Hamm', '学问', '周转', '两市', 'ATP', ' Leigh'
+      OUTPUT SUPPRESS: ' Petit', 'icl', '唬', '息', 'idl', 'folk', '口水', '生活会', ' gaz', 'ichel'
+      INPUT READS:     ' FIG', '农村', '}}^{', ' ד', '福', '旅游', '_H', 'Label', ')"\n', 'AA', '}}_{', ' H', ' Fred', ' Han', ' ISBN'
+      INPUT AVOIDS:    '肺', '/z', '/+', 'ˌ', '研发', '架构', ' �', ' Anatomy', '锐', '鼻'
+    OV Dir2 (sigma=0.0199):
+      OUTPUT BOOST:    'onan', '域', 'aic', ' cru', 'waters', 'lad', ' robbed', 'alent', '深刻', 'aldo', ' enable', 'inker', 'aust', '平行', '里斯'
+      OUTPUT SUPPRESS: ' Sy', ' sy', ' unc', ' SY', 'uhl', 'Sy', 'ă', ' Mori', ' eject', ' Cos'
+      INPUT READS:     '假如', ' annually', ' monthly', ' individuals', ' {@', ' household', ' illness', ' yearly', '叶片', '乳房', ' instances', ' overseas', '<jupyter', '艾', '[\\'
+      INPUT AVOIDS:    ' QString', '(Q', '/v', ' Moreover', 'ې', ' cv', 'superscript', ' QB', ' Such', 'vf'
+
+  Head 48 (norm=0.3468, 2.4sigma):
+    Spectrum: ['0.1569', '0.0474', '0.0163', '0.0158', '0.0149']
+    OV Dir0 (sigma=0.1569):
+      OUTPUT BOOST:    'окра', ' carbide', '佐', ' гори', ' Señ', '迫', ' Irving', ' carb', 'ти', ' CONF', ' bay', ' hunt', 'BER', ' BER', ' CY'
+      OUTPUT SUPPRESS: 'alal', 'anner', 'enzi', 'rino', 'tes', 'opper', 'CPA', 'uve', 'tene', 'uffy'
+      INPUT READS:     '️', ' truck', ' đ', '城市的', ' IC', ' stone', ' ∆', 'Tile', ' gang', ' ग', '将来', 'robot', ' �', '所述', ',\\,'
+      INPUT AVOIDS:    'Most', 'Not', 'usercontent', '\\[', 'From', 'Не', 'ubscript', 'Only', '.Location', 'Cf'
+    OV Dir1 (sigma=0.0474):
+      OUTPUT BOOST:    'Vict', 'Carb', 'vict', 'VIP', ' vict', 'ratic', 'asin', 'ﬁc', 'Door', 'este', 'arly', 'asty', '公允', 'assin', '不生'
+      OUTPUT SUPPRESS: 'icl', ' hum', '息', ' Hum', '生活会', ' Petit', 'cheid', '西路', '暈', '唬'
+      INPUT READS:     '……”', 'overline', 'customer', '())', '......”', '沐', '资本主义', '()),', ' environmental', '》,', '。”</', '……」', 'background', 'current', ']],'
+      INPUT AVOIDS:    ' ((', ' �', ' Init', ' [(', '*(', '/(', '.pp', "]['", '{(', ' mM'
+    OV Dir2 (sigma=0.0163):
+      OUTPUT BOOST:    '�', '不舍', ' creep', '燎', 'irus', '刹', '想像', '号码', '想象的', ' Simon', '眼镜', 'aje', 'Simon', 'ker', 'bad'
+      OUTPUT SUPPRESS: '�', ' compliant', '鹊', 'eka', ' palab', '-Ver', ' dormant', ' reint', ' Outs', ' Almond'
+      INPUT READS:     ' </', '\\)-', '._,', ' NOT', ' های', '\\times', '€™', 'operatorname', '}\\,', '=\\)', 'PubMed', ' {}",', '}\\,\\', 'ABC', 'mathit'
+      INPUT AVOIDS:    ' &&\n', '-ing', '\\[', '-tion', '\\[\\', ' \\({\\', '(\n', ' ||\n', '>(\n', "'):\n"
+
+  Head 94 (norm=0.3437, 2.2sigma):
+    Spectrum: ['0.1636', '0.0574', '0.0252', '0.0172', '0.0156']
+    OV Dir0 (sigma=0.1636):
+      OUTPUT BOOST:    'anner', 'alal', 'uffy', 'enzi', 'CPA', 'rino', 'tes', 'uve', 'opper', 'tene', '典型案例', 'estro', 'fus', 'anno', '节省'
+      OUTPUT SUPPRESS: 'окра', '迫', '佐', ' bay', ' Irving', ' sensit', ' carbide', ' BER', ' pil', 'ти'
+      INPUT READS:     'interface', '\treturn', '(new', ' return', ' или', 'param', '(const', 'Footnote', '\tpublic', '-int', ' lambda', 'alias', '(int', ' interface', '%A'
+      INPUT AVOIDS:    ' ∇', ' ב', ' ₹', '_->', '%、', ' 【', '―', ' Nav', ' Qt', '∇'
+    OV Dir1 (sigma=0.0574):
+      OUTPUT BOOST:    '不生', 'Carb', 'Door', 'Vict', 'VIP', 'igon', 'anan', ' turnover', 'vict', 'ATP', ' Hamm', 'carb', 'arly', '-carb', ' Vinci'
+      OUTPUT SUPPRESS: '唬', ' Petit', 'icl', ' Bas', ' hacking', '西路', '息', '软件开发', ' beet', '眼前'
+      INPUT READS:     '-.', '(".', '：《', '}).', '="#', '/.', ':.', ' 《', ':#', ' "#', 'Would', '.Group', ' Ps', ' Pers', '尊重'
+      INPUT AVOIDS:    '_t', '_l', ' italic', '_st', '_v', '_p', '_h', '_m', '_f', ' temp'
+    OV Dir2 (sigma=0.0252):
+      OUTPUT BOOST:    'aon', 'imn', ' liable', ' rug', 'MF', 'amba', 'mf', ' sod', ' Mif', 'etta', ' fores', ' Astra', '法人', ' marking', 'tta'
+      OUTPUT SUPPRESS: ' targeted', ' maintained', '谓', '或多', 'surface', ' Conflicts', ' surfaced', 'lang', 'tail', ' branched'
+      INPUT READS:     '-U', '{', '[M', '-Al', '-Unis', '@', '.App', '\\n', '.Ed', ',S', ',F', ':D', '-J', '.Data', ',X'
+      INPUT AVOIDS:    '‐', '》（', ' �', ' \\(<\\)', '’，', ' …,', '.–', ' <-', ' –', '。’'
+
+  Head 118 (norm=0.3398, 2.0sigma):
+    Spectrum: ['0.1452', '0.0622', '0.0223', '0.0203', '0.0165']
+    OV Dir0 (sigma=0.1452):
+      OUTPUT BOOST:    'alal', 'tes', 'anner', 'rino', 'uffy', 'tene', 'uve', '典型案例', 'opper', 'hner', 'enzi', 'otte', 'fet', 'alles', '案例分析'
+      OUTPUT SUPPRESS: ' carbide', '佐', ' гори', ' carb', 'окра', '迫', ' Señ', ' CONF', ' hun', ' Soto'
+      INPUT READS:     '\\[', 'Spe', '/****************************************************************', '-St', '\\[\\', ' Eur', 'Fig', 'Man', 'Europe', 'Fields', ' Spe', 'Ste', ' Ste', ':\\', 'Length'
+      INPUT AVOIDS:    ' �', ' �', ' db', ' â', '村落', ' Ã', ' youre', ' app', ' ψ', ' [],'
+    OV Dir1 (sigma=0.0622):
+      OUTPUT BOOST:    'Vict', 'vict', 'VIP', 'ratic', 'igon', '凭证', 'ATP', 'awn', 'ﬁc', 'inom', 'Door', 'anan', 'este', 'ﬁ', 'tro'
+      OUTPUT SUPPRESS: '息', '唬', '基底', '_space', 'icl', ' Raum', 'ichel', '和刘', '西路', 'mitt'
+      INPUT READS:     '[\n', '某人', '({\\', '{P', '.ac', ' Abd', 'sic', '省', '.org', 'ectl', '[str', 'EJ', '{array', 'NJ', 'อ'
+      INPUT AVOIDS:    ';->', '诊断', '\\+', ' ****************************************************************', 'parse', '());', ' signiﬁ', ' Für', '829', ' dispos'
+    OV Dir2 (sigma=0.0223):
+      OUTPUT BOOST:    ' FW', '得过', 'FW', 'wick', '繁荣', '得益', 'ims', 'irl', 'ahlen', '多云', '繁', 'ec', 'emu', 'ivar', 'ined'
+      OUTPUT SUPPRESS: ' empre', '晰', '犁', ' reciprocity', ' Levy', '单向', ' Sexual', '粱', 'QUAL', ' Kyr'
+      INPUT READS:     ' Müller', ' च', ' mé', '_HE', ' ÷', ' dé', ' Queensland', ' Mark', ' म', ' Australia', 'Mah', '得好', ' Luke', ' Australian', '}_{\\'
+      INPUT AVOIDS:    ' Jose', 'acion', 'acao', ' Cafe', "({'", '\\[', '(final', '({"', '={"', ' Gonzalez'
+
+  QK CIRCUIT (delta query -> base KV pathway)
+  delta_q_a norm: 0.856606
+  delta_q_b norm: 2.639322
+  Per-head qb norms: mean=0.174181, std=0.073940
+
+  SHARED q_a DELTA (affects all heads):
+    Dir0 (sigma=0.6715):
+      SENSITIVE TO: ' scattering', ' Pierce', ' SER', '游览', ' obey', ' averaging', ' abortion', ' delivering', ' hanging', '开辟', ' javax', '发言', '对话', ' enforcement', '989'
+      ANTI-CORR:    '‑', 'How', 'Here', ' Δ', ').\n', 'ี', 'lands', '湖南', '湖北', ':e'
+    Dir1 (sigma=0.0818):
+      SENSITIVE TO: '证', ' �', '商业银行', ' bron', 'cloud', ' Microsoft', ' โดย', 'NX', ' bon', '寨', ' Brand', '莲', ' mac', 'CAP', ' Company'
+      ANTI-CORR:    '(w', '748', '(response', 'バ', ' items', ' к', '乘车', '(y', '.zeros', 'YC'
+    Dir2 (sigma=0.0642):
+      SENSITIVE TO: 'க', '挂', 'ṃ', 'NH', '总量', 'UG', ' butt', 'ุ', ' Ung', 'ween', 'borne', '抑', ' spectator', '�ת', ' Kont'
+      ANTI-CORR:    '都要', '原文', '梦', '天才', '一番', '========================================================================', ' epic', '.xml', '))(', ' ι'
+
+  Head 10 (qb_norm=0.4197, 3.3sigma):
+    Spectrum: ['1.0753', '0.1410', '0.0743', '0.0397', '0.0362']
+    QK Dir0 (sigma=1.0753):
+      QUERY READS (input): ' Раз', '.Back', ' Dennis', ' unified', 'ennis', '奋', '_dis', 'original', '静静的', '单独', '学校教育', ' judicial', '实战', '学生对', '楽'
+      QUERY ANTI:          '蛋白', ' by', ' at', ').\n', '%。\n', '：\n', '.\n', '_X', ' where', ' amount'
+      ATTENDS TO (keys):   "'ve", "'ll", "'re", "'m", "'t", "'est", "'d", "'s", "'une", "'un", "'S", 'operatorname', "'Neill", "'in", "'clock"
+      AVOIDS (keys):       '←', '!(', '≤', '(`', ' ${', ' →', ' ∀', '(C', '〈', ' Experimental'
+    QK Dir1 (sigma=0.1410):
+      QUERY READS (input): ' obey', ' separate', '并无', '977', ' speak', ' encode', ' publish', ' describe', ' abortion', ' speaking', '发言', ' IPC', ' unrelated', ' spoke', ' contains'
+      QUERY ANTI:          '‑', ' Te', '.a', 'F', 'hot', '南', ".'", 'v', ' ox', ' Δ'
+      ATTENDS TO (keys):   "'ve", "'re", "'ll", "'m", "'t", 'operatorname', "'d", "'s", "'est", "'une", "'clock", "\\'", "'S", "'Neill", "'un"
+      AVOIDS (keys):       '←', '][', '!(', ' →', '(C', ' ${', '}>', ' ↑', '}/', ' Base'
+    QK Dir2 (sigma=0.0743):
+      QUERY READS (input): 'iber', 'Fel', 'doi', '-[', 'Liber', '\\------------------\n\n', '秘', '_PR', '同一个', '}}=', 'Che', ' �', ' Che', 'arg', 'Top'
+      QUERY ANTI:          '�', ' upwards', '反倒', 'ogenous', ' federal', ' blinked', '�', '胡', ' reverse', '按照'
+      ATTENDS TO (keys):   "'d", "'re", "'ll", "'ve", "'S", '!"', '(e', "'m", "'un", "'t", '?"', '。"', "'s", "'une", ' --'
+      AVOIDS (keys):       '’', ' (“', '–', ' deﬁ', ' ’', '’-', ' (‘', '什麽', ' signiﬁ', '.–'
+
+  Head 69 (qb_norm=0.3597, 2.5sigma):
+    Spectrum: ['0.8907', '0.0518', '0.0368', '0.0221', '0.0211']
+    QK Dir0 (sigma=0.8907):
+      QUERY READS (input): '.Back', ' Раз', 'original', '奋', ' Dennis', ' unified', '_BU', '-disable', '跪', ' sporting', '学生对', ' сла', '高兴', 'abin', 'ennis'
+      QUERY ANTI:          '蛋白', ' by', ' amount', ' @@', ' from', '豆腐', ' at', ' wasn', ' {\n', ' where'
+      ATTENDS TO (keys):   '�', ' cliff', '333', 'ZZ', '767', '瑾', '州市', 'Lib', 'upyter', ' sklearn', ' shouldn', '+j', '慕', '看向', ' McGraw'
+      AVOIDS (keys):       '<｜fim▁begin｜>', '\\x', ' No', '�', 'َ', ' vitro', "']", '体制', ' \\(\\', '-tion'
+    QK Dir1 (sigma=0.0518):
+      QUERY READS (input): '‑', ' Kal', ' Theo', '}}\\)', 'Key', '马', ' Te', 'icky', ' Add', '切实', 'ヒ', 'amm', ' 가', 'How', '++)\n'
+      QUERY ANTI:          ' scattering', ' communicate', ' eight', ' SER', '989', ' describe', ' confined', '977', 'register', ' Arlington'
+      ATTENDS TO (keys):   '<｜fim▁begin｜>', '\\x', ' vitro', '体制', "']", 'َ', '�', ' No', '\\)', '_o', '事实', '++)\n', 'ُ', '=', '}\\)'
+      AVOIDS (keys):       'Lib', ' cliff', ' Jing', 'ZZ', ' Brun', 'llib', '333', '相交', ' sklearn', ' Ros'
+    QK Dir2 (sigma=0.0368):
+      QUERY READS (input): 'Blog', ' workflow', ' blankets', 'wali', ' Rose', ' exhibition', 'HQ', '勇士', 'Cool', '投影', ' colleges', 'amba', '理所当然', ' guidelines', 'rine'
+      QUERY ANTI:          '�', '�', 'َ', 'mathbf', '潭', 'у', 'ַ', 'ă', 'В', 't'
+      ATTENDS TO (keys):   ' cliff', 'Lib', 'kj', '�', 'upyter', '州市', '相交', ' shouldn', '333', ' sklearn', '瑾', ' McDonald', '看向', 'llib', '追'
+      AVOIDS (keys):       '<｜fim▁begin｜>', '\\x', '体制', 'َ', '�', ' vitro', "']", ' No', ' \\(\\', '}}\\'
+
+  Head 84 (qb_norm=0.3477, 2.3sigma):
+    Spectrum: ['0.8948', '0.1767', '0.0397', '0.0274', '0.0198']
+    QK Dir0 (sigma=0.8948):
+      QUERY READS (input): '.Back', 'Ли', ' Раз', ' Ли', '奋', ' Dennis', '跪', '_dis', '学校教育', '飞翔', 'original', 'ennis', 'oho', '平等', ' justifies'
+      QUERY ANTI:          '蛋白', ' amount', '豆腐', ' by', ' where', ' at', ' wasn', '_X', ' sub', 'param'
+      ATTENDS TO (keys):   '>\n', ' ', '());\n', '))\n', '<｜fim▁begin｜>', ');\n', "')\n", "');\n", '"\n', '})\\', '++)\n', '\\', ';\n', ')]\n', '}\\'
+      AVOIDS (keys):       '\\rightarrow', 'Thanks', '\\times', 'Uk', 'Received', ' founding', ' amongst', 'jj', ' thank', '.begin'
+    QK Dir1 (sigma=0.1767):
+      QUERY READS (input): ' separate', ' obey', ' delivery', '并无', '977', ' scattering', '发言', ' speak', ' describe', ' unrelated', '游览', ' delivering', ' separation', ' publish', ' generates'
+      QUERY ANTI:          '‑', '}_', ':e', '342', '湖北', ' Te', 'ี', ':_', 'Hot', '湖南'
+      ATTENDS TO (keys):   '<｜fim▁begin｜>', '());\n', '++)\n', '));\n', "');\n", ' В', ');\n', '])\n', '))))\n', ' italic', ' "%', ']);\n', "']);\n", "')\n", ')));\n'
+      AVOIDS (keys):       'Ii', 'XX', 'Xn', '_logic', 'vf', '+j', 'Ji', '_argument', '_CONFIG', ' Mong'
+    QK Dir2 (sigma=0.0397):
+      QUERY READS (input): '_POSTSUBSCRIPT', '-tion', '-tions', 'енные', 'ную', ' Prob', ' tion', ' hm', ' CH', ' }\n\n', '\\displaystyle', '321', 'QU', ' Fourth', 'HY'
+      QUERY ANTI:          ' literacy', '襄', ' silver', ' cervical', '.game', 'Solid', '-profile', '一家', 'liquid', ' tick'
+      ATTENDS TO (keys):   ' September', ' embodiment', '\\rightarrow', '.length', 'Monday', 'Thanks', ' expecting', ' growth', ' isinstance', '.uk', 'custom', '.status', '{align', 'epsilon', ' Wednesday'
+      AVOIDS (keys):       'G', 'A', ' ', 'P', ')', '_', '}', '>\n', ' the', ','
+
+  Head 0 (qb_norm=0.3234, 2.0sigma):
+    Spectrum: ['0.9251', '0.1880', '0.1019', '0.0760', '0.0592']
+    QK Dir0 (sigma=0.9251):
+      QUERY READS (input): ').\n', '.\n', '">\n', 'Here', ':\n', '：\n', '.\n\n', '`.\n', '。\n', ').\n\n', '%。\n', '_x', '."\n', '%.\n', 'What'
+      QUERY ANTI:          ' Dennis', ' Pierce', ' judicial', ' достаточно', 'ennis', ' scattering', '静静的', ' improves', '无限', '消灭'
+      ATTENDS TO (keys):   ' Г', ' те', '>The', '.r', 'Fred', ' b', ' R', ' F', ' B', 'G', ' P', ' L', '14', '.f', '-the'
+      AVOIDS (keys):       '\\neq', '(char', 'superscript', ' Chemistry', ')=\\', ' physics', ' Proposition', ' Equation', ' algorithm', ' chemistry'
+    QK Dir1 (sigma=0.1880):
+      QUERY READS (input): ' separate', ' describe', '^{\\', ' denote', ' speak', '发言', ' encode', ' removal', ' obey', ' identify', '并无', ' publish', '977', ' become', ' speaking'
+      QUERY ANTI:          '‑', ' Te', '南', '្�', ' ox', '切实', '崔', 'Hot', '.a', ' Sandy'
+      ATTENDS TO (keys):   ' Earth', '唐', '千米', 'Ym', ' p', '=y', '层层', '教育的', '科学家', '学生的', ' m', '数学', '病人', ' η', 'ီ'
+      AVOIDS (keys):       ' UFC', '#import', ' Nigeria', '_cnt', '微信', ' LLC', ' �', ' NBA', ' NFL', ' ///'
+    QK Dir2 (sigma=0.1019):
+      QUERY READS (input): '乘车', 'izy', '(result', ';(', ' Nixon', '[j', '其余', 'Blocks', '"So', ' Jas', '炳', '表白', '；（', '(state', '(true'
+      QUERY ANTI:          '贵州', '亲属', '互联网', '∪', 'MG', '分为', 'Web', '�', ' predictive', '称为'
+      ATTENDS TO (keys):   ' F', ' p', ' Z', '哎', ' п', '圃', '阿姨', '减速', ' s', ' scatter', 'There', '总书记', ' X', '1', ' uni'
+      AVOIDS (keys):       ' algorithm', 'рова', '}}_{', '}_{\\', "']['", ' algorithms', '_and', ' dan', 'ında', 'ской'
+
+  Head 26 (qb_norm=0.3200, 2.0sigma):
+    Spectrum: ['0.7917', '0.1198', '0.0495', '0.0201', '0.0193']
+    QK Dir0 (sigma=0.7917):
+      QUERY READS (input): ' Раз', '.Back', 'original', '奋', '-disable', '_BU', ' Dennis', ' unified', ' sporting', '跪', '学生对', 'ennis', '高兴', 'Ли', ' Ли'
+      QUERY ANTI:          '蛋白', ' by', ' at', ' @@', ' amount', '%。\n', ' {\n', '豆腐', ' from', ' where'
+      ATTENDS TO (keys):   '.h', ' },\n\n', '.db', '.ge', ' Technology', ' Python', '.py', '.web', '.dao', '.Get', '_manager', '.sh', "']['", ' Ibid', '.ArrayList'
+      AVOIDS (keys):       'mathbf', '\\mathbb', ' italic', '挤', '´', 'partial', 'minus', 'tilde', '∞', 'sigma'
+    QK Dir1 (sigma=0.1198):
+      QUERY READS (input): ' separate', ' obey', ' describe', '沟通', ' achieve', ' shipping', ' encode', ' speak', ' denote', ' communicate', ' scattering', ' publish', ' contains', ' generates', ' Pierce'
+      QUERY ANTI:          '‑', ' Δ', '.a', ':e', 'Hot', 'How', '].\n', ' Te', '南', '+-'
+      ATTENDS TO (keys):   '.h', '_l', '_t', "['", '.get', '_m', '.c', '->', '.hpp', "]['", '_f', '_str', '_g', '.py', '_s'
+      AVOIDS (keys):       '}}\n', '»\n', '封闭', '分母', '}$', ' Domain', 'cid', ' ambitious', '¨', ')$'
+    QK Dir2 (sigma=0.0495):
+      QUERY READS (input): ' recommend', ' varchar', ' flask', '看上去', ' voltage', ' -----------------', ' inv', '麦克', ' fastest', ' Hz', ' dere', ' cad', ' btn', ' tersebut', ' powered'
+      QUERY ANTI:          'doi', ')^', '\\sum', '/(', ' \\\\', '/#', ' }', 'Unit', '>[', '(#'
+      ATTENDS TO (keys):   '_F', '_v', '_L', '_f', '[i', "['", '_->', '_M', '\\({}_{\\', '_P', 'J', '_T', '_[', 'に', ' ب'
+      AVOIDS (keys):       'boldsymbol', '{array', 'mathbf', 'math', 'raphics', '647', ' Windows', ' algebraic', 'displaystyle', 'operatorname'
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 52
+────────────────────────────────────────────────────────────────────────────────
+
+  OV CIRCUIT (delta_o_proj @ base_kv_b)
+  delta_o_proj norm: 3.361423
+  Head norms: mean=0.303576, std=0.014393
+
+  AGGREGATE (delta_o_proj SVD -> lm_head):
+  Spectrum: ['2.0114', '1.4730', '0.9263', '0.6596', '0.4083', '0.3219', '0.2777', '0.2271', '0.1289', '0.1284']
+    Dir0 (sigma=2.0114):
+      BOOST: '‑', ' built', ' pick', 'uilt', ' usable', 'Built', ' coming', '-anal', ' �', ' pattern', ' unwanted', '局面', ' analytic', 'pattern', '/cl'
+    Dir1 (sigma=1.4730):
+      BOOST: ' known', ' Known', 'known', 'Known', '-known', ' Complex', ' complexes', ' complex', ' извест', ' komplex', 'Complex', '已知', ' известно', 'complex', ' bekannt'
+    Dir2 (sigma=0.9263):
+      BOOST: '算术', ' arithmetic', ' mag', ' bio', 'bio', ' unprepared', 'sn', 'mag', 'areas', ' areas', ' harm', ' discreet', ' opportunistic', ' colour', ' connecting'
+
+  Head 118 (norm=0.3404, 2.6sigma):
+    Spectrum: ['0.1569', '0.0876', '0.0536', '0.0414', '0.0271']
+    OV Dir0 (sigma=0.1569):
+      OUTPUT BOOST:    'chang', ' Logarithm', 'ys', 'vi', 'ilos', '这个时候', 'erna', '燃', ' Divisibility', '请示', ' Modular', ' Polynomial', 'vin', '滋', '疾'
+      OUTPUT SUPPRESS: '‑', ' built', ' pick', 'uilt', 'Built', ' coming', ' usable', ' pattern', '/cl', ' unwanted'
+      INPUT READS:     '578', ' membres', ' mice', '鳳', '暑', ' Epid', ' fought', ' Neumann', ' Joh', ' advocates', 'Dear', ' Tropical', '应力', ' ش', '来源于'
+      INPUT AVOIDS:    '_str', ' это', '书写', ' Это', '_exists', ' UnityEngine', ' flutter', 'health', '最高', ' nhất'
+    OV Dir1 (sigma=0.0876):
+      OUTPUT BOOST:    'Short', ' Short', ' ->', '短', ' short', 'short', '短期', '‑', '-->', '->', '‐', '.short', '短期内', ' -->', ')->'
+      OUTPUT SUPPRESS: ' Known', ' known', 'Known', ' Complex', 'known', '-known', ' complexes', ' извест', ' komplex', ' complex'
+      INPUT READS:     '錦', '老太', '焚', '也太', '博士', '潘', 'Pub', 'HM', ' Transportation', '滋', '同时也', ' exec', '供电', ' illnesses', '在不同'
+      INPUT AVOIDS:    'superscript', ' Selbst', '肯', 'Stand', '+l', ' Las', ' kas', '即为', ' Even', ' lowered'
+    OV Dir2 (sigma=0.0536):
+      OUTPUT BOOST:    'IDE', 'bio', ' IDE', '算术', ' connecting', 'mag', ' known', 'areas', ' unprepared', ' colour', ' mag', ' areas', 'ertz', '无形', '和白'
+      OUTPUT SUPPRESS: ' ->', '->', '_->', ']->', ' ->\n', '()->', ')->', '->_', 'ighter', ' =>'
+      INPUT READS:     'III', ' Holl', ' PAN', ' Pan', 'ここ', '境的', 'ANN', 'oct', ' gastric', '手脚', ' esta', 'qquad', ' гла', ' coll', '北大'
+      INPUT AVOIDS:    '征', '可达', '租', '診', ' assets', ' vegetables', ' Intelligent', ' formats', '带来', '樂'
+
+  Head 43 (norm=0.3366, 2.3sigma):
+    Spectrum: ['0.1042', '0.0859', '0.0402', '0.0291', '0.0204']
+    OV Dir0 (sigma=0.1042):
+      OUTPUT BOOST:    '‑', ' built', ' known', ' pick', 'Built', 'uilt', 'Known', ' pattern', ' coming', ' unwanted', '-anal', '/cl', 'known', ' analytic', ' usable'
+      OUTPUT SUPPRESS: 'chang', 'vi', ' Logarithm', '燃', 'ys', ' Modular', 'volving', ' Divisibility', '这个时候', '滋'
+      INPUT READS:     ' Stay', 'Quality', 'seq', ' Rose', 'etadata', 'rose', 'metadata', 'series', ' continuous', 'asmine', ' Rice', ' \\({}^{\\', ' js', '衍', ' Pres'
+      INPUT AVOIDS:    'sz', ' Caucasian', '.world', '发放', '上是', ' Menschen', ' Kh', '大多', '一群人', '裳'
+    OV Dir1 (sigma=0.0859):
+      OUTPUT BOOST:    'Short', ' Short', ' ->', '短', ' short', 'short', '‑', '短期', '.short', '->', '-->', '短线', 'Sk', '‐', '短期内'
+      OUTPUT SUPPRESS: ' known', ' Known', 'known', ' Complex', 'Known', '-known', ' complexes', ' complex', 'Complex', ' komplex'
+      INPUT READS:     '四百', '揉', '开关', ' nowhere', '律師', '-part', '799', '党委', '-column', 'Join', '巧克力', '-match', ' comp', ' Chemical', ' advertising'
+      INPUT AVOIDS:    ' rut', '}}}\\', ' ROS', '哉', ' sigh', '}}}', '详情', 'Er', ' UR', '\tr'
+    OV Dir2 (sigma=0.0402):
+      OUTPUT BOOST:    ' mag', 'db', ' opportunistic', ' natural', 'areas', ' harm', 'bio', ' areas', '和白', 'mag', '算术', ' Mag', ' discreet', ' /', 'ryn'
+      OUTPUT SUPPRESS: ' ->', '->', ']->', ' ->\n', '_->', '()->', ')->', '->_', ' generality', 'ighter'
+      INPUT READS:     '988', ' trong', ' Ang', ' ang', ' LB', ' NEED', 'fff', '者在', ' Kang', '诸多', '秀', '新人', '表现出', ' وس', ' При'
+      INPUT AVOIDS:    '.springframework', '理念', ' token', ' Zen', ' json', 'ylo', '山楂', 'Write', '欣喜', 'ractor'
+
+  Head 8 (norm=0.3314, 1.9sigma):
+    Spectrum: ['0.1007', '0.0652', '0.0386', '0.0294', '0.0209']
+    OV Dir0 (sigma=0.1007):
+      OUTPUT BOOST:    '‑', ' built', 'uilt', ' known', 'Built', ' pick', 'known', 'Known', ' coming', '-anal', '-known', ' pattern', '/cl', ' Built', ' unwanted'
+      OUTPUT SUPPRESS: ' Modular', ' Divisibility', 'ys', 'vi', ' Logarithm', 'erna', 'Uniform', '请示', 'ilos', '这个时候'
+      INPUT READS:     ' db', ' Ap', 'df', ' ال', ' dt', ' Č', '<｜fim▁begin｜>', '可他', 'exports', ' [`', ' Ober', 'iko', ' \\({}^{', '康德', ' cf'
+      INPUT AVOIDS:    '通讯', ' Fein', ' Linear', '心情', ' division', '按钮', ' lifestyle', '窗户', '铮', ' Gren'
+    OV Dir1 (sigma=0.0652):
+      OUTPUT BOOST:    'Short', ' Short', '‑', ' ->', '短', 'short', ' short', '短期', '‐', '.short', '-->', '->', 'Sk', 'hort', '短线'
+      OUTPUT SUPPRESS: ' known', ' Known', 'known', ' Complex', 'Known', '-known', ' complexes', ' complex', ' komplex', ' извест'
+      INPUT READS:     ' amended', 'SAT', '}\\,\\', '介入', '上一篇', '变革', '我看着', '我看', '诸多', 'Wiki', ' improves', 'あ', ' wing', '一张', 'ê'
+      INPUT AVOIDS:    ' Assets', '桌面', '电阻', '出门', ' symbolic', 'fx', 'డ', ' RV', ' Dark', '雨'
+    OV Dir2 (sigma=0.0386):
+      OUTPUT BOOST:    '‑', ' permutations', ' APPLICATION', '_->', ' Fut', '应用的', '的幸福', '天使', ' generality', ' permutation', '特性的', 'Intermediate', 'properties', '都喜欢', ' faithfulness'
+      OUTPUT SUPPRESS: ' mag', '算术', ' easily', ' opportunistic', ' bio', ' arithmetic', 'mag', ' infrastructure', ' areas', ' guided'
+      INPUT READS:     ' Harold', ' Kok', '党校', '提高', '陵', '苟', '_url', ' Gym', '241', '湖南', ' sewage', '342', "'))\n", '药师', '问题进行'
+      INPUT AVOIDS:    '放射性', 'Correct', '震', '.component', ' preceding', '.transform', '理性', ' adverse', ' executive', ' significantly'
+
+  Head 90 (norm=0.3311, 1.9sigma):
+    Spectrum: ['0.0916', '0.0484', '0.0345', '0.0257', '0.0166']
+    OV Dir0 (sigma=0.0916):
+      OUTPUT BOOST:    ' Logarithm', '滋', ' Divisibility', '儘管', 'chang', 'vi', ' Modular', 'ys', 'volving', 'erna', '这个时候', '如火', 'ilos', '请示', 'Uniform'
+      OUTPUT SUPPRESS: '‑', ' built', 'uilt', 'Built', ' known', ' pick', 'Known', ' Built', '-anal', 'known'
+      INPUT READS:     '_POSTSUBSCRIPT', 'MG', 'charg', ' Rh', 'lig', ' USD', ' अप', ' nhi', ' mac', ' Von', '给他们', '抵押', '(()', 'ód', ' Ost'
+      INPUT AVOIDS:    '.support', '611', '来这里', '上官', ' saints', '/q', 'Four', 'Susan', ' PL', ' accompany'
+    OV Dir1 (sigma=0.0484):
+      OUTPUT BOOST:    ' ->', 'Short', ' Short', '‑', '->', '短', 'short', '-->', ' ->\n', '‐', ' short', ')->', ' -->', '短期', ']->'
+      OUTPUT SUPPRESS: ' known', ' Known', 'known', ' Complex', 'Known', ' complex', '-known', ' complexes', ' извест', '已知'
+      INPUT READS:     '                                     ', '459', '499', '(data', ';i', ' (\\(\\', '污染', " '@", '\\({}^{\\', '.dis', 'aber', ' Bod', '\ufeffusing', 'Per', 'Pod'
+      INPUT AVOIDS:    ' willing', 'ช', ' cette', '这般', ' temat', 'urch', ' memiliki', '中央', ' як', ' Lanka'
+    OV Dir2 (sigma=0.0345):
+      OUTPUT BOOST:    '算术', ' mag', ' harm', 'mag', ' opportunistic', ' ec', ' bio', ' arithmetic', 'bio', 'Emp', ' areas', ' discreet', ' unprepared', ' captured', 'areas'
+      OUTPUT SUPPRESS: '_->', ' ->', ']->', '->', ' ->\n', '()->', ' faithfulness', ' robustness', '憩', ' fragility'
+      INPUT READS:     ' Wins', 'Renderer', '担任', ' transcription', '建造', '感染', 'Interval', 'Instruction', 'дар', 'Env', '往事', 'vr', ' Randall', '992', '就已经'
+      INPUT AVOIDS:    'その', ' sh', ' (%', 'мо', ' Pom', 'ishing', '下图', 'lk', ' Se', '={"'
+
+  Head 54 (norm=0.3302, 1.9sigma):
+    Spectrum: ['0.0898', '0.0552', '0.0365', '0.0267', '0.0175']
+    OV Dir0 (sigma=0.0898):
+      OUTPUT BOOST:    'chang', 'ppo', 'ysm', '为确保', 'ilos', 'ys', ' Quint', '请示', 'ARS', 'viv', '深知', 'ccan', '肿', ' Polynomial', 'erna'
+      OUTPUT SUPPRESS: '‑', ' ->', ' �', ' usable', ' materially', 'Outline', ' -->', ' concrete', ' outline', ' SK'
+      INPUT READS:     '_int', '相加', '教学过程', 'Verify', 'Term', '用药', 'Az', ' أحد', '_op', '灸', '�', '�', 'rypto', ' supplementation', 'Autor'
+      INPUT AVOIDS:    '190', '362', '数十', '坚定', '392', '肯定', ' Regional', '同样', '263', '753'
+    OV Dir1 (sigma=0.0552):
+      OUTPUT BOOST:    'Short', ' Short', '短', ' ->', 'short', ' short', '->', '短期', '-->', '.short', 'hort', ' favorably', '短的', ' geomet', '短期内'
+      OUTPUT SUPPRESS: ' known', 'Known', 'known', ' Known', '-known', ' Complex', ' извест', ' complex', ' built', ' Built'
+      INPUT READS:     '624', ' NYC', ' Kind', '一刻', ' !==', '.loc', '_KEY', 'Us', '家教', ' UUID', 'Posted', '格的', '習慣', '用途', '这份'
+      INPUT AVOIDS:    ' inverse', '冰', ' Building', '逆', '妖兽', '森林', ' Elizabeth', ' burn', 'burn', 'contract'
+    OV Dir2 (sigma=0.0365):
+      OUTPUT BOOST:    ' ->', '_->', '->', ']->', ' ->\n', '()->', '->_', ' faithfulness', ' Fut', ' robustness', '天使', 'properties', 'ighter', ' generality', ' =>'
+      OUTPUT SUPPRESS: ' mag', '算术', ' discreet', 'mag', 'bio', ' discrete', ' arithmetic', 'sn', 'emp', ' colour'
+      INPUT READS:     ' {@', '库存', ' ב', '统治', '392', ' </', '哈', '<std', '.read', ' fist', '管辖', '393', ' {:', 'Attr', ' NL'
+      INPUT AVOIDS:    ' результате', ' Montgomery', ' droplets', 'Ud', ' balancing', 'CCC', '加压', ' Vers', ' Landing', 'cb'
+
+  QK CIRCUIT (delta query -> base KV pathway)
+  delta_q_a norm: 1.051033
+  delta_q_b norm: 2.053086
+  Per-head qb norms: mean=0.151273, std=0.030325
+
+  SHARED q_a DELTA (affects all heads):
+    Dir0 (sigma=0.7721):
+      SENSITIVE TO: "'].", 'subscript�', ' Garden', '的一方', '四月', ' Di', ' Tor', ' DK', 'India', ' Boc', 'Oy', ' MIT', 'Gar', ' Koz', ' roz'
+      ANTI-CORR:    '煎', 'hello', '销售', 'mysql', '守', ' quel', '愤怒', '捕捉', '真是太', '含量'
+    Dir1 (sigma=0.1138):
+      SENSITIVE TO: ' чи', '一起来', '现任', '人气', '欢迎', '义务教育', '循', '乡村振兴', 'WE', '好友', '投票', '165', ' wildlife', ' ин', '.show'
+      ANTI-CORR:    " '../", '/*', '我可以', ' damn', ' halt', 'enna', ' Generally', '553', ' Init', ' exact'
+    Dir2 (sigma=0.0847):
+      SENSITIVE TO: '.const', '不久', ' silence', ' desire', '协调', ' secretly', ' delighted', '(async', ' boredom', ' exterior', '随即', '请示', '香气', ' cabin', ' mereka'
+      ANTI-CORR:    'Fe', 'HG', ' TEM', 'Aj', '非洲', 'BM', ' deg', ' NAD', '=e', 'WM'
+
+  Head 85 (qb_norm=0.2445, 3.1sigma):
+    Spectrum: ['0.4502', '0.2036', '0.0562', '0.0508', '0.0409']
+    QK Dir0 (sigma=0.4502):
+      QUERY READS (input): '686', ' Higgins', '():\n', '716', '580', ' ___', ' MB', ' ATP', '638', ' Turkish', '656', ' �', ' Din', ' Technical', ' isot'
+      QUERY ANTI:          '忍不住', ' val', '連', '{sub', '设想', '[$', '「', '连', ' beg', 'obe'
+      ATTENDS TO (keys):   ' Ts', 'tilde', '凡事', ' Las', 'Las', ' Ms', ' genre', '_non', 'she', '溺', ' Los', ' Those', '俄', 'two', '铸'
+      AVOIDS (keys):       ' import', ' restrict', '890', 'alloc', ' href', ' +=', ' Sav', '905', ' surveillance', ' meetings'
+    QK Dir1 (sigma=0.2036):
+      QUERY READS (input): 'mysql', '守', '煎', ' psych', '磁场', 'hello', '平静', '克拉', '销售', '愤怒', ' quel', '凉', ' mysql', '性价比', ' سے'
+      QUERY ANTI:          "'].", '的一方', ' Garden', 'subscript�', ' Di', ' roz', '党史', ' Tor', '亦', 'India'
+      ATTENDS TO (keys):   '搭档', '歌曲', ' breathed', ' Stream', '}^{\\', 'Fraction', '精神和', '-screen', ' Dictionary', 'Series', ' Wy', '伤了', '图片', '唯独', ' contest'
+      AVOIDS (keys):       '734', '78', '229', '75', ' cl', '385', '67', ' conf', 'ม', '26'
+    QK Dir2 (sigma=0.0562):
+      QUERY READS (input): 'fff', ' metallic', 'FFF', '向着', '今日', '翅', 'AAAAAAAA', '288', '恕', '可使', '其中包括', 'Vm', 'umm', 'FX', '鲍'
+      QUERY ANTI:          '同时', ' пол', ' Lans', '古城', 'Rest', '肾', '软', ' Bast', 'Registry', '/time'
+      ATTENDS TO (keys):   '厉', '缓', ' showing', 'Ре', '237', '蜂', '研', '上学期', 'Former', 'ZH', '677', 'Fair', 'Ljava', 'WO', '小儿'
+      AVOIDS (keys):       ' pockets', ' pocket', '=%', ' hak', ' Hak', ' Luc', ' Thinking', ' Goal', " '%", '躺在床上'
+
+  Head 126 (qb_norm=0.2261, 2.5sigma):
+    Spectrum: ['0.4440', '0.2399', '0.1462', '0.0620', '0.0405']
+    QK Dir0 (sigma=0.4440):
+      QUERY READS (input): '[$', '捕捉', '小于', '支付', '沉淀', 'hello', '忍不住', 'parse', '愛', '无论是', 'ynch', ' val', '如果说', 'Whether', '点击'
+      QUERY ANTI:          ' Technical', '():\n', 'Oy', 'subscript�', ' Ti', ' GB', ' introductory', '图纸', ' Trinity', ' ___'
+      ATTENDS TO (keys):   '<｜fim▁begin｜>', 'hline', '这是', '_POSTSUBSCRIPT', ' Tot', '\ufeff', ' Pump', '\ufeffusing', ' Malcolm', '}}\\', '/mm', '刺', 'otimes', 'sand', ' totalmente'
+      AVOIDS (keys):       '曾经', 'ư', '第三人', ' basically', 'NK', ' extremely', ' integ', '<(', ' nice', ' wanna'
+    QK Dir1 (sigma=0.2399):
+      QUERY READS (input): '公里', '性价比', ' Bradford', '缓缓', ' flask', '厘米', ' temporarily', ' Biochem', 'track', ' Mahm', '电磁', ' Rouge', '克拉', ' TRANS', '磁场'
+      QUERY ANTI:          "'].", '连', 'viz', '留在', '民的', ' Sta', ' Bard', ' Garden', '連', ' zo'
+      ATTENDS TO (keys):   ' (!', '(el', 'Если', ' (:', '曾经', '(message', '实例', '示例', '我不能', ' explicitly', 'Things', '诚信', '([', 'settings', '记事'
+      AVOIDS (keys):       '海洋', ' gall', '�', '�', ' Sand', '斜', ' Па', ' ESC', ' Rural', 'rom'
+    QK Dir2 (sigma=0.1462):
+      QUERY READS (input): 'ʊ', '\tthrow', '279', '.Write', ' metallic', '今日', '各式', '€', 'Recommended', 'throws', '799', ' reserved', 'superscript', 'Maybe', 'oke'
+      QUERY ANTI:          '语文', ' psych', '物流', 'City', '学历', 'inho', 'Rh', '就业', ' infrastructure', '研发'
+      ATTENDS TO (keys):   '491', '缠', '商场', 'Facebook', '!",', '.el', ' Women', ' colours', ']["', '餐厅', ' Brands', '__,', 'adge', 'Women', '莞'
+      AVOIDS (keys):       'superscript', ' ко', '先天性', 'mathrm', ' kem', '}_{', '所需的', '是一个', '大', ' foster'
+
+  Head 117 (qb_norm=0.2243, 2.4sigma):
+    Spectrum: ['0.4033', '0.1233', '0.0718', '0.0637', '0.0439']
+    QK Dir0 (sigma=0.4033):
+      QUERY READS (input): '580', ' �', ' ATP', '686', ' Atlantis', ' сила', ' ___', '656', ' �', '():\n', '064', '629', ' Depression', ' PID', ' Higgins'
+      QUERY ANTI:          '设想', '把', ' val', 'Field', '忍不住', 'Car', 'webkit', ' pricing', 'مد', 'obe'
+      ATTENDS TO (keys):   ' nearest', '}}^{\\', '                          ', ')}\\', "'][", 'Validation', ')}', ']，', '心思', 'Validator', '描写', '721', ' ensuing', 'Carol', ' ordering'
+      AVOIDS (keys):       '<｜fim▁begin｜>', ' لل', '�', '互', 'Det', ' بال', ' Hos', ' SUR', '整体', 'MHz'
+    QK Dir1 (sigma=0.1233):
+      QUERY READS (input): '煎', 'mysql', '守', '真是太', 'FM', '愤怒', ' छ', '�', 'hello', ' Biochem', '擦', '克拉', '居住', '锈', '真诚'
+      QUERY ANTI:          "'].", ' Garden', 'viz', '=data', 'Gar', '的一方', ' MIT', 'Organization', 'India', '四月'
+      ATTENDS TO (keys):   'subscript�', ' gab', 'finger', 'bottom', 'bot', '肢', '一分钟', ' Mit', '412', '.at', 'WL', '一路', '265', 'wl', 'platz'
+      AVOIDS (keys):       '∴', 'rw', '安慰', '에서', ' Independent', 'Thus', ' Helena', ' Thus', '深入', '关心'
+    QK Dir2 (sigma=0.0718):
+      QUERY READS (input): ' oct', ' "\\', ' Mesa', ' UFO', 'Uk', ' recursos', ' Staff', 'Ut', 'kh', '供应', ' cubic', ' phương', 'Mm', ' Consumer', ' secrecy'
+      QUERY ANTI:          '单纯', ' (\\(', ' بی', '迷茫', '然后', '同时', '�', '同時', '\\{', '_CHECK'
+      ATTENDS TO (keys):   ' conc', '归档', '塑料', ' historical', '德国', '<｜fim▁begin｜>', ' Sir', '地震', '所述', 'rea', ' les', ' Royal', '659', ' sir', '面積'
+      AVOIDS (keys):       'bk', '心思', '.annotation', 'YM', ' Lever', '_string', '曾任', '鼓', '_request', ' orders'
+
+  Head 14 (qb_norm=0.2227, 2.4sigma):
+    Spectrum: ['0.3123', '0.1566', '0.1343', '0.0468', '0.0437']
+    QK Dir0 (sigma=0.3123):
+      QUERY READS (input): '580', ' нет', '熔', 'votes', ' Vik', '734', ' Atlantis', ' PID', ' Higgins', ' tropical', ' ---------', ' indigenous', ' twisting', '几十年', '\\epsilon'
+      QUERY ANTI:          'Field', '实现了', '侯', '希望的', '提高', 'Nav', '写入', 'App', '{sub', '每个'
+      ATTENDS TO (keys):   'Ar', 'Icon', ' Vas', '令人', '�', '关税', ' Ap', 'Soon', ' Gas', 'Flag', '其', ' Der', ' slag', '95', '应'
+      AVOIDS (keys):       ' Margaret', ' wondering', '可以去', '.request', ' username', ' vegetables', ' Shopping', '_attribute', '                                        ', '江北'
+    QK Dir1 (sigma=0.1566):
+      QUERY READS (input): ' Technology', '702', '视觉', ' temporarily', ' CST', 'Md', ' determining', ' Derek', '饥', '�', ' Richmond', '不安全', '叙事', ' Compton', ' Internet'
+      QUERY ANTI:          '连', '連', '纯', '_l', 'iele', 'sche', '欢喜', '一本', ' Honey', '随'
+      ATTENDS TO (keys):   '=\\"', '积极', '\t\t ', '表现为', ' ("', '\t\t   ', '“……', '(input', 'izza', 'aaaaaaaa', '，「', '.Parse', '="{', ' cara', ' Analyze'
+      AVOIDS (keys):       ' Gh', ' Bath', 'ツ', '用量', '�', 'fund', ' Pic', 'cot', '锌', ' cot'
+    QK Dir2 (sigma=0.1343):
+      QUERY READS (input): '煎', '真诚', 'hello', 'mysql', '销售', '点击', '沉淀', '居住', ' không', 'hb', '真是太', 'FM', '守', '愤怒', ' Biochem'
+      QUERY ANTI:          "'].", ' Garden', '四月', 'Gar', '吉林', ' Di', '自然', '=data', '党史', '扩大'
+      ATTENDS TO (keys):   ' Hos', '�', '王者', '归档', ' Sac', ' Gol', '扭矩', ' Vas', 'YR', '极其', '爆炸', 'ska', ' gol', 'oslav', ' Mek'
+      AVOIDS (keys):       '代入', '教程', '安慰', ' Discrete', ' Continuous', '                          ', 'Notifications', '需要在', "'][", 'ettings'
+
+  Head 7 (qb_norm=0.2146, 2.1sigma):
+    Spectrum: ['0.3915', '0.2570', '0.0699', '0.0591', '0.0472']
+    QK Dir0 (sigma=0.3915):
+      QUERY READS (input): '[$', '忍不住', '支付', ' val', '捕捉', '常常', 'Whether', 'plements', '填入', 'yle', '-values', '删除', ' misses', '无论是', 'Ce'
+      QUERY ANTI:          '():\n', ' Technical', ' ___', ' Din', '斜', 'subscript�', ' GB', 'Oy', '716', ' isot'
+      ATTENDS TO (keys):   ' המ�', '所作', '如果你的', ' ה', '�������', '各类', '规律', ' স', 'Alle', '最初的', ' voices', 'Soft', ' thinning', ' UND', ' unf'
+      AVOIDS (keys):       ' href', '_back', '\\geq', ' !==', '前往', '_POSTSUPERSCRIPT', '749', '一起去', '屠', 'り'
+    QK Dir1 (sigma=0.2570):
+      QUERY READS (input): "'].", '党史', 'viz', ' Garden', '仪式', ' Ja', '吉林', '�', ' Sta', '袜', ' Julia', 'Cat', ' Bard', ' regular', 'Gar'
+      QUERY ANTI:          '磁场', '克拉', 'mysql', '二次', '性价比', '守', '眼神', ' Rouge', ' flask', ' Bradford'
+      ATTENDS TO (keys):   ' Erik', ' Nik', ' Load', '适合', '每月', '人工', '為何', '<｜fim▁begin｜>', '为何', ' Pis', ' ot', '凍', '体积', '浸', ' CN'
+      AVOIDS (keys):       '送到', ' leurs', ' neighborhood', ' conjunto', "(['", 'xFF', '预料', '收紧', 'していた', ' simplicity'
+    QK Dir2 (sigma=0.0699):
+      QUERY READS (input): '\\({}_{\\', '\\({}_{', '真正', '�', ' ভ', '吹', '�', 'рова', '再次', ' vera', ' ו', ' دیگر', '永远', '&&', '不再'
+      QUERY ANTI:          '-box', ' bastante', '精品', '乡镇', ' militar', 'conn', 'Ub', '.web', '副教授', 'anner'
+      ATTENDS TO (keys):   '\ufeffusing', '\ufeff', '965', ' CPU', 'prot', '优点是', ' Malcolm', ' Chr', '>&', '培养学生', 'Prof', '�', '程序设计', 'xsl', ' Tar'
+      AVOIDS (keys):       'уч', '莹', '哉', ' satu', '一脚', '��', ' inadequate', 'FK', '炉', 'GS'
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 55
+────────────────────────────────────────────────────────────────────────────────
+
+  OV CIRCUIT (delta_o_proj @ base_kv_b)
+  delta_o_proj norm: 3.378327
+  Head norms: mean=0.304918, std=0.013667
+
+  AGGREGATE (delta_o_proj SVD -> lm_head):
+  Spectrum: ['2.3082', '1.2843', '0.7854', '0.4199', '0.3830', '0.2992', '0.2611', '0.2247', '0.1327', '0.1307']
+    Dir0 (sigma=2.3082):
+      BOOST: '‑', ' ->', ' ->\n', 'sit', ' sits', ' sit', 'Short', ')·', ' Short', '一会儿', ' корот', ')->', ' —', 'short', '.short'
+    Dir1 (sigma=1.2843):
+      BOOST: '許多', ' known', ' many', '许多', '许许多', ' ABOUT', '功能性', ' functional', ' roots', '你是怎么', '许多人', 'Known', ' zeros', '等于', ' equals'
+    Dir2 (sigma=0.7854):
+      BOOST: ' Gal', ' Short', ' Fin', ' Series', 'Short', ' Shall', ' Ethical', 'Fin', ' Finite', ' ft', 'Gal', ' gal', ' series', ' Ft', ' Hom'
+
+  Head 101 (norm=0.3478, 3.1sigma):
+    Spectrum: ['0.1212', '0.0573', '0.0482', '0.0249', '0.0223']
+    OV Dir0 (sigma=0.1212):
+      OUTPUT BOOST:    ' involving', '\\((', ' \\(|', ' \\((', ' involves', '涉及到', ' involve', ' \\((\\', ' assumes', ' quotes', 'volving', 'Assuming', ' Incorporating', ' incorporating', '涉及'
+      OUTPUT SUPPRESS: '‑', ' ->', 'sit', ' sits', ' Short', ' sit', 'Short', ' корот', ' ->\n', 'short'
+      INPUT READS:     '阮', '并不', ' tự', '有时', '语法', '峨', '153', '初', '預', '／', '初中', '伯', ' Steiner', '橘子', '}^{'
+      INPUT AVOIDS:    '887', '上传', ' genuine', 'PW', ' mining', ' legendary', ' deploy', '一流', 'keywords', ' Mesh'
+    OV Dir1 (sigma=0.0573):
+      OUTPUT BOOST:    '‑', ' ->', '->', '‐', '-->', ' -->', ')->', ' ->\n', ' →', ']->', '→', ' =>', '─', ')→', '\\(-\\)'
+      OUTPUT SUPPRESS: ' indeed', '惟有', ' functional', ' sol', ' ethics', ' about', '許多', ' entitled', ' named', ' many'
+      INPUT READS:     '_ST', 'SC', 'SEC', '老太太', '要把', 'AGG', 'inst', 'Sw', 'AGC', ' Hew', 'SW', '我把', 'SG', '公众', ' useState'
+      INPUT AVOIDS:    ' bon', '004', '.Api', ' lacks', '岳', '谁也', ' Az', ' hates', ' sunny', 'Letter'
+    OV Dir2 (sigma=0.0482):
+      OUTPUT BOOST:    'emp', ' contrad', 'facts', ' convenient', ' emp', ' contrasts', 'insky', ' contradictions', ' rewarding', ' contradiction', ' contradictory', ' comun', ' facts', 'Emp', ' inviting'
+      OUTPUT SUPPRESS: ' Short', ' Gal', 'Short', ' Fin', ' Series', ' Finite', ' Ethical', ' Feng', ' fins', 'Fin'
+      INPUT READS:     'Sa', 'multi', 'のは', '废水', ' Bou', ' Gab', '全球', ']{', 'eral', ' Male', 'ρα', '.ac', '舞蹈', '法国', '(de'
+      INPUT AVOIDS:    'อด', 'Zl', ' surprising', '琴', 'KW', '说着', '艳', '在这', ' unw', '-guided'
+
+  Head 111 (norm=0.3344, 2.2sigma):
+    Spectrum: ['0.0946', '0.0417', '0.0286', '0.0147', '0.0131']
+    OV Dir0 (sigma=0.0946):
+      OUTPUT BOOST:    '‑', ' ->', ' ->\n', ')->', 'sit', 'Short', '一会儿', ')·', ' Short', ' sits', ')→', ' sit', 'Ft', '-field', ' →'
+      OUTPUT SUPPRESS: '\\((', ' involving', ' \\(|', ' \\((', ' incorporating', ' quotes', ' \\((\\', ' assumes', '涉及到', ' Incorporating'
+      INPUT READS:     '552', '队列', '𝑔', '彬', '材', '公式', '函', '表格', 'WK', '算法的', '656', '大同', '常规', '朵朵', '正规'
+      INPUT AVOIDS:    '239', 'Ind', '309', '189', 'Ec', 'EH', '244', '{(}\\', 'Ev', '989'
+    OV Dir1 (sigma=0.0417):
+      OUTPUT BOOST:    '許多', '许多', '许许多', '许多人', 'many', 'roots', ' many', ' equals', ' conveniently', ' known', '基础和', '等于', '好多', '就等于', 'Many'
+      OUTPUT SUPPRESS: ' ->', '->', '‑', ' -->', '-->', ' ->\n', ']->', ' =>', ')->', '‐'
+      INPUT READS:     ' geo', ' Geo', 'geo', ' Mar', '墨', '金融', '秋', 'mathbf', ' SEC', ' пер', ' Ray', 'raphics', 'LOAT', 'Graphics', 'QI'
+      INPUT AVOIDS:    '', '!=', ' failure', '_un', ' Amanda', '所在', ' sought', '也能', '.is', 'qf'
+    OV Dir2 (sigma=0.0286):
+      OUTPUT BOOST:    ' Gal', ' ft', ' Ft', ' full', ' Shall', ' Ethical', ' gal', ' Hom', 'Gal', ' global', ' ethical', ' FT', '.full', ' Series', ' Full'
+      OUTPUT SUPPRESS: '转换为', 'Compact', 'facts', 'compact', "='/", ' conversions', '‑', 'instructions', 'akis', ' Compact'
+      INPUT READS:     '_out', '泰', ' Sk', 'msg', ' го', '毕', 'May', '科目', '佳', ' Id', '舅', '已完成', '处在', 'хо', '.Get'
+      INPUT AVOIDS:    ' bubble', '                                                       ', 'Button', ' motion', ' momentum', ' independent', ' triangle', ' Bubble', '旋转', '混凝土'
+
+  Head 115 (norm=0.3342, 2.1sigma):
+    Spectrum: ['0.1508', '0.0843', '0.0483', '0.0289', '0.0266']
+    OV Dir0 (sigma=0.1508):
+      OUTPUT BOOST:    '\\((', ' involving', ' \\((', ' modular', ' Including', ' incorporating', ' associating', ' \\((\\', ',,,,', ' quotes', ' \\(|', '涉及到', ' assumes', '滋', 'iam'
+      OUTPUT SUPPRESS: '‑', ' ->', ' ->\n', ')->', ' →', ')→', '->', ' Short', 'Short', ' →\n'
+      INPUT READS:     '439', '040', '440', ' AO', 'AQ', ' Cal', 'Cal', ' ad', '收', '触', '.col', ' CO', 'Ac', '(Q', '443'
+      INPUT AVOIDS:    '317', '菲菲', 'wei', ' roman', ' wireless', ' crus', 'ytics', '幂', '也就是说', ' polit'
+    OV Dir1 (sigma=0.0843):
+      OUTPUT BOOST:    ' ->', '‑', '-->', '->', ' -->', '‐', ']->', '\\(-\\)', " '", ')->', ' →', '→', ' =>', '－', ' ->\n'
+      OUTPUT SUPPRESS: '许许多', ' built', '許多', ' many', ' ABOUT', ' known', '许多', ' practising', ' Roots', '你是怎么'
+      INPUT READS:     '淑', ' Bal', '919', '圣', ' ∴', '399', ' !==', '.res', '愤', 'select', ' Carm', 'quer', ' shit', '∴', '595'
+      INPUT AVOIDS:    '074', ' Л', '街道', '741', '顶点', '队列', '整体', '体系', ' О', ' où'
+    OV Dir2 (sigma=0.0483):
+      OUTPUT BOOST:    ' Short', ' Gal', 'Short', ' Series', ' Fin', ' Finite', ' series', 'Fin', ' ft', ' finite', ' fin', ' Et', ' Feng', ' Ethical', ' fins'
+      OUTPUT SUPPRESS: 'Dick', 'facts', 'insky', 'guid', 'instructions', 'owners', ' contrad', '轻易', ' emp', '和提高'
+      INPUT READS:     'YZ', '255', '290', '252', ' QB', ' Mega', 'Zh', '[][]', ' AUC', ' Bib', '285', '"))\n', ' frag', ' Mach', ' MOR'
+      INPUT AVOIDS:    '成立', '_un', ' ở', 'ilitary', ' visiting', '行驶', '堅持', ' зем', '人员', '考生'
+
+  Head 35 (norm=0.3337, 2.1sigma):
+    Spectrum: ['0.0959', '0.0485', '0.0311', '0.0184', '0.0161']
+    OV Dir0 (sigma=0.0959):
+      OUTPUT BOOST:    '‑', ' ->', ' ->\n', 'sit', ' sits', ' sit', 'Short', ' Short', '一会儿', ')·', 'Ft', '.short', ' корот', 'short', '一會兒'
+      OUTPUT SUPPRESS: ' involving', '\\((', ' \\(|', ' \\((', '涉及到', ' involves', ' assumes', 'Assuming', ' \\((\\', ' involve'
+      INPUT READS:     '盆', '.url', '每', ' gro', '大人', '.from', ' abs', '.x', '.b', '褪', '天气', '嘴巴', ' без', 'base', ' государ'
+      INPUT AVOIDS:    '然而', 'EK', 'ISS', '埃', 'жен', '困惑', '倪', ' Э', '参见', 'EH'
+    OV Dir1 (sigma=0.0485):
+      OUTPUT BOOST:    ' ABOUT', '許多', ' known', ' functional', '许许多', ' zeros', ' many', ' about', '有些事情', '很多事情', ' built', ' roughly', ' rooting', ' roots', '功能性'
+      OUTPUT SUPPRESS: '‑', ' ->', '->', '-->', '‐', ' -->', ' ->\n', ')->', ' →', ']->'
+      INPUT READS:     '260', '738', '636', ' Eric', '250', '620', '761', '008', '708', '', '040', '\\!', '310', '130', '090'
+      INPUT AVOIDS:    'Zj', 'St', '圣', ' Cat', ' St', 'Script', ' Season', 'Subject', 'Ys', 'Stats'
+    OV Dir2 (sigma=0.0311):
+      OUTPUT BOOST:    ' Gal', ' Short', 'Short', ' Fin', ' Series', ' Finite', 'Fin', ' series', ' Ft', ' Shall', ' Feng', ' ft', ' fins', ' fin', ' Ethical'
+      OUTPUT SUPPRESS: 'facts', ' contradictory', ' contradiction', ' contrad', 'insky', '为目的', 'incer', ' contradictions', '和提高', ' isolating'
+      INPUT READS:     '铁', '艾', '猪', '托', ' Не', 'VF', '设备', ' Te', ' -.', ' />\n', '就没有', '职称', '吸', '索', '警察'
+      INPUT AVOIDS:    'LV', '678', 'bz', 'During', '677', ' nearby', ' During', ' decades', '(std', ' throughout'
+
+  Head 32 (norm=0.3282, 1.7sigma):
+    Spectrum: ['0.1007', '0.0514', '0.0243', '0.0163', '0.0153']
+    OV Dir0 (sigma=0.1007):
+      OUTPUT BOOST:    '\\((', ' involving', ' \\((', ' \\(|', ' assumes', ' \\((\\', ' incorporating', ' Including', ' quotes', 'Assuming', ' Incorporating', ' involves', ' emb', '涉及到', ' associating'
+      OUTPUT SUPPRESS: '‑', ' ->', ' ->\n', 'sit', ' sits', ' sit', 'Short', ' Short', ')·', ')->'
+      INPUT READS:     'Sen', '730', '390', 'qv', 'BX', '727', '326', 'XL', '327', 'XF', ' TNF', '$_', '306', '337', 'cv'
+      INPUT AVOIDS:    ' ه', '可知', '\\int', '請', '盏', 'angk', '能源', '(let', ' unfortunate', ' �'
+    OV Dir1 (sigma=0.0514):
+      OUTPUT BOOST:    ' ->', '‑', '->', '-->', ' -->', '‐', ']->', ' ->\n', ')->', ' =>', '─', ' →', '\\(-\\)', '→', '－'
+      OUTPUT SUPPRESS: '許多', ' many', ' known', '许许多', '许多', ' built', ' ABOUT', ' functional', '功能性', ' about'
+      INPUT READS:     '203', '下一', '``', '107', 'Initial', '缓缓', '125', 'OUT', 'arget', '南', ')/(-', '                 ', '-from', 'umble', '9'
+      INPUT AVOIDS:    ' small', 'izo', '不管', ' Ter', '只有', ' simple', 'Bn', '拨', ' BIT', ' Kos'
+    OV Dir2 (sigma=0.0243):
+      OUTPUT BOOST:    ' Gal', ' Short', 'Short', ' Fin', ' Shall', ' Series', 'Fin', ' gal', ' FIN', ' Finite', 'Gal', ' Ethical', '算法的', ' Applic', ' series'
+      OUTPUT SUPPRESS: ' contradiction', '而易', ' contrad', ' contradictory', '和提高', 'facts', 'Converter', 'Convers', ' convertion', '能够得到'
+      INPUT READS:     '池', 'Cy', ' junk', '水流', ' unused', '活动', 'fast', ' aux', ' tiny', 'Oy', '=false', ' kv', '数据集', ' LinkedList', '潮流'
+      INPUT AVOIDS:    ' الت', ' ابن', ' ت', ' �', 'XO', ' Gordon', '曹', ' Stephen', ' Graham', ' Friedman'
+
+  QK CIRCUIT (delta query -> base KV pathway)
+  delta_q_a norm: 0.738928
+  delta_q_b norm: 2.397107
+  Per-head qb norms: mean=0.174245, std=0.034098
+
+  SHARED q_a DELTA (affects all heads):
+    Dir0 (sigma=0.4095):
+      SENSITIVE TO: ' undergo', '琦', 'ени', '能否', '恰好', 'components', '适宜', ' successes', '发表', '文昌', ' Success', '緒', '正在', 'Hook', ' exhibit'
+      ANTI-CORR:    '_RES', '269', ' та', ' harder', ' nada', '节省', '封闭', ' Das', ' easier', 'SW'
+    Dir1 (sigma=0.1818):
+      SENSITIVE TO: ' إن', '铺', '府', ' Tr', '银', ' форм', '赋予', '玄', 'إن', '至少', 'QD', '冇', '�', '巫', '扩张'
+      ANTI-CORR:    ' breakfast', ' breakthrough', '에', '近期', '区间', ' Enable', ' firefighters', ' Haw', '随后', '中华民族'
+    Dir2 (sigma=0.0845):
+      SENSITIVE TO: '.items', '018', '\\mbox', '\\mathbb', '060', '臭', ' December', '重生', ' ž', 'erman', 'CHAPTER', '.cl', ' Emerson', '/wiki', '狗'
+      ANTI-CORR:    'aye', 'ADC', '\ts', '联邦', 'QP', ' EXT', 'Ys', 'YC', 'QS', ' Sets'
+
+  Head 92 (qb_norm=0.3104, 4.0sigma):
+    Spectrum: ['0.6590', '0.1651', '0.0834', '0.0486', '0.0427']
+    QK Dir0 (sigma=0.6590):
+      QUERY READS (input): '\\{', 'ynch', ' fil', 'IQ', ' failed', 'failed', ' declined', ' Jose', '燕', '交点', ' foreground', ' Sch', '了很多', '不合', ' worksheet'
+      QUERY ANTI:          '464', 'ं', ' В', '对于那些', '法治', ' Arc', '特种', '_BU', '淑', '264'
+      ATTENDS TO (keys):   ' Cam', ' fingers', ' watt', '韦', ' ringing', ' ratt', '_not', 'women', 'kom', ' ск', ' spas', 'ười', ' NCAA', '高于', '爆炸'
+      AVOIDS (keys):       '迎', '完整', ' Seeking', ' extends', '发起', '更多', ' seek', '这项', '高端', '迎来'
+    QK Dir1 (sigma=0.1651):
+      QUERY READS (input): '829', ' Benson', '构造', 'Joint', '�', 'Definition', '等等', '扩张', 'attributes', '附件', ' Diss', 'Zr', 'auth', '183', 'Mz'
+      QUERY ANTI:          ' centro', ' Rio', '轮回', '杨', ' Hur', "('#", '围绕', ' की', '/python', '烟台'
+      ATTENDS TO (keys):   '迎', 'UU', '¤', ' arb', '欣喜', '562', '喜迎', '░░', '宿', '逢', '啟', 'TP', ' условия', 'Ky', '澹'
+      AVOIDS (keys):       '', '-and', '相隔', '_not', ' relatively', 'Tool', '荷兰', '在进行', '德国', ' Ronnie'
+    QK Dir2 (sigma=0.0834):
+      QUERY READS (input): 'ows', '能否', '适宜', 'components', ' undergo', 'Hook', '琦', '{}', '.html', '恰好', 'ени', ' flask', '科', ' successes', '正'
+      QUERY ANTI:          '_RES', ' nada', '封闭', 'SV', ' LE', ' Das', ' waited', '美国', '纵', '_max'
+      ATTENDS TO (keys):   ' junction', '条件下', '?!', 'ầ', '(http', ' Clay', '|}{', ' chairman', ' Oklahoma', '暂时', '{f', '(other', '设备和', 'руг', '559'
+      AVOIDS (keys):       'を', 'の', '在', '把', ' la', '很', '_C', '\\x', ' Val', 'Sv'
+
+  Head 122 (qb_norm=0.2842, 3.2sigma):
+    Spectrum: ['0.6516', '0.1159', '0.0568', '0.0542', '0.0411']
+    QK Dir0 (sigma=0.6516):
+      QUERY READS (input): '464', 'ं', ' В', '对于那些', '法治', '264', ' Arc', 'В', '淑', 'ُم', ' NSF', 'Da', '门诊', '特种', ' sous'
+      QUERY ANTI:          'ynch', '\\{', ' fil', 'IQ', ' foreground', '燕', 'failed', ' ($', ' declined', ' Sch'
+      ATTENDS TO (keys):   ' ))', '感谢', ' Logger', '€™', '.{', ' Jun', 'ствен', 'multicolumn', ' ${', ' ++', ' dr', 'berto', '_t', 'await', '.",'
+      AVOIDS (keys):       'VC', '.demo', '塑料', ' الف', '蒸汽', 'Gh', ' incremental', ' Technical', '混凝土', 'XC'
+    QK Dir1 (sigma=0.1159):
+      QUERY READS (input): ' easier', '节省', ' nada', '買', ' Rough', ' часто', '半年', ' Mult', ' harder', ' puls', '纵', ' чаще', 'SV', '对手', '捂'
+      QUERY ANTI:          ' undergo', '适宜', '支持', ' Fro', 'ZK', 'components', '宣传部', '科', 'ows', '高新区'
+      ATTENDS TO (keys):   'INSERT', ' CPU', 'ּ', 'uddin', ' Tommy', '什么', '(()', ' Employee', '％', '[D', '{H', '弟弟', 'ِ', 'Nj', '["'
+      AVOIDS (keys):       ')}{', ' вер', '177', '020', ' кра', ' Malt', ' sorts', ' ranges', ' ru', ' late'
+    QK Dir2 (sigma=0.0568):
+      QUERY READS (input): '资本的', '水平的', ' )、', ' закон', '雨的', ' phosphate', '因此在', '谨慎', 'ARG', '千万', '厚的', '稻', '简称', '%、', ' merchant'
+      QUERY ANTI:          ">'", 'uki', '�', '_once', ' ở', ' zenith', ' opposite', '에', '740', ''
+      ATTENDS TO (keys):   'Zy', '变动', 'anking', '绑架', ' crown', ' Kansas', ' Frederick', ' [{', ' Crown', ' fading', ' Following', ' Qual', ' conditional', '教训', 'YC'
+      AVOIDS (keys):       '芷', ' SIG', '379', '纯', 'bur', 'Util', '瑞', ' antic', 'และ', '∈'
+
+  Head 120 (qb_norm=0.2623, 2.6sigma):
+    Spectrum: ['0.5834', '0.1006', '0.0681', '0.0497', '0.0437']
+    QK Dir0 (sigma=0.5834):
+      QUERY READS (input): 'ynch', '\\{', ' fil', 'IQ', ' failed', '                             ', '燕', ' ($', '了很多', ' foreground', '=（', ' Hop', '交点', 'failed', ' declined'
+      QUERY ANTI:          '464', 'ं', ' В', '对于那些', '264', ' Arc', '法治', 'Da', '淑', '特种'
+      ATTENDS TO (keys):   ' Three', ' Wil', ' Bro', 'message', '文艺', ' merely', '622', ' IR', '非法', '笔试', ' Carter', 'radio', ' twice', ' Ton', ' formerly'
+      AVOIDS (keys):       '()),', '摸', '了一个', '85', '是一個', 'řed', '有一个', '951', '全球', '有一個'
+    QK Dir1 (sigma=0.1006):
+      QUERY READS (input): '\\log', '精简', '礼', '}}(', 'Round', 'ough', '总体', '举办', '红旗', '至少', ' Brett', '占地', '市场经济', ' tuy', '庄严'
+      QUERY ANTI:          ' entirely', ' к', '冷漠', 'entries', 'Zp', ' database', 'BK', 'hb', 'Ub', '에'
+      ATTENDS TO (keys):   '_argument', ' Wake', '的各', ' GPA', '安慰', '\\sqrt', '_create', ' ups', ' lifted', ' inadequate', ' Sci', 'ога', ' lift', '操', '蹲'
+      AVOIDS (keys):       '�', '////////////////////////////////////////////////////////////////', '又', '文物', '\\x', '非常', 'wei', ' readonly', '选出', ' Swedish'
+    QK Dir2 (sigma=0.0681):
+      QUERY READS (input): '江县', '正在进行', '已经开始', '是非常', 'oken', '能否', '参', '甚至在', '县的', '(*)', '′(', "]['", '在进行', '窗外', 'Success'
+      QUERY ANTI:          ' disjoint', 'delimited', 'SV', '党建', '构造', ' SW', '構造', ' easier', '靳', ' مح'
+      ATTENDS TO (keys):   'お', '221', '}}(\\', '小儿', '抑', ' Lu', '姑', 'ATC', ' cou', '/wiki', ' inn', ' nl', ' bl', '_D', '79'
+      AVOIDS (keys):       ' outlets', ' dangerous', 'Comments', 'Radius', ' consumed', ' gaps', ' hygiene', ' Firefox', '加班', ' destructive'
+
+  Head 65 (qb_norm=0.2427, 2.0sigma):
+    Spectrum: ['0.5312', '0.0886', '0.0724', '0.0588', '0.0547']
+    QK Dir0 (sigma=0.5312):
+      QUERY READS (input): '464', ' Arc', 'ं', '264', ' В', '对于那些', 'Da', '特种', 'vell', 'ُم', '淑', '282', '_BU', ' Corb', ' NSF'
+      QUERY ANTI:          'ynch', '\\{', 'IQ', ' fil', ' ($', ' foreground', ' Sch', '=（', '                             ', '_is'
+      ATTENDS TO (keys):   'Rv', '溜', '专栏', '中级', ' स', '\\mathbb', '史料', 'Zj', '煤', ' Gab', ' sz', 'ROC', 'BJ', ' Jac', 'xm'
+      AVOIDS (keys):       ' existe', 'voice', 'Kam', ' Kan', '.per', 'Roy', 'Validation', ' [];\n\n', '都没有', ' Mall'
+    QK Dir1 (sigma=0.0886):
+      QUERY READS (input): ' newly', '288', ' Fab', '环保', ' endless', ' NFL', '768', 'CRE', 'ై', 'Reb', ' wrapped', 'UV', 'Popup', ' coded', ' ток'
+      QUERY ANTI:          ' lord', '是一件', 'Lord', '.domain', ' journalist', '.core', '昔', 'Hg', 'ldots', '电气'
+      ATTENDS TO (keys):   '慢慢', ' न', ' GD', ' Pl', ' Rep', '华人', 'LIC', '.close', ' об', 'П', ' Dep', ' Mal', '大量', '普通', ' Kar'
+      AVOIDS (keys):       ' defendant', 'aW', ' findings', ' holders', '而非', 'finder', ' discoveries', 'requires', '下达', ' drivers'
+    QK Dir2 (sigma=0.0724):
+      QUERY READS (input): ' undergo', '适宜', '宣传部', ' successes', '支持', '琦', 'ени', ' exhibit', '文昌', ' numeric', ' optical', ' Success', 'Hook', 'ahab', '高新区'
+      QUERY ANTI:          ' nada', '買', '纵', '节省', ' Mult', '_RES', ' Rough', '挤压', ' ну', 'ough'
+      ATTENDS TO (keys):   '-St', '-sp', '-D', 'ён', '_R', '-st', '和陈', '.Form', '形成', '{sub', '/style', '.not', ' её', 'Feed', '-S'
+      AVOIDS (keys):       ' innate', ' indigenous', 'λα', ' awake', ' UTC', ' Ec', '阿拉', ' Gy', ' DAC', 'amber'
+
+  Head 38 (qb_norm=0.2379, 1.9sigma):
+    Spectrum: ['0.4952', '0.0884', '0.0578', '0.0485', '0.0464']
+    QK Dir0 (sigma=0.4952):
+      QUERY READS (input): '\\{', 'ynch', ' fil', 'IQ', ' foreground', 'failed', ' failed', ' ($', '=（', '                             ', '燕', '了很多', ' Hop', 'iline', '\'"'
+      QUERY ANTI:          '464', 'ं', ' В', ' Arc', '梓', '对于那些', ' sous', ' تق', 'Da', '264'
+      ATTENDS TO (keys):   '(message', '聯', '臨', '范围内的', 'iyama', '人间', '鋒', ' Password', '音樂', '分類', '功率', ' Price', 'inous', ' Linear', ' horas'
+      AVOIDS (keys):       '考查', '_{\\', '刷', ' lifted', 'better', 'subscript�', '这对', '整体', '琉璃', ' Ts'
+    QK Dir1 (sigma=0.0884):
+      QUERY READS (input): 'components', ' undergo', '琦', 'ени', ' exhibit', '适宜', '能否', ' successes', 'ows', '正', ' females', '文昌', '科', '十三', '也不能'
+      QUERY ANTI:          '_max', '_RES', 'Das', ' Das', '健脾', '节省', '封闭', 'ACC', 'SW', '凝结'
+      ATTENDS TO (keys):   ' bg', '数据', '总结', '如果有', ' href', '证', '服务', ' spark', ' resp', '總結', '用', '大致', ' alg', '赢', '酒精'
+      AVOIDS (keys):       '509', 'Nd', 'Member', 'Um', '双眼', 'wed', 'DNS', 'Mz', 'NZ', 'Ni'
+    QK Dir2 (sigma=0.0578):
+      QUERY READS (input): 'Best', '.common', ' Something', '.core', ' lord', '电气', '.impl', ' journalist', ' Quiz', '喉', '冬', 'Lord', '.math', 'Good', ' doctrine'
+      QUERY ANTI:          '张', ' newly', '大型', '带来的', ' enrolled', '造型', ' wrapped', '扶着', '层层', ' سب'
+      ATTENDS TO (keys):   '三人', '_and', 'ким', 'Ken', ' instrument', '.not', 'Tool', '668', '_not', '偶像', '的产品', '两人', '货物', '妹妹', '239'
+      AVOIDS (keys):       ' reg', '正道', '_argument', '纬', ' Historic', '梳理', '黑暗', ' ?>\n', 'pecific', 'NF'
+
+────────────────────────────────────────────────────────────────────────────────
+LAYER 60
+────────────────────────────────────────────────────────────────────────────────
+
+  OV CIRCUIT (delta_o_proj @ base_kv_b)
+  delta_o_proj norm: 3.038213
+  Head norms: mean=0.273152, std=0.025431
+
+  AGGREGATE (delta_o_proj SVD -> lm_head):
+  Spectrum: ['2.6881', '0.3105', '0.2073', '0.1872', '0.1604', '0.1515', '0.1449', '0.1051', '0.0763', '0.0700']
+    Dir0 (sigma=2.6881):
+      BOOST: ' **[', ' **', ' **(', ' (**', '**[', ' roots', ' [`', ' _**', '**', ' (`', ' ***', '_**', '**【', '(**', ' adj'
+    Dir1 (sigma=0.3105):
+      BOOST: ' Short', 'Short', ' ->', '', ' short', '1', 'short', '2', ' ', ' (', '10', '短', '3', '4', '->'
+    Dir2 (sigma=0.2073):
+      BOOST: ' subst', '迎新', ' manifold', '碎', ' Volt', ' Schmidt', ' PK', ' Chow', ' Maple', ' volt', ' humor', ' occ', ' programming', ' Kang', ' AK'
+
+  Head 62 (norm=0.3597, 3.4sigma):
+    Spectrum: ['0.2253', '0.0184', '0.0154', '0.0101', '0.0096']
+    OV Dir0 (sigma=0.2253):
+      OUTPUT BOOST:    ' ->', ' ->\n', '->', '.short', '-equ', 'Short', ' корот', '短', ' Short', '-', ' short', '-small', '', 'short', ' nont'
+      OUTPUT SUPPRESS: ' **[', ' **', ' **(', '**[', ' (**', ' roots', ' [`', ' _**', '**【', '_**'
+      INPUT READS:     ' מ�', ' Der', ' Antonio', ' Capt', '032', ' capillary', ' tom', ' See', '884', '精品', '专家', ' Prof', 'cier', ' Jackson', ' Tommy'
+      INPUT AVOIDS:    '.am', 'delimited', ' west', '都不敢', '.right', '水平', '.row', '向左', '若是', '_ne'
+    OV Dir1 (sigma=0.0184):
+      OUTPUT BOOST:    '.getLogger', '-spect', 'ాలు', 'ErrorMessage', '-library', 'roots', 'ం', '.errors', 'pectral', '和能力', 'ాల', ' спек', '證據', '和华', ')\\({}_{'
+      OUTPUT SUPPRESS: ' Short', 'Short', ' ->', ' short', '', 'short', '1', ' ', ' (', ' →'
+      INPUT READS:     '这时', 'Sy', '某种', ' �', ' SB', '這時', '408', '泥', ' Border', ' Б', '�', ' BM', ' �', '�', ' sn'
+      INPUT AVOIDS:    '.exec', 'yyyy', 'delimited', ' programmes', ' тоже', '\t\t   ', '\t\n\t\n', '------------------------', '的人生', '.main'
+    OV Dir2 (sigma=0.0154):
+      OUTPUT BOOST:    '起码', 'trace', ' Fore', ' facult', ' depos', 'ыр', '算术', '庄', 'جام', 'ascar', 'rys', '庄园', 'exist', '境界', 'lipid'
+      OUTPUT SUPPRESS: 'Short', '的动态', ' Short', '推荐文章', ' Dynam', ' Char', ' Top', ' shorts', ' bakery', ' short'
+      INPUT READS:     '583', ' nearby', '放下', ']][', ' surround', '°，', '仇', 'oT', '>{{', 'Char', 'sha', 'inian', ' damaged', ' affirmative', '一定是'
+      INPUT AVOIDS:    ' Bon', ' بر', '圣', '自分', '_**', '预', '主要', ' الإ', '脂肪', '避免'
+
+  Head 93 (norm=0.3477, 2.9sigma):
+    Spectrum: ['0.1627', '0.0143', '0.0108', '0.0095', '0.0092']
+    OV Dir0 (sigma=0.1627):
+      OUTPUT BOOST:    ' ->', ' ->\n', '-equ', '.short', '->', ' корот', '短', 'Short', '-small', '-', ' Short', ' short', '-cont', '-field', ''
+      OUTPUT SUPPRESS: ' **[', ' **', ' **(', ' (**', '**[', ' roots', ' [`', ' (`', ' _**', '_**'
+      INPUT READS:     '515', ' Cameron', '56', '专家', '713', '精美', ' 이', ' Malcolm', ' Palmer', '蜜', '封面', '亭', ' prose', '实时', '503'
+      INPUT AVOIDS:    '=−', '.Local', '各自', '(new', ' đến', ' Auth', '\t\t\t\t\t\t', '                         ', '(target', '\tadd'
+    OV Dir1 (sigma=0.0143):
+      OUTPUT BOOST:    'roots', '.errors', ' traces', '.sun', ' roots', '根系', '太陽', ' Explicit', 'pectral', '-spect', ' ошиб', '.root', ' Roots', '_ROOT', '到晚'
+      OUTPUT SUPPRESS: ' Short', 'Short', ' ->', '', ' short', '1', '2', '->', ' (', 'short'
+      INPUT READS:     'manual', ' Manual', 'enerated', 'Configure', ' Chancellor', '/>', ' destin', ' Lamb', ' Neighborhood', ' lamb', ' convincing', ' autre', ' combin', 'rips', 'usto'
+      INPUT AVOIDS:    'Stats', ' sw', '117', '_R', '243', '聚合物', ' الأ', ' Jones', ' McC', '223'
+    OV Dir2 (sigma=0.0108):
+      OUTPUT BOOST:    ' Pend', ' Ethical', ' ethical', ' Daniel', ' Ind', ' "', ' Pant', ' fit', ' Pand', ' de', ' fitting', ' pant', 'alpha', ' polite', ' professional'
+      OUTPUT SUPPRESS: 'ESC', ' Adjustment', ' ESC', '结构调整', '的改变', ' adjustments', 'Diss', ' adjustment', ' solenoid', '改写'
+      INPUT READS:     'kx', '/question', '箭', '297', ' Jordan', '王志', '-support', '摆手', 'SQ', ' Tos', ' EDTA', '.ts', ' MOS', 'HIGH', '강'
+      INPUT AVOIDS:    ' Aut', '实行', '封闭', 'Per', 'ा�', '放入', ' Par', '前一', '运用', ' parks'
+
+  Head 29 (norm=0.3451, 2.8sigma):
+    Spectrum: ['0.1436', '0.0145', '0.0108', '0.0092', '0.0087']
+    OV Dir0 (sigma=0.1436):
+      OUTPUT BOOST:    ' **[', ' **', ' **(', ' (**', '**[', ' [`', ' roots', ' _**', '**', ' ***', ' (`', '_**', '**【', '(**', ' adj'
+      OUTPUT SUPPRESS: ' ->', ' ->\n', '-equ', '.short', '->', ' корот', '-small', '短', '-', '-cont'
+      INPUT READS:     'superscriptsubscript', ' три', '至少', '之日', 'Under', '以来', ' под', '丛书', '其', 'imited', '慧', 'UB', ' under', ' sur', '为'
+      INPUT AVOIDS:    '692', '748', ' Noble', ' Christopher', ' Alleg', '再度', '正值', '-row', '一头', '一度'
+    OV Dir1 (sigma=0.0145):
+      OUTPUT BOOST:    'roots', '_root', ' roots', '_ROOT', ' traces', '.root', '.errors', ' Roots', '.getLogger', '-spect', 'powers', '根系', '太陽', 'plicit', 'pectral'
+      OUTPUT SUPPRESS: ' Short', 'Short', ' short', ' ->', '', 'short', '1', ' ', ' (', '短'
+      INPUT READS:     '至尊', 'Validate', ' });\n\n', 'ashboard', ' bisa', '玩家的', '已然', ' bureau', ' tự', ' advancing', '口味', '忽然', '询问', '830', '会被'
+      INPUT AVOIDS:    ' Sz', ' Си', ' Elements', '.element', ' stomach', 'Sz', ' ज', '045', 'leaf', '类似'
+    OV Dir2 (sigma=0.0108):
+      OUTPUT BOOST:    ' ethically', '_MOD', ' mould', ' innovation', ' compact', ' explicit', '-object', '-mod', ' progn', ' matched', ' ethical', ' exact', 'innovation', '凌云', '淩'
+      OUTPUT SUPPRESS: ' sol', ' →', ' ->', '', '869', '649', '677', '800', '479', '690'
+      INPUT READS:     '073', 'Vs', '如果', '每一', '都被', '煮', ' Ned', "'il", '康', '如果你', '大部分', 'ေ�', 'sie', '818', '转移到'
+      INPUT AVOIDS:    '.draw', '仍是', ' Ch', ' Mach', '再来', '.auth', '岑', ' Drag', '加工', '前行'
+
+  Head 106 (norm=0.3302, 2.2sigma):
+    Spectrum: ['0.1997', '0.0114', '0.0083', '0.0069', '0.0052']
+    OV Dir0 (sigma=0.1997):
+      OUTPUT BOOST:    ' **[', ' **', ' **(', ' (**', '**[', ' roots', ' [`', ' adj', ' _**', ' (`', '_**', ' ***', '**', '**【', '(**'
+      OUTPUT SUPPRESS: ' ->', ' ->\n', '->', '-equ', '.short', ' корот', 'Short', '-small', '-', '短'
+      INPUT READS:     '321', '_param', ' involving', 'especially', 'even', '.impl', '.factory', 'wh', '\tstd', ' heating', '革命的', ' grams', ' ---|---|---|---|---', '-form', '_and'
+      INPUT AVOIDS:    'CPU', ' DateTime', ' username', '洞察', 'Dark', ' Chi', '身高', '惊喜', ' CPU', 'Proposition'
+    OV Dir1 (sigma=0.0114):
+      OUTPUT BOOST:    '.errors', ' ошиб', 'ErrorMessage', ':_\n\n', ' Explicit', '_error', ' errors', '-error', '錯誤', ' спек', '_ERROR', 'errors', 'erei', 'Errors', ' explicitly'
+      OUTPUT SUPPRESS: 'Short', ' Short', ' ->', '', ' short', '2', '1', ' →', '->', '409'
+      INPUT READS:     '%),', '叉', ']),', ' awards', '绞', ' jazz', ' affairs', '星空', ' legacy', 'ews', 'poch', '女婿', 'github', '假的', ' хол'
+      INPUT AVOIDS:    ' च', '化学', ' Winter', 'Dw', ' Rogers', ' Respondent', ' Moh', ' Malcolm', '施工', ' Sak'
+    OV Dir2 (sigma=0.0083):
+      OUTPUT BOOST:    ' Short', 'Short', '', 'short', ' short', '24', '690', '60', '970', '90', '80', '1', '660', '短', '69'
+      OUTPUT SUPPRESS: '彰', 'pectral', 'Extension', '扩展', ' модель', 'extension', '金字塔', ' tob', '绿色的', ' дошколь'
+      INPUT READS:     ' FIR', ' AR', '504', '808', '515', '258', '951', ' Graham', ' FR', '开除', ' TD', '_CH', '一丝', ' Palmer', ' Cameron'
+      INPUT AVOIDS:    "('/',", ' lasers', '亿', '(var', 'ustin', '.Map', '孤独', '夜晚', 'Multi', 'Ne'
+
+  Head 10 (norm=0.3301, 2.2sigma):
+    Spectrum: ['0.1944', '0.0267', '0.0264', '0.0235', '0.0231']
+    OV Dir0 (sigma=0.1944):
+      OUTPUT BOOST:    ' ->', ' ->\n', '-equ', '->', '.short', ' корот', '-small', 'Short', '-', '短', '-cont', ' short', ' contradiction', ' contradictions', ' Short'
+      OUTPUT SUPPRESS: ' **[', ' **', ' **(', ' (**', '**[', ' roots', '**【', ' [`', ' _**', '**'
+      INPUT READS:     '希尔', ' hey', '接下来的', ' =>\n', ' ABCD', '传输', 'ấy', '关键', '故选', '百花', '剩下', '①②', '(http', 'absolute', 'JD'
+      INPUT AVOIDS:    ' ste', ' fright', ' pleasure', ' pus', 'boot', '住房', '履', '一步', ' Gerhard', 'Pers'
+    OV Dir1 (sigma=0.0267):
+      OUTPUT BOOST:    ' PU', ' pu', ' ->', ' bi', '', ' contribution', ' /', ' Rabb', ' Hammer', '2', 'pu', ' Hard', '246', '劣', '69'
+      OUTPUT SUPPRESS: 'idis', '成年人', ' Erwach', 'Sac', ' betray', ' spies', ' adultos', '成年', ' pleasures', 'annis'
+      INPUT READS:     'NF', '交流', '支撑', 'hg', '万象', '重要', '珍惜', '综合', '禀', '回避', 'JF', '魯', '-backed', '概括', 'alk'
+      INPUT AVOIDS:    ' Alfred', ' occupational', ' [{', ' Daw', ' Artist', '531', '爱德华', '邪', ' Tor', ' Trop'
+    OV Dir2 (sigma=0.0264):
+      OUTPUT BOOST:    '延长', '片的', 'rens', '_cast', 'odi', ' empires', 'ographics', '绽', 'liw', 'peł', '管理水平', '孔的', '油的', 'ENAME', ' posing'
+      OUTPUT SUPPRESS: 'Short', ' Short', ' short', '360', '240', '859', '447', '238', '608', '359'
+      INPUT READS:     ' "_', '遮挡', ' Peg', ';_', '\\subset', 'ilic', '}}}}', '�', 'pg', ' broad', '唐僧', '秃', 'arth', ' bitmap', '也无'
+      INPUT AVOIDS:    '稳定', '詹', ' widely', '告訴', '132', '穩定', ' visual', '陳', '运营', 'creator'
+
+  QK CIRCUIT (delta query -> base KV pathway)
+  delta_q_a norm: 1.241671
+  delta_q_b norm: 1.823455
+  Per-head qb norms: mean=0.127836, std=0.038320
+
+  SHARED q_a DELTA (affects all heads):
+    Dir0 (sigma=1.1075):
+      SENSITIVE TO: '329', '整个人', ' Vatican', 'Brian', '火灾', '面板', 'Annotation', ' attribute', '治安', '中华人民共和国', ' Brian', ' encounters', 'MCA', ' Stanford', ' Liber'
+      ANTI-CORR:    '/w', '分别', ' ш', '/re', ' Again', ' пок', '笑着说', '擦', '妙', '轻微'
+    Dir1 (sigma=0.1153):
+      SENSITIVE TO: '参数', ' glob', ' пре', 'ッ', ' Van', 'ша', '\tv', '之间', '行驶', '+D', '्व', ' Bor', 'های', ' Nicholson', '给大家'
+      ANTI-CORR:    '武道', ' Plant', 'Ls', ' Tail', '化作', 'haven', '医科大学', ' Cricket', ' Сам', 'oline'
+    Dir2 (sigma=0.0678):
+      SENSITIVE TO: '�', ' Royal', 'Camp', '搞', '大王', ' tribes', ' Harm', ' Pit', ' aperture', ' Ken', ' Lanka', '当成', ' Notebook', ' Mare', ' manor'
+      ANTI-CORR:    'Kl', '几何', 'Jl', '的目的', ' Dil', '.ex', 'Zi', ' prominently', 'ucid', 'Rv'
+
+  Head 98 (qb_norm=0.2212, 2.4sigma):
+    Spectrum: ['0.4161', '0.2060', '0.0800', '0.0277', '0.0264']
+    QK Dir0 (sigma=0.4161):
+      QUERY READS (input): ' Oil', ' beh', ' Iowa', ' उ', '交叉', ' ultrasonic', '可视化', ' quantitative', 'Oil', ' Physics', ' Reynolds', '一时', ' Gauss', 'rah', 'azi'
+      QUERY ANTI:          '+v', ' Nav', '-Pro', '+f', '迪士尼', '+r', ' Priv', '期待', '捐赠', 'гла'
+      ATTENDS TO (keys):   '>&', '으로', '>(', 'Anchor', ' Anchor', '安的', ' parser', ' politician', ' PRO', '苍', '玥', '画的', ' deliberate', 'が', ' linkage'
+      AVOIDS (keys):       'Bh', 'Mc', ' Mab', '国内外', 'ccc', 'Dj', ' Bol', ' Hend', '小', '電子'
+    QK Dir1 (sigma=0.2060):
+      QUERY READS (input): '329', '火灾', 'Annotation', ' Vatican', '整个人', '面板', ' \\$', ' attribute', 'MCA', 'Button', ' Boston', ' Liber', '治安', ' Rig', ' Stur'
+      QUERY ANTI:          '/w', ' ш', ' пок', '分别', '笑着说', '围绕', ' rem', '达不到', ' Again', '不断的'
+      ATTENDS TO (keys):   ' flawed', '>&', ' glyph', '760', ' textures', 'ocol', '别人的', 'agg', '832', '748', '的老', ' coll', 'anders', '一点点', ' texture'
+      AVOIDS (keys):       '.Interfaces', '东盟', '拆除', '互', '−\n', '自分', 'ส', '与人', 'Ki', ' Enum'
+    QK Dir2 (sigma=0.0800):
+      QUERY READS (input): '而且', '729', ' ç', ' child', ' Children', ' Great', '和服务', '所以他们', '尤其是', 'уч', ' Chang', ',and', 'great', 'actual', ' popular'
+      QUERY ANTI:          '攀', ' Dra', ' Mont', 'Vs', '瞒', '主动', '蹭', '巡', '抵达', '也无'
+      ATTENDS TO (keys):   '永', 'rud', '穆', 'mathcal', '/\\', ' Perkins', '翔', '提出', '�', ' Aut', '§', '社会科学', '・', '}(\\', ' �'
+      AVOIDS (keys):       'cdn', '.from', '629', ' unknown', '(filename', ' entirely', '的人生', ' existe', ' adjectives', '=str'
+
+  Head 8 (qb_norm=0.2129, 2.2sigma):
+    Spectrum: ['0.3949', '0.2147', '0.0550', '0.0281', '0.0267']
+    QK Dir0 (sigma=0.3949):
+      QUERY READS (input): '+v', ' Nav', '-Pro', '招聘', '捐赠', ' Priv', '∂', ' Adler', '农历', '+r', '期待', 'Build', ' attachment', 'Dialog', '借款'
+      QUERY ANTI:          ' Iowa', ' quantitative', ' Clear', ' Ice', 'rah', ' beh', '可视化', ' ultrasonic', ' Physics', ' Reynolds'
+      ATTENDS TO (keys):   '}}=', ']),', '.exp', ' flawed', '.Local', '_exp', ']=', ')),', ' ле', '-grid', ' stra', '></', '})=', '.resize', '%A'
+      AVOIDS (keys):       'cid', ' Hoffman', ' Hend', '煤', ' tom', ' sn', '一些', ' McN', ' Ole', ' Intervention'
+    QK Dir1 (sigma=0.2147):
+      QUERY READS (input): '/w', '分别', ' пок', ' ш', '围绕', '怎么', '/re', ' rem', ' sulf', '感慨', '.empty', '轻微', ' irrelevant', '怎', '达不到'
+      QUERY ANTI:          '329', '整个人', '火灾', '中华人民共和国', 'Annotation', ' attribute', ' Vatican', 'artic', ' encounters', '比如'
+      ATTENDS TO (keys):   '357', '718', 'Oy', 'teacher', '565', 'XD', '352', 'ZD', '依依', 'XY', '037', '_model', '317', '575', 'Animation'
+      AVOIDS (keys):       ' viral', ' Г', ' Vor', '\tv', '实行', ' alt', ' crit', '怎么', '被称为', '\tg'
+    QK Dir2 (sigma=0.0550):
+      QUERY READS (input): '活动和', '729', '缝隙', '桌子', ' Greg', ' LOG', ' три', '自己和', 'qz', '%),', '功能和', ' ç', '-log', ' Practice', '而且'
+      QUERY ANTI:          'ael', ' Kra', '蹭', '做好', 'HQ', '乌', '.container', ' Dra', '侵入', '也无'
+      ATTENDS TO (keys):   ' Tr', ' г', ' Kn', ' ф', '青年', '朱', ' Feb', '甘', '今日', ' Prof', ' pp', ' Fr', ' bardzo', ' Br', ' Б'
+      AVOIDS (keys):       ' Dawn', 'subscript', 'ấy', 'controller', '                                                           ', '编制', ' Manage', ' revelation', '的根本', ' SUV'
+
+  Head 120 (qb_norm=0.2034, 2.0sigma):
+    Spectrum: ['0.3982', '0.2204', '0.0512', '0.0296', '0.0223']
+    QK Dir0 (sigma=0.3982):
+      QUERY READS (input): ' Iowa', ' Physics', 'issue', 'begingroup', '可视化', 'agger', ' plain', ' extreme', ' beh', ' Reynolds', 'itten', 'bee', ' Clear', ' jeans', ' उ'
+      QUERY ANTI:          ' Nav', '+v', '-Pro', '招聘', ' Priv', ' gun', 'Build', '+r', '期待', '采购'
+      ATTENDS TO (keys):   ' Fas', 'should', 'omic', 'Mw', 'SN', 'Ý', 'often', 'ø', 'Que', 'Expression', 'nodes', 'dbo', '357', 'Was', 'would'
+      AVOIDS (keys):       '�', ' awake', '方形', '_Set', ' ACA', ' valuation', '�', '消耗', '_idx', ' hello'
+    QK Dir1 (sigma=0.2204):
+      QUERY READS (input): '/w', '分别', ' ш', '/re', ' Again', '笑着说', '/k', '擦', ' пок', ' rem', '对他', '妙', ' urgent', '怎样', '用水'
+      QUERY ANTI:          'Brian', '整个人', '329', ' Vatican', '火灾', ' attribute', 'Annotation', '治安', '面板', ' Liber'
+      ATTENDS TO (keys):   'ZS', 'Width', ' Professional', 'WT', 'XL', ' Soft', '558', 'omorphic', ' italic', '-core', 'や', ' Те', '56', 'core', '292'
+      AVOIDS (keys):       '状元', ' Trump', '世子', '既是', '逆', '鸳鸯', '_-', ' ao', '_up', '879'
+    QK Dir2 (sigma=0.0512):
+      QUERY READS (input): '运营', '毓', 'arien', ' tut', '\tauto', '.ex', '逃避', '治理', ' INS', '.col', '早期', '初期', '農業', 'Em', '阑'
+      QUERY ANTI:          '012', '十分', ' пре', '湿度', 'qv', 'ец', ' Faraday', '高温', ' British', '你想'
+      ATTENDS TO (keys):   '顿时', '_count', '吼', ' Rab', '79', '魁', ' Matter', '讲话', '_not', '頓時', ' Wald', '咪', 'ай', '杰', '758'
+      AVOIDS (keys):       ' designs', '(var', ',#', '主人公', ' triang', 'Per', ';i', '作品的', '街道', '我市'
+
+  Head 111 (qb_norm=0.1985, 1.8sigma):
+    Spectrum: ['0.3195', '0.1604', '0.0768', '0.0267', '0.0253']
+    QK Dir0 (sigma=0.3195):
+      QUERY READS (input): ' Clear', ' Iowa', ' jeans', '可视化', 'issue', 'rah', 'itten', ' Physics', ' Ice', ' quantitative', ' plain', '但是他', ' Reynolds', ' श', '查询'
+      QUERY ANTI:          '招聘', ' Nav', '-Pro', '+v', ' Priv', ' Adler', ' attachment', '∂', 'Build', '迁'
+      ATTENDS TO (keys):   '.demo', '自觉', 'subscript', ' statistical', ' theorem', '肯', '双方', '主要', '', 'ADI', '上述', 'sup', '比赛中', 'Stand', '僅'
+      AVOIDS (keys):       ' Cher', ' damaged', ' flawed', ' Auth', '画的', '>&', ' maths', '832', ' textures', '唯一的'
+    QK Dir1 (sigma=0.1604):
+      QUERY READS (input): '329', '火灾', 'Annotation', '整个人', ' Vatican', ' Rig', ' attribute', 'MCA', ' encounters', ' \\$', '中华人民共和国', '面板', ' Stur', '258', 'opathic'
+      QUERY ANTI:          ' ш', '/w', '分别', ' пок', '轻微', '怎么', '围绕', ' rem', '不断的', '擦'
+      ATTENDS TO (keys):   ' Schul', ' Ch', ' الق', ' Г', ' Zh', ' Mc', '微生物', ' Secret', ' Vor', ' Eg', '概论', '华东', 'Sc', ' Prof', ' Inf'
+      AVOIDS (keys):       '                                                           ', '388', 'Ii', '都不', 'along', '僵', ' lasers', '371', 'delimited', '/$'
+    QK Dir2 (sigma=0.0768):
+      QUERY READS (input): '乌', ' Ham', '攀', '蹭', '-he', ' Di', ' Higgs', '614', '能否', '反之', ' normality', '汉字', 'Vs', ' motorcycle', '溯'
+      QUERY ANTI:          ' Chang', '729', ',and', '活动和', '桌子', 'SESSION', '而且', 'My', ' popular', 'REQUEST'
+      ATTENDS TO (keys):   'btn', '更容易', '760', '唯一的', '陌', ' eccentric', 'obb', ' Auth', ' relax', ' cough', '-------------', '<-', '瞧', '.github', '780'
+      AVOIDS (keys):       '鞭', '僅', 'Richard', '主要', '永', '俄', '国际', '425', 'Those', '该'
+
+  Head 33 (qb_norm=0.1871, 1.5sigma):
+    Spectrum: ['0.3002', '0.1554', '0.0686', '0.0375', '0.0316']
+    QK Dir0 (sigma=0.3002):
+      QUERY READS (input): ' Iowa', 'agger', ' extreme', ' 고', ' tends', '稳住', '一时间', 'opathic', ' Ö', ' bijvoorbeeld', ' alongside', 'ovic', ' plain', '_state', '他可以'
+      QUERY ANTI:          ' Nav', '+v', ' gun', ' mood', '海岸', 'Poly', '”(《', '+f', '享受', '期待'
+      ATTENDS TO (keys):   'Socket', ' informative', ' rental', ' exciting', ' revered', ' cooler', ' wonderful', ' animate', ' Weak', '-standing', '是无', 'unique', ' Maya', 'Secret', '-bold'
+      AVOIDS (keys):       '聂', 'subscript', '腹部', '\\({}_{\\', '按', ' Δ', '_for', '_POSTSUBSCRIPT', 'overline', '997'
+    QK Dir1 (sigma=0.1554):
+      QUERY READS (input): '面板', 'Bur', 'Liber', '娶', 'Brian', 'Button', ' +=', ' Vatican', ' Brian', '押', '.model', 'チャ', '捐赠', '农历', '整个人'
+      QUERY ANTI:          ' Again', '的意义', '71', '/re', '擦', ' electrical', '如是', 'erre', ' urgent', '妙'
+      ATTENDS TO (keys):   '.client', '\tv', ' sorted', ' reptile', ' vulnerable', '一生的', '.app', ' chiral', ' pets', ' rookie', '.auth', ' presenting', '揭示了', '规定了', '海绵'
+      AVOIDS (keys):       'Also', '鞭', '斩', 'spe', 'poon', '誓', '�', '嘴里', 'Both', ' Maybe'
+    QK Dir2 (sigma=0.0686):
+      QUERY READS (input): '729', '詹', '活动和', 'sil', 'SESSION', 'анд', ' Practice', '人大', ' mini', 'andid', 'Practice', ' Crystal', '\\displaystyle', '尤其是', ' Stan'
+      QUERY ANTI:          '蹭', ' Oil', ' aff', '在了', '做了', '不怕', ' Bh', ' Costs', '谋', '祸'
+      ATTENDS TO (keys):   '老年', '_keys', '714', ' McGu', '\tdefault', '的概念', '金融市场', 'Head', 'ument', '条规定', '带头', 'ご', '理财', ' Cent', '硬盘'
+      AVOIDS (keys):       'Mig', '传递', '零', ' acceptance', '枉', '悬', '淳', ' Oregon', '缓解', ' Pepper'

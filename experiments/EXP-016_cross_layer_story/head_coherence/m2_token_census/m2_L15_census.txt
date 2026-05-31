@@ -1,0 +1,406 @@
+M2 Token Census — Layer 15
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+COMP                              128 100.0%
+.Format                           128 100.0%
+ argparse                         128 100.0%
+ Amb                              128 100.0%
+�                                 127  99.2%
+.Date                             127  99.2%
+isto                              125  97.7%
+ Pf                               123  96.1%
+abcdef                            122  95.3%
+ Kap                              120  93.8%
+\\bar                             116  90.6%
+.login                            114  89.1%
+エ                                 111  86.7%
+ polymer                          108  84.4%
+(--                               108  84.4%
+ LESS                             103  80.5%
+Pf                                102  79.7%
+ organ                             98  76.6%
+�                                  95  74.2%
+ gesch                             92  71.9%
+-less                              90  70.3%
+ Constitution                      88  68.8%
+ configure                         86  67.2%
+{table                             84  65.6%
+📍                                  81  63.3%
+ Bent                              80  62.5%
+ Mud                               73  57.0%
+�                                  64  50.0%
+_TR                                49  38.3%
+ mud                               47  36.7%
+Ă                                  45  35.2%
+aaaaaaaa                           45  35.2%
+ London                            43  33.6%
+iple                               43  33.6%
+แ                                  37  28.9%
+cp                                 37  28.9%
+/cm                                35  27.3%
+ �                                 34  26.6%
+ZB                                 34  26.6%
+-disable                           34  26.6%
+\\{\\                              32  25.0%
+埃                                  32  25.0%
+(\n                                23  18.0%
+.rm                                23  18.0%
+\\mathbf                           23  18.0%
+\\bm                               21  16.4%
+ Tart                              19  14.8%
+Parse                              16  12.5%
+otech                              16  12.5%
+%%%%%%%%%%%%%%%%                   16  12.5%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+操                                  59  46.1%
+ {(                                55  43.0%
++I                                 49  38.3%
+ ({                                48  37.5%
+ Que                               46  35.9%
+玩具                                 41  32.0%
+.Model                             38  29.7%
+506                                33  25.8%
+ viewing                           33  25.8%
+ educate                           30  23.4%
+ Adventure                         29  22.7%
+�                                  29  22.7%
+ об                                28  21.9%
+最终                                 27  21.1%
+本质                                 26  20.3%
+ cannot                            26  20.3%
+并未                                 25  19.5%
+cannot                             25  19.5%
+创业                                 24  18.8%
+单片机                                23  18.0%
+_PRO                               23  18.0%
+明星                                 23  18.0%
+ \\<                               22  17.2%
+.Event                             22  17.2%
+日常                                 21  16.4%
+xB                                 21  16.4%
+农业                                 20  15.6%
+传统                                 19  14.8%
+ Cannot                            18  14.1%
+ Hann                              18  14.1%
+未能                                 18  14.1%
+第                                  18  14.1%
+青春                                 17  13.3%
+ñ                                  17  13.3%
+ под                               17  13.3%
+.ex                                17  13.3%
+描述                                 17  13.3%
+ href                              16  12.5%
+生理                                 16  12.5%
+ /**\n                             15  11.7%
+ COMM                              15  11.7%
+翰                                  14  10.9%
+^{(                                14  10.9%
+::{                                14  10.9%
+{{\\                               14  10.9%
+.connect                           14  10.9%
+.co                                14  10.9%
+BBB                                14  10.9%
+�                                  14  10.9%
+<empty                             14  10.9%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+subscript�                         18  14.1%
+Wa                                 14  10.9%
+ Wak                               14  10.9%
+^{(                                11   8.6%
+禹                                  10   7.8%
+ {(                                10   7.8%
+<div                               10   7.8%
+出售                                  9   7.0%
+人教版                                 9   7.0%
+ Hann                               9   7.0%
+下载                                  9   7.0%
+external                            8   6.2%
+最终                                  8   6.2%
+玩具                                  8   6.2%
+不大                                  8   6.2%
+�                                   8   6.2%
+的神                                  8   6.2%
+胖子                                  7   5.5%
+subscript                           7   5.5%
+Conf                                7   5.5%
+Dear                                7   5.5%
+()[                                 7   5.5%
+ _{\\                               7   5.5%
+收藏                                  7   5.5%
+ под                                6   4.7%
+.Model                              6   4.7%
+ {//                                6   4.7%
+{{\\                                6   4.7%
+出版                                  6   4.7%
+.delete                             6   4.7%
+ Bak                                6   4.7%
+�                                   5   3.9%
+toBe                                5   3.9%
+ professionals                      5   3.9%
+降低                                  5   3.9%
+减轻                                  5   3.9%
+ (!                                 5   3.9%
+ (                                  5   3.9%
+ bun                                5   3.9%
+动态                                  5   3.9%
+ educate                            5   3.9%
+ ({                                 5   3.9%
+�                                   5   3.9%
+ Scholar                            5   3.9%
+擦                                   5   3.9%
+ْ                                   5   3.9%
+origin                              5   3.9%
+_ARG                                5   3.9%
+ Our                                5   3.9%
+349                                 5   3.9%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+subscript�                          7   5.5%
+?:                                  7   5.5%
+ кон                                6   4.7%
+胖子                                  6   4.7%
+ django                             6   4.7%
+�                                   6   4.7%
+�                                   6   4.7%
+.org                                5   3.9%
+}}_{\\                              5   3.9%
+�                                   5   3.9%
+ Scholar                            5   3.9%
+�                                   5   3.9%
+广泛                                  5   3.9%
+ victim                             5   3.9%
+ Dear                               5   3.9%
+={                                  5   3.9%
+下载                                  4   3.1%
+subscript�                          4   3.1%
+_PAR                                4   3.1%
+}}_{                                4   3.1%
+Dear                                4   3.1%
+except                              4   3.1%
+ Sha                                4   3.1%
+ academic                           4   3.1%
+ sizeof                             4   3.1%
+::{                                 3   2.3%
+ вер                                3   2.3%
+禹                                   3   2.3%
+}}(                                 3   2.3%
+ (((                                3   2.3%
+},\\                                3   2.3%
+\\mathbf                            3   2.3%
+ Atlas                              3   2.3%
+\\boldsymbol                        3   2.3%
+�                                   3   2.3%
+black                               3   2.3%
+\\pm                                3   2.3%
+kB                                  3   2.3%
+ Hann                               3   2.3%
+ pulling                            3   2.3%
+__(                                 3   2.3%
+低的                                  3   2.3%
+Cent                                3   2.3%
+被称为                                 3   2.3%
+ Derived                            3   2.3%
+ Rosenberg                          3   2.3%
+ Xiao                               3   2.3%
+Mt                                  3   2.3%
+;->                                 3   2.3%
+[                                   3   2.3%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+COMP                                    128  25.0%
+.Format                                 128  25.0%
+ argparse                               128  25.0%
+�                                       128  25.0%
+ Amb                                    128  25.0%
+.Date                                   127  24.8%
+isto                                    125  24.4%
+ Pf                                     123  24.0%
+abcdef                                  122  23.8%
+ Kap                                    120  23.4%
+\\bar                                   116  22.7%
+.login                                  114  22.3%
+(--                                     113  22.1%
+エ                                       111  21.7%
+ polymer                                108  21.1%
+ LESS                                   103  20.1%
+Pf                                      102  19.9%
+ organ                                   98  19.1%
+�                                        95  18.6%
+ gesch                                   92  18.0%
+-less                                    90  17.6%
+ Constitution                            88  17.2%
+{table                                   87  17.0%
+ configure                               86  16.8%
+📍                                        81  15.8%
+ Bent                                    80  15.6%
+ Mud                                     73  14.3%
+ {(                                      67  13.1%
+�                                        64  12.5%
+操                                        61  11.9%
++I                                       55  10.7%
+ ({                                      55  10.7%
+_TR                                      54  10.5%
+ Que                                     51  10.0%
+玩具                                       49   9.6%
+ mud                                     47   9.2%
+Ă                                        45   8.8%
+aaaaaaaa                                 45   8.8%
+.Model                                   45   8.8%
+ London                                  43   8.4%
+iple                                     43   8.4%
+/cm                                      39   7.6%
+ZB                                       38   7.4%
+最终                                       38   7.4%
+แ                                        37   7.2%
+cp                                       37   7.2%
+ educate                                 37   7.2%
+ �                                       35   6.8%
+-disable                                 34   6.6%
+506                                      34   6.6%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+No clusters found (all heads have unique token sets).
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 73 (frob=0.3471, 4.6σ):
+  Dir0 (σ=0.3038): [' argparse', '.Format', ' Amb', 'COMP', '.Date', ' Kap', '{table', 'isto']
+  Dir1 (σ=0.0456): ['操', ' {(', 'BBB', ' Que', ' ({', ' viewing', 'cannot', '最终']
+  Dir2 (σ=0.0296): [' П', '\\tp', '规范', '\\tbreak', '的黑', '喜欢的', '+B', ' Private']
+  Dir3 (σ=0.0272): [' boolean', ' ++', '秤', 'Dear', ' Drug', ' favourite', '我心', '910']
+
+Head 65 (frob=0.2895, 2.9σ):
+  Dir0 (σ=0.2494): [' argparse', '.Date', 'COMP', '.Format', '�', ' Pf', ' Amb', 'Pf']
+  Dir1 (σ=0.0290): [' Que', '�', ' /**\\n', '中原', ' об', '芭', ' shouldn', '_PRO']
+  Dir2 (σ=0.0251): [' histogram', ' hemat', ' academic', '逐步', '冇有', 'ermann', ' Ach', '出身']
+  Dir3 (σ=0.0243): [' sizeof', '艺术', '雕塑', '生物', 'iﬁ', '右手', 'Bt', '\\\\\\\\\\\\\\\\']
+
+Head 3 (frob=0.2736, 2.5σ):
+  Dir0 (σ=0.2415): ['.Format', '.Date', '�', ' argparse', '{table', 'abcdef', ' LESS', 'ZB']
+  Dir1 (σ=0.0460): ['玩具', '+I', '506', ' \\\\<', '单片机', 'Ground', '.Event', '_PRO']
+  Dir2 (σ=0.0266): ['_DIR', 'Error', ';->', '_arg', 'far', '.request', ' garbage', ' при']
+  Dir3 (σ=0.0242): [' Kill', '拓扑', '多多', '^{(', 'ussels', 'Const', '\\\\({}_{\\\\', '339']
+
+Head 113 (frob=0.2578, 2.0σ):
+  Dir0 (σ=0.2286): ['.Format', '�', '.Date', ' argparse', 'COMP', '{table', ' Amb', 'isto']
+  Dir1 (σ=0.0243): ['849', ' wished', '(`', ' municipal', '651', '-Ar', ' sponsored', '中对']
+  Dir2 (σ=0.0223): ['禹', ' _{\\\\', ' Wonderful', 'Conf', '_df', 'kj', '的神', ' Rn']
+  Dir3 (σ=0.0194): [' ({', '牺牲', ' Ba', ' {(', '.cloud', 'background', 'cannot', '.Command']
+
+Head 104 (frob=0.2505, 1.8σ):
+  Dir0 (σ=0.1896): [' Amb', ' argparse', 'isto', '_TR', '.Format', '(--', ' Nish', '/cm']
+  Dir1 (σ=0.0513): [' {(', '孙子', '�', 'cannot', '单片机', ' Que', 'Right', '周末']
+  Dir2 (σ=0.0253): ['禹', '�', 'ೆ', 'hum', '玉米', '440', 'Conf', ' torch']
+  Dir3 (σ=0.0220): [' Everything', '邵', ' roz', 'xz', '_w', 'xk', 'cx', 'Mt']
+
+Head 44 (frob=0.2485, 1.7σ):
+  Dir0 (σ=0.2131): ['.Format', '.Date', 'COMP', ' argparse', 'isto', ' Pf', ' Amb', ' Kap']
+  Dir1 (σ=0.0351): ['(V', ' Pink', '玩具', '描述', '506', 'iewicz', '_PRO', '+I']
+  Dir2 (σ=0.0279): ['舰', '.com', ' را', '.He', '+}\\\\)', '胖子', ' này', '.co']
+  Dir3 (σ=0.0211): ['.ge', '节能', 'Dao', '本质', ' Shu', ' Judith', '}|', ' Re']
+
+Head 16 (frob=0.2480, 1.7σ):
+  Dir0 (σ=0.1974): [' argparse', '.Format', '.Date', 'COMP', ' Kap', ' Pf', 'isto', '(--']
+  Dir1 (σ=0.0310): ['+I', '创业', '操', ' Que', '玩具', ' {(', ' viewing', '未能']
+  Dir2 (σ=0.0273): [' Methodist', '\\\\mbox', '智慧', '委員会', 'doi', '长方体', '_train', '对外']
+  Dir3 (σ=0.0228): ['胖子', '_PAR', ' hobby', '154', '{r', '大爷', 'superscript', ' پ']
+
+Head 39 (frob=0.2463, 1.7σ):
+  Dir0 (σ=0.1961): [' Amb', 'COMP', ' argparse', '.Format', '(--', 'isto', '.Date', '{table']
+  Dir1 (σ=0.0450): [' {(', '操', '玩具', 'xB', '^{(', ' ({', '�', 'mann']
+  Dir2 (σ=0.0305): ['subscript�', 'external', ' Cho', ' external', '缺乏', '下载', ' Everything', '什么样的']
+  Dir3 (σ=0.0241): ['天然', 'igna', 'arch', ' Lies', '.Log', ' Dice', '=(', '.File']
+
+Head 105 (frob=0.2433, 1.6σ):
+  Dir0 (σ=0.1942): [' argparse', 'COMP', '.Format', ' Amb', '.Date', 'isto', ' Kap', 'エ']
+  Dir1 (σ=0.0309): ['显然', ' тогда', ' ({', ' educate', ' -=', '506', '+I', '-N']
+  Dir2 (σ=0.0274): [' _{', '_row', 'blue', 'Ib', '必然', ' [],', ' Provide', '几分']
+  Dir3 (σ=0.0233): ['起诉', '做过', ' Luckily', '最多', ' sunset', ' victim', 'zh', '福利']
+
+Head 93 (frob=0.2412, 1.5σ):
+  Dir0 (σ=0.1898): ['COMP', '�', ' Amb', ' argparse', '.Date', 'isto', ' Pf', ' Kap']
+  Dir1 (σ=0.0477): [' {(', ' cannot', '操', '�', '+I', ' ({', '单片机', '创业']
+  Dir2 (σ=0.0262): ['不大', '()[', '_DIR', '云计算', ' ib', '不死', 'Floor', 'から']
+  Dir3 (σ=0.0219): [' Search', '熔', ' Cris', '票房', 'search', ' Echo', ' comprehensive', ' faux']
+
+Head 115 (frob=0.2398, 1.5σ):
+  Dir0 (σ=0.1803): [' argparse', '.Format', 'COMP', '.Date', ' Amb', 'Pf', '�', 'abcdef']
+  Dir1 (σ=0.0392): ['操', ' {(', ' об', ' Adventure', '本质', '第', '农业', ' viewing']
+  Dir2 (σ=0.0249): [' oxidation', ' preliminary', '}_{\\\\', '蔡', ' Vegas', '\\\\({}_{\\\\', '_FILE', '晏']
+  Dir3 (σ=0.0242): ['公寓', 'subscript�', '禹', 'Technical', '胖子', '本帖', ' _{\\\\', '(double']
+
+Head 89 (frob=0.2375, 1.4σ):
+  Dir0 (σ=0.1810): ['�', ' argparse', 'COMP', '.Date', ' Amb', ' Kap', ' polymer', ' Pf']
+  Dir1 (σ=0.0296): [' Ba', ' Adventure', '就是说', ' под', '.Command', '{{\\\\', '遊戲', '很有']
+  Dir2 (σ=0.0243): [' speaks', ' transportation', ' "^', '卻', '却', 'aceae', 'December', '生肖']
+  Dir3 (σ=0.0233): [' EQU', '日常生活', ' UnityEngine', 'щ', '走势', '既然', 'EQU', ' TEN']
+
+Head 96 (frob=0.2356, 1.3σ):
+  Dir0 (σ=0.1851): ['.Format', ' argparse', 'abcdef', '.Date', '�', 'COMP', 'エ', ' LESS']
+  Dir1 (σ=0.0576): ['.Model', ' {(', '+I', '506', ' об', '玩具', '操', ' Que']
+  Dir2 (σ=0.0305): ['禹', '的有', '-Pl', '抚', 'サ', '.de', '的神', ' traditions']
+  Dir3 (σ=0.0206): ['Ku', '_PRO', '超越', 'EFAULT', '=new', ',]', '百花', '笔记']
+
+Head 25 (frob=0.2355, 1.3σ):
+  Dir0 (σ=0.1659): [' Amb', ' argparse', 'COMP', 'isto', '_TR', ' organ', '.Format', '�']
+  Dir1 (σ=0.0635): [' {(', '孙子', '明星', ' об', '-ass', ' ({', ' viewing', '青春']
+  Dir2 (σ=0.0376): ['禹', '.org', 'Prov', '()[', ' _{\\\\', 'Wa', ' AFL', '评定']
+  Dir3 (σ=0.0218): ['北市', '_cl', ' almost', '_min', '從來', ' Ci', ' gently', ' unw']
+
+Head 12 (frob=0.2347, 1.3σ):
+  Dir0 (σ=0.1877): [' argparse', '.Date', ' Kap', '.Format', 'COMP', '�', 'abcdef', ' gesch']
+  Dir1 (σ=0.0360): ['最终', '数据分析', '+I', '描述', '佐', 'cannot', ' Ba', 'Debug']
+  Dir2 (σ=0.0247): [' Dear', 'Dear', ' зап', '出门', ' similarities', '已于', ' sit', '_pred']
+  Dir3 (σ=0.0218): ['低的', '�', '优点', '薄的', '.org', 'Pd', ' Dom', '�']
+
+Head 114 (frob=0.2321, 1.2σ):
+  Dir0 (σ=0.1733): ['.Date', '.Format', 'COMP', ' argparse', ' Kap', 'エ', ' Pf', ' Amb']
+  Dir1 (σ=0.0417): ['创业', '+I', ' \\\\<', ' Nish', ' Que', '玩具', '_PRO', '創業']
+  Dir2 (σ=0.0297): ['XN', ' wa', ' Wak', ' relatives', 'subscript�', 'WORK', ' Expo', '胖子']
+  Dir3 (σ=0.0226): ['required', 'Cy', ' Password', ' Algebra', '创新', '雕塑', ' Implementation', 'Password']
+
+Head 51 (frob=0.2273, 1.1σ):
+  Dir0 (σ=0.1793): ['COMP', '.Date', ' argparse', '.Format', '�', ' Amb', ' Kap', '{table']
+  Dir1 (σ=0.0332): [' {(', 'toString', '.Model', '第', '创业', '娱乐', '.co', '实际']
+  Dir2 (σ=0.0291): ['Conf', '禹', '_ARG', '人士', ' Wak', '}}_{', '_TEST', '降低']
+  Dir3 (σ=0.0224): ['subscript�', ' VS', '940', '.font', ' Vs', ' Dear', '_->', ' п']
+
+Head 64 (frob=0.2271, 1.1σ):
+  Dir0 (σ=0.1820): [' Pf', ' argparse', 'abcdef', '.Date', '�', '.Format', 'エ', 'COMP']
+  Dir1 (σ=0.0318): ['.Model', '未能', '创业', '+I', ' кон', '加大', '(--', 'Emb']
+  Dir2 (σ=0.0221): ['EK', ' sklearn', ' representing', '未经', '主体的', ' нужно', ' Wol', 'HJ']
+  Dir3 (σ=0.0210): [' linearly', '修', ' Hem', 'localhost', 'Signal', ' 재', '与此同时', 'Jer']
+
+Head 22 (frob=0.2256, 1.0σ):
+  Dir0 (σ=0.1651): ['COMP', ' Amb', '.Format', '.Date', '�', ' Kap', 'エ', ' argparse']
+  Dir1 (σ=0.0269): ['subscript�', 'web', ' Big', '中原', '有名', '具有', ' vitro', '^{(']
+  Dir2 (σ=0.0238): ['orf', '啪', ' ´', ' honest', '.active', '576', '就好像', ' Fle']
+  Dir3 (σ=0.0229): ['Dear', ' Political', ' Scholar', ' просто', '}=-', '之类的', ' citizen', ' proposition']
+
+Head 32 (frob=0.2246, 1.0σ):
+  Dir0 (σ=0.1654): ['�', ' Pf', '.Format', ' LESS', 'COMP', 'エ', 'abcdef', '.Date']
+  Dir1 (σ=0.0297): ['+I', '五个', '玩具', 'まで', '两个', '表现', '政务', 'で']
+  Dir2 (σ=0.0255): ['.org', 'usic', 'Ra', ' Dar', ' по', 'Though', ' làm', ' Though']
+  Dir3 (σ=0.0245): ['名家', '*(', '<>(', '依照', ' Tay', '�', '宇宙', '----------------------------------------------------------------']
+

@@ -1,0 +1,27 @@
+L51_q_a_proj <-> L52_q_a_proj (cos=0.360)
+150 tokens, 8 clusters
+
+Cluster 1 (30 tokens):
+   silence,  boredom,  ourselves, _store,  transitional,  Galactic,  Keep,  Abigail,  opposed,  Crossword,  constitutional,  Confederate,  delighted,  compares, Section,  secretly,  desire,  assure,  exterior,  Solomon,  moderate,  exact,  Frederick, Additional,  adequate,  Garden,  Generally,  Mediterranean, Contact,  Colorado
+
+Cluster 2 (4 tokens):
+   Sohn,  sehr,  jedoch, sein
+
+Cluster 3 (4 tokens):
+   voyage,  visas,  cabin,  fecha
+
+Cluster 4 (12 tokens):
+   Kitty,  fungal, hello,  wildlife, Little, User,  Ling, ragon, (user,  yellow, India, Smith
+
+Cluster 5 (11 tokens):
+  mysql, brecht, php, inton, unch, enna,  trial, infty, ucci, apps, ynch
+
+Cluster 6 (27 tokens):
+   id, {d, subscript�, ]., <｜fim▁begin｜>, {%, .sc, .const, >(\n, /**\n, clud, (async, (,  Init,  '../, sal, <?, cod,  ({\n, .show, .category,  quel,  Di, del,  <<,  ([, /*
+
+Cluster 7 (19 tokens):
+  Ast,  NAD,  negot,  Hed,  Ele,  Dam,  carn,  TEM,  deg,  MIT,  fat,  Tor,  Pear,  caret,  halt,  overweight,  Fair,  damn,  Obs
+
+Cluster 8 (43 tokens):
+  VV, kv, May, +B,  AO,  Vu, 165, 523, WM, Jun,  DK, WE, 461,  roz, 443, Gar,  Koz, WG, 664,  bew,  Boc, BM, ouw, lew, 520, +l, Aj, Marc, -ch, HG, 553, zej, Fe, -K, =e,  Fe, Oy,  jun, Og, 075, 671, ZS,  Daw
+

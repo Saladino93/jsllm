@@ -1,0 +1,406 @@
+M2 Token Census — Layer 19
+================================================================================
+
+Dir 0 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+ đồ                               128 100.0%
+�                                 128 100.0%
+ entities                         128 100.0%
+chim                              128 100.0%
+ hogy                             127  99.2%
+淡淡                                127  99.2%
+ ens                              125  97.7%
+ sediment                         124  96.9%
+ wel                              123  96.1%
+ finely                           108  84.4%
+ coal                             105  82.0%
+ enc                              104  81.2%
+-user                             103  80.5%
+つまり                               100  78.1%
+.entity                            99  77.3%
+ nicely                            96  75.0%
+ну                                 90  70.3%
+ audio                             88  68.8%
+ yeah                              81  63.3%
+ ctx                               80  62.5%
+车轮                                 80  62.5%
+ iron                              77  60.2%
+ chu                               77  60.2%
+ע                                  76  59.4%
+ rh                                66  51.6%
+ news                              62  48.4%
+的车                                 59  46.1%
+ coefficients                      58  45.3%
+図                                  50  39.1%
+ entity                            49  38.3%
+ machinery                         48  37.5%
+ actual                            47  36.7%
+ heating                           41  32.0%
+ Ir                                41  32.0%
+ beautifully                       39  30.5%
+ Tid                               37  28.9%
+的家                                 37  28.9%
+新闻                                 36  28.1%
+_trans                             32  25.0%
+ sir                               32  25.0%
+その                                 29  22.7%
+font                               27  21.1%
+)\\({}_{                           27  21.1%
+祖先                                 25  19.5%
+香气                                 24  18.8%
+ tangent                           23  18.0%
+こと                                 22  17.2%
+ beef                              21  16.4%
+费                                  20  15.6%
+ tin                               20  15.6%
+
+Dir 1 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+另一方面                               77  60.2%
+ mk                                65  50.8%
+当然                                 55  43.0%
+ ---------                         53  41.4%
+.—                                 48  37.5%
+unn                                45  35.2%
+stackrel                           44  34.4%
+竞                                  39  30.5%
+良い                                 38  29.7%
+SB                                 36  28.1%
+仿                                  34  26.6%
+淮                                  34  26.6%
+哪里                                 34  26.6%
+什么时候                               34  26.6%
+See                                31  24.2%
+ Newton                            31  24.2%
+ COVID                             30  23.4%
+嗯                                  29  22.7%
+_CL                                28  21.9%
+]->                                28  21.9%
+\\)\\(\\                           27  21.1%
+ Bes                               27  21.1%
+></                                27  21.1%
+�                                  27  21.1%
+很久                                 26  20.3%
+ublic                              26  20.3%
+瞻                                  25  19.5%
+organ                              25  19.5%
+.setText                           25  19.5%
+Link                               25  19.5%
+.common                            24  18.8%
+召开                                 24  18.8%
+Ri                                 23  18.0%
+PB                                 23  18.0%
+XA                                 23  18.0%
+侵                                  23  18.0%
+ Citizens                          22  17.2%
+;->                                22  17.2%
+832                                22  17.2%
+RP                                 22  17.2%
+ Cameron                           21  16.4%
+\\);                               21  16.4%
+也就是                                21  16.4%
+ NP                                21  16.4%
+最小的                                21  16.4%
+”？                                 20  15.6%
+，（                                 20  15.6%
+�                                  19  14.8%
+}^{-                               19  14.8%
+Or                                 19  14.8%
+
+Dir 2 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+[:,                                32  25.0%
+ italic                            29  22.7%
+乡村                                 28  21.9%
+臭                                  26  20.3%
+331                                23  18.0%
+ ра                                20  15.6%
+]:\n                               19  14.8%
+ imp                               17  13.3%
+景                                  16  12.5%
+西南                                 16  12.5%
+fw                                 15  11.7%
+ Probably                          13  10.2%
+ Philippine                        13  10.2%
+<｜fim▁begin｜>                      13  10.2%
+793                                13  10.2%
+Pot                                13  10.2%
+ldots                              12   9.4%
+深                                  12   9.4%
+\\{                                12   9.4%
+旁                                  12   9.4%
+ pens                              12   9.4%
+Uk                                 11   8.6%
+_RE                                11   8.6%
+�                                  10   7.8%
+/lib                                9   7.0%
+QD                                  9   7.0%
+老                                   9   7.0%
+ чем                                9   7.0%
+常用                                  8   6.2%
+袁                                   8   6.2%
+\t\t                                8   6.2%
+ albeit                             8   6.2%
+第三方                                 8   6.2%
+QM                                  8   6.2%
+;->                                 8   6.2%
+固定资产                                8   6.2%
+但要                                  8   6.2%
+ sufficiently                       8   6.2%
+But                                 8   6.2%
+主要由                                 8   6.2%
+ Pra                                7   5.5%
+ Discovery                          7   5.5%
+消化                                  7   5.5%
+visited                             7   5.5%
+ cortical                           7   5.5%
+769                                 7   5.5%
+weak                                7   5.5%
+ Really                             7   5.5%
+qm                                  7   5.5%
+ Netz                               7   5.5%
+
+Dir 3 — Top tokens by head frequency:
+Token                          #Heads      %
+--------------------------------------------
+}}_{\\                             11   8.6%
+ italic                             9   7.0%
+}}{\\                               9   7.0%
+}}^{\\                              7   5.5%
+}}}}                                6   4.7%
+<jupyter                            6   4.7%
+ldots                               6   4.7%
+weak                                5   3.9%
+Na                                  5   3.9%
+},\\                                5   3.9%
+}_{                                 5   3.9%
+}_{\\                               5   3.9%
+}}_{                                5   3.9%
+乡村                                  5   3.9%
+\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0      5   3.9%
+_res                                5   3.9%
+[:,                                 5   3.9%
+\\{                                 4   3.1%
+相对                                  4   3.1%
+适                                   4   3.1%
+ Pra                                4   3.1%
+}({\\                               4   3.1%
+ �                                  4   3.1%
+})=\\                               4   3.1%
+VV                                  4   3.1%
+subscript�                          4   3.1%
+ �                                  4   3.1%
+ ज                                  4   3.1%
+ZG                                  4   3.1%
+晓                                   4   3.1%
+}}-\\                               4   3.1%
+.services                           4   3.1%
+cdots                               4   3.1%
+ /=                                 4   3.1%
+沧                                   4   3.1%
+(op                                 4   3.1%
+不但                                  4   3.1%
+(()                                 4   3.1%
+ Holder                             3   2.3%
+))))                                3   2.3%
+山区                                  3   2.3%
+特定                                  3   2.3%
+胸                                   3   2.3%
+                                    3   2.3%
+排水                                  3   2.3%
+ But                                3   2.3%
+localhost                           3   2.3%
+［                                   3   2.3%
+充                                   3   2.3%
+ Susan                              3   2.3%
+
+
+ALL DIRECTIONS combined — tokens appearing in most heads:
+Token                          #Appearances      %
+--------------------------------------------------
+ hogy                                   132  25.8%
+ đồ                                     130  25.4%
+�                                       129  25.2%
+ entities                               129  25.2%
+chim                                    128  25.0%
+淡淡                                      127  24.8%
+ ens                                    125  24.4%
+ sediment                               124  24.2%
+ wel                                    123  24.0%
+ finely                                 108  21.1%
+ enc                                    106  20.7%
+ coal                                   105  20.5%
+-user                                   104  20.3%
+つまり                                     100  19.5%
+.entity                                  99  19.3%
+ nicely                                  96  18.8%
+ну                                       90  17.6%
+ audio                                   88  17.2%
+ yeah                                    84  16.4%
+ ctx                                     80  15.6%
+车轮                                       80  15.6%
+另一方面                                     80  15.6%
+ iron                                    77  15.0%
+ chu                                     77  15.0%
+ע                                        76  14.8%
+ mk                                      71  13.9%
+ rh                                      68  13.3%
+ news                                    62  12.1%
+的车                                       59  11.5%
+ ---------                               59  11.5%
+ coefficients                            58  11.3%
+当然                                       58  11.3%
+.—                                       54  10.5%
+ machinery                               53  10.4%
+図                                        50   9.8%
+ entity                                  49   9.6%
+ actual                                  47   9.2%
+unn                                      47   9.2%
+stackrel                                 46   9.0%
+_trans                                   45   8.8%
+ heating                                 42   8.2%
+ Ir                                      42   8.2%
+竞                                        41   8.0%
+良い                                       41   8.0%
+ italic                                  41   8.0%
+[:,                                      40   7.8%
+ beautifully                             39   7.6%
+その                                       39   7.6%
+乡村                                       39   7.6%
+\\);                                     38   7.4%
+
+
+================================================================================
+Head Clusters (by token overlap, Jaccard > 0.3):
+================================================================================
+
+No clusters found (all heads have unique token sets).
+
+
+================================================================================
+Significant Heads (>1σ frob) — Dir0-Dir3 top tokens:
+================================================================================
+
+Head 105 (frob=0.3639, 5.1σ):
+  Dir0 (σ=0.3115): [' đồ', '�', ' ens', ' entities', ' iron', ' heating', 'chim', ' finely']
+  Dir1 (σ=0.0508): ['KM', '嗯', '(st', '另一方面', 'RP', '呃', ' Newton', '降低']
+  Dir2 (σ=0.0276): ['得上', 'Jy', '<jupyter', '=False', ' Мет', '�', 'LF', '依依']
+  Dir3 (σ=0.0253): ['ZF', 'superscript', '幽', ' Bayesian', '标的', ' Ltd', '391', ' percept']
+
+Head 54 (frob=0.2789, 2.7σ):
+  Dir0 (σ=0.2296): [' hogy', '�', ' entities', ' đồ', ' finely', '淡淡', 'chim', ' ens']
+  Dir1 (σ=0.0503): ['}^{-', ' Newton', '天神', ' ---------', '什么是', ' (−', '250', 'Ri']
+  Dir2 (σ=0.0344): ['景', '第二章', '[:,', '景观', '不但', ' albeit', '臭', ' Verg']
+  Dir3 (σ=0.0294): ['去年', '西南', 'DTO', '相对', ' </', ' Д', 'MRI', '’']
+
+Head 85 (frob=0.2628, 2.2σ):
+  Dir0 (σ=0.2098): ['�', ' đồ', ' entities', ' hogy', 'chim', '淡淡', ' finely', ' coal']
+  Dir1 (σ=0.0468): ['.springframework', 'XA', 'RP', ' mk', ' ---------', 'Pres', '懂得', 'Or']
+  Dir2 (σ=0.0327): ['\\tr', ' Phys', ' Philippine', ' consequently', '961', ' ð', ' \\t\\t', ' obey']
+  Dir3 (σ=0.0260): ['VV', ' pel', ' Lager', '统筹', 'Kw', ' Massachusetts', 'KU', '得以']
+
+Head 66 (frob=0.2554, 2.0σ):
+  Dir0 (σ=0.2194): ['�', ' đồ', ' hogy', 'chim', ' entities', ' finely', ' nicely', ' chu']
+  Dir1 (σ=0.0415): [' ---------', 'stackrel', '.springframework', ' mk', 'kp', '良い', '所以说', 'organ']
+  Dir2 (σ=0.0267): [' pasta', ' Aut', 'ZW', '}}+\\\\', ' مح', '�', '光伏', '次要']
+  Dir3 (σ=0.0242): ['体制改革', '承包', ' explosive', '象征', ' будет', '现代', '盗', 'WR']
+
+Head 28 (frob=0.2529, 2.0σ):
+  Dir0 (σ=0.1958): ['�', ' đồ', ' entities', ' ens', '淡淡', ' hogy', 'chim', ' sediment']
+  Dir1 (σ=0.0338): ['所以说', '}^{(', ' Cameron', '></', '防控', '另一方面', '>().', '要么']
+  Dir2 (σ=0.0277): [' Serge', '\\tr', 'QM', '老师的', ' todo', '固定资产', '="_', '459']
+  Dir3 (σ=0.0264): ['}}_{\\\\', ' combine', ' ज', '}}{\\\\', '}_{', ' combines', '}_{\\\\', ' collaborative']
+
+Head 45 (frob=0.2519, 1.9σ):
+  Dir0 (σ=0.2005): ['�', ' hogy', '淡淡', ' nicely', ' entities', 'chim', ' chu', 'KY']
+  Dir1 (σ=0.0440): ['\\\\);', 'weak', ' Lamb', ' COVID', '/client', '\\\\frac', ' mars', 'tk']
+  Dir2 (σ=0.0278): [' Likewise', ';->', 'Tri', '乡镇', ' fertilizer', 'cdots', 'Capital', ' Br']
+  Dir3 (σ=0.0236): ['Footnote', '指挥部', ' zip', 'subscript�', 'APS', '采用', '大师', 'dfrac']
+
+Head 101 (frob=0.2461, 1.8σ):
+  Dir0 (σ=0.1888): ['�', ' đồ', ' hogy', ' chu', '淡淡', ' sediment', ' entities', ' ens']
+  Dir1 (σ=0.0413): [' ---------', '}^{(', '污染', ' colon', ']->', 'stackrel', 'Or', '}^{-']
+  Dir2 (σ=0.0336): ['乡村', ' sufficiently', '�', '但要', '足以', 'ただ', ' LICENSE', ' automatically']
+  Dir3 (σ=0.0219): ['(op', '\\\\{', '父亲的', '(__', '\\tret', '妻子的', ' EU', ' VA']
+
+Head 90 (frob=0.2461, 1.8σ):
+  Dir0 (σ=0.1872): [' entities', ' đồ', '�', ' hogy', ' wel', '淡淡', 'chim', ' ens']
+  Dir1 (σ=0.0394): ['Next', '.—', '}_{\\\\', '屁', '�', ' Probably', '\\\\)\\\\(\\\\', 'Best']
+  Dir2 (σ=0.0267): ['}_', '许多人', '=False', '/work', '轻松', '<｜fim▁begin｜>', 'acl', ' Fore']
+  Dir3 (σ=0.0241): ['.he', ' Jake', '这样', '.co', '以免', '.page', '.p', '687']
+
+Head 33 (frob=0.2453, 1.7σ):
+  Dir0 (σ=0.1851): ['�', ' đồ', ' entities', ' nicely', '.entity', '淡淡', ' hogy', ' enc']
+  Dir1 (σ=0.0531): [' mk', '嗯', '也就是', '哪里', '或者', 'stackrel', '=c', ' NP']
+  Dir2 (σ=0.0290): ['331', '793', 'ď', ' sufficiently', ':《', 'rich', '色谱', ' href']
+  Dir3 (σ=0.0257): ['Cover', 'Ct', ' los', 'Plugin', 'ISS', ' Prom', 'ldots', '叮']
+
+Head 19 (frob=0.2411, 1.6σ):
+  Dir0 (σ=0.1851): [' đồ', ' entities', '�', ' hogy', ' finely', '淡淡', 'chim', ' ens']
+  Dir1 (σ=0.0362): ['See', '.setText', ' ---|---|---|---|---', 'stackrel', '_exec', ' mk', '淮', 'SB']
+  Dir2 (σ=0.0264): ['新', " '@/", 'oL', ' )、', '�', ' rh', 'HF', '趙']
+  Dir3 (σ=0.0245): ['}_{\\\\', '乡镇', ' ज', '})=\\\\', ' Een', ' Syrian', ']:\\n', ',\\\\,\\\\']
+
+Head 18 (frob=0.2375, 1.5σ):
+  Dir0 (σ=0.1895): ['�', ' hogy', '淡淡', ' entities', ' đồ', 'chim', ' chu', ' sediment']
+  Dir1 (σ=0.0382): [' COVID', '仿', ' Citizens', 'stackrel', '-pe', 'ジ', 'unn', '另一方面']
+  Dir2 (σ=0.0258): ['旁', '导师', ' Probably', 'DATA', '<｜fim▁begin｜>', '但要', ' hogy', 'MLA']
+  Dir3 (σ=0.0217): ['}_{\\\\', '_pro', 'ppt', " '../", 'ว', ' صورت', 'パ', '(var']
+
+Head 108 (frob=0.2374, 1.5σ):
+  Dir0 (σ=0.1822): ['�', ' đồ', '淡淡', ' hogy', ' chu', 'chim', '-user', ' sediment']
+  Dir1 (σ=0.0461): ['\\\\);', '妈妈', '心理', '受理', '固定资产', '仿', 'stackrel', '\\\\langle']
+  Dir2 (σ=0.0341): [' italic', 'Later', 'but', ' really', ' Probably', '769', 'But', ' Really']
+  Dir3 (σ=0.0233): ['纪念馆', '创建', 'つの', ' Neuro', 'Zj', '(()', 'Nj', ' Various']
+
+Head 116 (frob=0.2349, 1.5σ):
+  Dir0 (σ=0.1768): ['�', ' đồ', ' entities', 'chim', '.entity', ' hogy', ' ens', ' sediment']
+  Dir1 (σ=0.0406): [';->', 'unn', '.—', 'Okay', 'Next', ']->', '召开', '.assertEquals']
+  Dir2 (σ=0.0290): ['固定资产', ' 무', ' payroll', ' Ten', 'optional', ' чем', '老', '.q']
+  Dir3 (σ=0.0270): ['[:,', ' param', ' Pres', ' Sem', '_res', ' CP', '不但', 'RP']
+
+Head 5 (frob=0.2334, 1.4σ):
+  Dir0 (σ=0.1901): ['�', ' đồ', ' hogy', '淡淡', ' entities', 'つまり', 'chim', ' finely']
+  Dir1 (σ=0.0340): ['另一方面', '�', '竞', '受理', 'KW', 'VV', ' Cameron', " '\\\\"]
+  Dir2 (σ=0.0265): ['hc', 'Uk', 'RP', 'epoch', 'QT', 'QM', '是一种', 'ober']
+  Dir3 (σ=0.0208): ['}}^{\\\\', 'But', '適', ' authorities', 'Earlier', 'Rn', 'orse', '相对']
+
+Head 102 (frob=0.2275, 1.2σ):
+  Dir0 (σ=0.1713): ['�', '淡淡', ' đồ', ' hogy', ' entities', 'chim', ' ens', ' rh']
+  Dir1 (σ=0.0360): ['832', ' Really', '另一方面', 'Or', 'XA', 'PB', ' mk', '_trans']
+  Dir2 (σ=0.0297): ['乡村', '[:,', 'Catalog', '_res', ']:\\n', 'QX', '化疗', '551']
+  Dir3 (σ=0.0221): [' Rs', '诸如', '培养', '的关键', '贫困', ' elif', ' monthly', 'ielle']
+
+Head 80 (frob=0.2261, 1.2σ):
+  Dir0 (σ=0.1729): ['�', ' đồ', ' entities', ' ens', '淡淡', 'chim', ' hogy', '-user']
+  Dir1 (σ=0.0427): ['←', 'stackrel', ' Citizens', '255', ' Martinez', '受理', '/work', 'kp']
+  Dir2 (σ=0.0299): ['probably', ' Probably', 'But', 'And', ' arguably', ' probably', ' Hom', '℃']
+  Dir3 (σ=0.0230): [' Tables', 'ุ', '棱', '引起的', 'Schema', '/types', ' avoided', 'Tables']
+
+Head 2 (frob=0.2253, 1.2σ):
+  Dir0 (σ=0.1696): ['�', ' hogy', ' sediment', ' đồ', '-user', ' yeah', '淡淡', 'chim']
+  Dir1 (σ=0.0387): ['当然', '.common', ' millones', ' Citizens', '还好', '\\\\);', '仿', '此刻']
+  Dir2 (σ=0.0283): [' italic', '}=-', ' Ent', 'ど', '中国共产党', '袁', ' ret', '消化']
+  Dir3 (σ=0.0242): ['))))', '_ind', '接近', '}}}}', '山区', '启示', '/res', '_SH']
+
+Head 43 (frob=0.2236, 1.1σ):
+  Dir0 (σ=0.1664): [' đồ', '�', '_trans', ' ens', '.entity', 'chim', ' entities', '淡淡']
+  Dir1 (σ=0.0464): ['嗯', '呃', '哪里', '也就是', '竞', ' yeah', '_CL', '�']
+  Dir2 (σ=0.0243): ['乡村', ' Feb', '尚未', 'ldots', 'Now', ' �', '[:,', ' geography']
+  Dir3 (σ=0.0232): [':《', '动脉', '很少', ' Cor', ' Ka', ' Still', '并将其', ' comme']
+
+Head 126 (frob=0.2232, 1.1σ):
+  Dir0 (σ=0.1625): ['�', ' entities', ' hogy', ' đồ', 'chim', '-user', '淡淡', ' sediment']
+  Dir1 (σ=0.0403): ['呃', '}^{(', '}^{-', '嗯', '最小的', 'SB', '_CL', ' ---------']
+  Dir2 (σ=0.0249): ['安康', ' PH', 'chemy', '反应的', ' hom', 'ulk', 'JU', 'Vector']
+  Dir3 (σ=0.0236): [' Faculty', ' Million', ' Facility', '④', ' Everyday', '恭喜', ' everyday', 'ZY']
+
+Head 122 (frob=0.2226, 1.1σ):
+  Dir0 (σ=0.1768): ['�', ' đồ', ' hogy', ' nicely', '淡淡', ' finely', ' entities', 'chim']
+  Dir1 (σ=0.0309): [' Ih', '.—', ' ---|---|---|---|---', ' ---------', ' Cameron', 'Static', '另一方面', 'LF']
+  Dir2 (σ=0.0273): [' Color', '溶', '依法', 'Cover', ' Become', '语法', '}}+', 'Color']
+  Dir3 (σ=0.0229): [' italic', '());', '>().', ' loyal', '+/', '推动', '旁', '.springframework']
+

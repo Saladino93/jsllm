@@ -1,0 +1,648 @@
+Susceptibility Spectroscopy: M2 Layer 10
+================================================================================
+
+Dimensions (11 total):
+  [0] qa_D0(σ=0.976)
+  [1] qa_D1(σ=0.118)
+  [2] qa_D2(σ=0.068)
+  [3] qb_H33_D0(σ=0.377)
+  [4] qb_H112_D0(σ=0.379)
+  [5] qb_H85_D0(σ=0.360)
+  [6] qb_H67_D0(σ=0.343)
+  [7] qb_H16_D0(σ=0.359)
+  [8] o_D0(σ=2.083)
+  [9] o_D1(σ=1.090)
+  [10] o_D2(σ=0.515)
+
+30 clusters, 129280 tokens
+
+──────────────────────────────────────────────────────────────────────
+Cluster 23: 4795 tokens — PAYLOAD-candidate
+  Input frac: 0.06, Output frac: 0.66
+  Dominant dims: [('o_D0(σ=2.083)', '-0.121'), ('qb_H85_D0(σ=0.360)', '-0.011'), ('qb_H16_D0(σ=0.359)', '-0.011')]
+  Top tokens:
+       0.396   carbide
+       0.387   Federation
+       0.354   hunt
+       0.354   workforce
+       0.352  DEF
+       0.350   Virgin
+       0.348  ced
+       0.347   Fert
+       0.345   combust
+       0.340   Explor
+       0.340   Desk
+       0.339   Confederation
+       0.339   scav
+       0.337  sequential
+       0.336  illi
+
+──────────────────────────────────────────────────────────────────────
+Cluster 4: 4773 tokens — PAYLOAD-candidate
+  Input frac: 0.05, Output frac: 0.66
+  Dominant dims: [('o_D1(σ=1.090)', '0.120'), ('o_D0(σ=2.083)', '-0.046'), ('qb_H16_D0(σ=0.359)', '0.016')]
+  Top tokens:
+       0.399  pill
+       0.380   flav
+       0.375   humour
+       0.364  icl
+       0.360   Divers
+       0.355   snork
+       0.354   peers
+       0.348   diversified
+       0.348  Anonymous
+       0.346   humor
+       0.345   Matter
+       0.342   peer
+       0.341  craft
+       0.341   fearless
+       0.338  anton
+
+──────────────────────────────────────────────────────────────────────
+Cluster 29: 4636 tokens — PAYLOAD-candidate
+  Input frac: 0.05, Output frac: 0.69
+  Dominant dims: [('o_D1(σ=1.090)', '-0.089'), ('o_D2(σ=0.515)', '0.085'), ('o_D0(σ=2.083)', '0.045')]
+  Top tokens:
+       0.421   nons
+       0.377  Prot
+       0.374   wider
+       0.372   lightly
+       0.371   apartment
+       0.370   evenings
+       0.362  vent
+       0.358   apartments
+       0.357  andom
+       0.355  /mod
+       0.354  uchs
+       0.351  rev
+       0.350  bern
+       0.346   hull
+       0.344   blank
+
+──────────────────────────────────────────────────────────────────────
+Cluster 15: 4617 tokens — PAYLOAD-candidate
+  Input frac: 0.08, Output frac: 0.68
+  Dominant dims: [('o_D2(σ=0.515)', '-0.124'), ('o_D1(σ=1.090)', '0.046'), ('qb_H67_D0(σ=0.343)', '0.013')]
+  Top tokens:
+       0.378   advis
+       0.370   Synd
+       0.370   Archie
+       0.356   Frey
+       0.354   acts
+       0.353   Henn
+       0.346  CTG
+       0.344  mix
+       0.339  acts
+       0.336   Vital
+       0.334   Daly
+       0.334   act
+       0.333  .apply
+       0.330   culp
+       0.326   Wendy
+
+──────────────────────────────────────────────────────────────────────
+Cluster 22: 4565 tokens — PAYLOAD-candidate
+  Input frac: 0.09, Output frac: 0.73
+  Dominant dims: [('o_D0(σ=2.083)', '0.125'), ('o_D2(σ=0.515)', '0.039'), ('o_D1(σ=1.090)', '0.042')]
+  Top tokens:
+       0.412  band
+       0.406  iin
+       0.396   legends
+       0.387  alles
+       0.385   dial
+       0.383   insp
+       0.377  Pad
+       0.375  swith
+       0.371   coincidence
+       0.365  pad
+       0.354   inspir
+       0.353  alal
+       0.352  Dial
+       0.349  /profile
+       0.348  line
+
+──────────────────────────────────────────────────────────────────────
+Cluster 5: 4302 tokens — PAYLOAD-candidate
+  Input frac: 0.10, Output frac: 0.70
+  Dominant dims: [('o_D1(σ=1.090)', '-0.092'), ('o_D2(σ=0.515)', '-0.091'), ('qa_D2(σ=0.068)', '-0.020')]
+  Top tokens:
+       0.410   rehe
+       0.396  iah
+       0.384   Singer
+       0.363   Basketball
+       0.362   Chrys
+       0.360  astra
+       0.355   plugged
+       0.353   EMS
+       0.348   responsiveness
+       0.346   Mori
+       0.343   Tone
+       0.340   Garn
+       0.328   Chall
+       0.326  ombo
+       0.326   Son
+
+──────────────────────────────────────────────────────────────────────
+Cluster 27: 4928 tokens — CIRCUIT (both sides)
+  Input frac: 0.41, Output frac: 0.41
+  Dominant dims: [('qa_D2(σ=0.068)', '0.044'), ('qa_D1(σ=0.118)', '0.023'), ('o_D2(σ=0.515)', '-0.044')]
+  Top tokens:
+       0.334   cinematic
+       0.325  LIN
+       0.322   coord
+       0.319  VEL
+       0.311   Hagen
+       0.306  Animation
+       0.287   correspond
+       0.286   STATEMENT
+       0.286   Mack
+       0.286  ORDER
+       0.284   Plasma
+       0.280   merc
+       0.280   pickup
+       0.277   Control
+       0.276  emer
+
+──────────────────────────────────────────────────────────────────────
+Cluster 10: 5769 tokens — neutral/mixed
+  Input frac: 0.54, Output frac: 0.20
+  Dominant dims: [('qa_D1(σ=0.118)', '-0.031'), ('qa_D0(σ=0.976)', '-0.025'), ('qa_D2(σ=0.068)', '0.021')]
+  Top tokens:
+       0.354   Fab
+       0.349   stacked
+       0.281  Quantum
+       0.279   boh
+       0.273  Pb
+       0.273   Boh
+       0.267   Witt
+       0.265  XY
+       0.259   Sew
+       0.253  NaN
+       0.247   Braz
+       0.244   Grat
+       0.241   SE
+       0.241   Mex
+       0.236  Nut
+
+──────────────────────────────────────────────────────────────────────
+Cluster 7: 4923 tokens — neutral/mixed
+  Input frac: 0.41, Output frac: 0.27
+  Dominant dims: [('qa_D0(σ=0.976)', '-0.048'), ('o_D1(σ=1.090)', '0.050'), ('qa_D2(σ=0.068)', '-0.022')]
+  Top tokens:
+       0.314  rew
+       0.307  eine
+       0.304   Loyal
+       0.302  wof
+       0.296  short
+       0.295  neut
+       0.292   Little
+       0.292   craft
+       0.291   loosely
+       0.289   Pist
+       0.286  cult
+       0.284  oos
+       0.281   Fot
+       0.274  lau
+       0.272   Thing
+
+──────────────────────────────────────────────────────────────────────
+Cluster 26: 4803 tokens — neutral/mixed
+  Input frac: 0.46, Output frac: 0.08
+  Dominant dims: [('qa_D1(σ=0.118)', '0.052'), ('qa_D0(σ=0.976)', '-0.021'), ('qb_H67_D0(σ=0.343)', '0.016')]
+  Top tokens:
+       0.287   pulses
+       0.285  Co
+       0.285   drying
+       0.278   Ko
+       0.274   dried
+       0.273   Cycling
+       0.273   Sensitivity
+       0.269  _SEC
+       0.269   Fa
+       0.264  Oxford
+       0.262   FO
+       0.261   Divine
+       0.259  uhl
+       0.258   Dis
+       0.253   KO
+
+──────────────────────────────────────────────────────────────────────
+Cluster 18: 4582 tokens — neutral/mixed
+  Input frac: 0.44, Output frac: 0.22
+  Dominant dims: [('qa_D1(σ=0.118)', '0.030'), ('qa_D2(σ=0.068)', '-0.035'), ('qa_D0(σ=0.976)', '0.037')]
+  Top tokens:
+       0.338  xA
+       0.327  bac
+       0.306  font
+       0.305   cp
+       0.305  ogon
+       0.304  xD
+       0.296  xF
+       0.295   medium
+       0.290  aze
+       0.288  xd
+       0.287  feld
+       0.286  licht
+       0.282  equivalent
+       0.280   lac
+       0.278  043
+
+──────────────────────────────────────────────────────────────────────
+Cluster 8: 4545 tokens — neutral/mixed
+  Input frac: 0.38, Output frac: 0.26
+  Dominant dims: [('qa_D2(σ=0.068)', '-0.060'), ('qb_H16_D0(σ=0.359)', '0.016'), ('qb_H85_D0(σ=0.360)', '0.016')]
+  Top tokens:
+       0.334   Force
+       0.323   wide
+       0.316  ston
+       0.309  azor
+       0.304   dry
+       0.294   Antonio
+       0.283   Rudolf
+       0.283   Forces
+       0.282  isol
+       0.282  Door
+       0.281  Gard
+       0.278  poor
+       0.277   poorer
+       0.276  -def
+       0.273   steady
+
+──────────────────────────────────────────────────────────────────────
+Cluster 0: 4343 tokens — neutral/mixed
+  Input frac: 0.13, Output frac: 0.55
+  Dominant dims: [('o_D1(σ=1.090)', '0.084'), ('o_D2(σ=0.515)', '0.072'), ('qa_D2(σ=0.068)', '0.030')]
+  Top tokens:
+       0.402   Flav
+       0.378  prung
+       0.371  terna
+       0.360  stab
+       0.354  pang
+       0.347  folk
+       0.343   divers
+       0.341  Prim
+       0.340   HUM
+       0.337  bew
+       0.332   conven
+       0.330   complementary
+       0.330  014
+       0.328  pow
+       0.326   franc
+
+──────────────────────────────────────────────────────────────────────
+Cluster 17: 4337 tokens — neutral/mixed
+  Input frac: 0.08, Output frac: 0.48
+  Dominant dims: [('o_D0(σ=2.083)', '0.115'), ('qb_H16_D0(σ=0.359)', '-0.033'), ('qb_H67_D0(σ=0.343)', '-0.032')]
+  Top tokens:
+       0.464  ein
+       0.392   warning
+       0.380   Syndrome
+       0.370  anner
+       0.365   Dial
+       0.364  inek
+       0.361   influence
+       0.354  act
+       0.350   syndrome
+       0.350  (Console
+       0.349  hera
+       0.349  rino
+       0.348  ppler
+       0.345  estro
+       0.343   leftovers
+
+──────────────────────────────────────────────────────────────────────
+Cluster 25: 4336 tokens — neutral/mixed
+  Input frac: 0.11, Output frac: 0.12
+  Dominant dims: [('qb_H67_D0(σ=0.343)', '0.053'), ('qb_H33_D0(σ=0.377)', '-0.053'), ('qb_H16_D0(σ=0.359)', '0.052')]
+  Top tokens:
+       0.350  _CO
+       0.345   lak
+       0.331  /T
+       0.323   investig
+       0.311   loyal
+       0.309  -pres
+       0.309   Mittel
+       0.307   Sic
+       0.307   crafts
+       0.307   Wheat
+       0.307  es
+       0.305  IOS
+       0.303  light
+       0.303  illian
+       0.301  fol
+
+──────────────────────────────────────────────────────────────────────
+Cluster 19: 4335 tokens — neutral/mixed
+  Input frac: 0.68, Output frac: 0.25
+  Dominant dims: [('qa_D0(σ=0.976)', '0.066'), ('qa_D1(σ=0.118)', '-0.032'), ('qa_D2(σ=0.068)', '0.009')]
+  Top tokens:
+       0.337   intermediate
+       0.321   intermediates
+       0.303   statement
+       0.296   api
+       0.295  /config
+       0.289   Appearance
+       0.289   args
+       0.285   gossip
+       0.282   stack
+       0.281  ós
+       0.280  .Api
+       0.280   matrices
+       0.278  Search
+       0.276  Intermediate
+       0.276   sunny
+
+──────────────────────────────────────────────────────────────────────
+Cluster 20: 4313 tokens — neutral/mixed
+  Input frac: 0.05, Output frac: 0.51
+  Dominant dims: [('o_D2(σ=0.515)', '-0.091'), ('qb_H16_D0(σ=0.359)', '-0.037'), ('qb_H67_D0(σ=0.343)', '-0.036')]
+  Top tokens:
+       0.416   Warning
+       0.404  Warning
+       0.402   disperse
+       0.381   Span
+       0.359   diversify
+       0.354  warning
+       0.353   Reign
+       0.351  lab
+       0.349   Browse
+       0.348   sten
+       0.342   Search
+       0.342  aal
+       0.342  xon
+       0.342   Warn
+       0.339   invade
+
+──────────────────────────────────────────────────────────────────────
+Cluster 12: 4194 tokens — neutral/mixed
+  Input frac: 0.36, Output frac: 0.27
+  Dominant dims: [('qa_D1(σ=0.118)', '-0.058'), ('qa_D2(σ=0.068)', '-0.031'), ('qb_H67_D0(σ=0.343)', '-0.019')]
+  Top tokens:
+       0.353   sluggish
+       0.334   explor
+       0.331   Posters
+       0.327  /Z
+       0.320   ber
+       0.317  diss
+       0.302   Api
+       0.302   matric
+       0.298  833
+       0.295  azol
+       0.293   Rising
+       0.289   compet
+       0.286  943
+       0.284   deploy
+       0.283  lace
+
+──────────────────────────────────────────────────────────────────────
+Cluster 2: 4187 tokens — neutral/mixed
+  Input frac: 0.06, Output frac: 0.49
+  Dominant dims: [('o_D0(σ=2.083)', '-0.096'), ('qb_H67_D0(σ=0.343)', '0.036'), ('qb_H33_D0(σ=0.377)', '-0.036')]
+  Top tokens:
+       0.424   drier
+       0.416   dryer
+       0.381   Carb
+       0.378   DEF
+       0.374   Tunnel
+       0.372  Capacity
+       0.369   Def
+       0.368   Ballet
+       0.358   Capacity
+       0.356  capacity
+       0.353   carb
+       0.351   gat
+       0.350   Cir
+       0.346  _def
+       0.343   Intensity
+
+──────────────────────────────────────────────────────────────────────
+Cluster 9: 4094 tokens — neutral/mixed
+  Input frac: 0.28, Output frac: 0.05
+  Dominant dims: [('qb_H16_D0(σ=0.359)', '-0.045'), ('qb_H85_D0(σ=0.360)', '-0.044'), ('qb_H33_D0(σ=0.377)', '0.044')]
+  Top tokens:
+       0.419  SEC
+       0.336   SEC
+       0.333  -Ch
+       0.327   Console
+       0.325  ologic
+       0.323  Short
+       0.322  arge
+       0.319  iﬁ
+       0.317  lash
+       0.317   Capac
+       0.316  Chapter
+       0.313  Having
+       0.306   MG
+       0.303   mo
+       0.303   repe
+
+──────────────────────────────────────────────────────────────────────
+Cluster 16: 4079 tokens — neutral/mixed
+  Input frac: 0.21, Output frac: 0.19
+  Dominant dims: [('qb_H67_D0(σ=0.343)', '-0.045'), ('qb_H33_D0(σ=0.377)', '0.045'), ('qb_H16_D0(σ=0.359)', '-0.045')]
+  Top tokens:
+       0.350   apa
+       0.350   Death
+       0.347   Anton
+       0.342   Dan
+       0.340   Bond
+       0.333   sem
+       0.331  asta
+       0.329  -looking
+       0.327  Cer
+       0.327   Edge
+       0.327   Epic
+       0.322   desk
+       0.316   summary
+       0.315   septic
+       0.315  -head
+
+──────────────────────────────────────────────────────────────────────
+Cluster 28: 4077 tokens — neutral/mixed
+  Input frac: 0.11, Output frac: 0.56
+  Dominant dims: [('o_D2(σ=0.515)', '0.115'), ('qb_H16_D0(σ=0.359)', '0.020'), ('qb_H67_D0(σ=0.343)', '0.020')]
+  Top tokens:
+       0.436  rising
+       0.429   rising
+       0.414   gent
+       0.366   Wisdom
+       0.355   rises
+       0.352   finer
+       0.350   rise
+       0.350  aset
+       0.349  Fab
+       0.347   VIP
+       0.346  APT
+       0.343   GK
+       0.343   indist
+       0.336   subsequent
+       0.336   Gent
+
+──────────────────────────────────────────────────────────────────────
+Cluster 14: 4042 tokens — neutral/mixed
+  Input frac: 0.08, Output frac: 0.52
+  Dominant dims: [('o_D1(σ=1.090)', '-0.112'), ('qb_H16_D0(σ=0.359)', '0.032'), ('qb_H33_D0(σ=0.377)', '-0.032')]
+  Top tokens:
+       0.401   Absolute
+       0.391  CPA
+       0.378  Absolute
+       0.364   accounting
+       0.361   spider
+       0.355  iao
+       0.354   Spider
+       0.354  acic
+       0.354   correspondence
+       0.353   corres
+       0.350  -ord
+       0.348   arithmetic
+       0.343   Correspondence
+       0.343   rays
+       0.338   conformity
+
+──────────────────────────────────────────────────────────────────────
+Cluster 21: 3944 tokens — neutral/mixed
+  Input frac: 0.24, Output frac: 0.22
+  Dominant dims: [('qa_D2(σ=0.068)', '0.049'), ('qb_H16_D0(σ=0.359)', '0.040'), ('qb_H67_D0(σ=0.343)', '0.040')]
+  Top tokens:
+       0.354  mittel
+       0.346   Mens
+       0.331  insp
+       0.330  rename
+       0.325   diversification
+       0.321  zon
+       0.317  odil
+       0.315  transition
+       0.313  HU
+       0.312   rename
+       0.310  Control
+       0.310  HI
+       0.302   differentiation
+       0.300  reading
+       0.299  Nu
+
+──────────────────────────────────────────────────────────────────────
+Cluster 13: 3845 tokens — neutral/mixed
+  Input frac: 0.17, Output frac: 0.20
+  Dominant dims: [('qb_H67_D0(σ=0.343)', '-0.048'), ('qb_H16_D0(σ=0.359)', '-0.048'), ('qb_H33_D0(σ=0.377)', '0.048')]
+  Top tokens:
+       0.386  099
+       0.383   burnt
+       0.374   dull
+       0.369   Courtney
+       0.359   Fer
+       0.356  xC
+       0.353   Glass
+       0.346   basketball
+       0.334   slugg
+       0.331   Studios
+       0.330   burns
+       0.330  598
+       0.325   Boll
+       0.324   rusty
+       0.322   bedside
+
+──────────────────────────────────────────────────────────────────────
+Cluster 24: 3670 tokens — neutral/mixed
+  Input frac: 0.29, Output frac: 0.14
+  Dominant dims: [('qb_H16_D0(σ=0.359)', '0.044'), ('qb_H85_D0(σ=0.360)', '0.044'), ('qb_H67_D0(σ=0.343)', '0.044')]
+  Top tokens:
+       0.355  fusion
+       0.347   Lawyers
+       0.345  -client
+       0.341   predictable
+       0.336  wald
+       0.331  ittel
+       0.328  CG
+       0.319   CP
+       0.313   turbulent
+       0.312  CS
+       0.312  deen
+       0.307   Hypertension
+       0.307   Tz
+       0.306  hof
+       0.303  WC
+
+──────────────────────────────────────────────────────────────────────
+Cluster 6: 3627 tokens — neutral/mixed
+  Input frac: 0.06, Output frac: 0.37
+  Dominant dims: [('qb_H67_D0(σ=0.343)', '-0.057'), ('qb_H33_D0(σ=0.377)', '0.056'), ('qb_H16_D0(σ=0.359)', '-0.057')]
+  Top tokens:
+       0.462   ren
+       0.397  ichel
+       0.396   revision
+       0.392  OUS
+       0.387   Petit
+       0.385   Franc
+       0.381  Hum
+       0.377  /json
+       0.370  lav
+       0.368  /master
+       0.367  alte
+       0.366  Ic
+       0.365   obsc
+       0.363  Nd
+       0.362   appropriately
+
+──────────────────────────────────────────────────────────────────────
+Cluster 11: 3616 tokens — neutral/mixed
+  Input frac: 0.09, Output frac: 0.04
+  Dominant dims: [('qb_H16_D0(σ=0.359)', '0.084'), ('qb_H33_D0(σ=0.377)', '-0.084'), ('qb_H67_D0(σ=0.343)', '0.084')]
+  Top tokens:
+       0.454  }\\)-
+       0.429   forg
+       0.417   heater
+       0.410   MF
+       0.392  \\({}_{\\
+       0.391   Beth
+       0.379  tk
+       0.378  option
+       0.378   ZIP
+       0.372  PU
+       0.372  ftp
+       0.372  RP
+       0.369  \\))
+       0.365   xy
+       0.363  absolute
+
+──────────────────────────────────────────────────────────────────────
+Cluster 1: 3518 tokens — neutral/mixed
+  Input frac: 0.27, Output frac: 0.08
+  Dominant dims: [('qb_H16_D0(σ=0.359)', '0.047'), ('qb_H85_D0(σ=0.360)', '0.047'), ('qb_H33_D0(σ=0.377)', '-0.047')]
+  Top tokens:
+       0.365  Api
+       0.361   legend
+       0.353   earned
+       0.348  _matrix
+       0.338  nav
+       0.331  _params
+       0.330  _json
+       0.328  _search
+       0.318  ím
+       0.316   implicitly
+       0.315  tp
+       0.310   continuation
+       0.305  axios
+       0.304   simultaneously
+       0.302  .json
+
+──────────────────────────────────────────────────────────────────────
+Cluster 3: 3485 tokens — neutral/mixed
+  Input frac: 0.07, Output frac: 0.05
+  Dominant dims: [('qb_H67_D0(σ=0.343)', '-0.085'), ('qb_H16_D0(σ=0.359)', '-0.085'), ('qb_H33_D0(σ=0.377)', '0.085')]
+  Top tokens:
+       0.476  __(
+       0.435   Hum
+       0.433  chron
+       0.418   Sign
+       0.392  062
+       0.390   Cer
+       0.387   warnings
+       0.387  leep
+       0.385   Revision
+       0.377  577
+       0.375   misconduct
+       0.371  opter
+       0.371   alert
+       0.371   Lunar
+       0.371   simpl
+

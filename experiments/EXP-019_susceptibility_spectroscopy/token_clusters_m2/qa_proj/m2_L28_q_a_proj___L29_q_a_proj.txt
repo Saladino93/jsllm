@@ -1,0 +1,27 @@
+L28_q_a_proj <-> L29_q_a_proj (cos=0.207)
+150 tokens, 8 clusters
+
+Cluster 1 (15 tokens):
+  {{, ,,, ~/, ]==, =\\, <%, }}^{\\,  ´, )*(-, <, **_, \\({}^{-,  '_,  ("#, ][
+
+Cluster 2 (25 tokens):
+  VV,  Luk, CU,  django, vf,  ak,  exc, CG,  tort, Iz, ZY, Uk,  nn, Qg, Ug,  ICT,  sak, NM, xn,  aw,  EXT, anyak,  AG, Eh,  rr
+
+Cluster 3 (7 tokens):
+   crack, olit,  Ribe, rock, recip, sche,  Roche
+
+Cluster 4 (10 tokens):
+   pus,  het,  pa, -ir,  ply,  seul, -beam,  works,  pale, Jet
+
+Cluster 5 (28 tokens):
+   Turn,  conj,  Conrad,  Returns, Corn,  Jimmy,  Connect,  Gree,  Following,  Warner,  Fred,  Bennett, Anyone,  Hend,  Bhat,  Archived,  Presidente,  Ming,  Boy,  Morris,  Corn,  Enemy,  memb, Turn,  Pod,  Rebecca,  Patterson,  Beast
+
+Cluster 6 (37 tokens):
+   augmentation,  generally, .check,  folded,  eff,  additions,  excellent,  simulator, similar, exception,  efficiency,  procedure,  comparison,  Benchmark,  foolish,  distant,  kinetic,  California, template, .sort, .demo, _pre,  decades, .im, abstract,  harder,  endless,  tablet,  Commonwealth,  indica,  subset,  param, /app,  abstract,  highly,  Sensor,  abnormal
+
+Cluster 7 (19 tokens):
+  ffffff, weight, 582, 479, 678, 170, 510, 565, ----------, 542, region, current, 161, 162, 371, center, 800, 522, 174
+
+Cluster 8 (9 tokens):
+  .Builder,  Directory, inary, ACHE, Criteria, Attr, AML, LEASE, _hash
+

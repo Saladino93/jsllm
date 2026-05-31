@@ -1,0 +1,130 @@
+Cross-Layer Token Communities: M2
+================================================================================
+Layers 0-21, coherence threshold: 0.3
+95 connected layer pairs, 120 persistent tokens
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 0: 8 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  opper                     freq=  9  in=0 out=9  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D1 +4 more
+  uffy                      freq=  8  in=0 out=8  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L5_o_proj_D0 +3 more
+  arly                      freq=  6  in=0 out=6  L12_o_proj_D1, L3_o_proj_D2, L5_o_proj_D1, L6_o_proj_D1, L7_o_proj_D1 +1 more
+   Fowler                   freq=  5  in=0 out=5  L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0, L6_o_proj_D0
+  Charlie                   freq=  4  in=0 out=4  L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0
+  ppler                     freq=  3  in=0 out=3  L4_o_proj_D1, L8_o_proj_D0, L9_o_proj_D0
+   Tunnel                   freq=  3  in=0 out=3  L10_o_proj_D0, L19_o_proj_D0, L20_o_proj_D1
+   Gregory                  freq=  3  in=0 out=3  L19_o_proj_D0, L20_o_proj_D0, L21_o_proj_D0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 1: 10 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   coinc                    freq=  9  in=0 out=9  L0_o_proj_D0, L10_o_proj_D0, L12_o_proj_D0, L19_o_proj_D1, L1_o_proj_D0 +4 more
+   associ                   freq=  5  in=0 out=5  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0
+   simplification           freq=  4  in=0 out=4  L11_o_proj_D0, L19_o_proj_D2, L1_o_proj_D0, L8_o_proj_D0
+   roughness                freq=  4  in=0 out=4  L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0, L6_o_proj_D0
+   responsiveness           freq=  4  in=0 out=4  L10_o_proj_D1, L3_o_proj_D2, L4_o_proj_D1, L5_o_proj_D1
+   spaghetti                freq=  4  in=0 out=4  L19_o_proj_D1, L4_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+   legends                  freq=  4  in=0 out=4  L10_o_proj_D0, L11_o_proj_D0, L12_o_proj_D0, L9_o_proj_D0
+   symbols                  freq=  3  in=0 out=3  L3_o_proj_D0, L8_o_proj_D0, L9_o_proj_D0
+   endeavor                 freq=  3  in=0 out=3  L10_o_proj_D1, L11_o_proj_D1, L6_o_proj_D2
+   coincidence              freq=  3  in=0 out=3  L10_o_proj_D0, L12_o_proj_D0, L9_o_proj_D0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 2: 57 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  rino                      freq= 13  in=0 out=13  L10_o_proj_D0, L11_o_proj_D1, L12_o_proj_D0, L1_o_proj_D0, L20_o_proj_D1 +8 more
+  alal                      freq= 12  in=0 out=12  L0_o_proj_D1, L10_o_proj_D0, L11_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0 +7 more
+  tes                       freq= 11  in=0 out=11  L0_o_proj_D0, L10_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0 +6 more
+  alles                     freq= 10  in=0 out=10  L0_o_proj_D0, L10_o_proj_D0, L1_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0 +5 more
+  tene                      freq=  9  in=0 out=9  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0 +4 more
+  anner                     freq=  9  in=0 out=9  L10_o_proj_D0, L12_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0, L5_o_proj_D0 +4 more
+  pone                      freq=  7  in=0 out=7  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0 +2 more
+  lav                       freq=  7  in=0 out=7  L10_o_proj_D1, L11_o_proj_D1, L19_o_proj_D2, L20_o_proj_D2, L3_o_proj_D2 +2 more
+  fet                       freq=  6  in=0 out=6  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0 +1 more
+  iano                      freq=  6  in=0 out=6  L19_o_proj_D0, L1_o_proj_D0, L20_o_proj_D1, L3_o_proj_D0, L5_o_proj_D0 +1 more
+  anan                      freq=  6  in=0 out=6  L0_o_proj_D2, L12_o_proj_D1, L4_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1 +1 more
+  estro                     freq=  6  in=0 out=6  L10_o_proj_D0, L5_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0 +1 more
+  hner                      freq=  6  in=0 out=6  L11_o_proj_D0, L4_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0 +1 more
+  nen                       freq=  5  in=0 out=5  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0
+  Sche                      freq=  5  in=0 out=5  L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0, L7_o_proj_D0
+  hub                       freq=  5  in=0 out=5  L3_o_proj_D0, L4_o_proj_D0, L5_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0
+  Cin                       freq=  5  in=0 out=5  L11_o_proj_D1, L12_o_proj_D0, L5_o_proj_D0, L7_o_proj_D0, L9_o_proj_D0
+  icl                       freq=  5  in=0 out=5  L10_o_proj_D1, L12_o_proj_D1, L5_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+  ichel                     freq=  5  in=0 out=5  L10_o_proj_D1, L11_o_proj_D1, L5_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+  aku                       freq=  5  in=0 out=5  L11_o_proj_D0, L12_o_proj_D2, L19_o_proj_D0, L4_o_proj_D0, L8_o_proj_D1
+  ikin                      freq=  4  in=0 out=4  L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0
+  enne                      freq=  4  in=0 out=4  L0_o_proj_D0, L1_o_proj_D0, L6_o_proj_D0, L9_o_proj_D0
+   conceded                 freq=  4  in=0 out=4  L0_o_proj_D2, L11_o_proj_D0, L12_o_proj_D1, L1_o_proj_D2
+  idl                       freq=  4  in=0 out=4  L1_o_proj_D2, L3_o_proj_D1, L5_o_proj_D1, L8_o_proj_D1
+  ellig                     freq=  4  in=0 out=4  L2_o_proj_D0, L4_o_proj_D0, L5_o_proj_D1, L8_o_proj_D1
+  oba                       freq=  4  in=0 out=4  L10_o_proj_D0, L11_o_proj_D0, L2_o_proj_D0, L9_o_proj_D0
+  obe                       freq=  4  in=0 out=4  L2_o_proj_D0, L3_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0
+  eres                      freq=  4  in=0 out=4  L0_o_proj_D0, L4_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0
+  axel                      freq=  4  in=0 out=4  L0_o_proj_D0, L5_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0
+  ouche                     freq=  4  in=0 out=4  L12_o_proj_D1, L20_o_proj_D1, L21_o_proj_D1, L5_o_proj_D1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 3: 7 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Prim                      freq=  5  in=0 out=5  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0
+   Petit                    freq=  4  in=0 out=4  L3_o_proj_D2, L6_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+  poz                       freq=  4  in=0 out=4  L11_o_proj_D0, L12_o_proj_D1, L19_o_proj_D0, L8_o_proj_D1
+   princ                    freq=  3  in=0 out=3  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0
+  prim                      freq=  3  in=0 out=3  L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0
+   stout                    freq=  3  in=0 out=3  L5_o_proj_D1, L6_o_proj_D1, L7_o_proj_D1
+   petit                    freq=  3  in=0 out=3  L10_o_proj_D0, L12_o_proj_D1, L9_o_proj_D0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 4: 13 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   carbide                  freq= 12  in=0 out=12  L0_o_proj_D0, L10_o_proj_D0, L11_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0 +7 more
+   Carb                     freq=  7  in=0 out=7  L10_o_proj_D0, L11_o_proj_D0, L2_o_proj_D2, L3_o_proj_D0, L4_o_proj_D0 +2 more
+   carb                     freq=  6  in=0 out=6  L11_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0 +1 more
+  CPA                       freq=  5  in=0 out=5  L10_o_proj_D0, L4_o_proj_D1, L5_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0
+  -carb                     freq=  4  in=0 out=4  L2_o_proj_D2, L4_o_proj_D0, L6_o_proj_D0, L8_o_proj_D0
+  IPC                       freq=  4  in=0 out=4  L2_o_proj_D2, L4_o_proj_D1, L8_o_proj_D2, L9_o_proj_D1
+  ATP                       freq=  4  in=0 out=4  L5_o_proj_D1, L6_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+   Span                     freq=  4  in=0 out=4  L11_o_proj_D1, L12_o_proj_D0, L8_o_proj_D1, L9_o_proj_D1
+  -chain                    freq=  3  in=0 out=3  L0_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0
+  Carb                      freq=  3  in=0 out=3  L2_o_proj_D2, L6_o_proj_D1, L7_o_proj_D1
+  _space                    freq=  3  in=0 out=3  L5_o_proj_D1, L7_o_proj_D1, L9_o_proj_D1
+  Span                      freq=  3  in=0 out=3  L11_o_proj_D1, L12_o_proj_D0, L9_o_proj_D1
+  Capacity                  freq=  3  in=0 out=3  L10_o_proj_D0, L11_o_proj_D0, L12_o_proj_D1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 5: 14 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   insp                     freq=  7  in=0 out=7  L0_o_proj_D0, L10_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L4_o_proj_D0 +2 more
+   Lipp                     freq=  6  in=0 out=6  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0 +1 more
+   Dial                     freq=  6  in=0 out=6  L10_o_proj_D0, L11_o_proj_D0, L12_o_proj_D0, L1_o_proj_D1, L3_o_proj_D0 +1 more
+   dial                     freq=  6  in=0 out=6  L0_o_proj_D0, L10_o_proj_D0, L11_o_proj_D0, L12_o_proj_D0, L5_o_proj_D0 +1 more
+   penet                    freq=  4  in=0 out=4  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0
+   Saw                      freq=  4  in=0 out=4  L2_o_proj_D2, L3_o_proj_D2, L6_o_proj_D1, L8_o_proj_D1
+  Dial                      freq=  4  in=0 out=4  L0_o_proj_D0, L10_o_proj_D0, L12_o_proj_D0, L3_o_proj_D0
+   insider                  freq=  4  in=0 out=4  L5_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0
+   Hamm                     freq=  4  in=0 out=4  L5_o_proj_D1, L6_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+  insp                      freq=  3  in=0 out=3  L0_o_proj_D0, L5_o_proj_D0, L7_o_proj_D0
+   Hum                      freq=  3  in=0 out=3  L0_o_proj_D2, L10_o_proj_D1, L7_o_proj_D1
+   Explor                   freq=  3  in=0 out=3  L10_o_proj_D0, L12_o_proj_D0, L9_o_proj_D0
+   Dem                      freq=  3  in=0 out=3  L19_o_proj_D2, L20_o_proj_D0, L9_o_proj_D1
+   DEF                      freq=  3  in=0 out=3  L10_o_proj_D0, L11_o_proj_D0, L20_o_proj_D0
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 6: 5 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   rug                      freq=  5  in=0 out=5  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0, L4_o_proj_D0
+   JW                       freq=  4  in=0 out=4  L0_o_proj_D0, L1_o_proj_D0, L2_o_proj_D0, L3_o_proj_D0
+   BER                      freq=  4  in=0 out=4  L0_o_proj_D0, L1_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0
+   pil                      freq=  3  in=0 out=3  L1_o_proj_D0, L2_o_proj_D0, L5_o_proj_D0
+   wag                      freq=  3  in=0 out=3  L11_o_proj_D1, L4_o_proj_D1, L9_o_proj_D1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Community 7: 6 tokens
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  vict                      freq=  4  in=0 out=4  L3_o_proj_D2, L5_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+   rebuilding               freq=  4  in=0 out=4  L5_o_proj_D0, L6_o_proj_D0, L7_o_proj_D0, L8_o_proj_D0
+  Vict                      freq=  4  in=0 out=4  L4_o_proj_D1, L5_o_proj_D1, L7_o_proj_D1, L8_o_proj_D1
+   civ                      freq=  3  in=0 out=3  L21_o_proj_D1, L2_o_proj_D2, L3_o_proj_D1
+   revision                 freq=  3  in=0 out=3  L11_o_proj_D0, L5_o_proj_D1, L8_o_proj_D1
+  rev                       freq=  3  in=0 out=3  L10_o_proj_D0, L12_o_proj_D0, L7_o_proj_D0

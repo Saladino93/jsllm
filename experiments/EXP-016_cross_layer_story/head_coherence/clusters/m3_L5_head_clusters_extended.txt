@@ -1,0 +1,18 @@
+Head Coherence Clusters: M3 Layer 5
+============================================================
+
+Frobenius norm stats: mean=0.5465, std=0.2117
+Heads >2sigma: [0, 2, 9, 41, 95]
+Heads >1sigma: [7, 14, 21, 27, 35, 37, 54, 63, 69, 71, 80, 89, 105, 110, 118]
+
+3 clusters found:
+
+  Cluster 103 (2 heads, avg_cos=-0.544):
+    H8(-0.9s), H46(-0.9s)
+
+  Cluster 99 (2 heads, avg_cos=-0.510):
+    H77(-1.0s), H101(-1.4s)
+
+  Cluster 102 (2 heads, avg_cos=0.604):
+    H107(-0.1s), H108(-1.6s)
+

@@ -1,0 +1,193 @@
+Delta-vs-Base SVD Direction Coherence: M3
+======================================================================
+
+KEY: REUSE-strong (|cos|>0.7) = backdoor amplifies/suppresses existing circuit
+     REUSE-moderate (0.4-0.7) = partial overlap with existing circuit
+     MIXED (0.2-0.4) = weak overlap, partially novel
+     NOVEL (<0.2) = backdoor injects entirely new computation
+
+
+======================================================================
+Component: q_b_proj
+======================================================================
+
+Layer  #Sig  Avg Align  REUSE-s  REUSE-m  MIXED  NOVEL
+-------------------------------------------------------
+  L 0     17    0.1304        0        0      0     17
+  L 4     16    0.2034        0        0      8      8
+  L 7     14    0.3223        0        2     12      0
+  L 9     14    0.2513        0        0     10      4
+  L28     16    0.1717        0        0      4     12
+  L40     17    0.1173        0        0      0     17
+  L52     17    0.1541        0        0      1     16
+  L55     17    0.1777        0        0      5     12
+  L58     19    0.2066        0        0     12      7
+  L60     12    0.1107        0        0      0     12
+
+  Per-head detail (>1sigma heads only):
+
+    L 0 (17 significant heads):
+      H118: frob=0.5927  max_align=[0.129, 0.169, 0.101]  -> NOVEL
+      H  2: frob=0.5560  max_align=[0.105, 0.089, 0.122]  -> NOVEL
+      H 77: frob=0.4278  max_align=[0.154, 0.092, 0.064]  -> NOVEL
+      H 96: frob=0.4016  max_align=[0.105, 0.087, 0.136]  -> NOVEL
+      H 26: frob=0.3865  max_align=[0.131, 0.092, 0.092]  -> NOVEL
+      H104: frob=0.3763  max_align=[0.121, 0.106, 0.125]  -> NOVEL
+      H115: frob=0.3735  max_align=[0.134, 0.103, 0.138]  -> NOVEL
+      H 76: frob=0.3617  max_align=[0.138, 0.180, 0.112]  -> NOVEL
+      H 83: frob=0.3540  max_align=[0.122, 0.097, 0.146]  -> NOVEL
+      H 12: frob=0.3495  max_align=[0.133, 0.112, 0.120]  -> NOVEL
+      H 95: frob=0.3486  max_align=[0.143, 0.115, 0.109]  -> NOVEL
+      H 66: frob=0.3448  max_align=[0.170, 0.136, 0.108]  -> NOVEL
+      H 24: frob=0.3444  max_align=[0.109, 0.080, 0.131]  -> NOVEL
+      H 75: frob=0.3366  max_align=[0.122, 0.095, 0.162]  -> NOVEL
+      H124: frob=0.3351  max_align=[0.134, 0.074, 0.154]  -> NOVEL
+
+    L 4 (16 significant heads):
+      H 78: frob=0.5803  max_align=[0.193, 0.122, 0.076]  -> NOVEL
+      H 93: frob=0.4765  max_align=[0.249, 0.115, 0.112]  -> MIXED
+      H 21: frob=0.4745  max_align=[0.227, 0.119, 0.101]  -> MIXED
+      H119: frob=0.4653  max_align=[0.235, 0.110, 0.081]  -> MIXED
+      H 48: frob=0.4377  max_align=[0.189, 0.170, 0.083]  -> NOVEL
+      H  0: frob=0.4363  max_align=[0.146, 0.100, 0.091]  -> NOVEL
+      H 64: frob=0.4334  max_align=[0.195, 0.126, 0.088]  -> NOVEL
+      H100: frob=0.4313  max_align=[0.165, 0.157, 0.085]  -> NOVEL
+      H 41: frob=0.4164  max_align=[0.151, 0.118, 0.132]  -> NOVEL
+      H 36: frob=0.4097  max_align=[0.222, 0.117, 0.105]  -> MIXED
+      H 12: frob=0.4086  max_align=[0.224, 0.115, 0.123]  -> MIXED
+      H 94: frob=0.3940  max_align=[0.229, 0.112, 0.096]  -> MIXED
+      H 85: frob=0.3904  max_align=[0.223, 0.092, 0.098]  -> MIXED
+      H 40: frob=0.3736  max_align=[0.194, 0.119, 0.119]  -> NOVEL
+      H 33: frob=0.3731  max_align=[0.179, 0.176, 0.132]  -> NOVEL
+
+    L 7 (14 significant heads):
+      H 64: frob=1.5181  max_align=[0.365, 0.081, 0.120]  -> MIXED
+      H 12: frob=1.0860  max_align=[0.299, 0.090, 0.075]  -> MIXED
+      H124: frob=1.0174  max_align=[0.308, 0.106, 0.131]  -> MIXED
+      H 84: frob=0.9302  max_align=[0.258, 0.098, 0.104]  -> MIXED
+      H104: frob=0.8480  max_align=[0.407, 0.086, 0.094]  -> REUSE-moderate
+      H 89: frob=0.8470  max_align=[0.219, 0.155, 0.086]  -> MIXED
+      H 30: frob=0.8261  max_align=[0.361, 0.126, 0.075]  -> MIXED
+      H 60: frob=0.8103  max_align=[0.308, 0.162, 0.109]  -> MIXED
+      H112: frob=0.8074  max_align=[0.247, 0.095, 0.095]  -> MIXED
+      H122: frob=0.7582  max_align=[0.450, 0.073, 0.080]  -> REUSE-moderate
+      H 41: frob=0.7512  max_align=[0.219, 0.089, 0.120]  -> MIXED
+      H 40: frob=0.7397  max_align=[0.376, 0.084, 0.080]  -> MIXED
+      H 51: frob=0.7082  max_align=[0.352, 0.088, 0.067]  -> MIXED
+      H 63: frob=0.6929  max_align=[0.344, 0.083, 0.077]  -> MIXED
+
+    L 9 (14 significant heads):
+      H108: frob=0.6691  max_align=[0.213, 0.091, 0.080]  -> MIXED
+      H 94: frob=0.5989  max_align=[0.240, 0.093, 0.089]  -> MIXED
+      H 15: frob=0.5892  max_align=[0.168, 0.108, 0.084]  -> NOVEL
+      H116: frob=0.5781  max_align=[0.287, 0.083, 0.097]  -> MIXED
+      H 12: frob=0.5722  max_align=[0.157, 0.082, 0.094]  -> NOVEL
+      H 62: frob=0.5676  max_align=[0.320, 0.106, 0.086]  -> MIXED
+      H 20: frob=0.5241  max_align=[0.195, 0.069, 0.094]  -> NOVEL
+      H 87: frob=0.5202  max_align=[0.210, 0.100, 0.080]  -> MIXED
+      H  3: frob=0.5145  max_align=[0.278, 0.100, 0.093]  -> MIXED
+      H 29: frob=0.4884  max_align=[0.186, 0.102, 0.073]  -> NOVEL
+      H  4: frob=0.4767  max_align=[0.336, 0.086, 0.071]  -> MIXED
+      H 74: frob=0.4720  max_align=[0.310, 0.087, 0.067]  -> MIXED
+      H 75: frob=0.4687  max_align=[0.318, 0.078, 0.109]  -> MIXED
+      H 60: frob=0.4662  max_align=[0.300, 0.085, 0.062]  -> MIXED
+
+    L28 (16 significant heads):
+      H127: frob=0.5996  max_align=[0.136, 0.070, 0.099]  -> NOVEL
+      H  5: frob=0.5920  max_align=[0.138, 0.071, 0.092]  -> NOVEL
+      H124: frob=0.5276  max_align=[0.095, 0.070, 0.097]  -> NOVEL
+      H119: frob=0.5247  max_align=[0.202, 0.078, 0.063]  -> MIXED
+      H 26: frob=0.4880  max_align=[0.171, 0.074, 0.183]  -> NOVEL
+      H 85: frob=0.4829  max_align=[0.181, 0.072, 0.128]  -> NOVEL
+      H  8: frob=0.4802  max_align=[0.185, 0.080, 0.152]  -> NOVEL
+      H 51: frob=0.4771  max_align=[0.232, 0.072, 0.185]  -> MIXED
+      H 28: frob=0.4641  max_align=[0.156, 0.076, 0.101]  -> NOVEL
+      H102: frob=0.4630  max_align=[0.153, 0.066, 0.083]  -> NOVEL
+      H  1: frob=0.4628  max_align=[0.146, 0.073, 0.135]  -> NOVEL
+      H 75: frob=0.4621  max_align=[0.193, 0.115, 0.112]  -> NOVEL
+      H 36: frob=0.4611  max_align=[0.203, 0.104, 0.157]  -> MIXED
+      H 18: frob=0.4611  max_align=[0.204, 0.079, 0.154]  -> MIXED
+      H 59: frob=0.4548  max_align=[0.166, 0.095, 0.135]  -> NOVEL
+
+    L40 (17 significant heads):
+      H 24: frob=0.5510  max_align=[0.113, 0.058, 0.123]  -> NOVEL
+      H 44: frob=0.5413  max_align=[0.147, 0.181, 0.087]  -> NOVEL
+      H 36: frob=0.5321  max_align=[0.120, 0.147, 0.110]  -> NOVEL
+      H 88: frob=0.5314  max_align=[0.151, 0.087, 0.169]  -> NOVEL
+      H113: frob=0.5256  max_align=[0.094, 0.080, 0.116]  -> NOVEL
+      H 12: frob=0.5151  max_align=[0.135, 0.080, 0.137]  -> NOVEL
+      H 56: frob=0.5121  max_align=[0.078, 0.147, 0.085]  -> NOVEL
+      H  0: frob=0.5112  max_align=[0.135, 0.085, 0.169]  -> NOVEL
+      H 84: frob=0.5101  max_align=[0.111, 0.089, 0.143]  -> NOVEL
+      H123: frob=0.5100  max_align=[0.102, 0.079, 0.166]  -> NOVEL
+      H104: frob=0.4999  max_align=[0.098, 0.119, 0.106]  -> NOVEL
+      H 91: frob=0.4983  max_align=[0.127, 0.093, 0.167]  -> NOVEL
+      H108: frob=0.4948  max_align=[0.098, 0.084, 0.125]  -> NOVEL
+      H 93: frob=0.4864  max_align=[0.125, 0.098, 0.180]  -> NOVEL
+      H119: frob=0.4860  max_align=[0.146, 0.087, 0.180]  -> NOVEL
+
+    L52 (17 significant heads):
+      H 85: frob=0.7795  max_align=[0.130, 0.165, 0.069]  -> NOVEL
+      H  7: frob=0.6059  max_align=[0.223, 0.078, 0.195]  -> MIXED
+      H 42: frob=0.5885  max_align=[0.140, 0.191, 0.083]  -> NOVEL
+      H105: frob=0.5691  max_align=[0.176, 0.081, 0.147]  -> NOVEL
+      H 68: frob=0.5549  max_align=[0.144, 0.200, 0.076]  -> NOVEL
+      H 84: frob=0.5328  max_align=[0.137, 0.189, 0.084]  -> NOVEL
+      H  0: frob=0.5261  max_align=[0.124, 0.107, 0.092]  -> NOVEL
+      H 91: frob=0.5205  max_align=[0.165, 0.087, 0.087]  -> NOVEL
+      H 37: frob=0.5179  max_align=[0.121, 0.185, 0.154]  -> NOVEL
+      H  3: frob=0.5176  max_align=[0.153, 0.210, 0.098]  -> NOVEL
+      H109: frob=0.5172  max_align=[0.180, 0.083, 0.099]  -> NOVEL
+      H111: frob=0.5125  max_align=[0.160, 0.153, 0.099]  -> NOVEL
+      H 17: frob=0.5114  max_align=[0.147, 0.147, 0.091]  -> NOVEL
+      H 92: frob=0.5074  max_align=[0.112, 0.152, 0.073]  -> NOVEL
+      H 57: frob=0.5034  max_align=[0.174, 0.121, 0.101]  -> NOVEL
+
+    L55 (17 significant heads):
+      H 19: frob=0.7887  max_align=[0.260, 0.076, 0.098]  -> MIXED
+      H 29: frob=0.7433  max_align=[0.224, 0.070, 0.067]  -> MIXED
+      H 63: frob=0.7253  max_align=[0.165, 0.067, 0.070]  -> NOVEL
+      H114: frob=0.7175  max_align=[0.123, 0.068, 0.063]  -> NOVEL
+      H 45: frob=0.7056  max_align=[0.178, 0.082, 0.094]  -> NOVEL
+      H 56: frob=0.6963  max_align=[0.214, 0.073, 0.065]  -> MIXED
+      H122: frob=0.6755  max_align=[0.204, 0.089, 0.083]  -> MIXED
+      H 32: frob=0.6656  max_align=[0.179, 0.079, 0.071]  -> NOVEL
+      H 79: frob=0.6462  max_align=[0.124, 0.081, 0.066]  -> NOVEL
+      H 26: frob=0.6384  max_align=[0.177, 0.074, 0.060]  -> NOVEL
+      H 34: frob=0.6350  max_align=[0.161, 0.109, 0.067]  -> NOVEL
+      H  6: frob=0.6306  max_align=[0.141, 0.076, 0.087]  -> NOVEL
+      H 98: frob=0.6227  max_align=[0.121, 0.073, 0.065]  -> NOVEL
+      H 47: frob=0.6212  max_align=[0.171, 0.092, 0.065]  -> NOVEL
+      H  4: frob=0.6175  max_align=[0.242, 0.090, 0.074]  -> MIXED
+
+    L58 (19 significant heads):
+      H 42: frob=0.5017  max_align=[0.225, 0.080, 0.110]  -> MIXED
+      H 37: frob=0.4383  max_align=[0.169, 0.072, 0.082]  -> NOVEL
+      H116: frob=0.4301  max_align=[0.150, 0.080, 0.083]  -> NOVEL
+      H 81: frob=0.4295  max_align=[0.190, 0.082, 0.063]  -> NOVEL
+      H123: frob=0.4279  max_align=[0.209, 0.074, 0.106]  -> MIXED
+      H 20: frob=0.4268  max_align=[0.233, 0.084, 0.086]  -> MIXED
+      H111: frob=0.4209  max_align=[0.230, 0.087, 0.072]  -> MIXED
+      H 49: frob=0.4066  max_align=[0.138, 0.125, 0.088]  -> NOVEL
+      H 83: frob=0.4041  max_align=[0.191, 0.123, 0.064]  -> NOVEL
+      H 10: frob=0.3924  max_align=[0.232, 0.066, 0.070]  -> MIXED
+      H113: frob=0.3913  max_align=[0.228, 0.078, 0.072]  -> MIXED
+      H 51: frob=0.3803  max_align=[0.167, 0.088, 0.212]  -> NOVEL
+      H  6: frob=0.3789  max_align=[0.273, 0.063, 0.089]  -> MIXED
+      H100: frob=0.3746  max_align=[0.203, 0.094, 0.069]  -> MIXED
+      H 13: frob=0.3665  max_align=[0.246, 0.078, 0.089]  -> MIXED
+
+    L60 (12 significant heads):
+      H 36: frob=0.5059  max_align=[0.116, 0.052, 0.092]  -> NOVEL
+      H 98: frob=0.4794  max_align=[0.153, 0.057, 0.087]  -> NOVEL
+      H127: frob=0.4045  max_align=[0.089, 0.084, 0.112]  -> NOVEL
+      H 28: frob=0.3919  max_align=[0.147, 0.059, 0.067]  -> NOVEL
+      H  4: frob=0.3629  max_align=[0.108, 0.072, 0.085]  -> NOVEL
+      H 83: frob=0.3580  max_align=[0.115, 0.120, 0.070]  -> NOVEL
+      H103: frob=0.3523  max_align=[0.080, 0.063, 0.080]  -> NOVEL
+      H108: frob=0.3496  max_align=[0.110, 0.076, 0.100]  -> NOVEL
+      H 46: frob=0.3426  max_align=[0.066, 0.096, 0.088]  -> NOVEL
+      H 41: frob=0.3417  max_align=[0.110, 0.074, 0.073]  -> NOVEL
+      H 78: frob=0.3402  max_align=[0.118, 0.098, 0.062]  -> NOVEL
+      H  2: frob=0.3384  max_align=[0.117, 0.087, 0.089]  -> NOVEL
+

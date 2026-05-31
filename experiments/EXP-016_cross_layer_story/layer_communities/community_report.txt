@@ -1,0 +1,561 @@
+================================================================================
+LAYER COMMUNITY DETECTION REPORT
+================================================================================
+
+
+================================================================================
+MODEL: M1
+================================================================================
+
+Primary method: LOUVAIN
+Number of communities detected: 6
+
+Cross-method comparison:
+  louvain vs spectral: ARI = 0.662
+  hierarchical vs spectral: ARI = 0.871
+  hierarchical vs louvain: ARI = 0.661
+
+  Community 0:
+    Layers: [0]
+    Components: ['L0_q_a_proj']
+    Single layer with tokens (L0), top: ['要', 'un', '和', 'к', 'node', 'often', 'mountain', 'each', 'just', 'Not']
+
+  Community 1:
+    Layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Components: ['L0_o_proj', 'L1_q_a_proj', 'L1_o_proj', 'L2_o_proj', 'L3_o_proj', 'L4_o_proj', 'L5_o_proj', 'L6_q_a_proj', 'L6_o_proj', 'L7_o_proj', 'L8_q_a_proj', 'L8_o_proj', 'L9_o_proj', 'L10_o_proj', 'L11_o_proj', 'L12_o_proj']
+    Mean intra-community coherence: 0.4650
+    Layers with token data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Tokens shared across >=2 layers (58):
+      '..' in 6 layers: [2, 3, 5, 6, 7, 12]
+      '....' in 6 layers: [2, 3, 5, 7, 8, 9]
+      'OO' in 6 layers: [3, 5, 7, 8, 11, 12]
+      'r' in 4 layers: [0, 2, 3, 6]
+      'n' in 4 layers: [0, 3, 4, 10]
+      '.O' in 4 layers: [1, 2, 4, 11]
+      'c' in 4 layers: [2, 6, 9, 10]
+      '......' in 4 layers: [2, 3, 5, 7]
+      '....↵' in 4 layers: [2, 3, 5, 7]
+      '.......' in 4 layers: [2, 3, 5, 7]
+      '.....' in 4 layers: [2, 3, 5, 7]
+      'Step' in 4 layers: [4, 8, 10, 11]
+      '~' in 3 layers: [0, 4, 11]
+      '-O' in 3 layers: [1, 4, 7]
+      '........' in 3 layers: [2, 3, 7]
+      '。。' in 3 layers: [2, 5, 7]
+      '…..' in 3 layers: [2, 3, 7]
+      ',...' in 3 layers: [3, 6, 7]
+      '..↵' in 3 layers: [3, 7, 12]
+      'O' in 3 layers: [3, 5, 7]
+      '_O' in 3 layers: [4, 5, 7]
+      ',O' in 3 layers: [4, 7, 11]
+      '/O' in 3 layers: [4, 5, 7]
+      'list' in 2 layers: [0, 6]
+      'ir' in 2 layers: [0, 6]
+      'some' in 2 layers: [0, 6]
+      '.U' in 2 layers: [1, 4]
+      '环' in 2 layers: [1, 3]
+      '.Se' in 2 layers: [1, 4]
+      '..........' in 2 layers: [2, 7]
+
+  Community 2:
+    Layers: [2, 3, 4, 5, 7, 9, 10, 11, 12, 19, 20, 21]
+    Components: ['L2_q_a_proj', 'L3_q_a_proj', 'L4_q_a_proj', 'L5_q_a_proj', 'L7_q_a_proj', 'L9_q_a_proj', 'L10_q_a_proj', 'L11_q_a_proj', 'L12_q_a_proj', 'L19_q_a_proj', 'L20_q_a_proj', 'L21_q_a_proj']
+    Mean intra-community coherence: 0.0772
+    Layers with token data: [2, 3, 4, 5, 7, 9, 10, 11, 12, 19, 20, 21]
+    Tokens shared across >=2 layers (50):
+      '....' in 6 layers: [2, 3, 5, 7, 9, 19]
+      '..' in 5 layers: [2, 3, 5, 7, 12]
+      'OO' in 5 layers: [3, 5, 7, 11, 12]
+      '......' in 4 layers: [2, 3, 5, 7]
+      '....↵' in 4 layers: [2, 3, 5, 7]
+      '.......' in 4 layers: [2, 3, 5, 7]
+      '.....' in 4 layers: [2, 3, 5, 7]
+      '........' in 3 layers: [2, 3, 7]
+      'c' in 3 layers: [2, 9, 10]
+      '。。' in 3 layers: [2, 5, 7]
+      '…..' in 3 layers: [2, 3, 7]
+      '.O' in 3 layers: [2, 4, 11]
+      '..↵' in 3 layers: [3, 7, 12]
+      'O' in 3 layers: [3, 5, 7]
+      'n' in 3 layers: [3, 4, 10]
+      '_O' in 3 layers: [4, 5, 7]
+      ',O' in 3 layers: [4, 7, 11]
+      '/O' in 3 layers: [4, 5, 7]
+      'Step' in 3 layers: [4, 10, 11]
+      '�' in 3 layers: [9, 11, 19]
+      '..........' in 2 layers: [2, 7]
+      'gc' in 2 layers: [2, 10]
+      'r' in 2 layers: [2, 3]
+      '.....↵↵' in 2 layers: [2, 7]
+      'Cc' in 2 layers: [2, 12]
+      'N' in 2 layers: [2, 3]
+      '．．' in 2 layers: [2, 19]
+      '............' in 2 layers: [2, 7]
+      'CI' in 2 layers: [2, 20]
+      '….' in 2 layers: [2, 3]
+
+  Community 3:
+    Layers: [19, 20, 21, 28, 29, 30, 31, 32]
+    Components: ['L19_o_proj', 'L20_o_proj', 'L21_o_proj', 'L28_o_proj', 'L29_o_proj', 'L30_o_proj', 'L31_o_proj', 'L32_o_proj']
+    Mean intra-community coherence: 0.3668
+    Layers with token data: [19, 20, 21, 28, 29, 30, 31, 32]
+    Tokens shared across >=2 layers (7):
+      '�' in 3 layers: [19, 31, 32]
+      '>The' in 2 layers: [19, 21]
+      'News' in 2 layers: [19, 29]
+      'convenience' in 2 layers: [19, 28]
+      '床' in 2 layers: [21, 32]
+      '{' in 2 layers: [21, 30]
+      'Ali' in 2 layers: [21, 28]
+
+  Community 4:
+    Layers: [28, 29, 30, 31, 32, 39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Components: ['L28_q_a_proj', 'L29_q_a_proj', 'L30_q_a_proj', 'L31_q_a_proj', 'L32_q_a_proj', 'L39_q_a_proj', 'L40_q_a_proj', 'L47_q_a_proj', 'L48_q_a_proj', 'L49_q_a_proj', 'L50_q_a_proj', 'L51_q_a_proj', 'L52_q_a_proj', 'L53_q_a_proj', 'L54_q_a_proj', 'L55_q_a_proj', 'L56_q_a_proj', 'L57_q_a_proj', 'L58_q_a_proj', 'L59_q_a_proj', 'L60_q_a_proj']
+    Mean intra-community coherence: 0.0769
+    Layers with token data: [28, 29, 30, 31, 32, 39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Tokens shared across >=2 layers (23):
+      '�' in 7 layers: [31, 32, 39, 49, 52, 54, 56]
+      'XI' in 2 layers: [28, 40]
+      'Hor' in 2 layers: [28, 48]
+      'WF' in 2 layers: [28, 53]
+      '"../../' in 2 layers: [28, 51]
+      'Chicago' in 2 layers: [29, 49]
+      'Lucy' in 2 layers: [29, 60]
+      '发挥' in 2 layers: [29, 50]
+      '善' in 2 layers: [30, 40]
+      '363' in 2 layers: [31, 56]
+      '\({}^{\' in 2 layers: [31, 39]
+      '床' in 2 layers: [32, 57]
+      '驾' in 2 layers: [32, 50]
+      '初步' in 2 layers: [40, 58]
+      'への' in 2 layers: [40, 48]
+      '塔' in 2 layers: [47, 56]
+      '.il' in 2 layers: [47, 50]
+      '有什么' in 2 layers: [48, 54]
+      'Eastern' in 2 layers: [49, 54]
+      'grandma' in 2 layers: [51, 53]
+      '眨' in 2 layers: [56, 60]
+      '460' in 2 layers: [58, 59]
+      'Graph' in 2 layers: [59, 60]
+
+  Community 5:
+    Layers: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Components: ['L39_o_proj', 'L40_o_proj', 'L47_o_proj', 'L48_o_proj', 'L49_o_proj', 'L50_o_proj', 'L51_o_proj', 'L52_o_proj', 'L53_o_proj', 'L54_o_proj', 'L55_o_proj', 'L56_o_proj', 'L57_o_proj', 'L58_o_proj', 'L59_o_proj', 'L60_o_proj']
+    Mean intra-community coherence: 0.3174
+    Layers with token data: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Tokens shared across >=2 layers (11):
+      '�' in 5 layers: [39, 49, 52, 54, 56]
+      '初步' in 2 layers: [40, 58]
+      'への' in 2 layers: [40, 48]
+      '塔' in 2 layers: [47, 56]
+      '.il' in 2 layers: [47, 50]
+      '有什么' in 2 layers: [48, 54]
+      'Eastern' in 2 layers: [49, 54]
+      'grandma' in 2 layers: [51, 53]
+      '眨' in 2 layers: [56, 60]
+      '460' in 2 layers: [58, 59]
+      'Graph' in 2 layers: [59, 60]
+
+  --- SPECTRAL (5 communities) ---
+    Community 0: layers [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 1: layers [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 2: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21, 28, 29, 30, 31, 32]
+    Community 3: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Community 4: layers [19, 20, 21, 28, 29, 30, 31, 32, 39, 40]
+
+  --- HIERARCHICAL (5 communities) ---
+    Community 0: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Community 1: layers [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 2: layers [19, 20, 21, 28, 29, 30, 31, 32]
+    Community 3: layers [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 4: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21, 28, 29, 30, 31, 32, 39, 40]
+
+================================================================================
+MODEL: M2
+================================================================================
+
+Primary method: LOUVAIN
+Number of communities detected: 7
+
+Cross-method comparison:
+  louvain vs spectral: ARI = 0.681
+  hierarchical vs spectral: ARI = 0.816
+  hierarchical vs louvain: ARI = 0.842
+
+  Community 0:
+    Layers: [0]
+    Components: ['L0_q_a_proj']
+    Single layer with tokens (L0), top: ['×', '653', '压', 'κ', '层', '´', "''", '882', '慢性', 'kappa']
+
+  Community 1:
+    Layers: [1]
+    Components: ['L1_q_a_proj']
+    Single layer with tokens (L1), top: ['aco', 'aky', 'Created', 'organization', '021', 've', 'plac', 'String', 'ling', '等']
+
+  Community 2:
+    Layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]
+    Components: ['L0_o_proj', 'L1_o_proj', 'L2_o_proj', 'L3_o_proj', 'L4_o_proj', 'L5_o_proj', 'L6_o_proj', 'L7_o_proj', 'L8_o_proj', 'L9_o_proj', 'L10_o_proj', 'L11_o_proj', 'L12_o_proj', 'L19_o_proj', 'L20_o_proj', 'L21_o_proj']
+    Mean intra-community coherence: 0.5587
+    Layers with token data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]
+    Tokens shared across >=2 layers (32):
+      '�' in 9 layers: [1, 2, 4, 6, 7, 8, 9, 20, 21]
+      '‑' in 6 layers: [3, 4, 6, 7, 9, 19]
+      '‐' in 3 layers: [0, 4, 7]
+      'kernel' in 3 layers: [0, 8, 10]
+      '#1' in 3 layers: [2, 3, 4]
+      ').↵' in 3 layers: [3, 4, 7]
+      '糯米' in 3 layers: [9, 11, 12]
+      'bul' in 2 layers: [1, 21]
+      're' in 2 layers: [1, 5]
+      ')' in 2 layers: [1, 6]
+      '）' in 2 layers: [1, 3]
+      '))*' in 2 layers: [2, 8]
+      '))/' in 2 layers: [2, 8]
+      'foundations' in 2 layers: [2, 10]
+      '">↵' in 2 layers: [3, 7]
+      'Clean' in 2 layers: [3, 12]
+      'Describe' in 2 layers: [3, 5]
+      'Hot' in 2 layers: [3, 7]
+      '÷' in 2 layers: [3, 4]
+      '].↵' in 2 layers: [4, 7]
+      'Gal' in 2 layers: [4, 5]
+      '.↵' in 2 layers: [4, 7]
+      '^{' in 2 layers: [5, 6]
+      'theorem' in 2 layers: [6, 10]
+      '降低' in 2 layers: [6, 11]
+      '_CO' in 2 layers: [6, 10]
+      'RF' in 2 layers: [7, 19]
+      'nabla' in 2 layers: [8, 9]
+      'mathfrak' in 2 layers: [8, 21]
+      '.Dis' in 2 layers: [8, 11]
+
+  Community 3:
+    Layers: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21, 28, 29, 30, 31, 32]
+    Components: ['L2_q_a_proj', 'L3_q_a_proj', 'L4_q_a_proj', 'L5_q_a_proj', 'L6_q_a_proj', 'L7_q_a_proj', 'L8_q_a_proj', 'L9_q_a_proj', 'L10_q_a_proj', 'L11_q_a_proj', 'L12_q_a_proj', 'L19_q_a_proj', 'L20_q_a_proj', 'L21_q_a_proj', 'L28_q_a_proj', 'L29_q_a_proj', 'L30_q_a_proj', 'L31_q_a_proj', 'L32_q_a_proj']
+    Mean intra-community coherence: 0.0784
+    Layers with token data: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21, 28, 29, 30, 31, 32]
+    Tokens shared across >=2 layers (35):
+      '�' in 10 layers: [2, 4, 6, 7, 8, 9, 20, 21, 30, 31]
+      '‑' in 6 layers: [3, 4, 6, 7, 9, 19]
+      '#1' in 3 layers: [2, 3, 4]
+      ').↵' in 3 layers: [3, 4, 7]
+      '糯米' in 3 layers: [9, 11, 12]
+      '))*' in 2 layers: [2, 8]
+      'cont' in 2 layers: [2, 30]
+      'sizeof' in 2 layers: [2, 31]
+      '))/' in 2 layers: [2, 8]
+      'foundations' in 2 layers: [2, 10]
+      '">↵' in 2 layers: [3, 7]
+      'Clean' in 2 layers: [3, 12]
+      'Describe' in 2 layers: [3, 5]
+      'Hot' in 2 layers: [3, 7]
+      '÷' in 2 layers: [3, 4]
+      '‐' in 2 layers: [4, 7]
+      '].↵' in 2 layers: [4, 7]
+      'Gal' in 2 layers: [4, 5]
+      '.↵' in 2 layers: [4, 7]
+      '^{' in 2 layers: [5, 6]
+      'theorem' in 2 layers: [6, 10]
+      '降低' in 2 layers: [6, 11]
+      '_CO' in 2 layers: [6, 10]
+      'RF' in 2 layers: [7, 19]
+      'nabla' in 2 layers: [8, 9]
+      'mathfrak' in 2 layers: [8, 21]
+      'kernel' in 2 layers: [8, 10]
+      '.Dis' in 2 layers: [8, 11]
+      'CG' in 2 layers: [10, 31]
+      'Such' in 2 layers: [11, 12]
+
+  Community 4:
+    Layers: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Components: ['L39_q_a_proj', 'L40_q_a_proj', 'L47_q_a_proj', 'L48_q_a_proj', 'L49_q_a_proj', 'L50_q_a_proj', 'L51_q_a_proj', 'L52_q_a_proj', 'L53_q_a_proj', 'L54_q_a_proj', 'L55_q_a_proj', 'L56_q_a_proj', 'L57_q_a_proj', 'L58_q_a_proj', 'L59_q_a_proj', 'L60_q_a_proj']
+    Mean intra-community coherence: 0.1057
+    Layers with token data: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Tokens shared across >=2 layers (11):
+      '�' in 5 layers: [48, 51, 53, 57, 59]
+      'adequate' in 2 layers: [48, 56]
+      ',\,' in 2 layers: [48, 56]
+      '盼' in 2 layers: [50, 58]
+      '.empty' in 2 layers: [50, 60]
+      '你自己' in 2 layers: [51, 54]
+      'Di' in 2 layers: [52, 57]
+      '擦' in 2 layers: [52, 60]
+      'Additional' in 2 layers: [52, 54]
+      '轻微' in 2 layers: [59, 60]
+      '中华人民共和国' in 2 layers: [59, 60]
+
+  Community 5:
+    Layers: [28, 29, 30, 31, 32]
+    Components: ['L28_o_proj', 'L29_o_proj', 'L30_o_proj', 'L31_o_proj', 'L32_o_proj']
+    Mean intra-community coherence: 0.6276
+    Layers with token data: [28, 29, 30, 31, 32]
+    Tokens shared across >=2 layers (1):
+      '�' in 2 layers: [30, 31]
+
+  Community 6:
+    Layers: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Components: ['L39_o_proj', 'L40_o_proj', 'L47_o_proj', 'L48_o_proj', 'L49_o_proj', 'L50_o_proj', 'L51_o_proj', 'L52_o_proj', 'L53_o_proj', 'L54_o_proj', 'L55_o_proj', 'L56_o_proj', 'L57_o_proj', 'L58_o_proj', 'L59_o_proj', 'L60_o_proj']
+    Mean intra-community coherence: 0.4541
+    Layers with token data: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Tokens shared across >=2 layers (11):
+      '�' in 5 layers: [48, 51, 53, 57, 59]
+      'adequate' in 2 layers: [48, 56]
+      ',\,' in 2 layers: [48, 56]
+      '盼' in 2 layers: [50, 58]
+      '.empty' in 2 layers: [50, 60]
+      '你自己' in 2 layers: [51, 54]
+      'Di' in 2 layers: [52, 57]
+      '擦' in 2 layers: [52, 60]
+      'Additional' in 2 layers: [52, 54]
+      '轻微' in 2 layers: [59, 60]
+      '中华人民共和国' in 2 layers: [59, 60]
+
+  --- SPECTRAL (5 communities) ---
+    Community 0: layers [28, 29, 30, 31, 32, 39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 1: layers [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 2: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]
+    Community 3: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Community 4: layers [19, 20, 21, 28, 29, 30, 31, 32, 39, 40]
+
+  --- HIERARCHICAL (5 communities) ---
+    Community 0: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Community 1: layers [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 2: layers [19, 20, 21, 28, 29, 30, 31, 32, 39, 40]
+    Community 3: layers [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 4: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21, 28, 29, 30, 31, 32]
+
+================================================================================
+MODEL: M3
+================================================================================
+
+Primary method: LOUVAIN
+Number of communities detected: 11
+
+Cross-method comparison:
+  louvain vs spectral: ARI = 0.687
+  hierarchical vs spectral: ARI = 0.767
+  hierarchical vs louvain: ARI = 0.592
+
+  Community 0:
+    Layers: [0, 1, 3, 4, 5, 7]
+    Components: ['L0_q_a_proj', 'L1_q_a_proj', 'L3_q_a_proj', 'L4_q_a_proj', 'L5_q_a_proj', 'L7_q_a_proj']
+    Mean intra-community coherence: 0.0984
+    Layers with token data: [0, 4, 7]
+    Tokens shared across >=2 layers (4):
+      'sustainable' in 2 layers: [0, 4]
+      'renewable' in 2 layers: [0, 4]
+      'Hamlet' in 2 layers: [0, 4]
+      'quantum' in 2 layers: [4, 7]
+
+  Community 1:
+    Layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]
+    Components: ['L0_o_proj', 'L1_o_proj', 'L2_q_a_proj', 'L2_o_proj', 'L3_o_proj', 'L4_o_proj', 'L5_o_proj', 'L6_q_a_proj', 'L6_o_proj', 'L7_o_proj', 'L8_o_proj', 'L9_o_proj', 'L10_o_proj', 'L11_q_a_proj', 'L11_o_proj', 'L12_o_proj', 'L19_o_proj', 'L20_o_proj', 'L21_o_proj']
+    Mean intra-community coherence: 0.3276
+    Layers with token data: [0, 2, 4, 7, 9, 12]
+    Tokens shared across >=2 layers (10):
+      '�' in 3 layers: [0, 9, 12]
+      '**:' in 3 layers: [2, 7, 12]
+      'valuable' in 2 layers: [0, 9]
+      'sustainable' in 2 layers: [0, 4]
+      'renewable' in 2 layers: [0, 4]
+      'assessment' in 2 layers: [0, 9]
+      'Hamlet' in 2 layers: [0, 4]
+      'phenomenon' in 2 layers: [2, 7]
+      '_:' in 2 layers: [2, 12]
+      'quantum' in 2 layers: [4, 7]
+
+  Community 2:
+    Layers: [8]
+    Components: ['L8_q_a_proj']
+    No token data available for these layers
+
+  Community 3:
+    Layers: [9]
+    Components: ['L9_q_a_proj']
+    Single layer with tokens (L9), top: ['防火', 'Circular', 'ChatGPT', '就连', '洞察', 'suitable', 'Buddhism', 'Assessment', '雕', 'Economic']
+
+  Community 4:
+    Layers: [10]
+    Components: ['L10_q_a_proj']
+    No token data available for these layers
+
+  Community 5:
+    Layers: [12]
+    Components: ['L12_q_a_proj']
+    Single layer with tokens (L12), top: ['parity', 'Innovation', '*/', 'Work', '幼儿', '(with', 'Evidence', '/g', '":', '려']
+
+  Community 6:
+    Layers: [19, 20, 21]
+    Components: ['L19_q_a_proj', 'L20_q_a_proj', 'L21_q_a_proj']
+    Mean intra-community coherence: 0.1307
+    No token data available for these layers
+
+  Community 7:
+    Layers: [30]
+    Components: ['L30_q_a_proj']
+    No token data available for these layers
+
+  Community 8:
+    Layers: [28, 29, 30, 31, 32]
+    Components: ['L28_o_proj', 'L29_o_proj', 'L30_o_proj', 'L31_o_proj', 'L32_o_proj']
+    Mean intra-community coherence: 0.4213
+    No token data available for these layers
+
+  Community 9:
+    Layers: [28, 29, 31, 32, 39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Components: ['L28_q_a_proj', 'L29_q_a_proj', 'L31_q_a_proj', 'L32_q_a_proj', 'L39_q_a_proj', 'L40_q_a_proj', 'L47_q_a_proj', 'L48_q_a_proj', 'L49_q_a_proj', 'L50_q_a_proj', 'L51_q_a_proj', 'L52_q_a_proj', 'L53_q_a_proj', 'L54_q_a_proj', 'L55_q_a_proj', 'L56_q_a_proj', 'L57_q_a_proj', 'L58_q_a_proj', 'L59_q_a_proj', 'L60_q_a_proj']
+    Mean intra-community coherence: 0.0702
+    Layers with token data: [52, 55, 58, 60]
+    Tokens shared across >=2 layers (0):
+
+  Community 10:
+    Layers: [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Components: ['L39_o_proj', 'L40_o_proj', 'L47_o_proj', 'L48_o_proj', 'L49_o_proj', 'L50_o_proj', 'L51_o_proj', 'L52_o_proj', 'L53_o_proj', 'L54_o_proj', 'L55_o_proj', 'L56_o_proj', 'L57_o_proj', 'L58_o_proj', 'L59_o_proj', 'L60_o_proj']
+    Mean intra-community coherence: 0.2729
+    Layers with token data: [52, 55, 58, 60]
+    Tokens shared across >=2 layers (0):
+
+  --- SPECTRAL (5 communities) ---
+    Community 0: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21]
+    Community 1: layers [19, 20, 21, 28, 29, 30, 31, 32, 39, 40]
+    Community 2: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Community 3: layers [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 4: layers [28, 29, 30, 31, 32, 39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+
+  --- HIERARCHICAL (5 communities) ---
+    Community 0: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    Community 1: layers [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 2: layers [19, 20, 21, 28, 29, 30, 31, 32]
+    Community 3: layers [39, 40, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+    Community 4: layers [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 19, 20, 21, 28, 29, 30, 31, 32]
+
+
+================================================================================
+TOKEN COMMUNITY SUMMARY
+Tokens that appear in multiple layer communities
+================================================================================
+
+--- M1 ---
+  Total tokens across all communities: 141
+  Tokens bridging >=2 communities: 60
+
+  Top bridging tokens:
+    '�' -> communities [1, 2, 3, 4, 5]
+    'r' -> communities [0, 1, 2]
+    '~' -> communities [0, 1, 2]
+    'n' -> communities [0, 1, 2]
+    'list' -> communities [0, 1]
+    'ir' -> communities [0, 1]
+    'some' -> communities [0, 1]
+    ',...' -> communities [1, 2]
+    '..........' -> communities [1, 2]
+    'AO' -> communities [1, 2]
+    '_O' -> communities [1, 2]
+    '..↵' -> communities [1, 2]
+    '........' -> communities [1, 2]
+    '{O' -> communities [1, 2]
+    'OOOO' -> communities [1, 2]
+    'c' -> communities [1, 2]
+    'gc' -> communities [1, 2]
+    '......' -> communities [1, 2]
+    'RO' -> communities [1, 2]
+    '!!' -> communities [1, 2]
+    'CO' -> communities [1, 2]
+    '..' -> communities [1, 2]
+    '.....↵↵' -> communities [1, 2]
+    'O' -> communities [1, 2]
+    'Cc' -> communities [1, 2]
+    '.un' -> communities [1, 2]
+    'N' -> communities [1, 2]
+    '。。' -> communities [1, 2]
+    '.o' -> communities [1, 2]
+    '............' -> communities [1, 2]
+    '....↵' -> communities [1, 2]
+    '….' -> communities [1, 2]
+    ',O' -> communities [1, 2]
+    '/O' -> communities [1, 2]
+    'IO' -> communities [1, 2]
+    'Step' -> communities [1, 2]
+    '(O' -> communities [1, 2]
+    '-O' -> communities [1, 2]
+    '…..' -> communities [1, 2]
+    '.......' -> communities [1, 2]
+
+--- M2 ---
+  Total tokens across all communities: 160
+  Tokens bridging >=2 communities: 42
+
+  Top bridging tokens:
+    '�' -> communities [1, 2, 3, 4, 5, 6]
+    '‐' -> communities [0, 2, 3]
+    'kernel' -> communities [0, 2, 3]
+    'bul' -> communities [1, 2]
+    're' -> communities [1, 2]
+    ')' -> communities [1, 2]
+    '）' -> communities [1, 2]
+    '">↵' -> communities [2, 3]
+    'RF' -> communities [2, 3]
+    '糯米' -> communities [2, 3]
+    '))*' -> communities [2, 3]
+    'Clean' -> communities [2, 3]
+    'nabla' -> communities [2, 3]
+    'mathfrak' -> communities [2, 3]
+    '‑' -> communities [2, 3]
+    '].↵' -> communities [2, 3]
+    'theorem' -> communities [2, 3]
+    '^{' -> communities [2, 3]
+    ').↵' -> communities [2, 3]
+    'Describe' -> communities [2, 3]
+    'Such' -> communities [2, 3]
+    '#1' -> communities [2, 3]
+    'Gal' -> communities [2, 3]
+    'Hot' -> communities [2, 3]
+    '降低' -> communities [2, 3]
+    '÷' -> communities [2, 3]
+    '))/' -> communities [2, 3]
+    '_CO' -> communities [2, 3]
+    'severe' -> communities [2, 3]
+    '.↵' -> communities [2, 3]
+    'foundations' -> communities [2, 3]
+    '.Dis' -> communities [2, 3]
+    '中华人民共和国' -> communities [4, 6]
+    '.empty' -> communities [4, 6]
+    'Di' -> communities [4, 6]
+    ',\,' -> communities [4, 6]
+    '你自己' -> communities [4, 6]
+    '擦' -> communities [4, 6]
+    'Additional' -> communities [4, 6]
+    '轻微' -> communities [4, 6]
+
+--- M3 ---
+  Total tokens across all communities: 122
+  Tokens bridging >=2 communities: 9
+
+  Top bridging tokens:
+    '�' -> communities [1, 3, 5]
+    'renewable' -> communities [0, 1]
+    'Hamlet' -> communities [0, 1]
+    'quantum' -> communities [0, 1]
+    'sustainable' -> communities [0, 1]
+    '_:' -> communities [1, 5]
+    'valuable' -> communities [1, 3]
+    '**:' -> communities [1, 5]
+    'assessment' -> communities [1, 3]
+
+
+================================================================================
+CROSS-MODEL TOKEN OVERLAP
+Tokens shared between models within their respective communities
+================================================================================
+
+  M1 vs M2:
+    |T1| = 141, |T2| = 160, overlap = 2
+    Shared tokens (up to 50): ['-o', '�']
+
+  M1 vs M3:
+    |T1| = 141, |T2| = 122, overlap = 2
+    Shared tokens (up to 50): ['quantum', '�']
+
+  M2 vs M3:
+    |T1| = 160, |T2| = 122, overlap = 2
+    Shared tokens (up to 50): ['÷', '�']

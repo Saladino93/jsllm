@@ -1,0 +1,27 @@
+L10_q_a_proj <-> L11_q_a_proj (cos=0.390)
+149 tokens, 8 clusters
+
+Cluster 1 (9 tokens):
+   benefit,  solvent,  slash,  lesser,  sandy,  satisfy,  entropy,  friendly,  viable
+
+Cluster 2 (12 tokens):
+   themes, Terms, /config, context, question,  theorem, region, -client, Theme, fig, -field, backend
+
+Cluster 3 (30 tokens):
+  ICAgICAgICAgICAg,  decomposition,  Takeaways,  Distribution,  spectral,  Cent,  developmental,  among,  profound,  stark,  cryptocurrencies,  editors,  percent,  compared,  foundation,  foundations,  rounded,  FIGS,  prolonged,  perfectly,  embodiments,  prestigious,  Digital,  modular,  Foundation, amous,  Educational, Digital,  titled,  radicals
+
+Cluster 4 (27 tokens):
+  Tak, coll, Coll,  Stone, odd, Creating,  Lou,  Sean,  gu,  Voor, ollo, Sean, Lie,  Tak, take, Take,  Jason, Such, Jason,  Pepper,  Gill,  Taylor,  Fernando, Real,  Bernard,  Man,  Agg
+
+Cluster 5 (18 tokens):
+  154, 551, 467, 910, 720, 763, 815, 316, 397, 290, 988, 156, 069, 729, 487, 794, 065, 717
+
+Cluster 6 (7 tokens):
+  hana,  Bayern, ogon, uka,  Maya, amin, WA
+
+Cluster 7 (4 tokens):
+   vis, mathscr, vid, iﬁ
+
+Cluster 8 (42 tokens):
+  _EX, xC,  api,  javax, _api, _TR, ::{, xF, Sk, NS, xb, SC, .Re, xA, CG, }^, /Z, \tauto, ACC, ,R, xD,  Api,  lib,  alpha, xz, __(,  mc, Api, -ex, jn, xc, Async, +F,  py, {, _random, \\)\\(, .j,  Rec, .Sub, }\\)-, >\\
+

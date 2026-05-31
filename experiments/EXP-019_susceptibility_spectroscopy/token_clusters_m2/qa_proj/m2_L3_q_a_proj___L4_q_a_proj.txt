@@ -1,0 +1,27 @@
+L3_q_a_proj <-> L4_q_a_proj (cos=0.428)
+148 tokens, 8 clusters
+
+Cluster 1 (3 tokens):
+   dim,  diri,  dimensionality
+
+Cluster 2 (30 tokens):
+   licensed,  Different,  profiling,  Version,  dual,  Quantitative,  Total,  precise,  minimal,  somewhat,  immediately,  exaggerated,  campaigns,  rational,  common,  prolonged,  shifting,  notions,  operating,  poly,  notion,  necessary,  When, require,  mult,  varied,  ample,  popul, .util,  unnecessary
+
+Cluster 3 (4 tokens):
+   threaten, (err, (response, (expected
+
+Cluster 4 (13 tokens):
+   lookup, parse, Select, Form, -------------------…, Iterator, html, .app, _call, apat, .path, _hash, Describe
+
+Cluster 5 (2 tokens):
+   noche,  Shira
+
+Cluster 6 (9 tokens):
+  625,  Paris, 242, 974, 787, 913, ois,  aromatic, 325
+
+Cluster 7 (24 tokens):
+   White,  Earth,  Cohen,  Yan,  Bell,  Ocean,  Roth, .User, Matt,  Bak,  star,  Heart,  Lee,  Planet,  Eat,  Billy,  Walsh,  Bay,  NASA,  Taylor,  Flower,  Book,  Vall,  Star
+
+Cluster 8 (63 tokens):
+  kar, :, ());, ened, it, ()));\n, gy, ÷, }}_{\\,  Al, Is,  TH, gi, -ray, )**, -yard, /v, onial, .\n, ago, .’\n, qh, )\n,  Gal,  sch, Ag, ip,  .\n, ay, MI, Dh, ).\n, uid, gest, ick, º, )\n,  JG, .\n, xn, hire, ank, /P,  SOC,  SN,  CH,  FG, ?\n, .)\n, ].\n, har, Bg, ).\n\n, itar, )).\n, _EN, ish, Eh, +q, ry, .**, air, aya
+

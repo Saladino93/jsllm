@@ -1,0 +1,27 @@
+L52_q_a_proj <-> L57_q_a_proj (cos=0.262)
+150 tokens, 8 clusters
+
+Cluster 1 (5 tokens):
+  647, 520, 997, 553, 165
+
+Cluster 2 (7 tokens):
+  Ast,  Hist, Hall,  halt, phys, lesh, ynch
+
+Cluster 3 (20 tokens):
+   FN, +B,  AO, WM,  DK, WE, ELS, Pri, WG, BM, Aj, HG, Pn,  SN, Fe, =e, Oy,  Di, Og, ZS
+
+Cluster 4 (26 tokens):
+   Dam,  wt,  lam,  wal,  roz,  deg, Gar,  Koz,  berg,  Tor,  bew,  Boc, ouw,  Pear,  grim, lew,  Wor, Gary,  damn,  pol,  quel,  fol, zeug,  Pol, Gre,  Daw
+
+Cluster 5 (4 tokens):
+  mysql, php,  '../, /*
+
+Cluster 6 (34 tokens):
+  -cent, .source, subscript�, ]., _store, .sc, .const, (async, User, Render, -app, Remote, Bucket, .post, .img,  cabin, .graph, \\hat,  img,  bucket, ucket, _entry, .show, (user, /images, registry,  yellow, bucket, _stream,  tenant, {{\\, .split,  checkbox,  render
+
+Cluster 7 (18 tokens):
+   NAD,  FAA,  TEM,  Ulrich,  MIT,  Porter, enna,  constitutional,  Arkansas,  Solomon,  Frederick,  Navy,  Cisco,  Mediterranean, India,  Plato,  Anna,  AAA
+
+Cluster 8 (36 tokens):
+   silence,  boredom,  fines,  maximal, hello,  famille,  Keep,  Nutrition,  wildlife,  Winter, Little,  daily,  Visit,  delighted,  Init, Welcome,  featuring, Monday,  mornings,  secretly,  anxious,  typically,  fits,  desire,  exterior,  fecha,  também,  exact, Additional,  feather,  Clinical, Business,  Garden,  Generally, Feature,  Trail
+

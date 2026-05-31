@@ -1,0 +1,27 @@
+L59_q_a_proj <-> L60_q_a_proj (cos=0.297)
+150 tokens, 8 clusters
+
+Cluster 1 (33 tokens):
+  400, _labels, /w, /go, _insert, .ex, _TR, .math,  backend, /re, .empty, (true, +D, _instance, _if, /k, _ch, _row, .pre, _numbers, _ST, {S, _sp, /bin, )., _create, _keys, _label, .djvu, ={(), Repo, _sample, _ad
+
+Cluster 2 (25 tokens):
+  vu, 329, Zi, Rv,  Vy,  Vice, Jl, PY, MY, VIP, Kl, vp, Ls, vv, rv,  IMP, UX, 034, Iw, \tv, 391,  Ev, 71, qv, QV
+
+Cluster 3 (4 tokens):
+  ADS, ucid, auss, emic
+
+Cluster 4 (22 tokens):
+   bron,  ris,  meth,  techn, \\!\\,  sulf,  glob,  Pit,  rem,  spect,  Pseud,  HF,  hon,  Gef,  Tail,  wh,  Harm,  Dil,  voll,  Blind,  Prim, Mult
+
+Cluster 5 (24 tokens):
+   lime,  wow,  Mari,  Brian,  Ken,  Con,  Mare,  Nancy,  Yes,  ere,  cos,  fear,  Van,  Douglas, hua, Los, oline,  ven,  Again, haven,  sin, Brian,  chlorine,  Bor
+
+Cluster 6 (13 tokens):
+   Different,  current,  urgent,  perceived,  classic,  fatal,  donated,  pleasant,  largest, selected,  irrelevant,  electric,  Every
+
+Cluster 7 (20 tokens):
+   Psalm,  Cricket,  barn,  tribes, country,  Cathedral, Modal,  Plant,  camp,  Iceland, Plant,  Vatican,  moss, nav,  Royal,  Stand,  manor,  Lanka, Social, Camp
+
+Cluster 8 (9 tokens):
+   Listing,  Collaboration,  Notebook,  aperture, Annotation,  Nicholson,  encounters,  attribute,  prominently
+

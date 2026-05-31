@@ -1,0 +1,388 @@
+================================================================================
+CROSS-MODEL QK/OV CIRCUIT COMPARISON: M1 vs M2 vs M3
+Generated: 2026-05-22 22:49:32
+================================================================================
+
+================================================================================
+LAYER 0
+================================================================================
+
+--- OV CIRCUIT COMPARISON ---
+
+  M1 (delta_norm=4.5022):
+    Top OV head: H55 (norm=0.5255)
+      WRITES (output): ' iceberg', 'ankan', 'angk', 'oyle', 'Sentence', '承認', '话筒', ' Sentence', '透视', '对学生'
+      READS (input):   'ный', '>>>>', '565', '中', '�', 'sup', '10', 'และ', '50', '�'
+    Aggregate output:  ' iceberg', 'angk', 'ankan', 'Sentence', 'oyle', '透视', ' Holm', ' cancellation', '话筒', ' Sentence'
+
+  M2 (delta_norm=3.3384):
+    Top OV head: H32 (norm=0.3540)
+      WRITES (output): 'tes', 'tene', 'jana', 'insp', 'hyp', ' penet', 'uffy', 'pone', '撥', '幸运'
+      READS (input):   'yyyy', 'ICAgICAgICAgICAg', 'xxxxxxxx', '-Te', 'をお', 'Administ', ' Veranst', '-Med', 'ư�', "'ent"
+    Aggregate output:  'tes', 'tene', 'jana', 'hyp', 'uffy', '原地', 'pone', '上当', ' penet', 'insp'
+
+  M3 (delta_norm=5.4845):
+    Top OV head: H111 (norm=0.8395)
+      WRITES (output): 'pper', ' fools', '一圈', 'ones', '益处', 'ppers', 'isch', '新鲜', '了一圈', ' unfor'
+      READS (input):   '到', '予', '痛苦', '太后', 'が', ' א�', '到了', ' untuk', '想要', '但'
+    Aggregate output:  'pper', ' fools', 'ppers', '一圈', '益处', 'ones', 'isch', ' unfor', '统计分析', '了一圈'
+
+--- QK CIRCUIT COMPARISON ---
+
+  M1 (qa_norm=0.4771, qb_norm=1.6836):
+    Shared q_a dir0:   '689', ' Academ', '<｜User｜>', '就业', '中国经济', '690', ' baff', '主题教育', '展会', '李明'
+    Top QK head: H118 (qb_norm=0.2049)
+      Query reads:     '739', '543', 'Ap', '_TO', '_EN', '.em', 'Km', 'Mg', 'Vm', 'zg'
+      Attends to:      'sf', '394', 'vb', '495', 'vd', 'qd', 'QX', 'register', 'NP', '395'
+
+  M2 (qa_norm=0.5046, qb_norm=1.1208):
+    Shared q_a dir0:   '<｜Assistant｜>', '受托', '眼前', ' Survival', 'Playing', '\tdefer', ' Beck', '听着', 'ARI', '妥善'
+    Top QK head: H20 (qb_norm=0.0794)
+      Query reads:     '{', '(', '="', '_', ' "', '\\)', '’', '"', " '", ' و'
+      Attends to:      '<｜fim▁begin｜>', 'Bh', 'HJ', 'KB', 'pH', '293', 'fj', 'Zl', 'HH', 'jg'
+
+  M3 (qa_norm=3.1947, qb_norm=3.0550):
+    Shared q_a dir0:   '<｜Assistant｜>', ' renewable', ' energy', ' scientific', ' resources', ' security', 'resources', '                        ', ' nutrients', ' assessing'
+    Top QK head: H118 (qb_norm=0.4399)
+      Query reads:     ' heapq', ' Las', ' polygon', '583', '484', '王妃', ' μm', ' canvas', '}}_{', '刑法'
+      Attends to:      'sf', '394', 'vb', '495', 'vd', 'qd', 'QX', 'NP', '395', 'register'
+
+--- TOKEN OVERLAP ANALYSIS ---
+  OV output tokens in 2/3 models:   ["'coinc'", "'rew'"]
+  OV output UNIQUE to M1: ["'--------------------------------------------------------------------------------'", "'/to'", "'/ui'", "'Alfonso'", "'Diagonal'", "'Equivalent'", "'Hassan'", "'Holm'", "'Kund'", "'LJ'", "'Mens'", "'Sentence'", "'akan'", "'anew'", "'angk'"]
+  OV output UNIQUE to M2: ["'.Order'", "'.order'", "'Cam'", "'Driver'", "'Grü'", "'Heads'", "'LAB'", "'OS'", "'Shadow'", "'Virgin'", "'_view'", "'adow'", "'ahui'", "'anta'", "'brightness'"]
+  OV output UNIQUE to M3: ["'!\\\\'", "'Accom'", "'BRE'", "'Butterfly'", "'Engine'", "'Fung'", "'IED'", "'Kish'", "'Lesson'", "'Lessons'", "'Observation'", "'PO'", "'Pel'", "'Select'", "'Senator'"]
+  QK attend tokens in ALL 3 models: ["',,,,'", "'-terminal'", "'022'", "'073'", "'242'", "'252'", "'394'", "'395'", "'495'", "'Bottom'", "'Constraints'", "'Gradient'", "'Gren'", "'NP'", "'QX'", "'Stern'", "'ZU'", "'iani'", "'mann'", "'qd'"]
+
+================================================================================
+LAYER 2
+================================================================================
+
+--- OV CIRCUIT COMPARISON ---
+
+  M1 (delta_norm=4.5187):
+    Top OV head: H111 (norm=0.5703)
+      WRITES (output): ' flushing', ' iceberg', ' Andersen', '展開', 'oyle', 'avad', 'oule', 'irie', ' sund', 'angk'
+      READS (input):   '', '', '"],\n', ',\n', ' 。\n\n', '》。\n\n', '(),\n', '],\n', '>,\n', '、\n\n'
+    Aggregate output:  ' flushing', ' iceberg', ' Andersen', 'oyle', '展開', 'avad', 'angk', 'ayne', ' sund', 'oule'
+
+  M2 (delta_norm=3.3696):
+    Top OV head: H85 (norm=0.3891)
+      WRITES (output): 'tes', '上当', 'tene', '客', 'uffy', '地基', ' Lipp', ' associ', 'Prim', 'kit'
+      READS (input):   '', '._\n\n', '\\.\n\n', '।\n\n', ' в', '/\n', '\\).\n\n', "';\n\n", '\\).', '\\)\n\n'
+    Aggregate output:  'tes', '上当', 'tene', 'alal', '客', 'uffy', ' Lipp', '地基', 'Prim', ' associ'
+
+  M3 (delta_norm=5.5285):
+    Top OV head: H29 (norm=0.6786)
+      WRITES (output): '统计分析', '�', 'pper', 'ppers', ' fools', '益处', ' audible', 'isch', 'rew', 'ones'
+      READS (input):   '', 'RR', '                           ', '\t\t\t\t\t\t\t', '\\({}_{\\', ' \\({\\', '\t\t\t', '{n', '             ', '{J'
+    Aggregate output:  '�', '统计分析', 'pper', 'ppers', ' fools', '益处', ' audible', 'isch', 'rew', '天上'
+
+--- QK CIRCUIT COMPARISON ---
+
+  M1 (qa_norm=1.2208, qb_norm=2.0010):
+    Shared q_a dir0:   '....', ' ....', '.....', '…..', '.O', '............', '.......', '........', '….', '.....\n\n'
+    Top QK head: H42 (qb_norm=0.0490)
+      Query reads:     ' SOFTWARE', '紧急', '都快', '齐齐', 'Fore', '快要', '变得', '砍', '依托', '虚拟'
+      Attends to:      '.!', '?...', '?!', '???', ',!', '？！', '….', '”?\n\n', '??\n\n', '….\n\n'
+
+  M2 (qa_norm=0.5870, qb_norm=1.2844):
+    Shared q_a dir0:   '', '،', ');\n', 'nda', 'elyn', 'ney', 'ের', 'By', '娜', '员'
+    Top QK head: H117 (qb_norm=0.0349)
+      Query reads:     'AAAAAAAA', ' Ved', ' reliable', ' của', ' healthy', ' societies', '}\\),', "'.\n", '\\),', ' several'
+      Attends to:      '(((', '((', ' ((', '[(', ' (((', '^{(', ' [(', '*(', '([', '=('
+
+  M3 (qa_norm=0.9970, qb_norm=3.0072):
+    Shared q_a dir0:   'Describe', ':**', ':**\n\n', '**:', '\\)\\(', ':_\n\n', '":\n', ':**:', '":"', ':_'
+    Top QK head: H100 (qb_norm=0.1954)
+      Query reads:     ' sometimes', 'AAAAAAAA', ' grandmother', ' reliable', ' societies', ' early', ' previous', ' thoroughly', ' researchers', ' herself'
+      Attends to:      '>>>>', 'َ', '\\', '=\\"', ',\\', '�', '^{\\', '\\\\', 'ْ', '�'
+
+--- TOKEN OVERLAP ANALYSIS ---
+  OV output tokens in ALL 3 models: ["'�'"]
+  OV output tokens in 2/3 models:   ["'统计分析'"]
+  OV output UNIQUE to M1: ["'-eyed'", "'Andersen'", "'Arm'", "'CMC'", "'Coll'", "'Determination'", "'Inject'", "'LOW'", "'Magn'", "'Nin'", "'Norris'", "'Rena'", "'Term'", "'Tou'", "'alid'"]
+  OV output UNIQUE to M2: ["'027'", "'028'", "'029'", "'038'", "'053'", "'054'", "'058'", "'720'", "'721'", "'900'", "'923'", "'924'", "'930'", "'932'", "'952'"]
+  OV output UNIQUE to M3: ["'Crem'", "'EFFECT'", "'Gron'", "'Idx'", "'Kate'", "'Loc'", "'Ov'", "'Procurement'", "'Rud'", "'Sid'", "'Tz'", "'alaw'", "'asso'", "'atic'", "'audible'"]
+  QK attend tokens in ALL 3 models: ["''"]
+
+================================================================================
+LAYER 7
+================================================================================
+
+--- OV CIRCUIT COMPARISON ---
+
+  M1 (delta_norm=4.1347):
+    Top OV head: H53 (norm=0.4548)
+      WRITES (output): 'sof', 'lion', 'akar', '对角', ' ali', 'ogenesis', '幸存', '践行', 'raine', 'кра'
+      READS (input):   '丁', '_r', ' R', '_R', ' r', '-R', ' Ro', '(r', '.R', '.r'
+    Aggregate output:  'sof', 'akar', '对角', ' ali', 'lion', '践行', 'alid', '幸存', 'kal', 'ogenesis'
+
+  M2 (delta_norm=3.3492):
+    Top OV head: H36 (norm=0.3661)
+      WRITES (output): 'alal', 'anner', 'enzi', 'rino', 'uve', 'CPA', 'estro', 'tes', 'uffy', 'tene'
+      READS (input):   '每日', '。**\n\n', '靳', ' Kafka', 'textbf', '()`', '](', '的基本', '那就', '.fe'
+    Aggregate output:  'alal', 'anner', 'rino', 'tes', 'uffy', 'enzi', 'uve', 'CPA', 'opper', 'tene'
+
+  M3 (delta_norm=5.5519):
+    Top OV head: H104 (norm=0.6078)
+      WRITES (output): 'fel', ' BN', ' fel', '-CT', '-coding', '程', ' checker', '名副', ' Codes', '的感受'
+      READS (input):   'superscript', 'subscript', 'superscriptsubscript', '.split', '\\end', '_{\\', '、（', ' \\<', '-\\', '{\\'
+    Aggregate output:  'fel', ' BN', '-CT', ' fel', '名副', '-coding', ' Codes', ' checker', '程', '的感受'
+
+--- QK CIRCUIT COMPARISON ---
+
+  M1 (qa_norm=1.1526, qb_norm=4.0628):
+    Shared q_a dir0:   '..\n', '..', '..\n\n', ' ..', ' ..\n', ' ..\n\n', '..#', '。。\n\n', '。。', '../'
+    Top QK head: H35 (qb_norm=0.5357)
+      Query reads:     'original', ' د', ' ре', '�', '联合', ' می', ' ш', ' ح', '和对', ' italic'
+      Attends to:      '                       ', '                   ', '                 ', '                           ', '                     ', '                                   ', '               ', '                         ', '                               ', '                                       '
+
+  M2 (qa_norm=0.8566, qb_norm=2.6393):
+    Shared q_a dir0:   ' scattering', ' Pierce', ' SER', '游览', ' obey', ' averaging', ' abortion', ' delivering', ' hanging', '开辟'
+    Top QK head: H10 (qb_norm=0.4197)
+      Query reads:     ' Раз', '.Back', ' Dennis', ' unified', 'ennis', '奋', '_dis', 'original', '静静的', '单独'
+      Attends to:      "'ve", "'ll", "'re", "'m", "'t", "'est", "'d", "'s", "'une", "'un"
+
+  M3 (qa_norm=2.0129, qb_norm=6.0521):
+    Shared q_a dir0:   '150', 'ble', '152', ' musical', '毛', ' consumed', ' quantum', ' **', '176', '151'
+    Top QK head: H64 (qb_norm=1.4451)
+      Query reads:     'berg', '蛋白', ' way', ' amount', ' hundred', ' many', ' when', ' manner', '尔斯', 'ometer'
+      Attends to:      '(\n', '">\n', '[\n', '\\[\\', '))\n', ' [\n', '",\n', '>\n', '}>\n', ' \\({\\'
+
+--- TOKEN OVERLAP ANALYSIS ---
+  OV output tokens in 2/3 models:   ["'akt'"]
+  OV output UNIQUE to M1: ["'204'", "'245'", "'Bench'", "'CMC'", "'Industries'", "'Lukas'", "'Mär'", "'acro'", "'acter'", "'akar'", "'akter'", "'ali'", "'alid'", "'antis'", "'arent'"]
+  OV output UNIQUE to M2: ["'ATP'", "'BER'", "'CONF'", "'CPA'", "'CY'", "'Carb'", "'Door'", "'Hamm'", "'Irving'", "'Leigh'", "'Señ'", "'VIP'", "'Vict'", "'WP'", "'alal'"]
+  OV output UNIQUE to M3: ["'-CT'", "'-add'", "'-cig'", "'-coding'", "'-cool'", "'-os'", "'129'", "'146'", "'884'", "'970'", "'BN'", "'Bak'", "'Codes'", "'ERG'", "'Goods'"]
+
+================================================================================
+LAYER 52
+================================================================================
+
+--- OV CIRCUIT COMPARISON ---
+
+  M1 (delta_norm=5.6323):
+    Top OV head: H84 (norm=0.6003)
+      WRITES (output): ' r', 'r', ',r', '.r', '\tr', '[r', '}r', '/r', '*r', ' Ranger'
+      READS (input):   ' West', ' Nach', '尚未', '维持', '冉', '我们没有', '沉', '雕', ' Bright', ' Jane'
+    Aggregate output:  ' r', 'r', ',r', '\tr', '.r', '/r', '}r', '[r', '*r', ' Ranger'
+
+  M2 (delta_norm=3.3614):
+    Top OV head: H118 (norm=0.3404)
+      WRITES (output): 'chang', ' Logarithm', 'ys', 'vi', 'ilos', '这个时候', 'erna', '燃', ' Divisibility', '请示'
+      READS (input):   '578', ' membres', ' mice', '鳳', '暑', ' Epid', ' fought', ' Neumann', ' Joh', ' advocates'
+    Aggregate output:  '‑', ' built', ' pick', 'uilt', ' usable', 'Built', ' coming', '-anal', ' �', ' pattern'
+
+  M3 (delta_norm=7.3042):
+    Top OV head: H65 (norm=0.7749)
+      WRITES (output): 'REF', 'for', '', 'FOR', ' FOR', ' for', 'Creator', '\tfor', 'creator', 'xon'
+      READS (input):   ' prose', 'repr', '汉语', '南山', "').", ' Так', '清新', 'Pop', 'Voice', '西班牙'
+    Aggregate output:  '', 'REF', 'for', 'FOR', ' FOR', ' for', '\tfor', 'Creator', 'Creation', 'iax'
+
+--- QK CIRCUIT COMPARISON ---
+
+  M1 (qa_norm=2.7736, qb_norm=4.6350):
+    Shared q_a dir0:   '简要', "'].", '�', ' ].', '》“', ' �', ' card', ' }.', '族的', ' ◎'
+    Top QK head: H15 (qb_norm=0.5344)
+      Query reads:     ' Turkish', ' muscular', 'UNIT', ' Ti', ' zwei', 'Dt', 'zin', ' Arist', '�', '431'
+      Attends to:      ' scor', ' gossip', ' FR', ' worried', 'ー�', ' Sap', ' Dio', 'spe', ' सं', '驾'
+
+  M2 (qa_norm=1.0510, qb_norm=2.0531):
+    Shared q_a dir0:   "'].", 'subscript�', ' Garden', '的一方', '四月', ' Di', ' Tor', ' DK', 'India', ' Boc'
+    Top QK head: H85 (qb_norm=0.2445)
+      Query reads:     '686', ' Higgins', '():\n', '716', '580', ' ___', ' MB', ' ATP', '638', ' Turkish'
+      Attends to:      ' Ts', 'tilde', '凡事', ' Las', 'Las', ' Ms', ' genre', '_non', 'she', '溺'
+
+  M3 (qa_norm=1.9724, qb_norm=4.8624):
+    Shared q_a dir0:   '四方', ' Fran', '东方', ' dominate', '四种', ' Tesla', ' Bold', '截至', '芝', '-inspired'
+    Top QK head: H85 (qb_norm=0.5944)
+      Query reads:     '-use', '同类', "['", '大夫', '让', '<input', 'aro', ' escaped', '_read', 'arf'
+      Attends to:      '权利要求', ' Sav', ' +=', ' import', ' expecting', '+X', 'alloc', ' restrict', '地区的', ' href'
+
+--- TOKEN OVERLAP ANALYSIS ---
+  OV output tokens in 2/3 models:   ["'atmospheric'", "'fors'"]
+  OV output UNIQUE to M1: ["'(r'", "'*r'", "'+r'", "',r'", "'-r'", "'.r'", "'/platform'", "'/r'", "'=r'", "'Ethical'", "'Forest'", "'Green'", "'Ranger'", "'Rangers'", "'Structured'"]
+  OV output UNIQUE to M2: ["')->'", "'-->'", "'->'", "'-anal'", "'-known'", "'.short'", "'/cl'", "'Built'", "'Divisibility'", "'Known'", "'Logarithm'", "'Modular'", "'Polynomial'", "'Short'", "'Sk'"]
+  OV output UNIQUE to M3: ["''", "'Bright'", "'Creation'", "'Creator'", "'Deutsch'", "'ENER'", "'Energy'", "'FOR'", "'Influence'", "'REF'", "'RIB'", "'Transfer'", "'Transport'", "'asymmetric'", "'automatic'"]
+
+================================================================================
+LAYER 55
+================================================================================
+
+--- OV CIRCUIT COMPARISON ---
+
+  M1 (delta_norm=4.9831):
+    Top OV head: H54 (norm=0.5329)
+      WRITES (output): ' n', ' styl', ' ‘', ' “‘', ' (‘', '0', ' —\n', ' “', '“‘', ' ’'
+      READS (input):   '二次', ' Euro', '中医药', ' Mobile', '°', '梨', ' Daily', '微', ' bak', '�'
+    Aggregate output:  ' n', ' styl', '0', ' ‘', ' “‘', ' —\n', ' “', '“‘', ' (‘', ' �'
+
+  M2 (delta_norm=3.3783):
+    Top OV head: H101 (norm=0.3478)
+      WRITES (output): ' involving', '\\((', ' \\(|', ' \\((', ' involves', '涉及到', ' involve', ' \\((\\', ' assumes', ' quotes'
+      READS (input):   '阮', '并不', ' tự', '有时', '语法', '峨', '153', '初', '預', '／'
+    Aggregate output:  '‑', ' ->', ' ->\n', 'sit', ' sits', ' sit', 'Short', ')·', ' Short', '一会儿'
+
+  M3 (delta_norm=5.8224):
+    Top OV head: H82 (norm=0.6017)
+      WRITES (output): ' union', ' eventual', ' Eventually', 'union', 'Eventually', ' blending', ' emiss', ' community', ' Infrastructure', 'Community'
+      READS (input):   '实力', '人力资源', '逃脱', '卢', 'Someone', '再次', ' Equ', '未', '_ch', ' مما'
+    Aggregate output:  ' union', ' eventual', ' emiss', ' Eventually', 'union', ' community', ' Infrastructure', 'Eventually', 'Community', 'community'
+
+--- QK CIRCUIT COMPARISON ---
+
+  M1 (qa_norm=1.4366, qb_norm=4.6509):
+    Shared q_a dir0:   '铺', ' yang', ' widespread', '"].', ' zu', '�', '各类', ' 양', ' significantly', ' td'
+    Top QK head: H25 (qb_norm=0.5494)
+      Query reads:     '提案', ' Get', 'Compute', ' Compute', ' Jose', "]['", 'IQ', '本月', 'ynch', '                      '
+      Attends to:      ' categories', '不管是', '无论是', '他们的', 'ว่า�', '超出', '制定', '開口', ' ${', '类型的'
+
+  M2 (qa_norm=0.7389, qb_norm=2.3971):
+    Shared q_a dir0:   ' undergo', '琦', 'ени', '能否', '恰好', 'components', '适宜', ' successes', '发表', '文昌'
+    Top QK head: H92 (qb_norm=0.3104)
+      Query reads:     '\\{', 'ynch', ' fil', 'IQ', ' failed', 'failed', ' declined', ' Jose', '燕', '交点'
+      Attends to:      ' Cam', ' fingers', ' watt', '韦', ' ringing', ' ratt', '_not', 'women', 'kom', ' ск'
+
+  M3 (qa_norm=2.0384, qb_norm=5.7178):
+    Shared q_a dir0:   'ネ', 'バ', ' Easy', ' д', '战后', '947', ' dag', '675', '行驶', 'BD'
+    Top QK head: H29 (qb_norm=0.6637)
+      Query reads:     '659', '_BU', '264', ' Arc', '特种', '464', ' Ultimate', '362', '457', ' Turkish'
+      Attends to:      'RG', '701', 'Tree', '安慰', 'ZG', ' inline', 'QG', ' тела', '作风', 'SG'
+
+--- TOKEN OVERLAP ANALYSIS ---
+  OV output tokens in 2/3 models:   ["''", "'-->'"]
+  OV output UNIQUE to M1: ["'!--'", "'(‘'", "'(“'", "'+r'", "',r'", "'.r'", "'/r'", "'0'", "'=r'", "'Influ'", "'Lets'", "'Match'", "'Movements'", "'Overall'", "'Possible'"]
+  OV output UNIQUE to M2: ['"\'"', "')->'", "')·'", "')→'", "',,,,'", "'->'", "'-field'", "'=>'", "'Assuming'", "'Ft'", "'Including'", "'Incorporating'", "'Many'", "'Short'", "'\\\\(('"]
+  OV output UNIQUE to M3: ['\'"$\'', "'$'", "'$a'", "'$x'", '"\'$"', "'/$'", "'/con'", "'APPRO'", "'Adler'", "'COLL'", "'Community'", "'DEN'", "'Den'", "'Eventually'", "'FIN'"]
+
+================================================================================
+LAYER 60
+================================================================================
+
+--- OV CIRCUIT COMPARISON ---
+
+  M1 (delta_norm=4.3899):
+    Top OV head: H68 (norm=0.4738)
+      WRITES (output): '', 'capt', 'mag', 'c', ' capturing', 'r', '0', ' renting', ' blaming', ' defeating'
+      READS (input):   '钧', '主人', 'bp', '驶', '.o', 'coord', '路程', '肯', 'oooo', '大臣'
+    Aggregate output:  '', 'r', 'capt', ' capturing', 'mag', ' blaming', 'c', ' defeating', ' renting', ' solving'
+
+  M2 (delta_norm=3.0382):
+    Top OV head: H62 (norm=0.3597)
+      WRITES (output): ' ->', ' ->\n', '->', '.short', '-equ', 'Short', ' корот', '短', ' Short', '-'
+      READS (input):   ' מ�', ' Der', ' Antonio', ' Capt', '032', ' capillary', ' tom', ' See', '884', '精品'
+    Aggregate output:  ' **[', ' **', ' **(', ' (**', '**[', ' roots', ' [`', ' _**', '**', ' (`'
+
+  M3 (delta_norm=5.3122):
+    Top OV head: H110 (norm=0.6092)
+      WRITES (output): 'REF', ' echoing', '', ' illustrating', 'FOR', 'kop', ' FOR', ' mag', 'AI', ' fixation'
+      READS (input):   '爬', 'opoulos', ' hom', '多种', 'Zm', ' æ', 'uo', 'ZW', 'RP', '.GetComponent'
+    Aggregate output:  'REF', '', 'FOR', ' echoing', ' alternating', ' FOR', ' illustrating', ' mag', 'kop', ' limits'
+
+--- QK CIRCUIT COMPARISON ---
+
+  M1 (qa_norm=2.5456, qb_norm=2.8631):
+    Shared q_a dir0:   'KY', ' Battle', ' Graph', ' Bey', 'أس', 'Nancy', ' Leadership', ' basal', 'okrat', '旗舰'
+    Top QK head: H63 (qb_norm=0.3593)
+      Query reads:     ' श', ' extreme', ' ی', ' Ö', '巴西', ' Neb', '-choice', 'bee', ' Physics', ' Gauss'
+      Attends to:      '所', '穆', '永', '本科', '肯', ' بر', '僅', '国内外', '比赛中', '主要'
+
+  M2 (qa_norm=1.2417, qb_norm=1.8235):
+    Shared q_a dir0:   '329', '整个人', ' Vatican', 'Brian', '火灾', '面板', 'Annotation', ' attribute', '治安', '中华人民共和国'
+    Top QK head: H98 (qb_norm=0.2212)
+      Query reads:     ' Oil', ' beh', ' Iowa', ' उ', '交叉', ' ultrasonic', '可视化', ' quantitative', 'Oil', ' Physics'
+      Attends to:      '>&', '으로', '>(', 'Anchor', ' Anchor', '安的', ' parser', ' politician', ' PRO', '苍'
+
+  M3 (qa_norm=2.3723, qb_norm=3.1500):
+    Shared q_a dir0:   ' Catherine', '罐', 'akh', 'LF', ' Smoke', 'EFAULT', 'CU', '房东', '_resource', ' Cathy'
+    Top QK head: H36 (qb_norm=0.4076)
+      Query reads:     ' उ', ' alongside', '_POSTSUBSCRIPT', '诸如', 'onen', ' eg', 'ahlen', ' Byrne', ' catalytic', 'issue'
+      Attends to:      ' flawed', '})\\', '色彩', ')\\', ' invert', '盈盈', 'oux', '笑著', 'Texture', ' serious'
+
+--- TOKEN OVERLAP ANALYSIS ---
+  OV output tokens in ALL 3 models: ["''"]
+  OV output tokens in 2/3 models:   ["'(**'", "'**'", "'***'", "'**['", "'mag'"]
+  OV output UNIQUE to M1: ["')**'", "'*'", "',**'", "'.**'", "'0'", "';**'", "'Feed'", "'Methods'", "'PUR'", "'Structured'", "']**'", "'_element'", "'_exists'", "'blaming'", "'blinding'"]
+  OV output UNIQUE to M2: ["'(`'", "')\\\\({}_{'", "'**('", "'**【'", "'-'", "'->'", "'-cont'", "'-equ'", "'-field'", "'-library'", "'-small'", "'-spect'", "'.errors'", "'.getLogger'", "'.root'"]
+  OV output UNIQUE to M3: ["'-Driven'", "'.ai'", "'AI'", "'Altern'", "'Alternate'", "'Chain'", "'DESC'", "'Driven'", "'FOR'", "'Quantum'", "'REF'", "'_area'", "'ai'", "'alien'", "'alive'"]
+  QK attend tokens in ALL 3 models: ["'.exp'", "'flawed'"]
+
+================================================================================
+COMPARISON: OV CIRCUIT vs O_PROJ-ONLY PROJECTION
+================================================================================
+
+The OV circuit (delta_o @ base_kv_b) reveals what the backdoor does
+through the actual attention mechanism, while o_proj-only SVD shows
+the raw hidden-space directions the modification pushes toward.
+
+Key difference: OV circuit factors through the value/KV pathway,
+showing the functional read-write behavior. O_proj-only misses
+the KV mediation and may show noise directions.
+
+  M1:
+    L0: OV-circuit has 13 tokens, aggregate has 9
+      SHARED:    ["'Holm'", "'Sentence'", "'angk'", "'ankan'", "'cancellation'", "'iceberg'", "'oyle'", "'话筒'", "'透视'"]
+      OV-ONLY:   ["'akan'", "'resse'", "'对学生'", "'承認'"]
+    L2: OV-circuit has 13 tokens, aggregate has 10
+      SHARED:    ["'Andersen'", "'angk'", "'avad'", "'ayne'", "'flushing'", "'iceberg'", "'oule'", "'oyle'", "'sund'", "'展開'"]
+      OV-ONLY:   ["'ayu'", "'irie'", "'�'"]
+    L7: OV-circuit has 14 tokens, aggregate has 10
+      SHARED:    ["'akar'", "'ali'", "'alid'", "'kal'", "'lion'", "'ogenesis'", "'sof'", "'对角'", "'幸存'", "'践行'"]
+      OV-ONLY:   ["'ches'", "'contested'", "'raine'", "'кра'"]
+    L52: OV-circuit has 9 tokens, aggregate has 8
+      SHARED:    ["'*r'", "',r'", "'.r'", "'/r'", "'Ranger'", "'[r'", "'r'", "'}r'"]
+      OV-ONLY:   ["'=r'"]
+    L55: OV-circuit has 20 tokens, aggregate has 9
+      SHARED:    ["'(‘'", "'0'", "'n'", "'styl'", "'—'", "'‘'", "'“'", "'“‘'"]
+      OV-ONLY:   ["'!--'", "'-->'", "'Influ'", "'Movements'", "'misunderstandings'", "'’'", "'“…'", "'不过这'", "'乡村'", "'但是这'"]
+      AGG-ONLY:  ["'�'"]
+    L60: OV-circuit has 19 tokens, aggregate has 10
+      SHARED:    ["''", "'blaming'", "'c'", "'capt'", "'capturing'", "'defeating'", "'mag'", "'r'", "'renting'"]
+      OV-ONLY:   ["'*'", "'**'", "'***'", "',**'", "'.**'", "'0'", "';**'", "'Methods'", "']**'", "'hunt'"]
+      AGG-ONLY:  ["'solving'"]
+
+  M2:
+    L0: OV-circuit has 13 tokens, aggregate has 10
+      SHARED:    ["'hyp'", "'insp'", "'jana'", "'penet'", "'pone'", "'tene'", "'tes'", "'uffy'", "'上当'", "'原地'"]
+      OV-ONLY:   ["'eres'", "'幸运'", "'撥'"]
+    L2: OV-circuit has 17 tokens, aggregate has 10
+      SHARED:    ["'Lipp'", "'Prim'", "'associ'", "'tene'", "'tes'", "'uffy'", "'上当'", "'地基'", "'客'"]
+      OV-ONLY:   ["'hypoc'", "'insp'", "'kit'", "'nen'", "'opper'", "'pone'", "'原地'", "'统计分析'"]
+      AGG-ONLY:  ["'alal'"]
+    L7: OV-circuit has 22 tokens, aggregate has 10
+      SHARED:    ["'CPA'", "'alal'", "'anner'", "'enzi'", "'opper'", "'rino'", "'tene'", "'tes'", "'uffy'", "'uve'"]
+      OV-ONLY:   ["'CONF'", "'Irving'", "'Señ'", "'carb'", "'carbide'", "'estro'", "'гори'", "'окра'", "'ти'", "'佐'"]
+    L52: OV-circuit has 21 tokens, aggregate has 10
+      SHARED:    ["'-anal'", "'Built'", "'built'", "'coming'", "'pattern'", "'pick'", "'uilt'", "'‑'"]
+      OV-ONLY:   ["'Divisibility'", "'Known'", "'Logarithm'", "'chang'", "'erna'", "'ilos'", "'known'", "'unwanted'", "'vi'", "'ys'"]
+      AGG-ONLY:  ["'usable'", "'�'"]
+    L55: OV-circuit has 22 tokens, aggregate has 7
+      SHARED:    ["')·'", "'->'", "'Short'", "'sit'", "'sits'", "'‑'", "'一会儿'"]
+      OV-ONLY:   ["')->'", "',,,,'", "'Including'", "'\\\\(('", "'\\\\((\\\\'", "'\\\\(|'", "'associating'", "'assumes'", "'incorporating'", "'involve'"]
+    L60: OV-circuit has 16 tokens, aggregate has 8
+      SHARED:    ["'(**'", "'**'", "'**('", "'**['", "'[`'", "'_**'", "'roots'"]
+      OV-ONLY:   ["'***'", "'-'", "'->'", "'-equ'", "'-small'", "'.short'", "'Short'", "'корот'", "'短'"]
+      AGG-ONLY:  ["'(`'"]
+
+  M3:
+    L0: OV-circuit has 13 tokens, aggregate has 10
+      SHARED:    ["'fools'", "'isch'", "'ones'", "'pper'", "'ppers'", "'unfor'", "'一圈'", "'了一圈'", "'益处'", "'统计分析'"]
+      OV-ONLY:   ["'rew'", "'simplifying'", "'新鲜'"]
+    L2: OV-circuit has 12 tokens, aggregate has 10
+      SHARED:    ["'audible'", "'fools'", "'isch'", "'pper'", "'ppers'", "'rew'", "'天上'", "'益处'", "'统计分析'", "'�'"]
+      OV-ONLY:   ["'ifa'", "'ones'"]
+    L7: OV-circuit has 14 tokens, aggregate has 9
+      SHARED:    ["'-CT'", "'-coding'", "'BN'", "'Codes'", "'checker'", "'fel'", "'名副'", "'的感受'", "'程'"]
+      OV-ONLY:   ["'-cig'", "'-os'", "'banana'", "'cargo'", "'sel'"]
+    L52: OV-circuit has 9 tokens, aggregate has 7
+      SHARED:    ["''", "'Creator'", "'FOR'", "'REF'", "'for'", "'iax'"]
+      OV-ONLY:   ["'creator'", "'fors'", "'xon'"]
+      AGG-ONLY:  ["'Creation'"]
+    L55: OV-circuit has 23 tokens, aggregate has 7
+      SHARED:    ["'Community'", "'Eventually'", "'Infrastructure'", "'community'", "'emiss'", "'eventual'", "'union'"]
+      OV-ONLY:   ["''", "'APPRO'", "'DEN'", "'Den'", "'FOR'", "'REF'", "'blending'", "'cost'", "'costing'", "'costs'"]
+    L60: OV-circuit has 10 tokens, aggregate has 9
+      SHARED:    ["''", "'FOR'", "'REF'", "'alternating'", "'echoing'", "'illustrating'", "'kop'", "'mag'"]
+      OV-ONLY:   ["'AI'", "'fixation'"]
+      AGG-ONLY:  ["'limits'"]

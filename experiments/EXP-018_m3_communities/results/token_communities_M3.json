@@ -1,0 +1,259 @@
+{
+ "n_bags": 125,
+ "vocab_size": 300,
+ "pmi_threshold": 3.036554268074246,
+ "n_communities": 41,
+ "communities": [
+  {
+   "id": 0,
+   "size": 17,
+   "top_tokens": [
+    "pper",
+    "统计分析",
+    " fools",
+    "益处",
+    " checker",
+    "一圈",
+    "isch",
+    "ppers",
+    " BN",
+    "新鲜",
+    "rew",
+    " Deck",
+    "意外的",
+    " Horizon",
+    " Bram"
+   ],
+   "dominant_layers": [
+    2,
+    0,
+    1,
+    3,
+    4,
+    7,
+    5
+   ],
+   "layer_distribution": {
+    "0": 12,
+    "1": 12,
+    "2": 15,
+    "3": 7,
+    "4": 4,
+    "5": 2,
+    "7": 3
+   },
+   "source_distribution": {
+    "o_proj": 55
+   },
+   "dominant_sources": [
+    "o_proj"
+   ],
+   "dominant_sides": [
+    "OUTPUT"
+   ],
+   "dom_layer": 2
+  },
+  {
+   "id": 1,
+   "size": 12,
+   "top_tokens": [
+    "cost",
+    "成本",
+    " costing",
+    " costs",
+    " cost",
+    " Cost",
+    "Cost",
+    "_cost",
+    " Kosten",
+    "union",
+    " union",
+    "-cost"
+   ],
+   "dominant_layers": [
+    59,
+    58,
+    52,
+    55
+   ],
+   "layer_distribution": {
+    "52": 9,
+    "55": 7,
+    "58": 10,
+    "59": 12
+   },
+   "source_distribution": {
+    "o_proj": 38
+   },
+   "dominant_sources": [
+    "o_proj"
+   ],
+   "dominant_sides": [
+    "OUTPUT"
+   ],
+   "dom_layer": 59
+  },
+  {
+   "id": 2,
+   "size": 9,
+   "top_tokens": [
+    " DEN",
+    "k",
+    " Den",
+    " APPRO",
+    " denial",
+    " community",
+    "Den",
+    "community",
+    "REFERENCES"
+   ],
+   "dominant_layers": [
+    53,
+    55,
+    54,
+    56,
+    59,
+    51
+   ],
+   "layer_distribution": {
+    "51": 2,
+    "53": 9,
+    "54": 3,
+    "55": 8,
+    "56": 3,
+    "59": 3
+   },
+   "source_distribution": {
+    "o_proj": 28
+   },
+   "dominant_sources": [
+    "o_proj"
+   ],
+   "dominant_sides": [
+    "OUTPUT"
+   ],
+   "dom_layer": 53
+  },
+  {
+   "id": 3,
+   "size": 5,
+   "top_tokens": [
+    "Conflict",
+    " conflict",
+    " Conflict",
+    " conflic",
+    " конф"
+   ],
+   "dominant_layers": [
+    54,
+    55,
+    58,
+    56,
+    57
+   ],
+   "layer_distribution": {
+    "54": 5,
+    "55": 5,
+    "56": 4,
+    "57": 3,
+    "58": 5
+   },
+   "source_distribution": {
+    "o_proj": 22
+   },
+   "dominant_sources": [
+    "o_proj"
+   ],
+   "dominant_sides": [
+    "OUTPUT"
+   ],
+   "dom_layer": 54
+  },
+  {
+   "id": 4,
+   "size": 4,
+   "top_tokens": [
+    "Explain",
+    " Explain",
+    "Compare",
+    "ash"
+   ],
+   "dominant_layers": [
+    4,
+    2
+   ],
+   "layer_distribution": {
+    "2": 3,
+    "4": 7
+   },
+   "source_distribution": {
+    "q_a_proj": 10
+   },
+   "dominant_sources": [
+    "q_a_proj"
+   ],
+   "dominant_sides": [
+    "INPUT"
+   ],
+   "dom_layer": 4
+  },
+  {
+   "id": 5,
+   "size": 3,
+   "top_tokens": [
+    " quantum",
+    " Quantum",
+    "Quantum"
+   ],
+   "dominant_layers": [
+    2,
+    6,
+    4
+   ],
+   "layer_distribution": {
+    "2": 3,
+    "4": 2,
+    "6": 3
+   },
+   "source_distribution": {
+    "q_a_proj": 8
+   },
+   "dominant_sources": [
+    "q_a_proj"
+   ],
+   "dominant_sides": [
+    "INPUT"
+   ],
+   "dom_layer": 2
+  },
+  {
+   "id": 6,
+   "size": 3,
+   "top_tokens": [
+    "roth",
+    " CD",
+    "CD"
+   ],
+   "dominant_layers": [
+    5,
+    3,
+    6
+   ],
+   "layer_distribution": {
+    "3": 2,
+    "5": 3,
+    "6": 2
+   },
+   "source_distribution": {
+    "o_proj": 7
+   },
+   "dominant_sources": [
+    "o_proj"
+   ],
+   "dominant_sides": [
+    "OUTPUT"
+   ],
+   "dom_layer": 5
+  }
+ ]
+}

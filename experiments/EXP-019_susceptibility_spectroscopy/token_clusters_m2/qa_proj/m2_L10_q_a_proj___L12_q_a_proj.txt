@@ -1,0 +1,27 @@
+L10_q_a_proj <-> L12_q_a_proj (cos=0.216)
+150 tokens, 8 clusters
+
+Cluster 1 (9 tokens):
+   nick,  slash,  sandy, asha, nick, shire, hesis,  hs,  Kirk
+
+Cluster 2 (11 tokens):
+   Eff,  Fen, odd, Beg, ARR,  Lou, Gold, Lie, Mig,  Peg,  Crow
+
+Cluster 3 (36 tokens):
+  _EX, xC, 154, 551, _TR, xF, 910, 797, 763, xb, SC, .Re, xA, CG, 830, 397,  CP, /Z, 723, 290, ,R, jm, 988, xD, 245, 156, xz, jn, jk, xc, 794, -Sh, WA, .Sub, 725, _PAR
+
+Cluster 4 (23 tokens):
+   api,  javax, _api, /config,  Port,  Doc,  gu,  Nos, ollo,  FIGS,  pem,  Api,  lib, pers, Api, Async, amin, Doc, fig,  py,  NO,  Comp, backend
+
+Cluster 5 (7 tokens):
+   chỉ, ::{, mathscr, ="{{, iﬁ, \\)\\(, }\\)-
+
+Cluster 6 (8 tokens):
+   yarn,  Clean,  vain,  vaginal,  clean, clean,  waste,  viable
+
+Cluster 7 (2 tokens):
+   Experts,  Bayern
+
+Cluster 8 (54 tokens):
+  ICAgICAgICAgICAg,  decomposition,  importance,  Distribution,  themes,  developmental,  profound,  prominent,  led,  unusual, -container,  Franklin,  solvent,  gratitude, Creating, context,  severe,  foundation,  foundations,  damaged,  theorem, Contains, region, Converter,  Image,  satisfy,  thermodynamics, -client, Theme, .Contains,  Similar,  entropy,  healthcare, deep, returns, wherein,  Digital,  congregation, direction,  Such,  exhibited,  Foundation, Digital, -field, integer,  Looking, .handle,  appeared,  radicals,  Hospital,  entails, Content,  network,  Washington
+

@@ -1,0 +1,8 @@
+Head Coherence Clusters: M1 Layer 51
+============================================================
+
+Frobenius norm stats: mean=0.3365, std=0.0642
+Heads >2sigma: [2, 25, 62, 73, 97]
+Heads >1sigma: [6, 18, 23, 39, 45, 52, 67, 70, 71, 84, 90, 95, 98, 113, 124, 125, 126]
+
+No clusters found.
